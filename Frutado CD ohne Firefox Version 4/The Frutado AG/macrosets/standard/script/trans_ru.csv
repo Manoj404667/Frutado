@@ -1,0 +1,221 @@
+﻿click.demo	Теперь нажмите на [B_NAME].
+click.prac	"Нажмите, пожалуйста, на [B_NAME]."
+click_img.demo	Теперь нажмите на [B_NAME_ICON].
+click_img.prac	"Нажмите, пожалуйста, на [B_NAME_ICON]."
+click_cancel_trans_img.demo	При нажатии на [B_ICON_NAME] трансакция прерываеется.
+click_cancel_trans_img.prac	"Чтобы прервать трансакцию, нажмите на  [B_ICON_NAME]."
+click_back_img.demo	При нажатии на [B_ICON_NAME] Вы возвращаетесь к предыдущей странице.
+click_back_img.prac	"Чтобы вернуться к предыдущей странице, нажмите на [B_ICON_NAME]."
+click_ok_img.demo	Теперь нажмите на [B_ICON_NAME].
+click_ok_img.prac	Нажмите на [B_ICON_NAME].
+click_exit_trans_img.demo	"Нажав на [B_ICON_NAME], Вы покидаете трансакцию."
+click_exit_trans_img.prac	"Чтобы покинуть трансакцию, нажмите на [B_ICON_NAME]."
+click_save_img.demo	При нажатии на [B_ICON_NAME] Вы сохраняете введенные данные.
+click_save_img.prac	"Чтобы сохранить введенные данные, нажмите на [B_ICON_NAME]."
+click_checkbox_off.demo	[B_NAME] выключается.
+click_checkbox_off.prac	Выключите параметр [B_NAME].
+click_next_page_img.demo	При нажатии на [B_NAME_ICON] Вы открываете следующую страницу.
+click_next_page_img.prac	"Нажмите, пожалуйста, на [B_NAME_ICON]."
+click_checkbox_on.demo	[B_NAME] селектируется.
+click_checkbox_on.prac	Селектируйте параметр [B_NAME].
+click_select_value.demo	Параметр [B_NAME] выбирается.
+click_select_value.prac	Выбирете [B_NAME].
+click_open_menu.demo	Меню [B_NAME] открывается.
+click_open_menu.prac	Откройте меню [B_NAME].
+click_menu_select.demo	Запись [B_NAME] выбирается.
+click_menu_select.prac	Выбирете запись [B_NAME].
+click_select_column.demo	Колонка [B_NAME] выбирается.
+click_select_column.prac	"Выбирете [B_NAME], нажав на верхушку колонки."
+click_open_value_help.demo	Помощь в параметрах открывается.
+click_open_value_help.prac	"Откройте, пожалуйста, помощь в параметрах."
+click_select_line.demo	Строка [B_NAME] выбирается.
+click_select_line.prac	"Выбирете строку [B_NAME], нажав на первую колонку."
+click_scroll_top.demo	При нажатии на [ICON] страница прокручивается на начало.
+click_scroll_top.prac	Прокрутите страницу на начало нажатием на [ICON].
+click_scroll_bottom.demo	При нажатии на [ICON] страница прокручивается на конец.
+click_scroll_bottom.prac	Прокрутите страницу на начало нажатием на [ICON].
+click_scroll_pageup.demo	При нажатии на [ICON] страница прокручивается вверх.
+click_scroll_pageup.prac	Прокрутите страницу вверх нажатием на [ICON].
+click_scroll_pagedown.demo	При нажатии на [ICON] страница прокручивается вниз.
+click_scroll_pagedown.prac	Прокрутите страницу вниз нажатием на [ICON].
+click_scroll_lineup.demo	При нажатии на [ICON] строка прокручивается вверх.
+click_scroll_lineup.prac	"Прокрутите строку вверх, нажав на [ICON]."
+click_scroll_linedown.demo	При нажатии на [ICON] строка прокручивается вниз.
+click_scroll_linedown.prac	"Прокрутите строку вниз, нажав на [ICON]."
+click_close_window_img.demo	Окно закрывается при нажатии на [ICON].
+click_close_window_img.prac	"Закройте окно, нажав на [ICON]."
+click_select_all_lines_img.demo	При нажатии на [ICON] маркируются все строки.
+click_select_all_lines_img.prac	Селектируйте все строки нажатием на [ICON].
+click_open_card_menu.demo	При нажатии на [ICON] открывается выбор карт команд.
+click_open_card_menu.prac	"Откройте выбор карт команд, нажав на [ICON] ."
+click_select_card.demo	Карта команд [B_NAME] выбирается.
+click_select_card.prac	Выбирете карту команд [B_NAME].
+click_next_cards_img.demo	При нажатии на [ICON] появляются следующие карты команд.
+click_next_cards_img.prac	Откройте следующие карты команд нажатием на [ICON].
+click_prev_cards_img.demo	При нажатии на [ICON] появляются предыдущие карты команд.
+click_prev_cards_img.prac	"Откройте предыдущие карты команд, нажав на [ICON]."
+click_open_nav_menu.demo	При нажатии на [ICON] открывается навигационное меню.
+click_open_nav_menu.prac	"Откройте навигационное меню, нажав на [ICON]."
+click_close_folder_img.demo	При нажатии на [ICON] файл [B_NAME] закрывается.
+click_close_folder_img.prac	Закройте файл [B_NAME] нажатием на [ICON].
+click_open_folder_img.demo	При нажатии на [ICON] файл [B_NAME] открывается.
+click_open_folder_img.prac	Откройте файл [B_NAME] нажатием на [ICON].
+click_select_element_img.demo	При нажатии на [ICON] выбирается элемент [B_NAME].
+click_select_element_img.prac	"Выбирете элемент [B_NAME], нажав на [ICON]."
+click_scroll_down.demo	Бегунком страница прокручивается вниз.
+click_scroll_down.prac	Прокрутите страницу вниз при помощи бегунка.
+dblclick_select_entry.demo	Двойным нажатием на [B_NAME] выбирается запись.
+dblclick_select_entry.prac	Выбирете запись [B_NAME] двойным нажатием на нее.
+dblclick_select_date.demo	[B_NAME] выбирается.
+dblclick_select_date.prac	Выбирете [B_NAME].
+dblclick_start_transaction.demo	Двойным нажатием на [B_NAME] трансакция начинается.
+dblclick_start_transaction.prac	Начните трансакцию [B_NAME] двойным нажатием на <br>или<br>введите код трансакции [B_TCODE] и подтвердите клавишей Enter.
+click_close_group.demo	Группа [B_NAME] закрывается.
+click_close_group.prac	"Закройте,пожалуйста, группу [B_NAME]."
+click_open_group.demo	Группа [B_NAME] открывается.
+click_open_group.prac	"Откройте, пожалуйста, группу [B_NAME]."
+select.demo	В качестве [B_NAME] выбирается [B_SELECTED].
+select.prac	"Выбирете, пожалуйста, [B_SELECTED] в качестве [B_NAME]."
+input_text.demo	Графа [B_NAME] заполняется.
+input_text.prac	"Введите, пожалуйста, [B_INPUT] в графу [B_NAME]."
+input_text_value.demo	В графу [B_NAME] вводится [B_INPUT].
+input_text_value.prac	"Введите, пожалуйста, [B_INPUT] в графу [B_NAME]."
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Подтвердите ввод клавишей <b>Tab-</b> или <b>Enter</b> или нажмите на <b>соответствующую кнопку</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Подтвердите ввод клавишей <b>Tab-</b> или <b>Enter</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Подтвердите ввод клавишей <b>Enter</b> или нажмите на <b>соответствующую кнопку</b>.
+input_tab.demo
+input_tab.prac	<br>Подтвердите ввод клавишей <b>Tab</b>.
+input_enter.demo
+input_enter.prac	<br>Подтвердите ввод клавишей <b>Enter</b>.
+input_button.demo
+input_button.prac	<br>Подтвердите ввод <b>нажатием на соответствующую кнопку</b>.
+click_select.demo	[B_NAME] выбирается.
+click_select.prac	"Выбирете, пожалуйста, [B_NAME]."
+click_show_value_help_button.demo	Нажатием в текстовом поле [B_NAME] Вы открываете помощь в параметрах.
+click_show_value_help_button.prac	"Откройте помощь в параметрах, нажав в текстовом поле [B_NAME]."
+click_scroll_horizontal.demo	Страница прокручивается направо…
+click_scroll_horizontal.prac	"Прокрутите, пожалуйста, направо."
+click_scroll_vertical.demo	Страница прокручивается вниз…
+click_scroll_vertical.prac	"Прокрутите, пожалуйста, вниз."
+click_img_expand.demo	"Чтобы увеличить навигационное поле, необходимо нажать на [ICON]."
+click_img_expand.prac	"Увеличьте навигационое поле, нажав на [ICON]."
+click_img_collapse.demo	"Чтобы уменьшить навигационное поле, необходимо нажать на [ICON]."
+click_img_collapse.prac	"Уменьшите навигационое поле, нажав на [ICON]."
+click_navrow.demo	В навигационной строке выбирается [B_NAME].
+click_navrow.prac	"Откройте, пожалуйста, [B_NAME] из навигационной строки."
+click_navrow2.demo	Во второй навигационной строке выбирается [B_NAME].
+click_navrow2.prac	"Откройте, пожалуйста, [B_NAME] из второй навигационной строки."
+click_open_context_menu.demo	Контекстовое меню [B_NAME] открывается.
+click_open_context_menu.prac	Откройте контекстовое меню [B_NAME].
+click_radio_select.demo	[B_NAME] выбирается.
+click_radio_select.prac	Выбирете [B_NAME].
+click_select_img.demo	[B_ICON_NAME] выбирается.
+click_select_img.prac	Выбирете [B_ICON_NAME].
+click_open_form_view.demo	Нажатием на [B_ICON_NAME] Вы переключаетесь в режим формуляра.
+click_open_form_view.prac	"Переключитесь в режим формуляра, нажав на [B_ICON_NAME]."
+history_select.demo	[B_NAME] выбирается из истории.
+history_select.prac	Выбирете [B_NAME] из истории.
+click_page_up_img.demo	Нажатием на [B_ICON] страница прокручивается вверх.
+click_page_up_img.prac	"Прокрутите страницу вверх, нажав на [B_ICON]."
+click_page_down_img.demo	Нажатием на [B_ICON] страница прокручивается вниз.
+click_page_down_img.prac	"Прокрутите страницу вниз, нажав на [B_ICON]."
+click_page_top_img.demo	Нажатием на [B_ICON] прокручивается на начало.
+click_page_top_img.prac	"Прокрутите на начало, нажав на [B_ICON]."
+click_page_bottom_img.demo	Нажатием на [B_ICON] прокручивается на конец.
+click_page_bottom_img.prac	"Прокрутите на конец, нажав на [B_ICON]."
+click_sort_by_column.demo	Сортируется по колонке [B_NAME].
+click_sort_by_column.prac	Сортируйте по колонке [B_NAME].
+click_select_date.demo	[B_NAME] выбирается.
+click_select_date.prac	Выбирете [B_NAME].
+click_close_card_img.demo	Нажатием на [ICON] карта команд закрывается.
+click_close_card_img.prac	"Чтобы закрыть карту команд, нажмите на [ICON]."
+click_select_function_img.demo	Нажатием на [ICON] Вы выбираете функцию [B_NAME].
+click_select_function_img.prac	"Нажмите на [ICON], чтобы выбрать функцию [B_NAME]."
+click_hide_treeview.demo	Нажатием на [ICON] обзор в виде дерева становится невидимым.
+click_hide_treeview.prac	"Сделайте невидимым обзор в виде дерева, нажав на [ICON]."
+click_show_treeview.demo	Нажатием на [ICON] обзор в виде дерева становится видимым.
+click_show_treeview.prac	"Сделайте видимым обзор в виде дерева, нажав на [ICON]."
+click_mark_transaction.demo	Нажатием на [B_NAME] трансакция маркируется.
+click_mark_transaction.prac	Замаркируйте трансакцию [B_NAME] нажатием на нее.
+dblclick_select_element.demo	Двойным нажатием выбирается элемент [B_NAME].
+dblclick_select_element.prac	Выбирете элемент [B_NAME] двойным нажатием на него.
+please_note.demo	Примите во внимание следующее: [B_NAME].
+please_note.prac	Примите во внимание следующее: [B_NAME].
+click_open_value_help_img.demo	Нажатием на <b>помощь при вводе</b> [ICON] появляется список с актуальными параметрами.
+click_open_value_help_img.prac	"Чтобы получить список с актуальными параметрами, нажмите на <b>помощь при вводе</b> [ICON]."
+click_open_selection.demo	При нажатии на [ICON] появляется список возможностей.
+click_open_selection.prac	"Чтобы получить список возможностей, нажмите на [ICON]."
+click_mark_entry.demo	Нажатием на запись [B_NAME] Вы ее маркируете.
+click_mark_entry.prac	"Замаркируйте запись [B_NAME], нажав на нее."
+click_mark_entry_img.demo	Нажатием на запись [ICON] Вы ее выбираете.
+click_mark_entry_img.prac	"Чтобы выбрать запись, нажмите на [ICON]."
+click_menu_select_img.demo	Нажатием на пункт меню [ICON] Вы его выполняете.
+click_menu_select_img.prac	"Чтобы выполнить пункт меню [ICON], нажмите на него."
+click_open_menu_img.demo	Нажатием на меню [ICON] Вы его открываете.
+click_open_menu_img.prac	"Чтобы открыть меню [ICON], нажмите на него."
+click_select_card_img.demo	Нажатием на карту регистра [ICON] Вы ее выбираете.
+click_select_card_img.prac	Чтобы выбрать карту регистра [ICON] нажмите на нее.
+dblclick_select_line.demo	Двойным нажатием на кнопку [NAME] Вы маркируете строку.
+dblclick_select_line.prac	"Нажмите два раза на [NAME], чтобы замаркировать строку."
+click_activate_edit.demo	Нажатием в графе ввода [B_NAME] Вы ее активируете.
+click_activate_edit.prac	"Нажмите в графе ввода [B_NAME], чтобы ее активировать."
+dblclick_activate_edit.demo	Двойным нажатием в графе ввода [B_NAME] Вы ее активируете.
+dblclick_activate_edit.prac	"Нажмите два раза в графе ввода [B_NAME], чтобы ее активировать."
+dblclick_open_folder_img.demo	Двойным нажатием на символ [ICON] Вы открываете файл [B_NAME].
+dblclick_open_folder_img.prac	Откройте файл [B_NAME] двойным нажатием на символ [ICON].
+click_open_folder.demo	Нажатием на символ <b>'открыть файл'</b> Вы открываете файл [B_NAME].
+click_open_folder.prac	"Откройте файл [B_NAME], нажав на символ <b>'открыть файл'</b>."
+dblclick_open_folder.demo	Двойным нажатием на символ <b>'открыть файл'</b> Вы открываете файл [B_NAME].
+dblclick_open_folder.prac	Откройте файл [B_NAME] двойным нажатием на символ <b>'открыть файл'</b>.
+click_close_folder.demo	Нажатием на симвоол <b>'закрыть файл'</b> Вы закрываете файл [B_NAME].
+click_close_folder.prac	"Закройте файл [B_NAME], нажав на символ <b>'закрыть файл'</b>."
+drag_scroll_hor.demo	"Чтобы нужное поле стало видимым, нажмите и тяните <b>бегунок</b>."
+drag_scroll_hor.prac	"Чтобы прокрутить страницу,  нажмите и тяните <b>горизонтальный бегунок</b>."
+drag_scroll_vert.demo	"Чтобы нужное поле стало видимым, нажмите и тяните <b>бегунок</b>."
+drag_scroll_vert.prac	"Чтобы прокрутить страницу,  нажмите и тяните <b>вертикальный бегунок</b>."
+click_scroll.demo	При нажатии на <b>прокручиваюмую кнопку</b> [NAME] нужное поле становится видимым.
+click_scroll.prac	"Прокрутите, нажав на <b>прокручиваюмую кнопку</b> [NAME]."
+click_scroll_page_left.demo	Нажатием на <b>прокручиваемое поле</b> нужное поле становится видимым.
+click_scroll_page_left.prac	"Чтобы прокрутить, нажмите на <b>поле слева от бегунка</b>."
+click_scroll_page_right.demo	При нажатии на <b>прокручиваемое поле</b> нужное поле становится видимым.
+click_scroll_page_right.prac	"Чтобы прокрутить, нажмите на <b>поле справа от бегунка</b>."
+click_scroll_page_up.demo	При нажатии на <b>прокручиваемое поле</b> нужное поле становится видимым.
+click_scroll_page_up.prac	"Чтобы прокрутить, нажмите на <b>поле над бегунком</b>."
+click_scroll_page_down.demo	При нажатии на <b>прокручиваемое поле</b> нужное поле становится видимым.
+click_scroll_page_down.prac	"Чтобы прокрутить, нажмите на <b>поле под бегунком</b>."
+rclick_context.demo	При нажатии правой кнопкой мышки на [B_NAME] открывается контекстное меню.
+rclick_context.prac	"Нажмите, пожалуйста, на [B_NAME] правой кнопкой мышки."
+dblclick_img.demo	Двойное нажатие на [ICON].
+dblclick_img.prac	"Пожалуйста, нажмите два раза на [ICON]."
+keypress.demo	"Пожалуйста, введите [B_KEY]."
+keypress.prac	"Пожалуйста, введите [B_KEY]."
+item.close_folder	Закрыть файл
+item.open_folder	Открыть файл
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	вертикальный бегунок
+item.hscroll	горизонтальный бегунок
+item.close_window	Закрыть окно
+item.value_help	Выбор параметров
+item.scroll	Бегунок
+item.back_btn	Назад
+item.save_btn	Сохранить
+item.scroll_area	Прокручиваемое поле
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

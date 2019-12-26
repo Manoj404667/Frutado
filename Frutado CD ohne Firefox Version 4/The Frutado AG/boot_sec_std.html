@@ -1,0 +1,118 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+  <title>datango trainer opener</title>
+
+<script type="text/javascript" language="javascript" src="./boot_sec_std.js"></script>
+<script type="text/javascript" language="javascript">
+
+function splitUrlParams() {
+    var temp = new String(window.location.search);
+
+    if (temp.substr(0, 1) == '?') {
+        temp = temp.substr(1);
+    }
+
+    var urlParams = [];
+
+    if (temp.length && temp.length > 0) {
+        urlParams = temp.split('&');
+    }
+    var urlParamsAsoc = [];
+    for (var i = 0; i < urlParams.length; i++) {
+        var urlParam = urlParams[i].split('=');
+    urlParamsAsoc[urlParam[0]] = urlParam[1];
+    }
+    return urlParamsAsoc;
+}
+
+function boot_style_(x, y, w, h, extrastyle) {
+    var style = 'position:absolute;border:0px;margin:0px;padding:0px;' + extrastyle + ';';
+    (typeof(x) == 'number') && (style += 'left:' +   Math.abs(x) + 'px;');
+    (typeof(y) == 'number') && (style += 'top:' +    Math.abs(y) + 'px;');
+    (typeof(w) == 'number') && (style += 'width:' +  Math.abs(w) + 'px;') ||
+            (typeof(w) == 'string') && (style += 'width:' +  w + ';');
+    (typeof(h) == 'number') && (style += 'height:' + Math.abs(h) + 'px;') ||
+            (typeof(h) == 'string') && (style += 'height:' +  h + ';');;
+    return ' style="' + style + '" ';
+}
+
+function do_onload() {
+        var urlParams = splitUrlParams();
+        var tourframename = urlParams['tourframename'] || 'webride_frame';
+        var fslib = ' frameborder=no border=0 bordercolor=white';
+        var flib2 = '';
+
+        var f = ' noscroll scrolling=no noresize';
+
+        var bd = top.document.documentElement;
+        // on firefox the original code does not work
+        // var w = (bd.offsetWidth || self.innerWidth);
+        // var h = (bd.offsetHeight || self.innerHeight);
+        var w = (typeof(bd.offsetWidth) == 'undefined' ?
+                top.offsetWidth : top.innerWidth || bd.offsetWidth);
+        var h = (typeof(bd.offsetHeight) == 'undefined' ?
+                top.innerHeight : top.innerHeight || bd.offsetHeight);
+
+        var size = ' style="border:0px; padding:0px; margin:0px;" '+
+                   ' border=0 width=0 height=0 ';
+        var html = '';
+        html += '<body width="100%" height="100%" noscroll scrolling=no noresize ' +
+                ' style="width:100%;height:100%;position:absolute;left:0px;top:0px;' +
+                'overflow:hidden;overflow-x:hidden;overflow-y:hidden;border:0px;' +
+                'padding:0px;margin:0px;"';
+        html += ' id="dgo_body" name="dgo_body" onload="XwO()" ';
+        html += ' onscroll="top.document.body.scrollLeft=0; top.document.body.scrollTop=0;">';
+        html += '<iframe' + size + ' id="trainer_library_frame" '+
+                'name="trainer_library_frame"></iframe>';
+        html += '<iframe id="' + tourframename +
+                '" name="' + tourframename + '" ' + flib2 +
+                boot_style_(0, 0, '100%', '100%', '') +
+                ' src="' + unescape(urlParams['URL']) + '"></iframe>\n';
+        html += '<iframe scrolling="no" noscroll id="trainer_gui_frame" ' + 
+                'name="trainer_gui_frame" ' + fslib +
+                boot_style_(0, '100%', '100%', 0,
+                               'display:none;z-index:50000') +
+                ' ></iframe>\n';
+        html += '<iframe' + size + ' id="trainer_program_frame" ' +
+                ' name="trainer_program_frame"> ' +
+                '</iframe>\n';
+        html += '<iframe' + size + ' id="trainer_dynloader_frame" ' +
+                ' name="trainer_dynloader_frame"></iframe>\n';
+        html += '<iframe' + size + ' id="trainer_audio_frame" name="trainer_audio_frame" ' +
+                ' ></iframe>\n';
+        html += '<iframe' + size + ' id="trainer_config_frame" ' + 
+                ' name="trainer_config_frame"></iframe>\n';
+        html += '<iframe' + size + ' id="trainer_config_global_frame" ' + 
+                ' name="trainer_config_global_frame"></iframe>\n';
+        html += '<iframe' + size + ' id="trainer_config_mode_frame" ' +
+                ' name="trainer_config_mode_frame"></iframe>';
+        html += '</body>\n';
+        document.open();
+        document.write(html);
+        document.close();
+}
+
+do_onload();
+
+</script>
+
+</head>
+
+<body>
+</body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

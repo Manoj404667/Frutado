@@ -1,0 +1,115 @@
+/* tree style sheet */
+
+table.x2P {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    color: black;
+    background-color: transparent;
+
+    overflow: scroll;
+}
+
+tr.x2P {
+    background-color: transparent;
+}
+
+tr.treespace {
+    background-color: transparent;
+}
+
+td.treespace {
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    padding: 1px 0px 0px 0px;
+}
+
+img.treespace {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+td.treesub {
+    border: 0px none;
+    margin: 0px;
+    padding: 0px;
+    color: #f0f0f0;
+    background-color: transparent;
+}
+
+td.treeport {
+    width: 10px;
+    height: 10px;
+    overflow: visible;
+    vertical-align: top;
+    border: 0px;
+    margin: 1px;
+    padding: 2px;
+    background-color: transparent;
+
+    /* cursor: pointer/hand; not portable, thus must be set programmatically*/
+}
+
+img.treepoim {
+    border: 0px;
+    margin: 0px 1px 0px 1px;
+    padding: 0px;
+    background-color: transparent;
+
+    /* cursor: pointer/hand; not portable, thus must be set programmatically*/
+    cursor: inherit;
+}
+
+td.treeicon {
+    width: 10px;
+    height: 10px;
+    overflow: visible;
+    border: 1px;
+    margin: 1px 1px 1px 0px;
+    padding: 2px 4px 2px 2px;
+    color: black;
+    background-color: transparent;
+
+    /* cursor: pointer/hand; not portable, thus must be set programmatically*/
+}
+
+img.treeicim {
+    border: 0px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+
+    /* cursor: pointer/hand; not portable, thus must be set programmatically*/
+    cursor: inherit;
+}
+
+td.treetitle {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+
+    border: 0px;
+    margin: 1px 0px 1px 1px;
+    padding: 2px;
+    color: black;
+    background-color: transparent;
+
+    /* cursor: pointer/hand; not portable, thus must be set programmatically*/
+}
+
+td.treedata {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+
+    border: 0px;
+    margin: 1px;
+    padding: 2px 2px 2px 4px;
+    color: green;
+    background-color: transparent;
+}
+
+/* eof */

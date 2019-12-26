@@ -1,0 +1,233 @@
+click.demo	[B_NAME] is clicked.
+click.prac	Please click on [B_NAME].
+click_img.demo	[B_NAME_ICON] is clicked.
+click_img.prac	Please click on [B_NAME_ICON].
+click_cancel_trans_img.demo	Clicking on [B_ICON_NAME] aborts the transaction.
+click_cancel_trans_img.prac	Click on [B_ICON_NAME] to abort the transaction.
+click_back_img.demo	Clicking on [B_ICON_NAME] takes you back to the previous page.
+click_back_img.prac	Click on [B_ICON_NAME] to return to the previous page.
+click_ok_img.demo	Now click on [B_ICON_NAME].
+click_ok_img.prac	Click on [B_ICON_NAME].
+click_exit_trans_img.demo	Clicking on [B_ICON_NAME] quits the transaction.
+click_exit_trans_img.prac	Click on [B_ICON_NAME] to quit the transaction.
+click_save_img.demo	Clicking on [B_ICON_NAME] saves your entries.
+click_save_img.prac	Click on [B_ICON_NAME] to save your entries.
+click_checkbox_off.demo	[B_NAME] is deactivated.
+click_checkbox_off.prac	Deactivate the value [B_NAME].
+click_next_page_img.demo	Clicking on [B_NAME_ICON] opens the next page.
+click_next_page_img.prac	Please click on [B_NAME_ICON].
+click_checkbox_on.demo	[B_NAME] is selected.
+click_checkbox_on.prac	Select the value [B_NAME].
+click_select_value.demo	The value [B_NAME] is selected.
+click_select_value.prac	Select the value [B_NAME].
+click_open_menu.demo	This opens the [B_NAME] menu.
+click_open_menu.prac	Open the [B_NAME] menu.
+click_menu_select.demo	The entry [B_NAME] is selected.
+click_menu_select.prac	Select the entry [B_NAME].
+click_select_column.demo	The column [B_NAME] is selected.
+click_select_column.prac	Select column [B_NAME] by clicking on the column header.
+click_open_value_help.demo	This opens Help for values.
+click_open_value_help.prac	Please open Help for values.
+click_select_line.demo	The line [B_NAME] is selected.
+click_select_line.prac	Select the line [B_NAME] by clicking it in the first column.
+click_scroll_top.demo	Clicking on [ICON] scrolls to the beginning.
+click_scroll_top.prac	Scroll to the beginning by clicking on [ICON].
+click_scroll_bottom.demo	Clicking on [ICON] scrolls to the end.
+click_scroll_bottom.prac	Scroll to the end by clicking on [ICON].
+click_scroll_pageup.demo	Clicking on [ICON] scrolls one page upward.
+click_scroll_pageup.prac	Scroll one page upward by clicking on [ICON].
+click_scroll_pagedown.demo	Clicking on [ICON] scrolls one page downward.
+click_scroll_pagedown.prac	Scroll one page downward by clicking on [ICON].
+click_scroll_lineup.demo	Clicking on [ICON] scrolls one line upward.
+click_scroll_lineup.prac	Scroll one line upward by clicking on [ICON].
+click_scroll_linedown.demo	Clicking on [ICON] scrolls one line downward.
+click_scroll_linedown.prac	Scroll one line downward by clicking on [ICON].
+click_close_window_img.demo	Clicking on [ICON] closes the window.
+click_close_window_img.prac	Close the window by clicking on [ICON].
+click_select_all_lines_img.demo	Clicking on [ICON] selects all lines.
+click_select_all_lines_img.prac	Select all lines by clicking on [ICON].
+click_open_card_menu.demo	Clicking on [ICON] opens tab selection.
+click_open_card_menu.prac	Open tab selection by clicking on [ICON] .
+click_select_card.demo	The [B_NAME] tab is selected.
+click_select_card.prac	Select the [B_NAME] tab.
+click_next_cards_img.demo	Clicking on [ICON] displays the next tabs.
+click_next_cards_img.prac	Show the next tabs by clicking on [ICON].
+click_prev_cards_img.demo	Clicking on [ICON] displays the previous tabs.
+click_prev_cards_img.prac	Show the previous tabs by clicking on [ICON].
+click_open_nav_menu.demo	Clicking on [ICON] opens the navigation menu.
+click_open_nav_menu.prac	Open the navigation menu by clicking on [ICON].
+click_close_folder_img.demo	Clicking on [ICON] closes the folder [B_NAME].
+click_close_folder_img.prac	Close the folder [B_NAME] by clicking on [ICON].
+click_open_folder_img.demo	Clicking on [ICON] opens the folder [B_NAME].
+click_open_folder_img.prac	Open the folder [B_NAME] by clicking on [ICON].
+click_select_element_img.demo	Clicking on [ICON] selects the element [B_NAME].
+click_select_element_img.prac	Select the element [B_NAME] by clicking on [ICON].
+click_scroll_down.demo	This scroll bar is used to scroll downward.
+click_scroll_down.prac	Scroll downward with the help of the scroll bar
+dblclick_select_entry.demo	Double clicking on [B_NAME] selects the entry.
+dblclick_select_entry.prac	Select the entry [B_NAME] by double-clicking it.
+dblclick_select_date.demo	The [B_NAME] is selected.
+dblclick_select_date.prac	Select the [B_NAME].
+dblclick_start_transaction.demo	The transaction [B_NAME] is started by double-clicking it.
+dblclick_start_transaction.prac	Start the transaction [B_NAME] by double clicking it <br>or<br>enter the transaction code [B_TCODE] and confirm with the Enter key.
+click_close_group.demo	The group [B_NAME] is closed.
+click_close_group.prac	Please close the group [B_NAME].
+click_open_group.demo	The group [B_NAME] is opened.
+click_open_group.prac	Please open the group [B_NAME].
+select.demo	[B_SELECTED] is selected as [B_NAME].
+select.prac	Please select [B_SELECTED] as [B_NAME] .
+input_text.demo	The [B_NAME] box is filled out.
+input_text.prac	Please enter [B_INPUT] in the [B_NAME] box.
+input_text_value.demo	[B_INPUT] is now entered in the [B_NAME] box.
+input_text_value.prac	Please enter [B_INPUT] in the [B_NAME] box.
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Confirm your entry by pressing <b>Tab</b> or the <b>Enter key</b> or click on <b>the appropriate button</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Confirm your entry by pressing <b>Tab</b> or the <b>Enter key</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Confirm your entry by pressing the <b>Enter key</b> or click on <b>the appropriate button</b>.
+input_tab.demo
+input_tab.prac	<br>Confirm your entry by pressing the <b>Tab key</b>.
+input_enter.demo
+input_enter.prac	<br>Confirm your entry by pressing <b>Enter key</b>.
+input_button.demo
+input_button.prac	<br>Confirm your entry by <b>clicking on the appropriate button</b>.
+click_select.demo	[B_NAME] is now selected.
+click_select.prac	Please select [B_NAME].
+click_show_value_help_button.demo	Clicking in the [B_NAME] box opens Help for values.
+click_show_value_help_button.prac	Open Help for values by clicking in the [B_NAME] text box.
+click_scroll_horizontal.demo	Scrolling to the right …
+click_scroll_horizontal.prac	Please scroll to the right.
+click_scroll_vertical.demo	Scrolling downward ...
+click_scroll_vertical.prac	Please scroll downward.
+click_img_expand.demo	To zoom-in on the navigation area click on [ICON].
+click_img_expand.prac	Zoom-in on the navigation area by clicking on [ICON].
+click_img_collapse.demo	To zoom-out of the navigation area click on [ICON].
+click_img_collapse.prac	Zoom-out of the navigation area by clicking on [ICON].
+click_navrow.demo	[B_NAME] is selected on the navigation line.
+click_navrow.prac	Please open [B_NAME] from the navigation line.
+click_navrow2.demo	[B_NAME] is selected on the second navigation line.
+click_navrow2.prac	Please open [B_NAME] from the second navigation line.
+click_open_context_menu.demo	The shortcut menu of [B_NAME] is opened.
+click_open_context_menu.prac	Open the shortcut menu of [B_NAME].
+click_radio_select.demo	[B_NAME] is selected.
+click_radio_select.prac	Select [B_NAME].
+click_select_img.demo	[B_ICON_NAME] is selected.
+click_select_img.prac	Select [B_ICON_NAME].
+click_open_form_view.demo	[B_ICON_NAME] switches to the forms view.
+click_open_form_view.prac	Use [B_ICON_NAME] to switch to the forms view.
+history_select.demo	[B_NAME] is selected from recent documents.
+history_select.prac	Select [B_NAME] from recent documents.
+click_page_up_img.demo	Clicking on [B_ICON] scrolls one page upward.
+click_page_up_img.prac	Scroll one page upward by clicking on [B_ICON].
+click_page_down_img.demo	Clicking on [B_ICON] scrolls one page downward.
+click_page_down_img.prac	Scroll one page downward by clicking on [B_ICON].
+click_page_top_img.demo	Clicking on [B_ICON] scrolls to the beginning.
+click_page_top_img.prac	Scroll to the beginning by clicking on [B_ICON].
+click_page_bottom_img.demo	Clicking on [B_ICON] scrolls to the end.
+click_page_bottom_img.prac	Scroll to the end by clicking on [B_ICON].
+click_sort_by_column.demo	Sorting is by column [B_NAME].
+click_sort_by_column.prac	Sort by column [B_NAME].
+click_select_date.demo	The [B_NAME] is selected.
+click_select_date.prac	Select the [B_NAME].
+click_close_card_img.demo	Clicking on [ICON] closes the card.
+click_close_card_img.prac	Click on [ICON] to close the card.
+click_select_function_img.demo	Clicking on [ICON] selects the function [B_NAME].
+click_select_function_img.prac	Click on [ICON] to select the function [B_NAME].
+click_hide_treeview.demo	Clicking on [ICON] hides the tree view.
+click_hide_treeview.prac	Hide the tree view by clicking on [ICON].
+click_show_treeview.demo	Clicking on [ICON] shows the tree view.
+click_show_treeview.prac	Show the tree view by clicking on [ICON].
+click_mark_transaction.demo	Clicking on [B_NAME] selects the transaction.
+click_mark_transaction.prac	Select the transaction [B_NAME] with a click.
+dblclick_select_element.demo	The element [B_NAME] is selected by double-clicking it.
+dblclick_select_element.prac	Select the element [B_NAME] by double-clicking it.
+please_note.demo	Please note the following: [B_NAME].
+please_note.prac	Note the following: [B_NAME].
+click_open_value_help_img.demo	Clicking on <b>Entry Help</b> [ICON] opens a selection list with valid values.
+click_open_value_help_img.prac	Click on <b>Entry Help</b> [ICON] to open a selection list with valid values.
+click_open_selection.demo	Clicking on the button [ICON] of the list [B_NAME] opens it.
+click_open_selection.prac	Click on the button [ICON] of the list [B_NAME] to open it.
+click_mark_entry.demo	Clicking on the entry [B_NAME] selects it.
+click_mark_entry.prac	Select the entry [B_NAME] by clicking it.
+click_mark_entry_img.demo	Clicking on the entry [ICON] selects it.
+click_mark_entry_img.prac	Select the entry [ICON] by clicking it.
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.
+click_menu_select_img.demo	Clicking on the [ICON] menu item executes it.
+click_menu_select_img.prac	Click on the [ICON] menu item to execute it.
+click_open_menu_img.demo	Clicking on the [ICON] menu opens it.
+click_open_menu_img.prac	Click on the [ICON] menu to open it.
+click_select_card_img.demo	Clicking on the [ICON] tab selects it.
+click_select_card_img.prac	Click on the [ICON] tab to select it.
+dblclick_select_line.demo	Double clicking on the [NAME] button selects the line.
+dblclick_select_line.prac	Double click the [NAME] button to select the line.
+click_activate_edit.demo	Clicking in the input box [B_NAME] activates it.
+click_activate_edit.prac	Click in the input box [B_NAME] to activate it.
+dblclick_activate_edit.demo	Double clicking in the input box [B_NAME] activates it.
+dblclick_activate_edit.prac	Double click in the input box [B_NAME] to activate it.
+dblclick_open_folder_img.demo	Double clicking on the  [ICON] icon opens the folder [B_NAME].
+dblclick_open_folder_img.prac	Open the folder [B_NAME] by double clicking on the [ICON] icon.
+click_open_folder.demo	Clicking on the <b>'Open folder'</b> icon opens the folder [B_NAME].
+click_open_folder.prac	Open the folder [B_NAME] by clicking on the <b>'Open folder'</b> icon.
+dblclick_open_folder.demo	Double clicking on the <b>'Open folder'</b> icon opens the folder [B_NAME].
+dblclick_open_folder.prac	Open the folder [B_NAME] by double clicking on the <b>'Open folder'</b> icon.
+click_close_folder.demo	Clicking on the <b>'Close folder'</b> icon closes the folder [B_NAME].
+click_close_folder.prac	Close the folder [B_NAME] by clicking on the <b>'Close folder'</b> icon.
+drag_scroll_hor.demo	Clicking and dragging the <b>scroll bar</b> makes the desired area appear.
+drag_scroll_hor.prac	Click and drag the <b>horizontal scroll bar</b> to scroll.
+drag_scroll_vert.demo	Clicking and dragging the <b>scroll bar</b> makes the desired area appear.
+drag_scroll_vert.prac	Click and drag the <b>vertical scroll bar</b> to scroll.
+click_scroll.demo	Clicking on the <b>scroll button</b> [NAME] makes the desired area appear.
+click_scroll.prac	Scroll by clicking on the <b>scroll button</b> [NAME].
+click_scroll_page_left.demo	Clicking in the <b>scroll area</b> makes the desired area appear.
+click_scroll_page_left.prac	Click in the <b>area to the left of the scroll bar</b> to scroll.
+click_scroll_page_right.demo	Clicking in the <b>scroll area</b> makes the desired area appear.
+click_scroll_page_right.prac	Click in the <b>area to the right of the scroll bar</b> to scroll.
+click_scroll_page_up.demo	Clicking in the <b>scroll area</b> makes the desired area appear.
+click_scroll_page_up.prac	Click in the <b>area above the scroll bar</b> to scroll.
+click_scroll_page_down.demo	Clicking in the <b>scroll area</b> makes the desired area appear.
+click_scroll_page_down.prac	Click in the <b>area below the scroll bar</b> to scroll.
+rclick_context.demo	Right-clicking on [B_NAME] with the mouse opens a shortcut menu.
+rclick_context.prac	Please click on [B_NAME] with the right mouse button.
+dblclick_img.demo	[ICON] is double clicked.
+dblclick_img.prac	Please double click on [ICON].
+keypress.demo	Please enter [B_KEY].
+keypress.prac	Please enter [B_KEY].
+item.close_folder	Close folder
+item.open_folder	Open folder
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	Vertical scroll bar
+item.hscroll	Horizontal scroll bar
+item.close_window	Close window
+item.value_help	Value selection
+item.scroll	Scroll bar
+item.back_btn	Back
+item.save_btn	Save
+item.scroll_area	Scroll area
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+dblclick_start_transaction2.demo	The transaction [B_NAME] is started by double-clicking it.
+dblclick_start_transaction2.prac	Start the transaction [B_NAME] by double clicking it.
+docSAPMenuPath	Menu Path
+docSAPTransaction	Transaction
+docTableHeaderStep	Step
+docTableHeaderAction	Action
+docTableHeaderInput	Input
+docTableHeaderExpectedResults	Expected Results
+docTableHeaderPassed	Passed
+docTableHeaderFailed	Failed
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+enter_img.demo	Move mouse on [B_NAME_ICON].
+enter_img.prac	Move mouse on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.

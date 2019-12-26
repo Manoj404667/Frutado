@@ -1,0 +1,13 @@
+window.cfg_keys_invertedkeys_PLAY='space,enter,right';
+window.cfg_keys_invertedkeys_STOP='f12';
+window.cfg_keys_invertedkeys_PAUSE='pause';
+window.cfg_keys_invertedkeys_PREV='alt_up';
+window.cfg_keys_invertedkeys_BACK='left';
+window.cfg_keys_invertedkeys_NEXT='alt_down';
+window.cfg_window_cfg_width=640;
+window.cfg_window_cfg_height=480;
+window.cfg_window_cfg_orientation='SE';
+window.cfg_window_cfg_features_resizable=1;
+window.cfg_window_cfg_features_status=1;
+window.cfg_topmost='0';
+window.cfg_hidden=true;

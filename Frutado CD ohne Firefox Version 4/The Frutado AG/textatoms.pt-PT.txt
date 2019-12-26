@@ -1,0 +1,249 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	@{TOK_COMPANY} Curso
+TOK_TOUR;	@{TOK_COMPANY} Unidade de aprendizagem
+TOK_TRAINER;	@{TOK_COMPANY} Formador
+
+# Key names	
+ALTKEY;	alt
+CTRLKEY;	ctrl
+LEFTALTKEY;	alt (esquerda)
+LEFTCTRLKEY;	ctrl (esquerda)
+LEFTSHIFTKEY;	Shift (esquerda)
+ON;	ligado
+OFF;	desligado
+RIGHTALTKEY;	alt (direita)
+RIGHTCTRLKEY;	ctrl (direita)
+RIGHTSHIFTKEY;	Shift (direita)
+SHIFTKEY;	Shift
+
+# trainer states	
+TOK_BUFFERING;	A carregar áudio
+TOK_CONNECTING;	A ligar ...
+TOK_IDLE;	
+TOK_LMS;	A registar resultado ...
+TOK_OPENING;	A ligar ...
+TOK_OPEN;	
+TOK_PAUSED;	Pausa
+TOK_PLAYING;	Em execução
+TOK_READY;	Pronto
+TOK_USERINPUT;	Introdução
+TOK_WAITING;	A carregar página ...
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Não é possível exibir aqui conjuntos de frames.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">Não é possível exibir aqui documentos com IFRAMEs.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	Um bloqueador de janelas Popup evita a reprodução da unidade de aprendizagem.
+TOK_POPUPBLOCKER_CONFIRM;	"Um bloqueador de janelas Popup evitou a abertura de uma nova janela do Browser.@{NEWLINE}@{NEWLINE}OK: Pode continuar, porque desactivou o bloqueador de janelas Popup@{NEWLINE}    para o servidor Web.@{NEWLINE}Interromper: A unidade de aprendizagem é terminada."
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Uma definição de segurança do Internet Explorer\n\rimpede a representação do @{TOK_TOUR}.\nPermita\n""Janelas iniciadas por Script sem limitações de tamanho ou de posição""!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	"Não foi possível efectuar a leitura de @1 ""@2""."
+TOK_COULD_NOT_READ2_EXC;	"Não foi possível efectuar a leitura de @1 ""@2"": @3"
+
+# Form texts	
+TOK_CLOSE;	Fechar
+TOK_DIR;	Directório
+TOK_ERROR;	Erro
+TOK_EXIT;	Terminar
+TOK_OPEN;	Abrir
+TOK_SEARCH;	Procurar
+TOK_START;	Iniciar
+TOK_START_TOUR;	Iniciar @{TOK_TOUR}
+TOK_STOP;	Parar
+
+# Library	
+TOK_LIB_BTN_LESS;	menos...
+TOK_LIB_BTN_MORE;	mais...
+TOK_LIB_EMPTY;	Elemento vazio
+TOK_LIB_FLAG_DESC;	Percorrer a descrição
+TOK_LIB_FLAG_KEEP_OPEN;	Manter aberta a estrutura do curso
+TOK_LIB_FLAG_NEWWIN;	Numa janela nova
+TOK_LIB_FLAG_TITLE;	Percorrer título
+TOK_LIB_RESET;	Apagar resultados da pesquisa
+TOK_LIB_VAL_NOFILTER;	sem filtro
+
+# Mimetypes	
+MIME_TEXT_PDF;	Formato PDF - Adobe Acrobat
+MIME_APP_MSWORD;	Documento Winword
+MIME_APP_EXCEL;	Folha de cálculo Excel
+MIME_APP_PPT;	Diapositivos Powerpoint
+MIME_APP_OOFF;	Documento OpenOffice
+MIME_APP_OOFFWRITE;	Texto OpenOffice
+MIME_APP_OOFFCALC;	Cálculo OpenOffice
+MIME_APP_OOFFIMPRESS;	Apresentação OpenOffice
+MIME_APP_OOFFMATH;	Fórmulas OpenOffice
+MIME_AUDIO;	Som
+MIME_VIDEO;	Vídeo
+MIME_TEXT_HTML;	Página Web
+MIME_TEXT;	Documento de texto
+MIME_APP_DGO;	@{TOK_COMPANY} Unidade de aprendizagem
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Demonstração
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} Exercício
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} Teste
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} Unidade de aprendizagem Modo de prática
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY;	"Continuar (F8); Com ""Alt"": Iniciar novamente"
+TIP_PAUSE;	"Parar (PAUSA); Com ""Shift"": Aumentar a qualidade áudio; Com ""Alt"": Poupar largura de banda"
+TIP_STOP;	"Terminar (F12); Com ""Shift"": Indicar versão"
+TIP_NEXT;	Próximo capítulo (ALT-para baixo)
+TIP_BACK;	"Capítulo anterior (ALT-para cima); Com ""Alt"": Indicar curso"
+TIP_MAXBUBBLE;	Recuperar balão de texto
+TIP_MINBUBBLE;	Minimizar o balão de texto
+TIP_CLOSEBUBBLE;	Remover o balão de texto
+TIP_ENABLED;	
+TIP_DISABLED;	(agora não é possível)
+TIP_TASK;	Colocação de tarefas
+TIP_HELPBUBBLE;	Sim, mostrar ajuda
+TIP_GOONBUBBLE;	Ir para a próxima etapa
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW;	Fechar janela
+TOK_BP_GOBACK;	Voltar
+TOK_BP_GOON;	Continuar
+TOK_BP_JSCONSOLE;	Mensagens Javascript
+TOK_BP_MODE;	Modo 
+TOK_BP_PARAMETER;	Parâmetro
+TOK_BP_RESTARTPROGRAM;	Repetir programa
+TOK_BP_STARTANOTHER;	Iniciar outro programa
+TOK_BP_VALUE;	Valor
+
+# Exercise colors	
+EXER_COLOR_ERROR;	assinalado a vermelho
+EXER_COLOR_CLICK;	assinalado a verde
+EXER_COLOR_DBLCLICK;	assinalado a amarelo
+EXER_COLOR_RCLICK;	assinalado a turquesa
+EXER_COLOR_CHANGE;	sublinhado a verde
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_AND;	@{NEWLINE}e@{NEWLINE}
+EXER_FAIL0;	"Lamentamos, está incorrecto."
+EXER_FAIL1;	"Lamentamos, está incorrecto. 1 ponto de penalização. Restam: @1_rest-points_."
+EXER_FAIL2;	"Lamentamos, está incorrecto. @1_points-penalty_ Pontos de penalização. Restam: @2_rest-points_."
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Necessita de ajuda?
+EXER_FAILCHANGE_HELP;	"O campo alterado foi @{EXER_COLOR_ERROR}.@{NEWLINE}Todos os campos de introdução, que podem ser alterados, foram @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_HELP;	Não existem campos de introdução permitidos.@{NEWLINE}O campo alterado foi @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP;	A área na qual clicou foi @{EXER_COLOR_ERROR}.@{NEWLINE}Todos os botões permitidos foram @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;	Não é permitido clicar em lado nenhum.@{NEWLINE}A área clicada foi @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP;	A área em que fez duplo clique foi @{EXER_COLOR_ERROR}.@{NEWLINE}Todos os botões permitidos para duplo clique foram @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;	Não é permitido efectuar duplo clique em lado nenhum.@{NEWLINE}A área clicada foi @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP;	A área em que clicou com o botão direito do rato foi @{EXER_COLOR_ERROR}.@{NEWLINE}Todos os botões permitidos para clicar com o botão direito do rato foram @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP;	Um clique com o botão direito do rato não é permitido em lado nenhum.@{NEWLINE}A área clicada foi @{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0;	Premiu uma tecla errada.
+EXER_FAILKEY_HELP1;	"Premiu ""@1_key_""."
+EXER_FAILKEY_HELP2;	@{NEWLINE}As teclas de função permitidas são:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}São também permitidas:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Alteração do campo (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Clique (Botões são @{EXER_COLOR_CLICK})
+EXER_HINT_DRAG_MARKED;	@{NEWLINE}@{BULLET} Arrastar (@{EXER_COLOR_DRAG})
+EXER_HINT_DROP_MARKED;	@{NEWLINE}@{BULLET} Soltar (@{EXER_COLOR_DROP})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Duplo clique (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Aviso: Isto conduz à anulação de todos os pontos)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Premir as teclas de função@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Permitidas são:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Clique com o botão direito do rato (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Aviso: Caso contrário tem lugar a continuação automática)
+EXER_HINT_YOURINPUT;	"Introduziu ""@1_input_"".@{NEWLINE}"
+EXER_OR;	@{NEWLINE}ou@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	"Retire a selecção da opção ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"Seleccione ou retire a selecção da opção ""@1""!"
+MSG_SCORE;	"Pontuação alcançada: ""@1""."
+MSG_SINGLE_SELECT;	"Seleccione o registo ""@1"" desligado!"
+MSG_TEXTINPUT;	"Introduza ""@1"" no campo de introdução ""@2""!"
+MSG_TRANSACTIONCODE;	"Introduza o código de transacção correcto ""@1""!"
+
+capDemoStart;	Modo de demonstração
+msgDemoStart1;	"No modo de demonstração pode observar a realização de uma tarefa na aplicação. Siga apenas a apresentação, todos os passos são executados automaticamente."
+msgDemoStart2;	Com a barra de navegação no canto inferior pode interromper ou parar a apresentação. Pode ainda saltar para a frente para o passo seguinte ou para trás para o passo anterior.
+msgDemoStop;	O modo de demonstração foi terminado.
+
+capConcurrentStart;	Modo de prática
+msgConcurrentStart1;	No modo de prática obtém instruções passo a passo para a concretização de uma tarefa na aplicação.
+msgConcurrentStart2;	"Após cada passo a apresentação é interrompida, para que possa repetir o passo demonstrado na aplicação. "
+msgConcurrentStop;	O modo de prática foi terminado.
+
+capTestStart;	Modo de teste
+msgTestStart1;	"No modo de teste pode testar os seus conhecimentos resolvendo uma tarefa com a aplicação. Para além dos dados de exemplo necessários não irá receber quaisquer instruções relacionadas com os passos de trabalho. Toda a tarefa é descrita na janela da tarefa, que pode ser maximizada ou minimizada, conforme necessário, através dos botões na barra de títulos."
+msgTestStart2;	"No final do teste irá obter uma avaliação com base nos passos realizados com sucesso. Esta avaliação destina-se apenas à sua auto-avaliação, os dados não são guardados nem transmitidos."
+msgTestStart3;	"Execute as acções muito cuidadosamente, dado que o sistema regista todos os erros ortográficos e cliques incorrectos e a avaliação é reduzida de forma correspondente. Quando se decidir a pedir ajuda para um passo perde todos os pontos previstos para este passo."
+msgTestStart4;	"A sua avaliação é exibida no final do teste, tente alcançar o objectivo de @{res_mastery_percent}%."
+capTestOk;	Ficou aprovado no teste
+capTestFailed;	Não ficou aprovado no teste
+msgTestFailed1;	"Dado que  alcançou menos que @{res_mastery_percent}% dos pontos possíveis, recomendamos que faça uma revisão do conteúdo deste curso  e, de seguida, volte a testar os seus conhecimentos no modo de teste"
+msgTestFinished2;	Este teste destina-se exclusivamente à sua auto-avaliação. Os resultados não são guardados nem transmitidos.
+msgTestOk1;	"Parabéns, conclui esta tarefa com sucesso."
+msgTestResult;	Resultado
+msgTestScore;	Pontuação alcançada
+msgTestScoreValue;	@{res_collected_points} de @{res_possible_points}
+
+capPracticeStart;	Modo de exercício
+msgPracticeStart1;	No modo de exercício pode experimentar o que aprendeu resolvendo a tarefa dentro da aplicação.
+msgPracticeStart2;	Siga simplesmente as instruções passo a passo.
+msgPracticeStop;	O modo de exercício foi terminado
+
+# eof# New messages added after 6.1.0 beta 2;
+TOK_CLOSE_TASK;	Fechar @{TIP_TASK}
+;
+EXER_FAILCHANGE;	Você alterou o campo errado!@{NEWLINE}
+EXER_FAILCHANGE_NOMARK_HELP;	Todos os campos de entrada permitidos foram @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_NOMARK_HELP;	Nenhum campo de entrada permitido.
+;
+EXER_FAILCLICK;	Você clicou no botão errado!@{NEWLINE}
+EXER_FAILCLICK_NOMARK_HELP;	Todos os botões válidos foram @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_NOMARK_HELP;	Nenhum clique válido possível.
+;
+EXER_FAILDRAG;	Você arrastou uma área errada.@{NEWLINE}
+EXER_FAILDRAG_HELP;	A área arrastada é @{EXER_COLOR_ERROR}.@{NEWLINE}Todas as áreas que podem ser arrastadas são @{EXER_COLOR_DRAG}.
+EXER_FAILDRAG_NOMARK_HELP;	Todas as áreas válidas são @{EXER_COLOR_DRAG}.
+EXER_FAILDRAG0_HELP;	Uma oepração Arrastar não é permitida neste ponto.@{NEWLINE}A  área arrastada é @{EXER_COLOR_ERROR}.
+EXER_FAILDRAG0_NOMARK_HELP;	Nenhuma oepração Arrastar válida possível.
+;
+EXER_FAILDROP;	Você soltou em uma área errada.@{NEWLINE}
+EXER_FAILDROP_HELP;	A área em que você soltou é @{EXER_COLOR_ERROR}.@{NEWLINE}Todas as áreas em que você pode soltar são @{EXER_COLOR_DROP}.
+EXER_FAILDROP_NODRAG_HELP;	@{NEWLINE} (Se não houver áreas para arrastar isponíveis, você pode clicar nos elementos para soltar).
+EXER_FAILDROP_NOMARK_HELP;	Todas as áreas válidas são @{EXER_COLOR_DROP}.
+EXER_FAILDROP0_HELP;	Uma oepração Soltar não é permitida neste ponto.@{NEWLINE}A área em que você soltou é @{EXER_COLOR_ERROR}.
+EXER_FAILDROP0_NOMARK_HELP;	Nenhuma operação Soltar possível.
+;
+EXER_FAILDBLCLICK;	Você clicou duas vezes na área errada!@{NEWLINE}
+EXER_FAILDBLCLICK_NOMARK_HELP;	Todos os botões válidos para clique duplo foram @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_NOMARK_HELP;	Nenhum clique duplo válido possível.
+;
+EXER_FAILRCLICK;	Você clicou com o botão direito do mouse na área errada!@{NEWLINE}
+EXER_FAILRCLICK_NOMARK_HELP;	Todos os botões válidos para clique com o botão direito do mouse foram @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_NOMARK_HELP;	Nenhum clique com o botão direito do mouse válido possível.
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

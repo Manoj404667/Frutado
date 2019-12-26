@@ -1,0 +1,147 @@
+/* Styles for manual start page of datango trainer */
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+	background:#FFF;
+}
+
+body.start_window {
+    background-color: #E9FFF0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+div {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+
+    color: black;
+    background-color: white;
+}
+
+div.switch {
+    color: black;
+    background-color: #E9EDF0;
+}
+
+table {
+    color: black;
+}
+
+table.title {
+    color: black;
+    background-color: white;
+}
+
+td {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+
+    color: black;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+td.prompt {
+    background-color: #E9EDF0;
+    padding: 3px;
+    vertical-align:bottom;
+    white-space: nowrap;
+}
+
+td.largeprompt {
+    background-color: #E9EDF0;
+    padding: 3px;
+    white-space: nowrap;
+}
+
+td.input {
+    background-color: #E9EDF0;
+    padding: 0px 4px 0px 4px;
+}
+
+td.input_notext {
+    background-color: #E9EDF0;
+    padding: 0px;
+}
+
+td.title {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: white;
+    background-color: #8DA0C1;
+
+    border: 0px;
+    border-bottom: 1px solid #61769C;
+    margin: 0px;
+    padding: auto 10px;
+}
+
+td.title2 {
+    font-size: 14px;
+    color: white;
+    border: 0px;
+    margin: 0px;
+    padding: 10 5 5 5px;
+}
+
+option.on {
+    background-color: #c0c080;
+}
+
+option.off {
+    background-color: #c08080;
+}
+
+input {
+    padding: 1px 3px 1px 3px;
+}
+
+span.failed {
+    color: red;
+}
+
+span.unknown {
+    color: yellow;
+}
+
+span.passed {
+    color: green;
+}
+#Table2 {
+	height:auto;
+	left:35%;
+	position:absolute;
+	text-align:center;
+	top:35%;
+	width:30%;
+}
+#Table2 .title2 {
+	background:#F0F0F0 url(skin/error.gif) no-repeat 10px 48%;
+	border:1px solid #CECECE;
+	border-top:none;
+	padding:40px;
+	font-weight:700;
+}
+#Table2 .title {
+	background: url(skin/error_head.gif) repeat-x left top;
+	border:1px solid #CECECE;
+	border-bottom:none;
+	border-top:none;
+	padding:5px 30px;
+}
+#Table1 img {
+	position:absolute;
+	top:10px;
+	left:10px;
+}

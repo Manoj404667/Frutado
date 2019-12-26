@@ -1,0 +1,85 @@
+<html><head>
+<script language=javascript>
+function do_onload() {
+    if (navigator.appName == 'Microsoft Internet Explorer') {
+        var func = function() {
+            self.top.opener = self.top; /* Trick for IE6 */
+            /* IE7 trick; Does not disturb IE6 */
+            self.top.open('', '_parent');
+            self.top.close();
+        }
+        window.setTimeout(func, 2000);
+    }
+    else {
+        try {
+            self.top.close();
+        }
+        catch(exc) {
+        }
+        
+        if (self.top && !self.top.closed) {
+            try {
+                netscape.security.PrivilegeManager.enablePrivilege(
+                    'UniversalPreferencesRead UniversalPreferencesWrite');
+                navigator.preference('dom.allow_scripts_to_close_windows', true);
+                self.top.close();
+            }
+            catch(exc) { // for http... this is not a signed script
+                alert('Cannot close browser window.\n\n' +
+                      'To allow automatic window close,\n' +
+                      'change the setting "dom.allow_scripts_to_close_windows"\n' +
+                      'in "about:config" to true!');
+            }
+        }
+    }
+}
+</script>
+<script language=javascript>
+function splitUrlParams() {
+    var temp = new String(window.location.search);
+
+    if (temp.substr(0, 1) == '?') {
+        temp = temp.substr(1);
+    }
+
+    var urlParams = [];
+
+    if (temp.length && temp.length > 0) {
+        urlParams = temp.split('&');
+    }
+    var urlParamsAsoc = [];
+    for (var i = 0; i < urlParams.length; i++) {
+        var urlParam = urlParams[i].split('=');
+    urlParamsAsoc[urlParam[0]] = urlParam[1];
+    }
+    return urlParamsAsoc;
+}
+
+var urlParams = splitUrlParams();
+dgoDOMAIN = urlParams['dgoDOMAIN'] || '';
+if (dgoDOMAIN != '') {
+    if (self.location.protocol == 'http:' ||
+        self.location.protocol == 'https:') 
+    {
+        self.document.domain = dgoDOMAIN;
+    }
+}
+</script>
+</head>
+<body onload="do_onload()">
+</body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

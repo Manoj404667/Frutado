@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TrainerConfig forward="collected_points,possible_points,result_scaled,mastery_score" hidden="true" window="{cfg_features: 'fullscreen=0,status=1,resizable=1'}" keys='{&#10;    f12     : "_STOP",&#10;    right   : "_PLAY",&#10;    left    : "_BACK",&#10;    pause   : "_PAUSE",&#10;    alt_up  : "_PREV",&#10;    alt_down: "_NEXT"&#10;}' window_cfg_features_fullscreen="1"/>

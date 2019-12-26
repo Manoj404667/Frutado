@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MacroDefaults version="6.1.2-196" MacroShelfComment="Navigationsmakro deutsch/english mit Automatik">
+		<Macro name="USE_HELP"><Values Help_on="False" /></Macro>
+		<Macro name="define_target" />
+		<Macro name="navi_initB" />
+		<Macro name="set_efp" />
+		<Macro name="page_init" />
+		<Macro name="explanation">
+				<Values bubble_class="StyleA" b_width="180" b_height="40" doc_enable="yes" b_duration="3" bubble_name="B1" explanation_d="Explanation" orientation="SE" fieldicon="" in_demo="1" in_practise="1" in_prax="1" />
+				<ComplexValues>
+	 				<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+					<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+				</ComplexValues>
+		</Macro>
+		<Macro name="fieldhelp">
+				<Values b_width="250" b_height="40" b_minimizable="0" explanation_d="Text" orientation="E" no_spike="1" replace="1" closeable="1" Objectname="Bubble1" />
+		</Macro>
+		<Macro name="navi_fini" />
+</MacroDefaults>

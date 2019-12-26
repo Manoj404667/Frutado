@@ -1,0 +1,258 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>datango trainer DOM Viewer</title>
+<link rel=stylesheet type="text/css" href="jswidget/tree.css">
+<script language=javascript>
+var domain;
+
+if (self.location.search.length > 1) {
+    if (self.location.protocol == 'http:' ||
+        self.location.protocol == 'https:') 
+    {
+        domain = self.location.search.substr(1);
+        self.document.domain = domain;
+    }
+}
+
+function do_onload() {
+    self.document.getElementById('TESTIFRAME').src =
+        'agent_ui_iframe.html' + (domain ? '?' + domain : '');
+}
+</script>
+
+<style>
+  BODY {
+    background-color:#88BBCC;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight:normal;
+    padding: 3px;
+    margin: 0px;
+    border: 0px;
+  }
+
+  TABLE {
+    border: 0px solid magenta;
+    padding: 0;
+    margin: 0;
+  }
+  TR {
+    vertical-align: middle;
+    border: 0px solid magenta;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  TD {
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight:normal;
+    border: 0px solid magenta;
+    padding: 1px 0px 1px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  TABLE.inner
+  TD {
+    padding: 0px 0px 0px 0px;
+  }
+  TD.prompt {
+    color:black;
+    width: 100px;
+  }
+  TD.promptline { color: black; }
+
+  SELECT {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight:normal;
+  }
+  INPUT {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight:normal;
+  }
+  INPUT.button { width: 80; }
+  INPUT.minibutton { width: 50; }
+  INPUT.microbutton { width: 20; }
+
+  P {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight:normal;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  FORM {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+</style>
+</head>
+
+<body
+ onload="do_onload(); return window.opener.dgo2.XKK(window)"
+ onbeforeunload="var x=window.dgo2;x&&x.close()"
+ onunload="var x=window.dgo2;x&&x.close()"
+>
+<form action="javascript:void(0);"
+ onsubmit="var x=self.dgo2; x&&x.XLu(); return false;">
+<table style="xbackground-color:silver;" cellpadding=0 cellspacing=0>
+<tr valign=middle><td valign=middle colspan=3 style="color:white; background-color:black;">
+    <b>Current Element</b>&nbsp;
+    <input type=button class=button value="Capture"
+        title="Capture mouse moves and show DOM information"
+        onclick="var x=window.dgo2; x&&x.XKR()">&nbsp;
+    <input type=button class=button value="Load"
+        title="Load URL into frame (pattern in expressions string)"
+        onclick="var x=window.dgo2;x&&x.Xdx()">&nbsp;
+    <input type=button class=button value="Loaded?"
+        title="Check, if all frames are loaded"
+        onclick="var x=window.dgo2; x&&x.Xc5()">&nbsp;
+    <input type=button class=button value="Stop"
+        title="Do not capture mouse moves any more"
+        onclick="var x=window.dgo2; x&&x.XKS()">&nbsp;
+    <input type=button class=button value="Close" align=right
+        onclick="window.close()">&nbsp;
+    </td>
+</tr><tr>
+  <td colspan=3>
+    <table class=inner style="xbackground-color:magenta; width:100%;" cellpadding=0 cellspacing=0>
+    <tr style="padding:0; margin:0; border:0;">
+        <td class=prompt>Url:</td>
+        <td><input id='Url' name='Url' style="width: 400px;">&nbsp;</td>
+        <td class=prompt>Window:</td>
+        <td><select id='Window' name='Window' style="width: 160px; margin: 0px 3px 0px 0px;">
+            <option value='0'>0: Default</option>
+        </select></td>
+        <td align=right><input type=button class=button value="Frame Tree"
+            title="Show complete DOM tree of current frame"
+            onclick="var x=window.dgo2;x&&x.XHT(true)">
+        </td>
+    </tr>
+    <tr style="padding:0; margin:3px 0px 0px 0px; border:0;">
+        <td class=prompt>Frame:&nbsp;</td>
+        <td style="padding:0; margin:0; border:0;" NOWRAP>
+          <input id='FramePath' name='FramePath' size=40>&nbsp;&nbsp;&nbsp;Zoom:&nbsp;
+          <input id='Zoom' name='Zoom' size=2>&nbsp;
+          <input type=button class=microbutton value=" - "
+           onclick="var x=window.dgo2; if (x) { x.XER(1); x.XDd()}">&nbsp;
+          <input type=button class=microbutton value=" + "
+           onclick="var x=window.dgo2; if (x) { x.XER(-1); x.XDd()}">&nbsp;
+        </td>
+        <td style="padding:0; margin:0; border:0;" class=prompt NOWRAP>Collection:&nbsp;
+        </td>
+        <td><input id='Collection' name='Collection' style="width: 80px;">&nbsp;
+          <input id='Index' name='Index' style="width: 20px;">&nbsp;
+          <input id='SubIndex' name='SubIndex' style="width: 20px;">&nbsp;
+        </td>
+        <td align=right><input type=button class=button value="Node Tree"
+            title="Show DOM tree below current element"
+            onclick="var x=window.dgo2;x&&x.XHT()">
+        </td>
+    </tr></table>
+  </td>
+</tr><tr>
+    <td class=prompt>Path:</td>
+    <td><input id='Path' name='Path' style="width: 600px;"></td>
+    <td align=right><input type=button class=button value="Node Props"
+        title="Property tree of current DOM element"
+        onclick="var x=window.dgo2;x&&x.x5A()">
+    </td>
+</tr>
+<tr><td class=prompt>Zoom:</td>
+    <td valign=top>
+        <input type=button class=minibutton value="Old Hl"
+        title="Highlight the current DOM element"
+        onclick="var x=window.dgo2;x&&x.xJh('old')">&nbsp;
+        <input type=button class=minibutton value="HighL"
+        title="Permanently highlight the current DOM element"
+        onclick="var x=window.dgo2;x&&x.xJh('perm')">&nbsp;
+        <input type=button class=minibutton value="Hl.Off"
+        title="Remove permanent highlight"
+        onclick="var x=window.dgo2;x&&x.xJh('off')">&nbsp;
+        <input type=button class=minibutton value="Bubble"
+        title="Draw a bubble near the current DOM element"
+        onclick="var x=window.dgo2;x&&x.XNG('bbl')">&nbsp;
+        <input type=button class=minibutton value="TopBbl"
+        title="Draw a bubble near the current DOM element"
+        onclick="var x=window.dgo2;x&&x.XNG('tbbl')">&nbsp;
+        <input type=button class=minibutton value="XBbl"
+        title="Draw a cross-frame bubble near the current DOM element"
+        onclick="var x=window.dgo2;x&&x.XNG('xbbl')">&nbsp;
+        <select id='Ori' name='Ori' title="Orientation" size=1>
+        <option selected>NW</option>
+        <option>N</option>
+        <option>NE</option>
+        <option>E</option>
+        <option>SE</option>
+        <option>S</option>
+        <option>SW</option>
+        <option>W</option>
+        <option>C</option>
+        </select>&nbsp;
+        <input id='ElX' name='ElX' size=4 value="0.8">&nbsp;
+        <input id='ElY' name='ElY' size=4 value="0.2">&nbsp;
+        <input type=button class=minibutton value="Bbl.Off"
+        title="Highlight the current DOM element"
+        onclick="var x=window.dgo2;x&&x.XNG('off')">
+    </td>
+    <td align=right><input type=button class=button value="Frame Props"
+        title="Property tree of current DOM frame"
+        onclick="var x=window.dgo2;x&&x.x4z()">
+    </td>
+</tr>
+<tr><td class=prompt>HTML Context:</td>
+    <td colspan=2 class=promptline>
+        <input type=button class=button value=" SimpleEP "
+         onclick="var x=window.dgo2;x&&x.xiG()">
+        &nbsp;Debug&nbsp;
+        <input type=checkbox
+         onclick="var x=window.dgo2;x&&x.show('debug',this.checked)">
+    </td>
+<tr><td colspan=3>
+    <textarea id='HTML' name='HTML' cols=95 rows=8></textarea></td>
+</tr>
+<tr><td colspan=3><div id='DebugEep+Geo'>
+  <p>Element Path (with extension):</p>
+  <textarea id='EEP' name='EEP' cols=100 rows=16></textarea>
+  <p>Geometry (offset, client, scroll):&nbsp;
+    <input id='X' name='X' size=5>&nbsp;<input id='Y' name='YX' size=5>
+  </p>
+  <textarea id='OFF' name='OFF' cols=100 rows=8></textarea>
+  </div></td>
+</tr>
+
+
+
+<tr><td class=prompt>Tree:</td>
+    <td colspan=2 class=promptline>
+    <input type=submit class=button value=" Node Eval ">&nbsp;
+    <input id='EXPR' size=80>
+    </td>
+</tr>
+</table></form>
+<div id='TREE'>
+</div>
+<iframe width=600 height=150 id='TESTIFRAME' name='TESTIFRAME' src="about:blank" frameborder=0 scrolling=no style="display: none;">
+</iframe>
+</body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

@@ -1,0 +1,250 @@
+﻿# German text atoms
+# Base tokens
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	"datango"
+TOK_LIB;	"@{TOK_COMPANY} Kurs"
+TOK_TOUR;	"@{TOK_COMPANY} Lerneinheit"
+TOK_TRAINER;	"@{TOK_COMPANY} trainer"
+
+# Key names
+ALTKEY;	"alt"
+CTRLKEY;	"strg"
+LEFTALTKEY;	"alt (links)"
+LEFTCTRLKEY;	"strg (links)"
+LEFTSHIFTKEY;	"umschalt (links)"
+ON;	"an"
+OFF;	"aus"
+RIGHTALTKEY;	"alt (rechts)"
+RIGHTCTRLKEY;	"strg (rechts)"
+RIGHTSHIFTKEY;	"umschalt (rechts)"
+SHIFTKEY;	"umschalt"
+
+# trainer states
+TOK_BUFFERING;	"Audio lädt ... "
+TOK_CONNECTING;	"Verbinden ... "
+TOK_IDLE;	""
+TOK_LMS;	"Ergebnis schreiben ..."
+TOK_OPENING;	"Verbinden ... "
+TOK_OPEN;	""
+TOK_PAUSED;	"Pause"
+TOK_PLAYING;	"Läuft"
+TOK_READY;	"Bereit"
+TOK_USERINPUT;	"Eingabe"
+TOK_WAITING;	"Seite lädt ... "
+
+# Display errors
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Framesets können hier nicht angezeigt werden.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">Documente mit IFRAMEs können hier nicht angezeigt werden.</span>"
+
+# Popupblocker errors
+TOK_POPUPBLOCKER_EXC;	"Ein Popup Blocker verhindert das Abspielen der Lerneinheit."
+TOK_POPUPBLOCKER_CONFIRM;	"Ein Popup Blocker hat das Öffnen eines neuen Browserfensters verhindert.@{NEWLINE}@{NEWLINE}OK: Sie können fortsetzen, weil Sie den Popup Blocker@{NEWLINE}    für den Webserver ausgeschaltet haben.@{NEWLINE}Abbrechen: Die Lerneinheit wird beendet."
+
+# Security setting errors
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Eine Sicherheitseinstellung des Internet Explorer@{NEWLINE}verhindert die Darstellung der @{TOK_TOUR}.@{NEWLINE}Lassen Sie bitte@{NEWLINE}""Script initiierte Fenster ohne Größen- und Positionseinschränkungen""@{NEWLINE}zu!"
+
+# Other messages
+TOK_CLOSE_TASK;	"@{TIP_TASK} schließen"
+
+# Standard errors
+TOK_COULD_NOT_READ_EXC;	"@1 ""@2"" konnte nicht gelesen werden."
+TOK_COULD_NOT_READ2_EXC;	"@1 ""@2"" konnte nicht gelesen werden: @3"
+
+# Form texts
+TOK_CLOSE;	"Schließen"
+TOK_DIR;	"Verzeichnis"
+TOK_ERROR;	"Fehler"
+TOK_EXIT;	"Beenden"
+TOK_OPEN;	"Öffnen"
+TOK_SEARCH;	"Suchen"
+TOK_START;	"Start"
+TOK_START_TOUR;	"@{TOK_TOUR} starten"
+TOK_STOP;	"Stopp"
+
+# Library
+TOK_LIB_BTN_LESS;	"weniger..."
+TOK_LIB_BTN_MORE;	"mehr..."
+TOK_LIB_EMPTY;		"Leeres Element"
+TOK_LIB_FLAG_DESC;	"Beschreibung durchsuchen"
+TOK_LIB_FLAG_KEEP_OPEN;	"Kursstruktur geöffnet lassen"
+TOK_LIB_FLAG_NEWWIN;	"In einem neuen Fenster"
+TOK_LIB_FLAG_TITLE;	"Titel durchsuchen"
+TOK_LIB_RESET;		"Suchergebnisse löschen"
+TOK_LIB_VAL_NOFILTER; "Kein Filter"
+
+# Mimetypes
+MIME_TEXT_PDF;		"PDF - Adobe Acrobat Format"
+MIME_APP_MSWORD;	"Winword Dokument"
+MIME_APP_EXCEL;		"Excel Arbeitsblatt"
+MIME_APP_PPT;		"Powerpoint Folien"
+MIME_APP_OOFF;		"OpenOffice Dokument"
+MIME_APP_OOFFWRITE;	"OpenOffice Text"
+MIME_APP_OOFFCALC;	"OpenOffice Kalkulation"
+MIME_APP_OOFFIMPRESS;	"OpenOffice Präsentation"
+MIME_APP_OOFFMATH;	"OpenOffice Formeln"
+MIME_AUDIO;			"Klang"
+MIME_VIDEO;			"Video"
+MIME_TEXT_HTML;		"Webseite"
+MIME_TEXT;			"Text Dokument"
+MIME_APP_DGO;		"@{TOK_COMPANY} Lerneinheit"
+MIME_APP_DGO_DEMO;			"@{TOK_COMPANY} Demo"
+MIME_APP_DGO_PRACTISE;		"@{TOK_COMPANY} Übung"
+MIME_APP_DGO_TEST;			"@{TOK_COMPANY} Test"
+MIME_APP_DGO_CONCURRENT;	"@{TOK_COMPANY} Lerneinheit Praxismodus"
+MIME_UNKNOWN;		"@{TOK_LIB_UNKNOWN}"
+
+# Tooltips
+TIP_PLAY;	"Fortsetzen (F8); Mit ""Alt"": Neu starten"
+TIP_PAUSE;	"Anhalten (PAUSE); Mit ""Umsch"": Audioqualität erhöhen; Mit ""Alt"": Audio-Bandbreite sparen"
+TIP_STOP;	"Beenden (F12); Mit ""Umsch"": Version anzeigen"
+TIP_NEXT;	"Nächstes Kapitel (ALT-Runter)"
+TIP_BACK;	"Voriges Kapitel (ALT-Rauf); Mit ""Alt"": Kurs anzeigen"
+TIP_MAXBUBBLE;	"Textbubble wiederherstellen"
+TIP_MINBUBBLE;	"Textbubble minimieren"
+TIP_CLOSEBUBBLE;	"Textbubble entfernen"
+TIP_ENABLED;	""
+TIP_DISABLED;	"(jetzt nicht möglich)"
+TIP_TASK;	"Aufgabenstellung"
+TIP_HELPBUBBLE;	"Ja, Hilfe annehmen"
+TIP_GOONBUBBLE;	"Weiter zum nächsten Schritt"
+TOK_OK;	"O.K."
+
+# Simple trainer Bracepages
+TOK_BP_CLOSEWINDOW;	"Fenster schließen"
+TOK_BP_GOBACK;		"Zurück"
+TOK_BP_GOON;		"Weiter"
+TOK_BP_JSCONSOLE;	"Javascript Meldungen"
+TOK_BP_MODE;		"Modus"
+TOK_BP_PARAMETER;	"Parameter"
+TOK_BP_RESTARTPROGRAM;	"Programm wiederholen"
+TOK_BP_STARTANOTHER;	"Anderes Programm starten"
+TOK_BP_VALUE;		"Wert"
+
+# Exercise colors
+EXER_COLOR_ERROR;	"rot markiert"
+EXER_COLOR_CLICK;	"grün markiert"
+EXER_COLOR_DBLCLICK;	"gelb markiert"
+EXER_COLOR_RCLICK;	"türkis markiert"
+EXER_COLOR_MCLICK;  "orange markiert"
+EXER_COLOR_CHANGE;	"grün unterstrichen"
+EXER_COLOR_DRAG;	"blau markiert"
+EXER_COLOR_DROP;	"braun markiert"
+
+# Exercises
+EXER_AND;	@{NEWLINE}und@{NEWLINE}
+EXER_FAIL0;	"Die von Ihnen durchgeführte Aktion war leider falsch."
+EXER_FAIL1;	"Die von Ihnen durchgeführte Aktion war leider falsch. 1 Punkt wird von Ihrem Endergebnis abgezogen. Für diese Aktion verbleibende Punkte: @1_rest-points_."
+EXER_FAIL2;	"Die von Ihnen durchgeführte Aktion war leider falsch. @1_points-penalty_ Punkte werden von Ihrem Endergebnis abgezogen. Für diese Aktion verbleibende Punkte: @2_rest-points_."
+EXER_FAIL_ASK4HELP;	"@{NEWLINE}@{NEWLINE}Brauchen Sie Hilfe?"
+
+EXER_FAILCHANGE;	"Sie haben ein unzulässiges Feld geändert.@{NEWLINE}"
+EXER_FAILCHANGE_HELP;	"Das geänderte Feld ist @{EXER_COLOR_ERROR}.@{NEWLINE}Alle Eingabefelder, die geändert werden dürfen, sind @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE_NOMARK_HELP;	"Alle Eingabefelder, die geändert werden dürfen, sind @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_HELP;	"Das Ändern von Eingabefelder ist zurzeit nicht erlaubt.@{NEWLINE}Das geänderte Feld ist @{EXER_COLOR_ERROR}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"Das Ändern von Eingabefeldern ist unzulässig."
+
+EXER_FAILCLICK;	"Sie haben in einem unzulässigen Bereich einen Klick durchgeführt.@{NEWLINE}"
+EXER_FAILCLICK_HELP;	"Der geklickte Bereich ist @{EXER_COLOR_ERROR}.@{NEWLINE}Alle zulässigen Knöpfe sind @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK_NOMARK_HELP;	"Alle zulässigen Knöpfe sind @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_HELP;	"Ein Klick ist zurzeit nirgendwo zulässig.@{NEWLINE}Der geklickte Bereich ist @{EXER_COLOR_ERROR}."
+EXER_FAILCLICK0_NOMARK_HELP;	"Ein Klick ist unzulässig."
+
+EXER_FAILDRAG;	"Sie haben in einem unzulässigen Bereich eine Drag-Operation durchgeführt.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"Der Bereich ist @{EXER_COLOR_ERROR}.@{NEWLINE}Alle zulässige Bereiche sind @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"Alle zulässige Bereiche sind @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"Eine Drag-Operation ist zurzeit nirgendwo zulässig.@{NEWLINE}Der Bereich ist @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"Eine Drag-Operation ist unzulässig."
+
+EXER_FAILDROP;	"Sie haben in einem unzulässigen Bereich eine Drop-Operation durchgeführt.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"Der Bereich ist @{EXER_COLOR_ERROR}.@{NEWLINE}Alle zulässige Bereiche sind @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (Wenn keine Drag-Bereiche zur Verfügung stehen, dürfen Sie auf die Drop-Elemente clicken)."
+EXER_FAILDROP_NOMARK_HELP;	"Alle zulässige Bereiche sind @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"Eine Drop-Operation ist zurzeit nirgendwo zulässig.@{NEWLINE}Der Bereich ist @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"Eine Drop-Operation ist unzulässig."
+
+EXER_FAILDBLCLICK;	"Sie haben in einem unzulässigen Bereich einen Doppelklick durchgeführt.@{NEWLINE}"
+EXER_FAILDBLCLICK_HELP;	"Der Bereich, in dem der Doppelklick durchgeführt wurde, ist @{EXER_COLOR_ERROR}.@{NEWLINE}Alle für einen Doppelklick zulässigen Knöpfe sind @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK_NOMARK_HELP;	"Alle für einen Doppelklick zulässigen Knöpfe sind @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_HELP;	"Ein Doppelklick ist zurzeit nirgendwo zulässig.@{NEWLINE}Der geklickte Bereich ist @{EXER_COLOR_ERROR}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"Ein Doppelklick ist unzulässig."
+
+EXER_FAILRCLICK;    "Sie haben in einem unzulässigen Bereich einen Rechtsklick durchgeführt.@{NEWLINE}"
+EXER_FAILRCLICK_HELP;   "Der Bereich, in dem der Rechtsklick durchgeführt wurde, ist @{EXER_COLOR_ERROR}.@{NEWLINE}Alle für einen Rechtsklick zulässigen Knöpfe sind @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK_NOMARK_HELP;    "Alle für einen Rechtsklick zulässigen Knöpfe sind @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_HELP;  "Ein Rechtsklick ist zurzeit nirgendwo zulässig.@{NEWLINE}Der geklickte Bereich ist @{EXER_COLOR_ERROR}."
+EXER_FAILRCLICK0_NOMARK_HELP;   "Ein Rechtsklick ist unzulässig."
+
+EXER_FAILMCLICK;    "Sie haben in einem unzulässigen Bereich mit der mittleren Maustaste geklickt.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   "Der Bereich, in dem mit der mittleren Maustaste gecklickt wurde, ist @{EXER_COLOR_ERROR}.@{NEWLINE}Alle für einen mittlere Maustaste Klick zulässigen Knöpfe sind @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK_NOMARK_HELP;    "Alle für einen mittlere Maustaste Klick zulässigen Knöpfe sind @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  "Ein mittlere Maustaste Klick ist zurzeit nirgendwo zulässig.@{NEWLINE}Der geklickte Bereich ist @{EXER_COLOR_ERROR}."
+EXER_FAILMCLICK0_NOMARK_HELP;   "Ein Klick mit der mittleren Maustaste ist unzulässig."
+
+EXER_FAILKEY_HELP0;	"Sie haben eine falsche Taste gedrückt."
+EXER_FAILKEY_HELP1;	"Sie haben ""@1_key_"" gedrückt!"
+EXER_FAILKEY_HELP2;	"@{NEWLINE}Zulässige Funktionstasten sind:@{NEWLINE}@1_keys_"
+EXER_HINT_ADDITIONALLY_VALID;	"@{NEWLINE}@{NEWLINE}Ebenfalls zulässige Aktionen sind:"
+EXER_HINT_CHANGABLE_MARKED;	"@{NEWLINE}@{BULLET} Feldänderung (@{EXER_COLOR_CHANGE})"
+EXER_HINT_CLICK_MARKED;	"@{NEWLINE}@{BULLET} Klick (Knöpfe sind @{EXER_COLOR_CLICK})"
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elemente sind @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elemente sind @{EXER_COLOR_DROP})"
+EXER_HINT_DBLCLICK_MARKED;	"@{NEWLINE}@{BULLET} Doppelklick (@{EXER_COLOR_DBLCLICK})"
+EXER_HINT_HELPCANCELS;	"@{NEWLINE}(Hinweis: Alle Punkte für diese Aktion werden von Ihrem Endergebnis abgezogen)"
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Drücken der Funktionstasten@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	"@{NEWLINE}@{NEWLINE}Zulässige Aktionen sind:"
+EXER_HINT_RCLICK_MARKED;	"@{NEWLINE}@{BULLET} Rechtsklick (@{EXER_COLOR_RCLICK})"
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Mittelklick (@{EXER_COLOR_MCLICK})"
+EXER_HINT_WOULDGOON;	"@{NEWLINE}(Hinweis: Andernfalls erfolgt automatische Fortsetzung)"
+EXER_HINT_YOURINPUT;	"Sie haben ""@1_input_"" eingegeben.@{NEWLINE}"
+EXER_OR;	"@{NEWLINE}oder@{NEWLINE}"
+
+# StandardMacros.xml
+MSG_OPTIONFIELD_DESELECT;	"Bitte deselektieren Sie die Option ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"Bitte selektieren, bzw. deselektieren Sie die Option ""@1""!"
+MSG_SCORE;	"Erreichte Punktzahl: ""@1""."
+MSG_SINGLE_SELECT;	"Bitte wählen Sie den Eintrag ""@1"" aus!"
+MSG_TEXTINPUT;	"Bitte geben Sie ""@1"" in das Eingabefeld ""@2"" ein!"
+MSG_TRANSACTIONCODE;	"Bitte geben Sie die den korrekten Transaktionscode ""@1"" ein!"
+
+# Producer Bracepages
+capDemoStart;	Demo-Modus 
+msgDemoStart1;	"Im Demo-Modus können Sie die Erledigung einer Aufgabe in der Anwendung beobachten. Folgen Sie einfach der Vorführung, alle Schritte werden automatisch ausgeführt."
+msgDemoStart2;	Mit der Navigationsleiste am unteren Rand können Sie die Vorführung unterbrechen oder anhalten. Sie können außerdem vorwärts zum nächsten und rückwärts zum vorherigen Schritt springen.
+msgDemoStop;	Der Demo-Modus wurde beendet.
+
+capConcurrentStart;	Praxis-Modus
+msgConcurrentStart1;	Im Praxis-Modus erhalten Sie eine Schritt-für-Schritt-Anleitung für das Erledigen einer Aufgabe in der Applikation. 
+msgConcurrentStart2;	"Nach jedem Schritt wird die Vorführung unterbrochen, damit Sie den gezeigten Schritt in der Applikation nachvollziehen können. "
+msgConcurrentStop;	Der Praxis-Modus wurde beendet.
+
+capTestStart;	Test-Modus
+msgTestStart1;	"Im Test-Modus können Sie Ihre Kenntnisse testen, indem Sie selbst eine Aufgabe mit der Anwendung lösen. Außer den einzugebenden Beispieldaten werden Sie keine Arbeitsschritt-bezogenen Anweisungen erhalten. Die gesamte Aufgabe wird im Aufgabenfenster beschrieben, das Sie nach Bedarf mit Hilfe der Schaltflächen in der Titelleiste vergrößern oder verkleinern können."
+msgTestStart2;	"Am Ende des Tests werden Sie eine Bewertung auf der Basis der erfolgreich ausgeführten Schritte erhalten. Diese Bewertung dient lediglich Ihrer Selbsteinschätzung, die Daten werden weder gespeichert noch übermittelt."
+msgTestStart3;	"Bitte führen Sie Ihre Aktionen sehr sorgfältig aus, da das System alle Schreibfehler und falschen Klicks registriert und die Bewertung entsprechend reduziert. Wenn Sie sich entscheiden, für einen Schritt Hilfe anzufordern, so verlieren Sie alle für diesen Schritt vorgesehenen Punkte."
+msgTestStart4;	"Ihre Bewertung wird am Ende des Tests angezeigt, versuchen Sie bitte das Ziel von @{res_mastery_percent}% zu erreichen."
+capTestOk;	Test bestanden
+capTestFailed;	Test nicht bestanden
+msgTestFailed1;	"Da Sie weniger als @{res_mastery_percent}% der möglichen Punkte erreicht haben, empfehlen wir, den Inhalt dieses Kurses noch einmal durchzugehen und danach Ihr Wissen noch einmal im Test-Modus zu überprüfen"
+msgTestFinished2;	Dieser Test diente ausschließlich Ihrer Selbsteinschätzung. Die Ergebnisse werden weder aufgezeichnet noch an dritte übermittelt.
+msgTestOk1;	"Herzlichen Glückwunsch, Sie haben diese Aufgabe erfolgreich absolviert."
+msgTestResult;	Ergebnis
+msgTestScore;	Erreichte Punktzahl
+msgTestScoreValue;	@{res_collected_points} von @{res_possible_points}
+
+capPracticeStart;	Übungs-Modus
+msgPracticeStart1;	"Im Übungs-Modus können Sie das Gelernte ausprobieren, indem Sie die Aufgabe innerhalb der Applikation selbst lösen."
+msgPracticeStart2;	Folgen Sie einfach der Schritt-für-Schritt-Anleitung.
+msgPracticeStop;	Der Übungs-Modus wurde beendet
+
+MSG_WILLAUTOCLOSE;  "Auf Grund von Inaktivität, schließt sich die Lerneinheit selbstständig in @1 Sek. Um dies abzubrechen, bewegen Sie bitte den Mauszeiger innerhalb des Fensters."
+
+quizScoreReached;   "Erreichte Punktzahl: "
+quizScorePass;  "Notwendige Punktzahl: "
+quizScoreMax;   "Maximale Punktzahl: "
+quizItemName;   Quiz Name
+quizSolutions;  Lösungen
+quizResult; Ergebnis
+quizPoints; Punkte
+
+# eof	

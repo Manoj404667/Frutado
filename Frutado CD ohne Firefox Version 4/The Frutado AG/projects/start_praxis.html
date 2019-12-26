@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="bracepage.css">
+<link rel="stylesheet" type="text/css" dgohref="trainer:projects/bracepage.css">
+<head>
+  <title>${capConcurrentStart}</title>
+
+<script language=javascript>
+
+function splitUrlParams() {
+    var temp = new String(window.location.search);
+
+    if (temp.substr(0, 1) == '?') {
+        temp = temp.substr(1);
+    }
+
+    var urlParams = [];
+
+    if (temp.length && temp.length > 0) {
+        urlParams = temp.split('&');
+    }
+    var urlParamsAsoc = [];
+    for (var i = 0; i < urlParams.length; i++) {
+        var urlParam = urlParams[i].split('=');
+    urlParamsAsoc[urlParam[0]] = urlParam[1];
+    }
+    return urlParamsAsoc;
+}
+
+var urlParams = splitUrlParams();
+var dgoDOMAIN = urlParams['dgoDOMAIN'] || '';
+
+</script>
+
+</head>
+
+<script language=javascript>
+
+// Extract trainer URL from bracepage URL.
+// 1. Take "restart" URL param
+// 2. Take current URL
+// Return result als string (in any case).
+
+var Templater_getBaseUrl_Re_ = /[?&]/;
+var Tourlink, BaseUrl;
+
+function Templater_setUrls_(paramName_) {
+    var paramName = paramName_ || '';
+    var url = self.location.href + '';
+    var pos = url.indexOf('?');
+    var tourlink = null;
+    var base = null;
+
+    if (pos >= 0 /*URL params*/ && paramName) {
+        var params = url.split(Templater_getBaseUrl_Re_);
+        var i, l, param;
+
+        for (i = 0, l = params.length; i < l && !tourlink; ++i) {
+            param = params[i].split('=', 2);
+
+            if (param[0] == paramName_) {
+                tourlink = unescape(param[1]);
+            }
+        }
+    }
+
+    // Missing URL parameter(s): tourlink is still empty.
+    base = tourlink || url; 
+
+    // Remove URL param.
+    pos = base.indexOf('?');
+    (pos >= 0) && (base = base.substr(0, pos));
+
+    if (tourlink) {
+        // Remove optional "file.ext", but keep directory slash.
+        pos = base.lastIndexOf('/');
+        (pos >= 0) && (base = base.substr(0, pos + 1));
+        Tourlink = tourlink;
+    }
+    else {
+        // Go up one dir level on missing URL parameter assuming
+        // we're in the 'projects' subdir.
+        pos = base.lastIndexOf('/');
+        (pos >= 0) && (base = base.substr(0, pos));
+        // Remove directory name, but keep slash '/'.
+        pos = base.lastIndexOf('/');
+        (pos >= 0) && (base = base.substr(0, pos + 1));
+        Tourlink = base ;
+    }
+
+    BaseUrl = base;
+    return true;
+}
+
+Templater_setUrls_('restart');
+
+self.document.write(
+    '<script src="' + BaseUrl + 'templater.js" language=javascript><' + '/script>');
+
+function TemplaterApply_(url_) {
+    try {
+        var tpl = new Templater(Templater_OPTIONS_NONE);
+    } catch (e) {
+        TemplaterMakeVisible_();
+        return false;
+    }
+
+    if (!tpl.cfg_initConfig(url_, self, null, TemplaterInitReady_)) {
+        /*DBG alert('tpl.initConfig(' + url_ + ') error:\n\r' + tpl.cfg_error); /**/
+        TemplaterMakeVisible_();
+        return false;
+    }
+
+    return true;
+}
+
+function TemplaterInitReady_(tpl_) {
+    TemplaterMakeVisible_();
+
+    if (!tpl_.cfg_ok) {
+        /*DBG alert('tpl.initConfig() cb error:\n\r' + tpl_.cfg_error); /**/
+        return false;
+    }
+
+    if (!tpl_.cfg_apply(self, Templater_OPTIONS_NONE)) {
+        /*DBG alert('tpl.apply() error:\n\r' + tpl_.cfg_error); /**/
+        return false;
+    }
+
+    // Templater Log, if necessary
+    var log = self.document.getElementById('logging');
+    log && log.appendChild(self.document.createTextNode(tpl_.cfg_getLog()));
+    return true;
+}
+
+function TemplaterMakeVisible_() {
+    self.document.body.style.visibility = 'visible';
+    if (dgoDOMAIN != '') {
+        if (self.location.protocol == 'http:' ||
+            self.location.protocol == 'https:') 
+        {
+            self.document.domain = dgoDOMAIN;
+        }
+    }
+    self.document.body.focus();    
+} 
+
+function onload_handler() {
+    return TemplaterApply_(Tourlink);
+}
+
+function start_tour() {
+    document.getElementById('pause').value = 2;
+}
+
+</script>
+
+<body onkeyup="start_tour()" class="start" onload="return onload_handler();" style="visibility:hidden;">
+<input id="pause" type="hidden" name="DATANGO_MEDIASELECTOR" value="-1">
+<center>
+<table class="textarea" border=1 width=360 cellspacing=3 cellpadding=6 style="position:relative;top:80;font-size:10pt;font-weight:bold;border-color:#000000;">
+<tr class="titlebar" style="font-size:10pt;font-weight:bold">
+    <td border=2 colspan=2>${capConcurrentStart}</td>
+</tr>
+<tr>
+    <td colspan=2 style="border:0px">${msgConcurrentStart1}<br><br>${msgConcurrentStart2}<br>
+    <br><br><div align="right"><a href="javascript:start_tour()"><img border="0" src="../resource/next_red.int.gif"></a><span>
+    </td>
+</tr>
+</table>
+</center>
+
+</body>
+</html>

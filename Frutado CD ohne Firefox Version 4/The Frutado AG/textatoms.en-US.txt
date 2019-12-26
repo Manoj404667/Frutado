@@ -1,0 +1,250 @@
+﻿# English text atoms
+# Base tokens
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	@{TOK_COMPANY} Course
+TOK_TOUR;	@{TOK_COMPANY} Lesson
+TOK_TRAINER;@{TOK_COMPANY} trainer
+
+# Key names
+ALTKEY;	Alt
+CTRLKEY;	Ctrl
+LEFTALTKEY;	Alt (left)
+LEFTCTRLKEY;	Ctrl (left)
+LEFTSHIFTKEY;	Shift (left)
+ON;	on
+OFF;	off
+RIGHTALTKEY;	Alt (right)
+RIGHTCTRLKEY;	Ctrl (right)
+RIGHTSHIFTKEY;	Shift (right)
+SHIFTKEY;	Shift
+
+# trainer states
+TOK_BUFFERING;	Sound loading...
+TOK_CONNECTING;	Connect...
+TOK_IDLE;	
+TOK_LMS;	Write result...
+TOK_OPENING;	Connect...
+TOK_OPEN;	
+TOK_PAUSED;	Pause
+TOK_PLAYING;	Playing
+TOK_READY;	Ready
+TOK_USERINPUT;	Input
+TOK_WAITING;Page loading...
+
+# Display errors
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Framesets cannot be shown here.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">Documents with IFRAMEs cannot be shown here.</span>"
+
+# Popupblocker errors
+TOK_POPUPBLOCKER_EXC;	A popup blocker is preventing the lesson from playing.
+TOK_POPUPBLOCKER_CONFIRM;	A popup blocker has prevented a new browser window from opening.@{NEWLINE}@{NEWLINE}OK: You can continue now that you have switched off the popup blocker@{NEWLINE}    for the webserver.@{NEWLINE}Cancel: The lesson is being finished.
+
+# Security setting errors
+TOK_SECURITY_WINDOW_POSITION_EXC;	"An Internet Explorer security setting\n\ris preventing the display of @{TOK_TOUR}.\nPlease enable \n""Allow script-initiated windows without size or position constraints""!"
+
+# Standard errors
+TOK_COULD_NOT_READ_EXC;	"@1 ""@2"" could not be read."
+TOK_COULD_NOT_READ2_EXC;	"@1 ""@2"" could not be read: @3"
+
+# Form texts
+TOK_CLOSE;	Close
+TOK_DIR;	Directory
+TOK_ERROR;	Error
+TOK_EXIT;	Exit
+TOK_OPEN;	Open
+TOK_SEARCH;	Search
+TOK_START;	Start
+TOK_START_TOUR;	@{TOK_TOUR} start
+TOK_STOP;	Stop
+
+# Library
+TOK_LIB_BTN_LESS;	less...
+TOK_LIB_BTN_MORE;	more...
+TOK_LIB_EMPTY;	Empty component
+TOK_LIB_FLAG_DESC;	Search description
+TOK_LIB_FLAG_KEEP_OPEN;	Leave course structure open
+TOK_LIB_FLAG_NEWWIN;	In a new window
+TOK_LIB_FLAG_TITLE;	Search title
+TOK_LIB_RESET;	Delete search results
+TOK_LIB_VAL_NOFILTER; no filter
+
+# Mimetypes
+MIME_TEXT_PDF;	PDF - Adobe Acrobat format
+MIME_APP_MSWORD;	Word document
+MIME_APP_EXCEL;	Excel spreadsheet
+MIME_APP_PPT;	Powerpoint slides
+MIME_APP_OOFF;	OpenOffice document
+MIME_APP_OOFFWRITE;	OpenOffice text
+MIME_APP_OOFFCALC;	OpenOffice spreadsheet
+MIME_APP_OOFFIMPRESS;	OpenOffice presentation
+MIME_APP_OOFFMATH;	OpenOffice math formulas
+MIME_AUDIO;	Audio
+MIME_VIDEO;	Video
+MIME_TEXT_HTML;	Web page
+MIME_TEXT;	Text document
+MIME_APP_DGO;	@{TOK_COMPANY} Lesson
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} Practice
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} Test
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} Lesson Concurrent Mode
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips
+TIP_PLAY;"Continue (F8);	 Start again with ""Alt"": "
+TIP_PAUSE;"Stop (PAUSE);	 Increase audio quality with ""Shift"": Save audio-bandwidth with ""Alt"":"
+TIP_STOP;"Exit (F12);	 Display version with ""Shift"": "
+TIP_NEXT;	Next chapter (ALT-down)
+TIP_BACK;	"Previous chapter (ALT-up); Display course with ""Alt"":"
+TIP_MAXBUBBLE;	Restore text bubble
+TIP_MINBUBBLE;	Minimise text bubble
+TIP_CLOSEBUBBLE;	Remove text bubble
+TIP_ENABLED;	
+TIP_DISABLED;	(not possible now)
+TIP_TASK;	Task
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+TOK_OK;	"O.K."
+
+# Bracepages
+TOK_BP_CLOSEWINDOW;	Close window
+TOK_BP_GOBACK;	Back
+TOK_BP_GOON;	Next
+TOK_BP_JSCONSOLE;	Javascript messages
+TOK_BP_MODE;	Mode
+TOK_BP_PARAMETER;	Parameters
+TOK_BP_RESTARTPROGRAM;	Repeat program
+TOK_BP_STARTANOTHER;	Start new program
+TOK_BP_VALUE;	Value
+
+# Exercise colors
+EXER_COLOR_ERROR;	marked red
+EXER_COLOR_CLICK;	marked green
+EXER_COLOR_DBLCLICK;	marked yellow
+EXER_COLOR_RCLICK;	marked turquoise
+EXER_COLOR_MCLICK; marked orange
+EXER_COLOR_CHANGE;	underlined in green
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises
+EXER_AND;	@{NEWLINE}and@{NEWLINE}
+EXER_FAIL0;	"The action you performed was incorrect."
+
+EXER_FAIL1;	"The action you performed was incorrect. 1 point is deducted from your overall score. Points left for this action: @1_rest-points_."
+EXER_FAIL2;	"The action you performed was incorrect. @1_points-penalty_ points are deducted from your overall score. Points left for this action: @2_rest-points_ points."
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Do you need help?
+
+EXER_FAILCHANGE;	"You edited a wrong field.@{NEWLINE}"
+EXER_FAILCHANGE_HELP;	"The edited field is @{EXER_COLOR_ERROR}.@{NEWLINE}All entry fields which are allowed to be edited are @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE_NOMARK_HELP;	"All valid input fields are @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_HELP;	Editing entry fields is not allowed at this point.@{NEWLINE}The edited field is @{EXER_COLOR_ERROR}.
+EXER_FAILCHANGE0_NOMARK_HELP;	"No valid input fields."
+
+EXER_FAILCLICK;	"You clicked a wrong button.@{NEWLINE}"
+EXER_FAILCLICK_HELP;	The area clicked is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which can be clicked are @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons are @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_HELP;	Clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation possible."
+
+EXER_FAILDBLCLICK;	"You double-clicked a wrong area.@{NEWLINE}"
+EXER_FAILDBLCLICK_HELP;	The double-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be double-clicked are @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All valid double-click buttons are @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_HELP;	Double-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"Double-click is not valid."
+
+EXER_FAILRCLICK;	"You right-clicked a wrong area.@{NEWLINE}"
+EXER_FAILRCLICK_HELP;	The right-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be right-clicked are @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK_NOMARK_HELP;	"All valid right-click buttons are @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_HELP;	Right-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK0_NOMARK_HELP;	"Right-click is not valid."
+
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+EXER_FAILKEY_HELP0;	You have pressed a wrong key.
+EXER_FAILKEY_HELP1;	"You pressed the ""@1_key_"" key."
+EXER_FAILKEY_HELP2;	@{NEWLINE}Function keys which can be used are:@{NEWLINE}@1_keys_
+
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}Further actions permitted are:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Edit (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Click (Buttons are @{EXER_COLOR_CLICK})
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Double-click (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Note: All points for this action will be deducted from your final score)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Pressing the function keys@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Actions permitted are:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Right-click (@{EXER_COLOR_RCLICK})
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Note: Otherwise continued automatically)
+EXER_HINT_YOURINPUT;	"You have entered ""@1_input_"".@{NEWLINE}"
+EXER_OR;	@{NEWLINE}or@{NEWLINE}
+
+# StandardMacros.xml
+MSG_OPTIONFIELD_DESELECT;	"Please deselect option ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"Please select or deselect option ""@1""!"
+MSG_SCORE;	"score achieved: ""@1""."
+MSG_SINGLE_SELECT;	"Please select entry ""@1""!"
+MSG_TEXTINPUT;	"Please enter ""@1"" in the entry field ""@2""!"
+MSG_TRANSACTIONCODE;	"Please enter the correct transaction code ""@1""!"
+
+# Producer bracepages
+capDemoStart;	Demo Mode
+msgDemoStart1;	"In Demo Mode you can watch the completion of an activity within the application. You can simply follow the demo, while all actions are carried out automatically. "
+msgDemoStart2;	By using the navigation bar at the bottom of your screen you can pause or stop the demo. You can also jump forward to the next or backward to the previous step.
+msgDemoStop;	Demo Mode finished
+
+capConcurrentStart;	Concurrent Mode
+msgConcurrentStart1;	Concurrent Mode shows you how to complete an activity within the application.
+msgConcurrentStart2;	The demo will pause after each step to give you the chance to complete the step in the real application.
+msgConcurrentStop;	Concurrent Mode finished
+
+capTestStart;	Test Mode
+msgTestStart1;	In Test Mode you can test your knowledge by completing an activity within the application by yourself: Apart from the sample data you have to enter you will not receive any step-by-step instructions. The task you have to complete is described in the task window that you can enlarge or minimize as needed using the buttons at the top of the task pane.
+msgTestStart2;	At the end of the test you will be scored based on the number of correctly completed steps. This scoring is for your self-assessment only and will not be further processed or stored!
+msgTestStart3;	"Please be very precise in your actions as the system will register any misspelled entries and wrong clicks and reduce your scoring accordingly. Remember to fill the required fields from top to bottom and from left to right. In case you click on a wrong field or enter an incorrect value, the system will display a warning message and your scoring will be reduced. If you choose to receive assistance from the system to complete the step, your scoring for this particular step will be set to zero. "
+msgTestStart4;	Your total score will be displayed at the end of the test. Please try to meet the target score of @{res_mastery_percent}% correctly completed steps.
+capTestOk;	Test passed
+capTestFailed;	Test failed
+msgTestFailed1;	Since you achieved less than @{res_mastery_percent}% we recommend that you go over the content covered by the training course once more and then test your knowledge again in the Test mode.
+msgTestFinished2;	This test was for your self-assessment only. The results will not be recorded or transmitted to anyone.
+msgTestOk1;	"Congratulations, you have succesfully completed the Activity."
+msgTestResult;	Result
+msgTestScore;	Score
+msgTestScoreValue;	@{res_collected_points} of @{res_possible_points}
+
+capPracticeStart;	Practice Mode
+msgPracticeStart1;	In Practice Mode you can try out what you have learned by completing a task within the application by yourself. 
+msgPracticeStart2;	You will receive step-by-step instructions that need to be followed.
+msgPracticeStop;	Practice Mode finished
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+# eof

@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+<title>Tour Links</title>
+</head>
+<body bgcolor="#FFFFB7">
+<span style="font-size:12px;font-family:Arial;">
+<h1>'Execute HEU_PLAN_STANDARDLOTS'</h1>
+<div>
+<IMG src="pages/header_e02.jpg"> 
+<P><FONT face=Verdana><FONT size=4><FONT face=verdana><STRONG><FONT size=5>Execute </FONT><FONT size=5>HEU_PLAN_STANDARDLOTS</FONT></STRONG></FONT><FONT face=Arial> </FONT></FONT></FONT></P>
+<P><FONT face=arial><FONT face=Arial size=3>You can use this heuristic, which is based on the algorithm HEU_PLAN_STANDARDLOTS, to execute procurement planning to cover product requirements. During procurement planning, the heuristic is able to create new receipts. To determine the procurement quantities, the heuristic uses the standard lot-sizing procedure and the lot size settings from the location product master or from the heuristic settings. </FONT></FONT></P>
+<P><FONT size=3>Procedure</FONT></P>
+<P><FONT size=3>1.&nbsp; The heuristic updates the pegging relationships and&nbsp;</FONT><FONT size=3>executes a net requirements calculation.</FONT></P>
+<P><FONT size=3>The heuristic does not consider not transfered SNP receipts* in the PP/DS horizon during the net requirements calculation; instead it deletes them. Transfered SNP receipts, on the other hand, are retained and are taken into consideration during the net requirements calculation.</FONT></P>
+<P><FONT size=3>2.&nbsp; The heuristic executes a procurement quantity calculation to create receipts for the uncovered requirements identified by the net requirements calculation.</FONT></P>
+<P><FONT size=3>3.&nbsp; If the receipt quantities that the heuristic calculates for an uncovered requirement exceed this requirement (e.g. because of fixed lot sizes), the heuristic pegs this surplus to&nbsp;the&nbsp;following requirement.</FONT></P>
+<P><FONT size=3>4.&nbsp; The heuristic executes a source determination (selecting a PPM and the mode) based on the procurement quantities and the desired availability dates.</FONT></P>
+<P><FONT size=3>5.&nbsp; The heuristic plans each newly created order on the resources and pegs it to receipts.</FONT></P>
+<P><FONT size=3>*: compare the SNP-lesson "Conversion of SNP2PPDS"</FONT></P>
+<P><FONT face=arial><FONT face=Arial><FONT size=3><IMG src="pages/separator_logo_e.g"> </FONT></FONT></FONT></div>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FPP%5FDS%2FPP%5FDS%5FProduction%2FHeuristic%5FRun%5F2%2FHeuristic%5FRun2%2Fdmf%2FHeuristic%5FRun2%5Fdemo%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Demo: Demo</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FPP%5FDS%2FPP%5FDS%5FProduction%2FHeuristic%5FRun%5F2%2FHeuristic%5FRun2%2Fdmf%2FHeuristic%5FRun2%5Fuebung%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Practice: Practice</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FPP%5FDS%2FPP%5FDS%5FProduction%2FHeuristic%5FRun%5F2%2FHeuristic%5FRun2%2Fdmf%2FHeuristic%5FRun2%5Ftest%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Test: Test</a><br><br>
+<br>
+</span>
+</body>
+</html>

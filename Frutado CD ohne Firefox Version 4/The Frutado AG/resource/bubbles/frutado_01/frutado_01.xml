@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BubbleStyle Name="frutado_01" DisplayName="FRUTADO_Dummy" Template="comic" TextStyle="StyleA" BorderColor="FFFFFF" BackgroundColor="FFFFFF" TitleBarColor="FFFFFF" ConstantAlpha="0" Version="2" BorderSize="1" SpikeDockWidth="20" SpikeLength="60" InnerHeight="9" CaptionBorder="1" UseGIFs="0">
+    <Margin left="10" top="12" right="10" bottom="10"/>
+    <ImageFragment id="corner_nw"/>
+    <ImageFragment id="corner_ne"/>
+    <ImageFragment id="corner_sw"/>
+    <ImageFragment id="corner_se"/>
+    <ImageFragment id="corner1_nw"/>
+    <ImageFragment id="corner1_ne"/>
+    <ImageFragment id="edge_n"/>
+    <ImageFragment id="edge_s"/>
+    <ImageFragment id="edge_w"/>
+    <ImageFragment id="edge_e"/>
+    <ImageFragment id="edge1_n"/>
+    <ImageFragment id="edge0_s"/>
+    <ImageFragment id="edge0_w"/>
+    <ImageFragment id="edge0_e"/>
+    <ImageFragment id="edge0_n"/>
+    <ImageFragment id="edge01_n"/>
+    <ImageFragment id="spike_nw"/>
+    <ImageFragment id="spike_n"/>
+    <ImageFragment id="spike_ne"/>
+    <ImageFragment id="spike_w"/>
+    <ImageFragment id="spike_e"/>
+    <ImageFragment id="spike_sw"/>
+    <ImageFragment id="spike_s"/>
+    <ImageFragment id="spike_se"/>
+    <ImageFragment id="spike1_nw"/>
+    <ImageFragment id="spike1_n"/>
+    <ImageFragment id="spike1_ne"/>
+    <ImageFragment id="mini"/>
+    <ImageFragment id="miniactive"/>
+    <ImageFragment id="connect_nw"/>
+    <ImageFragment id="connect1_nw"/>
+    <ImageFragment id="connect_n"/>
+    <ImageFragment id="connect1_n"/>
+    <ImageFragment id="connect_ne"/>
+    <ImageFragment id="connect1_ne"/>
+    <ImageFragment id="connect_w"/>
+    <ImageFragment id="connect_e"/>
+    <ImageFragment id="connect_sw"/>
+    <ImageFragment id="connect_s"/>
+    <ImageFragment id="connect_se"/>
+    <ImageFragment id="min">
+        <ClickRect left="-1" top="-1" right="-1" bottom="-1"/>
+    </ImageFragment>
+    <ImageFragment id="max"/>
+    <ImageFragment id="close">
+        <ClickRect left="-1" top="-1" right="-1" bottom="-1"/>
+    </ImageFragment>
+    <ImageFragment id="min_moz" offset_x="-2" offset_y="2"/>
+    <ImageFragment id="max_moz"/>
+    <ImageFragment id="close_moz" offset_x="-7" offset_y="2"/>
+    <ImageFragment id="sizer"/>
+</BubbleStyle>

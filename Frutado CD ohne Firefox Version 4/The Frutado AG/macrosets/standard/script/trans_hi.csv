@@ -1,0 +1,221 @@
+﻿click.demo	Deye   [B_NAME]   Hej efkeÌuekeÀ keÀjsW.
+click.prac	[B_NAME]   Hej efkeÌuekeÀ keÀjsW.
+click_img.demo	Deye   [B_NAME_ICON]   Hej efkeÌuekeÀ keÀjsW.
+click_img.prac	Deye   [B_NAME_ICON]   Hej efkeÌuekeÀ keÀjsW.
+click_cancel_trans_img.demo	[B_ICON_NAME]   GHej efkeÌuekeÀ  kesÀ  meeLe ìQ^Pe@keÌMeve efvejmle nes pee³es.
+click_cancel_trans_img.prac	\ ìQ^Pe@keÌMeve efvejmle nes peevekesÀ efue³es  [B_ICON_NAME]   Hej efkeÌuekeÀ  keÀjW.  
+click_back_img.demo	[B_ICON_NAME]   Hej efkeÌuekeÀ  kesÀ  meeLe DeeHe HetJe& HevvesHej Deeles nQ.
+click_back_img.prac	HetJe& HevvesHej Deeves kesÀ efue³es   [B_ICON_NAME]  Hej efkeÌuekeÀ  keÀjW.
+click_ok_img.demo	Deye   [B_ICON_NAME]   Hej efkeÌuekeÀ keÀjsW.
+click_ok_img.prac	\ [B_ICON_NAME]   Hej efkeÌuekeÀ keÀjsW.
+click_exit_trans_img.demo	\ [B_ICON_NAME]  GHej efkeÌuekeÀ  kesÀ  meeLe ìQ^Pe@keÌMeve  íes[les nQ.
+click_exit_trans_img.prac	\ ìQ^Pe@keÌMeve  íes[ves kesÀ efue³es  [B_ICON_NAME]   Hej efkeÌuekeÀ  keÀjW.  
+click_save_img.demo	[B_ICON_NAME]   GHej efkeÌuekeÀ  kesÀ  meeLe DeeHe FveHegì mesJn keÀjles nQ. 
+click_save_img.prac	FveHegì mesJn keÀjves kesÀ efueS  [B_ICON_NAME]  Hej efkeÌuekeÀ  keÀjW.
+click_checkbox_off.demo	[B_NAME]   yevo efkeÀ³ee peelee nw.
+click_checkbox_off.prac	\ [B_NAME]   Jnsu³egkeÀes yebo keÀjW.
+click_next_page_img.demo	\ [B_NAME_ICON]   GHej efkeÌuekeÀ kesÀ meeLe Deieuee Hevvee KeesueW.
+click_next_page_img.prac	\ [B_ NAME_ICON]   Hej efkeÌuekeÀ  keÀjW.  
+click_checkbox_on.demo	\ [B_NAME]    ®egve efue³ee peelee nw.
+click_checkbox_on.prac	[B_NAME]   Jnsu³egkeÀes  ®egveW.
+click_select_value.demo	[B_NAME]   Jnsu³eg  ®egve ueer peeleer nw.
+click_select_value.prac	[B_NAME]   Jnsu³egkeÀes  ®egveW.
+click_open_menu.demo	cesveg [B_NAME]   Keesuee peelee nw.
+click_open_menu.prac	cesveg  [B_NAME]    Keesefue³es.
+click_menu_select.demo	Svì^er [B_NAME]   ®egve ueer peeleer nw.
+click_menu_select.prac	[B_NAME]   Svì^er keÀes ®egveW  
+click_select_column.demo	keÀeuece  [B_NAME]   ®egve efue³ee peelee nw. 
+click_select_column.prac	keÀeuece kesÀ Meer<e& Hej efkeÌuekeÀ keÀjkesÀ [B_NAME]   keÀeuece keÀes ®egveW.
+click_open_value_help.demo	ceoo Keesueer peeleer nw. 
+click_open_value_help.prac	ke=ÀHe³ee ceoo Keesefue³es.
+click_select_line.demo	HebefkeÌle  [B_NAME]   ®egve  ueer peeleer nw. 
+click_select_line.prac	Henues keÀeuece ceW efkeÌuekeÀ keÀjkesÀ [B_NAME]   HebefkeÌle keÀes ®egveW 
+click_scroll_top.demo	[ICON]  GHej efkeÌuekeÀ kesÀ meeLe MegjÀDeele lekeÀ mke´Àesue neslee nw.
+click_scroll_top.prac	[ICON]  GHej efkeÌuekeÀ keÀjkesÀ  MegjÀDeele lekeÀ mke´Àesue neslee nw.
+click_scroll_bottom.demo	[ICON]  Hej efkeÌuekeÀ kesÀ meeLe Deble lekeÀ mke´Àesue neslee nw.
+click_scroll_bottom.prac	[ICON]  Hej efkeÌuekeÀ keÀjkesÀ DeblelekeÀ  mke´Àesue keÀjW.
+click_scroll_pageup.demo	[ICON]  Hej efkeÌuekeÀ keÀjves mes Hevvee GHej keÀer lejHeÀ  mke´Àesue neslee nw.
+click_scroll_pageup.prac	[ICON]  Hej efkeÌuekeÀ keÀjkesÀ Hevvee GHej keÀer lejHeÀ  mke´Àesue keÀjsb.
+click_scroll_pagedown.demo	[ICON]  Hej efkeÌuekeÀ keÀjves mes Hevvee veer®es keÀer lejHeÀ  mke´Àesue neslee nw.
+click_scroll_pagedown.prac	[ICON]  Hej efkeÌuekeÀ keÀjkesÀ Hevvee veer®es keÀer lejHeÀ  mke´Àesue keÀjW.
+click_scroll_lineup.demo	[ICON]  Hej efkeÌuekeÀ keÀjves mes SkeÀ HebkeÌleer GHej keÀer lejHeÀ  mke´Àesue nesleer nw.
+click_scroll_lineup.prac	[ICON]  Hej efkeÌuekeÀ keÀjkesÀ  SkeÀ  HebkeÌleer GHej keÀer lejHeÀ  mke´Àesue keÀjW. 
+click_scroll_linedown.demo	[ICON]  Hej efkeÌuekeÀ keÀjves mes  SkeÀ  HebkeÌleer veer®es keÀer lejHeÀ  mke´Àesue nesleer nw.
+click_scroll_linedown.prac	[ICON]  Hej efkeÌuekeÀ keÀjkesÀ  SkeÀ  HebkeÌleer veer®es keÀer lejHeÀ  mke´Àesue keÀjW.
+click_close_window_img.demo	[ICON]  Hej efkeÌuekeÀ  keÀjves mes efJeb[es yevo nes peeleer nw.
+click_close_window_img.prac	[ICON]  Hej efkeÌuekeÀ  keÀjkeÀs  efJeb[es yevo keÀjW.
+click_select_all_lines_img.demo	[ICON]  Hej efkeÌuekeÀ  keÀjves mes  meejer HebkeÌleer³eeB DeOeesjsefKele nes peeleer nw.
+click_select_all_lines_img.prac	[ICON]  Hej efkeÌuekeÀ  keÀjkesÀ meejer HebkeÌleer³eeB ®egveW.
+click_open_card_menu.demo	[ICON]  Hej efkeÌuekeÀ  keÀjves mes  keÀe[& efmeueskeÌMeve Keguelee nw.
+click_open_card_menu.prac	[ICON]  Hej efkeÌuekeÀ  keÀjkesÀ keÀe[& efmeueskeÌMeve KeesueW.
+click_select_card.demo	[B_NAME]   keÀe keÀe[& ®egvee pee³esiee 
+click_select_card.prac	[B_NAME]   keÀe keÀe[& ®egveW.
+click_next_cards_img.demo	[ICON]  Hej efkeÌuekeÀ  keÀjves mes  Deieuee keÀe[& oMee&³ee pee³esiee.  
+click_next_cards_img.prac	[ICON]  Hej efkeÌuekeÀ  keÀjkesÀ  Deieuee keÀe[& oMee&³eW. 
+click_prev_cards_img.demo	[ICON]  Hej efkeÌuekeÀ  keÀjves mes  efHeíuee keÀe[& oMee&³ee pee³esiee.  
+click_prev_cards_img.prac	[ICON]  Hej efkeÌuekeÀ  keÀjkesÀ  efHeíuee keÀe[& oMee&³eW. 
+click_open_nav_menu.demo	[ICON]  Hej efkeÌuekeÀ  keÀjves mes   vesJneriesMeve cesv³et Kegue peelee nw.
+click_open_nav_menu.prac	[ICON] Hej eqkeÌuekeÀ keÀjkesÀ veseqJniesMevecesv³et Keesues
+click_close_folder_img.demo	[ICON] Hej eqkeÌuekeÀ keÀjvesmes HeÀesu[j [B_NAME] yevn nes peeSiee
+click_close_folder_img.prac	[ICON] Hej eqkeÌuekeÀ keÀjkesÀ HeÀesu[j [B_NAME] yevo keÀjW
+click_open_folder_img.demo	[ICON] Hej eqkeÌuekeÀ keÀjves mes HeÀesu[j [B_NAME] Kegue peeSiee
+click_open_folder_img.prac	[ICON] Hej eqkeÌuekeÀ keÀjkesÀ HeÀesu[j [B_NAME] Keesues.
+click_select_element_img.demo	[ICON] Hej eqkeÌuekeÀ keÀjves mes Dee³eìce [B_NAME] ®egvee peeSiee
+click_select_element_img.prac	[ICON] Hej eqkeÌuekeÀ keÀjkesÀ Dee³eìce [B_NAME] ®egveW.
+click_scroll_down.demo	m¬eÀesueHeÆer kesÀ peefj³es veer®es keÀer lejHeÀ m¬eÀesue efkeÀ³ee pee mekeÀlee nw
+click_scroll_down.prac	m¬eÀesueHeÆer mes veer®es keÀer lejHeÀ m¬eÀesue keÀjW
+dblclick_select_entry.demo	[B_NAME] Hej [yeueeqkeÌuekeÀ keÀjves mes Svì^er ®egveer pee mekeÀleer nw.
+dblclick_select_entry.prac	[yeueeqkeÌuekeÀ keÀjkesÀ Svì^er [B_NAME] ®egveW
+dblclick_select_date.demo	[B_NAME] ®egvee peeSiee
+dblclick_select_date.prac	[B_NAME] ®egveW
+dblclick_start_transaction.demo	SkeÀ [yeueeqkeÌuekeÀ kesÀ peefj³es ì^evme@keÌMeve [B_NAME] Meg© neslee nw
+dblclick_start_transaction.prac	SkeÀ [yeueeqkeÌuekeÀ mes <br> ³ee <br> mes ì^evme@keÌMeve keÀes[ oW ì^evme@keÌMeve [B_NAME] keÀe ÒeejbYe keÀjW leLee Svìj keÀermes Hegäer keÀjW
+click_close_group.demo	ûegHe [B_NAME] yevo nes mekeÀlee nw
+click_close_group.prac	ûegHe [B_NAME] yevo keÀjW
+click_open_group.demo	ûegHe [B_NAME] Keguelee ngDee efoKeeF& oslee nw
+click_open_group.prac	ûegHe [B_NAME] KeesueW
+select.demo	[B_NAME] kesÀ efue³es [B_SELECTED] ®egvee pee mekeÀlee nw
+select.prac	[B_NAME] kesÀ efue³es [B_SELECTED] ®egveW
+input_text.demo	efHeÀu[ [B_NAME] Yeje peeSiee
+input_text.prac	efHeÀu[ [B_NAME] ceW  [B_INPUT] oW
+input_text_value.demo	efHeÀu[ [B_NAME] ceW  [B_INPUT] Svì^er efkeÀ³ee pee mekeÀlee nw
+input_text_value.prac	efHeÀu[ [B_NAME] ceW [B_INPUT] oW
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br> FveHegì  <b> Tab - </b> ³ee  <b> Sbìj </b> mes efveef½ele keÀjW ³ee <b> Hej eqkeÌuekeÀ keÀjW
+input_tab_enter.demo
+input_tab_enter.prac	<br> FveHegì <b> Tab - </b> ³ee <b> Sbìj </b> efveef½ele keÀjW
+input_enter_button.demo
+input_enter_button.prac	<br> FveHegì <b> Sbìj </b> mes efveef½ele keÀjW ³ee <b>Gef®ele yeìve </b> eqkeÌuekeÀ keÀjW
+input_tab.demo
+input_tab.prac	<br> FveHegì <b> Tab </b> mes efveef½ele keÀjW
+input_enter.demo
+input_enter.prac	<br> FveHegì <b> Sbìj </b> mes efveef½ele keÀjW
+input_button.demo
+input_button.prac	<br> FveHegì <b> mes efveef½ele keÀjW ³ee Gef®ele yeìve </b> Hej eqkeÌuekeÀ keÀjW
+click_select.demo	[B_NAME] ®egvee peeSiee
+click_select.prac	[B_NAME] ®egveW
+click_show_value_help_button.demo	ìskeÌmì efHeÀu[ [B_NAME] Hej eqkeÌuekeÀ keÀjkesÀ efHeÀu[ nsuHe KeesueW
+click_show_value_help_button.prac	ìskeÌmì efHeÀu[ [B_NAME] Hej eqkeÌuekeÀ keÀjkesÀ efHeÀu[nsuHe KeesueW
+click_scroll_horizontal.demo	oe³eer lejHeÀ m¬eÀesefuebie nesiee
+click_scroll_horizontal.prac	oe³eer lejHeÀ m¬eÀesefuebie keÀjW
+click_scroll_vertical.demo	veer®es keÀer lejHeÀ m¬eÀesefuebie nesiee
+click_scroll_vertical.prac	veer®es keÀer lejHeÀ m¬eÀesefuebie keÀjW
+click_img_expand.demo	veseqJniesMeve Sefj³ee yeæ{eves nslet [ICON] eqkeÌuekeÀ efkeÀ³ee peelee nw
+click_img_expand.prac	veseqJniesMeve Sefj³ee yeæ{eves nslet [ICON] Hej eqkeÌuekeÀ keÀjW
+click_img_collapse.demo	veseqJniesMeve Sefj³ee Ieìeves nslet [ICON] Hej eqkeÌuekeÀ efkeÀ³ee peelee nw
+click_img_collapse.prac	veseqJniesMeve Sefj³ee Ieìeves nslet [ICON] Hej eqkeÌuekeÀ keÀjW
+click_navrow.demo	veseqJniesMeve ueeF&ve mes [B_NAME] ®egvee³ee peelee nw
+click_navrow.prac	veseqJniesMeve ueeF&ve mes [B_NAME] KeesueW
+click_navrow2.demo	otmejs veseqJniesMeve ueeF&ve mes [B_NAME] ®egvee³ee peelee nw
+click_navrow2.prac	otmejs veseqJniesMeve ueeF&ve mes [B_NAME] KeesueW
+click_open_context_menu.demo	[B_NAME] mes keÀe@vìskeÀmì cesv³et Kegue peelee nw
+click_open_context_menu.prac	[B_NAME] mes keÀe@vìskeÌmì cesv³et KeesueW
+click_radio_select.demo	[B_NAME] ®egvee peelee nw
+click_radio_select.prac	[B_NAME] ®egveW 
+click_select_img.demo	[B_ICON_NAME] ®egvee peelee nw
+click_select_img.prac	[B_ICON_NAME] ®egveW
+click_open_form_view.demo	[B_ICON_NAME] kesÀ peefj³es HeÀe@ce& Jn³et ceW eqmJe®e efkeÀ³ee peelee nw
+click_open_form_view.prac	[B_ICON NAME] kesÀ peefj³es HeÀe@ce& Jn³et ceW eqmJe®e keÀjW
+history_select.demo	efnmì^er mes [B_NAME] ®egvee peelee nw
+history_select.prac	efnmì^er mes [B_NAME] ®egves
+click_page_up_img.demo	[B_ICON] Hej eqkeÌuekeÀ keÀjves mes SkeÀ HeVee GHej keÀer lejHeÀ m¬eÀesue neslee nw
+click_page_up_img.prac	[B_ICON] Hej eqkeÌuekeÀ keÀjkesÀ SkeÀ HeVee GHej keÀer lejHeÀ m¬eÀesue keÀjW
+click_page_down_img.demo	[B_ICON] Hej eqkeÌuekeÀ keÀjves mes SkeÀ HeVee veer®es keÀer lejHeÀ m¬eÀesue neslee nw
+click_page_down_img.prac	[B_ICON] Hej eqkeÌuekeÀ keÀjkesÀ SkeÀ HeVee veer®es keÀer lejHeÀ m¬eÀesue keÀjW
+click_page_top_img.demo	[B_ICON] Hej eqkeÌuekeÀ keÀjves mes ÒeejbYeHej m¬eÀesue efkeÀ³ee peelee nw
+click_page_top_img.prac	[B_ICON] Hej eqkeÌuekeÀ keÀjkesÀ ÒeejbYeHej m¬eÀesue keÀjW
+click_page_bottom_img.demo	[B_ICON] Hej eqkeÌuekeÀ keÀjves mes Devle Hej m¬eÀesue efkeÀ³ee peelee nw
+click_page_bottom_img.prac	[B_ICON] Hej eqkeÌuekeÀ keÀjkesÀ Devle Hej m¬eÀesue keÀjW
+click_sort_by_column.demo	keÀeuece [B_NAME] íeBìe peeSiee
+click_sort_by_column.prac	keÀeuece [B_NAME] íeBìW
+click_select_date.demo	[B_NAME] ®egvee peeSiee
+click_select_date.prac	[B_NAME] ®egveW
+click_close_card_img.demo	[ICON] Hej eqkeÌuekeÀ keÀjves mes keÀe[& yevo nes peelee nw
+click_close_card_img.prac	keÀe[& yevo keÀjves kesÀ efue³es [ICON] Hej eqkeÌuekeÀ keÀjW
+click_select_function_img.demo	[ICON] Hej eqkeÌuekeÀ keÀjkesÀ ef¬eÀ³ee [B_NAME] ®egveW
+click_select_function_img.prac	ef¬eÀ³ee [B_NAME] ®egveves nslet [ICON] Hej eqkeÌuekeÀ keÀjW
+click_hide_treeview.demo	[ICON] Hej eqkeÌuekeÀ keÀjves mes ì^er Jn³et mes efvekeÀue mekeÀles nw
+click_hide_treeview.prac	[ICON] Hej eqkeÌuekeÀ keÀjkesÀ ì^er Jn³et mes yeenj efvekeÀues
+click_show_treeview.demo	[ICON] Hej eqkeÌuekeÀ keÀjkesÀ ìer Jn³et ceW Dee mekeÀles nw
+click_show_treeview.prac	[ICON] Hej eqkeÌuekeÀ keÀjkesÀ ì^er-Jn³etceW Dee³eW
+click_mark_transaction.demo	[B_NAME] Hej eqkeÌuekeÀ keÀjves mes ì^evPe@keÌMeve DeOeesjsefKele neslee nw
+click_mark_transaction.prac	SkeÀ eqkeÌuekeÀ mes ì^evme@keÌMeve [B_NAME] DeOeesjsefKele keÀjW
+dblclick_select_element.demo	[yeueeqkeÌuekeÀ mes Dee³eìce [B_NAME] ®egvee peelee nw
+dblclick_select_element.prac	Dee³eìce [B_NAME] [yeueeqkeÌuekeÀ keÀjkesÀ ®egveW
+please_note.demo	Deeieeceer [B_NAME] Hej O³eeve oW
+please_note.prac	Deeieeceer [B_NAME] Hej O³eeve oW
+click_open_value_help_img.demo	<b> FveHegì nsuHe </b> [ICON] Hej eqkeÌuekeÀ keÀjves mes JewOe Jn@u³etpekeÀer efmeueskeÌMeve efuemì efceue peeleer nw
+click_open_value_help_img.prac	JewOe Jn@u³etpe keÀer efmeueskeÌMeve efuemì Heeves nslet <b> FveHegì nsuHe </b> [ICON] Hej eqkeÌuekeÀ keÀjW
+click_open_selection.demo	[ICON] Hej eqkeÌuekeÀ keÀjves mes efmeueskeÌMeve efuemì efceue peeleer nw
+click_open_selection.prac	efmeueskeÌMeve efuemì Heeves nslet [ICON] Hej eqkeÌuekeÀ keÀjW
+click_mark_entry.demo	Svì^er [B_NAME] Hej eqkeÌuekeÀ keÀjkesÀ Gmes DeOeesjsefKele keÀjW
+click_mark_entry.prac	eqkeÌuekeÀ keÀjkesÀ Svì^er [B_NAME] DeOeesjsefKele keÀjW
+click_mark_entry_img.demo	Svì^er [ICON] Hej eqkeÌuekeÀ keÀjkesÀ Gmes ®egveW
+click_mark_entry_img.prac	Svì^er [ICON] ®egveves nslet GmeHej eqkeÌuekeÀ keÀjW
+click_menu_select_img.demo	cesv³et Hee@F¥ì [ICON] Hej eqkeÌuekeÀ keÀjkesÀ Gmes SeqkeÌPekeÌ³etì keÀj mekeÀles nw
+click_menu_select_img.prac	cesv³et Hee@F¥ì [ICON] Hej eqkeÌuekeÀ keÀjkesÀ Gmes SeqkeÌmekeÌ³etì keÀjW
+click_open_menu_img.demo	eqkeÌuekeÀ keÀjkesÀ cesv³et [ICON] KeesueW
+click_open_menu_img.prac	cesv³et [ICON] Keesueves nslet GmeHej eqkeÌuekeÀ keÀjW
+click_select_card_img.demo	jefpemìj keÀe[& [ICON] Hej eqkeÌuekeÀ keÀjkesÀ Gmes ®egveW
+click_select_card_img.prac	jefpemeìj keÀe[& [ICON] ®egveves nslet GmeHej eqkeÌuekeÀ keÀjW
+dblclick_select_line.demo	yeìve [NAME] Hej [yeue eqkeÌuekeÀ keÀjves mes HebeqkeÌle³eeB DeOeejsefKele nesleer nw
+dblclick_select_line.prac	yeìve [NAME] Hej [yeueeqkeÌuekeÀ keÀjkesÀ HebeqkeÌle³eeB DeOeejsefKele keÀjW
+click_activate_edit.demo	Svì^er efHeÀu[ [B_NAME] ceW SkeÀ eqkeÌuekeÀ keÀjkesÀ De@eqkeÌìJnsì keÀjW
+click_activate_edit.prac	Svì^er efHeÀu[ [B_NAME] De@eqkeÌìJnsì keÀjves nslet GmeceW eqkeÌuekeÀ keÀjW
+dblclick_activate_edit.demo	Svì^er efHeÀu[ [B_NAME] ceW [yeue eqkeÌuekeÀ keÀjkesÀ Gmes De@eqkeÌìJnsì keÀjW
+dblclick_activate_edit.prac	[yeue eqkeÌuekeÀ keÀjkesÀ Svì^er efHeÀu[ [B_NAME] De@eqkeÌìJnsì keÀjW
+dblclick_open_folder_img.demo	efmebyeue [ICON] Hej [yeue eqkeÌuekeÀ keÀjkesÀ HeÀesu[j [B_NAME] KeesueW
+dblclick_open_folder_img.prac	HeÀesu[j [B_NAME] Keesueves nslet efmebyeue [ICON] Hej [yeue eqkeÌuekeÀ keÀjW
+click_open_folder.demo	<b> HeÀesu[j DeesHeve </b> efmebyeue Hej eqkeÌuekeÀ keÀjkesÀ HeÀesu[j [B_NAME] KeesueW
+click_open_folder.prac	HeÀesu[j [B_NAME] Keesueves nslet efmebyeue <b> HeÀesu[j DeesHeve Hej </b> eqkeÌuekeÀ keÀjW
+dblclick_open_folder.demo	<b> HeÀesu[j DeesHeve </b> efmebyeue Hej [yeue eqkeÌuekeÀ keÀjkesÀ HeÀesu[j [B_NAME] KeesueW
+dblclick_open_folder.prac	HeÀesu[j [B_NAME] Keesueves nslet efmebyeue <b> HeÀesu[j DeesHeve </b> Hej [yeue eqkeÌuekeÀ keÀjW
+click_close_folder.demo	<b> HeÀesu[j DeesHeve </b> efmebyeue Hej [yeue eqkeÌuekeÀ keÀjkesÀ HeÀesu[j [B_NAME] yevo keÀjW
+click_close_folder.prac	HeÀesu[j [B_NAME] yevo keÀjves nslet efmebyeue <b> HeÀesu[j DeesHeve </b> Hej [yeue eqkeÌuekeÀ keÀjW
+drag_scroll_hor.demo	<b> m¬eÀessue yeej </b> keÀes eqkeÌuekeÀ keÀjkesÀ Iemeerìves mes ceve®eene Sefj³ee efoKeeF& osiee
+drag_scroll_hor.prac	m¬eÀesue keÀjves nslet <b> ne@efjPeeBìue (He[e) m¬eÀesue yeej </b> keÀes eqkeÌuekeÀ keÀjkesÀ IemeerìW
+drag_scroll_vert.demo	<b> m¬eÀesue yeej </b> keÀes eqkeÌuekeÀ keÀjkesÀ Iemeerìves mes ceve®eene Sefj³ee efoKeeF& osiee
+drag_scroll_vert.prac	m¬eÀesue keÀjves nslet <b> Jnefì&keÀue (Ke[e) m¬eÀesue yeej <b> keÀes eqkeÌuekeÀ keÀjkesÀ IemeerìW
+click_scroll.demo	<b> m¬eÀesue yeìve [NAME] Hej eqkeÌuekeÀ keÀjves mes ceve®eene Sefj³ee efoKeeF& osiee
+click_scroll.prac	<b> m¬eÀesue yeìve </b> [NAME] Hej eqkeÌuekeÀ keÀjkesÀ m¬eÀesue keÀjW
+click_scroll_page_left.demo	<b> m¬eÀesue Sefj³ee </b> ceW eqkeÌuekeÀ keÀjves Hej ceve®eene Sefj³ee efoKeeF& osiee
+click_scroll_page_left.prac	m¬eÀesue keÀjves nslet <b> m¬eÀesue yeej yee³eer Sefj³ee </b> ceW eqkeÌuekeÀ keÀjW
+click_scroll_page_right.demo	<b> m¬eÀesue Sefj³ee </b> eqkeÌuekeÀ keÀjves Hej ceve®eene Sefj³ee efoKeeF& osiee
+click_scroll_page_right.prac	m¬eÀesue keÀjves nslet <b> m¬eÀesue yeej oe³eer Sefj³ee </b> ceW eqkeÌuekeÀ keÀjW
+click_scroll_page_up.demo	<b> m¬eÀesue Sefj³ee </b> ceW eqkeÌuekeÀ keÀjves mes ceve®eene Sefj³ee efoKeeF& osiee
+click_scroll_page_up.prac	m¬eÀesue keÀjves nslet <b> m¬eÀesue yeejkeÀe GHejer Sefj³ee </b> ceW eqkeÌuekeÀ keÀjW
+click_scroll_page_down.demo	<b> m¬eÀesue Sefj³ee </b> ceW eqkeÌuekeÀ keÀjves mes ceve®eene Sefj³ee efoKeeF& osiee
+click_scroll_page_down.prac	m¬eÀesue keÀjves nslet <b> m¬eÀesue yeej keÀe veer®eskeÀe Sefj³ee </b> ceW eqkeÌuekeÀ keÀjW
+rclick_context.demo	[B_NAME] Hej ceeTme kesÀ oe³es efnmmes ceW eqkeÌuekeÀ keÀjves mes keÀe@vìskeÌmecesv³et Kegue peelee nw
+rclick_context.prac	[B_NAME] Hej ceeTme kesÀ oe³es efnmmes ceW eqkeÌuekeÀ keÀjW
+dblclick_img.demo	[ICON] Hej [yeue eqkeÌuekeÀ efkeÀ³ee peelee nw
+dblclick_img.prac	[ICON] Hej [yeue eqkeÌuekeÀ keÀjW
+keypress.demo	[B_KEY] Svìj keÀjW
+keypress.prac	[B_KEY] Svìj keÀjW
+item.close_folder	HeÀesu[j yevo keÀjW
+item.open_folder	HeÀesu[j Keesues
+item.enter_key	Svìj
+item.tab_key	kegbÀpeer (ì@ye)
+item.vscroll	Keæ[e m¬eÀesue yeej
+item.hscroll	Heæ[e m¬eÀesue yeej
+item.close_window	efJeb[es yevo keÀjW
+item.value_help	Jn@u³et efmeueskeÌMeve
+item.scroll	m¬eÀesue yeej
+item.back_btn	JeeHeme (ye@keÀ)
+item.save_btn	mìesj
+item.scroll_area	m¬eÀesue Sefj³ee
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

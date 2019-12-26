@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Default>
+    <GlobalDefault/>
+    <start_unit/>
+    <new_page/>
+    <new_window/>
+    <new_window_close/>
+    <explanation/>
+    <quick_click/>
+    <click/>
+    <click_SAP/>
+    <key_press/>
+    <select_single/>
+    <input_radio/>
+    <scroll_hor/>
+    <scroll_vert/>
+    <goto_tourstop/>
+    <end_unit/>
+    <kurs/>
+    <transaction_info/>
+    <screenshot_part/>
+    <hinweis/>
+    <beschreibung/>
+    <doc_caption/>
+    <free_marker/>
+    <arrow/>
+    <page_break/>
+    <swf_page/>
+    <info_page/>
+    <form_on/>
+    <form_off/>
+    <branch_on/>
+    <branch_off/>
+    <mode_change/>
+    <mode_change_end/>
+    <mchoice/>
+    <sqmaquiz/>
+    <fibquiz/>
+    <matchquiz/>
+    <connquiz/>
+    <mixquiz/>
+    <scalequiz/>
+    <gridquiz/>
+    <puzzlequiz/>
+    <hotspotquiz/>
+    <quiz_shuffle_on/>
+    <quiz_shuffle_off/>
+    <quiz_eval/>
+    <input_text macro_comment="" fieldname="" fieldicon="" text_d="" regexp="" explanation_d="" explanation_p="" confirmation_tab="1" confirmation_enter="" affirmation_button="" show_hl_p="0" set_focus="1" animated="1">
+        <position_af/>
+    </input_text>
+    <explanation_long bubblestyle_d="frurado" bubble_class="StyleA" bubblestyle_p="frurado"/>
+</Default>

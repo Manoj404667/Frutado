@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META HTTP-EQUIV="Expires" CONTENT="Tue, 7 Oct 2003 04:03:01 GMT">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+
+<TITLE>datango trainer POSTer</TITLE>
+</HEAD>
+
+<script language=javascript>
+if (self.location.search.substr(0, 8) == '?domain=') {
+    if (self.location.protocol == 'http:' ||
+        self.location.protocol == 'https:') 
+    {
+        self.document.domain = self.location.search.substr(8);
+    }
+}
+<?php
+if ($rc !== true) {
+    echo "alert('log.php error: $rc.');";
+}
+?>
+</script>
+
+<body bgcolor="#4d7aa6"
+      onload="return logphp_do_onload_()">
+<script language=javascript src='logphp.js'></script>
+<form name="XkG">
+    Log&nbsp;
+    <textarea name='log'></textarea>&nbsp;
+    <input type=submit>
+</form>
+</body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

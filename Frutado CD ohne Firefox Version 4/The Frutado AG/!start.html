@@ -1,0 +1,434 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<title>datango trainer</title>
+<link rel=stylesheet href="!start.css">
+
+
+<script language=javascript src="jswidget/callback.js"></script>
+<script language=javascript src="jswidget/url.js"></script>
+<script language=javascript src="jswidget/dhtml.js" id="dgo_dhtml.js"></script>
+<script lang=javascript>
+navigator.appName == 'Microsoft Internet Explorer'
+    ? document.write('<script language=javascript src=' +
+        '"jswidget/dhtml_explorer.js"><' + '/script>')
+    : document.write('<script language=javascript src=' +
+        '"jswidget/dhtml_standard.js"><' + '/script>')
+</script>
+<script language=javascript src="jswidget/js_extensions.js"></script>
+<script language=javascript src="jswidget/xml.js"></script>
+<script language=javascript src="!start.js"></script>
+<script language=javascript src="param.js"></script>
+</head>
+
+<body bgcolor="white" alink="#FFFFFF" link="#CCCCCC" vlink="#AACCFF"
+      onload="do_onload()"
+      onunload="XNK()"
+      >
+<div>
+<form name="XNe">
+<table cellpadding=0 cellspacing=1 width=100%>
+<tr>
+<td><img style="border: 0px solid black;" src="skin/datango_logo.gif"></td>
+<td class="title2" style="padding: 0px;" width=100% valign=top>
+
+<table border=0 class="title" cellpadding=0 cellspacing=0 width=100%>
+<tr height=50%>
+<td id=title class="title" nowrap>datango trainer</td></tr>
+<tr><td class="title2">
+  <table border=0 cellpadding=0 cellspacing=0 width=100%><tr>
+  <td class="title2">Select Web Program</td>
+  <td class="title2" id=lmstrace style="text-align: right; font-weight: bolder;">&nbsp;</td>
+  </td></tr></table>
+</td></tr></table><//tr>
+</tr><tr>
+<td class="prompt">Switch trainer:</td>
+<td class="input"><select name="XOO" size=1 onchange="XNO(this.value)">
+  <option value='tux.datango.de/trainer/'>tux.datango.de/trainer/</option>
+  <option value='pampelmuse.datango.de/trainer/'>pampelmuse.datango.de/trainer/</option>
+  <option value='sudan.datango.de/trainer/'>sudan.datango.de/trainer/</option>
+</select></td>
+</tr><tr>
+<td class="prompt">Preferences:</td>
+<td class="input"><input name="XOA" value='trainer-prefs.xml' size=40>&nbsp;
+<input type=button value=' Load ' onclick="return XOF();"></td>
+</tr>
+</table>
+</form>
+
+<form name="XO3">
+<table cellpadding=0 cellspacing=1 width=100% border=0>
+<tr>
+  <td class="prompt"
+  >&nbsp;</td>
+  <td class="input_notext" style="padding: 3px;"><input type=button value=' Make Default' onclick="XO7()"
+  >&nbsp;<input type=button value=' Read Default ' onclick="XOE()"
+  >&nbsp;<span unselectable onclick="var x = document.XO3.window; x.checked=!x.checked;"
+  >New Window:</span
+  >&nbsp;<input name="window" type=checkbox checked
+  ><input type=submit style='width: 100px;' value='  Run!  '
+          onclick="XNI(); return false;"
+  ></td>
+</tr>
+
+<tr>
+  <td class="largeprompt"
+  ><input name="XOV" id="starttype_lib" type=radio value=lib
+          onclick="return XOQ();">
+  <span unselectable onclick="document.XO3.XOV[0].checked = true; return XOQ();">Library:</span></td>
+  <td class="input"
+  ><select name="XWW" size=3
+     onchange="XVe(this)"
+     ondblclick="XVf(this)"
+     onfocus="return XVd(this, true)"
+     onblur="return XVd(this, false)">
+    <option value='projects/library.xml' selected>Default Library
+    <option value='projects/lib.xml'>Test Library
+    <option value='projects/lib.fat.xml'>Fat Library I
+    <option value='projects/lib.fat2.xml'>Fat Library II
+  </select>
+  <br><input name="XNj" size=60 onchange="return XOQ();"></td>
+</tr>
+
+<tr>
+  <td class="largeprompt"
+  ><input name="XOV" id="starttype_config" type=radio value=config checked
+          onclick="return XOQ();">
+  <span unselectable onclick="document.XO3.XOV[1].checked = true; return XOQ();">Configuration File:</span></td>
+  <td class="input"
+   ><select name="XOM" size=3
+     onchange="XNM(this)"
+     ondblclick="XNL(this)"
+     onfocus="return XVd(this, true)"
+     onblur="return XVd(this, false)">
+    <option value='projects/bubble/dmf/bu_xcfg.js'>Bubble Test
+    <option value='projects/highlight/dmf/hl_xcfg.js'>Highlight Test
+    <option value='projects/eep/dmf/formevents_xcfg.js'>Form Events</option>
+    <option value='projects/murks'>Murks</option>
+  </select>
+  <br><input name="xNE" size=60 onchange="return XOQ();"></td>
+</tr>
+
+<tr>
+  <td class="prompt"
+  ><input name="XOV" type=radio value=tour
+          onclick="return XOQ();">
+  <span unselectable onclick="document.XO3.XOV[2].checked = true; return XOQ();">Tour Number:</span></td>
+  <td class="input"><input name="Xav" size=10 onchange="return XOQ();"></td>
+</tr>
+
+<tr>
+  <td class="prompt"
+  ><input name="XOV" type=radio value=program
+          onclick="return XOQ();">
+  <span unselectable onclick="document.XO3.XOV[3].checked = true; return XOQ();">Program:</span></td>
+  <td class="input"><input name="xBH" size=60 onchange="return XOQ();"></td>
+</tr>
+
+<tr>
+  <td class="prompt">Title:</td>
+  <td class="input"><input name="title" size=60 onchange="return XOQ();"></td>
+</tr>
+
+<tr>
+  <td class="prompt">At Tourstopp:</td>
+  <td class="input"><input name="XIR" size=60 onchange="return XOQ();"> Name or Index (1..n)</td>
+</tr>
+
+<tr>
+  <td class="prompt">Skin:</td>
+  <td class="input"><select name="XOP" size=1 onchange="return XOQ();">
+    <option value='default' selected>default</option>
+    <option value='datango7'>Time Bar Slim</option>
+    <option value='datango8'>Time Bar Slim2</option>
+    <option value='hidden'>Hidden (not, if debug)</option>
+  </select>
+  &nbsp;&nbsp;&nbsp;Synopsis:&nbsp;
+  <select name="XjI" size=1 onchange="return XOQ();">
+    <option value='' selected>default (timebar)</option>
+    <option value='pulldown'>pulldown</option>
+  </select>
+  </td>
+</tr>
+
+<tr>
+  <td class="prompt">Select Flags:</td>
+  <td class="input"><div class=switch id=flags_div_1 style="display: none;">
+    <select name="XON" size=16 multiple
+            onchange="return XNN(this);"
+            onblur="return XNH(false)">
+    <option value='anybrowser'>anybrowser: Do not perform browsercheck</option>
+    <option value='autofocus' class="on">autofocus: Automatically raise the current window</option>
+    <option value='autoplace' class="on">autoplace: Automatically place NON xframe-bubbles</option>
+    <option value='autoscroll' class="on">autoscroll: Automatically make targets visible</option>
+    <option value='brand' class="on">brand: Show small datango logo</option>
+    <option value='gzip' class="on">gzip: Compress javascript source files</option>
+    <option value='jscrash'>jscrash: Do not protect JS code with try...catch</option>
+    <option value='jscrash2'>jscrash2: Do not protect any JS code with try...catch</option>
+    <option value='jsdebug'>jsdebug: Show exceptions in user-supplied JS code</option>
+    <option value='mute'>mute: Do not play audio</option>
+    <option value='passive' class="on">passive: Do not use datango proxy; do not log</option>
+    <option value='referrer'>referrer: Pass calling URL to bracepages</option>
+    <option value='skip' class="on">skip: Allow Forward/Backward</option>
+    <option value='synopsis' class="on">synopsis: Show sub-program overview</option>
+    <option value='ui'>ui: Allow user interface for DOM analysis to be started</option>
+    <option value='urlparam'>urlparam: Pass URL parameters to bracepages</option>
+    </select>
+  </div><div class=switch id=flags_div_2 style="display: block;">
+      <input name="Xb" size=100 readonly style="color:green;"
+       onclick="return XNH(true)" not_onfocus="Disturbes IE5.5">
+  </div></td>
+</tr>
+
+<tr>
+  <td class="prompt">Deselect Flags:</td>
+  <td class="input"><div class=switch id=xflags_div_1 style="display: none;">
+    <select name="XUY" size=16 multiple
+            onchange="return XUZ(this);"
+            onblur="return XU0(false)">
+    <option value='anybrowser' class="off">anybrowser: Do not perform browsercheck</option>
+    <option value='autofocus'>autofocus: Automatically raise the current window</option>
+    <option value='autoplace'>autoplace: Automatically place NON xframe-bubbles</option>
+    <option value='autoscroll'>autoscroll: Automatically make targets visible</option>
+    <option value='brand'>brand: Show small datango logo</option>
+    <option value='gzip'>gzip: Compress javascript source files</option>
+    <option value='jscrash class="off"'>jscrash: Do not protect JS code with try...catch</option>
+    <option value='jscrash2 class="off"'>jscrash2: Do not protect any JS code with try...catch</option>
+    <option value='jsdebug' class="off">jsdebug: Show exceptions in user-supplied JS code</option>
+    <option value='mute' class="off">mute: Do not play audio</option>
+    <option value='passive'>passive: Do not use datango proxy; do not log</option>
+    <option value='referrer' class="off">referrer: Pass calling URL to bracepages</option>
+    <option value='skip'>skip: Allow Forward/Backward</option>
+    <option value='synopsis'>synopsis: Show sub-program overview</option>
+    <option value='ui' class="off">ui: Allow user interface for DOM analysis to be started</option>
+    <option value='urlparam' class="off">urlparam: Pass URL parameters to bracepages</option>
+    </select>
+  </div><div class=switch id=xflags_div_2 style="display: block;">
+      <input name="XUj" size=100 readonly style="color:red;"
+       onclick="return XU0(true)" not_onfocus="Disturbes IE5.5">
+  </div></td>
+</tr>
+
+<tr>
+  <td class="prompt">Pause Timeout (sec):</td>
+  <td class="input"><input name="timeout" onchange="return XOQ();">
+  &nbsp;Content:&nbsp;
+  <select name="XbZ" size=1 onchange="return XOQ();">
+    <option value='default' selected>default</option>
+    <option value='lms'>from LMS</option>
+    <option value='de'>german</option>
+    <option value='en'>english</option>
+    <option value='fr'>french</option>
+    <option value='it'>italian</option>
+    <option value='fi'>finnish</option>
+    <option value='sv'>swedish</option>
+    <option value='bg'>bulgaric</option>
+    <option value='cs'>czech</option>
+    <option value='da'>dansk</option>
+    <option value='es'>spanish</option>
+    <option value='et'>estonian</option>
+	<option value='el'>greek</option>
+    <option value='hi'>hindi</option>
+    <option value='hu'>hungarian</option>
+    <option value='hr'>croatian</option>
+    <option value='ja'>japanese</option>
+    <option value='ko'>korean</option>
+    <option value='lt'>lithunian</option>
+    <option value='lv'>latvian</option>
+    <option value='nl'>netherlands</option>
+    <option value='no'>norge</option>
+    <option value='pl'>polish</option>
+    <option value='pt'>portugese</option>
+    <option value='br'>brasilian portugese</option>
+    <option value='ro'>romanian</option>
+    <option value='ru'>russian</option>
+    <option value='sk'>slovakish</option>
+    <option value='sl'>slovenish</option>
+    <option value='sv'>svedish</option>
+    <option value='tr'>turkish</option>
+    <option value='uk'>ukrainish</option>
+    <option value='tw'>traditional chinese</option>
+    <option value='zh'>simplified chinese</option>
+  </select>
+  </td>
+</tr>
+
+<tr>
+  <td class="prompt">Mode:</td>
+  <td class="input"><input name="xKK" onchange="return XOQ();">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GUI:&nbsp;
+  <select name="Xm8" size=1 onchange="return XOQ();">
+    <option value='default' selected>default</option>
+    <option value='de'>german</option>
+    <option value='en'>english</option>
+    <option value='fr'>french</option>
+    <option value='it'>italian</option>
+    <option value='fi'>finnish</option>
+    <option value='sv'>swedish</option>
+    <option value='bg'>bulgaric</option>
+    <option value='cs'>czech</option>
+    <option value='da'>dansk</option>
+    <option value='es'>spanish</option>
+    <option value='et'>estonian</option>
+	<option value='el'>greek</option>
+    <option value='hi'>hindi</option>
+    <option value='hu'>hungarian</option>
+    <option value='hr'>croatian</option>
+    <option value='ja'>japanese</option>
+    <option value='ko'>korean</option>
+    <option value='lt'>lithunian</option>
+    <option value='lv'>latvian</option>
+    <option value='nl'>netherlands</option>
+    <option value='no'>norge</option>
+    <option value='pl'>polish</option>
+    <option value='pt'>portugese</option>
+    <option value='br'>brasilian portugese</option>
+    <option value='ro'>romanian</option>
+    <option value='ru'>russian</option>
+    <option value='sk'>slovakish</option>
+    <option value='sl'>slovenish</option>
+    <option value='sv'>svedish</option>
+    <option value='tr'>turkish</option>
+    <option value='uk'>ukrainish</option>
+    <option value='tw'>traditional chinese</option>
+    <option value='zh'>simplified chinese</option>
+  </select>
+  </td>
+</tr>
+
+<tr>
+  <td class="prompt">Debugging Options:</td>
+  <td class="input_notext">
+    <input name="Xaq" type=checkbox
+     onchange="return XOQ();" onclick="return XOQ();"><span
+     unselectable onclick="var x = document.XO3.Xaq; x.checked=!x.checked;
+     return XOQ();">Verbosity</span>
+    <input name="XO6" size=2 value=2 onchange="return XOQ();">
+  </td>
+</tr>
+
+<tr>
+  <td class="prompt">Startfile:</td>
+  <td class="input_notext">
+  <input name="XOU" type=radio value=html checked
+         onclick="return XOQ();"
+  > <span unselectable onclick="document.XO3.XOU[0].checked = true; return XOQ();">HTML</span>&nbsp;
+  <input name="XOU" type=radio value=cgi
+         onclick="return XOQ();"
+  > <span unselectable onclick="document.XO3.XOU[1].checked = true; return XOQ();">CGI</span>&nbsp;
+  <input name="XOU" type=radio value=asp
+         onclick="return XOQ();"
+  > <span unselectable onclick="document.XO3.XOU[2].checked = true; return XOQ();">ASP</span>&nbsp;</td>
+</tr>
+
+<tr>
+  <td class="largeprompt">Special parameters:</td>
+  <td class="input"
+  ><textarea name="XOS" cols=60 rows=3 style="word-wrap: break-word;"
+             onchange="return XOQ();"
+  ></textarea></td>
+</tr>
+
+<tr>
+  <td class="largeprompt" title="Perform SCORM LMS compatible runtime emulation"
+   onclick="var x = document.XO3.Xpm; x.checked=!x.checked;return XOQ();"
+  ><input name="Xpm" type=checkbox
+    onchange="return XOQ();"
+    onclick="arguments[0]&&arguments[0].stopPropagation();return XOQ();"> SCORM Emulation:</td>
+  <td class="input">
+    
+    <span title="Max. reachable score in this tour (0: no scoring)">Max: </span><input name="X21" size=2 value=""
+    ><span title="Score threshold to pass the test">Mastery: </span><input name="Xph" size=2 value=""
+    ><span title="LMS emulation: preferred learner language">Lang: <select name="XNC" size=1>
+    <option value='de' selected>german</option>
+    <option value='en'>english</option>
+    <option value='fr'>french</option>
+    <option value='it'>italian</option>
+    <option value='fi'>finnish</option>
+    <option value='sv'>swedish</option>
+    <option value='bg'>bulgaric</option>
+    <option value='cs'>czech</option>
+    <option value='da'>dansk</option>
+    <option value='es'>spanish</option>
+    <option value='et'>estonian</option>
+	<option value='el'>greek</option>
+    <option value='hi'>hindi</option>
+    <option value='hu'>hungarian</option>
+    <option value='hr'>croatian</option>
+    <option value='ja'>japanese</option>
+    <option value='ko'>korean</option>
+    <option value='lt'>lithunian</option>
+    <option value='lv'>latvian</option>
+    <option value='nl'>netherlands</option>
+    <option value='no'>norge</option>
+    <option value='pl'>polish</option>
+    <option value='pt'>portugese</option>
+    <option value='ro'>romanian</option>
+    <option value='ru'>russian</option>
+    <option value='sk'>slovakish</option>
+    <option value='sl'>slovenish</option>
+    <option value='sv'>svedish</option>
+    <option value='tr'>turkish</option>
+    <option value='uk'>ukrainish</option>
+    <option value='tw'>traditional chinese</option>
+    <option value='zh'>simplified chinese</option>
+  </select></span>
+  <span><label for="lms_bookmark">Bookmark:</label><input type="text" name="lms_bookmark" value="" size="10"></span>
+  <br
+  ><span unselectable title="Send original scores to LMS; Default is to normalize all values to 0..1"
+     onclick="var x = document.XO3.X2l; x.checked=!x.checked;
+     return XOQ();">Ori.Max:</span
+  ><input name="X2l" type=checkbox
+    onchange="return XOQ();"
+  > <span unselectable title="Mastery score from LMS takes precedence over tour"
+     onclick="var x = document.XO3.X7U; x.checked=!x.checked;
+     return XOQ();">LMS prec.:
+  </span><input name="X7U" type=checkbox onchange="return XOQ();"
+  ><span title="If to send passed/failed as lesson status to LMS"
+  >Pass/Fail: <select name="X2p" size=1 onchange="return XOQ();">
+    <option value='' selected>default</option>
+    <option value='0'>always</option>
+    <option value='1'>if complete</option>
+    <option value='2'>never</option>
+  </select></span><span unselectable
+   title="Send only one final commit to LMS; Default is to send one per tourstop"
+   onclick="var x = document.XO3.X26; x.checked=!x.checked;return XOQ();">1 Commit:
+  </span><input name="X26" type=checkbox onchange="return XOQ();">
+  </td>
+</tr>
+
+<tr>
+  <td class="input_notext" colspan=2 width=100%
+  ><textarea name="xOJ" cols=90 rows=4 style="word-wrap: break-word;"
+  ></textarea></td>
+</tr>
+
+</table>
+</form>
+
+</div>
+
+<form name="XkG" method=post target="_self">
+<input type=hidden name="CDUS">
+<input type=hidden name="CDP">
+<input type=hidden name="Xqm">
+<input type=hidden name="what">
+</form>
+
+</body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfg>
+    <Language name="1031">
+        <Text name="demo_bubble_at_element">Demo-Bubble am Element</Text>
+        <Text name="demo_bubble_at_element.h">Durch diese Option wird während der automatisierten Aufnahme die Textbubble im Demo-Modus durch einen Algorithmus bestmöglich variabel in der Nähe des betroffenen Elements positioniert. Ist die Option ausgeschaltet wird die Textbubble immer in der linken unteren Ecke platziert, sonst in der linken unteren Ecke.</Text>
+        <Text name="input_confirm_button">Eingabebestätigung Button</Text>
+        <Text name="input_confirm_enter">Eingabebestätigung Enter</Text>
+        <Text name="input_confirm_tab">Eingabebestätigung TAB</Text>
+        <Text name="input_confirm_button.h">Durch diese Option wird ein Button-Klick für die Bestätigung von Eingabefeldern als Voreinstellung gesetzt. Dies lässt sich nach der Aufnahme im Makro-Editor jederzeit ändern.</Text>
+        <Text name="input_confirm_enter.h">Durch diese Option wird die Enter-Taste wird für die Bestätigung von Eingabefeldern als Voreinstellung gesetzt. Dies lässt sich nach der Aufnahme im Makro-Editor jederzeit ändern.</Text>
+        <Text name="input_confirm_tab.h">Durch diese Option wird die TAB-Taste für die Bestätigung von Eingabefeldern als Voreinstellung gesetzt. Dies lässt sich nach der Aufnahme im Makro-Editor jederzeit ändern.</Text>
+        <Text name="practice_bubble_at_element">Übungs-Bubble am Element</Text>
+        <Text name="practice_bubble_at_element.h">Automatische Aufnahme: Die Übungs-Bubble wird in der Nähe des betroffenen Elements positioniert. Ist false eingestellt, wird die Demo-Bubble in der linken unteren Ecke positioniert</Text>
+        <Text name="span_is_link">&lt;SPAN&gt; als &lt;A&gt; Elemente behandeln</Text>
+        <Text name="span_is_link.h">Falls die Erkennung von &lt;SPAN&gt; Elementen in Einzelfällen scheitert, werden diese wie das &lt;A&gt; Element behandelt und der Aufnahmeprozess wird nicht unterbrochen.</Text>
+        <Text name="use_only_window0.h">Durch diese Option erscheinen nach einer Web-Aufnahme alle Aktionen, auch wenn es sich um eine Multi-Window-Applikation handelt, im selben Fenster. Damit auch die spätere Lerneinheit in mehreren Fenstern abgespielt wird, muss die Option deaktiviert werden.</Text>
+        <Text name="use_only_window0">Alles in Window 0 aufnehmen</Text>
+        <Text name="insert_inactive_edit_macros.h">Durch diese Option wird bei der Aufnahme für die Aktivierung inaktiver Eingabefelder in SAP ein eigener Lernschritt mit entsprechendem Aktionsmakro erzeugt. Falls dieses Verhalten für die Erstellung unerwünscht ist, sollte diese Option deaktiviert werden.</Text>
+        <Text name="insert_inactive_edit_macros">Makros für inaktive Edit-Felder erzeugen</Text>
+        <Text name="rec">Aufnahme</Text>
+        <Text name="webrec">Web-Aufnahme</Text>
+        <Text name="winrec">Windows-Aufnahme</Text>
+    </Language>
+    <Language name="1033">
+        <Text name="demo_bubble_at_element">Demo bubble at element</Text>
+        <Text name="demo_bubble_at_element.h">If activated, an algorithm tries to position the demo bubble close to the referenced element at the best possible position. If deactivated the text bubble will always be positioned at the element's bottom-left corner.</Text>
+        <Text name="input_confirm_button.h">The click on a button is set as a default confirmation for recorded entry fields.</Text>
+        <Text name="input_confirm_enter.h">The 'Enter' Key is set as a default confirmation for recorded entry fields.</Text>
+        <Text name="input_confirm_tab.h">The 'TAB' Key is set as a default confirmation for recorded entry fields.</Text>
+        <Text name="insert_inactive_edit_macros.h">If this option is activated, the recording over a SAP application creates a topic for every activated input field, including the macro belonging to it. For projects that also include the creation of documentation, this behavior is often unwanted; therefore the option is deactivated by default.</Text>
+        <Text name="input_confirm_button">Button confirms input</Text>
+        <Text name="input_confirm_enter">Enter confirms input</Text>
+        <Text name="input_confirm_tab">TAB confirms input</Text>
+        <Text name="insert_inactive_edit_macros">Insert Macros for inactive edit fields</Text>
+        <Text name="practice_bubble_at_element">Practice-Bubble at element</Text>
+        <Text name="span_is_link.h">Sometimes, the recognition of '&lt;SPAN&gt;' tag elements in the HTML code of a recorded web page fails, if it is unique to the recorded web application and cannot be found in the built in reference tables of datango producer. This option enforces datango producer to treat such an element like a usual '&lt;A&gt;' tag instead, preventing the recording from being terminated.</Text>
+        <Text name="span_is_link">Treat &lt;SPAN&gt; like &lt;A&gt; elements</Text>
+        <Text name="use_only_window0.h">If this option is activated, all recorded actions are played back in the same browser window, no matter if the original application was multi window or not. If you want the lesson to be displayed also in multi window mode, this option must be deactivated.</Text>
+        <Text name="use_only_window0">Use only Window 0</Text>
+        <Text name="rec">Recording</Text>
+        <Text name="webrec">Web Recording</Text>
+        <Text name="winrec">Windows Recording</Text>
+    </Language>
+    <ParamSet name="rec">
+        <ParamInfo type="BOOL_TRUE_FALSE" name="demo_bubble_at_element" default="true"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="practice_bubble_at_element" default="false"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="input_confirm_tab" default="true"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="input_confirm_enter" default="false"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="input_confirm_button" default="false"/>
+    </ParamSet>
+    <ParamSet name="webrec">
+        <ParamInfo type="BOOL_TRUE_FALSE" name="use_only_window0" default="true"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="span_is_link" default="true"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="div_is_link" default="true"/>
+    </ParamSet>
+    <ParamSet name="winrec">
+        <ParamInfo type="BOOL_TRUE_FALSE" name="insert_inactive_edit_macros" default="false"/>
+    </ParamSet>
+</cfg>

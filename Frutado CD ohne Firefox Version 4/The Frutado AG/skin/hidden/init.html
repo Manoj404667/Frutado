@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>datango trainer</title>
+    <style>
+      BODY {
+        background: #336699;
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+    <script type="text/javascript" language="javascript">
+      var GCONF = {
+            detachable: false
+          , orientation: 's'
+          , height: '0'
+          , width: '100%'
+      };
+    </script>
+    <script type="text/javascript" language="javascript">
+    function splitUrlParams() {
+        var temp = new String(window.location.search);
+    
+        if (temp.substr(0, 1) == '?') {
+            temp = temp.substr(1);
+        }
+    
+        var urlParams = [];
+    
+        if (temp.length && temp.length > 0) {
+            urlParams = temp.split('&');
+        }
+        var urlParamsAsoc = [];
+        for (var i = 0; i < urlParams.length; i++) {
+            var urlParam = urlParams[i].split('=');
+        urlParamsAsoc[urlParam[0]] = urlParam[1];
+        }
+        return urlParamsAsoc;
+    }
+    
+    var urlParams = splitUrlParams();
+    dgoDOMAIN = urlParams['dgoDOMAIN'] || '';
+    if (dgoDOMAIN != '') {
+        if (self.location.protocol == 'http:' ||
+            self.location.protocol == 'https:') 
+        {
+            self.document.domain = dgoDOMAIN;
+        }
+    }
+    </script>
+    
+  </head>
+  <body onscroll="self.scrollTo(0,0)">
+  </body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

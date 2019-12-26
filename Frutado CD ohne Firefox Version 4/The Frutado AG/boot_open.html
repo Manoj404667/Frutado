@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+  <title>datango trainer opener</title>
+
+<script language=javascript>
+
+function splitUrlParams() {
+    var temp = new String(window.location.search);
+
+    if (temp.substr(0, 1) == '?') {
+        temp = temp.substr(1);
+    }
+
+    var urlParams = [];
+
+    if (temp.length && temp.length > 0) {
+        urlParams = temp.split('&');
+    }
+
+    return urlParams;
+}
+
+function moveWindow(orientation_, x_, y_, features_) {
+    if (self.dgoMoved) {
+        return true;
+    }
+
+    var features = features_ || '';
+    var dx = 0;
+    var dy = 0;
+    
+    if (x_ > 0 && y_ >= 0 &&  // IE position correction
+        typeof(self.screenLeft) == 'number' &&
+        typeof(self.screenTop) == 'number')
+    {
+        var orientation = orientation_ || 'C';
+
+        if (orientation == 'E' ||
+            orientation == 'SE' ||
+            orientation == 'NE')
+        {
+            dx = self.screenLeft - x_ + 6;
+            dx += (features.search('resizable=1') >= 0 ||
+                   features.search('resizable=on')) >= 0 ? 2 : 0;
+        }
+
+        if (orientation == 'S' ||
+            orientation == 'SE' ||
+            orientation == 'SW')
+        {
+            dy = self.screenTop - y_ + 10;
+            dy += (features.search('status=1') >= 0 ||
+                  features.search('status=on')) >= 0 ? 19 : 0;
+            dy += (features.search('menubar=1') >= 0 ||
+                  features.search('menubar=on')) >= 0 ? 19 : 0;
+            // Note: The features "toolbar" and "location" are taken
+            //       into account by IE when he positions the window.
+        }
+
+        /*DBG alert('Opened win at x,y: ' + x_ + ',' + y_ +
+              '; ori = ' + orientation + '; fea = ' + features +
+              '/ real x,y = ' + self.screenLeft + ',' + self.screenTop +
+              '/ dx, dy = ' + dx + ',' + dy); */
+
+    }
+    else {  // Non-IE position correction
+        var pos;
+        if (pos = features_.indexOf('width=')) {
+            dx = parseInt(features_.substr(pos + 6)) - self.outerWidth;
+        }
+        if (pos = features_.indexOf('height=')) {
+            dy = parseInt(features_.substr(pos + 7)) - self.outerHeight;
+        }
+        
+        /*DBG alert('Opened win at x,y w,h: ' + x_ + ',' + y_ +
+              '; ori = ' + orientation_ + '; fea = ' + features_ +
+              '\r\nouter w,h = ' + self.outerWidth + ',' + self.outerHeight +
+              '\r\n==> dx,dy = ' + dx + ',' + dy);  /**/
+    }
+    
+    // Move only, if the window is partially invisible.
+    // IE Fix: Do not even moveBy 0,0 if fullscreen.
+    if (features.search('fullscreen=1') < 0 &&
+        features.search('fullscreen=on') < 0)
+    {
+        self.moveBy((dx > 0 ? -dx : 0), (dy > 0 ? -dy : 0));
+    }
+
+    self.dgoMoved = true;
+    return true;
+}
+
+function do_onload() {
+    urlParams = splitUrlParams();
+    var temp, url, orientation, features;
+    var x = -1;
+    var y = -1;
+    var flagMove = false;
+
+    for (var i = 0; i < urlParams.length; ++i) {
+        temp = urlParams[i].split('=', 2);
+        name = (temp[0] || '');
+        value = unescape((temp[1] || ''));
+
+        switch (name) {
+        case 'href': url = value; break;
+        case 'features': features = value; break;
+        case 'orientation': orientation = value; break;
+        case 'x': x = value - 0; break;
+        case 'y': y = value - 0; break;
+        case 'move': flagMove = true; break;
+        default: break;
+        }
+    }
+
+    flagMove && moveWindow(orientation, x, y, features);
+    url && self.location.replace(url);
+    return true;
+}
+
+</script>
+</head>
+
+<body onload="return do_onload()">
+
+</body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

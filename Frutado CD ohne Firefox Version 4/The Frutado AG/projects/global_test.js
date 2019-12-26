@@ -1,0 +1,11 @@
+window.cfg_keys_invertedkeys_PLAY='';
+window.cfg_keys_invertedkeys_STOP='';
+window.cfg_keys_invertedkeys_PAUSE='';
+window.cfg_keys_invertedkeys_PREV='';
+window.cfg_keys_invertedkeys_BACK='';
+window.cfg_keys_invertedkeys_NEXT='';
+window.cfg_window_cfg_features_fullscreen=0;
+window.cfg_window_cfg_features_resizable=1;
+window.cfg_window_cfg_features_status=1;
+window.cfg_hidden=true;
+window.cfg_forward='collected_points,possible_points,result_scaled,mastery_score';

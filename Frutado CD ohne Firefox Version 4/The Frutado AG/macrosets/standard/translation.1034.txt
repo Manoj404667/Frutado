@@ -1,0 +1,858 @@
+﻿action	Acción
+animated	Animado
+input_text	Entrada de texto
+adv	Avanzado
+bubble	Leyenda
+bubble_d	Leyenda de demo
+bubble_p	Leyenda de práctica
+confirmation_button	Confirmar con botón
+alternate_text	Añadir texto de estado
+arrow	Flecha
+bubble_duration	Duración de leyenda
+bubble_duration_any	Duración de leyenda todos
+include_explanation	Explicación incluida
+bubble_height	Altura leyenda
+bubble_height_any	Altura leyenda
+bubble_width	Anchura leyenda
+bubble_width_any	Anchura leyenda
+bubble_height_p	Altura leyenda
+bubble_width_p	Anchura leyenda
+branch_on	Comienzo ramificación
+branch_off	Fin ramificación
+remove_branch	Remover ramificación
+form_on	Form Comienzo modo formulario
+form_off	Fin modo formulario
+remove_form	Remover modo formulario
+quiz_shuffle_on	Comienzo de selección examen rápido
+quiz_shuffle_off	Fin de selección examen rápido
+quiz_selection	Selección examen rápido
+remove_quiz_selection	Remover selección examen rápido
+bubble_duration_p	Duración de leyenda (práctica)
+beschreibung	Descripción
+bezeichnung	Descripción
+doc_description	Descripción
+doc_dropdown	Documentación Word
+update_pos_size	Actualizar posición de ventana
+caption	Título
+doc_chapter_heading	Título
+screenshot_sub_heading	Título
+choose_bool	Valor seleccionado
+choose_nr	Índice seleccionado
+choose_text	Valor seleccionado
+rerec_click_count	Número de clics
+confirmation_enter	Confirmar con INTRO
+confirmation_tab	Confirmar con Tab
+confirmation_key	Tecla de confirmación
+macro_comment	Comentario
+dbl_click	Doble clic
+demo	Demostración
+bgcolor	Color de fondo
+info_page	Página de información
+swf_page	Página Flash
+swf_width	Anchura
+swf_height	Altura
+swf_file	Archivo SWF
+swf_filter	Archivo Shockwave Flash (*.swf)|*.swf
+all_like_demo	Todo como demostración
+in_demo	En modo demostración
+in_practice	En modo práctica
+task_window_in_practice	En modo práctica
+in_test	En modo prueba
+task_window_in_test	En modo prueba
+in_prax	En modo concurrente
+img_filter	Fichero de imágenes (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png
+media_filter	Fichero de medios (*.jpg,*.bmp,*.gif,*.png,*.swf,*.wmv,*.mov,*.wma,*.wav,*.mp3)|*.jpg;*.bmp;*.gif;*.png;*.swf;*.wmv;*.mov;*.wma;*.wav;*.mp3
+jump_target	Salto destino
+wait_for_input	Esperar acción
+set_focus	Poner foco
+full_form	Modo formulario
+doc	Documentación
+rerecord	Grabar de nuevo
+cmd_rerecord	Grabar de nuevo aplicación web
+rerec_manual	Grabar de nuevo manual
+prepare_rerecord	Editar valor de entrada
+doc_enable	Mostrar en doc
+process_enable	Mostrar en proceso
+doc_heading	Como título en doc
+dump_page	Url
+ppt_import	Importar PowerPoint
+dump_win_height	Alto de ventana
+dump_win_left	Izquierda de ventana
+dump_win_relpos	Ventana
+dump_win_top	Parte superior ventana
+dump_win_width	Anchura ventana
+mode_change	Cambio de modo
+mode_change_end	Fin cambio de modo
+in_demo_to	In Demo to
+in_uebung_to	In Practice to
+in_test_to	In Test to
+in_praxis_to	In Concurrent to
+dont_change	no cambiar
+edit	Editar
+edit_bubble	Leyenda
+edit_bubble_demo	Leyenda demostración
+edit_bubble_prax	Leyenda práctica
+edit_jump_targets	Editar ramificación
+create_branch	Crear ramificación
+create_form	Modo formulario
+edit_rect	Editar marcamiento
+edit_screendump	Editar capturación de pantalla 
+edit_screenshot	Recortar capturación de pantalla doc
+elem_key	LLave de elemento
+auto_crop_screenshot	Recortar automáticamente
+rerec_element_type	Tipo de elemento
+end_unit	Fin de unidad
+ende	Fin
+explanation	Explicación (viejo)
+explanation_d	Explicación demostración
+explanation_long	Explicación
+explanation_p	Explicación práctica
+explanation_d_modified	Demostración manual
+explanation_p_modified	Práctica manual
+flash	Marco parpadeando
+fieldname	Nombre del campo
+fieldicon	Icono del campo
+frame	Marco fijo
+free_marker	Señalización
+bubble_class	Estilo de texto
+bubble_class_any	Estilo de texto
+bubble_class_p	Estilo de texto
+g_bubblestyle_ok	Tipo leyenda OK
+bubblestyle_d	Tipo leyenda
+bubblestyle	Tipo leyenda
+bubblestyle_p	Tipo leyenda
+g_highlight_border	Resaltar borde
+g_highlight_effect	Resaltar efecto
+g_highlight_fillstyle	Resaltar estilo del relleno
+g_highlight_name	Resaltar nombre
+g_highlight_rgb	Resaltar color
+g_highlight_style	Resaltar estilo
+g_linktextpraxis	Texto del enlace concurrente (RV)
+g_back_link	Texto del enlace concurrente (Atrás)
+g_alternate_link	Texto del enlace mostrar paso
+g_show_ok_bubble	Ok en modo prueba
+g_show_step_bubble	Mostrar leyenda de paso
+g_show_mouse	Mostrar ratón
+g_close_link	Texto del enlace concurrente (Cerrar)
+hotkey	Tecla de método abreviado
+show_hl_p	Resaltar en práctica
+show_hl_d	Resaltar en demo
+gendoc	Generar documento Word
+gendoc_checklist	Generar documento Word (Ayuda trabajo)
+gendoc_tables	Generar documento Word (Documentación práctica)
+gendoc_tables_wide	Generar documento Word (Página prueba)
+gendoc_work	Generar documento Word (Documento de trabajo)
+general_action	Clic en enlace
+key_press	Pulsación de tecla
+key_name	Código de tecla
+key_desc	Nombre de tecla
+click_SAP	Clic en enlace del menú SAP EA
+genhtml	Generar documento HTML
+global	Global
+hinweis	Aviso
+imagesize	Tamaño del imagen (%)
+info	Información
+input_radio	casilla de selección Radio/Checkbox
+kurs	Encabezado
+lclick	Clic izquierdo
+ldblclick	Doble clic izquierdo
+genppt	Generar documento PowerPoint
+doc_caption	Subtítulo
+doc_title	Título
+merge_selected_newpages	Juntar macros seleccionados pagina nueva
+new_step	Nombre del paso
+new_window	Nueva ventana
+new_window_close	Cerrar nueva ventana
+new_page	Nueva página
+identity	Identidad
+next_page	Proxima página
+note	Comentario
+no_image	<ningún icono>
+orientation	Alineación demo
+doc_arrow_orientation	Alineación
+doc_marker_orientation	Alineación de señalización
+orientation_any	Alineación
+bubble_orientation_p	Alineación leyenda
+orientation_p	Alineación leyenda práctica
+orientation_b	Alineación leyenda demo
+page_break	Salto de página
+position	Posición
+position_af	Posición botón afirmación
+position_bubble	Posición leyenda
+position_b	Posición leyenda demo
+position_bu	Posición leyenda
+position_h	Posición objeto
+position_tc	Posición código de operación
+possible_points	Puntuación máxima
+mastery_score	Puntuación necesaria
+goto_tourstop	Saltar al tema
+praxis	Concurrente
+prev_page	Página anterior
+quick_click	Clic rápido
+click	Clic en enlace
+rclick	Clic a la derecha
+rdblclick	Doble clic a la derecha
+drag	Arrastrar
+drop	Pegar
+enter	Pulsar ratón
+record2	Grabar aplicación web
+set_language	Cambiar idioma del proyecto
+record_window_id	ID de la ventana grabada
+sap_path	Ruta del menú
+sc_config_file	Archivo de config. capturación de pantalla
+sc_position	Posición de la barra de desplazamiento
+screenshot_border	Borde de la capturación de pantalla
+screenshot_file	Capturación de pantalla
+screenshot_part	Capturación de pantalla parcial
+screenshot_rect	Posición de la capturación de pantalla
+overlay_pos	Posición de la superposición
+rerec_click_pos	Posición de clic
+scrollInDivsLeftRight	Desplazamiento horizontal
+scroll_hor	Desplazamiento horizontal
+scrollInDivsTopDown	Desplazamiento vertical
+scroll_vert	Desplazamiento vertical
+scrollleft	Posición horizontal
+scrolltop	Posición vertical
+select_single	Selección simple
+show_actions	Mostrar acciónes
+start_unit	Inicio unidad
+status_info	Información del estado
+status_text	texto del estatus
+tcode	Código de transacción
+test	Prueba
+text	Texto
+text_d	Entrada de texto
+regexp	Expresión regular
+tipp	Consejo práctico
+titel	Título
+title	Título
+transaction_code	Código de transacción
+transaction_info	Código de transacción
+translate	Traducción automatizada
+task_text	Descripción de la tarea
+task_window_width	Ancho de ventana
+task_window_height	Alto de ventana
+task_window_orientation	Orientación
+task_window_bgcolor	Fondo
+type	Tipo
+doc_heading_type	Plantilla
+uebung	Práctica
+underline	Subrayado
+update	Actualizar
+set_position	Posiciónar
+show_position	Mostrar posición
+update_all_macros	Actualizar todos los macros
+update_page	Actualizar pagina
+update_pagedump	Actualizar capturación de página
+update_screenshot	Actualizar capturación de pantalla
+warnung	Aviso
+close_win_relpos	Ventana
+win_screenshot	Nueva página como pantalla de captura
+zoom_in	Acercar marco
+zoom_out	Alejar marco
+possible_points.h	Defines the maximum score for the lesson in Test Mode. In order to calculate the value automatically, the command 'Update' under the context menu in the Macro list is used.
+mastery_score.h	Defines the minimum score a user has to achieve for passing the lesson in Test Mode. In order to calculate the value automatically, the command 'Update' under the context menu in the Macro list is used.
+task_text.h	A task may be in a separate popup window in Practice and Test modes. In this case the text is produced in the 'HTML Editor'.
+task_window_width.h	Gives the width of the task window in pixels.
+task_window_height.h	Gives the height of the task window in pixels. If the window height is set to 0 the height of the task description window will adapt automatically to the length of the displayed text.
+task_window_orientation.h	Sets the position of the task description window on the screen, relative to the center of the screen.
+task_window_bgcolor.h	Sets the background color for the task description window. The color may be entered as a RBG value in HEX format or selected from out of the Color Picker dialog box.
+task_window_in_practice.h	Defines if the task description is to be displayed in Practice Mode of the lesson.
+task_window_in_test.h	Defines if the task description is to be displayed in Test Mode of the lesson.
+dump_page.h	Defines the path to the recorded page. Usually this is a relative path to a page in the folder 'pages' of the project.
+new_step.h	This parameter contains the name of the recorded topic (usually the name of the recorded Window) and later on can be optionally used for generating headings in a documentation file.
+dump_win_relpos.h	Defines the index number for the newly opened browser window. In the position dialog the regarding value is entered under 'Frame'.
+close_win_relpos.h	Defines the index number of the browser window to be closed. In the position dialog the regarding value is entered under 'Frame'.
+dump_win_left.h	Defines the distance of the new window to the left screen border in pixels.
+dump_win_top.h	Defines the distance of the new window to the top screen border in pixels.
+dump_win_width.h	Defines the width of the new window in pixels.
+dump_win_height.h	Defines the height of the new window in pixels.
+fieldname.h	Contains the string, which is used for the explanation in text bubbles instead of the placeholder '${fieldname}' (see text mode in the HTML-Editor) when generating bubble content automatically with text modules while recording.
+fieldicon.h	Contains the path to a button or icon, which is inserted in the explanation in text bubbles instead of the placeholder '${fieldicon}' (see text mode in the HTML-Editor) when generating bubble content automatically with text modules while recording.
+explanation_d.h	Contains the text for the textbubble in Demo and Concurrent Mode.
+explanation_p.h	Contains the text for the textbubble in Practice Mode.
+all_like_demo.h	When this option is activated, the text entered under 'Explanation Demo' is also used automatically for the text bubble in Practice Mode.
+position_b.h	Contains the position of the text bubble on the screen in Demo Mode. This parameter is detected automatically during automated recording and can be redefined afterwards in the position editor.
+position_bu.h	Contains the position of the text bubble on the screen in Practice Mode. This parameter is detected automatically during automated recording and can be redefined afterwards in the position editor.
+position_h.h	Contains the position of the recorded element on the screen. This parameter is detected automatically during automated recording and can be redefined afterwards in the position editor.
+in_demo.h	Defines if a macro is to be displayed in Demo Mode of the lesson.
+in_practice.h	Defines if a macro is to be displayed in Practice Mode of the lesson.
+in_test.h	Defines if a macro is to be displayed in Test Mode of the lesson.
+in_prax.h	Defines if a macro is to be displayed in Concurrent Mode of the lesson.
+action.h	This parameter sets the mouse action, which is to be performed on the referenced object.
+show_hl_p.h	If this option is activated, the referenced object is highlighted in Practice Mode.
+show_hl_d.h	If this option is activated, the referenced object is highlighted in Demo and Concurrent Mode.
+tcode.h	Contains the string of the SAP transaction code if a link was clicked in SAP.  This enbales the user to enter the transaction code directly instead of clicking the link.
+position_tc.h	Contains the position of the transaction code field if SAP was recorded on the screen. This parameter is detected automatically during automated recording and can be redefined afterwards in the position editor.
+hotkey.h	Contains the key or key code used. The key names are separated by spaces, for example: 'ctrl k'.
+key_name.h	Contains the key or key code used. The key names are separated by spaces, for example: 'ctrl k'.
+key_desc.h	The name of the keyboard combination can be entered as it is to be used in the bubble text instead of the placeholder '${key_desc}' (see text mode in HTML Editor). Changes to this input field are put into the automatically generated bubble text. The entered data in 'Key Code' is used as a default.
+text_d.h	Contains the value given to the reorded input field during the automated recording process as it is to be used in the bubble text instead of the placeholder '${text_d}' (see text mode in HTML Editor). It is used as a text module for the automatically generated bubble text. Changes to this input field are put into the automatically generated bubble text.
+regexp.h	A regular expression is an exactly defined search pattern which is used for finding a match pattern in a string of characters. When using a regular expression with an input field, the value entered during a simulation does not need to match exactly the value that was recorded originally. The value needs to be in the range of values covered by the regular expression to be valid. The regular must be JavaScript compliant. Some examples:\n \ndate: "\d{1,2}(\-|\/|\.)\d{1,2}\1\d{4}"\ncurrency: "(\d+|\d*(?:[.,])\d{1,2})" \ne-mail adddress: ".+\@(\[?)[a-zA-Z0-9\-\.]+\.([a-zA-Z]{2,3}|[0-9]{1,3})(\]?)"\n
+position_af.h	If the option 'Confirm with Button' has been selected, then the object position must be defined. This parameter is detected automatically during automated recording and can be redefined afterwards in the position editor.
+confirmation_tab.h	If this option is activated, the entry in the input field can be confirmed by hitting the 'Tab' key.
+macro_comment.h	General Comment, will show in the thumbnail view if non-empty.
+confirmation_enter.h	If this option is activated, the entry in the input field can be confirmed by hitting the 'Enter' key.
+confirmation_button.h	If this option is activated, the entry in the input field can be confirmed by clicking a button. It only works if the position of the button is set correctly under 'Position Affirmation Button'.
+choose_nr.h	Contains the index number of the selected entry in the popup menu or list field.
+choose_text.h	Contains the name of the selected entry in the recorded popup menu or list field given during the automated recording process as it is to be used in the bubble text instead of the placeholder '${choose_text}' (see text mode in HTML Editor). It is used as a text module for the automatically generated bubble text. Changes to this input field are put into the automatically generated bubble text.
+choose_bool.h	Contains the value if the radiobutton or checkbox is switched on or off. The value for a radiobutton is always '1' (on). The value for a checkbox can be '0' (ticked) or '1' (unticked).
+scrollleft.h	Defines the ratio the application window is to be scrolled horizontally in pixels.
+scrolltop.h	Defines the ratio the application window is to be scrolled vertically in pixels.
+unused.h	This parameter is currently not used and should stay empty.
+bubble_class.h	A different text style used for the display of text in your text bubble may be selected. Five styles are available from 'A' through 'E'. These can be found in the file 'bubble.css' in the 'resource' folder in the current working area.
+bubblestyle_d.h	A different bubble type than 'Standard' can be selected for the demo text bubble, if additional types are defined with the 'Bubble Type Editor' under the menu 'Tools' -> 'Edit bubble types'. Bubble types are always available for all projects in the current workarea.
+bubblestyle_p.h	A different bubble type than 'Standard' can be selected for the practice text bubble, if additional types are defined with the 'Bubble Type Editor' under the menu 'Tools' -> 'Edit bubble types'. Bubble types are always available for all projects in the current workarea.
+bubble_width.h	Sets the width of the text bubble in pixels.
+bubble_height.h	Sets the width of the text bubble in pixels. If the amount of text exceeds the available space in the text bubble it will adapt automatically to the length of the displayed text.
+bubble_duration.h	Sets the duration of the text bubble during play back of the lesson in seconds.
+bubble_orientation.h	This parameter sets the orientation of the text bubble relative to the referenced object. The spike of the text bubble points to the referenced position on the screen, while the bubble itself is offset to the selected direction. If the orientation 'Center' is selected the text bubble is displayed without a spike centered on the defined position.
+bubble_orientation_p.h	This parameter sets the orientation of the text bubble in Practice Mode relative to the referenced object. The spike of the text bubble points to the referenced position on the screen, while the bubble itself is offset to the selected direction. If the orientation 'Center' is selected the text bubble is displayed without a spike centered on the defined position.
+doc_enable.h	Defines whether this macro is to be taken into consideration during the creation of documentation. This way, some macro actions can be purposely hidden in the documentation.
+doc_heading.h	Allows the use of the 'Name of Step' entered as the headline in the documentation.
+imagesize.h	The value is entered as a percentage. The screenshot will be scaled relative to this value in the documentation file.
+screenshot_file.h	Contains the file name of the screenshot in the 'doc' documentation folder of the project. In the Macro Editor this is displayed beneath as a preview. In order to show the screenshot in its original size, move the mouse over the preview image. The mouse will now change into a loupe icon. Now do a left-click and your screenshot will be displayed in its original size for as long as you hold the click.
+screenshot_rect.h	Shows which area of the screen was used for the screenshot. As a rule, you will not need to manually edit this value.
+screenshot_border.h	Border size for screenshots in the documentation files. The value is entered in pixel.
+screenshot_sub_heading.h	Sets the string for the caption of the inserted screenshot in the doucmentation file.
+rerec_element_type.h	Contains the detected element type during the automated recording process. It is used as a reference for rerecording. It should as a rule not be manually changed.
+rerec_click_pos.h	Contains the click position on the screen detected during the automated recording. It should as a rule not be manually changed.
+rerec_click_count.h	Contains the number of sequential clicks on the same control element in a recording, if the option 'Merge multiple clicks on the same scroll button' within the 'Settings' is activated. The automatically recorded value should as a rule not be manually changed.
+sc_config_file.h	Contains the path to template file used for the recognition of the control elements during a recording. It equals the application chosen in the producer Recording Toolbar at the moment the macro was recorded. The automatically recorded value should as a rule not be manually changed.
+record_window_id.h	Contains the window ID of the window of the recorded web appplication. The automatically recorded value should as a rule not be manually changed.
+rerec_manual.h	If this option is activated and a project is rerecorded datango producer will stop at this macro and manual recording of the macro will resume. The automatic repeat recording will continue afterwards. This option is particularly important at positions where a desired object for the action to be recorded is purposely found in another position or a different object for the recording must be selected.
+explanation_d_modified.h	Prevents the contents of the Demo text bubbles to be automatically replaced by the text created by an Automated Translation or a Rerecording. The options are activated as soon as the contents of a bubble is edited manually or is altered by the function 'Bubble Search & Replace'. In this case the contents can be exported in a word file by Export Translatable in order to be translated manually by a translator.
+explanation_p_modified.h	Prevents the contents of the Practice text bubbles to be automatically replaced by the text created by an Automated Translation or a Rerecording. The options are activated as soon as the contents of a bubble is edited manually or is altered by the function 'Bubble Search & Replace'. In this case the contents can be exported in a word file by Export Translatable in order to be translated manually by a translator.
+jump_target.h	Sets the jump target within the lesson after the action described by the macro is completed. It is required for the creation of tree structures within a lesson.
+wait_for_input.h	Forces datango producer to pause proceeding to the next macro during playback, until the action described by the macro was performed. It is required for the creation of tree structures within a lesson.
+full_form.h	Improves filling out forms of an application in Practice or Test Mode. By activating this option for all action macros of a topic, they will be grouped. For this group the order of the entries made into the different elements of the form does not matter anymore as the correction will be done only with the last text input. The form is filled out correctly when all entered values are correct. The textbubble displayed for this is the one from the last macro in this group.
+set_focus.h	Defines whether the focus is set on the regarding input field on the page during playback of the lesson. If deactivated the user has to set the focus by himself, which is closer to the bhavious of a live application.
+animated.h	If activated the text input or the selection in the list is played back as an animation in Demo and Concurrent Mode.
+doc_caption.h	Contains the string used as title on the cover page of the documentation file.
+doc_description.h	Contains the string used as description on the cover page of the documentation file.
+sap_tcode.h	Contains the string of the transaction code detected during the recording of an SAP application.
+sap_path.h	Contains the menu path of the selected transaction detected during the recording of an SAP application.
+show_actions.h	Allows that subsequent actions are displayed on the partial screenshot in the documentation instead of the last macro 'New Page'.
+text.h	The desired text is entered and formatted in this text field.
+Note:	Only enter plain text into the text editor. HTML formatting and inserted images or screenshots are not transferred completely into the documentation file, and can lead to unexpected results.
+explanation_type.h	The text box inserted into the lesson and documentation file can be selected from four different types, each represented by a different icon: Note, Tip, Info, and Warning/Guideline. All icons can be found and changed in the 'resource' folder of respective Workarea.
+Images	are found in the img folder of the standard macro set of your datango producer installation with these file endings: hinweis.gif, info.gif, tipp.gif and warnung.gif. You may replace these with your own images.
+explanation_type	Type (Icon)
+status_text.h	Contains the automatically recorded message text displayed in the status bar of the recorded SAP system.
+alternate_text.h	Contains the automatically recorded additional message text displayed in the status bar of the recorded SAP system.
+doc_chapter_heading.h	Starts the new section with the title you entered in this input field.
+doc_heading_template.h	Contains the name of the desired format template (e.g.: 'Heading 2') in MS Word. If empty, the same template as for the chapters (topics in the lesson) is used.
+doc_marker_orientation.h	Sets the position of the added index relative to the marked object. If set to 'Center' the index will be placed in the center of the marked area on the screenshot.
+doc_arrow_orientation.h	Sets the arrow's alignment. The anchors are numbered from '1' to '8' in a clockwise direction, beginning with the upper center position.
+g_highlight_effect.h	This option determines the kind of effect used for highlights in the projects.
+g_highlight_border.h	This parameter defines the density of the lesson highlight frame in pixels. Pixel widths available are from '1' to '10'.
+g_highlight_rgb.h	This defines the standard color of the highlight border. The color may be entered as a RBG value in HEX format or selected from out of the Color Picker dialog box.\nNote: A color value defined here is only valid when no color has been defined in Highlight Style.
+g_highlight_name.h	You may determine a highlight name with this parameter with which regular highlights are called within the lesson. The name as a rule should not be changed.
+g_highlight_style.h	This parameter enables you advanced possibilities to alter the appearance of the highlights in the lesson. If a color has been entered here it overrides the color settings entered under 'Highlight Color'.\nAn image from out of the 'widgets/highlight2' folder in the active workarea can also be applied. If you use a PNG file for instance, it will be able to contain a proportional transparency. Therefore the border of the highlight will also be transparent.
+g_highlight_fillstyle.h	This parameter works similar to the parameter Highlight Style, but fills the inside area of the highlighted area with the defined color or image. In this case transparency is also an option if you decide to use an image.
+g_linktextpraxis.h	When there is a lesson pause during playback and the lesson can only continue when the user clicks on the link at the bottom of the text bubble being displayed, the text you enter here will be the link text. The text may contain HTML attributes. Therefore, it is also possible to include an image file path.\nAn image is used as default. If you would like to use your own image, please observe the following syntax:\n'<img src='${resource_dir}/next_red.gif' border=0>'\nNote: The string '${resource_dir}' serves as a free variable parameter and is replaced by the datango producer later with the correct path to the 'Resource' folder in your workarea. It must always be contained in the path. If this placeholder is not used, then the playback of the lessons may be faulty. If you would like to use your own images, please file them in the 'Resource' folder.
+g_back_link.h	When there is a lesson pause during playback in Working mode and the user may jump back to the previous topic when clicking on the link at the bottom of the text bubble being displayed, the text you enter here will be the link text. The text may contain HTML attributes. Therefore, it is also possible to include an image file path.\nAn image is used as default. If you would like to use your own image, please observe the following syntax:\n'<img src='${resource_dir}/next_red.gif' border=0>'\nNote: The string '${resource_dir}' serves as a free variable parameter and is replaced by the datango producer later with the correct path to the 'Resource' folder in your workarea. It must always be contained in the path. If this placeholder is not used, then the playback of the lessons may be faulty. If you would like to use your own images, please file them in the 'Resource' folder.
+g_close_link.h	Clicking on the link in the displayed bubble can close a lesson in Concurrent Mode. The text you have entered here is used for the link. The text may contain HTML attributes. Therefore, it is also possible to include an image file path.\nAn image is used as default. If you would like to use your own image, please observe the following syntax:\n'<img src='${resource_dir}/next_red.gif' border=0 >'\nNote: The string '${resource_dir}' serves as a free variable parameter and is replaced by the datango producer later with the correct path to the 'Resource' folder in your workarea. It must always be contained in the path. If this placeholder is not used, then the playback of the lessons may be faulty. If you would like to use your own images, please file them in the 'Resource' folder.
+g_show_step_bubble.h	If this option is activated, a text bubble is displayed in Test Mode which contains a link which opens an additional window in Demo Mode showing the actual step and closing it again afterwards. The text bubbles for entry fields also show the explanation from Practice Mode.
+g_alternate_link.h	Defines the link text in the text bubble for the option 'Show Step bubble'.
+g_show_ok_bubble.h	If a step in Test Mode was performed correctly, a bubble containing 'OK' is displayed.
+g_bubblestyle_ok.h	Defines the 'Bubble Style' used for the text 'OK' bubble when the option 'OK in Test Mode' is activated.
+g_show_mouse.h	Shows actions on pages, which normally are performed with the mouse, as an animated mouse pointer in Demo and Concurrent Mode. By default this option is deactivated.
+menu_path:/main/doc/doclet	Insertar macro de documentación
+menu_path:/main/doc/word_doc	Generar documento Word
+menu_path:/main/tools/translate	Lenguajes
+menu_path:/main/tools/addmac	Insertar macro especial
+menu_path:/main/edit/addqmac	Insertar macro de examen rápido
+# translations for settings dialog
+arrow_len	Longitud flecha
+arrow_len.h	Defines the length of the arrowhead in the macro 'Doc: Arrow' in pixel.
+arrow_width	Anchura flecha
+arrow_width.h	Defines the width of the arrowhead in the macro 'Doc: Arrow' in pixel.
+atomize_scroll_buttons	Integrar múltiple clics en el mismo botón de desplazamiento
+atomize_scroll_buttons.h	If this option is activated, multiple serial clicks on the same scroll bar are recorded as a single 'Horizontal Scroll' or 'Vertical Scroll' macro.
+autocrop	Recortar automáticamente
+autocrop.h
+check_position	Controlar tambien la vieja posición del control
+check_position.h	This option enables considering position dependent search for a control.
+crop_min_h	Altura mínima (pixel)
+crop_min_h.h
+crop_min_off_b	Borde de fondo (pixel)
+crop_min_off_b.h
+crop_min_off_l	Borde izquierdo (pixel)
+crop_min_off_l.h
+crop_min_off_r	Borde derecho (pixel)
+crop_min_off_r.h
+crop_min_off_t	Borde de arriba (pixel)
+crop_min_off_t.h
+crop_min_w	Anchura mínima (pixel)
+crop_min_w.h
+default_bubble_duration	Duración predeterminada de la leyenda
+default_bubble_duration.h	Duración predeterminada de las leyendas en el modo demo en segundos.
+demo_bubble_at_element	Leyenda demo en el elemento
+demo_bubble_at_element.h	If activated, an algorithm tries to position the demo bubble close to the referenced element at the best possible position. If deactivated the text bubble will always be positioned at the element's bottom-right corner.
+demo_text_with_value	Texto de demostración con el valor
+demo_text_with_value.h	If activated, in Demo mode the value or text (in a text field) entered during the recording process is included in the explanation text of the text bubbles.
+div_is_link	Tratar <DIV> como elementos <A>
+div_is_link.h	Sometimes, the recognition of '<DIV>' tag elements in the HTML code of a recorded web page fails, if it is unique to the recorded web application and cannot be found in the built in reference tables of datango producer. This option enforces datango producer to treat such an element like a usual '<A>' tag instead, preventing the recording from being terminated.
+doc.h	The template defined in this parameter is used for generating the Microsoft Word documentation for a project.
+doc_template	Plantilla documentación Word
+dot_filter	Plantilla documento Word (*.dot)
+export_page_caption	Exportar título de página
+export_tourstop_name	Exportar nombre del tema
+global_index_counter	Contador del índice global
+global_index_counter.h	Prevents resetting marker indexes for every new screenshot in the documentation file.
+heading_from_new_page	Títulos de nueva página macro
+heading_from_new_page.h	Defines whether the chapter head is transferred automatically from the page heads of the 'New Page' macros.
+heading_from_tourstop	Títulos del tema
+heading_from_tourstop.h	Defines whether the chapter head is to be taken from the topic titles in the lesson.
+headings	Títulos
+headings.h
+hinweis_left_indent	Sangrar izquierdo de la tabla de aviso
+hinweis_left_indent.h	Formats left indentation for the Doc: Note macro. The value is entered in (Pt).
+ignore_tourstop_start	Ignore primer tema
+ignore_tourstop_start.h	By default, the first (special start or init) topic will be ignored for documentation, since it only contains information for the initialization of datango trainer. If the option is deactivated the first topic will be integrated in the documentation file.
+image_caption_from_new_page	subtítulo del imagen Nueva página macro
+image_caption_from_new_page.h	The image captions are generated from the title in the 'New Page' macro.
+image_scale	Escala de imágen
+image_scale.h	The value is entered as a percentage. The images will be scaled relative to this value.
+images	Imágenes
+images.h
+images_with_caption	Imagen con subtítulo
+images_with_caption.h	Images get a bottom caption (Figure xyz). If this option is activated, the images used in the documentation will be given a caption like this: 'Image #'. The '#' character is replaced by the consecutive number of the corresponding image. If the option is deactivated, there are no captions.
+include_project_details	Incluir detalles del proyecto
+include_project_details.h	This option includes the project description and display name from Project Explorer.
+input_confirm_button	Botón confirma la entrada
+input_confirm_button.h	The click on a button is set as a default confirmation for recorded entry fields.
+input_confirm_enter	Botón confirma entrada
+input_confirm_enter.h	The 'Enter' Key is set as a default confirmation for recorded entry fields.
+input_confirm_tab	TAB confirma entrada
+input_confirm_tab.h	The 'TAB' Key is set as a default confirmation for recorded entry fields.
+insert_inactive_edit_macros	Generar macros para el campo de editar inactivo
+insert_inactive_edit_macros.h	If this option is activated, the recording over a SAP application creates a topic for every activated input field, including the macro belonging to it. For projects that also include the creation of documentation, this behavior is often unwanted; therefore the option is deactivated by default.
+interactive	Volver a grabar interactivo
+interactive.h	In case of problems during the rerecording process, parameters can be changed in an appearing dialog box. If this option is deactivated, datango producer terminates the recording process with an error message and an error log file is generated.
+marker_bg_color	Señalización del color de fondo
+marker_bg_color.h	This parameter defines the background color given to the ordinal numbers of the markers during the compilation of a documentation file. The RGB values are taken from the HEX table for the colors blue, green and red in the following format: 'RRGGBB'. The default value is 'ffff80', the color yellow.
+marker_border	Borde de la señalización
+marker_border.h	Defines the width of the marker border in pixel.
+marker_color	Color de la senãlización
+marker_color.h	This parameter defines the marker border color given to the marker during documentation creation. The RGB values are taken from the HEX table for the colors blue, green and red in the following format: 'RRGGBB'. The default value is 'ff0000', the color red.
+marker_offset	Offset de la señalización
+marker_offset.h	Defines the added pixel offset of the marker rectangle surrounding the marked element on the screenshot.
+marker_rect_radius	Radio del rectángulo de la señalización
+marker_rect_radius.h	Radius for rounded marker rectangles
+marker_text_color	Color del texto de la señalización
+marker_text_color.h	This parameter defines the text color given to the text of the ordinal number during documentation creation. The RGB values are taken from the HEX table for the colors blue, green and red in the following format: RRGGBB. The default value is 000000, the color black.
+markers	Señalización
+markers.h
+master_template	Plantilla de documento (Master-doc)
+master_template.h	The template defined in this parameter is used by datango producer for generating the master documentation file for a group of projects.
+new_release	Grabar nueva versión
+new_release.h	This option provides the possibility to update an existing project if the version of the recorded application has changed. The rerecording will be processed in the same language as in the original project. Known descriptors and labels on the screens will be used to identify elements on the screen if the layout of the application has slightly changed.
+pot_filter	Plantilla de PowerPoint (*.pot)|*.pot
+ppt_template	Plantilla de documentación PPT
+ppt_template.h	The template defined in this parameter is used for generating the Microsoft PowerPoint documentation for a project.
+practice_bubble_at_element	Leyenda práctica en el elemento
+rec	Grabación
+rec.h
+record_scroll	Grabar macros de desplazamiento
+record_scroll.h	If this option is activated, 'Horizontal Scroll' and 'Vertical Scroll' macros are recorded automatically while recording a lesson. If this option is deactivated these macros have to be added manually to the project.
+rects_with_index	Señalización con número
+rects_with_index.h	When creating documentation, ordinal numbers are attached to the markers on the screenshot, so that these bubble texts can be allocated. If this option is activated, these ordinal numbers are created with the documentation.
+screenshot_border_color	Color de bode de la captura de pantalla
+screenshot_border_color.h	This parameter defines the background color given to the ordinal numbers of the markers during the compilation of a documentation file. The RGB values are taken from the HEX table for the colors blue, green and red in the following format: 'RRGGBB'. The default value is 'ffffff', the color white. The new setting applies to all macros recorded after the setting was redefined.
+search_factor	Factor de búsqueda para elementos trasladado
+search_factor.h	Sometimes elements in a Windows application are not located exactly at the same position as in the original recording. datango producer then tries to find the element in the surrounding of the expected position. This parameter determines the number of spots in which datango producer should search for the element. The search spots are always located half the height and half the width of the wanted element away from the original outline of the element. Moved elements are only searched for by this mechanism if the option ' Interactive Rerercording' is deactivated.
+show_bubble_text	Mostrar texto de leyenda
+show_bubble_text.h	The content of the text bubbles will be used for the documentation file. If deactivated only the screenshots will be used.
+singledoc_headinglevel	Nivel del título para documentos únicos
+singledoc_headinglevel.h	This variable defines the structure level for the headlines in the Word documentation created for individual projects. Values greater than '1' are useful for the option of creating a master document later, which is to use a level higher for groups and project names. The default setting is '2'. This allows the easy creation of master documents.
+span_is_link	Tratar <SPAN> como elementos <A>
+span_is_link.h	Sometimes, the recognition of '<SPAN>' tag elements in the HTML code of a recorded web page fails, if it is unique to the recorded web application and cannot be found in the built in reference tables of datango producer. This option enforces datango producer to treat such an element like a usual '<A>' tag instead, preventing the recording from being terminated.
+template.h	The template defined in this parameter is used by datango producer for generating the master documentation file for a group of projects.The Word template for the document is filed in the producers Install Directory '\macro_templates\standard\'. There are also a few alternative document templates for documentation. You may use one of your own templates as well.
+translatable	Plantilla de traducción
+use_demo_bubbles	Usar texto de la leyenda demostración
+use_demo_bubbles.h	The text from the demo bubbles will be included in the documentation. Can be used in combination with 'Use practice bubble'.
+use_only_window0	Grabar todo en ventana 0
+use_only_window0.h	If this option is activated, all recorded actions are played back in the same browser window, no matter if the original application was multi window or not. If you want the lesson to be displayed also in multi window mode, this option must be deactivated.
+use_practice_bubbles	Usar texto de la leyenda práctica
+use_practice_bubbles.h	The text from the demo bubbles will be included in the documentation. Can be used in combination with 'Use demo bubble'.
+wait	Esperar página nueva
+wait.h	This parameter defines how long datango producer is waiting during the rerecording process for a new screen before trying to record the next action. The value is entered in milliseconds. By default, datango producer waits 2 seconds (2000ms) for the application to react to an action and to update the screen. In case the response time of your application is longer you can enter a higher value.
+webrec	Grabación Web
+webrec.h
+winrec	Grabación Windows
+winrec.h
+winrerec	Grabar de nuevo Windows
+winrerec.h
+# ui_lang.js
+msgReplaceScreenshot	¿Desea sustituir la captura de pantalla existente?
+capReplaceScreenshot	Sustituir la captura de pantalla
+msgReplacePagedump	¿Desea sustituir la capturación de página existente?
+capReplacePagedump	Sustituir la capturación de página
+capEditFreeMarker	Editar señalización libre
+capEnterTextInput	Llenar campo de entrada
+capRecordSettings	Configuración grabación
+capDocSettings	Configuración documentation
+capScores	Puntuación
+msgSelectRadio	Seleccionar opción\n(ESC para cancelar)
+msgSelectGeneralAction	Haga clic sobre el elemento\n(ESC para cancelar)
+msgSelectTCODE	Haga clic en el campo de código transacción\n(ESC para cancelar)
+msgSelectMenuAction	Haga clic en el menú Click on the menu item\n(ESC para cancelar)
+msgSelectTextInput	Seleccionar campo de entrada del texto\n(ESC para cancelar)
+msgSelectSingle	Haga una selección\n(ESC para cancelar)
+msgSelectStatusLine	Seleccionar línea de situación\n(ESC para cancelar)
+msgSelectPosition	Seleccionar posición en la página\n(ESC para cancelar)
+msgSelectBubblePos	Seleccionar posición de la leyenda\n(ESC para cancelar)
+msgSelectHighlightPos	Seleccionar posición Select Highlight Position\n(ESC para cancelar)
+msgConfirmButton	Posición del botón de confirmación\n(ESC para fin)
+msgReRecordFromHere	Comienzo del actual macro
+msgRecordPageLoaded	Confirma con OK cuando la página esta cargada completamente.
+msgRecordPageCopy	Copiar página
+msgRecordAcceptAnyway	\n¿Continuar de todas formas?
+msgRecordStart	Clic para inicio
+msgRecordNextAction	Próxima acción\n(ESC para fin)
+msgRecordStoped	Grabación acabada.
+msgRecordAborted	Grabación abortada.
+msgStatusAction	Acción:
+msgSelectHScroll	Seleccione barra de desplazamiento horizontal\n(ESC para cancelar)
+msgSelectVScroll	Seleccione barra de desplazamiento vertical\n(ESC para cancelar)
+msgLanguageIs	El idioma de la grabación es
+msgNoTranslatableParams	El proyecto no contiene parámetros traducibles.
+capPrepareTranslation	Preparar traducción
+msgInserted	Insertado:
+capPptImport	Importar PowerPoint
+msgPptImport	Por favor abra la presentación y\nseleccione las diapositivas de importación.
+width	Anchura
+height	Altura
+errNoRadiobutton	¡No hay botón de radio en esta posición!
+errNoTextInput	¡No hay entrada de texto en esta posición!
+errNoScreenshotFound	¡No hay captura de pantalla antes del macro!
+errNoSelectSingle	¡Ningúna selección en esta posición!
+errNoStatusLine	No hay línea de situación en esta posición!
+errNoScreenshot	¡Error al generar la captura de pantalla!
+errMissingScreenshot	No todas los macros tienen una captura de pantalla.\n¿Desea añadirlos ahora?
+errReRecordTypeMismatch	No hay elemonto que coincide
+errReRecordTypeMismatch2	El Tipo del elemento seleccionado no coincide con el original
+errReRecordNewType	\nNUEVO:
+errObjectNotRecognizedRightMouse	Objeto no reconocido: Derecho del ratón '
+errObjectNotRecognizedLeftMouse	Objeto no reconocido: Izquierdo del ratón '
+macGotoTourstop	Salto al tema
+macEndUnit	Fin unidad
+macQuickClick	Clic rápido
+macExplanation	Explicación
+macHinweis	Doc.: Aviso
+macExplanationLong	Explicación
+macInputRadio	Campo de opción
+macGeneralAction	Hacer clic en ...
+macInputText	Campo de texto 
+macClickMenu	Clic en menú
+macClickSAPMenu	Clic en men SAP
+macSelectSingle	Campo de selección
+macFreeMarker	Señalización libre
+macNewHeading	Nuevo párrafo
+macAddArrow	Añadir flecha
+macDocumentation	Documentación
+macKeyPress	Pulsar tecla
+paramJumpTarget	Salto destino
+dlgJumpTargets	Editar la ramificación
+capNoTargets	Ningún macro encontrado
+msgNoTargets	Ningún macro 'Comienzo de ramificación' encontrado
+capNoBranchOn	Ningún comienzo de ramificación
+msgNoBranchOn	No se pudo encontrar un correspondiente macro 'Comenzar ramificación'.
+msgNoBranchOff	No se pudo encontrar un correspondiente macro 'Fin ramificación'.
+capDeleteBranch	Eliminar ramificación
+capDeleteForm	Eliminar formulario
+msgDeleteForm	¿Eliminar el seleccionado modo de formulario?
+msgNoFormOff	No se pudo encontrar un correspondiente macro 'Fin formulario'
+msgNoFormOn	No se pudo encontrar un correspondiente macro 'Comenzar formulario'
+capDeleteQuizSelection	Eliminar seleccionado examen rápido
+msgDeleteQuizSelection	¿Eliminar el selecionado examen rápido?
+msgNoQuizSelectionOff	No se pudo encontrar un correspondiente macro 'Fin examen rápido'
+msgNoQuizSelectionOn	No  se pudo encontrar un correspondiente macro 'Comenzar examen rápido'
+msgDeleteBranch	¿Eliminar la seleccionada ramificación?
+capHaveBranch	Ramificación existe
+msgHaveBranch	Existe una ramificación en este tema.
+msgFormAndBranch	No se pueden usar en el mismo tema el modo ramificación y formulario.
+capHaveForm	Modo formulario activado
+msgHaveForm	El modo formulario ya está activado.
+capHaveQuiz	Selección examen rápido activada
+msgHaveQuiz	La selección examen rápido ya está activada.
+paramCaption	Título
+paramValue	Valor
+paramValueHelp	Ayuda valor
+paramType	Tipo
+paramTransactionName	Nombre transacción
+paramFieldname	Nombre del campo
+paramExplanationDemo	Explicación demo
+paramExplanationPrac	Explicación práctica
+paramMarkerPosition	Posición señalización
+paramReRecordLanguage	Idioma
+paramText	Texto
+lang_bg	Búlgaro
+lang_cs	Checo
+lang_da	Danés
+lang_de-DE	Alemán
+lang_el	Griego
+lang_en-GB	Inglés (UK)
+lang_en-US	Inglés (US)
+lang_es-ES	Español
+lang_et	Estonio 
+lang_fi	Finlandés
+lang_fr-CA	Francés (CA)
+lang_fr-FR	Francés (FR)
+lang_hi	Hindi
+lang_hr-HR	Croata
+lang_hu	Húngaro
+lang_id	Indonesio
+lang_it-IT	Italiano
+lang_ja	Japonés
+lang_ko	Coreano
+lang_lt	Lituano
+lang_lv	Letón
+lang_nl-NL	Holandés
+lang_nb	Noruego
+lang_pl	Polaco
+lang_pt-BR	Portugués (Brasil)
+lang_pt-PT	Portugués (Portugal)
+lang_ro	Rumano
+lang_ru	Ruso
+lang_sk	Eslovaco
+lang_sl	Esloveno
+lang_sv-SE	Sueco
+lang_th	Tailandés
+lang_tr	Turco
+lang_uk	Ucraniano
+lang_vi	Vietnamita
+lang_zh-CN	Chino
+lang_zh-TW	Chino (Taiwán)
+paramStartAtCurrentMacro	Iniciar en actual macro
+paramStrictTypeCheck	Estricta comprobación del tipo
+paramKeepCrop	Mantener recorte
+paramReRecordWait	Tiempo de respuesta(ms)
+paramReRecordInteractive	Interactivo
+paramReplaceBubbleTxt	Sustituir texto
+paramLangDependentType	Tipo dependiente del idioma
+paramRequiredType	Tipo requerido
+paramFoundType	Tipo actual
+msgSelectObject	Por favor muestre sobre el elemento de página correcto.
+paramKeypressRemind	Ningún campo de texto ha sido grabado.
+paramRecordHotkey	Entrada será interpretada como tecla de método abreviado.
+paramNoRecordKeypress	La intorucción por el teclado no sera tratado.
+paramNoRemindTillClick	No mostrar este mensaje hasta el próximo clic.
+paramCheckPosition	Controlar tambien la vieja posición del control
+paramConfirmTab	La tecla TAB confirma
+paramConfirmEnter	La tecla INTRO confirma
+paramConfirmButton	Clic en botón confirma
+paramKeyName	Tecla
+progressMacros	Macros tratados: %.0lf de %.0lf
+msgGenerateDocumentation	Generar documentación
+msgFNFContinueAnyway	\nno pudo ser cargado.\n¿ continuar de todas formas?
+msgOpenDocumentation	¿Abrir la documentación generada?
+msgDocFinished	Generación de la documentación terminado
+msgRerecordingStopped	¡Ningun compatible control en la determinada posición! Grabar de nuevo parado.
+msgRerecordSuccess	Grabar de nuevo completó con éxito.
+docSAPMenuPath	Ruta del menú
+docSAPTransaction	Transacción
+cfgDocTemplate	Plantilla Doc.
+cfgImageScale	Escala de imágen (%)
+cfgMarkerBorder	Borde de marcación
+cfgMarkerColor	Color de marcación
+cfgMarkerTextColor	Color del texto marcación
+cfgMarkerBgColor	Fondo de marcación
+cfgGlobalIndex	Numeración global
+cfgOnlyWindow0	Siempre ventana 0
+cfgDefaultBubbleDuration	Duración de la leyenda
+cfgUseDemoBubbles	Texto demo
+cfgUsePracticeBubbles	Texto práctica
+cfgMasteryScore	Puntuación como mínimo (%)
+cfgWebrecSpanIsLink	SPANs son enlaces
+cfgWebrecDivIsLink	DIVs son enlaces
+docTableHeaderStep	Paso
+docTableHeaderAction	Acción
+docTableHeaderInput	Entrada
+docTableHeaderExpectedResults	Rsulatados esperados
+docTableHeaderPassed	Aprovado
+docTableHeaderFailed	Fallado
+mchoice	Opción múltiple 
+points	Puntos
+points.h	Indica la puntuación para las respuestas correctas . La configuración  predeterminada es '1'.
+correct_answer	Respuesta correcta
+correct_answer.h
+question	Pregunta
+question.h	Contains the quiz questions and task respectively.
+matchquestion	Pregunta
+matchquestion.h	Contains the quiz questions and task respectively.
+question_1	Pregunta 1
+question_1.h	Contains the question and text respectively an answer must be assigned. 
+question_2	Pregunta 2
+question_2.h	Contains the question and text respectively an answer must be assigned. 
+question_3	Pregunta 3
+question_3.h	Contains the question and text respectively an answer must be assigned. 
+question_4	Pregunta 4
+question_4.h	Contains the question and text respectively an answer must be assigned. 
+question_5	Pregunta 5
+question_5.h	Contains the question and text respectively an answer must be assigned. 
+question_6	Pregunta 6
+question_6.h	Contains the question and text respectively an answer must be assigned. 
+question_7	Pregunta 7
+question_7.h	Contains the question and text respectively an answer must be assigned. 
+question_8	Pregunta 8
+question_8.h	Contains the question and text respectively an answer must be assigned. 
+answer_1	Respuesta 1
+answer_1.h	Contains a quiz answer.
+answer_2	Respuesta 2
+answer_2.h	Contains a quiz answer.
+answer_3	Respuesta 3
+answer_3.h	Contains a quiz answer.
+answer_4	Respuesta 4
+answer_4.h	Contains a quiz answer.
+answer_5	Respuesta 5
+answer_5.h	Contains a quiz answer.
+answer_6	Respuesta 6
+answer_6.h	Contains a quiz answer.
+answer_7	Respuesta 7
+answer_7.h	Contains a quiz answer.
+answer_8	Respuesta 8
+answer_8.h	Contains a quiz answer.
+answer_1_correct	Respuesta 1 correcta
+answer_1_correct.h	If this option has been activated, the corresponding answer is defined as correct.
+answer_2_correct	Respuesta 2 correcta
+answer_2_correct.h	If this option has been activated, the corresponding answer is defined as correct.
+answer_3_correct	Respuesta 3 correcta
+answer_3_correct.h	If this option has been activated, the corresponding answer is defined as correct.
+answer_4_correct	Respuesta 4 correcta
+answer_4_correct.h	If this option has been activated, the corresponding answer is defined as correct.
+answer_5_correct	Respuesta 5 correcta
+answer_5_correct.h	If this option has been activated, the corresponding answer is defined as correct.
+answer_6_correct	Respuesta 6 correcta
+answer_6_correct.h	If this option has been activated, the corresponding answer is defined as correct.
+answer_7_correct	Respuesta 7 correcta
+answer_7_correct.h	If this option has been activated, the corresponding answer is defined as correct.
+answer_8_correct	Respuesta 8 correcta
+answer_8_correct.h	If this option has been activated, the corresponding answer is defined as correct.
+last_page_pause.h	Contains the step duration until the lesson will be closed.
+last_page_pause	Pausa
+show_nav_buttons	Mostrar contorles
+show_nav_buttons.h	This option show or hide the navigation controls within the bubble.
+shuffle_solutions	Mezclar solución
+shuffle_solutions.h	If this option has been activated, the corresponding answers will be mixed and displayed in random sequence.
+feedback	Realimentación
+feedback_enable	Activar realimentación
+feedback_enable.h	With this option the corresponding feedback text will be shown. The text can be entered global within the global setting dialog or individual within Macro-Editor when the option 'Show more' has been activated.
+feedback_pass	Aprobado examen rápido
+feedback_pass.h	Contains the text for correct answered questions. For this option 'Enable Feedback' must have been activated.
+feedback_fail	Suspendido examen rápido
+feedback_fail.h	Contains the text for incorrect answered questions. For this option 'Enable Feedback' must have been activated.
+sqmaquiz	Rellenar el campo
+fibquiz	Respuestas incrustadas 'Cloze'
+connquiz	Conexión
+matchquiz	Emparejamiento
+mixquiz	Ordenar
+quiz_alignment	Alineación
+quiz_alignment.h	Enables the placement of answers horizontal or vertical.
+qa_horizontal	horizontal
+qa_vertical	vertical
+scalequiz	Escala 
+range	Área
+range.h	Defines the start and end value of the slider. Both values must be linked with an hyphen (e.g. 2-9).
+answer	Respuesta
+answer.h	This parameter defines the answer as a number.
+gridquiz	Reja
+grid_list	Possible respuesta
+grid_list.h	Enables the entry of several answers within this text field. The sequence of columns in the grid is concerned by the sequence of the text entries. All answers must be separated with a comma.
+qt_text	Text entrada
+qt_drop_down	Lista desplegable 
+qt_drag_drop	Arrastrar y soltar
+at_text	Texto
+at_integer	Número entero
+at_float	Coma flotante
+at_regexp	Expresión regular
+at_comma_list	Lista separada por comas
+quiz_type	Tipo
+quiz_type.h	Defina el tipo de contestación.
+answer_type	Tipo
+answer_type.h	This parameter defines the way to enter the answer. Answers can be entered as continuous text (also case sensitive), numeral or list answers, and regular expressions. 
+quiz_selection_type	Tipo
+quiz_selection_type.h	Enables a different sequence or display of all quizzes which are included in macro 'Quiz selection'. The option 'Random Choice' will show only one automatically choosen quiz as the option 'Shuffle Quizzes' will show all containing quizzes in any sequence.
+force_multiple_choice	Forzar selección múltiple
+force_multiple_choice.h	If this option has been activated, multiple choice will be also possible when only one correct answer is available.
+more_answers	Más respuestas
+mode_avail	Disponible en modo
+mode_avail.h
+one_for_all	Usar sólo primera lista de respuesta
+one_for_all.h	If this option has been activated, only the answers within the first response field can be inserted in that cloze.
+qst_random_choice	Selección aleatoria
+qst_shuffle_quizzes	Mezclar examen rápido
+quiz_eval	Evaluación examen rápido
+fibtext	Respuestas incrustadas 'Cloze'
+fibtext.h	Contains the cloze. Three underlines define the placeholder for corresponding words. Note: Several answera can be entered within one answering field. For this all answers have to be separated by a comma and the correct answer must be marked with an asterisk. E.g.: answer1, *answer2,  answer3
+visual_effects	Activar efectos visuales
+visual_effects.h
+quiz_threshold	Resultado requerido (%)
+quiz_threshold.h	Defines the value (in percent) to pass a quiz.
+quiz_media	Medios
+qm_file	Archivo de medios
+qm_file.h	Allows you to upload an image, video or audio file to supporting the task description. The file will be displayed beside the task.
+qm_width	Anchura
+qm_width.h	Defines the width of the media file.
+qm_height	Altura
+qm_height.h	Defines the height of the media file.
+qm_as_question	Mostrar en lugar de la pregunta
+qm_as_question.h	If this option has been activated, the media file will be shown instead of the text question.
+feedback_popup	Mostrar realimentación como ventana emergente.
+feedback_popup.h	When this option has been activated, the corresponding feedback text will be shown as popup window. Otherwise the feedback text will be shown directly within the task window.
+quiz_timeout	Límite de tiempo en segundos
+quiz_timeout.h	Contains the text for time limited questions, which will be shown when the specified time limit has been expired. For this a time limit as well as the option 'Enable Feedback' must have been activated.
+feedback_time	Tiempo agotado del examen rápido
+feedback_time.h	Contains the text for time limited questions, which will be shown when the specified time limit has been expired. For this a time limit as well as the option 'Enable Feedback' must have been activated.
+print_solution	Imprimir con soluciones
+print_solution.h	If this option has been activated, the quiz solutions will be shown within the documentation.
+workflow_enabled	Desarrollo del proceso 
+workflow_enabled.h	Displays the process flow within HTML and Word documentation (except Job Help).
+quizzes	examenes rápidos
+quizzes.h
+g_quiz_timeout	Límite de tiempo para completar examen rápido en segundos
+g_quiz_timeout.h	If activated, an algorithm tries to position the practice bubble close to the referenced element at the best possible position. If deactivated the text bubble will always be positioned mid.
+practice_bubble_at_element.h	If activated, an algorithm tries to position the practice bubble close to the referenced element at the best possible position. If deactivated the text bubble will always be positioned mid.
+g_quiz_style_dir	Estilo del examen rápido
+g_quiz_style_dir.h	This setting offers different style templates for quizzes. All corresponding quiz styles can be found in Workarea \ resource \ quiz_styles.
+puzzlequiz	Puzzle
+qp_pieces_x	Pieza horizontal
+qp_pieces_x.h	The entered value defines the number of horizontal pieces of the origianl image.
+qp_pieces_y	Pieza vertical
+qp_pieces_y.h	The entered value defines the number of vertical pieces of the origianl image.
+at_cs_text	Texto (distingue mayúscula de minúscula)
+at_cs_comma_list	Lista separada por comas (distingue mayúscula de minúscula)
+qt_cs_text	Entrada de texto (distingue mayúscula de minúscula)
+qp_show_hint	Mostrar imagen de ayuda
+qp_show_hint.h	If this option has been activated the original image will be displayed beside the puzzle for additional help.
+qt_oneplace_puzzle	ordenar en un campo
+qt_twoplace_puzzle	ordenar en un segundo campo
+feedback_correct_solutions	Mostrar respuestas correctas
+feedback_correct_solutions.h	When a question was answered incorrect, the correct answer will be shown within the feedback text when this parameter has been activated.
+highlights	Resaltar
+hotspotquiz	Área de imagen
+hs_image	Imagen
+hs_image.h	Includes the image file to define a hotspot. An image file can be added with the option 'Include File' or 'Replace Image' when creating a screenshot. The option 'Crop Doc Screenshot' is used to define the hotspot on selected image.
+quiz_options	Opciones
+g_quiz_skipping	Permitir saltarse el examen rápido
+g_quiz_skipping.h	This parameter must be activated to allow to skip a quiz without answering. Thus all skipped answers will not be shown in the result and score, respectively. If this parameter has not been activated an answer must be entered to reach next question.
+eval_type	Formato de evaluación
+eval_type.h	Configures the detail level of displayed evaluation. 'Minimal' will display a short point overview, 'reduced' will show additionally all quizzes within a table, and 'full' will also include the correct answers.
+et_full	completo
+et_reduced	reducido
+et_minimal	mínimo
+proj_title	Nombre del proyecto
+proj_title.h	Includes the project title as headline for the evaluation page.
+bubble_orientation	Alineación leyenda
+title.h	Contains the title of the quiz.
+hotspot_define	Definir el área de imagen
+hotspot_define.h
+process_enable.h	When this parameter has been activated this topic will be shown within the process flow.
+key	Key
+g_no_praxis_links	Modo práctica sin flecha
+generate_navprj	Navigationsprojekt Erzeugen
+no_navmacroset	Aufgrund des fehlenden Navigationsmacrosets im Arbeitsbereich konnte kein Navigationsprojekt erzeugt werden.
+tech_preview	* TECHNISCHE VORSCHAU *
+support_warn	Wird nicht unterstützt von dks 6.3!

@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+<title>Tour Links</title>
+</head>
+<body bgcolor="#FFFFB7">
+<span style="font-size:12px;font-family:Arial;">
+<h1>'Integration DP Forecast Data'</h1>
+<div>
+<IMG src="pages/header_e02.jpg"> 
+<P><STRONG><FONT face=Verdana size=5>Integrate the Detailed DP Forecast Datas in the PP/DS Planning</FONT></STRONG> 
+<P><FONT face=arial size=3>The system does not distinguish in the <A class=tooltip href="#" target=_blank><EM><FONT color=#000000>liveCache</FONT></EM><SPAN><B><FONT face=arial color=#ffffff size=2><STRONG>liveCache</STRONG></FONT></B><FONT color=#000000> </FONT></P>
+<P><FONT face=arial size=2>
+<DIV id=bereich_fru_01>The liveCache is a database engine for managing complex objects in SAP solutions such as mySAP Supply Chain Management (Advance Planner and Optimizer). In solutions of this type, large volumes of data must be permanently available and modifiable. For this reason, an enhancement was made to the relational database system to enable the actual data structures and data flows (such as networks and relationships) to be mapped more easily and effectively. - SAP Help</DIV></FONT>
+<P></SPAN></A>&nbsp;between aggregated&nbsp;mid term and detailed short term demand data. So the aggregated forecast data of the SNP<SPAN style="FONT-SIZE: 12pt; LINE-HEIGHT: 115; FONT-FAMILY: 'Arial','sans-serif'; mso-fareast-font-family: Calibri; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">&nbsp;are also visible for the PP/DS and production orders would be created to fulfill them. However, since these are the aggregated detailed demands and those shall be also in the liveCache for daily planning, those demands would be conisdered two times. So we replace</SPAN><SPAN style="FONT-SIZE: 12pt; LINE-HEIGHT: 115; FONT-FAMILY: 'Arial','sans-serif'; mso-fareast-font-family: Calibri; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><SPAN style="FONT-SIZE: 12pt; LINE-HEIGHT: 115; FONT-FAMILY: 'Arial','sans-serif'; mso-fareast-font-family: Calibri; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">&nbsp;these aggregated forecasts by detailed forecast&nbsp;requirements for the PP/DS Horizon. For that,&nbsp;we&nbsp;first have to delete the aggregated</SPAN></SPAN> forecasts&nbsp;for the SNP planning within the PP/DS horizon of the liveCache. Secondly, the detailed forecasts will be loaded from the DP module into the liveCache.</FONT></P>
+<P><SPAN style="FONT-SIZE: 12pt; LINE-HEIGHT: 115; FONT-FAMILY: 'Arial','sans-serif'; mso-fareast-font-family: Calibri; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">Having the detailed daily demands, the PP/DS can&nbsp;then create and schedule&nbsp;production orders to satisfy them on time.</SPAN></P><IMG src="pages/separator_logo_e.g"></div>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FIntegration%5Fof%5Ft%2FIntegration%5FDP%5FF%2Fdmf%2FIntegration%5FDP%5FF%5Fdemo%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Demo: Demo</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FIntegration%5Fof%5Ft%2FIntegration%5FDP%5FF%2Fdmf%2FIntegration%5FDP%5FF%5Fuebung%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Practice: Practice</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FIntegration%5Fof%5Ft%2FIntegration%5FDP%5FF%2Fdmf%2FIntegration%5FDP%5FF%5Ftest%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Test: Test</a><br><br>
+<br>
+</span>
+</body>
+</html>

@@ -1,0 +1,233 @@
+﻿click.demo	[B_Name] được bấm.	
+click.prac	Vui lòng bấm vào [B_NAME].	
+click_img.demo	[B_NAME_ICON] được bấm.	
+click_img.prac	Vui lòng bấm vào [B_NAME_ICON].	
+click_cancel_trans_img.demo	Việc bấm vào [B_ICON_NAME] hủy bỏ giao tác này.	
+click_cancel_trans_img.prac	Bấm vào [B_ICON_NAME] để hủy bỏ giao tác.	
+click_back_img.demo	Việc bấm vào [B_ICON_NAME] đưa bạn trở về trang trước đó.	
+click_back_img.prac	Bấm vào [B_ICON_NAME] để trở về trang trước đó.	
+click_ok_img.demo	Bây giờ bấm vào [B_ICON_NAME].	
+click_ok_img.prac	Bấm vào [B_ICON_NAME].	
+click_exit_trans_img.demo	Việc bấm vào [B_ICON_NAME] thoát khỏi giao tác này.	
+click_exit_trans_img.prac	Bấm vào [B_ICON_NAME] để thoát khỏi giao tác này.	
+click_save_img.demo	Việc bấm vào [B_ICON_NAME] cất giữ các mục của bạn.	
+click_save_img.prac	Bấm vào [B_ICON_NAME] để cất giữ các mục của bạn.	
+click_checkbox_off.demo	[B_NAME] bị khử hoạt.	
+click_checkbox_off.prac	Khử hoạt giá trị [B_NAME].	
+click_next_page_img.demo	Việc bấm vào [B_NAME_ICON] mở trang tiếp theo.	
+click_next_page_img.prac	Vui lòng bấm vào [B_NAME_ICON].	
+click_checkbox_on.demo	[B_NAME] được chọn.	
+click_checkbox_on.prac	Chọn giá trị [B_NAME].	
+click_select_value.demo	Giá trị [B_NAME] được chọn.	
+click_select_value.prac	Chọn giá trị [B_NAME].	
+click_open_menu.demo	Điều này mở menu [B_NAME].	
+click_open_menu.prac	Mở menu [B_NAME].	
+click_menu_select.demo	Mục [B_NAME] được chọn.	
+click_menu_select.prac	Chọn mục [B_NAME].	
+click_select_column.demo	Cột [B_NAME] được chọn.	
+click_select_column.prac	Chọn cột [B_NAME] bằng cách bấm vào tiêu đề cột.	
+click_open_value_help.demo	Điều này mở Trợ giúp cho các giá trị.	
+click_open_value_help.prac	Vui lòng mở Trợ giúp cho các giá trị.	
+click_select_line.demo	Dòng [B_NAME] được chọn.	
+click_select_line.prac	Chọn dòng [B_NAME] bằng cách bấm vào cột đầu tiên của nó.	
+click_scroll_top.demo	Việc bấm vào [ICON] cuộn về đầu.	
+click_scroll_top.prac	Cuộn về đầu bằng cách bấm vào [ICON].	
+click_scroll_bottom.demo	Việc bấm vào [ICON] cuộn về cuối.	
+click_scroll_bottom.prac	Cuộn về cuối bằng cách bấm vào [ICON].	
+click_scroll_pageup.demo	Việc bấm vào [ICON] cuộn lên một trang.	
+click_scroll_pageup.prac	Cuộn lên một trang bằng cách bấm vào [ICON].	
+click_scroll_pagedown.demo	Việc bấm vào [ICON] cuộn xuống một trang.	
+click_scroll_pagedown.prac	Cuộn xuống một trang bằng cách bấm vào [ICON].	
+click_scroll_lineup.demo	Việc bấm vào [ICON] cuộn lên một dòng.	
+click_scroll_lineup.prac	Cuộn xuống một dòng bằng cách bấm vào [ICON].	
+click_scroll_linedown.demo	Việc bấm vào [ICON] cuộn xuống một dòng.	
+click_scroll_linedown.prac	Cuộn xuống một dòng bằng cách bấm vào [ICON].	
+click_close_window_img.demo	Việc bấm vào [ICON] đóng cửa sổ.	
+click_close_window_img.prac	Đóng cửa sổ bằng cách bấm vào [ICON].	
+click_select_all_lines_img.demo	Việc bấm vào [ICON] chọn tất cả các hàng.	
+click_select_all_lines_img.prac	Chọn tất cả các hàng bằng cách bấm vào [ICON].	
+click_open_card_menu.demo	Việc bấm vào [ICON] mở việc chọn tab.	
+click_open_card_menu.prac	Mở việc chọn tab bằng cách bấm vào [ICON] .	
+click_select_card.demo	Tab [B_NAME] được chọn.	
+click_select_card.prac	Chọn tab [B_NAME].	
+click_next_cards_img.demo	Việc bấm vào [ICON] hiển thị các tab tiếp theo.	
+click_next_cards_img.prac	Hiện các tab tiếp theo bằng cách bấm vào [ICON].	
+click_prev_cards_img.demo	Việc bấm vào [ICON] hiển thị các tab trước đó.	
+click_prev_cards_img.prac	Hiện các tab trước đó bằng cách bấm vào [ICON].	
+click_open_nav_menu.demo	Việc bấm vào [ICON] mở menu dẫn hướng.	
+click_open_nav_menu.prac	Mở menu dẫn hướng bằng cách bấm vào [ICON].	
+click_close_folder_img.demo	Việc bấm vào [ICON] đóng cặp [B_NAME].	
+click_close_folder_img.prac	Đóng cặp [B_NAME] bằng cách bấm vào [ICON].	
+click_open_folder_img.demo	Việc bấm vào [ICON] mở cặp [B_NAME].	
+click_open_folder_img.prac	Mở cặp [B_NAME] bằng cách bấm vào [ICON].	
+click_select_element_img.demo	Việc bấm vào [ICON] chọn  phần tử [B_NAME].	
+click_select_element_img.prac	Chọn phần tử [B_NAME] bằng cách bấm vào [ICON].	
+click_scroll_down.demo	Thanh cuộn này được dùng để cuộn xuống.	
+click_scroll_down.prac	Cuộn xuống nhờ thanh cuộn này	
+dblclick_select_entry.demo	Việc bấm đúp vào [B_NAME] chọn mục này.	
+dblclick_select_entry.prac	Chọn mục [B_NAME] bằng cách bấm đúp vào nó.	
+dblclick_select_date.demo	[B_NAME] được chọn.	
+dblclick_select_date.prac	Chọn [B_NAME].	
+dblclick_start_transaction.demo	Giao tác [B_NAME] được bắt đầu bằng cách bấm đúp vào nó.	
+dblclick_start_transaction.prac	Bắt đầu giao tác [B_NAME] bằng cách bấm đúp vào nó <br>hoặc<br>nhập mã giao tác [B_TCODE] và xác nhận bằng phím Enter.	
+click_close_group.demo	Nhóm [B_NAME] bị đóng.	
+click_close_group.prac	Vui lòng đóng nhóm [B_NAME].	
+click_open_group.demo	Nhóm [B_NAME] được mở.	
+click_open_group.prac	Vui lòng mở nhóm [B_NAME].	
+select.demo	[B_SELECTED] được chọn như [B_NAME].	
+select.prac	Vui lòng chọn [B_SELECTED] như [B_NAME] .	
+input_text.demo	Hộp [B_NAME] được điền.	
+input_text.prac	Vui lòng nhập [B_INPUT] vào hộp [B_NAME].	
+input_text_value.demo	[B_INPUT] bây giờ được nhập vào hộp [B_NAME].	
+input_text_value.prac	Vui lòng nhập [B_INPUT] vào hộp [B_NAME].	
+input_tab_enter_button.demo		
+input_tab_enter_button.prac	<br>Xác nhận mục nhập của bạn bằng cách nhấn <b>Tab</b> hoặc <b>phím Enter</b> hoặc bấm vào <b>nút thích hợp</b>.	
+input_tab_enter.demo		
+input_tab_enter.prac	<br>Xác nhận mục nhập của bạn bằng cách  nhấn <b>Tab</b> hoặc <b>phím Enter</b>.	
+input_enter_button.demo		
+input_enter_button.prac	<br>Xác nhận mục nhập của bạn bằng cách nhấn <b>phím Enter</b> hoặc bấm vào <b>nút thích hợp</b>.	
+input_tab.demo		
+input_tab.prac	<br>Xác nhận mục nhập của bạn bằng cách nhấn <b>phím Tab</b>.	
+input_enter.demo		
+input_enter.prac	<br>Xác nhận mục nhập của bạn bằng cách nhấn <b>phím Enter</b>.	
+input_button.demo		
+input_button.prac	<br>Xác nhận mục nhập của bạn bằng cách <b> bấm vào nút tương ứng</b>.	
+click_select.demo	[B_NAME] bây giờ được chọn.	
+click_select.prac	Vui lòng chọn [B_NAME].	
+click_show_value_help_button.demo	Việc bấm vào hộp [B_NAME] mở Trợ giúp cho các giá trị.	
+click_show_value_help_button.prac	Mở Trợ giúp cho các giá trị bằng cách bấm vào hộp văn bản [B_NAME] này.	
+click_scroll_horizontal.demo	Cuộn phải	
+click_scroll_horizontal.prac	Vui lòng cuộn phải.	
+click_scroll_vertical.demo	Cuộn xuống ...	
+click_scroll_vertical.prac	Vui lòng cuộn xuống.	
+click_img_expand.demo	Để  phóng to trên vùng dẫn hướng bấm vào [ICON].	
+click_img_expand.prac	Phóng to vùng dẫn hướng bằng cách bấm vào [ICON].	
+click_img_collapse.demo	Để thu nhỏ vùng dẫn hướng bấm vào [ICON].	
+click_img_collapse.prac	Thu nhỏ vùng dẫn hướng bằng cách bấm vào [ICON].	
+click_navrow.demo	[B_NAME] được chọn trên dòng dẫn hướng.	
+click_navrow.prac	Vui lòng mở [B_NAME] từ dòng dẫn hướng.	
+click_navrow2.demo	[B_NAME] được chọn trên dòng dẫn hướng thứ hai.	
+click_navrow2.prac	Vui lòng mở [B_NAME] từ dòng dẫn hướng thứ hai.	
+click_open_context_menu.demo	Menu lối tắt của [B_NAME] được mở.	
+click_open_context_menu.prac	Mở menu lối tắt của [B_NAME].	
+click_radio_select.demo	[B_NAME] được chọn.	
+click_radio_select.prac	Chọn [B_NAME].	
+click_select_img.demo	[B_ICON_NAME] được chọn.	
+click_select_img.prac	Chọn [B_ICON_NAME].	
+click_open_form_view.demo	[B_ICON_NAME] chuyển sang dạng xem biểu mẫu.	
+click_open_form_view.prac	Dùng [B_ICON_NAME] để chuyển sang dạng xem biểu mẫu.	
+history_select.demo	[B_NAME] được chọn từ những tài liệu mới đây.	
+history_select.prac	Chọn [B_NAME]  từ những tài liệu mới đây.	
+click_page_up_img.demo	Việc bấm vào [B_ICON] cuộn lên một trang.	
+click_page_up_img.prac	Cuộn lên một trang bằng cách bấm vào [B_ICON].	
+click_page_down_img.demo	Việc bấm vào [B_ICON] cuộn xuống một trang.	
+click_page_down_img.prac	Cuộn xuống một trang bằng cách bấm vào [B_ICON].	
+click_page_top_img.demo	Việc bấm vào [B_ICON] cuộn về đầu.	
+click_page_top_img.prac	Cuộn về đầu bằng cách bấm vào [B_ICON].	
+click_page_bottom_img.demo	Việc bấm vào [B_ICON] cuộn về cuối.	
+click_page_bottom_img.prac	Cuộn về cuối bằng cách bấm vào [B_ICON].	
+click_sort_by_column.demo	Sắp xếp được thực hiện theo cột [B_NAME].	
+click_sort_by_column.prac	Sắp xếp theo cột [B_NAME].	
+click_select_date.demo	[B_NAME] được chọn.	
+click_select_date.prac	Chọn [B_NAME].	
+click_close_card_img.demo	Việc bấm vào [ICON] đóng  thẻ.	
+click_close_card_img.prac	Bấm vào [ICON] để đóng thẻ.	
+click_select_function_img.demo	Việc bấm vào [ICON] chọn chức năng [B_NAME] này.	
+click_select_function_img.prac	Bấm vào [ICON] để chọn chức năng [B_NAME] này.	
+click_hide_treeview.demo	Việc bấm vào [ICON] ẩn xem dạng cây.	
+click_hide_treeview.prac	Ẩn xem dạng cây bằng cách bấm vào [ICON].	
+click_show_treeview.demo	Việc bấm vào [ICON] hiện xem dạng cây.	
+click_show_treeview.prac	Hiện xem dạng cây bằng cách bấm vào [ICON].	
+click_mark_transaction.demo	Việc bấm vào [B_NAME] chọn giao tác này.	
+click_mark_transaction.prac	Chọn giao tác [B_NAME] với một bấm.	
+dblclick_select_element.demo	Phần tử [B_NAME] được chọn bằng cách bấm đúp vào nó.	
+dblclick_select_element.prac	Chọn phần tử [B_NAME] bằng cách bấm đúp vào nó.	
+please_note.demo	Vui lòng ghi chú điều sau đây: [B_NAME].	
+please_note.prac	Ghi chú điều sau đây: [B_NAME].	
+click_open_value_help_img.demo	Việc bấm vào <b>Trợ giúp Nhập</b> [ICON] mở ra một danh sách chọn với những giá trị hợp lệ .	
+click_open_value_help_img.prac	Bấm vào <b>Trợ giúp Nhập</b> [ICON] để mở một danh sách chọn với những giá trị hợp lệ.	
+click_open_selection.demo	Việc bấm vào nút [ICON] của danh sách [B_NAME] mở nó.	
+click_open_selection.prac	Bấm vào nút [ICON] của danh sách [B_NAME] để mở nó.	
+click_mark_entry.demo	Việc bấm vào mục [B_NAME] chọn nó.	
+click_mark_entry.prac	Chọn mục [B_NAME] bằng cách bấm vào nó.	
+click_mark_entry_img.demo	Việc bấm vào mục [ICON] chọn nó.	
+click_mark_entry_img.prac	Chọn mục[ICON] bằng cách bấm vào nó.	
+dblclick_mark_entry_img.demo	Việc bấm đúp vào mục [ICON] chọn nó.	
+dblclick_mark_entry_img.prac	Chọn mục [ICON] bằng cách bấm đúp vào nó.	
+click_menu_select_img.demo	Việc bấm vào khoản mục menu [ICON] thực hiện nó.	
+click_menu_select_img.prac	Bấm vào khoản mục menu [ICON] để thực hiện nó.	
+click_open_menu_img.demo	Việc bấm vào menu [ICON] mở nó.	
+click_open_menu_img.prac	Bấm vào menu [ICON] để mở nó.	
+click_select_card_img.demo	Việc bấm vào tab [ICON] chọn nó.	
+click_select_card_img.prac	Bấm vào tab [ICON] để chọn nó.	
+dblclick_select_line.demo	Việc bấm đúp vào nút [NAME] chọn dòng này.	
+dblclick_select_line.prac	Bấm đúp vào nút [NAME] để chọn dòng này.	
+click_activate_edit.demo	Việc bấm vào hộp vào [B_NAME] kích hoạt nó.	
+click_activate_edit.prac	Bấm vào hộp vào [B_NAME] để kích hoạt nó.	
+dblclick_activate_edit.demo	Việc bấm đúp vào hộp vào [B_NAME] kích hoạt nó.	
+dblclick_activate_edit.prac	Bấm đúp vào hộp vào [B_NAME] để kích hoạt nó.	
+dblclick_open_folder_img.demo	Việc bấm đúp vào biểu tượng  [ICON] mở cặp [B_NAME].	
+dblclick_open_folder_img.prac	Mở cặp [B_NAME] bằng cách bấm đúp vào biểu tượng [ICON].	
+click_open_folder.demo	Việc bấm vào biểu tượng <b>'Mở cặp'</b> mở cặp [B_NAME].	
+click_open_folder.prac	Mở cặp [B_NAME] bằng cách bấm vào biểu tượng <b>'Mở cặp'</b>.	
+dblclick_open_folder.demo	Việc bấm đúp vào biểu tượng <b>'Mở cặp'</b> mở cặp [B_NAME] này .	
+dblclick_open_folder.prac	Mở cặp [B_NAME] bằng cách bấm đúp vào biểu tượng <b>'Mở cặp'</b>.	
+click_close_folder.demo	Việc bấm vào biểu tượng <b>'Đóng cặp'</b> đóng cặp [B_NAME] này.	
+click_close_folder.prac	Đóng cặp [B_NAME] bằng cách bấm vào biểu tượng <b>'Đóng cặp'</b>.	
+drag_scroll_hor.demo	Việc bấm và kéo <b>thanh cuộn</b> làm cho vùng  mong muốn xuất hiện.	
+drag_scroll_hor.prac	Bấm và kéo <b>thanh cuộn ngang</b> để cuộn.	
+drag_scroll_vert.demo	Việc bấm và kéo <b>thanh cuộn</b> làm cho vùng mong muốn xuất hiện.	
+drag_scroll_vert.prac	Bấm và kéo <b>thanh cuộn dọc</b> để cuộn.	
+click_scroll.demo	Việc bấm vào <b>nút cuộn</b> [NAME] làm cho vùng mong muốn xuất hiện.	
+click_scroll.prac	Cuộn bằng cách bấm vào <b>nút cuộn</b> [NAME].	
+click_scroll_page_left.demo	Việc bấm vào <b>vùng cuộn</b> làm cho vùng mong muốn xuất hiện.	
+click_scroll_page_left.prac	Bấm vào <b>vùng phía trái thanh cuộn</b>để cuộn.	
+click_scroll_page_right.demo	Việc bấm vào <b>vùng cuộn</b> làm cho vùng mong muốn xuất hiện.	
+click_scroll_page_right.prac	Bấm vào <b>vùng phía phải của thanh cuộn</b> để cuộn.	
+click_scroll_page_up.demo	Việc bấm vào <b>vùng cuộn</b> làm cho vùng mong muốn xuất hiện.	
+click_scroll_page_up.prac	Bấm vào <b>vùng trên thanh cuộn</b> để cuộn.	
+click_scroll_page_down.demo	Việc bấm vào <b>vùng cuộn</b> làm cho vùng mong muốn xuất hiện.	
+click_scroll_page_down.prac	Bấm vào <b>vùng dưới thanh cuộn</b> để cuộn.	
+rclick_context.demo	Việc bấm chuột phải vào [B_NAME] mở ra một menu lối tắt.	
+rclick_context.prac	Vui lòng bấm vào [B_NAME] với nút chuột phải.	
+dblclick_img.demo	[ICON] được bấm đúp.	
+dblclick_img.prac	Vui lòng bấm đúp vào [ICON].	
+keypress.demo	Vui lòng nhập [B_KEY].	
+keypress.prac	Vui lòng nhập [B_KEY].	
+item.close_folder	Đóng cặp	
+item.open_folder	Mở cặp	
+item.enter_key	Nhập	
+item.tab_key	Tab	
+item.vscroll	Thanh cuộn dọc	
+item.hscroll	Thanh cuộn ngang	
+item.close_window	Đóng cửa sổ	
+item.value_help	Lựa chọn giá trị	
+item.scroll	Thanh cuộn	
+item.back_btn	Lùi về	
+item.save_btn	Lưu	
+item.scroll_area	Vùng cuộn	
+drag_img.demo	Kéo [B_NAME_ICON].	
+drag_img.prac	Kéo [B_NAME_ICON].	
+drop_img.demo	Thả trên [B_NAME_ICON].	
+drop_img.prac	Thả trên [B_NAME_ICON].	
+dblclick_start_transaction2.demo	Giao tác [B_NAME] được bắt đầu bằng cách bấm đúp vào nó.	
+dblclick_start_transaction2.prac	Bắt đầu giao tác [B_NAME] bằng cách bấm đúp vào nó.	
+docSAPMenuPath	Đường dẫn Menu	
+docSAPTransaction	Giao tác	
+docTableHeaderStep	Bước	
+docTableHeaderAction	Hành động	
+docTableHeaderInput	Đầu vào	
+docTableHeaderExpectedResults	Những kết qủa mong đợi	
+docTableHeaderPassed	Thành công	
+docTableHeaderFailed	Hỏng	
+docQuizzesTitle	Đánh giá Cuộc thi	
+docQuizzesInformation	thông tin:	
+docQuizzesScorePassed	điểm số cần thiết:	
+docQuizzesScoreAchieved	điểm số đạt được:	
+docQuizzesScoreMax	điểm số cực đại:	
+input_text_value_tpcd.demo	[B_INPUT] bây giờ được nhập vào <b>Trường-Giao tác</b>.	
+input_text_value_tpcd.prac	Nhập [B_INPUT] vào <b>Trường-Giao tác</b>.	
+enter_img.demo	Di chuột trên [B_NAME_ICON].	
+enter_img.prac	Di chuột trên [B_NAME_ICON].	
+click_combobtn_tpcd.demo	Việc bấm vào [ICON] của <b>Trường Giao tác</b> mở một danh sách của các giao tác đã được thực hiện.	
+click_combobtn_tpcd.prac	Bấm vào [ICON] của <b>Trường-Giao tác</b> để mở danh sách  của các giao tác đã được thực hiện này.	

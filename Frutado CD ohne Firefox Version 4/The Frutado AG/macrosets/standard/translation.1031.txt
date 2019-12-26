@@ -1,0 +1,855 @@
+﻿action	Aktion
+animated	Animiert
+input_text	Texteingabe
+adv	Erweitert
+bubble	Bubble
+bubble_d	Demo-Bubble
+bubble_p	Übungs-Bubble
+confirmation_button	Bestätigung mit Button
+alternate_text	2. Status Text
+arrow	Pfeil
+bubble_duration	Anzeigedauer
+bubble_duration_any	Bubbledauer Alle
+include_explanation	Auch Erklärung
+bubble_height	Höhe
+bubble_height_any	Bubblelhöhe
+bubble_width	Breite
+bubble_width_any	Bubblebreite
+bubble_duration_p	Bubbledauer Übung
+bubble_height_p	Höhe
+bubble_width_p	Breite
+branch_on	Verzweigung Anfang
+branch_off	Verzweigung Ende
+remove_branch	Verzweigung entfernen
+form_on	Formular Anfang
+form_off	Formular Ende
+remove_form	Formularmodus entfernen
+quiz_shuffle_on	Quizauswahl Anfang
+quiz_shuffle_off	Quizauswahl Ende
+quiz_selection	Quizauswahl
+remove_quiz_selection	Quizauswahl entfernen
+beschreibung	Beschreibung
+bezeichnung	Bezeichnung
+doc_description	Bezeichnung
+doc_dropdown	Word-Dokumentationen
+update_pos_size	Fensterposition aktualisieren
+caption	Titel
+doc_chapter_heading	Titel
+screenshot_sub_heading	Titel
+choose_bool	Gewählter Wert
+choose_nr	Gewählter Index
+choose_text	Gewählter Wert
+rerec_click_count	Anzahl der Klicks
+confirmation_enter	Bestätigung: Enter
+confirmation_tab	Bestätigung: Tab
+confirmation_key	Bestätigungstaste
+macro_comment	Kommentar
+dbl_click	Doppelklick
+demo	Demo
+bgcolor	Hintergrundfarbe
+info_page	Infoseite
+swf_page	Flash-Seite
+swf_width	Breite
+swf_height	Höhe
+swf_file	SWF-Datei
+swf_filter	Shockwave Flash Datei (*.swf)|*.swf
+all_like_demo	Alles wie Demo
+in_demo	Im Demo-Modus
+in_practice	Im Übungs-Modus
+task_window_in_practice	Im Übungs-Modus
+in_test	Im Test-Modus
+task_window_in_test	Im Test-Modus
+in_prax	Im Praxis-Modus
+img_filter	Bilddatei (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png
+media_filter	Mediendatei (*.jpg,*.bmp,*.gif,*.png,*.swf,*.wmv,*.mov,*.wma,*.wav,*.mp3)|*.jpg;*.bmp;*.gif;*.png;*.swf;*.wmv;*.mov;*.wma;*.wav;*.mp3
+jump_target	Sprungziel
+wait_for_input	Aktion abwarten
+set_focus	Fokus setzen
+full_form	Formularmodus
+doc	Dokumentation
+rerecord	Erneut Aufnehmen
+cmd_rerecord	Web-Applikation erneut Aufnehmen
+rerec_manual	Manuell
+prepare_rerecord	Werte überarbeiten
+doc_enable	In Dok anzeigen
+process_enable	In Prozess anzeigen
+doc_heading	Als Dok Überschrift
+dump_page	Url
+ppt_import	PowerPoint Import
+dump_win_height	Window Höhe
+dump_win_left	Window Links
+dump_win_relpos	Window
+dump_win_top	Window Oben
+dump_win_width	Window Breite
+mode_change	Moduswechsel
+mode_change_end	Moduswechsel Ende
+in_demo_to	In Demo zu
+in_uebung_to	In Übung zu
+in_test_to	In Test zu
+in_praxis_to	In Praxis zu
+dont_change	nicht ändern
+edit	Bearbeiten
+edit_bubble	Bubble
+edit_bubble_demo	Demo-Bubble
+edit_bubble_prax	Übungs-Bubble
+edit_jump_targets	Verzweigung bearbeiten
+create_branch	Verzweigung erstellen
+create_form	Formularmodus
+edit_rect	Markierung bearbeiten
+edit_screendump	Screendump bearbeiten
+edit_screenshot	Manuell zuschneiden
+elem_key	Element-Schlüssel
+auto_crop_screenshot	Autom. zuschneiden
+rerec_element_type	Elementtyp
+end_unit	Lerneinheit Ende
+ende	Ende
+explanation	Erklärung (alt)
+explanation_d	Erklärung Demo
+explanation_d_modified	Erklärung manuell
+explanation_p_modified	Erklärung manuell
+explanation_long	Erklärung
+explanation_p	Erklärung Übung
+flash	Rahmen blinkend
+fieldname	Feldname
+fieldicon	Feld-Icon
+frame	Rahmen fixiert
+free_marker	Markierung
+bubble_class	Textstil
+bubble_class_any	Textstil
+bubble_class_p	Textstil
+g_bubblestyle_ok	Bubbletyp OK
+bubblestyle_d	Typ
+bubblestyle	Bubbletyp
+bubblestyle_p	Typ
+g_highlight_border	Highlight Rand
+g_highlight_effect	Highlight Effekt
+g_highlight_fillstyle	Highlight Füllstil
+g_highlight_name	Highlight Name
+g_highlight_rgb	Highlight Farbe
+g_highlight_style	Highlight Stil
+g_linktextpraxis	Praxis Link Text (Vor)
+g_close_link	Praxis Link Text (Schließen)
+g_back_link	Praxis Link Text (Zurück)
+g_alternate_link	Schritt anzeigen Linktext
+g_show_ok_bubble	Ok im Test-Modus
+g_show_step_bubble	Hinweis im Test-Modus
+g_show_mouse	Maus anzeigen
+hotkey	Hotkey
+show_hl_p	Highlight in Übung
+show_hl_d	Highlight in Demo
+gendoc	Word-Dokument erzeugen
+gendoc_checklist	Word-Dokument erzeugen (Job-Hilfe)
+gendoc_tables	Word-Dokument erzeugen (Schulungshandbuch)
+gendoc_tables_wide	Word-Dokument erzeugen (Testdokument)
+gendoc_work	Word-Dokument erzeugen (Arbeitsdokument)
+general_action	Klick auf Link
+key_press	Tastendruck
+key_name	Tastencode
+key_desc	Tastenbezeichnung
+click_SAP	Klick auf Link im SAP EA Menü
+genhtml	HTML-Dokument erzeugen
+global	Global
+hinweis	Hinweis
+imagesize	Bildgröße (%)
+info	Info
+input_radio	Optionsfeld
+kurs	Kopfangaben
+lclick	Linker Klick
+ldblclick	Linker Doppelklick
+genppt	PowerPoint-Dokument erzeugen
+doc_caption	Überschrift
+doc_title	Titel
+merge_selected_newpages	Gewählte Neue Seite Makros zusammenfügen
+new_step	Lernschritt Name
+new_window	Neues Fenster
+new_window_close	Neues Fenster schließen
+next_asset	Neue Seite
+new_page	Neue Seite
+identity	Identität
+next_page	Nächste Seite
+note	Bemerkung
+no_image	<Kein Icon>
+orientation	Ausrichtung Demo
+doc_arrow_orientation	Ausrichtung
+doc_marker_orientation	Ausrichtung Markierung
+bubble_orientation	Ausrichtung
+orientation_any	Ausrichtung
+orientation_p	Ausrichtung Übung
+bubble_orientation_p	Ausrichtung
+orientation_b	Bubble Ausrichtung
+page_break	Seitenumbruch
+position	Position
+position_af	Position Button
+position_bubble	Position
+position_b	Position
+position_bu	Position
+position_h	Objektposition
+position_tc	Pos. Transaktionscode
+possible_points	Maximale Punktzahl
+mastery_score	Erforderliche Punktzahl
+goto_tourstop	Sprung zu Lernschritt
+praxis	Praxis
+prev_page	Vorherige Seite
+quick_click	Quick Click
+click	Klick auf Link
+rclick	Rechter Klick
+rdblclick	Rechter Doppelklick
+drag	Drag
+drop	Drop
+enter	Mouse Enter
+record2	Web-Applikation Aufnehmen
+set_language	Projektsprache ändern
+record_window_id	aufgen. Fenster ID
+sap_path	SAP Menüpfad
+sc_config_file	Screendump Config. Datei
+sc_position	Scrollbar Position
+screenshot_border	Randstärke bei Screenshots
+screenshot_file	Screenshot
+screenshot_part	Partieller Screenshot
+screenshot_rect	Screenshot-Position
+overlay_pos	Overlay-Position
+rerec_click_pos	Klick Position
+scrollInDivsLeftRight	Horizontal scrollen
+scroll_hor	Horizontal scrollen
+scrollInDivsTopDown	Vertikal scrollen
+scroll_vert	Vertikal scrollen
+scrollleft	Horizontale Position
+scrolltop	Vertikale Position
+select_single	Einfachauswahl
+show_actions	Aktionen anzeigen
+start_unit	Lerneinheit Anfang
+status_info	Status-Information
+status_text	Statustext
+tcode	Transaktionscode
+test	Test
+text	Text
+text_d	Eingabetext
+regexp	Regulärer Ausdruck
+tipp	Tipp
+titel	Titel
+title	Titel
+transaction_code	Transaktionscode
+transaction_info	Transaktionscode
+translate	Automatische Übersetzung
+task_text	Aufgabentext
+task_window_width	Fensterbreite
+task_window_height	Fensterhöhe
+task_window_orientation	Ausrichtung
+task_window_bgcolor	Hintergrund
+type	Typ
+doc_heading_template	Formatvorlage
+uebung	Übung
+underline	Unterstreichung
+update	Aktualisieren
+set_position	Positionieren
+show_position	Position zeigen
+update_all_macros	Alle Makros aktualisieren
+update_page	Seite aktualisieren
+update_pagedump	Seitenabzug aktualisieren
+update_screenshot	Screenshot aktualisieren
+warnung	Warnung
+close_win_relpos	Window
+win_screenshot	Neue Seite als Screenshot
+zoom_in	Rahmen Zoom In
+zoom_out	Rahmen Zoom out
+possible_points.h	Gibt die maximal zu ereichende Punktzahl für den Test-Modus in einer Lerneinheit an. Für die automatische Errechnung und Aktualisierung wird der Befehl 'Aktualisieren' im Kontext-Menü der Makroliste verwendet.
+mastery_score.h	Gibt die erforderliche Punktzahl die erreicht werden muss, um eine Lerneinheit im Test-Modus zu bestehen. Für die automatische Errechnung und Aktualisierung wird der Befehl 'Aktualisieren' im Kontext-Menü der Makroliste verwendet.
+task_text.h	Für Übungs- und Test-Modus kann eine Aufgabenstellung in einem separaten Popup-Fenster des Webbrowsers angezeigt werden. Der Aufgabentext wird hierfür im HTML-Editor erfasst.
+task_window_width.h	Gibt die Breite des Aufgabenfensters in Pixel an.
+task_window_height.h	Gibt die Höhe des Aufgabenfensters in Pixel an. Ist die Fensterhöhe auf '0' gesetzt, so wird die Höhe des Fensters automatisch an die Textmenge angepasst.
+task_window_orientation.h	Gibt die Ausrichtung des Aufgabenfensters auf dem Bildschirm, relativ zur Bildschirmmitte vor.
+task_window_bgcolor.h	Legt die Hintergrundfarbe des Inhaltes im Aufgabenfenster fest. Die Farbe kann entweder über einen Farbauswahldialog gewählt werden oder direkt als Wert im HEX-Format angegeben werden.
+task_window_in_practice.h	Ist diese Option eingeschaltet, wird das Aufgabenfenster im Übungs-Modus eingeblendet.
+task_window_in_test.h	Ist diese Option eingeschaltet, wird das Aufgabenfenster im Test-Modus eingeblendet.
+dump_page.h	Dieser Parameter enthält den Pfad zu der Seite, die durch das Makro angezeigt werden soll. In der Regel ist dies ein relativer Pfad zu der während der Aufnahme angelegten Seite im Ordner 'pages' des Projektes.
+new_step.h	Dieser Parameter enthält den Namen des aufgezeichneten Lernschrittes (in der Regel der Titel des aufgezeichneten Screens) und kann später optional für die Generierung der Überschriften in der Dokumentation verwendet werden.
+dump_win_relpos.h	Durch diesen Parameter wird die Ordnungsnummer des neu zu öffnenden Browser-Fensters festgelegt. Im Positionsdialog wird hierfür unter 'Frame' die entsprechende Zahl angegeben.
+close_win_relpos.h	Durch diesen Parameter wird die Ordnungsnummer des zu schließenden Browser-Fensters festgelegt. Im Positionsdialog wird hierfür unter 'Frame' die entsprechende Zahl angegeben.
+dump_win_left.h	Gibt den Abstand des neu zu öffnenden Fensters zum linken Bildschirmrand in Pixel an.
+dump_win_top.h	Gibt den Abstand des neu zu öffnenden Fensters zum oberen Bildschirmrand in Pixel an.
+dump_win_width.h	Gibt die Breite des neu zu öffnenden Fensters in Pixel an.
+dump_win_height.h	Gibt die Höhe des neu zu öffnenden Fensters in Pixel an.
+fieldname.h	Enthält den String, der in den Erklärungstexten der Textbubbles in den verschiedenen Modi anstelle des Platzhalters '${fieldname}' (siehe Text-Modus im HTML-Editor) bei der automatischen Textgenerierung mit Textbausteinen während der Aufnahme eingefügt wird.
+fieldicon.h	Enthält den Pfad zu dem Bild eines Buttons oder Icons, das in den Erklärungstexten der Textbubbles in den verschiedenen Modi anstelle des Platzhalters '${fieldicon}' (siehe Text-Modus im HTML-Editor) bei der automatischen Textgenerierung mit Textbausteinen während der Aufnahme eingefügt wird.
+explanation_d.h	Enthält den anzuzeigenden Text für die Textbubble im Demo- und Praxis-Modus.
+explanation_p.h	Enthält den anzuzeigenden Text für die Textbubble im Übungs-Modus.
+all_like_demo.h	Diese Option sorgt dafür, dass der für die Textbubble im Demo-Modus eingegebene Text automatisch auch für die Textbubble im Übungs-Modus verwendet wird.
+position_b.h	Dieser Parameter bestimmt die Position der anzuzeigenden Textbubble im Demo- und im Praxis-Modus. Diese wird während der Aufnahme automatisch ermittelt und kann über den Positions-Editor bearbeitet werden.
+position_bu.h	Dieser Parameter bestimmt die Position der anzuzeigenden Textbubble im Übungs-Modus. Diese wird während der Aufnahme automatisch ermittelt und kann über den Positions-Editor bearbeitet werden.
+position_h.h	Dieser Parameter bestimmt die Position des zu beschreibenden Objektes auf der Seite. Diese wird während der Aufnahme automatisch ermittelt und kann über den Positions-Editor bearbeitet werden.
+in_demo.h	Legt fest, ob das Makro im Demo-Modus angezeigt wird.
+in_practice.h	Legt fest, ob das Makro im Übungs-Modus angezeigt wird.
+in_test.h	Legt fest, ob das Makro im Test-Modus angezeigt wird.
+in_prax.h	Legt fest, ob das Makro im Praxis-Modus angezeigt wird.
+action.h	Dieser Parameter legt die Mausaktion fest, die auf dem referenzierten Objekt ausgeführt werden soll.
+show_hl_p.h	Diese Option legt fest, ob im Übungs-Modus ein Highlight auf dem referenzierten Objekt angezeigt werden soll.
+show_hl_d.h	Diese Option legt fest, ob im Demo- und Praxis-Modus ein Highlight auf dem referenzierten Objekt angezeigt werden soll.
+tcode.h	Dieser Parameter enthält den String des Transaktionscodes, wenn in SAP auf einen Link geklickt wurde. Dies ermöglicht alternativ die direkte Eingabe des Transaktionscodes, anstatt mit der Maus auf den Link zu klicken.
+position_tc.h	Dieser Parameter bestimmt die Position des Eingabefeldes für den Transaktionscode auf der Seite, wenn eine SAP-Aufnahme durchgeführt wird.
+hotkey.h	Mit diesem Parameter wird die verwendete Taste oder Tastenkombination festgelegt. Hierbei werden die Bezeichner der Tasten durch Leerzeichen getrennt angegeben, zum Beispiel: 'ctrl k'.
+key_name.h	Mit diesem Parameter wird die verwendete Taste oder Tastenkombination festgelegt. Hierbei werden die Bezeichner der Tasten durch Leerzeichen getrennt angegeben, zum Beispiel: ctrl k.
+key_desc.h	Hier kann die Bezeichnung der Tastenkombination eingetragen werden, wie sie in den Bubbletexten verwendet werden soll. Dieser String wird in den Erklärungstexten der Textbubbles in den verschiedenen Modi anstelle des Platzhalters '${key_desc}' (siehe Text-Modus im HTML-Editor) bei der automatischen Textgenerierung mit Textbausteinen während der Aufnahme eingefügt. Als Vorgabe wird hier der Eintrag unter Tastencode verwendet.
+text_d.h	Dieser Parameter enthält die Zeichenkette, die in das referenzierte Eingabefeld eingetragen werden soll. Er erhält den beim automatischen Aufnahmeprozess eingegebenen Wert. Dieser String wird in den Erklärungstexten der Textbubbles in den verschiedenen Modi anstelle des Platzhalters '${text_d}' (siehe Text-Modus im HTML-Editor) bei der automatischen Textgenerierung mit Textbausteinen während der Aufnahme eingefügt.
+regexp.h	Eine 'Regular Expression' (regulärer Ausdruck) ist ein genau definiertes Suchmuster, für das eine Übereinstimmung gesucht wird (Pattern Matching). Im Zusammenhang mt einem Eingabefeld ermöglicht die Verwendung eines regulären Ausdrucks, dass die Eingabe bei der Simulation nicht exakt dem urpsünglich aufgenommenen Wert entsprechen muss, sondern einem Wert entspicht, der durch den regulären Ausdruck beschrieben wird und somit zulässig ist. Der reguläre Ausdruck muss JavaScript-konform sein. Hier einige Beispiele:\n \nDatum: "\d{1,2}(\-|\/|\.)\d{1,2}\1\d{4}"\nWährung: "(\d+|\d*(?:[.,])\d{1,2})"\nE-Mail: ".+\@(\[?)[a-zA-Z0-9\-\.]+\.([a-zA-Z]{2,3}|[0-9]{1,3})(\]?)"\n\n
+position_af.h	Dieser Parameter enthält die Position des Bestätigungsbuttons, wenn die Option 'Bestätigungsbutton' für das Makro 'Texteingabe' aktiviert ist. Diese wird während der Aufnahme automatisch ermittelt und kann über den Positions-Editor bearbeitet werden.
+macro_comment.h	Allgemeiner Kommentar, wird in der Miniaturansicht angezeigt.
+confirmation_tab.h	Diese Option legt fest, ob Texteingaben mit der 'Tab'-Taste bestätigt werden können.
+confirmation_enter.h	Diese Option legt fest, ob Texteingaben mit der Eingabe-Taste bestätigt werden können.
+confirmation_button.h	Diese Option legt fest, ob Texteingaben mit Klick auf einen Button bestätigt werden können. Hierfür muss unter 'Position Button' die Position des Buttons angegeben sein.
+choose_nr.h	Dieser Parameter enthält die Index-Nummer des auszuwählenden Eintrag in einem Popup-Menü oder einem Listenfeld. Er wird beim automatisierten Aufzeichnen automatisch ermittelt.
+choose_text.h	Dieser Parameter enthält die Zeichenkette, die bei der automatisierten Aufnahme zu dem ausgewählten Eintrag in einem Popup-Menü oder einem Listenfeld ermittelt wurde. Dieser String wird in den Erklärungstexten der Textbubbles in den verschiedenen Modi anstelle des Platzhalters '${choose_text}' (siehe Text-Modus im HTML-Editor) bei der automatischen Textgenerierung mit Textbausteinen während der Aufnahme eingefügt.
+choose_bool.h	Dieses Feld enthält den Wert, ob das Optionsfeld oder Ankreuzfeld an- oder ausgeschaltet ist. Für ein Optionfeld ist der Wert immer '1' (eingeschaltet). Für ein Ankreuzfeld kann der eingetragene Wert '0' (ausgeschaltet) oder '1' (eingeschaltet) sein.
+scrollleft.h	Dieser Parameter enthält den Wert in Pixel, um den der betreffende Frame der Anwendung horizontal gescrollt werden soll.
+scrolltop.h	Dieser Parameter enthält den Wert in Pixel, um den der betreffende Frame der Anwendung vertikal gescrollt werden soll.
+unused.h	Dieser Parameter wird zurzeit nicht verwendet und sollte leer bleiben.
+bubble_class.h	Mit dieser Einstellung kann ein vorgegebener Stil für das Aussehen der dargestellten Textbubbles ausgewählt werden. Es stehen die 5 Stile 'A' bis 'E' zur Verfügung, die in der Datei 'bubble.css' im Ordner 'resource' des jeweiligen Arbeitsbereiches abgelegt sind.
+bubblestyle_d.h	Diese Einstellung legt fest, welcher Bubbletyp für die Darstellung der Textbubble im Demo- und Praxis-Modus verwendet werden soll. Bubbletypen werden über den Bubbletyp-Editor definiert, der über das Menü 'Werkzeuge' -> 'Bubbletypen bearbeiten' aufgerufen wird. Bubbletypen sind immer für den gesamten Arbeitsbereich verfügbar.
+bubblestyle_p.h	Diese Einstellung legt fest, welcher Bubbletyp für die Darstellung der Textbubble im Übungs-Modus verwendet werden soll. Bubbletypen werden über den Bubbletyp-Editor definiert, der über das Menü 'Werkzeuge' -> 'Bubbletypen bearbeiten' aufgerufen wird. Bubbletypen sind immer für den gesamten Arbeitsbereich verfügbar.
+bubble_width.h	Definiert die Breite der darzustellenden Textbubbles in Pixel.
+bubble_height.h	Definiert die Höhe der darzustellenden Textbubbles in Pixel. Übersteigt die darzustellende Textmenge den verfügbaren Bereich in der Textbubble, so wird diese in der Höhe nach unten automatisch auf den benötigten Platz angepasst.
+bubble_duration.h	Der hier eingetragene Wert definiert die Anzeigedauer der Textbubble in Sekunden.
+bubble_orientation.h	Dieser Parameter legt die Ausrichtung der Textbubble relativ zum referenzierten Objekt fest. Hierbei zeigt der Pfeil der Bubble auf die als Position referenzierte Stelle auf der Seite, während die Bubble selbst entsprechend der Angabe versetzt dazu eingeblendet wird. Ist die Ausrichtung 'Mitte' ausgewählt, so wird die Textbubble ohne Pfeil mittig auf der angegebenen Position platziert.
+bubble_orientation_p.h	Dieser Parameter legt die Ausrichtung der Textbubble relativ zum referenzierten Objekt im Übungs-Modus fest. Hierbei zeigt der Pfeil der Bubble auf die als Position referenzierte Stelle auf der Seite, während die Bubble selbst entsprechend der Angabe versetzt dazu eingeblendet wird. Ist die Ausrichtung 'Mitte' ausgewählt, so wird die Textbubble ohne Pfeil mittig auf der angegebenen Position platziert.
+doc_enable.h	Für das entsprechende Makro kann über diese Option festgelegt werden, ob es bei der Generierung einer Dokumentation berücksichtigt werden soll.
+doc_heading.h	Diese Option sorgt dafür, dass der Eintrag unter 'Lernschritt Name' als Überschrift in der Dokumentation verwendet wird.
+imagesize.h	Dieser Wert legt den Abbildungsfaktor in Prozenten fest, mit dem der Screenshot in eine zu generierende Dokumentation eingefügt wird.
+screenshot_file.h	Dieser Parameter enthält den Dateinamen im Dokumentations-Ordner 'doc' des entsprechenden Projektes im Arbeitsbereich. Dieser wird darunter als Vorschau angezeigt. Um den Screenshot in Originalgröße anzuzeigen, kann die Maus über das Vorschaubild bewegt werden. Der Mauszeiger wechselt dann zu einem Lupensymbol. Durch Klick mit der linken Maustaste wird der Screenshot in Originalgröße angezeigt, so lange die Maustaste gedrückt bleibt.
+screenshot_rect.h	Die hier eingegebenen Werte geben an, welcher Bereich des originalen Screens für den Screenshot verwendet wird. In der Regel sollte ein manuelles Editieren dieser Werte nicht nötig sein.
+screenshot_border.h	Dieser Parameter bestimmt Rahmen- und Randstärke für Dokumentations-Screenshots in Pixel. Die Einstellung gilt für alle nach dem Zeitpunkt der Änderung aufgenommenen Makros.
+screenshot_sub_heading.h	Die hier eingetragene Zeichenkette wird als Untertitel für den in der Dokumentation eingefügten Screenshot verwendet.
+rerec_element_type.h	Dieser Parameter enthält, welcher Elementtyp bei der automatisierten Aufnahme ermittelt wurde. Er wird als Referenz für die erneute Aufnahme verwendet und sollte in der Regel nicht verändert werden.
+rerec_click_pos.h	Hier wird bei der automatisierten Aufnahme die Klickposition auf dem Bildschirm festgehalten. Die automatisch ermittelten Werte sollten in der Regel nicht verändert werden.
+rerec_click_count.h	Hier wird die Anzahl der direkt hintereinander folgenden Klicks auf das gleiche Steuerelement während einer Aufnahme automatisch festgehalten, wenn in den zentralen Einstellungen unter 'Aufnahme' die Option 'Mehrere Kicks auf gleiche Scroll-Schaltfläche' aktiviert ist. Der automatisch ermittelte Wert sollte in der Regel nicht verändert werden.
+sc_config_file.h	Enthält den Pfad zu der für den Screenshot verwendeten Template-Datei zur Erkennung der Steuerelemente bei einer Aufnahme. Diese entspricht dem zur Zeit der Aufnahme in der Aufnahmeleiste eingestellten Applikation. Der automatisch ermittelte Wert sollte in der Regel nicht verändert werden.
+record_window_id.h	Hält bei der Aufnahme von Web-Applikationen die Fenster-ID des gerade aufgenommenen Fensters fest. Der automatisch ermittelte Wert sollte in der Regel nicht verändert werden.
+rerec_manual.h	Ist diese Option gesetzt, bedeutet dies, dass der datango producer beim erneuten Aufnehmen an diesem Makro anhält und eine manuelle Aufzeichnung des Makros erwartet. Das automatische erneute Aufnehmen wird danach fortgesetzt. Diese Option ist vor allem an den Stellen des Projektes sinnvoll, an denen wissentlich das gewünschte Objekt für die aufzunehmende Aktion an einer anderen Stelle zu finden ist oder ein anderes Objekt für die Aufnahme ausgewählt werden muss.
+explanation_d_modified.h	Ist diese Option gesetzt, so wird der Text in der Textbubble für den Demo- und Praxis-Modus bei einer erneuten Aufnahme oder automatischen Übersetzung nicht mehr automatisch generiert, sondern muss manuell bearbeitet werden. Dies hilft manuell vorgenommene Änderungen am Inhalt der Textbubble zu erhalten.
+explanation_p_modified.h	Ist diese Option gesetzt, so wird der Text in der Textbubble für den Übungs-Modus bei einer erneuten Aufnahme oder automatischen Übersetzung nicht mehr automatisch generiert, sondern muss manuell bearbeitet werden. Dies hilft manuell vorgenommene Änderungen am Inhalt der Textbubble zu erhalten.
+jump_target.h	Dieser Wert definiert das Sprungziel innerhalb der Lerneinheit, nachdem die im Makro geforderte Aktion abgeschlossen ist. Er wird für das Anlegen von Verzweigungen in einer Lerneinheit benötigt.
+wait_for_input.h	Diese Option sorgt dafür, dass das nächste Makro erst dann ausgeführt wird, wenn die im augenblicklichen Makro geforderte Aktion durchgeführt wurde. Sie wird für das Anlegen von Verzweigungen in einer Lerneinheit benötigt.
+full_form.h	Diese Option ermöglicht die optimale Darstellung zum Ausfüllen kompletter Formulare innerhalb einer Anwendung im Übungs- und im Test-Modus. Hierfür muss dieser Parameter in allen Aktions-Makros des betreffenden Lernschrittes aktiviert werden. Dies bewirkt, dass alle Eingaben für diese Gruppe in beliebiger Reihenfolge gemacht werden können, da die Kontrolle der Eingabefelder erst nach dem Ausfüllen des letzten Aktions-Makros erfolgt. Für die dargestellte Textbubble wird der Inhalt des letzten Aktions-Makros der gebildeten Gruppe verwendet.
+set_focus.h	Diese Option legt fest, ob beim Abspielen der Lerneinheit der Fokus automatisch auf das entsprechende Eingabefeld auf der Seite gesetzt werden soll oder ob der Benutzer diesen selber setzen muss, was eher dem Verhalten der Live-Applikation entspricht.
+animated.h	Durch diese Option werden die Eingabe/Auswahl bei der Wiedergabe im Demo- und Praxis-Modus animiert dargestellt.
+doc_caption.h	Hier wird die Zeichenkette eingetragen, die für den Titel auf dem Deckblatt der zu generierenden Dokumentation verwendet werden soll.
+doc_description.h	Die hier eingegebene Zeichenkette legt den Untertitel für das Deckblatt der zu generierenden Dokumentation fest.
+sap_tcode.h	Dieser Parameter enthält den während der Aufnahme automatisch ermittelten Transaktionscode bei einer Aufnahme über SAP.
+sap_path.h	Dieser Parameter enthält den automatisch während der Aufnahme ermittelten SAP-Menüpfad zu einer Transaktion bei einer Aufnahme über SAP.
+show_actions.h	Ist diese Option aktiviert, werden die nachfolgenden Aktionen (beschrieben durch Aktionsmakros) wie auf dem Screenshot des Makros 'Neue Seite' auf dem partiellen Screenshot angezeigt.
+text.h	Hier wird der Hinweistext eingetragen, der in der Dokumentation eingefügt, bzw. als Textbubble in der Lerneinheit angezeigt werden soll.\nBitte beachten Sie, dass Sie im Text-Editor nur reinen Text eingeben sollten. Dort vorgenommene HTML-Formatierungen oder eingefügte Bilder, bzw. Screenshots, werden nicht vollständig in die Dokumentation übernommen und können somit zu ungewollten Ergebnissen führen.
+explanation_type.h	Diese Einstellung legt den Hinweis-Typ fest. Je nach eingestelltem Typ wird zusammen mit dem Text ein bestimmtes Piktogramm abgebildet, um den Hinweistext entsprechend zu markieren. Die verwendeten Bilder befinden sich im Ordner 'resource' der entsprechenden Workarea und haben die Bezeichnungen 'hinweis.gif', 'info.gif', 'tipp.gif' und 'warnung.gif'. Sie können diese durch eigene Bilder austauschen.
+explanation_type	Typ (Icon)
+status_text.h	Dieses Eingabefeld enthält den Text einer Meldung in der Statusleiste des SAP-Systems, die während der Aufnahme automatisch aufgezeichnet wurde.
+alternate_text.h	Dieses Eingabefeld enthält den Zusatztext einer Meldung in der Statusleiste des SAP-Systems, die während der Aufnahme automatisch aufgezeichnet wurde.
+doc_chapter_heading.h	In diesem Eingabefeld wird die Zeichenkette eingetragen, die als zusätzliche Überschrift für ein neues Kapitel in der Dokumentation eingefügt werden soll.
+doc_heading_template.h	In diesem Eingabefeld kann eine Formatvorlage angegeben werden, die für die zusätzliche Überschrift verwendet werden soll. Die Formatvorlage wird hierbei direkt mit ihrer Bezeichnung eingetragen. Ist das Feld leer, so wird dieselbe Formatvorlage wie für die Kapitelüberschriften der Lernschritte verwendet.
+doc_marker_orientation.h	Durch diesen Parameter wird die Ausrichtung der hinzugefügten Nummerierung relativ zu dem markierten Objekt festgelegt. Ist als Ausrichtung 'Mitte' ausgewählt, wird die Nummerierungsindex direkt mittig über dem Markierungsrahmen platziert.
+doc_arrow_orientation.h	Dieser Parameter bestimmt die Ausrichtung des hinzugefügten Markierungspfeils auf dem vorangegangenen Screenshot. Die möglichen Ausrichtungen sind hierfür von 1 bis 8 im Uhrzeigersinn durchnummeriert, wobei 1 die Pfeilspitze bei 12 Uhr beginnend nach oben zeigen lässt. Der angegebene Wert muss somit zwischen 1 und 8 liegen.
+g_highlight_effect.h	Diese Option legt fest, welcher Effekt für die Darstellung der Highlights in der Lerneinheit verwendet wird.
+g_highlight_border.h	Dieser Parameter legt für die Lerneinheit die Dicke des Rahmens in Pixel fest, mit dem ein Highlight angezeigt wird. Zur Verfügung stehen die Stärken '1' bis '10'.
+g_highlight_rgb.h	Hiermit wird die Standardfarbe für die Rahmen der angezeigten Highlights festgelegt. Die Farbe kann direkt als RGB-Wert im Hex-Format angegeben oder aus dem aktivierbaren Farbwähler übernommen werden.\nHinweis: Die hier eingestellte Farbe wird nur übernommen, wenn unter Highlight Stil keine Farbe definiert wurde.
+g_highlight_name.h	Dieser Parameter bestimmt den Namen, mit dem reguläre Highlights intern innerhalb der Lerneinheit angesprochen werden. Er sollte in der Regel nicht verändert werden.
+g_highlight_style.h	Dieser Parameter bietet erweiterte Möglichkeiten, das Aussehen eines Highlights zu manipulieren. Ist eine Farbe angegeben, so überschreibt diese den unter 'Highlight Farbe' eingestellten Wert. Es kann aber auch ein Bild aus dem Ordner 'widgets/highlight2' im aktiven Arbeitsbereich angegeben werden. Wenn es sich z.B. um eine PNG-Datei handelt, so kann diese eine prozentuale Transparenz beinhalten. Der Rahmen des Highlights wird durch die Verwendung dieses Bildes für seine Generierung ebenfalls entsprechend transparent.
+g_highlight_fillstyle.h	Dieser Parameter füllt den Innenbereich des Highlights mit der angegebenen Farbe oder dem angegebenen Bild. Auch hier ist Transparenz durch das verwendete Bild möglich. Es kann ein Bild aus dem Ordner 'widgets/highlight2' im aktiven Arbeitsbereich angegeben werden. Wenn es sich z.B. um eine PNG-Datei handelt, so kann diese eine prozentuale Transparenz beinhalten. Der Innenbereich des Highlights wird durch die Verwendung dieses Bildes für seine Generierung ebenfalls entsprechend transparent.
+g_linktextpraxis.h	Sie können hier einen Text für die Fortsetzung der Lerneinheit im Praxismodus angeben, der als Text für den Link zum Fortsetzen in der angezeigten Bubble benutzt wird. Der Text kann HTML-Attribute enthalten. Es ist somit auch möglich, den Pfad zu einer Bilddatei zu verwenden. Der voreingestellte Link ist ein Bild. Wenn Sie ein eigenes Bild verwenden möchten, benötigen Sie diese Syntax: '<img src='${resource_dir}/next_red.gif' border=0>'\nHinweis: Der String '${resource_dir}' dient als Platzhalter und wird durch den datango producer später mit dem korrekten Pfad zum Ordner 'Resource' in Ihrem Arbeitsbereich ersetzt. Er muß immer im Pfad vorhanden sein, wenn kein absoluter Link verwendet wird. Wenn dieser Platzhalter nicht verwendet wird, kann das Abspielen von Lerneinheiten fehlerhaft sein. Wenn Sie eigene Bilder verwenden wollen, legen Sie diese deshalb bitte in den Ordner 'Resource'.
+g_back_link.h	Sie können hier einen Text für die Fortsetzung der Lerneinheit im Praxismodus angeben, der als Text für den Link zum Fortsetzen in der angezeigten Bubble benutzt wird. Der Text kann HTML-Attribute enthalten. Es ist somit auch möglich, den Pfad zu einer Bilddatei zu verwenden. Der voreingestellte Link ist ein Bild. Wenn Sie ein eigenes Bild verwenden möchten, benötigen Sie diese Syntax: '<img src='${resource_dir}/prev_red.gif' border=0>'\nHinweis: Der String '${resource_dir}' dient als Platzhalter und wird durch den datango producer später mit dem korrekten Pfad zum Ordner 'Resource' in Ihrem Arbeitsbereich ersetzt. Er muß immer im Pfad vorhanden sein, wenn kein absoluter Link verwendet wird. Wenn dieser Platzhalter nicht verwendet wird, kann das Abspielen von Lerneinheiten fehlerhaft sein. Wenn Sie eigene Bilder verwenden wollen, legen Sie diese deshalb bitte in den Ordner 'Resource'.
+g_close_link.h	Eine Lerneinheit im Praxis-Modus wird durch den Klick auf einen Link in der angezeigten Bubble geschlossen. Hierfür wird der hier angegebene Text verwendet. Der Text kann HTML-Attribute enthalten. Es ist somit möglich, den Pfad zu einer Bilddatei zu verwenden. Als Voreinstellung wird ein Bild verwendet. Wenn Sie ein eigenes Bild verwenden möchten, achten Sie bitte darauf, folgende Syntax einzuhalten: '<img src='${resource_dir}/close_red.gif' border=0>'\nHinweis: Der String '${resource_dir}' dient als Platzhalter und wird durch den datango producer später mit dem korrekten Pfad zum Ordner 'Resource' in Ihrem Arbeitsbereich ersetzt. Er muß immer im Pfad vorhanden sein, wenn kein absoluter Link verwendet wird. Wenn dieser Platzhalter nicht verwendet wird, kann das Abspielen von Lerneinheiten fehlerhaft sein. Wenn Sie eigene Bilder verwenden wollen, legen Sie diese deshalb bitte in den Ordner 'Resource'.
+g_show_step_bubble.h	Option, um den Lernschritt im Testmodus anzeigen zu lassen. Hierbei wird in einer eingeblendeten Textbubble ein Link angeboten, der ein weiteres Fenster im Demo-Modus öffnet, in dem der entsprechende Schritt erklärt wird und was sich danach wieder automatisch schließt. Zusätzlich wird in der Textbubble für Texteingabefelder der Text aus dem Übungs-Modus angezeigt.
+g_alternate_link.h	Dieser Parameter legt den verwendeten Text für den Link in der Textbubble für die Option 'Hinweis im Test-Modus' fest.
+g_show_ok_bubble.h	Durch diese Option wird ein korrekt ausgeführter Schritt im Testmodus durch eine Textbubble mit dem Inhalt OK bestätigt.
+g_bubblestyle_ok.h	Ist die Option 'OK im Testmodus' aktiviert, kann hier der Bubbletyp ausgewählt werden, mit dem der Hinweis angezeigt werden soll.
+g_show_mouse.h	Diese Option blendet für Aktionen, die in der Anwendung mit der Maus durchgeführt werden müssen im Demo- und Praxis-Modus zusätzlich den Mauszeiger ein. Standardmäßig ist der Mauszeiger ausgeblendet.
+menu_path:/main/doc/word_doc	Word-Dokument erzeugen
+menu_path:/main/doc/doclet	Dokumentationsmakro einfügen
+menu_path:/main/tools/translate	Sprachen
+menu_path:/main/tools/addmac	Sonder-Makro einfügen
+menu_path:/main/edit/addqmac	Quiz-Makro einfügen
+# translations for settings dialog
+arrow_len	Pfeil-Länge
+arrow_len.h	Dieser Parameter definiert die Länge der Pfeil-Spitze im Makro 'Dok: Pfeil' in Pixel.
+arrow_width	Pfeil-Breite
+arrow_width.h	Dieser Parameter definiert die Breite der Pfeil-Spitze im Makro 'Dok: Pfeil' in Pixel.
+atomize_scroll_buttons	Mehrere Klicks auf gleiche Scroll-Schaltfläche zusammenfassen
+atomize_scroll_buttons.h	Durch diese Option werden mehrere Klicks auf die gleiche Scroll-Schaltfläche bei der Aufnahme automatisch zu einer einzigen Aktion zusammengefasst und in die Lerneinheit integriert.
+autocrop	Automatisch Zuschneiden
+autocrop.h
+check_position	Alte Element-Position berücksichtigen
+check_position.h	Durch diese Option wird bei der Suche nach einem Element seine vorher aufgenommene Position Berücksichtigt.
+crop_min_h	Minimalhöhe (Pixel)
+crop_min_h.h
+crop_min_off_b	Unterer Rand (Pixel)
+crop_min_off_b.h
+crop_min_off_l	Linker Rand (Pixel)
+crop_min_off_l.h
+crop_min_off_r	Rechter Rand (Pixel)
+crop_min_off_r.h
+crop_min_off_t	Oberer Rand (Pixel)
+crop_min_off_t.h
+crop_min_w	Minimalbreite (Pixel)
+crop_min_w.h
+default_bubble_duration	Standard Bubbledauer
+default_bubble_duration.h	Dieser Parameter bestimmt bei der automatisierten Aufnahme die Anzeigedauer von Textbubbles im Demo-Modus in Sekunden.
+demo_bubble_at_element	Demo-Bubble am Element
+demo_bubble_at_element.h	Durch diese Option wird während der automatisierten Aufnahme die Textbubble im Demo-Modus durch einen Algorithmus bestmöglich variabel in der Nähe des betroffenen Elements positioniert. Ist die Option ausgeschaltet, wird die Textbubble immer in der rechten unteren Ecke platziert.
+demo_text_with_value	Demo-Text enthält Wert
+demo_text_with_value.h	Durch diese Option werden bei Eingabefeldern die eingetragenen Werte im Bubble-Text angegeben, andernfalls steht in der Demo-Bubble nur 'Es wird das Feld xyz ausgefüllt'.
+div_is_link	<DIV> als <A> Elemente behandeln
+div_is_link.h	Falls die Erkennung von <DIV> Elementen in Einzelfällen scheitert, werden diese wie das <A> Element behandelt und der Aufnahmeprozess wird nicht unterbrochen.
+doc.h	Auf der Basis der hier angegebenen Dokumentenvorlage für Microsoft Word wird die Dokumentation für ein Projekt erstellt.
+doc_template	Vorlage Word-Dokumentation
+dot_filter	Word-Dokumentenvorlage (*.dot)|*.dot
+export_page_caption	Seiten-Titel exportieren
+export_tourstop_name	Lernschritt-Titel exportieren
+global_index_counter	Markierungs Index global zählen
+global_index_counter.h	Ist diese Option aktiv, wird die Nummerierung von Markierungen bei jedem neuen Screenshot weiter fortgeführt und fängt nicht wieder bei '1' an.
+heading_from_new_page	Überschriften aus Neue Seite Makro
+heading_from_new_page.h	Mit dieser Option werden Kapitelüberschriften in der Dokumentation aus dem Titel des Makros 'Neue Seite' generiert.
+heading_from_tourstop	Überschriften aus Lernschritt
+heading_from_tourstop.h	Mit dieser Option werden Kapitelüberschriften der Dokumentation automatisch aus den Titeln der Lernschritte in die Lerneinheit übernommen.
+headings	Überschriften
+headings.h
+hinweis_left_indent	Linker Einzug Hinweis-Tabelle
+hinweis_left_indent.h	Dieser Parameter gibt den Einzug für die Textdarstellung der Hinweis-Makros in der Dokumentation vor. Die Angabe erfolgt numerisch in Punkten (Pt).
+ignore_tourstop_start	Ersten Lernschritt ignorieren
+ignore_tourstop_start.h	Standardmäßig wird der Erste Lernschritt am Anfang der Lerneinheit mit dem Namen 'Start' für die Dokumentation ignoriert, da dieser nur Initialisierungsinformationen für den datango trainer enthält. Ist die Option deaktiviert, wird dieser in die Dokumentation integriert.
+image_caption_from_new_page	Bildunterschriften aus Neue Seite Makro
+image_caption_from_new_page.h	Durch diese Option werden Bildunterschriften in der Dokumentation aus dem Titel des Makros 'Neue Seite' generiert.
+image_scale	Bild Skalierung
+image_scale.h	Dieser Parameter gibt den Skalierungsfaktor für in der Dokumentation verwendete Bilder in Prozent an.
+images	Bilder
+images.h
+images_with_caption	Bilder mit Bildunterschrift
+images_with_caption.h	Durch diese Option erhalten in der Dokumentation verwendete Bilder eine Bildunterschrift in der Form 'Abbildung #'. Das Symbol '#' wird dabei durch die fortlaufende Nummer der entsprechenden Abbildung ersetzt.
+include_project_details	Projekt-Details einfügen
+include_project_details.h	Diese Option sorgt dafür, dass Beschreibung und Bezeichnung des Projektes aus dem Projekt Explorer in die Dokumentation übernommen werden.
+input_confirm_button	Eingabebestätigung Button
+input_confirm_button.h	Durch diese Option wird ein Button-Klick für die Bestätigung von Eingabefeldern als Voreinstellung gesetzt. Dies lässt sich nach der Aufnahme im Makro-Editor jederzeit ändern.
+input_confirm_enter	Eingabebestätigung Enter
+input_confirm_enter.h	Durch diese Option wird die Enter-Taste wird für die Bestätigung von Eingabefeldern als Voreinstellung gesetzt. Dies lässt sich nach der Aufnahme im Makro-Editor jederzeit ändern.
+input_confirm_tab	Eingabebestätigung TAB
+input_confirm_tab.h	Durch diese Option wird die TAB-Taste für die Bestätigung von Eingabefeldern als Voreinstellung gesetzt. Dies lässt sich nach der Aufnahme im Makro-Editor jederzeit ändern.
+insert_inactive_edit_macros	Makros für inaktive Edit-Felder erzeugen
+insert_inactive_edit_macros.h	Durch diese Option wird bei der Aufnahme für die Aktivierung inaktiver Eingabefelder in SAP ein eigener Lernschritt mit entsprechendem Aktionsmakro erzeugt. Falls dieses Verhalten für die Erstellung unerwünscht ist, sollte diese Option deaktiviert werden.
+interactive	Interaktives ReRecording
+interactive.h	Durch diese Option kann bei auftretenden Problemen die Aufnahme unterbrochen und über Dialoge Parameter verändert oder das benötigte Element auf dem Bildschirm manuell per Mausklick ausgewählt werden. Ist 'Interaktives ReRecording' deaktiviert, bricht der Aktualisierungsprozess mit einer Fehlermeldung ab. Der producer schreibt ein Fehlerprotokoll.
+marker_bg_color	Hintergrundfarbe Markierung
+marker_bg_color.h	Dieser Parameter bestimmt die Hintergrundfarbe des Markierungstextes, der zu den Screenshots bei der Dokumentationsgenerierung hinzugefügt wird. Die Farbwerte werden hexadezimal als RGB-Werte Format 'RotRotGrünGrünBlauBlau' angegeben. Die Standardeinstellung ist 'gelb' (ffff80).
+marker_border	Rahmenstärke Markierung
+marker_border.h	Dieser Parameter definiert die breite der Rahmenlinie der erzeugten Markierungsrechtecke in der Dokumentation.
+marker_color	Rahmenfarbe Markierung
+marker_color.h	Dieser Parameter bestimmt die Farbe des Markierungsrahmens, der zu den Screenshots bei der Dokumentationsgenerierung hinzugefügt wird. Die Farbwerte werden hexadezimal als RGB-Werte Format 'RotRotGrünGrünBlauBlau' angegeben. Die Standardeinstellung ist rot (ff0000).
+marker_offset	Offset Markierungsrechteck
+marker_offset.h	Dieser Parameter definiert den hinzugefügten Offset um das markierte Objekt herum für das erzeugte Markierungsrechteck in Pixel.
+marker_rect_radius	Radius Markierungsrechteck
+marker_rect_radius.h	Abrundungsradius der Markierungen
+marker_text_color	Textfarbe Markierung
+marker_text_color.h	Dieser Parameter bestimmt die Farbe der Markierungsnummer, der zu den Screenshots bei der Dokumentationsgenerierung hinzugefügt wird. Die Farbwerte werden hexadezimal als RGB-Werte Format 'RotRotGrünGrünBlauBlau' angegeben. Die Standardeinstellung ist 'schwarz' (000000).
+markers	Markierungen
+markers.h
+master_template	Dokumentenvorlage (Master-Dok)
+master_template.h	Auf der Basis der hier angegebenen Dokumentenvorlage für Microsoft Word wird das Master-Dokument für eine Gruppe von Projekt-Dokumentationen erstellt.
+new_release	Neue Version Rerecorden
+new_release.h	Diese Option ermöglicht die Aktualisierung eines Projekts, wenn sich die Version der aufzuzeichnenden Anwendung geändert hat. Die erneute Aufnahme erfolgt in der selber Sprache, wodurch für das Erkennen der Elemente auf dem Bildschirm zusätzlich erkannte Bezeichner und Beschriftungen aus der Originalaufnahme herangezogen werden, was die Treffsicherheit bei leicht veränderten Bildschirmlayouts erhöht.
+pot_filter	PowerPoint-Vorlage (*.pot)|*.pot
+ppt_template	Vorlage PPT-Dokumentation
+ppt_template.h	Auf der Basis der hier angegebenen Dokumentenvorlage für Microsoft PowerPoint wird die Dokumentation für ein Projekt erstellt.
+practice_bubble_at_element	Übungs-Bubble am Element
+practice_bubble_at_element.h	Durch diese Option wird während der automatischen Aufnahme die Textbubble im Übungs-Modus durch einen Algorithmus bestmöglich variabel in der Nähe des betroffenen Elements Positioniert. Ist die Option ausgeschaltet wird die Textbubble immer in der Mitte platziert.
+rec	Aufnahme
+rec.h
+record_scroll	Scroll-Makros aufnehmen
+record_scroll.h	Durch diese Option wird das Scrollen von Bildschirm- oder Fensterinhalten bei der automatisierten Aufnahme automatisch in Form von Scroll-Makros mit aufgezeichnet.
+rects_with_index	Markierungen mit Nummer
+rects_with_index.h	Die Markierungen auf dem in die Dokumentation eingefügten Screenshot tragen standardmäßig eine Zahl, damit der entsprechende Bubbletext zugeordnet werden kann. Wird die Einstellung deaktiviert, werden die Markierungen auf dem Screenshot ohne Nummern ausgegeben.
+screenshot_border_color	Randfarbe für Screenshots
+screenshot_border_color.h	Dieser Parameter bestimmt die Farbe des Screenshot-Rahmens, der zu den Screenshots bei der Dokumentationsgenerierung hinzugefügt wird. Die Farbwerte werden hexadezimal als RGB-Werte Format 'RotRotGrünGrünBlauBlau angegeben'. Die Standardeinstellung ist 'weiß' (ffffff). Die Einstellung gilt für alle nach dem Zeitpunkt der Änderung aufgenommenen Makros.
+search_factor	Such-Faktor für verschobene Elemente
+search_factor.h	Es kommt vor, dass sich Windows-Elemente der zu aktualisierenden Anwendung nicht an der gleichen Stelle wie bei der Erstaufnahme befinden. Der producer sucht dann im Umkreis um den erwarteten Ort nach dem Element. Die Anzahl der Stellen, an denen im Umkreis gesucht wird lässt sich über diesen Parameter bestimmen. Die Suchpunkte liegen haben immer die halbe Breite, bzw. Höhe des gesuchten Kontrollelements als Abstand zu dessen ursprünglichen Umrissen. Verschobene Elemente werden durch diesen Mechanismus nur gesucht, wenn die Option 'Interaktives ReRecording' deaktiviert ist.
+show_bubble_text	Bubble-Texte anzeigen
+show_bubble_text.h	Durch diese Option wird der Inhalt der Textbubbles in die Dokumentation übernommen. Ist diese Option deaktiviert, enthält die Dokumentation nur Screenshots.
+singledoc_headinglevel	Überschriften-Level für Einzeldokumente
+singledoc_headinglevel.h	Dieser Parameter legt die Gliederungsebene für die Überschriften in der generierten Word-Dokumentation für einzelne Projekte fest. Werte größer '1' sind sinnvoll, falls später ein Master-Dokument generiert werden soll, welches die höheren Ebenen für Gruppen- & Projekt-Namen verwenden soll. Die Standard-Einstellung ist '2'. Somit kann problemlos ein Master-Dokument generiert werden.
+span_is_link	<SPAN> als <A> Elemente behandeln
+span_is_link.h	Falls die Erkennung von <SPAN> Elementen in Einzelfällen scheitert, werden diese wie das <A> Element behandelt und der Aufnahmeprozess wird nicht unterbrochen.
+template.h	Auf der Basis der hier angegebenen Dokumentenvorlage für Microsoft Word wird das Master-Dokument für eine Gruppe von Projekt-Dokumentationen erstellt. Im Ordner 'standard' im Verzeichnis 'macro_templates' im Programmordner des datango producer finden Sie einige Vorlagedateien.
+translatable	Übersetzungsvorlage
+use_demo_bubbles	Text aus Demo-Bubble verwenden
+use_demo_bubbles.h	Durch diese Option wird für die Dokumentation der Text aus den Demo-Bubbles verwendet. Kann auch in Kombination mit 'Text aus Übungs-Bubble verwenden' genutzt werden.
+use_only_window0	Alles in Window 0 aufnehmen
+use_only_window0.h	Durch diese Option erscheinen nach einer Web-Aufnahme alle Aktionen, auch wenn es sich um eine Multi-Window-Applikation handelt, im selben Fenster. Damit auch die spätere Lerneinheit in mehreren Fenstern abgespielt wird, muss die Option deaktiviert werden.
+use_practice_bubbles	Text aus Übungs-Bubble verwenden
+use_practice_bubbles.h	Durch diese Option wird für die Dokumentation der Text aus den Übungs-Bubbles verwendet. Kann auch in Kombination mit 'Text aus Demo-Bubble verwenden' genutzt werden.
+wait	Warten auf neue Seite
+wait.h	Der hier eingetragene Wert legt fest, wie lange der datango producer während der erneuten Aufnahme auf den Neuaufbau des Bildschirms wartet, bevor er die nächste Aktion in der Applikation durchführt und aufzeichnet. Die Angabe erfolgt in Millisekunden. Sollte der voreingestellte Wert von 2 Sekunden (2000ms) nicht ausreichen, da Ihre Applikation langsamer reagiert, sollten Sie diesen Wert nach oben korrigieren.
+webrec	Web-Aufnahme
+webrec.h
+winrec	Windows-Aufnahme
+winrec.h
+winrerec	Windows-Aufnahme aktualisieren
+winrerec.h
+# ui_lang.js
+msgReplaceScreenshot	Wollen Sie den vorhandenen Screenshot ersetzen?
+capReplaceScreenshot	Screenshot ersetzen
+msgReplacePagedump	Wollen Sie den vorhandenen Seitenabzug ersetzen?
+capReplacePagedump	Seitenabzug ersetzen
+capEditFreeMarker	Freie Markierung bearbeiten
+capEnterTextInput	Eingabefeld ausfüllen
+capRecordSettings	Einstellungen Aufnahme
+capDocSettings	Einstellungen Dokumentation
+capScores	Punktzahl
+msgSelectRadio	Optionsfeld wählen\n(ESC für Abbrechen)
+msgSelectGeneralAction	Klicken Sie auf das Element\n(ESC für Abbrechen)
+msgSelectTCODE	Klicken Sie auf das\nTransaktions-Code-Feld\n(ESC für Abbrechen)
+msgSelectMenuAction	Klicken Sie auf den Menupunkt\n(ESC für Abbrechen)
+msgSelectTextInput	Texteingabefeld wählen\n(ESC für Abbrechen)
+msgSelectSingle	Auswahl treffen\n(ESC für Abbrechen)
+msgSelectStatusLine	Statuszeile wählen\n(ESC für Abbrechen)
+msgSelectPosition	Position auf der Seite wählen\n(ESC für Abbrechen)
+msgSelectBubblePos	Bubble-Position wählen\n(ESC für Abbrechen)
+msgSelectHighlightPos	Highlight-Position wählen\n(ESC für Abbrechen)
+msgConfirmButton	Position Bestätigungsbutton\n(ESC für Ende)
+msgReRecordFromHere	Start vom aktuellen Makro
+msgRecordPageLoaded	Drücken Sie OK sobald die Seite vollständig geladen ist.
+msgRecordPageCopy	Seite kopieren
+msgRecordAcceptAnyway	\nTrotzdem fortfahren?
+msgRecordStart	Klick für Start
+msgRecordNextAction	Nächste Aktion\n(ESC für Ende)
+msgRecordStoped	Aufnahme beendet.
+msgRecordAborted	Aufnahme abgebrochen.
+msgStatusAction	Aktion:
+msgSelectHScroll	Horizontalen Scrollbar auswählen\n(ESC für Abbrechen)
+msgSelectVScroll	Vertikalen Scrollbar auswählen\n(ESC für Abbrechen)
+msgLanguageIs	Die Aufnahmesprache ist
+msgNoTranslatableParams	Das Projekt enthält keine übersetzbaren Parameter
+capPrepareTranslation	Übersetzung vorbereiten
+msgInserted	Eingefügt:
+capPptImport	PowerPoint Import
+msgPptImport	Bitte öffnen Sie die PowerPoint-Präsentation\nund selektieren Sie die zu importierenden Folien.
+width	Breite
+height	Höhe
+errNoRadiobutton	Kein Optionsfeld an dieser Position!
+errNoTextInput	Kein Textfeld an dieser Position!
+errNoScreenshotFound	Es gibt keinen Screenshot vor diesem Makro.
+errNoSelectSingle	Kein Auswahlfeld an dieser Position!
+errNoStatusLine	Keine Statuszeile an dieser Position!
+errNoScreenshot	Fehler beim Erzeugen des Screenshot.
+errMissingScreenshot	Nicht alle Makros sind mit Screenshots versehen.\n\nSollen diese vorher ergänzt werden?
+errReRecordTypeMismatch	Kein passendes Element gefunden
+errReRecordTypeMismatch2	Der Typ des gewählten Elements passt nicht zum Original
+errReRecordNewType	\nNEU:
+errObjectNotRecognizedRightMouse	Objekt nicht erkannt: Rechte Maus '
+errObjectNotRecognizedLeftMouse	Objekt nicht erkannt: Linke Maus '
+macGotoTourstop	Sprung zu Lernschritt
+macEndUnit	Lerneinheit Ende
+macQuickClick	Quick Klick
+macHinweis	Dok: Hinweis
+macExplanationLong	Erklärung
+macInputRadio	Optionsfeld
+macGeneralAction	Klick auf ...
+macInputText	Textfeld
+macClickMenu	Klick auf Menü
+macClickSAPMenu	Klick auf SAP Menü
+macSelectSingle	Auswahlfeld
+macFreeMarker	Freie Markierung
+macNewHeading	Neuer Abschnitt
+macAddArrow	Pfeil hinzufügen
+macDocumentation	Dokumentation
+macKeyPress	Tastendruck
+paramJumpTarget	Sprungziel
+dlgJumpTargets	Verzweigung bearbeiten
+capNoTargets	Keine Makros gefunden
+msgNoTargets	Es wurden keine Makros mit Sprungzielen gefunden.
+capNoBranchOn	Kein Verzweigungsanfang
+msgNoBranchOn	Es wurde kein passendes Makro 'Verzweigung Anfang' gefunden.
+capHaveBranch	Verzweigung existiert
+capDeleteBranch	Verzweigung löschen
+capDeleteForm	Formularmodus löschen
+msgDeleteForm	Soll der Formularmodus gelöscht werden?
+msgNoFormOff	Ein passendes Makro 'Formular Ende' konnte nicht gefunden werden.
+msgNoFormOn	Ein passendes Makro 'Formular Anfang' konnte nicht gefunden werden.
+capDeleteQuizSelection	Quizauswahl löschen
+msgDeleteQuizSelection	Soll die Quizauswahl gelöscht werden?
+msgNoQuizSelectionOff	Ein passendes Makro 'Quizauswahl Ende' konnte nicht gefunden werden.
+msgNoQuizSelectionOn	Ein passendes Makro 'Quizauswahl Anfang' konnte nicht gefunden werden.
+msgDeleteBranch	Soll die ausgewählte Verzweigung gelöscht werden?
+msgNoBranchOff	Es wurde kein passendes Makro 'Verzweigung Ende' gefunden.
+msgHaveBranch	In diesem Lernschritt gibt es bereits eine Verzweigung.
+msgFormAndBranch	Verzweigung und Formular können nicht gleichzeitig verwendet werden.
+capHaveForm	Formularmodus aktiviert
+msgHaveForm	Der Formularmodus ist bereits aktiviert.
+capHaveQuiz	Quizauswahl aktiviert
+msgHaveQuiz	Die Quizauswahl ist bereits aktiviert.
+paramCaption	Titel
+paramValue	Wert
+paramValueHelp	Wertehilfebutton
+paramType	Typ
+paramTransactionName	Transaktionsname
+paramFieldname	Feldbezeichnung
+paramExplanationDemo	Demo Erklärung
+paramExplanationPrac	Übung Erklärung
+paramMarkerPosition	Markierungsposition
+paramReRecordLanguage	Sprache
+paramText	Text
+lang_bg	Bulgarisch
+lang_cs	Tschechisch
+lang_da	Dänisch
+lang_de-DE	Deutsch
+lang_el	Griechisch
+lang_en-GB	Englisch (UK)
+lang_en-US	Englisch (US)
+lang_es-ES	Spanisch
+lang_et	Estnisch
+lang_fi	Finnisch
+lang_fr-CA	Französisch (CA)
+lang_fr-FR	Französisch (FR)
+lang_hi	Hindi
+lang_hr-HR	Kroatisch
+lang_hu	Ungarisch
+lang_id	Indonesisch
+lang_it-IT	Italienisch
+lang_ja	Japanisch
+lang_ko	Koreanisch
+lang_lt	Litauisch
+lang_lv	Lettisch
+lang_nl-NL	Niederländisch
+lang_nb	Norwegisch
+lang_pl	Polnisch
+lang_pt-PT	Portugiesisch (Portugal)
+lang_pt-BR	Portugiesisch (Brasilien)
+lang_ro	Rumänisch
+lang_ru	Russisch
+lang_sk	Slovakisch
+lang_sl	Slowenisch
+lang_sv-SE	Schwedisch
+lang_th	Thailändisch
+lang_tr	Türkisch
+lang_uk	Ukrainisch
+lang_vi	Vietnamesisch
+lang_zh-CN	Chinesisch
+lang_zh-TW	Chinesisch (Taiwan)
+paramStartAtCurrentMacro	Ab akt. Makro
+paramStrictTypeCheck	Strenge Typkontrolle
+paramKeepCrop	Zuschnitt erhalten
+paramReRecordWait	Reaktionszeit(ms)
+paramReRecordInteractive	Interaktiv
+paramReplaceBubbleTxt	Text ersetzen
+paramLangDependentType	Sprachabhängiger Typ
+paramRequiredType	Erforderlicher Typ
+paramFoundType	Aktueller Typ
+msgSelectObject	Bitte zeigen Sie auf das korrekte Seitenelement.
+paramKeypressRemind	Es wurde kein Eingabefeld aufgezeichnet.
+paramRecordHotkey	Die Eingabe wird als Tastaturkürzel interpretiert.
+paramNoRecordKeypress	Die Tastatureingabe wird nicht verarbeitet.
+paramNoRemindTillClick	Diese Meldung bis zum nächsten Klick nicht anzeigen.
+paramCheckPosition	Alte Element-Position Berücksichtigen
+paramConfirmTab	Tab-Taste bestätigt
+paramConfirmEnter	Enter-Taste bestätigt
+paramConfirmButton	Buttonklick bestätigt
+paramKeyName	Taste
+progressMacros	Makros verarbeitet: %.0lf von %.0lf
+msgGenerateDocumentation	Dokumentation erzeugen
+msgFNFContinueAnyway	\nkonnte nicht geladen werden.\nTrotzdem fortsetzen?
+msgOpenDocumentation	Wollen Sie die erzeugte Dokumentation jetzt öffnen?
+msgDocFinished	Dokumentation fertiggestellt
+msgRerecordingStopped	Kein kompatibles Steuerelement an der gegebenen Position! Erneut Aufnehmen gestoppt.
+msgRerecordSuccess	Erneut Aufnehmen erfolgreich durchgeführt.
+docSAPMenuPath	Menüpfad
+docSAPTransaction	Transaktion
+cfgDocTemplate	Dok.-Vorlage
+cfgImageScale	Bildskalierung (%)
+cfgMarkerBorder	Mark.-Stärke
+cfgMarkerColor	Mark.-Farbe
+cfgMarkerTextColor	Mark.-Textfarbe
+cfgMarkerBgColor	Mark.-Hintergrund
+cfgGlobalIndex	Durchnummerieren
+cfgOnlyWindow0	Immer Window 0
+cfgDefaultBubbleDuration	Bubbledauer
+cfgUseDemoBubbles	Demotext
+cfgUsePracticeBubbles	Übungstext
+cfgMasteryScore	Mindestpunkte (%)
+cfgWebrecSpanIsLink	SPANs als Links
+cfgWebrecDivIsLink	DIVs als Links
+docTableHeaderStep	Schritt
+docTableHeaderAction	Aktion
+docTableHeaderInput	Eingabe
+docTableHeaderExpectedResults	Erwartete Ergebnisse
+docTableHeaderPassed	Bestanden
+docTableHeaderFailed	Durchgefallen
+mchoice	Mehrfachauswahl
+points	Punkte
+points.h	Gibt den Punktwert an, mit der eine richtig beantwortete Frage bewertet wird. In der Grundeinstellung ist dieser Wert auf '1' gesetzt.
+correct_answer	Richtige Antwort
+correct_answer.h
+question	Frage
+question.h	Über diesen Parameter kann die Frage bzw. Aufgabe für den Quiz eingefügt werden.
+matchquestion	Frage
+matchquestion.h	Über diesen Parameter kann die Frage bzw. Aufgabe für den Quiz eingefügt werden.
+question_1	Frage 1
+question_1.h	Beinhaltet eine Frage bzw. den Text dem eine Antwort zugewiesen werden muss.
+question_2	Frage 2
+question_2.h	Beinhaltet eine Frage bzw. den Text dem eine Antwort zugewiesen werden muss.
+question_3	Frage 3
+question_3.h	Beinhaltet eine Frage bzw. den Text dem eine Antwort zugewiesen werden muss.
+question_4	Frage 4
+question_4.h	Beinhaltet eine Frage bzw. den Text dem eine Antwort zugewiesen werden muss.
+question_5	Frage 5
+question_5.h	Beinhaltet eine Frage bzw. den Text dem eine Antwort zugewiesen werden muss.
+question_6	Frage 6
+question_6.h	Beinhaltet eine Frage bzw. den Text dem eine Antwort zugewiesen werden muss.
+question_7	Frage 7
+question_7.h	Beinhaltet eine Frage bzw. den Text dem eine Antwort zugewiesen werden muss.
+question_8	Frage 8
+question_8.h	Beinhaltet eine Frage bzw. den Text dem eine Antwort zugewiesen werden muss.
+answer_1	Antwort 1
+answer_1.h	Enthält eine Antwort für diesen Quiz.
+answer_2	Antwort 2
+answer_2.h	Enthält eine Antwort für diesen Quiz.
+answer_3	Antwort 3
+answer_3.h	Enthält eine Antwort für diesen Quiz.
+answer_4	Antwort 4
+answer_4.h	Enthält eine Antwort für diesen Quiz.
+answer_5	Antwort 5
+answer_5.h	Enthält eine Antwort für diesen Quiz.
+answer_6	Antwort 6
+answer_6.h	Enthält eine Antwort für diesen Quiz.
+answer_7	Antwort 7
+answer_7.h	Enthält eine Antwort für diesen Quiz.
+answer_8	Antwort 8
+answer_8.h	Enthält eine Antwort für diesen Quiz.
+last_page_pause	Pause
+last_page_pause.h	Dieser Parameter bestimmt die Dauer, bis die Lerneinheit beendet wird.
+answer_1_correct	Antwort 1 richtig
+answer_1_correct.h	Mit Aktivierung dieses Parameters wird die Richtigkeit dieser Antwort festgelegt.
+answer_2_correct	Antwort 2 richtig
+answer_2_correct.h	Mit Aktivierung dieses Parameters wird die Richtigkeit dieser Antwort festgelegt.
+answer_3_correct	Antwort 3 richtig
+answer_3_correct.h	Mit Aktivierung dieses Parameters wird die Richtigkeit dieser Antwort festgelegt.
+answer_4_correct	Antwort 4 richtig
+answer_4_correct.h	Mit Aktivierung dieses Parameters wird die Richtigkeit dieser Antwort festgelegt.
+answer_5_correct	Antwort 5 richtig
+answer_5_correct.h	Mit Aktivierung dieses Parameters wird die Richtigkeit dieser Antwort festgelegt.
+answer_6_correct	Antwort 6 richtig
+answer_6_correct.h	Mit Aktivierung dieses Parameters wird die Richtigkeit dieser Antwort festgelegt.
+answer_7_correct	Antwort 7 richtig
+answer_7_correct.h	Mit Aktivierung dieses Parameters wird die Richtigkeit dieser Antwort festgelegt.
+answer_8_correct	Antwort 8 richtig
+answer_8_correct.h	Mit Aktivierung dieses Parameters wird die Richtigkeit dieser Antwort festgelegt.
+show_nav_buttons	Steuerung anzeigen
+show_nav_buttons.h	Mit dieser Option kann die Navigation bzw. Steuerung innerhalb der Bubble ein- und ausgeblendet werden.
+shuffle_solutions	Lösungen mischen
+shuffle_solutions.h	Mit Aktivierung dieses Parameters werden die Antworten in ihrer Reihenfolge beliebig gemischt.
+feedback	Feedback
+feedback_enable	Feedback aktivieren
+feedback_enable.h	Mit Aktivierung dieses Parameters wird der entsprechende Feedback-Text angezeigt. Dieser kann global im zentralen Einstellungsdialog oder separat für diesen Quiz im Makro-Editor geändert werden, wenn die Option 'Mehr anzeigen' aktiviert ist.
+feedback_pass	Quiz bestanden
+feedback_pass.h	Der hier eingegebene Text wird angezeigt, wenn ein Quiz richtig gelöst wurde. Hierfür muss die Einstellung 'Feedback aktivieren' ausgewählt sein.
+feedback_fail	Quiz nicht bestanden
+feedback_fail.h	Der eingegebene Text wird angezeigt, wenn ein Quiz falsch gelöst wurde. Hierfür muss die Einstellung 'Feedback aktivieren' ausgewählt sein.
+sqmaquiz	Felder ausfüllen
+fibquiz	Lückentext
+matchquiz	Zuordnen
+connquiz	Verbindung
+mixquiz	Sortieren
+quiz_alignment	Ausrichtung
+quiz_alignment.h	Legt die Darstellung der Antworten in horizontaler oder vertikaler Ausrichtung fest.
+qa_horizontal	horizontal
+qa_vertical	vertikal
+scalequiz	Schieberegler
+range	Bereich
+range.h	Definiert den Zahlenbereich des Anfangs- und des Endwertes für den Schieberegler. Die beiden Werte sind mit einem Bindestrich anzugeben. Bsp: 2-9
+answer	Antwort
+answer.h	Dieser Parameter definiert die Antwort durch Angabe eines Zahlenwertes.
+gridquiz	Gitter
+grid_list	Antwortmöglichkeiten
+grid_list.h	In diesem Texfeld können mehrere Antwortmöglichkeiten eingegeben werden, welche in der angegebenen Reihenfolge die Spalten der Tabelle bilden. Die Antworten sind durch ein Komma zu trennen.
+qt_text	Texteingabe
+qt_drop_down	Drop-Down Liste
+qt_drag_drop	Drag & Drop
+at_text	Text
+at_integer	Ganze Zahl
+at_float	Fliesskommazahl
+at_regexp	Regulärer Ausdruck
+at_comma_list	kommaseparierte Liste
+quiz_type	Typ
+quiz_type.h	Bestimmt den Antwort-Typ.
+answer_type	Typ
+answer_type.h	Dieser Parameter definiert die Eingabe der Antwort. Es kann bestimmt werden, ob für eine Texteingabe Groß- und Kleinschreibung berücksichtigt wird, ob nur Zahlen-Antworten zugelassen sind bzw. Listen oder reguläre Ausdrücke angegeben werden können.
+quiz_selection_type	Typ
+quiz_selection_type.h	Über die Auswahl kann die Reihenfolge und Anzeige der im Makro 'Quizauswahl' enthaltenen Quiz geändert werden. Mit der Option 'Zufallsauswahl' wird nur ein beliebiger Quiz aus der Auswahl und mit der Option 'Quiz mischen' alle Quiz-Typen der Auswahl in zufälliger Reihenfolge angezeigt.
+force_multiple_choice	Mehrfachauswahl erzwingen
+force_multiple_choice.h	Ist dieser Parameter aktiviert, ist eine Mehrauswahl auch dann möglich, wenn lediglich eine Antwort richtig ist.
+more_answers	Mehr Antworten
+mode_avail	Verfügbar in Modus
+mode_avail.h
+one_for_all	Nur erste Antwort-Liste
+one_for_all.h	Mit Aktivierung dieses Parameters können nur die eingegebenen Antworten aus dem ersten Antwortfeld in den Lückentext eingefügt werden.
+qst_random_choice	Zufallsauswahl
+qst_shuffle_quizzes	Quiz mischen
+quiz_eval	Quiz-Auswertung
+fibtext	Lückentext
+fibtext.h	Enthält den Lückentext. Drei Unterstriche definieren dabei den Platzhalter für die jeweilige Wortlücke. Hinweis: In einem Antwortfeld können auch mehrere Antwortmöglichkeiten für eine Textlücke eingegeben werden. Diese sind dann mit einem Komma zu trennen, wobei die richtige Antwort mit einem Stern zu markieren ist. Bsp.: Antwort1,*Antwort2,Antwort3
+visual_effects	Aktiviere visuelle Effekte
+visual_effects.h
+quiz_threshold	Erforderliches Ergebnis (%)
+quiz_threshold.h	Definert einen Wert, den es zu erreichen gilt, um den jeweiligen Quiz zu bestehen. Dieser Wert wird in Prozent angegeben.
+quiz_media	Medien
+qm_file	Medien-Datei
+qm_file.h	Über diesen Parameter kann eine Bild-, Video- oder Audio-Datei zur unterstützenden Darstellung der Aufgabe eingefügt werden. Die Medien-Datei wird rechts neben der Aufgabenstellung platziert.
+qm_width	Breite
+qm_width.h	Definiert die Breite der Medien-Datei.
+qm_height	Höhe
+qm_height.h	Definiert die Höhe der Medien-Datei.
+qm_as_question	Anstatt der Frage anzeigen
+qm_as_question.h	Mit Aktivierung dieses Parameters wird die Medien-Datei im Quiz anstelle der Frage angezeigt. 
+feedback_popup	Zeige Feedback als Popup
+feedback_popup.h	Mit Aktivierung dieses Parameters wird der entsprechende Feedback-Text als Popup-Fenster dargestellt. Bei Deaktivierung wird der Feedback-Text innerhalb des Aufgaben-Fensters angezeigt.
+quiz_timeout	Zeitlimit in Sekunden
+quiz_timeout.h	Mit diesem Parameter kann eine Zeit angegeben werden, innerhalb welcher der Quiz zu beantworten ist.
+feedback_time	Quiz Timeout
+feedback_time.h	Der eingegebene Text wird angezeigt, wenn die vorgegebene Zeit zur Beantwortung eines Quiz abgelaufen ist. Hierfür muss vorhergehend ein entsprechendes Zeitlimit definiert und die Einstellung 'Feedback aktivieren' ausgewählt sein.
+print_solution	Mit Lösungen drucken
+print_solution.h	Mit Aktivierung dieses Parameters werden bei Generierung einer Dokumentation die Lösungen der Quiz mit ausgegeben.
+workflow_enabled	Prozessablauf
+workflow_enabled.h	Stellt den Prozessablauf innerhalb der HTML- und Word-Dokumentation dar (gilt nicht für Job-Hilfe). 
+quizzes	Quiz
+quizzes.h
+g_quiz_timeout	Zeitlimit für gesamten Quiz in Sekunden
+g_quiz_timeout.h	Über diesen Parameter kann ein Zeitlimit für den gesamten Quiz festgelegt werden. Alle Fragen müssen dann innerhalb der vorgegebenen Zeit beantwortet werden.
+g_quiz_style_dir	Quiz-Stil
+g_quiz_style_dir.h	Mit dieser Einstellung kann ein vorgegebener Stil für die Gestaltung eines Quiz ausgewählt werden. Die jeweiligen Stile sind unter Workarea \ resource \ quiz_styles zu finden.
+puzzlequiz	Puzzle
+qp_pieces_x	Teile horizontal
+qp_pieces_x.h	Der eingegebene Zahlenwert definiert die Anzahl der horizontalen Teile, in denen das Ausgangsbild unterteilt wird.
+qp_pieces_y	Teile vertikal
+qp_pieces_y.h	Der eingegebene Zahlenwert definiert die Anzahl der vertikalen Teile, in denen das Ausgangsbild unterteilt wird.
+at_cs_text	Text (Groß-/Kleinschreibung)
+at_cs_comma_list	Kommaseparierte Liste (Groß-/Kleinschreibung)
+qt_cs_text	Texteingabe (Groß-/Kleinschreibung)
+qp_show_hint	Hilfebild anzeigen
+qp_show_hint.h	Mit Aktivierung dieses Parameters wird das Ausgangsbild zur Unterstützung rechts neben dem Puzzle angezeigt.
+qt_oneplace_puzzle	in einem Feld anordnen
+qt_twoplace_puzzle	in zweitem Feld anordnen
+feedback_correct_solutions	Richtige Antworten anzeigen
+feedback_correct_solutions.h	Mit Aktivierung dieses Parameters wird nach der Bestätigung der eingegebenen Antwort, bei falscher Beantwortung einer Frage, die richtige Antwort im Feedback-Text angezeigt.
+highlights	Highlights
+hotspotquiz	Bildbereich
+hs_image	Bild
+hs_image.h	Dieser Parameter enthält die Bild-Datei, in welcher der Bildbereich markiert werden soll. Die Datei kann zuvor über 'Datei einfügen' oder durch das Erstellen eines Screenshots über 'Bild ersetzen' eingefügt werden.\nÜber die Funktion 'Dok.Bildausschnitt' kann nach dem Einfügen des Bildes der Bereich für die Markierung definiert werden.
+quiz_options	Optionen
+g_quiz_skipping	Quiz überspringen erlauben
+g_quiz_skipping.h	Ist dieser Parameter aktiviert, kann ein Quiz übersprungen werden, ohne eine Antwort eingeben zu müssen. Die Antworten werden dabei nicht in der Auswertung angezeigt und in der Punktewertung nicht berücksichtigt. Ist der Parameter deaktiviert, wird eine Antwort vorausgesetzt, um den nächsten Quiz anzeigen zu können.
+eval_type	Auswertungsformat
+eval_type.h	Dieser Parameter bestimmt, wie detailreich die Auswertung angezeigt wird. Unter 'minimal' wird eine Auswertung der Punkte angezeigt. Bei 'reduziert' wird zusätzlich eine Tabelle, mit dem Quiz-Typ, dem Ergebnis und dem Punktwert angezeigt. Mit der Auswahl 'vollständig' werden in der Tabelle auch die Lösungen eines Quiz dargestellt.
+et_full	vollständig
+et_reduced	reduziert
+et_minimal	minimal
+proj_title	Projektname
+proj_title.h	Enthält den Projektitel als Überschrift für die Auswertungsseite.
+title.h	Enthält den Namen für den Quiz.
+hotspot_define	Bildbereich definieren
+process_enable.h	Mit Aktivierung dieses Parameters wird dieser Lernschritt im Prozessablauf dargestellt. 
+key	Schlüssel
+g_no_praxis_links	Praxis-Modus ohne Pfeile
+generate_navprj	Navigationsprojekt Erzeugen
+no_navmacroset	Aufgrund des fehlenden Navigationsmacrosets im Arbeitsbereich konnte kein Navigationsprojekt erzeugt werden.
+tech_preview	* TECHNISCHE VORSCHAU *
+support_warn	Wird nicht unterstützt von dks 6.3!

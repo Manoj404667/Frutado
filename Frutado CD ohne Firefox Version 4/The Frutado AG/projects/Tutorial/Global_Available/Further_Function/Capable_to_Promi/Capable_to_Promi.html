@@ -1,0 +1,43 @@
+﻿<html>
+<head>
+<title>Tour Links</title>
+</head>
+<body bgcolor="#FFFFB7">
+<span style="font-size:12px;font-family:Arial;">
+<h1>'Capable-to-Promise (CTP)'</h1>
+<div>
+<FONT size=2><IMG src="../Product_Allocati/pages/fru_header_e03.g">&nbsp;</FONT> 
+<P></P>
+<P></P>
+<P><STRONG><FONT face=Verdana size=5>Capable-to-Promise (CTP)</FONT></STRONG></P>
+<P><FONT size=3>CTP describes the possibility to call PP/DS during an ATP check, if the required quantity of a product is not completely available.&nbsp;The basic idea of CTP is to create planned orders in PP/DS and check for component availability.</FONT></P>
+<P><FONT size=3>The CTP functionality is usually applied either in a typical make-to-order environment or in cases where planning according to forecasts is not sufficient. </FONT></P>
+<P><FONT size=3>An important advantage of CTP is that both capacities and components&nbsp;availability are checked before a sales order is confirmed. </FONT></P>
+<P><FONT size=3><U><STRONG>Steps during the CTP check:</STRONG></U></FONT></P>
+<P><FONT size=3>In the following figure you can see&nbsp;the&nbsp;steps that&nbsp; have to be passed during a CTP check. These steps&nbsp;include both ATP ad PP/DS functionalities:</FONT></P>
+<P><IMG src="doc/img_4.png"></P>
+<P><FONT size=3>First of all a sales order enters the connected OLTP-system, for example an ERP-system like SAP ERP. Date and&nbsp;quantity of the sales order&nbsp;are transferred to the ATP module of SAP APO.&nbsp;After the ATP check&nbsp;the requested date and quantity for CTP&nbsp;is calculated in the ATP module. The requested date for CTP is always identical to the requested date of the sales order, wheras the requested CTP quantity might differ from the requested quantity of the sales order depending on the result of a product check that is possibly performed first. </FONT><FONT size=3>In a further step PP/DS is called with these informations. The PP/DS module creates a simulative planned order according to the production restrictions and a simulative demand for the same quantity in order to keep any demand from using this planned order. </FONT><FONT size=3>In a next step PP/DS transfers the availability date for the CTP quantity. Then ATP combines the confirmations of the ATP check with the PP/DS result. </FONT><FONT size=3>Finally the sales order is saved in SAP ERP and transferred to SAP APO. The "simulative" status of the planned order in PP/DS is changed to "normal" and the simulative demand is deleted. </FONT></P>
+<P><FONT size=3><U><STRONG>Start of production:</STRONG></U></FONT></P>
+<P><FONT size=3>There are different&nbsp;variants to start CTP within the advanced check methods:</FONT></P>
+<UL>
+<LI><FONT size=3>start production immediately</FONT></LI>
+<LI><FONT size=3>start production after product availability check (receipts are only created for the open quantity)</FONT></LI>
+<LI><FONT size=3>start production after all basic methods</FONT></LI></UL>
+<P><FONT size=3>Another possibility to start CTP is to&nbsp;call PP/DS by the location determination procedure of integrated rule maintenance. </FONT></P>
+<P><FONT size=3>The following simplified example&nbsp;helps&nbsp;to&nbsp;understand this procedure. You can see different planned orders of a&nbsp;certain production line. On this production line in a certain&nbsp;plant&nbsp;a specific product of the Frutado AG is produced. The production process only consists of the filling process&nbsp;of the beverages. We assume that the filling time for one production order&nbsp;is one hour. The figure displays&nbsp;all the&nbsp;planned production orders on 17 April 2009 from 08:00 till 12:00 o´clock. As you can see already four prodction orders are dispatched. However, in the time period from 09:00 till 10:00 o´clock there is a production capacity of one our available. In this time period you can dispatch the CTP order assumed that enough material is available to produce the required product. </FONT></P>
+<P><FONT size=3></FONT>&nbsp;</P>
+<P><FONT size=3></FONT></P>
+<P><FONT size=3><IMG src="doc/img_6.png"></FONT></P>
+<P><FONT size=3></FONT>&nbsp;</P>
+<P><FONT size=3>Nevertheless you should always regard alternative modelling approaches first before you decide to use CTP. If the bottleneck is for example more on the production capacity side, then allocations are considered as a possible alternative to CTP. When the bottleneck is rather the component availability, then multilevel ATP should be prefered. </FONT></P>
+<P><FONT size=3></FONT>&nbsp;</P>
+<P><FONT size=3></FONT>&nbsp;</P>
+<P><SPAN style="mso-ansi-language: EN-US"><IMG src="../Product_Allocati/pages/separator_logo_e"></SPAN>&nbsp;</div>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FGlobal%5FAvailable%2FFurther%5FFunction%2FCapable%5Fto%5FPromi%2Fdmf%2FCapable%5Fto%5FPromi%5Fdemo%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Capable-to-Promise (CTP) Demo: Demo</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FGlobal%5FAvailable%2FFurther%5FFunction%2FCapable%5Fto%5FPromi%2Fdmf%2FCapable%5Fto%5FPromi%5Fuebung%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Capable-to-Promise (CTP) Practice: Practice</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FGlobal%5FAvailable%2FFurther%5FFunction%2FCapable%5Fto%5FPromi%2Fdmf%2FCapable%5Fto%5FPromi%5Ftest%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Capable-to-Promise (CTP) Test: Test</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FGlobal%5FAvailable%2FFurther%5FFunction%2FCapable%5Fto%5FPromi%2Fdmf%2FCapable%5Fto%5FPromi%5Fpraxis%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Capable-to-Promise (CTP) Concurrent: Concurrent</a><br><br>
+<br>
+</span>
+</body>
+</html>

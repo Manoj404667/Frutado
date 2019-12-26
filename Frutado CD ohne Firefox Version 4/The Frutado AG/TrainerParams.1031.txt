@@ -1,0 +1,137 @@
+﻿aicc_get.h	Erstelle den Wert von 'GetParam' vor 'PutParam'. Der Parameter {log} muss hierfür leer sein oder der Parameter {passive}==true.
+aicc_sid.h	Enthält den Wert von AICC_SID, der vom LMS übergeben wurde.
+aicc_url.h	Enthält die URL des LMS für AICC-HACP-Kommunikation, die vom LMS übermittelt wurde.
+anybrowser.h	Deaktiviert die Erkennung von Broswer-Typ und -version während des Starts des datango trainer.
+appframename.h	Name des trainer-generierten Frames, in dem die Applikation läuft (wird nicht benutzt, wenn {tourframe} gesetzt ist).
+appname.h	Name der Web-Applikation, die für den Rettungs-Applikations-Link verwendet wird (siehe {appurl}).
+apptimeout.h	Setzt den Timeout in Sekunden, nach dem die Start-Seite die URL aufruft, die in {appurl} angegeben ist (siehe {appurl}) (0 = infinity).
+appurl.h	Bei Lerneinheiten im Navigations-Modus steuert der datango trainer die Fremdapplikation in seinem Frame. Falls beim Laden des trainer oder der Lerneinheit ein Fehler auftritt, so kann mit dem Parameter {appurl} ein direkte Link zur Fremdapplikation auf der Startseite eingeblendet werden. Sinn ist es, dem Nutzer die Möglichkeit zu geben, die Fremdapplikation im Fehlerfall trotzdem zu benutzen.
+autoplace.h	Nach dem Platzieren von Bubbles in einer Lerneinheit kann es vorkommen, dass diese sich - z.B. durch gescrollte Seiten oder kleinere Bildschirme - überlappen oder aus dem Bild rutschen. Ist {autoplace} eingeschaltet, rotieren die Bubbles um das referenzierte Objekt auf der Seite, bis sie einen freien Platz finden.
+autoscroll.h	Werden Elemente verdeckt, können Sie mit dieser Einstellung durch automatisches verschieben der Elternelemente sichtbar gemacht werden.
+autofocus.h	Schaltet automatische Fensterfokussierung an / aus.
+autostart.h	Startet die Lerneinheit, deren Name hier angegeben wurde, automatisch nach dem ersten Öffnen der Library. Die Lerneinheit muss in der Library existieren und die eingegebene Zeichenkette muss exakt mit dem in der Library für die Lerneinheit verwendeten Namen übereinstimmen. Leer- und Sonderzeichen müssen in eine HTML-konforme Schreibweise konvertiert werden.
+back.h	Hier können mehrere benannte Funktionstasten, mit Komma getrennt, für die "back" Funktionalität definiert werden.\r\nZum Beispiel: alt_up.
+brand.h	Zeigt im Browser-Fenster auf der linken Seite der datango trainer Bedienleiste ein kleines datango-Logo an.
+bubblefeedback.h	Fehler in Bubbles zeigen: -1: niemals; 1: immer; 0: nur wenn {recording_mode=='screendump'}; -2: keinen Fehler überhaupt zeigen; -3: keinen Fehler überhaupt zeigen und für immer warten.
+base.h	Konfiguriert das "Topmost"-Fenster einer Lerneinheit (betrifft nur den Internet Explorer!). Die Einstellung ist nur relevant, wenn das "Topmost"-Feature für die Lerneinheit aktiv ist. Ist 'base' angegeben, werden die GIFs, um das "Topmost"-Fenster darzustellen, von der übergebenen URL verwendet. Es ist dringend empfohlen, entweder ein arbeitsbereichweites oder projektspezifisches Verzeichnis für individuell angepasste Bilddateien zu verwenden. Im ersten Fall sollte eine trainer-spezielle URL, wie "data:dir/" und im letzteren Fall "resourcebase:dir/" verwendet werden!
+scrollable.h	Diese Einstellung ist nur relevant, wenn das "Topmost"-Feature für die Lerneinheit aktiv ist.\r\nscrollable sorgt für Scrollbars und macht das "Topmost"-Fenster rollbar.
+show_startpage.h	Diese Einstellung ist nur relevant, wenn das "Topmost"-Feature für die Lerneinheit aktiv ist.\r\nshow_start_page blendet die angegebene Startseite ein.
+
+deactivate_lms.h	Schaltet die Kommunikation mit dem LMS ab.
+ignore_errors.h	Ignoriert die Fehler vom LMS.
+score_percentage_100.h	Wenn aktiviert und {use_original_max} deaktiviert ist, sorgt diese Option dafür, dass die erreichte Prozentzahl (0-100%) an das LMS übergeben wird (mit 2 Dezimalstellen).
+use_original_max.h	Wenn aktiviert, sorgt diese Option dafür, dass die erreichten Punkte als integer Wert an das LMS übergeben werden. Das ist die Standardeinstellung.
+score_precedence_lms.h	Wenn aktiviert, werden die maximal erreichbaren Punkte nicht von LMS geholt.
+decide_completeness.h	0: jedesmal "bestanden/nicht bestanden" senden, 1: sendet "bestanden/nicht bestanden" wenn fertig, 2: niemals "bestanden/nicht bestanden" senden. Standard: 0.
+only_one_commit.h	Nur ein mal comitten nach der Übergabe der Punkte an das LMS.
+suspend_on_user_stop.h	Informiert das LMS wenn der Benutzer den Test nicht zu Ende führt (nicht-standard Erweiterung).
+score_precision.h Dezimalstellen nach dem Komma, wenn sowohl {score_percentage_100} als auch {use_original_max} deaktiviert sind. Standard: 3.
+check_moodle_previous_points.h	Workaround für den Bug in Moodle wenn die erreichte Punktzahl die gleiche ist wie beim letzten mal.
+bookmark_with_score.h Wenn eine Tour mit einem Bookmark gestartet wird, wird ab der alten Punktezahl gezählt.
+
+charset.h	Der Name der voreingestellten Zeichensatztabelle, welcher für die Seite verwendet wird, welche die JavaScript-Datei der Lerneinheit unter Verwendung von "document.charset=" enthält.(Betrifft nur den MS Internet Explorer).
+clock.h	Zeigt die verbleibende Zeit im GUI, falls untertützt.
+closeOnIdle.h	Setzt die Nummer of Sekunden nachdem das "Topmost"-Fenster aufgrund Inaktivität automatisch zugemacht wird.
+contentlanguage.h	Setzt die Sprache des Inhaltes der Lerneinheit (zweistelliger ISO-Code). Zurzeit nur relevant für config().
+control.appurl_match_pattern.h	Hier wird ein String eingegeben, der in der URL als Startbedingung für die Live Tour erkannt werden muss. Bsp.: die Live tour soll noch nicht direkt auf datango.de starten, sondern in datango.de/Intranet/Reisekostenabrechnung. In diesem Fall gibt man  '/Reisekostenabrechnung' an.
+css.h	Setzt die URL zur CSS-Datei, welche die Bubble-Textstile enthält. Ist sie relativ, wird sie gegen die URL des datango trainer aufgelöst.
+data.h	Setzt den als Standard vorgegebenen Ort innerhalb des Arbeitsbereiches, an dem sich arbeitsbereichweite Quellen jeglicher Art befinden. Basis-Verzeichnis für Library-Inhalte, die nicht projektbezogen sind (Bilder in Beschreibungen des Library-Baums, Ordnern, etc...).
+defaultmediaquality.h	Index der {mediaqualities} Liste. 0 bedeutet, dass kein Audio abgespielt wird. Der Wert kann zur Laufzeit verändert werden. Durch Klicken auf "Pause" während die "Shift"-Taste gedrückt wird, kann die Qualität erhöht oder während die "Control"-taste gedrückt wird gesenkt werden.
+domain.h	Ist dieser Parameter gesetzt, enthält window.document domain in allen HTML-Dokumenten des trainer diesen Wert. Dieses Merkmal ist für die serverseitige Integration in Applikationen gedacht, die diesen Wert selbst vergeben und funktioniert nicht mit Mozilla-Browsern.
+errorpage.h	Dieser Parameter enthält die URL der Seite, die im Falle eines unbehebbaren Fehlers im datango trainer angezeigt wird. Ist die URL relativ, wird diese gegen die trainer-URL aufgelöst. Sollte nicht mit erweiterter Syntax, wie zum Beispiel "trainer-config:", "project:", "trainer:" benutzt werden, da diese Werte während des Startprozesses noch nicht verfügbar sind.
+feedbackstyle.h	Setzt die Art der optischen Rückmeldung für Kontrollelemente in der Lerneinheit. Die Eigenschaften sind {highlight:[{effect:string, border:number, color:string}, ...]}. Das Highlight-Array beschreibt 0:error, 1:click, 2:dblclick, 3:rclick, 4:change.
+forward.h	Lerneinheiten haben ein internes JavaScript-Objekt ctx (alias ctx_control) zur freien Verwendung. Aus diesem Objekt können mit {forward} beliebige Eigenschaften als URL-Parameter an die Start-, Stopp- und Fehlerseite weitergegeben werden. Die Einträge werden durch ein Semikolon voneinander getrennt. Der mit dem datango Producer installierte Standard Makrosatz verwendet intern die folgenden Variablen in den Modi Übung, bzw. Test.\r\nZum Beispiel: collected_points,possible_points,result_scaled,mastery_score\r\ncollected_points: Erreichte Punktzahl, possible_points: Maximal erreichbare Punktzahl, result_scaled: Erreichter Anteil (0..1) an der maximalen Punktzahl, mastery_score: Zum Bestehen des Prüfung notwendige Punktzahl.
+fullscreen.h	Aktiviert den fullscreen-Modus (betrifft nur den MS Internet Explorer, in Firefox muss der Benutzer F11 drücken).\r\nSparsam verwenden, vorallem wenn die Lerneinheit im Internet publiziert wird, denn viele Benutzer schätzen dies als ein Risikofaktor ein.
+guilanguage.h	Definiert die zu verwendende Sprache für die grafische Benutzerschnittstelle des datango trainer, falls die Sprache für den Inhalt nicht gesetzt wurde (content language) oder als Sprache für die Oberfläche nicht verfügbar ist. Es wird der zweistellige ISO-Code eingetragen.
+gzip.h	Durch diese Option wird die Kompression für die Übertragung von Javascript-Dateien genutzt, die Bestandteile des datango trainer sind. Da auch der MS Internet Explorer korrekt decodieren kann, sind unter Umständen Anpassungen in der Konfiguration des Web-Servers notwendig. Falls dies nicht möglich ist (z.B. IIS), sollte gzip ausgeschaltet werden. Allerdings sollten wegen der größeren zu übertragenden Datenmenge Geschwindigkeitseinbußen erwartet werden.
+height.h	Legt die Höhe eines neu geöffneten trainer-Fensters fest.\r\nOhne Bedeutung in Zusammenhang mit "fullscreen".
+hidden.h	Verbirgt die datango trainer Benutzerschnittstelle, behält diese jedoch in einem unsichtbaren Frame.
+highwater.h	Gibt an, wieviele Sekunden Audiomaterial vorab mit maximal verfügbarer Netzwerkbandbreite geladen werden, bevor die Bandbreite wieder auf den {maxbandwidth} angegebenen Wert gedrosselt.
+imagedir_bubbles.h	URL zum Verzeichnis, in dem sich die Bilddateien der verschiedenen Bubbletypen befinden.
+jsdebug.h	Zeigt alle JavaScript-Fehlermeldungen an. Wird für das Debugging von JavaScript-Ereignissen benötigt.
+jscrash.h	 Nicht aktivieren! Nur zur internen Verwendung durch das datango Entwickler-Team.
+jscrash2.h	Nicht aktivieren! Nur zur internen Verwendung durch das datango Entwickler-Team.
+keepbug.h	Definiert ein Bitfeld, um das Verhalten älterer bekannter Programmfehler und somit die Kompatibilität zu älteren Lerneinheiten zu erhalten: (bit10=1024: behalte Bubble-Größen-Fehler)(bit11=2048: behalte Bubble-Position-ohne-Spitze-Fehler)(bit12=4096: behalte klein-Body-Grösen-Fehler)
+left.h	Legt die horizontale Position eines neu geöffneten trainer-Fensters fest.\r\nOhne Bedeutung in Zusammenhang mit "orientation" oder "fullscreen".
+library.h	Setzt die URL zur SCORM-konformen XML-Datei, welche die Verknüpfungen zu den Konfigurationsdateien und die Struktur der Library enthält.
+librarydefaults.h	Alle Eigenschaften im Objektliteral werden als NAMEs von FORM-Elementen interpretiert und ihr Wert wird anfangs den BUTTON/INPUT/SELECT/TEXTAREA-tags von "FORM_Library" in der Benutzeroberfläche der Library zugewiesen.
+
+search.h	Der Wert wird anfangs dem "Suchen" Feld in der Benutzeroberfläche der Library zugewiesen.
+filter.h	Der Wert wird anfangs dem "Filter" Feld in der Benutzeroberfläche der Library zugewiesen.
+search_in_description.h	Vorauswahl des Feldes "Beschreibung durchsuchen" festlegen.
+search_in_title.h	Vorauswahl des Feldes "Titel durchsuchen" festlegen.
+keep_course_open.h	Vorauswahl des Feldes "Kursstruktur geöffnet lassen" festlegen.
+open_new_window.h	Vorauswahl des Feldes "In einem neuen Fenster" festlegen.
+
+librarydetails.h	Bestimmt das Aussehen vom Library-Teil des 'rows'-Attributs im Haupt-Frameset.
+libraryNewStyle.h	Bestimmt das Verhalten der Library-Benutzeroberfläche. In der neuen Darstellung werden Touren nicht mehr im Baum angezeigt, sondern nur in der Detailansicht rechts.
+libraryshow.h	Zeigt initial die Library an, wenn der Parameter {library} übergeben wird. Die Voreinstellung ist diese nicht anzuzeigen, wenn der Parameter {autostart} gesetzt ist und diese anzuzeigen, wenn nicht.
+librarysize.h	Bestimmt die initiale Breite des Library-Teils vom 'rows'-Attribut im Haupt-Frameset.
+libraryskin.h	Bestimmt das Layout der Library-Benutzeroberfläche. Setzt den Pfad zum Unterverzeichnis mit den entsprechenden Library-Skin-Teilen.
+libraryUseXMLHttpRequest.h  Verwendet XMLHttpRequest um XML-Dateien zu laden. Seltene Verwendung wenn die Library innerhalb eines Portals läuft. Gilt nur für HTTP-Verbindungen.
+live.h	Projekte im Navigationsmodus benötigen spezielle Anpassungen, damit den speziellen Bedingungen innerhalb einer Live-Applikation Rechnung zu tragen. Das Objektliteral kann diese Einstellungen beinhalten;  twistIeDocWrite: [true/false] spezielle Behandlung von Frames (iFrames) im SAP EP6 (nur relevant für den MS Internet Explorer), maxOpenPollErrors: [20..x] Anzahl der Versuche auf ein externes Fenster zuzugreifen, bevor dieses als unerreichbar markiert wird (Voreinstellung ist 100).
+location.h	Legt fest, ob das neu geöffneten trainer-Fensters eine Navigationsleiste enthält.\r\nOhne Bedeutung in Zusammenhang mit "topmost" oder "fullscreen".\r\nNicht jede Kombination dieser Parametern wird von jedem Browser und Version unterstützt.
+log.h	URL des Log-Web-Dienstes.
+logo.h	URL des Bildes, das als Logo eingeblendet wird. Ist die URL relativ, wird sie gegen den Ort des zurzeit verwendeten Skins aufgelöst (siehe auch {skin}).
+logopanel.h	URL des Bildes, das als Rahmen für das verwendete Logo eingeblendet wird. Ist die URL relativ, wird sie gegen den Ort des zurzeit verwendeten Skins aufgelöst (siehe auch {skin}).
+logurl.h	Url des Protokollskriptes.
+loguser.h	Nutzername für das Protokollskript.
+logpwd.h	Passwort für das Protokollskript.
+lowwater.h	Minimale Länge der Audio-Datei im lokalen Zwischenspeicher in Sekunden, bevor die Audio-Datei mit der maximal verfügbaren Netzwerk-Bandbreite herunter geladen wird, bis der unter {highwater} gesetzte Wert erreicht wurde und wieder die unter {maxbandwidth} angegebene Bandbreite verwendet wird. Dieser Parameter bestimmt auch die Zeit, die das Audiomaterial voraus gelesen wird, bevor die Wiedergabe startet.
+macroset_files.h	Dateien, die vor der Tourdatei geladen werden. Einträge werden durch Semikolons getrennt. Relative Dateinamen werden anhand der trainer url aufgelöst.
+maxbandwidth.h	Bestimmt die maximale Bandbreite, mit der vom datango trainer die Audiospur einer Lerneinheit geladen wird.
+mediaqualities.h	Liste der Datei-Erweiterungen von unterstützten Audioformaten. Die Einträg werde durch Semikola voneinander getrennt.
+mediaselector.h	HTML ID eines Input-Tags in der Start-Seite, das den Parameter {defaultmediaquality} vorbelegt. Das Abspielen der aktuellen Lerneinheit wird verzögert, bis der numerische Wert des Tags >= 0 wird. Der Mechanismus wird wahrscheinlich für zukünftige Versionen geändert.
+menubar.h	Legt fest, ob das neu geöffneten trainer-Fensters ein Menü enthält.\r\nOhne Bedeutung in Zusammenhang mit "topmost" oder "fullscreen".\r\nNicht jede Kombination dieser Parametern wird von jedem Browser und Version unterstützt.
+minigui.h	Legt fest, ob das "Topmost"-Fenster eine kleine Gui auf der Titelleiste enthält.
+mode.h	Name of the tour mode, i.e. 'demo', 'test', 'praxis'. May be empty.
+mousespeed.h	Gibt den Faktor an, um die Geschwindigkeit der Mausbewegung in Millisekunden/Pixel (X- und Y-Pxel) zu berechnen.
+mousetick.h	Intervall der dargestellten Maubewegungen In Millisekunden. Kann für einfache HTML-Seiten auf 50 herabgesetzt werden (screenshot-basierte Lerneinheiten).
+mute.h	Die Audiowiedergabe wird unterdrückt, auch wenn eine Audiospur existieren sollte.
+name.h	Interner name des neu geöffneten trainer-Fensters.
+next.h	Hier können mehrere benannte Funktionstasten, mit Komma getrennt, für die "next" Funktionalität definiert werden.\r\nZum Beispiel: alt_down.
+orientation.h	Kann eine eine der Himmelsrichtungen 'N', 'NW',..., 'C' enthalten und setzt {top, left} außer Kraft.\r\nOhne Bedeutung in Zusammenhang mit "fullscreen".
+passive.h	Diese Option verhindert die Nutzung des datango Webride Proxy für das Lesen von HTML-Seiten, wenn eine Lerneinheit abgespielt wird.
+pause.h	Hier können mehrere benannte Funktionstasten, mit Komma getrennt, für die "pause" Funktionalität definiert werden.\r\nZum Beispiel: pause.
+play.h	Hier können mehrere benannte Funktionstasten, mit Komma getrennt, für die "play" Funktionalität definiert werden.\r\nZum Beispiel: f8,space,enter.
+playsounds.h	Klänge für Bubbles abspielen.
+previous.h	Hier können mehrere benannte Funktionstasten, mit Komma getrennt, für die "previous" Funktionalität definiert werden.\r\nZum Beispiel: shift_f8.
+proxypath.h	URL zum datango Webride Proxy (Server, um die HTTP-Server-Namen zu vereinheitlichen und dadurch Sicherheitsprobleme durch unterschiedliche Server-Namen in verschiedenen Broswer-Frames zu verhinderns). Wird nur benutzt, wenn die Option {passive} nicht aktiv ist.
+recording_mode.h	Dieser Parameter beschreibt, ob es sich bei der Lerneinheit um eine Aufnahme über eine Web- oder eine Windows-Applikation handelt. Er wird duch den datango producer gesetzt.
+referrer.h	Diese Option gibt die URL der Seite, welche die URL aufgerufen hat (Referrer), als URL-Parameter an die Start-, Stopp- und Fehler-Seite weiter.
+resizable.h	Legt fest, ob die Größe des neu geöffneten trainer-Fensters verändert werden kann.\r\nOhne Bedeutung in Zusammenhang mit "topmost" oder "fullscreen".\r\nNicht jede Kombination dieser Parametern wird von jedem Browser und Version unterstützt.
+resourcebase.h	Basis-URL für alle URLs, die mit 'project:' beginnen. Ist diese relativ, wird sie gegen URL des datango trainer aufgelöst. Es können 'project:', 'program:' oder 'trainer-config:' benutzt werden.
+scrollbars.h	Legt fest, ob das neu geöffneten trainer-Fensters Scrollbalken enthält wenn der Inhalt der Seite kleiner als die Fensterfläche ist, für grössere Inhalte die Scrollbalken werden entsprechend eingeblendet.\r\nOhne Bedeutung in Zusammenhang mit "topmost".\r\nNicht jede Kombination dieser Parametern wird von jedem Browser und Version unterstützt.
+scroll_x.h	 Wert zwischen 0 und 1, der die relative X-Position eines Elementes auf dem Bildschirm angibt, falls dieses automatisch in den sichtbaren Bereich gescrollt wird. -1 bedeutet minimales Scrollen.
+scroll_y.h	Wert zwischen 0 und 1, der die relative Y-Position eines Elementes auf dem Bildschirm angibt, falls dieses automatisch in den sichtbaren Bereich gescrollt wird. -1 bedeutet minimales Scrollen.
+showSecondaryGuis.h	Die grafische Benutzerschnittstelle des datango trainer in sekundären Fenstern zeigen.
+skin.h	Layout der Benutzerschnittstelle des datango trainer. Mögliche werte sind Pfadnamen. 'slim', 'slim2', 'datango4 [5][6][7][10]' werden konvertiert nach "datango_standard".
+skip.h	Diese Option erlaubt Sprünge zu anderen Unterprogrammen innerhalb der Lerneinheit.
+startpage.h	Dieser Parameter definiert die Seite die angezeigt wird, während der trainer geladen und initialisiert wird. Ist die URL relativ, wird diese gegen die trainer-URL aufgelöst. Es kann erweiterte Syntax verwendet werden, wie z.B.: 'trainer-config:' (immer), 'project:' (wenn {project} gesetzt ist).
+status.h	Legt fest, ob das neu geöffneten trainer-Fensters eine Statusleiste enthält.\r\nOhne Bedeutung in Zusammenhang mit "topmost" oder "fullscreen".\r\nNicht jede Kombination dieser Parametern wird von jedem Browser und Version unterstützt.
+stop.h	Hier können mehrere benannte Funktionstasten, mit Komma getrennt, für die "stop" Funktionalität definiert werden.\r\nZum Beispiel: f12.
+stoppage.h	Dieser Parameter definiert die Seite die angezeigt wird, nachdem der trainer gestoppt wurde. Ist die URL relativ, wird diese gegen die trainer-URL aufgelöst. Es kann erweiterte Syntax verwendet werden, wie z.B.: 'trainer-config:' (immer), 'project:' (wenn {project} gesetzt ist). Ist der Parameter leer (''), wird keine Seite angezeigt.
+synopsis.h	Zeigt den Unterprogramm-Überblick an. Die Struktur hängt vom Parameter {skin} ab.
+template.h	Gleichbedeutend zum Parameter {skin}.
+textfileUseXMLHttpRequest.h	Text-Dateien mit XMLHttpRequest herunterladen. Diese Einstellung sollte mit größter Vorsicht und nur nach Anweisung des datango-Supports verändert werden.
+ticktime.h	Dieser Parameter setzt die Taktzeit der Hauptprogrammschleife des datango trainer in Millisekunden. Diese Einstellung sollte mit größter Vorsicht und nur nach Anweisung des datango-Supports verändert werden.
+timeout.h	Setzt die Zeit in Sekunden, nach der jede(!) Pause beendet und die Lerneinheit fortgeführt wird. -1 schaltet dieses Merkmal ab.
+title.h	Definiert den Titel des Browserfensters, so lange der datango trainer läuft.
+toolbar.h	Legt fest, ob das neu geöffneten trainer-Fensters ein Toolbar enthält.\r\nOhne Bedeutung in Zusammenhang mit "topmost" oder "fullscreen".\r\nNicht jede Kombination dieser Parametern wird von jedem Browser und Version unterstützt.
+top.h	Legt die vertikale Position eines neu geöffneten trainer-Fensters fest.\r\nOhne Bedeutung in Zusammenhang mit "orientation" oder "fullscreen".
+topmost.h	Legt fest, ob die Lerneinheit in einem 'Topmost'-Browser-Fenster abgespielt wird. -1 niemals; 1: immer; 0: nur, wenn {recording_mode=='screendump'} (betrifft nur den MS Internet Explorer). Ohne Bedeutung in Zusammenhang mit "fullscreen".
+topmostMinPosition.h Konfiguriert die minimierte Position von "Topmost"-Fenstern. 0: Bildschirm links unten; 1: Rollup; 2: am selben Platz links; 3: am selben Platz rechts. Standard ist 3.
+topmostMinAnimate.h Aktiviert oder deaktiviert die Animationen beim Minimieren oder Wiederherstellen von "Topmost"-Fenstern.
+tour.h	Setzt die Kurzform für die URL "/tour/{tour}" als Wert von {config}. Die Interpretation hängt von den Server-Einstellungen ab. Nicht hilfreich, wenn die Option {passive} gesetzt ist.
+tourframe.h	JavaScript-Ausdruck, der den Frame festlegt, in dem die datango-Lerneinheit ausgeführt wird, wenn der datango trainer in einem versteckten Frame läuft. Beispiel: tourframe = "top.frames['sap']";
+tr.h	Überschreibt eine existierende Übersetzung oder fügt eine weitere Sprache zum vorgegebenen Wörterbuch des datango trainer durch ein Objektliteral hinzu: {de_DE:{name:value, name2:value2, ...}, ... weitere Sprachen ...}
+transition.h	Legt fest welcher Seitenübergang benutzt wird. Zum Beispiel: "progid:DXImageTransform.Microsoft.Fade(duration=1.0,overlap=1.0)" (ohne Quoten eingeben). Nur IE.
+bubbletransition.h	Legt fest welcher Bubbleübergang benutzt wird. Zum Beispiel: "progid:DXImageTransform.Microsoft.Wheel(duration=1.0,spokes=10)" (ohne Quoten eingeben). Nur IE.
+ui.h	Erlaubt den DOM-Inspektor des datango trainer zu aktivieren.
+urlparam.h	Sendet alle URL-Parameter des datango trainer zu den Start-, Stopp- and Fehler-Seiten.
+verbose.h	Aktiviert das Logging wenn > 0. Die Verbosity wird mit höheren Zahlen gesteigert. Das Logging wird durch Klicken auf den "Stop"-Button, während die "Shift"-Taste gedrückt wird aktiviert.
+width.h	Legt die Breite eines neu geöffneten trainer-Fensters fest.\r\nOhne Bedeutung in Zusammenhang mit "fullscreen".
+workaroundIEDocTypeBug.h	Workaround für den Bubble Scroll Bug in IE6 bei der Benutzung von gemischten Document-Typen in verschiedenen Frames.
+xbubble_scroll.h	Setzt das Verhältnis zum Frame, nach dem der Abstand zum Zielelement einer Cross-Frame-Bubble berechnet wird [0..1].
+xbubble_autohide.h	Versteckt die Cross-Frame-Bubbles wenn das Zielelement nicht sichtbar ist (ignoriert wenn autoplace is aktiviert).
+xmouse.h	Diese Option erlaubt die Synthese von Mausereignissen im MS Internet Explorer. Sie kann zu JavaScript-Fehlern führen, da die Umgebung des Ereignisses nur emuliert werden kann.

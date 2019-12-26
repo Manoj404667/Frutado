@@ -1,0 +1,249 @@
+﻿# Base tokens	Finnisch
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	@{TOK_COMPANY} Kurssi
+TOK_TOUR;	@{TOK_COMPANY} Oppikokonaisuus
+TOK_TRAINER;	@{TOK_COMPANY} Kouluttaja
+	
+# Key names	
+ALTKEY;	alt
+CTRLKEY;	ctrl
+LEFTALTKEY;	alt (vasen)
+LEFTCTRLKEY;	ctrl (vasen)
+LEFTSHIFTKEY;	shift (vasen)
+ON;	on
+OFF;	off
+RIGHTALTKEY;	alt (oikea)
+RIGHTCTRLKEY;	ctrl (oikea)
+RIGHTSHIFTKEY;	shift (oikea)
+SHIFTKEY;	shift
+	
+# trainer states	
+TOK_BUFFERING;	Audiota ladataan ... 
+TOK_CONNECTING;	Yhdistetään ... 
+TOK_IDLE;	
+TOK_LMS;	Tulosta kirjoitetaan ...
+TOK_OPENING;	Yhdistetään ... 
+TOK_OPEN;	
+TOK_PAUSED;	Tauko
+TOK_PLAYING;	Käy
+TOK_READY;	Valmis
+TOK_USERINPUT;	Syöttö
+TOK_WAITING;	Sivua ladataan ... 
+	
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Kehyksiä ei voida tässä näyttää.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">IFRAME-dokumentteja ei voida tässä näyttää.</span>"
+	
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	Popup-esto estää oppikokonaisuuden käytön.
+TOK_POPUPBLOCKER_CONFIRM;	"Popup-esto on estänyt uuden selainikkunan avaamisen.@{NEWLINE}@{NEWLINE}OK: Voit jatkaa, koska olet sammuttanut verkkopalvelimen@{NEWLINE} Popup-estimen.@{NEWLINE}Keskeytä: Oppikokonaisuus lopetetaan."
+	
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	Internet Explorerin turva-asetus estää\n\r @{TOK_TOUR}in esittämisen.\nSalli\n”Skriptin käynnistämät ikkunat ilman koko- ja sijaintirajoituksia”!
+	
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	@1 ”@2” ei voitu lukea.
+TOK_COULD_NOT_READ2_EXC;	@1 ”@2” ei voitu lukea: @3
+	
+# Form texts	
+TOK_CLOSE;	Sulje
+TOK_DIR;	Hakemisto
+TOK_ERROR;	Virhe
+TOK_EXIT;	Lopeta
+TOK_OPEN;	Avaa
+TOK_SEARCH;	Etsi
+TOK_START;	Käynnistä
+TOK_START_TOUR;	Käynnistä @{TOK_TOUR}
+TOK_STOP;	Seis
+	
+# Library	
+TOK_LIB_BTN_LESS;	vähemmän...
+TOK_LIB_BTN_MORE;	enemmän...
+TOK_LIB_EMPTY;	Tyhjä elementti
+TOK_LIB_FLAG_DESC;	Hae kuvauksesta
+TOK_LIB_FLAG_KEEP_OPEN;	Jätä kurssirakenne auki
+TOK_LIB_FLAG_NEWWIN;	Uuteen ikkunaan
+TOK_LIB_FLAG_TITLE;	Hae otsikko
+TOK_LIB_RESET;	Poista hakutulokset
+	
+# Mimetypes	
+MIME_TEXT_PDF;	PDF – Adobe Acrobat -tiedostomuoto
+MIME_APP_MSWORD;	Winword-dokumentti
+MIME_APP_EXCEL;	Excel-taulukko
+MIME_APP_PPT;	Powerpoint-kalvot
+MIME_APP_OOFF;	OpenOffice-dokumentti
+MIME_APP_OOFFWRITE;	OpenOffice-teksti
+MIME_APP_OOFFCALC;	OpenOffice-laskelma
+MIME_APP_OOFFIMPRESS;	OpenOffice-esitys
+MIME_APP_OOFFMATH;	OpenOffice-kaavat
+MIME_AUDIO;	Sointi
+MIME_VIDEO;	Video
+MIME_TEXT_HTML;	Verkkosivu
+MIME_TEXT;	Tekstidokumentti
+MIME_APP_DGO;	@{TOK_COMPANY} Oppikokonaisuus
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} Harjoitus
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} Testi
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} Oppikokonaisuus käytännönharjoittelutila
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+	
+# Tooltips	
+TIP_PLAY;	Jatka (F8); „Alt“: Käynnistä uudelleen
+TIP_PAUSE;	Keskeytä (PAUSE); „Shift“: Äänen laadun nosto; „Alt“: Äänen kaistaleveyden säästö
+TIP_STOP;	Lopeta (F12); „Shift“: Näytä versio
+TIP_NEXT;	Seuraava luku (ALT-alas)
+TIP_BACK;	Edellinen luku (ALT-ylös); ”Alt”: Näytä kurssi
+TIP_MAXBUBBLE;	Tekstikuplan palauttaminen
+TIP_MINBUBBLE;	Tekstikuplan minimointi
+TIP_CLOSEBUBBLE;	Tekstikuplan poisto
+TIP_ENABLED;	
+TIP_DISABLED;	(ei mahdollista nyt)
+TIP_TASK;	Tehtävänasetus
+	
+# Bracepages	
+TOK_BP_CLOSEWINDOW;	Sulje ikkuna
+TOK_BP_GOBACK;	Takaisin
+TOK_BP_GOON;	Jatka
+TOK_BP_JSCONSOLE;	Javascript-ilmoitukset
+TOK_BP_MODE;	Tila
+TOK_BP_PARAMETER;	Parametri
+TOK_BP_RESTARTPROGRAM;	Ohjelman toisto
+TOK_BP_STARTANOTHER;	Toisen ohjelman käynnistäminen
+TOK_BP_VALUE;	Arvo
+	
+# Exercise colors	
+EXER_COLOR_ERROR;	merkitty punaisella
+EXER_COLOR_CLICK;	merkitty vihreällä
+EXER_COLOR_DBLCLICK;	merkitty keltaisella
+EXER_COLOR_RCLICK;	merkitty turkoosilla
+EXER_COLOR_CHANGE;	alleviivattu vihreällä
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_AND;	@{NEWLINE}ja@{NEWLINE}
+EXER_FAIL0;	Valitettavasti väärin.
+EXER_FAIL1;	Valitettavasti väärin. 1 pisteen rangaistus. Jäljelle jää: @1_rest-points_.
+EXER_FAIL2;	Valitettavasti väärin. @1_points-penalty_ pisteen rangaistus. Jäljelle jää: @2_rest-points_.
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Tarvitsetko apua?
+EXER_FAILCHANGE_HELP;	"Muutettu kenttä on @{EXER_COLOR_ERROR}.@{NEWLINE}Kaikki syöttökentät, jotka saa muuttaa, on @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_HELP;	Ei ole sallittuja syöttökenttiä.\n\nMuutettu kenttä on @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP;	Napsautettu alue on @{EXER_COLOR_ERROR}.@{NEWLINE}Kaikki sallitut painikkeet on @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;	Napsautus ei ole sallittu missään.@{NEWLINE}Napsautettu alue on @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP;	Kaksoisnapsautettu alue on @{EXER_COLOR_ERROR}.@{NEWLINE}Kaikki kaksoisnapsautukselle sallitut painikkeet on @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;	Kaksoisnapsautus ei ole sallittu missään.@{NEWLINE}Napsautettu alue on @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP;	Oikealla painikkeella napsautettu alue on @{EXER_COLOR_ERROR}.@{NEWLINE}Kaikki oikealla painikkeella napsautettavaksi sallitut painikkeet on @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP;	Oikealla painikkeella suoritettu napsautus ei ole sallittu missään.@{NEWLINE}Napsautettu alue on @{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0;	Olet painanut väärää näppäintä.
+EXER_FAILKEY_HELP1;	Olet painanut „@1_key_“.
+EXER_FAILKEY_HELP2;	@{NEWLINE}Sallittuja toimintonäppäimiä ovat:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}Myös sallittuja ovat:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Kenttämuutos (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Napsautus (Painikkeet on @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Kaksoisnapsautus (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Ohje: Silloin kaikki pisteet häviävät)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Toimintanäppäinten painaminen@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Sallittuja ovat:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Oikean painikkeen napsautus (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Ohje: Muutoin seuraa automaattisesti jatkoa)
+EXER_HINT_YOURINPUT;	Syötit: ”@1_input_”.@{NEWLINE}
+EXER_OR;	@{NEWLINE}tai@{NEWLINE}
+	
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	Valitse pois vaihtoehto ”@1”!
+MSG_OPTIONFIELD_SELECT;	Valitse vaihtoehto ”@1” tai valitse se pois!
+MSG_SCORE;	"Saavutettu pistemäärä: ""@1""."
+MSG_SINGLE_SELECT;	Valitse kohta ”@1”!
+MSG_TEXTINPUT;	Anna syöttökenttään ”@2” ”@1”!
+MSG_TRANSACTIONCODE;	"Anna oikea tapahtumakoodi ”@1""!"
+	
+capDemoStart;	Demo-tila
+msgDemoStart1;	"Demotilassa voit seurata tehtävän suorittamista sovelluksessa. Seuraa vain esitystä, kaikki vaiheet suoritetaan automaattisesti."
+msgDemoStart2;	Alareunan navigointirivin avulla voit keskeyttää tai lopettaa esityksen. Voit lisäksi siirtyä eteenpäin seuraavaan ja taaksepäin edelliseen vaiheeseen.
+msgDemoStop;	Demo-tila on päätetty.
+	
+capConcurrentStart;	Käytännönharjoittelutila
+msgConcurrentStart1;	Käytännönharjoittelutilassa saat vaihe vaiheelta ohjeet tehtävän suorittamiseksi sovelluksessa. 
+msgConcurrentStart2;	"Jokaisen vaiheen jälkeen esitys keskeytetään, jotta voit seurata näytettyä vaihetta sovelluksessa. "
+msgConcurrentStop;	Käytännönharjoittelutila on päätetty.
+	
+capTestStart;	Testitila
+msgTestStart1;	"Testitilassa voit testata tietosi ratkaisemalla itse tehtävän sovelluksen avulla. Annettujen esimerkkitietojen lisäksi sinulle ei anneta mitään työvaiheisiin liittyviä ohjeita. Koko tehtävä kuvataan tehtäväikkunassa, jonka voit tarvittaessa suurentaa tai pienentää otsakerivin painikkeiden avulla."
+msgTestStart2;	"Testin lopuksi sinulle annetaan arviointi onnistuneesti suoritettujen vaiheiden perusteella. Tämä arviointi on tarkoitettu ainoastaan itsearviointia varten, tietoja ei tallenneta eikä välitetä eteenpäin."
+msgTestStart3;	"Toimi erityisen huolellisesti, koska järjestelmä rekisteröi kaikki kirjoitusvirheet ja väärät napsautukset ja huonontaa arviointia niitä vastaavasti. Jos päätät pyytää apua jossakin vaiheessa, menetät kaikki tämän vaiheen pisteet."
+msgTestStart4;	"Arviointisi näytetään testin lopuksi, yritä saavuttaa @{res_mastery_percent}%."
+capTestOk;	Olet läpäissyt testin
+capTestFailed;	Et läpäissyt testiä
+msgTestFailed1;	"Koska sait vähemmän kuin @{res_mastery_percent}% mahdollisista pisteistä, suosittelemme sinua käymään kurssin sisällön vielä kerran läpi ja testaamaan sen jälkeen tietosi vielä kerran testitilassa"
+msgTestFinished2;	Tämä testi on tarkoitettu ainoastaan itsearviointia varten. Tuloksia ei kirjata eikä välitetä eteenpäin.
+msgTestOk1;	"Onnittelumme, ratkaisit tämän tehtävän onnistuneesti."
+msgTestResult;	Tulos
+msgTestScore;	Saavutettu pistemäärä
+msgTestScoreValue;	@{res_collected_points} / @{res_possible_points}
+	
+capPracticeStart;	Harjoittelutila
+msgPracticeStart1;	Harjoittelutilassa voit kokeilla opittua ratkaisemalla itse tehtäviä sovelluksessa.
+msgPracticeStart2;	Seuraa yksinkertaisesti vaihe vaiheelta annettuja ohjeita.
+msgPracticeStop;	Harjoittelutila on lopetettu.
+
+# eof# New messages added after 6.1.0 beta 2
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+TOK_LIB_VAL_NOFILTER; no filter
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

@@ -1,0 +1,249 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	다탄고
+TOK_LIB;	@{TOK_COMPANY} 코스
+TOK_TOUR;	@{TOK_COMPANY} 학습 유니트
+TOK_TRAINER;	@{TOK_COMPANY} 트레이너
+
+# Key names	
+ALTKEY;	alt 키
+CTRLKEY;	Ctrl 키
+LEFTALTKEY;	alt 키(왼쪽)
+LEFTCTRLKEY;	Ctrl 키 (왼쪽)
+LEFTSHIFTKEY;	Shift 키 (왼쪽)
+ON;	켜짐
+OFF;	꺼짐
+RIGHTALTKEY;	alt 키 (오른쪽)
+RIGHTCTRLKEY;	Ctrl 키 (오른쪽)
+RIGHTSHIFTKEY;	Shift 키 (오른쪽)
+SHIFTKEY;	Shift 키
+
+# trainer states	
+TOK_BUFFERING;	오디오 불러오기 ... 
+TOK_CONNECTING;	연결 ... 
+TOK_IDLE;	
+TOK_LMS;	결과 기록 ...
+TOK_OPENING;	연결 ... 
+TOK_OPEN;	
+TOK_PAUSED;	정지
+TOK_PLAYING;	실행
+TOK_READY;	준비
+TOK_USERINPUT;	입력
+TOK_WAITING;	페이지 불러오기 ... 
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">여기서 프레임셋은 볼수없음.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">IFRAME로 구성된 문서는 여기서 볼 수 없음.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	팝업 블로커가 학습 유니트의 실행을 막고 있습니다.
+TOK_POPUPBLOCKER_CONFIRM;	팝업 블로커가 새 검색창이 열리는 것을 막고 있습니다.@{NEWLINE}@{NEWLINE}OK: 웹서버의 팝업 블로커를 @{NEWLINE} 끄셨음으로 지속할 수 있습니다.@{NEWLINE}실행정지: 학습 유니트가 끝났습니다.
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	"인터넷 익스플로어의 보안설정\n\r 이 @{TOK_TOUR}.\n을 나타내는 것을 막고 있습니다. \n""크기 또는 위치제한을 가지지 않는 스크립트에서 시작한 창을 허용 합니다.""\n을 사용으로 설정 해 주십시오!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	"@1 ""@2"" 읽을 수 없습니다."
+TOK_COULD_NOT_READ2_EXC;	"@1 ""@2"" 읽을 수 없습니다.: @3"
+
+# Form texts	
+TOK_CLOSE;	닫기
+TOK_DIR;	디렉토리
+TOK_ERROR;	오류
+TOK_EXIT;	끝내기
+TOK_OPEN;	열기
+TOK_SEARCH;	찾기
+TOK_START;	시작
+TOK_START_TOUR;	@{TOK_TOUR} 시작
+TOK_STOP;	정지
+
+# Library	
+TOK_LIB_BTN_LESS;	감소...
+TOK_LIB_BTN_MORE;	증가...
+TOK_LIB_EMPTY;	내용없음
+TOK_LIB_FLAG_DESC;	설명 찾기
+TOK_LIB_FLAG_KEEP_OPEN;	코스 구조를 열어둠
+TOK_LIB_FLAG_NEWWIN;	새로운 창에서
+TOK_LIB_FLAG_TITLE;	제목 찾기
+TOK_LIB_RESET;	찾은결과 지우기
+
+# Mimetypes	
+MIME_TEXT_PDF;	PDF - Adobe Acrobat 형식
+MIME_APP_MSWORD;	윈도우 워드 문서
+MIME_APP_EXCEL;	엑셀 실행창
+MIME_APP_PPT;	파워포인트 창
+MIME_APP_OOFF;	오픈 오피스 문서
+MIME_APP_OOFFWRITE;	오픈 오피스 텍스트
+MIME_APP_OOFFCALC;	오픈 오피스 연산
+MIME_APP_OOFFIMPRESS;	오픈 오피스 프레젠테이션
+MIME_APP_OOFFMATH;	오픈 오피스 서식
+MIME_AUDIO;	오디오
+MIME_VIDEO;	영상
+MIME_TEXT_HTML;	웹사이트
+MIME_TEXT;	텍스트 문서
+MIME_APP_DGO;	@{TOK_COMPANY} 학습 유니트
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} 데모
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} 연습
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} 테스트
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} 학습 유니트 실습 모드
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY;	"계속 (F8); ""Alt키""로: 다시 시작"
+TIP_PAUSE;	"정지 (PAUSE); ""Shift키""이용: 오디오 성능 향상; ""Alt키""로: 오디오 대역 절약"
+TIP_STOP;	"끝내기 (F12); Mit ""Shift 키"": 버젼 보기"
+TIP_NEXT;	다음장 (ALT키-아래로)
+TIP_BACK;	"이전장 (ALT키-위로); ""Alt키""로: 코스 보기"
+TIP_MAXBUBBLE;	텍스트 상자 다시 불러옴
+TIP_MINBUBBLE;	텍스트 상자 최소화
+TIP_CLOSEBUBBLE;	택스트 상자 제거
+TIP_ENABLED;	
+TIP_DISABLED;	(지금은 불가능)
+TIP_TASK;	과제 설정
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW;	창 닫기
+TOK_BP_GOBACK;	뒤로
+TOK_BP_GOON;	계속
+TOK_BP_JSCONSOLE;	자바 스크립트 설정
+TOK_BP_MODE;	모드
+TOK_BP_PARAMETER;	매개 변수
+TOK_BP_RESTARTPROGRAM;	프로그램 반복
+TOK_BP_STARTANOTHER;	다른 프로그램 시작
+TOK_BP_VALUE;	값
+
+# Exercise colors	
+EXER_COLOR_ERROR;	붉은 색으로 마크
+EXER_COLOR_CLICK;	녹색으로 마크
+EXER_COLOR_DBLCLICK;	노란색으로 마크
+EXER_COLOR_RCLICK;	하늘색으로 마크
+EXER_COLOR_CHANGE;	녹색으로 밑줄
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_AND;	@{NEWLINE}그리고@{NEWLINE}
+EXER_FAIL0;	틀렸습니다.
+EXER_FAIL1;	틀렸습니다. 1 점 감점. 남은 점수 : @1_점 남음_.
+EXER_FAIL2;	틀렸습니다. @1_점 벌점_ 점 감점. 남은 점수: @2_점 남음_.
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}도움이 필요하십니까?
+EXER_FAILCHANGE_HELP;	바꿔진 창은 @{EXER_COLOR_ERROR}.@{NEWLINE}변경할 수 있는 모든 입력창은 @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP;	여기에는 입력가능창이 없습니다.@{NEWLINE}변경된 창 @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP;	클릭한 구역 @{EXER_COLOR_ERROR}.@{NEWLINE}모든 허용버튼 @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;	클릭 불가 구역.@{NEWLINE}클릭한 구역은 @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP;	이중 클릭한 구역 @{EXER_COLOR_ERROR}.@{NEWLINE}이중 클릭이 가능한 버튼 @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;	이중 클릭 불가 구역.@{NEWLINE}클릭한 구역은 @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP;	오른쪽 클릭 구역은 @{EXER_COLOR_ERROR}.@{NEWLINE}오른쪽 클릭이 가능한 구역 @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP;	오른쪽 클릭 불가 구역.@{NEWLINE}클릭한 구역은 @{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0;	잘못된 자판을 누르셨습니다.
+EXER_FAILKEY_HELP1;	"""@1_키_"" 를 누르셨습니다.."
+EXER_FAILKEY_HELP2;	@{NEWLINE}허용 기능 자판은:@{NEWLINE}@1_키_
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}더불어 허용 가능한 것은:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} 창 변경 (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} 클릭 (버튼은 @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} 이중 클릭 (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(주의: 점수를 모두 잃게 됩니다)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} 기능 자판을 누르시오@{NEWLINE}""@1_키_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}허용된 것은:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} 오른쪽 클릭 (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(주의:다른 경우 자동적으로 계속됨)
+EXER_HINT_YOURINPUT;	" ""@1_input_"" 을 입력하셨습니다.@{NEWLINE}"
+EXER_OR;	@{NEWLINE}거나@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	"옵션 ""@1""을 해제하십시오!"
+MSG_OPTIONFIELD_SELECT;	"옵션 ""@1""을 선택하거나, 해제하십시오!"
+MSG_SCORE;	"성취 득점: ""@1""."
+MSG_SINGLE_SELECT;	"입력값 ""@1""을 선택하십시오!"
+MSG_TEXTINPUT;	" 입력창 ""@2""에 ""@1""을 입력하십시오!"
+MSG_TRANSACTIONCODE;	"정확한 변환코드 ""@1"" 을 입력하시오!"
+
+capDemoStart;	데모 모드 
+msgDemoStart1;	데모 모드에서 과제를 해결하는 과정을 볼 수 있습니다. 예시를 따라하십시오. 모든 과정은 순서에 따라 차례로 자동으로 실시됩니다.
+msgDemoStart2;	아랫변에 위치한 네비게이션바로 예시를 정지시키거나 끝낼 수 있습니다. 또한 전반부나 다음차례로 뛰어넘어 볼 수 있습니다.
+msgDemoStop;	데모 모드를 끝냅니다.
+
+capConcurrentStart;	실습 모드
+msgConcurrentStart1;	실습 모드에서는 어플리케이션의 과제를 해결하기 위한 상세 안내서를 볼 수 있습니다. 
+msgConcurrentStart2;	모든 예시의 각 차례가 끝난 후 정지됩니다. 이로써 실행된 어플리케이션을 확인할 수 있습니다. 
+msgConcurrentStop;	실습 모드를 끝냅니다..
+
+capTestStart;	테스트 모드
+msgTestStart1;	테스트 모드에서 과제를 해결하면서 배운내용을 테스트 해 볼 수 있습니다. 입력된 모의 데이터외의 실행단계와 관계한 다른 명령은 제시되지 않습니다. 전체 과제에 해결에 도움이 필요할 경우 과제창에 설명을 볼 수 있으며 제목창을 축소하거나 확대할 수 있습니다. 
+msgTestStart2;	테스트가 끝나면 각 과정의 성공적인 진행 여부에 따라 평가를 볼 수 있습니다. 이 평가는 자기평가를 위해 사용할 수 있으며 데이터는 저장되거나 공개되지 않습니다.
+msgTestStart3;	"시스템에 모든 입력착오와 잘못된 클릭이 기록되고 그에따라 평가시 감점이 될 수 있으므로, 다음 과정을 매우 주의하여 실행해 주십시오. 해당 과정에 도움을 클릭하면 감점이 됨을 주의해 주십시오."
+msgTestStart4;	테스트의 결과는 테스트가 종료되면 보여지게 됩니다. 목표점 @{res_mastery_percent}% 에 다다를 수 있도록 노력해 주십시오.
+capTestOk;	당신은 테스트에 합격했습니다
+capTestFailed;	당신은 테스트에 불합격했습니다
+msgTestFailed1;	@{res_mastery_percent}% 보다 낮은 점수이므로 코스의 내용을 다시 한번 실행하시고 습득한 학습내용을 다시한번 테스트 모드로 점검해 보시기 바랍니다.
+msgTestFinished2;	이 테스트는 오로지 자기평가를 위한 것입니다. 결과는 저장되거나 공개되지 않습니다.
+msgTestOk1;	"축하합니다, 당신은 과제를 성공적으로 마무리 했습니다."
+msgTestResult;	결과
+msgTestScore;	성취 점수
+
+capPracticeStart;	연습 모드
+msgPracticeStart1;	연습 모드에서는 배운내용을 어플리케이션에서 과제를 스스로 해결하며 실습해 볼 수 있습니다.
+msgPracticeStart2;	상세 설명서를 따라 하십시오.
+msgPracticeStop;	연습 모드 끝
+
+# eof# New messages added after 6.1.0 beta 2
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+msgTestScoreValue;	@{res_collected_points} of @{res_possible_points}
+TOK_LIB_VAL_NOFILTER; no filter
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

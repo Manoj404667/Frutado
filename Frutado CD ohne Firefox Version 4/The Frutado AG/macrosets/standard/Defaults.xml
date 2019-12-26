@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MacroDefaults version="6.1.2alpha3" MacroShelfComment="Demo/Uebungs/Test/Praxismakros deutsch/english mit Automatik">
+<Macro name="start_unit">
+<Values possible_points="0" mastery_score="0" in_test="1" in_practice="0" task_width="240" task_height="0" task_bgcolor="#FFFFB7" task_orientation="NW" />
+</Macro>
+<Macro name="new_page">
+<Values doc_enable="yes" doc_heading="yes" imagesize="100" record_window_id="0" />
+</Macro>
+<Macro name="new_window">
+<Values doc_enable="yes" doc_heading="yes" imagesize="100" />
+</Macro>
+<Macro name="new_window_close">
+<ComplexValues>
+<win_relpos><frame path=":1" /></win_relpos>
+</ComplexValues>
+</Macro>
+<Macro name="explanation">
+<Values bubble_class="StyleA" b_width="180" b_height="40" doc_enable="yes" b_duration="3" bubble_class_p="StyleA" orientation="SE" fieldname="" fieldicon="" in_demo="1" in_practice="1" in_test="0" b_width_p="180" b_height_p="40" b_duration_p="3" bubblestyle_d="_default" in_prax="1" />
+<ComplexValues>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+</ComplexValues>
+</Macro>
+<Macro name="explanation_long">
+<Values bubble_class="StyleA" b_width="400" b_height="40" doc_enable="yes" orientation="C" type="none" in_demo="1" in_practice="1" in_test="1" in_prax="1" fieldname="" fieldicon="" bubblestyle_d="_default" explanation_d="" explanation_p="" b_width_p="180" b_height_p="40" />
+<ComplexValues>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+</ComplexValues>
+</Macro>
+<Macro name="quick_click">
+<Values bubble_class="StyleA" doc_enable="yes" position_h="0" action="lclick" wait_for_input="1" fieldicon="" fieldname="" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_bu><frame path=":0" /><posElement x="0.5" y="0.5" /></position_bu>
+</ComplexValues>
+</Macro>
+<Macro name="click">
+<Values bubble_class="StyleA" b_width="150" b_height="40" b_duration="3" orientation="SE" doc_enable="yes" position_h="0" orientation_p="C" action="lclick" wait_for_input="1" show_hl_p="0" fieldicon="" fieldname="" full_form="0" click_count="1" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+<position_bu><frame path=":0" /><posElement x="0.5" y="0.5" /></position_bu>
+</ComplexValues>
+</Macro>
+<Macro name="click_SAP">
+<Values bubble_class="StyleA" b_width="150" b_height="40" b_duration="3" orientation="SE" doc_enable="yes" explanation_d="" wait_for_input="1" show_hl_p="0" fieldicon="" fieldname="" orientation_p="C" explanation_p="" position_h="" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<position_tc>
+                    <frame>
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                    </frame>
+                    <element elementCollection="forms" elementIndex="0" subElementIndex="0" elementName="" elementContent="" ID="eep_path=&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:3:0&quot;;&#xA;eep_options=3;eep_version=&quot;4.4&quot;;&#xA;eep_atts={id:&quot;OKCodeField&quot;,name:&quot;~ToolbarOkCode&quot;,tagName:&quot;INPUT&quot;,type:&quot;text&quot;};&#xA;eep_coll={n:&quot;forms&quot;,i:0,ii:0};&#xA;eep_parents=[{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:3&quot;,eep_atts:{tagName:&quot;TD&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0&quot;,eep_atts:{tagName:&quot;TR&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0:0&quot;,eep_atts:{tagName:&quot;TBODY&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0&quot;,eep_atts:{id:&quot;webguiStdButtonBar&quot;,tagName:&quot;TABLE&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0&quot;,eep_atts:{tagName:&quot;TD&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2&quot;,eep_atts:{tagName:&quot;TR&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TBODY&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TABLE&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TD&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TR&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TBODY&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0&quot;,eep_atts:{id:&quot;webguiToolbar&quot;,tagName:&quot;TABLE&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0&quot;,eep_atts:{tagName:&quot;TD&quot;}}&#xA;,{eep_path:&quot;1:0:0:0&quot;,eep_atts:{tagName:&quot;TR&quot;}}&#xA;,{eep_path:&quot;1:0:0&quot;,eep_atts:{tagName:&quot;TBODY&quot;}}&#xA;,{eep_path:&quot;1:0&quot;,eep_atts:{name:&quot;toolbarform&quot;,tagName:&quot;FORM&quot;}}&#xA;,{eep_path:&quot;1&quot;,eep_atts:{id:&quot;webguiPage&quot;,tagName:&quot;TABLE&quot;}}&#xA;];&#xA;eep_siblingTags=&quot;&quot;;">
+                        <pathelement name="" index="1" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="2" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="0" />
+                        <pathelement name="" index="4" />
+                        <pathelement name="" index="0" />
+                    </element>
+                    <posDocument x="0.050248" y="0.059846" />
+                    <posElement x="0.000000" y="0.000000" />
+                    <rectDocument x="0.252644" y="0.094484" />
+                    <rectElement x="1.000000" y="1.000000" />
+                </position_tc>
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+<position_bu><frame path=":0" /><posElement x="0.5" y="0.5" /></position_bu>
+</ComplexValues>
+</Macro>
+<Macro name="key_press">
+<Values bubble_class="StyleA" b_width="150" b_height="40" b_duration="3" orientation="C" doc_enable="yes" position_h="0" orientation_p="C" wait_for_input="1" full_form="0" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" />
+<ComplexValues>
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+<position_bu><frame path=":0" /><posElement x="0.5" y="0.5" /></position_bu>
+</ComplexValues>
+</Macro>
+<Macro name="input_text">
+<Values bubble_class="StyleA" b_width="180" b_height="40" b_duration="3" doc_enable="yes" confirmation_tab="1" explanation_p="" orientation_p="C" orientation="SE" wait_for_input="1" set_focus="1" show_hl_p="0" fieldname="" fieldicon="" animated="1" full_form="0" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+<position_bu><frame path=":0" /><posElement x="0.5" y="0.5" /></position_bu>
+</ComplexValues>
+</Macro>
+<Macro name="select_single">
+<Values bubble_class="StyleA" b_width="180" b_height="40" doc_enable="yes" b_duration="3" choose_nr="0" explanation_d="" explanation_p="" orientation_p="C" orientation="SE" wait_for_input="1" show_hl_p="0" fieldname="" fieldicon="" animated="1" full_form="0" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+<position_bu><frame path=":0" /><posElement x="0.5" y="0.5" /></position_bu>
+</ComplexValues>
+</Macro>
+<Macro name="input_radio">
+<Values bubble_class="StyleA" b_width="180" b_height="40" doc_enable="yes" b_duration="3" explanation_d="" explanation_p="" orientation_p="C" orientation="SE" wait_for_input="1" show_hl_p="0" fieldname="" fieldicon="" full_form="0" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+<position_bu><frame path=":0" /><posElement x="0.5" y="0.5" /></position_bu>
+</ComplexValues>
+</Macro>
+<Macro name="scroll_hor">
+<Values bubble_class="StyleA" b_width="180" b_height="40" b_duration="3" scrollleft="1000" doc_enable="yes" element_type="HScroll" explanation_d="" orientation="NW" bubblestyle_d="_default" imagesize="100" />
+<ComplexValues>
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+</ComplexValues>
+</Macro>
+<Macro name="scroll_vert">
+<Values bubble_class="StyleA" b_width="180" b_height="40" b_duration="3" scrolltop="1000" doc_enable="yes" element_type="HScroll" explanation_d="" orientation="NW" bubblestyle_d="_default" imagesize="100" />
+<ComplexValues>
+<position_h><frame path=":0" /><posElement x="0.5" y="0.5" /><rectElement x="0.6" y="0.6" /></position_h>
+<position_b><frame path=":0" /><posElement x="0.5" y="0.5" /></position_b>
+</ComplexValues>
+</Macro>
+<Macro name="kurs" />
+<Macro name="transaction_info" />
+<Macro name="screenshot_part">
+<Values show_actions="false" imagesize="100" />
+</Macro>
+<Macro name="hinweis">
+<Values type="hinweis" />
+</Macro>
+<Macro name="beschreibung" />
+<Macro name="doc_caption" />
+<Macro name="free_marker">
+<Values orientation="E" />
+</Macro>
+<Macro name="page_break" />
+<Macro name="info_page">
+<Values color="#B2BFD5" b_width="360" />
+<ComplexValues>
+<dump_win_relpos><frame path=":0" /></dump_win_relpos>
+</ComplexValues>
+</Macro>
+<Macro name="form_on">
+<Values color="#B2BFD5" b_width="360" />
+<ComplexValues>
+<dump_win_relpos><frame path=":0" /></dump_win_relpos>
+</ComplexValues>
+</Macro>
+</MacroDefaults>

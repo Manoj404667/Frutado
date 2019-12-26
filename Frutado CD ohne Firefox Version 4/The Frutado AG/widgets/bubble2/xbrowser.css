@@ -1,0 +1,460 @@
+
+/*
+    CSS to be inserted into each target document
+    in order to insert bubbles
+*/
+
+/* === All effects =========================================================== */
+
+DIV.dgoXXframe {
+    display: block;
+    overflow: visible;
+    position: static;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+/* === Highlights ============================================================ */
+
+DIV.dgoHL {
+    display: block;
+    overflow: visible;
+    position: static;
+
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-image: none;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+DIV.dgoHLfill {
+    display: block;
+    overflow: visible;
+    position: static;
+
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-image: none;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+/* === Bubbles =============================================================== */
+
+DIV.dgoBUmini {
+    display: block;
+    overflow: visible;
+    position: static;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+DIV.dgoBUspike {
+    display: block;
+    overflow: visible;
+    position: static;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+DIV.dgoBUmain {
+    display: block;
+    overflow: visible;
+    position: static;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+DIV.dgoBUbtn {
+    display: block;
+    overflow: visible;
+    position: static;
+
+    top: 5px;
+    width: 1px;
+    height: 1px;
+    line-height: 1px;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+IMG.dgoBUbtn {
+    display: inline;
+    position: static;
+
+    line-height: 1px;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+BUTTON.dgoBUbtn {
+    display: inline;
+    position: static;
+    overflow: hidden;
+
+    line-height: 100%;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+TABLE.dgoBU {
+    display: inline-table;
+    overflow: visible;
+    position: static;
+
+    /* fehler in ie wenn border-collapse auf collapse gesetzt fuer tabellen */
+    border-collapse: separate; 
+    caption-side: top;
+    empty-cells: show;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+TABLE.dgoBU TABLE {
+    display: inline-table;
+    overflow: visible;
+    position: static;
+
+    /* fehler in ie wenn border-collapse auf collapse gesetzt fuer tabellen */
+    border-collapse: separate; 
+    caption-side: top;
+    empty-cells: show;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+TR.dgoBU {
+    overflow: visible;
+    position: static;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+TD.dgoBU {
+    overflow: visible;
+    position: static;
+    
+    width: auto;
+    height: auto;
+    
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px none black;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+
+    font-family: sans-serif;
+    font-variant: normal;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+IMG.dgoBU {
+    display: inline;
+    position: static;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+/* === Popup Animation ======================================================= */
+
+DIV.dgoPU {
+    display: block;
+    overflow: auto;
+    overflow-x: hidden; /*Not sufficient. Why? pa*/
+    position: static;
+
+    color: black;
+    background-color: white;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    padding: 0px 1px 0px 0px;
+    margin: 0px;
+    border: 1px solid black;
+    border-spacing: 0px 0px;
+
+    scrollbar-3dlight-color: #c0c0c0;
+    scrollbar-arrow-color: black;
+    scrollbar-base-color: #c0c0c0;
+    scrollbar-darkshadow-color: black;
+    scrollbar-face-color: #c0c0c0;
+    scrollbar-highlight-color: white;
+    scrollbar-shadow-color: #808080;
+}
+
+TABLE.dgoPU {
+    overflow: hidden;
+    position: static;
+
+    /* fehler in ie wenn border-collapse auf collapse gesetzt fuer tabellen */
+    border-collapse: separate; 
+    caption-side: top;
+    empty-cells: show;
+
+    color: black;
+    background-color: white;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px 1px 0px 1px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+TABLE.dgoPU TABLE {
+    overflow: hidden;
+    position: static;
+
+    /* fehler in ie wenn border-collapse auf collapse gesetzt fuer tabellen */
+    border-collapse: separate; 
+    caption-side: top;
+    empty-cells: show;
+
+    color: black;
+    background-color: white;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px 1px 0px 1px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+TR.dgoPU {
+    overflow: hidden;
+    position: static;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+}
+
+TD.dgoPU {
+    overflow: hidden;
+    position: static;
+
+    color: black;
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px 0px;
+
+    font-family: sans-serif;
+    font-variant: normal;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* === Task Window Style ===================================================== */
+
+BODY.dgoTASK {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    font-family: sans-serif;
+    font-variant: normal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+
+    color: black;
+    background-color: white;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+DIV.dgoTASK {
+    display: block;
+    overflow: auto;
+    position: static;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: sans-serif;
+    font-variant: normal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+
+    color: black;
+    background-color: #B2BFD5;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px; /* any padding makes Moz 1.7 draw partially hidden scrollbars */
+
+    scrollbar-3dlight-color: #c0c0c0;
+    scrollbar-arrow-color: black;
+    scrollbar-base-color: #c0c0c0;
+    scrollbar-darkshadow-color: black;
+    scrollbar-face-color: #c0c0c0;
+    scrollbar-highlight-color: white;
+    scrollbar-shadow-color: #808080;
+}
+
+DIV.dgoTASKautosize {
+    display: block;
+    overflow: visible;
+    position: static;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: sans-serif;
+    font-variant: normal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+
+    color: black;
+    background-color: #B2BFD5;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+DIV.dgoTASKautosizeIE {
+    display: block;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    position: static;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: sans-serif;
+    font-variant: normal;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+
+    color: black;
+    background-color: #B2BFD5;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px 0px 3px 0px;
+}
+
+/* eof */

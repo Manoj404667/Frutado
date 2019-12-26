@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TourParams errorpage="error.html" mute="false" defaultmediaquality="1" mediaqualities=".mp3.wav" passive="true" verbose="0" stoppage="projects/stop_${mode}.html" startpage="projects/start_${mode}.html" css="bubble_${mode}.css" gzip="false" keys_invertedkeys_PLAY="" keys_invertedkeys_STOP="" keys_invertedkeys_PAUSE="" keys_invertedkeys_PREV="" keys_invertedkeys_BACK="" keys_invertedkeys_NEXT=""/>

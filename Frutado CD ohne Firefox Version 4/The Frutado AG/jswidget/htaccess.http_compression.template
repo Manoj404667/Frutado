@@ -1,0 +1,45 @@
+# Template for  ./jswidget/.htaccess on Apache Webserver
+# Please change RewriteBase manually, if you move these directories:
+# You'll find RewriteBase near the end of this file!
+
+# Necessary Apache options (needs: AllowOverride)
+Options +ExecCGI +Multiviews +FollowSymLinks
+
+# Start file
+DirectoryIndex frameset.cgi
+
+# Reset default charset (if set by local sysad)
+AddDefaultCharset Off
+
+# overwrite standard MIME-Type for gzipped JavaScript sources
+
+AddType text/css .css
+AddType text/javascript .js
+AddType text/html .html .htm
+AddType text/xml .xml
+AddType text/xml .dpr
+AddType application/x-httpd-cgi .cgi
+
+# Override SuSE/Apache default MIME Type of .gz files
+# (from mime-magic and/or /etc/mime.types)
+
+<Files *.html.gz>
+  ForceType "text/html"
+  Header set Content-Encoding "gzip"
+</Files>
+
+<Files *.xml.gz>
+  ForceType "text/xml"
+  Header set Content-Encoding "gzip"
+</Files>
+
+<Files *.dpr.gz>
+  ForceType "text/xml"
+  Header set Content-Encoding "gzip"
+</Files>
+
+<Files *.js.gz>
+  ForceType "application/x-javascript"
+  Header set Content-Encoding "gzip"
+</Files>
+

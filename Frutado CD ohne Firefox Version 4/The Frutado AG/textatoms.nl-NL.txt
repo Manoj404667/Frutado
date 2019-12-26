@@ -1,0 +1,252 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	@{TOK_COMPANY} Cursus
+TOK_TOUR;	@{TOK_COMPANY} Leereenheid
+TOK_TRAINER;	@{TOK_COMPANY} trainer
+
+# Key names	
+ALTKEY;	Alt
+CTRLKEY;	Strg
+LEFTALTKEY;	Alt (links)
+LEFTCTRLKEY;	Strg (links)
+LEFTSHIFTKEY;	Omsch (links)
+ON;	Aan
+OFF;	Uit
+RIGHTALTKEY;	Alt (rechts)
+RIGHTCTRLKEY;	Strg (rechts)
+RIGHTSHIFTKEY;	Omsch (rechts)
+SHIFTKEY;	Omsch
+
+# trainer states	
+TOK_BUFFERING;	Audio laadt ... 
+TOK_CONNECTING;	Verbinden ... 
+TOK_IDLE;	
+TOK_LMS;	Resultaat schrijven ...
+TOK_OPENING;	Verbinden ... 
+TOK_OPEN;	
+TOK_PAUSED;	Pauze
+TOK_PLAYING;	Loopt
+TOK_READY;	Gereed
+TOK_USERINPUT;	Invoer
+TOK_WAITING;	Pagina laadt ... 
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Framesets kunnen hier niet getoond worden.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">Documenten met IFRAMEs kunnen hier niet getoond worden.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	Een popup blocker verhindert het afspelen van de leereenheid.
+TOK_POPUPBLOCKER_CONFIRM;	"Een popup blocker heeft het openen van een nieuw browservenster verhinderd.@{NEWLINE}@{NEWLINE}OK: u kunt vervolgen, omdat u de Popup blocker@{NEWLINE}    voor de webserver uitgeschakeld heeft.@{NEWLINE}Afbreken: De leereenheid wordt beëindigd."
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Een veiligheidsinstelling van de internet explorer\n\rverhindert de weergave van de @{TOK_TOUR}.\nLaat\n""Script geïnitieerde vensters zonder grootte- en positiebeperkingen""\ntoe!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	"@1 ""@2"" kon niet gelezen worden."
+TOK_COULD_NOT_READ2_EXC;	"@1 ""@2"" kon niet gelezen worden: @3"
+
+# Form texts	
+TOK_CLOSE;	Sluiten
+TOK_DIR;	Directory
+TOK_ERROR;	Fout
+TOK_EXIT;	Beëindigen
+TOK_OPEN;	Openen
+TOK_SEARCH;	Zoeken
+TOK_START;	Start
+TOK_START_TOUR;	@{TOK_TOUR} starten
+TOK_STOP;	Stop
+
+# Library	
+TOK_LIB_BTN_LESS;	minder...
+TOK_LIB_BTN_MORE;	meer...
+TOK_LIB_EMPTY;	Leeg element
+TOK_LIB_FLAG_DESC;	Beschrijving doorzoeken
+TOK_LIB_FLAG_KEEP_OPEN;	Cursus geopend laten
+TOK_LIB_FLAG_NEWWIN;	In een nieuw venster
+TOK_LIB_FLAG_TITLE;	Titel doorzoeken
+TOK_LIB_RESET;	Zoekresultaten wissen
+
+# Mimetypes	
+MIME_TEXT_PDF;	PDF - Adobe Acrobat Format
+MIME_APP_MSWORD;	Winword document
+MIME_APP_EXCEL;	Excel werkblad
+MIME_APP_PPT;	Powerpoint bladen
+MIME_APP_OOFF;	OpenOffice document
+MIME_APP_OOFFWRITE;	OpenOffice tekst
+MIME_APP_OOFFCALC;	OpenOffice calculatie
+MIME_APP_OOFFIMPRESS;	OpenOffice presentatie
+MIME_APP_OOFFMATH;	OpenOffice formules
+MIME_AUDIO;	Klank
+MIME_VIDEO;	Video
+MIME_TEXT_HTML;	Webpagina
+MIME_TEXT;	Tekstdocument
+MIME_APP_DGO;	@{TOK_COMPANY} Leereenheid
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} Oefening
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} Test
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} Leereenheid praktijk-modus
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY;	start
+TIP_PAUSE;	pauze
+TIP_STOP;	stoppen
+TIP_NEXT;	pagina vooruit
+TIP_BACK;	pagina terug
+TIP_MAXBUBBLE;	Tekstbubble herstellen
+TIP_MINBUBBLE;	Tekstbubble minimaliseren
+TIP_CLOSEBUBBLE;	Tekstbubble verwijderen
+TIP_ENABLED;	
+TIP_DISABLED;	(thans niet mogelijk)
+TIP_TASK;	Taakstelling
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW;	Venster sluiten
+TOK_BP_GOBACK;	Terug
+TOK_BP_GOON;	Verder
+TOK_BP_JSCONSOLE;	Javascript meldingen
+TOK_BP_MODE;	Modus
+TOK_BP_PARAMETER;	Parameters
+TOK_BP_RESTARTPROGRAM;	Programma herhalen
+TOK_BP_STARTANOTHER;	Ander programma
+TOK_BP_VALUE;	Waarde
+
+# Exercise colors	
+EXER_COLOR_ERROR;	rood gemarkeerd
+EXER_COLOR_CLICK;	groen gemarkeerd
+EXER_COLOR_DBLCLICK;	geel gemarkeerd
+EXER_COLOR_RCLICK;	turquoise gemarkeerd
+EXER_COLOR_CHANGE;	groen onderstreept
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_AND;	@{NEWLINE}en@{NEWLINE}
+EXER_FAIL0;	Helaas fout.
+EXER_FAIL1;	Helaas fout. 1 punt aftrek. Er resteren: @1_rest-points_.
+EXER_FAIL2;	Helaas fout. @1_points-penalty_ punten aftrek. Er resteren: @2_rest-points_.
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Heeft u hulp nodig?
+EXER_FAILCHANGE_HELP;	"Het gewijzigde veld werd @{EXER_COLOR_ERROR}.@{NEWLINE}Alle invoervelden die gewijzigd mogen worden, worden @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_HELP;	Er zijn geen toegestane invoervelden.@{NEWLINE}Het gewijzigde veld werd @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP;	Het aangeklikte gebied werd @{EXER_COLOR_ERROR}.@{NEWLINE}Alle toegestane knoppen werden @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;	Aanklikken is nergens toegestaan.@{NEWLINE}Het aangeklikte gebied werd @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP;	Het via dubbelklik aangeklikte gebied werd @{EXER_COLOR_ERROR}.@{NEWLINE}Alle voor dubbelklik toegestane knoppen werden @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;	Dubbelklik is nergens toegestaan.@{NEWLINE}Het aangeklikte gebied werd @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP;	Het via rechtse muisklik aangeklikte gebied werd @{EXER_COLOR_ERROR}.@{NEWLINE}Alle voor rechtse muisklik toegestane knoppen werden @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP;	Rechtse muisklik is nergens toegestaan.@{NEWLINE}Het aangeklikte gebied werd @{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0;	U heeft een verkeerde toets ingedrukt.
+EXER_FAILKEY_HELP1;	"U heeft de ""@1_key_"" ingedrukt."
+EXER_FAILKEY_HELP2;	@{NEWLINE}Toegestane functietoetsen zijn:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}Eveneens toegestaan zijn:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Veldwijziging (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Klik (knoppen zijn @{EXER_COLOR_CLICK})
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Dubbelklik (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Aanwijzing: Daardoor vervallen alle punten)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Indrukken van de functietoetsen@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Toegestaan zijn:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Rechtse muisklik (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Aanwijzing: Anders volgt automatische voortzetting)
+EXER_HINT_YOURINPUT;	"U heeft ""@1_input_"" ingevoerd.@{NEWLINE}"
+EXER_OR;	@{NEWLINE}of@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	"Selecteer  de optie ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"Selecteer resp. deselecteer  de optie ""@1""!"
+MSG_SCORE;	"Gescoorde aantal punten: ""@1""."
+MSG_SINGLE_SELECT;	"Selecteer de entry ""@1"" !"
+MSG_TEXTINPUT;	"Voer ""@1"" in het invoerveld ""@2"" in !"
+MSG_TRANSACTIONCODE;	"Voer de correcte transactiecode ""@1"" in!"
+
+capDemoStart;	Demo-modus 
+msgDemoStart1;	"In de demo-modus kunt u de oplossing van een opgave in de praktijk bekijken. Volg gewoon de demonstratie, alle stappen worden automatisch uitgevoerd."
+msgDemoStart2;	Met de navigatiebalk onderin het scherm kunt u de demonstratie onderbreken of stoppen. U kunt tevens voorwaarts naar de volgende en terugwaarts naar de vorige stap switchen.
+msgDemoStop;	De demo-modus werd beëindigd.
+
+capConcurrentStart;	Praktijk-modus
+msgConcurrentStart1;	In de praktijk-modus krijgt u stap-voor-stap-instructies voor het oplossen van een opgave in de applicatie. 
+msgConcurrentStart2;	"Na elke stap wordt de demonstratie onderbroken, opdat u de getoonde stap in de applicatie kunt reproduceren. "
+msgConcurrentStop;	De praktijk-modus werd beëindigd.
+
+capTestStart;	Test-modus
+msgTestStart1;	"In de test-modus kunt u uw kennis testen, door zelf een opgave met de applicatie op te lossen. Behalve de in te voeren voorbeelddata krijgt u geen werkstap-gerelateerde aanwijzingen. De gehele opgave wordt in het opgavevenster beschreven, dat u naar eigen behoefte met behulp van de buttons in de titelbalk kunt groter of kleiner kunt maken."
+msgTestStart2;	"Aan het eind van de test ontvangt u een beoordeling op basis van de met succes uitgevoerde stappen. Deze beoordeling dient uitsluitend voor een zelfinschatting, de gegevens worden niet opgeslagen of doorgezonden."
+msgTestStart3;	"Voor deze stappen uiterst zorgvuldig uit, omdat het systeem alle schrijffouten en foutieve klikken vastlegt en het beoordelingsresultaat daardoor minder wordt. Waneer u besluit bij een stap hulp op te vragen, verliest u alle bij deze stap te behalen punten."
+msgTestStart4;	"Uw beoordeling wordt aan het eind van de test getoond, probeer de target van @{res_mastery_percent}% te realiseren."
+capTestOk;	U bent geslaagd voor de test.
+capTestFailed;	U bent niet geslaagd voor de test.
+msgTestFailed1;	"Omdat u minder dan @{res_mastery_percent}% van het mogelijk aantal punten heeft gehaald, adviseren wij u, de inhoud van deze cursus nogmaals door te lopen en vervolgens uw kennis andermaal in de testmodus te controleren."
+msgTestFinished2;	Deze test diende uitsluitend voor een zelfinschatting. De resultaten worden niet opgeslagen of doorgezonden.
+msgTestOk1;	"Hartelijk gefeliciteerd, u heeft deze opgave met succes uitgevoerd."
+msgTestResult;	Resultaat
+msgTestScore;	Gescoorde aantal punten
+msgTestScoreValue;	@{res_collected_points} van @{res_possible_points}
+
+capPracticeStart;	Oefenmodus
+msgPracticeStart1;	"In de oefenmodus kunt u uw kennis testen, door de opgave zelf met de applicatie op te lossen."
+msgPracticeStart2;	Volg de stap-voor-stap-instructies.
+msgPracticeStop;	De oefenmodus werd beëindigd
+
+
+# eof	
+# New messages added after 6.1.0 beta 2
+TIP_HELPBUBBLE;	"Ja, toon help"
+TIP_GOONBUBBLE;	"Verder gaan"
+
+TOK_LIB_VAL_NOFILTER; no filter
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "Vanwege inactiviteit zal deze les binnen @1 sec. afgesloten worden. Beweeg de muis over het venster om dit te voorkomen."
+
+quizScoreReached;   "Bereikte score: "
+quizScorePass;  "Benodigde score: "
+quizScoreMax;   "Maximale score: "
+quizItemName;   Quiz
+quizSolutions;  Oplossing
+quizResult; Resultaat
+quizPoints; Punten
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

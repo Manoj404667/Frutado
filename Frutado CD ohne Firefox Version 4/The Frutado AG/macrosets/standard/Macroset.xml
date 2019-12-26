@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Macroset>
+    <Info type="standard" description="Standard Macroset" displayname="Standard Macroset"/>
+    <Version version="6.3.1.114" mintrainer="2.3"/>
+    <Headers>Headers.xml</Headers>
+    <Defaults>Defaults.xml</Defaults>
+    <JSMacroSetObjectName>MacroSet</JSMacroSetObjectName>
+    <Icons>StandardMacros.png</Icons>
+    <JSIncludes>
+        <File>TourParams.js</File>
+        <File>util.js</File>
+        <File>MacroDepot.js</File>
+        <File>StringTemplates.js</File>
+    </JSIncludes>
+    <ScriptBase>script</ScriptBase>
+    <Translation>trans</Translation>
+</Macroset>

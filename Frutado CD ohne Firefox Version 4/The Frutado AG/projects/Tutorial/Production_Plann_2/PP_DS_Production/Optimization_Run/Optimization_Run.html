@@ -1,0 +1,37 @@
+﻿<html>
+<head>
+<title>Tour Links</title>
+</head>
+<body bgcolor="#FFFFB7">
+<span style="font-size:12px;font-family:Arial;">
+<h1>'Optimization Run'</h1>
+<div>
+<IMG src="pages/header_e02.jpg"> 
+<P><FONT face=Verdana size=5><STRONG>Execute the PP/DS Optimization</STRONG></FONT> <FONT face=arial size=3>
+<P>Optimization is used in PP/DS <STRONG>after a heuristic run to create the production orders</STRONG>&nbsp;has been executed to improve the solution.&nbsp;It cannot create new production orders or delete those already planned.</P>
+<P><FONT face=arial size=3>With optimization&nbsp;production dates and the resource allocation for operations&nbsp;are improved in regard to one ore more of the following criterias.&nbsp;The&nbsp;criterias taken into account&nbsp;and their weights&nbsp;are defined in the optimization profile:</FONT></P>
+<UL>
+<LI><STRONG>Makespan</STRONG></LI>In SAP APO this is defined as the time span between the earliest possible start time of a production plan specified by the user and the end of the last&nbsp;operation in the optimized plan.<BR><BR>
+<LI><STRONG>Total Setup Times and Total Setup costs</STRONG></LI>This criteria is used&nbsp;to take setup times and costs into account. The system determines setup times and setup costs that are dependent on sequence from the setup matrix.<BR><BR>
+<LI><STRONG>Delay Costs</STRONG></LI>With these criteria&nbsp;the improvement of the schedule takes costs that are associated with the delayed completion of orders or activities into account. The following optimization criteria are available:<BR><BR>
+<UL>
+<LI>The sum of the delay costs</LI>
+<LI>The maximum delay costs.</LI></UL></UL>
+<UL>There is a delay when:<BR><BR>
+<UL>
+<LI>A receipt date is later than a requirement date</LI>
+<LI>The latest&nbsp;feasible start or finish date for an activity is before the actual start or finish date.</LI><BR></UL>
+<LI><STRONG>Mode costs</STRONG></LI>The mode costs for an activity are the costs that are incurred when executing an activity in a particular mode.&nbsp;It is possible to&nbsp;maintain the fixed and variable costs in the optimization profile depending on the mode priority. <BR><BR></UL>
+<P>The weights that you apply to the various times or costs in the optimization profile when defining the objective function reflect the importance of each problem for your schedule.</P>
+<P>For the optimization&nbsp;a&nbsp;<STRONG>Genetic Algorithm</STRONG>, which is a stochastic meta-heuristic, is employed.&nbsp;It works by modifying the&nbsp;existing schedule of the orders&nbsp;to find a&nbsp;better result according to the objective function. It may be set to end after a certain time or if no more improvements can be found.&nbsp;Note that in both cases the final result is not necessarily the true optimum. The sequence with the best&nbsp;objective value&nbsp;can then be saved or serve as a&nbsp;starting point&nbsp;for further interactive planning.&nbsp; </P><IMG src="pages/separator_logo_e.g"> </FONT></div>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FProduction%2FOptimization%5FRun%2Fdmf%2FOptimisation%5FRun%5Fdemo%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Demo: Demo</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FProduction%2FOptimization%5FRun%2Fdmf%2FOptimisation%5FRun%5Fuebung%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Practice: Practice</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FProduction%2FOptimization%5FRun%2Fdmf%2FOptimisation%5FRun%5Ftest%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Test: Test</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FProduction%2FOptimization%5FRun%2Fdmf%2FOptimization%5FRun%5Fdemo%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Optimization Run Demo: Demo</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FProduction%2FOptimization%5FRun%2Fdmf%2FOptimization%5FRun%5Fuebung%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Optimization Run Practice: Practice</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FProduction%2FOptimization%5FRun%2Fdmf%2FOptimization%5FRun%5Ftest%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Optimization Run Test: Test</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FProduction%2FOptimization%5FRun%2Fdmf%2FOptimization%5FRun%5Fpraxis%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Optimization Run Concurrent: Concurrent</a><br><br>
+<br>
+</span>
+</body>
+</html>

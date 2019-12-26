@@ -1,0 +1,817 @@
+
+.StyleA_prac {
+    font-family: Arial;
+    font-size: 12px;
+    color: #ce3021;
+    visibility: inherit;
+}
+
+
+.StyleB {
+    font-family: Times;
+    font-size: 12px;
+    color: black;
+    visibility: inherit;
+}
+
+.StyleB_prac {
+    font-family: Times;
+    font-size: 12px;
+    color: #ce3021;
+    visibility: inherit;
+}
+
+
+.StyleC {
+    font-family: Arial;
+    font-size: 14px;
+    color: black;
+    visibility: inherit;
+}
+
+.StyleC_prac {
+    font-family: Arial;
+    font-size: 14px;
+    color: #ce3021;
+    visibility: inherit;
+}
+
+
+.StyleD {
+    font-family: Comic Sans MS;
+    font-size: 14px;
+    color: black;
+    visibility: inherit;
+}
+
+.StyleD_prac {
+    font-family: Comic Sans MS;
+    font-size: 14px;
+    color: #ce3021;
+    visibility: inherit;
+}
+
+
+.StyleE {
+    font-family: Arial monospaced for SAP;
+    font-size: 14px;
+    color: black;
+    visibility: inherit;
+}
+
+.StyleE_prac {
+    font-family: Arial monospaced for SAP;
+    font-size: 14px;
+    color: #ce3021;
+    visibility: inherit;
+}
+
+.StyleA {
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    visibility: inherit;
+}
+
+DIV.StyleA {
+    overflow: visible;
+    display: block;
+
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+BR.StyleA {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+TABLE.StyleA {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TR.StyleA {
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TD.StyleA {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+SPAN.StyleA {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+FONT.StyleA {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+B.StyleA {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+STRONG.StyleA {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+NOBR.StyleA {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+IMG.StyleA {
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+DIV.StyleB {
+    overflow: visible;
+    display: block;
+
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+BR.StyleB {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+TABLE.StyleB {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TR.StyleB {
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TD.StyleB {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+SPAN.StyleB {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+FONT.StyleB {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+B.StyleB {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+STRONG.StyleB {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+NOBR.StyleB {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+IMG.StyleB {
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+DIV.StyleC {
+    overflow: visible;
+    display: block;
+
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+BR.StyleC {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+TABLE.StyleC {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TR.StyleC {
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TD.StyleC {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+SPAN.StyleC {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+FONT.StyleC {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+B.StyleC {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+STRONG.StyleC {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+NOBR.StyleC {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+IMG.StyleC {
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+DIV.StyleD {
+    overflow: visible;
+    display: block;
+
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+BR.StyleD {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+TABLE.StyleD {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TR.StyleD {
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TD.StyleD {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+SPAN.StyleD {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+FONT.StyleD {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+B.StyleD {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+STRONG.StyleD {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+NOBR.StyleD {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+IMG.StyleD {
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+DIV.StyleE {
+    overflow: visible;
+    display: block;
+
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+BR.StyleE {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+TABLE.StyleE {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TR.StyleE {
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+TD.StyleE {
+    overflow: visible;
+    display: block;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+SPAN.StyleE {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+FONT.StyleE {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+B.StyleE {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+STRONG.StyleE {
+    overflow: visible;
+    display: inline;
+
+    font-weight: bold;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+NOBR.StyleE {
+    overflow: visible;
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+IMG.StyleE {
+    display: inline;
+
+    background-color: transparent;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+

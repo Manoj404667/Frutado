@@ -1,0 +1,221 @@
+﻿click.demo	Klikněte nyní na [B_NAME].\tKlikněte na [B_NAME].
+click.prac	Klikněte prosím na [B_NAME].\t
+click_img.demo	Klikněte nyní na [B_NAME_ICON].\t
+click_img.prac	Klikněte prosím na [B_NAME_ICON]. \t
+click_cancel_trans_img.demo	Kliknutím na [B_ICON_NAME] bude transakce přerušena.\t
+click_cancel_trans_img.prac	"Klikněte na [B_ICON_NAME], aby transakce byla přerušena."\t
+click_back_img.demo	Kliknutím na [B_ICON_NAME] se vrátíte na předchozí stránku.\t
+click_back_img.prac	"Klikněte na [B_ICON_NAME], abyste se vrátili na předchozí stránku."\t
+click_ok_img.demo	Klikněte nyní na [B_ICON_NAME].\t
+click_ok_img.prac	Klikněte na [B_ICON_NAME].\t
+click_exit_trans_img.demo	Kliknutím na  [B_ICON_NAME] opustíte transakci.\t
+click_exit_trans_img.prac	"Klikněte na  [B_ICON_NAME], abyste opustili transakci."\t
+click_save_img.demo	Kliknutím na [B_ICON_NAME] uložíte data do paměti. \t
+click_save_img.prac	"Klikněte na  [B_ICON_NAME], abyste uložili data do paměti."\t
+click_checkbox_off.demo	[B_NAME] bude vypnuta.\t
+click_checkbox_off.prac	Vypněte hodnotu [B_NAME].\t
+click_next_page_img.demo	Kliknutím na [B_NAME_ICON] otevřete další stránku. 
+click_next_page_img.prac	Klikněte prosím na [B_NAME_ICON]. 
+click_checkbox_on.demo	Bude zvolena [B_NAME].
+click_checkbox_on.prac	Zvolte hodnotu [B_NAME].
+click_select_value.demo	Bude zvolena hodnota  [B_NAME]. 
+click_select_value.prac	Zvolte hodnotu  [B_NAME].
+click_open_menu.demo	Otevře se menu  [B_NAME].
+click_open_menu.prac	Otevřete menu  [B_NAME].
+click_menu_select.demo	Bude zvolen zápis [B_NAME]. 
+click_menu_select.prac	Zvolte zápis [B_NAME]. 
+click_select_column.demo	Bude zvolen sloupec [B_NAME]. 
+click_select_column.prac	Zvolte sloupec [B_NAME] kliknutím na hlavičku sloupce. 
+click_open_value_help.demo	Otevře se pomoc pro hodnoty.
+click_open_value_help.prac	Otevřete prosím pomoc pro hodnoty.
+click_select_line.demo	Bude zvolena řádka [B_NAME]. 
+click_select_line.prac	Zvolte řádku [B_NAME] kliknutím v prvním sloupci.
+click_scroll_top.demo	Kliknutím na [ICON] dojde k přetočení na začátek. 
+click_scroll_top.prac	Přetočte na začátek kliknutím na [ICON].
+click_scroll_bottom.demo	Kliknutím na [ICON] dojde k přetočení na konec.
+click_scroll_bottom.prac	Přetočte na konec kliknutím na [ICON].
+click_scroll_pageup.demo	Kliknutím na [ICON] dojde k přetočení jedné stránky nahoru.
+click_scroll_pageup.prac	Přetočte jednu stránky nahoru kliknutím na [ICON].
+click_scroll_pagedown.demo	Kliknutím na [ICON] dojde k přetočení jedné stránky dolů.
+click_scroll_pagedown.prac	Přetočte jednu stránku dolů kliknutím na [ICON].
+click_scroll_lineup.demo	Kliknutím na [ICON] dojde k přetočení jedné řádky nahoru.
+click_scroll_lineup.prac	Přetočte jednu řádku nahoru kliknutím na [ICON].
+click_scroll_linedown.demo	Kliknutím na [ICON] dojde k přetočení jedné řádky dolů.
+click_scroll_linedown.prac	Přetočte jednu řádku dolů kliknutím na [ICON].
+click_close_window_img.demo	Okénko bude zavřeno kliknutím na [ICON]. 
+click_close_window_img.prac	Zavřete okénko kliknutím na [ICON].
+click_select_all_lines_img.demo	Kliknutím na [ICON] budou označeny všechny řádky.
+click_select_all_lines_img.prac	Zvolte všechny řádky kliknutím na ICON]. 
+click_open_card_menu.demo	Kliknutím na [ICON] se otevře nabídka karet. 
+click_open_card_menu.prac	Otevřete nabdku karet kliknutím na [ICON].
+click_select_card.demo	Karta [B_NAME] bude zvolena.
+click_select_card.prac	Zvolte kartu [B_NAME]. 
+click_next_cards_img.demo	Kliknutím na [ICON] se zobrazí další karty.
+click_next_cards_img.prac	Zobrazte další karty kliknutím na [ICON].
+click_prev_cards_img.demo	Kliknutím na [ICON] se zobrazí předchozí karty.
+click_prev_cards_img.prac	Zobrazte předchozí karty kliknutím na [ICON].
+click_open_nav_menu.demo	Kliknutím na [ICON] se otevře menu navigace.
+click_open_nav_menu.prac	Otevřete menu navigace kliknutím na [ICON].
+click_close_folder_img.demo	Kliknutím na [ICON] se zavře soubor [B_NAME].
+click_close_folder_img.prac	Zavřete soubor [B_NAME] kliknutím na [ICON].
+click_open_folder_img.demo	Kliknutím na [ICON] se otevře soubor [B_NAME].
+click_open_folder_img.prac	Otevřete soubor [B_NAME] kliknutím na [ICON].
+click_select_element_img.demo	Kliknutím na [ICON] bude zvolen prvek [B_NAME].
+click_select_element_img.prac	Zvolte prvek [B_NAME] kliknutím na [ICON].
+click_scroll_down.demo	Přetáčecím sloupcem se přetáčí dolů.
+click_scroll_down.prac	Přetáčení přetáčecím sloupcem dolů.
+dblclick_select_entry.demo	Dvojitým kliknutím na [B_NAME] bude zvolen zápis.
+dblclick_select_entry.prac	Zvolte zápis [B_NAME] dvojitým kliknutím.
+dblclick_select_date.demo	Bude zvoleno [B_NAME]. 
+dblclick_select_date.prac	Zvolte [B_NAME].
+dblclick_start_transaction.demo	Dvojitým kliknutím bude spuštěna transakce [B_NAME].
+dblclick_start_transaction.prac	Spusťte transakci [B_NAME] dvojitým kliknutím <br>nebo<br>zadejte kód transakce [B_TCODE] a potvrďte klávesou Enter.
+click_close_group.demo	Skupina [B_NAME] bude zavřena. 
+click_close_group.prac	Zavřete prosím skupinu [B_NAME]. 
+click_open_group.demo	Skupina [B_NAME] bude otevřena. 
+click_open_group.prac	Otevřete prosím skupinu [B_NAME]. 
+select.demo	Jako [B_NAME] bude zvolena [B_SELECTED].
+select.prac	Zvolte prosím jako [B_NAME] [B_SELECTED].
+input_text.demo	Dojde k vyplnění políčka  [B_NAME].
+input_text.prac	Zadejte prosím [B_INPUT] do políčka [B_NAME].
+input_text_value.demo	Do políčka [B_NAME] bude zadáno [B_INPUT]. 
+input_text_value.prac	Zadejte prosím [B_INPUT] do políčka [B_NAME].
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Potvrďte zadání s <b>Tab-</b> nebo <b>tlačítkem Enter</b> nebo klikněte na <b>příslušné tlačítko</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Potvrďte zadání s <b>Tab-</b> nebo <b>tlačítkem Enter</b>.
+input_enter_button.demo
+input_enter_button.prac	"<br>""Potvrďte zadání s  <b>tlačítkem Enter</b> nebo klikněte na <b>příslušné tlačítko</b>."
+input_tab.demo
+input_tab.prac	<br>Potvrďte zadání s <b>tlačítklem Tabt</b>.
+input_enter.demo
+input_enter.prac	<br>Potvrďte zadání s <b>tlačítkem Enter</b>.
+input_button.demo
+input_button.prac	<br>Potvrďte zadání <b>kliknutím na příslušné tlačítko</b>.
+click_select.demo	[B_NAME] wird nun ausgewählt. Nyní bude zvoleno [B_NAME].
+click_select.prac	Zvolte prosím [B_NAME].
+click_show_value_help_button.demo	Kliknutím v textovém políčku [B_NAME] otevřete pomoc pro hodnoty. 
+click_show_value_help_button.prac	Otevřete pomoc pro hodnoty kliknutím v textovém políčku [B_NAME]. 
+click_scroll_horizontal.demo	Dojde k přetáčení doprava ...
+click_scroll_horizontal.prac	Přetáčejte prosím doprava.
+click_scroll_vertical.demo	Dojde k přetáčení dolů ...
+click_scroll_vertical.prac	Přetáčejte prosím dolů.
+click_img_expand.demo	Za účelem zvětšení okénka navigace kliknout na [ICON].
+click_img_expand.prac	Zvětšete okénko navigace kliknutím na [ICON].
+click_img_collapse.demo	Za účelem zmenšení okénka navigace kliknout na [ICON].
+click_img_collapse.prac	Zmenšete okénko navigace kliknutím na [ICON].
+click_navrow.demo	V řádce navigace bude zvoleno [B_NAME].
+click_navrow.prac	Otevřete prosím [B_NAME] z řádky navigace. 
+click_navrow2.demo	Ve druhé řádce navigace bude zvoleno [B_NAME].
+click_navrow2.prac	Otevřete prosím [B_NAME] z druhé řádky navigace. 
+click_open_context_menu.demo	Otevře se menu kontextu [B_NAME].
+click_open_context_menu.prac	Otevřete menu kontextu [B_NAME].
+click_radio_select.demo	Bude zvoleno [B_NAME]. 
+click_radio_select.prac	Zvolte [B_NAME]. 
+click_select_img.demo	Bude zvoleno [B_ICON_NAME]. 
+click_select_img.prac	Zvolte [B_ICON_NAME].
+click_open_form_view.demo	S [B_ICON_NAME] dojde k přepnutí do formuláře.
+click_open_form_view.prac	S [B_ICON_NAME] přepněte do formuláře.
+history_select.demo	B_NAME] bude zvoleno z historie
+history_select.prac	Zvolte [B_NAME] z historie
+click_page_up_img.demo	Kliknutím na [B_ICON] bude přetočena jedna stránka nahoru. 
+click_page_up_img.prac	Přetočte jednu stránku nahoru kliknutím na [B_ICON].
+click_page_down_img.demo	Kliknutím na [B_ICON] bude přetočena jedna stránka dolů. 
+click_page_down_img.prac	Přetočte jednu stránku dolů kliknutím na [B_ICON].
+click_page_top_img.demo	Kliknutím na [B_ICON] bude přetočeno na začátek
+click_page_top_img.prac	Přetočte na začátek kliknutím na [B_ICON].
+click_page_bottom_img.demo	Kliknutím na [B_ICON] bude přetočeno na konec.
+click_page_bottom_img.prac	Přetočte na konec kliknutím na [B_ICON].
+click_sort_by_column.demo	Bude provedeno seřazení podle sloupců [B_NAME].
+click_sort_by_column.prac	Seřaďte podle sloupců [B_NAME].
+click_select_date.demo	Bude zvoleno [B_NAME]. 
+click_select_date.prac	Zvolte [B_NAME].
+click_close_card_img.demo	Kliknutím na [ICON] bude zavřena karta.
+click_close_card_img.prac	"Klikněte na [ICON], aby došlo k zavření karty."
+click_select_function_img.demo	Kliknutím na [ICON] zvolte funkci [B_NAME].
+click_select_function_img.prac	"Klikněte na [ICON], aby došlo k volbě funkce [B_NAME]."
+click_hide_treeview.demo	Kliknutím na [ICON] dojde k inverznímu odříznutí stromového náhledu.
+click_hide_treeview.prac	Inverzně odřízněte stromový náhled kliknutím na [ICON].
+click_show_treeview.demo	Kliknutím na [ICON] dojde k překrytí stromového náhledu.
+click_show_treeview.prac	Překryjte stromový náhled kliknutím na [ICON].
+click_mark_transaction.demo	Kliknutím na [B_NAME] bude označena transakce.
+click_mark_transaction.prac	Označte transakci kliknutím na [B_NAME].
+dblclick_select_element.demo	Dvojitým kliknutím bude zvolen prvek [B_NAME].
+dblclick_select_element.prac	Zvolte prvek [B_NAME] dvojitým kliknutím.
+please_note.demo	Dbejte na následující: [B_NAME].
+please_note.prac	Dbejte na následující: [B_NAME].
+click_open_value_help_img.demo	Kliknutím na <b>pomoc pro zadání</b> [ICON] obdržíte nabídku s platnými hodnotami.
+click_open_value_help_img.prac	"Klikněte na <b>pomoc pro zadání</b> [ICON], abyste obdrželi nabídku s platnými hodnotami."
+click_open_selection.demo	Kliknutím na [ICON] obdržíte nabídku. 
+click_open_selection.prac	"Klikněte na [ICON], abyste obdrželi nabídku. "
+click_mark_entry.demo	Kliknutím na [B_NAME] jej označíte. 
+click_mark_entry.prac	Označte zápis [B_NAME] kliknutím. 
+click_mark_entry_img.demo	Kliknutím na zápis [ICON] jej zvolíte.
+click_mark_entry_img.prac	Zvolte zápis zápis [ICON] kliknutím.
+click_menu_select_img.demo	Kliknutím na bod menu [ICON] jej provedete.
+click_menu_select_img.prac	"Klikněte na bod menu [ICON], abyste jej provedli."
+click_open_menu_img.demo	Kliknutím na menu [ICON] je otevřete.
+click_open_menu_img.prac	"Klikněte na menu [ICON], abyste je otevřeli."
+click_select_card_img.demo	Kliknutím na kartu registrace  [ICON] ji zvolíte.
+click_select_card_img.prac	"Klikněte na kartu registrace [ICON], abyste ji zvolili."
+dblclick_select_line.demo	Dvojitým kliknutím na spínací políčko [NAME] označíte řádku.
+dblclick_select_line.prac	"Dvojitě klikněte na spínací políčko [NAME], abyste označili řádku."
+click_activate_edit.demo	Kliknutím na políčko zadání [B_NAME] je aktivujete.
+click_activate_edit.prac	"Klikněte na políčko zadání [B_NAME], abyste je aktivovali."
+dblclick_activate_edit.demo	Dvojitým kliknutím na políčko zadání [B_NAME] je aktivujete.
+dblclick_activate_edit.prac	"Dvojitě klikněte na políčko zadání [B_NAME], abyste je aktivovali."
+dblclick_open_folder_img.demo	Dvojitým kliknutím na symbol [ICON] otevřete soubor [B_NAME]. 
+dblclick_open_folder_img.prac	Otevřete soubor [B_NAME] dvojitým kliknutím na symbol [ICON]. 
+click_open_folder.demo	Kliknutím na symbol <b>'soubor otevřít'</b> otevřete soubor [B_NAME].
+click_open_folder.prac	Otevřete soubor [B_NAME] kliknutím na symbol <b>'soubor otevřít'</b>.
+dblclick_open_folder.demo	Dvojitým kliknutím na symbol <b>soubor otevřít'</b> otevřete soubor [B_NAME].
+dblclick_open_folder.prac	Otevřete soubor [B_NAME]d vojitým kliknutím na symbol <b>soubor otevřít'</b>.
+click_close_folder.demo	Kliknutím na symbol <b>'soubor zavřít'</b> zavřete soubor [B_NAME].
+click_close_folder.prac	Zavřete soubor [B_NAME] kliknutím na symbol <b>'soubor zavřít'</b>.
+drag_scroll_hor.demo	Kliknutím na a tažením <b>přetáčecí sloupec</b> se zobrazí požadovaná oblast.
+drag_scroll_hor.prac	"Klikněte na a táhněte <b>horizontální přetáčecí sloupec</b>, aby došlo k přetáčení."
+drag_scroll_vert.demo	Kliknutím na a tažením <b>přetáčecí sloupec</b> se zobrazí požadovaná oblast.
+drag_scroll_vert.prac	"Klikněte na a táhněte <b>vertikální přetáčecí sloupec</b>, aby došlo k přetáčení."
+click_scroll.demo	Kliknutím na <b>spínací políčko přetáčení</b> [NAME] se zobrazí požadovaná oblast.
+click_scroll.prac	Přetáčejte kliknutím na<b>spínací políčko přetáčení</b> [NAME].  
+click_scroll_page_left.demo	Kliknutím do <b>oblasti přetáčení</b> se zobrazí požadovaná oblast.  
+click_scroll_page_left.prac	"Klikněte do <b>oblasti nalevo od přetáčecího sloupce</b>, aby došlo k přetáčení."
+click_scroll_page_right.demo	Kliknutím do <b>oblasti přetáčení</b> se zobrazí požadovaná oblast.  
+click_scroll_page_right.prac	"Klikněte do <b>oblasti napravo od přetáčecího sloupce</b>, aby došlo k přetáčení."
+click_scroll_page_up.demo	Kliknutím do <b>oblasti přetáčení</b> se zobrazí požadovaná oblast.  
+click_scroll_page_up.prac	"Klikněte do <b>oblasti nad přetáčecím sloupcem</b>, aby došlo k přetáčení. "
+click_scroll_page_down.demo	Kliknutím do <b>oblasti přetáčení</b> se zobrazí požadovaná oblast.  
+click_scroll_page_down.prac	"Klikněte do <b>oblasti pod přetáčecím sloupcem</b>, aby došlo k přetáčení."
+rclick_context.demo	Kliknutím pravým tlačítkem myši  [B_NAME] se otevře menu kontextu. 
+rclick_context.prac	Klikněte pravým tlačítkem myši na [B_NAME].
+dblclick_img.demo	Dvojitě kliknout na [ICON].  
+dblclick_img.prac	Klikněte dvojitě prosím na [ICON].
+keypress.demo	Zadejte prosím [B_KEY].
+keypress.prac	Zadejte prosím [B_KEY].
+item.close_folder	Soubor zavřít
+item.open_folder	Soubor otevřít
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	Vertikální přetáčecí sloupec
+item.hscroll	Horizontální přetáčecí sloupec
+item.close_window	Okénko zavřít
+item.value_help	Nabídka hodnot
+item.scroll	Přetáčecí sloupec
+item.back_btn	Zpátky
+item.save_btn	Uložit do paměti
+item.scroll_area	Oblast přetáčení
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfg>
+    <doc show_bubble_text="true" use_demo_bubbles="true"/>
+    <rec default_bubble_duration="60"/>
+    <webrec/>
+    <winrec/>
+    <winrerec/>
+</cfg>

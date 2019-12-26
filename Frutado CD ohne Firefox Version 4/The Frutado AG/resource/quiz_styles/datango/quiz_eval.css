@@ -1,0 +1,302 @@
+/* datango standard/quiz_eval.css */
+/* last update:2008-01-22 */
+
+/* begin global settings section */
+html, body, th, td {
+    font-family:Verdana;
+    font-size:14px;
+}
+body {
+    margin:0;
+	position:absolute;
+	width:100%;
+    height:100%;
+}
+img {
+    border:none;
+}
+/* end global settings section */
+
+/* begin static settings section */
+.textarea {
+    /* this configurates the main content table */
+    background-color:transparent;
+    color:#000;
+    width:80%;
+    visibility:hidden;
+    border:none;
+	border-top:none;
+	border-bottom:none;
+    text-align:left;
+	position:relative;
+}
+#centerTable {
+	background:#010101 url(bg_kompass.jpg) no-repeat center top;
+	bottom:0;
+}
+.status {
+    /* this configures the status bar */
+    background-color:#AEBFD0;
+    width:100%;
+    padding:2px;
+    border-top:1px solid #f6f6f6;
+}
+.title {
+    /* this configures the quiz title area */
+    vertical-align:middle;
+	background:#D8E0E9 url(logo.jpg) no-repeat 97% 6px;
+    color:#000;
+	/*display:none;*/
+    border-bottom:1px solid #808080;
+	padding:0 140px 5px 16px;
+	font-size:15px;
+	height:35px;
+}
+/* this section configures round edges and the spacings between */
+.bottomRight {
+	width:5px;
+	background:transparent url(box_edge_bottom_r.gif) no-repeat top right;
+}
+.topRight {
+	width:5px;
+	background:transparent url(box_edge_top_r.gif) no-repeat top right;
+}
+.bottomLeft {
+	width:5px;
+	background:transparent url(box_edge_bottom_l.gif) no-repeat top left;
+}
+.topLeft {
+	width:5px;
+	background:transparent url(box_edge_top_l.gif) no-repeat top left;
+}
+.topMiddle {
+	background:#D8E0E9;
+	width:99%;
+}
+.textarea_middle {
+	background:#AEBFD0 url(box_gradient_middle.gif) repeat-x top left;
+	border-top:solid 1px #FFF;
+	border-bottom:solid 1px #606060;
+	padding:0;
+	height:219px;
+	vertical-align:top;
+}
+.textarea_middle table {
+	width:100%;
+}
+.bottomMiddle {
+	background:#AEBFD0;
+	width:99%;
+}
+.topTextarea, .bottomTextarea {
+	width:80%;
+	z-index:10;
+	padding:0;
+	position:relative;
+}
+.topTextarea td, .bottomTextarea td {
+	height:5px;
+}
+.eval {
+    /* this area contains all the results; the main content area */
+	padding:15px 25px;
+	text-align:center;
+}
+.eval table th {
+	text-align:left;
+	font-size:12px;
+}
+#ok {
+	float:right;
+	height:18px;
+	margin:2px;
+}
+#ok img {
+	margin-right:6px;
+	z-index:4;
+}
+/* end static settings section */
+
+/* begin dynamic settings section */
+/* this configures some html elements coming from quiz_eval.js */
+.m_globalresult {
+    /* minimal:global result table */
+    width:80% !important;
+	margin:0 10%;
+}
+.m_globalresult td {
+	font-size:12px;
+	font-weight:bold;
+	height:27px;
+}
+.m_max_points {
+    /* minimal:global result table; points */
+    text-align:right;
+    padding:4px 4px 20px;
+    border-bottom:none;
+}
+.m_rec_points {
+    /* minimal:global result table; points */
+    text-align:left;
+    padding:4px 4px 20px;
+    border-bottom:none;
+    border-right:none;
+}
+.m_pas_points {
+    /* minimal:global result table; points */
+    text-align:center;
+    padding:4px 4px 20px;
+    border-bottom:none;
+    border-right:none;
+}
+.m_feedback {
+    /* minimal:global result table; feedback */
+    background:#C9C9C9 url(info.gif) no-repeat 5px 4px;
+	border:1px solid #808080;
+	padding:6px 30px;
+	text-align:left;
+}
+.m_feedback font {
+	background:none !important;
+	font-weight:bold;
+}
+.r_detailresult {
+    /* reduced:detail result table */
+    margin:25px 10% 0 10%;
+    width:80% !important;
+    border:1px solid #6e6e6e;
+}
+.r_detailresult td,
+.r_detailresult th {
+	font-size:12px;
+}
+.r_head1 {
+    /* reduced:detail result table; head1 */
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+}
+.r_head2 {
+    /* reduced:detail result table; head2 */
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+}
+.r_head3 {
+    /* reduced:detail result table; head3 */
+    padding:4px;
+}
+.r_title {
+    /* reduced:detail result table; title */
+    border-top:1px solid #6e6e6e;
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+}
+.r_result {
+    /* reduced:detail result table; result */
+    border-top:1px solid #6e6e6e;
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+    text-align:center !important;
+}
+.r_points {
+    /* reduced:detail result table; points */
+    border-top:1px solid #6e6e6e;
+    padding:4px;
+    text-align:center !important;
+}
+.f_detailresult {
+    /* full:detail result table */
+    margin:25px 10% 0 10%;
+    width:80% !important;
+}
+.f_detailresult td {
+	font-size:12px;
+	text-align:left;
+}
+.f_detailresult input {
+	vertical-align:middle;
+	margin-right:10px;
+	height:12px;
+}
+.f_head1 {
+    /* full:detail result table; head1 */
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+}
+.f_head2 {
+    /* full:detail result table; head2 */
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+}
+.f_head3 {
+    /* full:detail result table; head3 */
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+}
+.f_head4 {
+    /* full:detail result table; head4 */
+    padding:4px;
+}
+.f_title {
+    /* full:detail result table; title */
+    border-top:1px solid #6e6e6e;
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+}
+.f_solutions {
+    /* full:detail result table; solutions */
+    border-top:1px solid #6e6e6e;
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+}
+.f_solutions img {
+	width:100px;
+}
+.f_solutions font {
+	background:none !important;
+}
+.f_result {
+    /* full:detail result table; result */
+    border-top:1px solid #6e6e6e;
+    border-right:1px solid #6e6e6e;
+    padding:4px;
+    text-align:center !important;
+}
+.f_points {
+    /* full:detail result table; points */
+    border-top:1px solid #6e6e6e;
+    padding:4px;
+    text-align:center !important;
+}
+.answer_correct {
+    /* this class characterizes a correct answer */
+    color:#008000;
+    font-weight:bold;
+}
+.answer_wrong {
+    /* this class characterizes a wrong answer */
+    color:#8B0000;
+    font-weight:bold;
+}
+.answer_shouldbe {
+    /* this class characterizes the correct answer for a given wrong one */
+    color:black;
+    font-weight:bold;
+}
+.answer_none {
+    /*
+    this class characterizes a mchoice situation:an answer was not choosen and should not be choosen
+    so, it is neither a correct answer nor a wrong one
+    */
+}
+/* end dynamic settings section */
+
+/* begin printer section */
+@media print {
+    html, body {
+        width:650px;
+    }
+   .go_next {
+        display:none;
+    }
+}
+/* end printer section */

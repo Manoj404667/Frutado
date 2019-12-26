@@ -1,0 +1,84 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>about:blank</title>
+
+<script language=javascript src="./url.js"></script>
+<script language=javascript src="./xml.js"></script>
+<script language=javascript src="./callback.js"></script>
+<script language=javascript src="./dhtml.js"></script>
+<script language=javascript src="./dhtml_standard.js"></script>
+
+
+<script language=javascript>
+
+var urlParams = [];
+var dgoDOMAIN;
+
+urlParams = splitUrlParams(urlParams);
+
+function splitUrlParams(urlParams) {
+    var temp = new String(window.location.search);
+
+    if (temp.substr(0, 1) == '?') {
+        temp = temp.substr(1);
+    }
+
+    var urlParams = [];
+
+    if (temp.length && temp.length > 0) {
+        urlParams = temp.split('&');
+    }
+    var urlParamsAsoc = [];
+    for (var i = 0; i < urlParams.length; i++) {
+        var urlParam = urlParams[i].split('=');
+        urlParams[urlParam[0]] = unescape(urlParam[1]);
+    }
+    return urlParams;
+}
+
+dgoDOMAIN = urlParams['dgoDOMAIN'] || '';
+var url_ = urlParams['url'];
+var func = urlParams['onload'];
+
+var xmlDoc_;
+
+function XmlData_ChainOnload_() {
+    var serializer = new XMLSerializer();
+    var xmlString = serializer.serializeToString(xmlDoc_.xml_);
+    if (dgoDOMAIN != '') {
+        if (self.location.protocol == 'http:' ||
+            self.location.protocol == 'https:') 
+        {
+            self.document.domain = dgoDOMAIN;
+        }
+    }
+    eval(func);
+}
+
+function body_load() {
+    xmlDoc_ = new XmlData(window);
+    xmlDoc_.load(this.url_, self, self.XmlData_ChainOnload_);
+}
+
+</script>
+</head>
+
+<body onload="body_load()">
+</body>
+</html>
+
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

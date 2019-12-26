@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>datango SMIL based audio player</title>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+</head>
+
+<style>
+  .time2 { behavior: url(#default#time2); }
+</style>
+
+<XML:NAMESPACE PREFIX='t2'/>
+
+<body style='background-color:gray'
+ onload="return parent.frames.trainer_program_frame.dgoO && parent.frames.trainer_program_frame.dgoO.XCQ.XGj()">
+
+<script language=javascript>
+if (self.location.search.length > 1) {
+    if (self.location.protocol == 'http:' ||
+        self.location.protocol == 'https:') 
+    {
+        self.document.domain = self.location.search.substr(1);
+    }
+}
+</script>
+
+  <span>trainer-state | smil2-state @time: </span>
+  <span id=agent_audio_state>unavailable during init</span>
+  <br>
+  
+  <t2:audio class=time2 id="XCI_"
+    t2:clipbegin=0 t2:clipend=999999999 t2:syncbehavior=canslip t2:restart=always
+    onbegin="return parent.frames.trainer_program_frame.dgoO && parent.frames.trainer_program_frame.dgoO.XCQ.XFk(window.event)"
+    onend="parent.frames.trainer_program_frame.dgoO && parent.frames.trainer_program_frame.dgoO.XCQ && parent.frames.trainer_program_frame.dgoO.XCQ.XFk(window.event); /* XCI_.src = null; */"
+    onmediaerror="return parent.frames.trainer_program_frame.dgoO.XCQ.XFk(window.event)"
+    onmediacomplete="return parent.frames.trainer_program_frame.dgoO.XCQ.XFk(window.event)"
+    onmediaoutofsync="return parent.frames.trainer_program_frame.dgoO.XCQ.XFk(window.event)"
+    onmediasyncrestored="return parent.frames.trainer_program_frame.dgoO.XCQ.XFk(window.event)">
+</body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

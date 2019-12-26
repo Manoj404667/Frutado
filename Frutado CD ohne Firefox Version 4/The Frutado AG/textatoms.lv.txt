@@ -1,0 +1,251 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	 @{TOK_COMPANY} kurss
+TOK_TOUR;	 @{TOK_COMPANY} solis
+TOK_TRAINER;	 @{TOK_COMPANY} treneris
+
+# Key names	
+ALTKEY;	alt
+CTRLKEY;	ctrl
+LEFTALTKEY;	alt (kreisajā pusē )
+LEFTCTRLKEY;	ctrl (kreisajā pusē)
+LEFTSHIFTKEY;	shift (kreisajā pusē)
+ON;	ieslēgts
+OFF;	izslēgts
+RIGHTALTKEY;	alt (labajā pusē)
+RIGHTCTRLKEY;	ctrl (labajā pusē)
+RIGHTSHIFTKEY;	shift (labajā pusē)
+SHIFTKEY;	shift
+
+# trainer states	
+TOK_BUFFERING;	Audio tiek ielādēts ... 
+TOK_CONNECTING;	Savienojums ... 
+TOK_IDLE;	
+TOK_LMS;	Ierakstīt rezultātu ...
+TOK_OPENING;	Savienojums ... 
+TOK_OPEN;	
+TOK_PAUSED;	Pārtraukums
+TOK_PLAYING;	Procesā
+TOK_READY;	Gatavs
+TOK_USERINPUT;	Ievade
+TOK_WAITING;	Lapa tiek ielādēta ... 
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Rāmju sērijas šeit nevar apskatīties.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">Dokumentus ar IFRAME šeit nevar apskatīties.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	Popup Blocker neļauj parādīt soli.
+TOK_POPUPBLOCKER_CONFIRM;	"Popup Blocker aizkavēja jaunā Browser loga atvēršanu.@{NEWLINE}@{NEWLINE}OK: Jūs varat turpināt, jo Jūs esat izslēguši Popup Blocker@{NEWLINE} interneta serverī.@{NEWLINE}Pārtraukt: Mācību solis tiek aizvērts."
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Internet Explorer\n\rdrošības nostādīšana aizkavē @{TOK_TOUR} attēlošanu.\nPieļaujiet, lūdzu,\n""teksta draivera iniciētos logus bez izmēru un pozīciju ierobežojumiem""!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	" @1 ""@2"" nevarēja izlasīt."
+TOK_COULD_NOT_READ2_EXC;	" @1 ""@2"" nevarēja izlasīt: @3"
+
+# Form texts	
+TOK_CLOSE;	Aizvērt
+TOK_DIR;	Rādītājs
+TOK_ERROR;	Kļūda
+TOK_EXIT;	Pabeigt
+TOK_OPEN;	Atvērt
+TOK_SEARCH;	Meklēt
+TOK_START;	Start
+TOK_START_TOUR;	Uzsākt @{TOK_TOUR} 
+TOK_STOP;	Stop
+
+# Library	
+TOK_LIB_BTN_LESS;	mazāk...
+TOK_LIB_BTN_MORE;	vairāk...
+TOK_LIB_EMPTY;	Tukšs elements
+TOK_LIB_FLAG_DESC;	Pārmeklēt aprakstu
+TOK_LIB_FLAG_KEEP_OPEN;	Kursa struktūras pārskatu atstāt atvērtu
+TOK_LIB_FLAG_NEWWIN;	Jaunā logā
+TOK_LIB_FLAG_TITLE;	Pārmeklēt nosaukumu
+TOK_LIB_RESET;	Dzēst meklēšanas rezultātus
+
+# Mimetypes	
+MIME_TEXT_PDF;	PDF - Adobe Acrobat formāts
+MIME_APP_MSWORD;	Winword dokuments
+MIME_APP_EXCEL;	Excel darba lapa
+MIME_APP_PPT;	Powerpoint folijas
+MIME_APP_OOFF;	OpenOffice dokuments
+MIME_APP_OOFFWRITE;	OpenOffice teksts
+MIME_APP_OOFFCALC;	OpenOffice kalkulācija
+MIME_APP_OOFFIMPRESS;	OpenOffice prezentācija
+MIME_APP_OOFFMATH;	OpenOffice formulas
+MIME_AUDIO;	Skaņa
+MIME_VIDEO;	Video
+MIME_TEXT_HTML;	Internetlapa
+MIME_TEXT;	Teksta dokuments
+MIME_APP_DGO;	 @{TOK_COMPANY} mācību solis
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE;	 @{TOK_COMPANY} vingrinājums
+MIME_APP_DGO_TEST;	 @{TOK_COMPANY} tests
+MIME_APP_DGO_CONCURRENT;	" @{TOK_COMPANY} solis ""prakses režīms"""
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY;	"Turpināt (F8); ar ""Alt"": restarts"
+TIP_PAUSE;	"Apturēt (PĀRTRAUKUMS); ar ""Shift"": uzlabot audio kvalitāti; ar ""Alt"": taupīt audio frekvences joslas platumu"
+TIP_STOP;	"Pabeigt (F12); ar ""Shift"": parādīt versiju"
+TIP_NEXT;	Nākošā nodaļa (ALT-bulta uz leju)
+TIP_BACK;	"iepriekšējā nodaļa (ALT-bulta uz augšu); ar ""Alt"": parādīt kursu"
+TIP_MAXBUBBLE;	Atjaunot teksta lauku
+TIP_MINBUBBLE;	Samazināt teksta lauku
+TIP_CLOSEBUBBLE;	Dzēst teksta lauku
+TIP_ENABLED;	
+TIP_DISABLED;	(pašlaik nav iespējams)
+TIP_TASK;	Uzdevuma uzdošana
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW;	Aizvērt logu
+TOK_BP_GOBACK;	Atpakaļ
+TOK_BP_GOON;	Tālāk
+TOK_BP_JSCONSOLE;	Javascript paziņojumi
+TOK_BP_MODE;	Režīms
+TOK_BP_PARAMETER;	Parameters
+TOK_BP_RESTARTPROGRAM;	Atkārtot programmu
+TOK_BP_STARTANOTHER;	Uzsākt jaunu programmu 
+TOK_BP_VALUE;	Vērtība
+
+# Exercise colors	
+EXER_COLOR_ERROR;	iezīmēts sarkanā krāsā
+EXER_COLOR_CLICK;	iezīmēts zaļā krāsā
+EXER_COLOR_DBLCLICK;	iezīmēts dzeltenā krāsā
+EXER_COLOR_RCLICK;	iezīmēts tirkīza krāsā 
+EXER_COLOR_CHANGE;	pasvītrots zaļā krāsā
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_FAIL0;	Diemžēl nepareizi.
+EXER_FAIL1;	Diemžēl nepareizi. 1 punkts atskaitīts. Jums paliek: @1_rest-points_.
+EXER_FAIL2;	Diemžēl nepareizi. @1_points-penalty_ Punkti tiek atskaitīti. Jums paliek: @2_rest-points_.
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Vai Jums ir vajadzīga palīdzība?
+EXER_FAILCHANGE_HELP;	"Izmainītais lauks kļuva @{EXER_COLOR_ERROR}.@{NEWLINE}Visi ievades lauki, kurus drīkst mainīt, kļuva @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_HELP;	Pieļaujamu ievades lauku nav.@{NEWLINE}Izmainītais lauks kļuva @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP;	Noklikšķinātais lauks kļuva @{EXER_COLOR_ERROR}.@{NEWLINE}Visas pieļaujamās pogas kļuva @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;	Klikšķināt nedrīkst.@{NEWLINE}Noklikšķinātais lauks kļuva @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP;	Ar dubultklikšķi iezīmētais lauks kļuva @{EXER_COLOR_ERROR}.@{NEWLINE}Visas dubultklikšķiem paredzētās pogas kļuva @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;	Nedrīkst iezīmēt ar dubultklikšķi.@{NEWLINE}Noklikšķinātais lauks kļuva @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP;	"Ar peles labo pogu noklikšķinātais lauks kļuva @{EXER_COLOR_ERROR}.@{NEWLINE}Visas pogas, kurus var noklikšķināt ar peles labo pogu, kļuva @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_HELP;	Klikšķis ar peles labo pogu nav pieļaujams.@{NEWLINE}Noklikšķinātais lauks kļuva @{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0;	Jūs nospiedāt nepareizo taustiņu.
+EXER_FAILKEY_HELP1;	"Jūs nospiedāt ""@1_key_""."
+EXER_FAILKEY_HELP2;	@{NEWLINE}Pieļaujamie funkciju taustiņi:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}Pieļaujami arī:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Lauka izmainīšana (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Klikšķis (pogas ir @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Dubultklikšķis (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Norādījums: Ar šo Jūs zaudējat visus saņemtos punktus)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Funkciju taustiņu nospiešana @{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Pieļaujami:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Klikšķis ar peles labo taustiņu (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Norādījums: Pretējā gadījumā tiek automātiski turpināts)
+EXER_HINT_YOURINPUT;	"Jūs ievadījāt ""@1_input_"".@{NEWLINE}"
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	"Lūdzu, atceliet opcijas ""@1"" izvēli!"
+MSG_OPTIONFIELD_SELECT;	"Lūdzu, izvēlieties opciju ""@1"" vai atceliet tās izvēli!"
+MSG_SCORE;	"Saņemto punktu skaits: ""@1""."
+MSG_SINGLE_SELECT;	"Lūdzu, izvēlieties ierakstu ""@1""!"
+MSG_TEXTINPUT;	"Lūdzu, ievadiet ""@1"" ievades laukā ""@2""!"
+MSG_TRANSACTIONCODE;	"Lūdzu, ievadiet pareizo transakcijas kodu ""@1""!"
+
+capDemoStart;	Demo-režīms 
+msgDemoStart1;	"Demo-režīmā Jūs varat novērot lietošanas uzdevuma izpildīšanu. Vienkārši novērojiet demonstrēšanu, visi soļi tiek izpildīti automātiski."
+msgDemoStart2;	Ar navigācijas izvēlnes palīdzību apakšējā malā Jūs varat pārtraukt vai izbeigt demonstrēšanu. Turklāt Jūs varat pāriet pie nākošā un atgriezties pie iepriekšējā soļa. 
+msgDemoStop;	Demo-režīms tika pabeigts.
+
+capConcurrentStart;	Prakses režīms
+msgConcurrentStart1;	Prakses režīmā Jūs saņemat pamācību soli pa solim aplikācijas uzdevuma izpildīšanai.  
+msgConcurrentStart2;	"Pēc katra soļa izpildīšanas demonstrēšana tiek pārtraukta, lai Jūs varētu izprast izpildīto soli.  "
+msgConcurrentStop;	Prakses režīms tika pabeigts.
+
+capTestStart;	Testa režīms 
+msgTestStart1;	"Testa režīmā Jūs varat pārbaudīt savas zināšanas, patstāvīgi izpildot lietošanas uzdevumu. Izņemot datus, kas Jums jāievada, Jūs nesaņemsiet nekādus norādījumus darba procesam. Uzdevums ir sīki aprakstīts uzdevuma logā, kuru Jūs varat palielināt vai samazināt pēc vajadzības ar attiecīgās pamatizvēlnes pogas palīdzību.  "
+msgTestStart2;	"Pēc testa pabeigšanas Jūs saņemat vērtējumu, pamatojoties uz veiksmīgi izpildītajiem soļiem. Šis vērtējums ir paredzēts tikai un vienīgi  pašnovērtēšanai, dati netiek saglabāti vai nosūtīti. "
+msgTestStart3;	"Lūdzu, pildiet darbības ļoti rūpīgi, jo sistēmā tiek reģistrētas visas pareizrakstības kļūdas un nepareizo taustiņu nospiešana, kas negatīvi ietekmē Jūsu vērtējumu. Ja Jūs kāda soļa izpildīšanai pieprasāt palīdzību, Jūs zaudējat par šī soļa izpildīšanu paredzētos punktus. "
+msgTestStart4;	"Jūsu vērtējums tiek parādīts testa beigās. Pamēģiniet, lūdzu, sasniegt @{res_mastery_percent}% mērķi."
+capTestOk;	Jūs esat izturējis/usi pārbaudījumu.
+capTestFailed;	Jūs neesat izturējis/usi pārbaudījumu.
+msgTestFailed1;	"Mēs iesakām Jums pārskatīt šī kursa saturu vēlreiz un pēc tam atkārtoti pārbaudīt Jūsu zināšanas testa režīmā, jo Jūs esat sasniedzis/sasniegusi mazāk par @{res_mastery_percent}% no iespējamajiem punktiem. "
+msgTestFinished2;	"Šis tests ir paredzēts tikai  Jūsu pašnovērtēšanai, dati netiek saglabāti vai nosūtīti. "
+msgTestOk1;	Apsveicam! Jūs esat veiksmīgi izpildījis/usi šo uzdevumu.
+msgTestResult;	Rezultāts
+msgTestScore;	Saņemto punktu skaits
+msgTestScoreValue;	 @{res_collected_points} no @{res_possible_points}
+
+capPracticeStart;	Vingrināšanas režīms
+msgPracticeStart1;	"Vingrināšanas režīmā Jūs varat izmēģināt iemācīto, patstāvīgi izpildot uzdevumu aplikācijā. "
+msgPracticeStart2;	Vienkārši sekojiet pamācībai soli pa solim.
+msgPracticeStop;	Vingrināšanas režīms tika pabeigts
+
+
+# eof	
+# New messages added after 6.1.0 beta 2
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+TOK_LIB_VAL_NOFILTER; no filter
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+EXER_OR;	@{NEWLINE}or@{NEWLINE}
+EXER_AND;	@{NEWLINE}and@{NEWLINE}
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

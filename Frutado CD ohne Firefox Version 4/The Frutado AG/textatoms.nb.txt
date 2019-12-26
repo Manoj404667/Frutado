@@ -1,0 +1,250 @@
+﻿# Base tokens	Norsk
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB	@{TOK_COMPANY} Kurs
+TOK_TOUR	@{TOK_COMPANY} Læringsenhet
+TOK_TRAINER	@{TOK_COMPANY} Lærer
+
+# Key names	
+ALTKEY	Alt
+CTRLKEY	Ctrl
+LEFTALTKEY	Alt (venstre)
+LEFTCTRLKEY	Ctrl (venstre)
+LEFTSHIFTKEY	Shift (venstre)
+ON	On / på
+OFF	Off / av
+RIGHTALTKEY	Alt (høyre)
+RIGHTCTRLKEY	Ctrl (høyre)
+RIGHTSHIFTKEY	Shift (høyre)
+SHIFTKEY	Shift 
+
+# trainer states	
+TOK_BUFFERING	Buffering...
+TOK_CONNECTING	Laster program...
+TOK_IDLE	
+TOK_LMS	Skriver resultat
+TOK_OPENING	Laster program...
+TOK_OPEN	
+TOK_PAUSED	Pause
+TOK_PLAYING	Spiller
+TOK_READY	Klar
+TOK_USERINPUT	Inndata
+TOK_WAITING	Laster side...
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;"<span style=""color: red; font-weight: bolder;"">Framesets cannot be shown here.</span>"
+TOK_IEPOPUP_IFRAME_EXC;"<span style=""color: red; font-weight: bolder;"">Documents with IFRAMEs cannot be shown here.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC	En Popupblokkering forhindrer at læringsenheten kan kjøres.
+TOK_POPUPBLOCKER_CONFIRM	En Popupblokkering gjør at browservinduet ikke kan åpnes. @{NEWLINE}@{NEWLINE}OK: Du har slått av popupblokkeringen@{NEWLINE} til webserveren og kan derfor fortsette. @{NEWLINE}Avbryt: Læringsenheten avsluttes.
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC	"En sikkerhetsinnstilling i Internet Explorer forhindrer visningen av @{TOK_TOUR}. Tillat \n""Skriptstartede vinduer uten størrelse- og plasseringsbegrensninger!""!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC	"@1 ""@2"" kunne ikke leses."
+TOK_COULD_NOT_READ2_EXC	"@1 ""@2"" kunne ikke leses: @3"
+
+# Form texts	
+TOK_CLOSE	Lukk
+TOK_DIR	Register
+TOK_ERROR	Feil
+TOK_EXIT	Avslutt
+TOK_OPEN	Åpne
+TOK_SEARCH	Søk
+TOK_START	Start
+TOK_START_TOUR	Start @{TOK_TOUR} 
+TOK_STOP	Stopp
+
+# Library	
+TOK_LIB_BTN_LESS	Mindre....
+TOK_LIB_BTN_MORE	Mer...
+TOK_LIB_EMPTY	Tomt element
+TOK_LIB_FLAG_DESC	Søk etter beskrivelse
+TOK_LIB_FLAG_KEEP_OPEN	Åpne kursstruktur
+TOK_LIB_FLAG_NEWWIN	I et nytt vindu
+TOK_LIB_FLAG_TITLE	Søk etter tittel
+TOK_LIB_RESET	Slett søkeresultat
+
+# Mimetypes	
+MIME_TEXT_PDF	PDF - Adobe Acrobat Format
+MIME_APP_MSWORD	Winword Dokument
+MIME_APP_EXCEL	Excel regneark
+MIME_APP_PPT	Powerpoint presentasjoner
+MIME_APP_OOFF	OpenOffice Dokument
+MIME_APP_OOFFWRITE	OpenOffice Tekst
+MIME_APP_OOFFCALC	OpenOffice Regneark
+MIME_APP_OOFFIMPRESS	OpenOffice Presentasjon
+MIME_APP_OOFFMATH	OpenOffice Formel
+MIME_AUDIO	Lyd
+MIME_VIDEO	Video
+MIME_TEXT_HTML	Internettside
+MIME_TEXT	Tekst dokument
+MIME_APP_DGO	@{TOK_COMPANY} Læringsenhet
+MIME_APP_DGO_DEMO	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE	@{TOK_COMPANY} Øvingsoppgave
+MIME_APP_DGO_TEST	@{TOK_COMPANY} Test
+MIME_APP_DGO_CONCURRENT	@{TOK_COMPANY} Læringsenhet Praksismodus
+MIME_UNKNOWN	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY	Fortsett (F8)
+TIP_PAUSE	Stopp (PAUSE)
+TIP_STOP	Avslutt (F12)
+TIP_NEXT	Neste kapittel (ALT-pil ned)
+TIP_BACK	Forrige kapittel (ALT-pil opp)
+TIP_MAXBUBBLE	Gjenopprett tekstboble 
+TIP_MINBUBBLE	Minimer tekstboble 
+TIP_CLOSEBUBBLE	Slett tekstboble
+TIP_ENABLED	
+TIP_DISABLED	(for øyeblikket ikke tilgjengelig)
+TIP_TASK	Oppgave
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW	Lukk vindu
+TOK_BP_GOBACK	Tilbake
+TOK_BP_GOON	Videre
+TOK_BP_JSCONSOLE	Javascript meldinger
+TOK_BP_MODE	Modus
+TOK_BP_PARAMETER	Parameter
+TOK_BP_RESTARTPROGRAM	Start program på nytt
+TOK_BP_STARTANOTHER	Start nytt program
+TOK_BP_VALUE	Verdi
+
+# Exercise colors	
+EXER_COLOR_ERROR	Markert rødt
+EXER_COLOR_CLICK	Markert grønt
+EXER_COLOR_DBLCLICK	Markert gult
+EXER_COLOR_RCLICK	Markert turkis
+EXER_COLOR_CHANGE	Streket under med grønt
+
+# Exercises	
+EXER_AND	@{NEWLINE}og@{NEWLINE}
+EXER_FAIL0	Dessverre feil
+EXER_FAIL1	Dessverre feil. 1 Poeng trekk. Du har nå: @1_rest-points_.
+EXER_FAIL2	Dessverre feil. @1_points-penalty_ poeng trekk. Du har nå: @2_rest-points_.
+EXER_FAIL_ASK4HELP	@{NEWLINE}@{NEWLINE} Trenger du hjelp?
+EXER_FAILCHANGE_HELP	Det endrede feltet ble @{EXER_COLOR_ERROR}.@{NEWLINE} Alle felt som kan endres er @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP	Det er ingen felt som kan endres.@{NEWLINE} Det endrede feltet ble @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP	Det markerte feltet ble @{EXER_COLOR_ERROR}.@{NEWLINE} Alle tilgjengelige knapper ble @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP	Flere klikk er ikke tillatt.@{NEWLINE}Det markerte feltet ble @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP	Feltet, det ble dobbeltklikket på, ble @{EXER_COLOR_ERROR}.@{NEWLINE} Alle felt hvor dobbeltklikk er lov ble @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP	Et doppeltklikk er ikke lov.@{NEWLINE} Det markerte feltet ble @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP	Høyreklikk i det markerte feltet ble @{EXER_COLOR_ERROR}.@{NEWLINE} Alle knapper, hvor høyreklikk er tilgjengelig, ble markert @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP	
+EXER_FAILKEY_HELP0	Du har brukt feil tast
+EXER_FAILKEY_HELP1	"Du har brukt ""@1_key_""."
+EXER_FAILKEY_HELP2	@{NEWLINE} De tilgjengelige funksjonstastene er:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID	@{NEWLINE}@{NEWLINE} Også tilgjengelig er:
+EXER_HINT_CHANGABLE_MARKED	@{NEWLINE}@{BULLET} Feltendring (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED	@{NEWLINE}@{BULLET} Klikk (taster er @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED	@{NEWLINE}@{BULLET} Dobbeltklikk (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS	@{NEWLINE}(Hint: Handling vil føre til at alle poeng slettes)
+EXER_HINT_KEYS	"@{NEWLINE}@{BULLET} Trykk på funksjonstasten  r\n""@1_keys_"""
+EXER_HINT_ONLY_VALID	@{NEWLINE}@{NEWLINE} Tilgjengelig er:
+EXER_HINT_RCLICK_MARKED	@{NEWLINE}@{BULLET} Høyreklikk (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON	@{NEWLINE}(Hint: Hvis ikke, vil programmet automatisk fortsette)
+EXER_HINT_YOURINPUT	"Du har valgt ""@1_input_"".@{NEWLINE}"
+EXER_OR	@{NEWLINE}eller@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT	"Deaktiver alternativ ""@1""!"
+MSG_OPTIONFIELD_SELECT	"Aktiver eller deaktiver alternativ ""@1""!"
+MSG_SCORE	"Antall oppnådde poeng: ""@1""."
+MSG_SINGLE_SELECT	"Velg  ""@1""!"
+MSG_TEXTINPUT	"Fyll inn ""@1"" i felt ""@2"" !"
+MSG_TRANSACTIONCODE	"Velg korrekt transaksjonskode ""@1"" !"
+
+capDemoStart	Demo-Modus 
+msgDemoStart1	I Demo-Modus kan du se løsningen av en oppgave. Følg visningen og oppgaven blir utført automatisk.
+msgDemoStart2	Du avbryte eller stoppe visningen ved å trykke på panelet nederst i vinduet. I tillegg kan du hoppe fremover til neste skritt eller bakover til forrige skritt.
+msgDemoStop	Demo-Modus er avsluttet.
+
+capConcurrentStart	Praksis-Modus
+msgConcurrentStart1	Praksis-Modus gir deg en veiledning skritt-for-skritt for hvordan du kan gjennomføre en oppgave i applikasjonen. 
+msgConcurrentStart2	Etter hvert skritt avbrytes visningen, slik at du kan slik at du selv kan gjennomføre det som akkurat ble vist i applikasjonen. 
+msgConcurrentStop	Praksis-Modus er avsluttet
+
+capTestStart	Test-Modus
+msgTestStart1	I Test-Modus kan du teste dine kunnskaper ved at du selv løser oppgaver. Foruten informasjon fra eksempelet, vil du ikke motta veiledning til oppgaven. Hele oppgaven vil bli beskrevet i opppgavevinduet, slik at du etter behov kan maksimere eller minimere tittellinjen ved hjelp av knappene.
+msgTestStart2	Etter at testen er avsluttet, vil du få resultatet basert på antall riktig utførte skritt. Dette resultatet er kun for å gi deg et inntrykk av dine kunnskaper, informasjonen blir hverken lagret eller overført.
+msgTestStart3	Vær forsiktig når du utfører oppgavene. Systemet registrerer alle skrivefeil og ukorrekte klikk, som senere vil gjøre et negativt utslag på resultatet. Dersom du bestemmer deg for å bruke hjelpfunksjonen, vil du miste alle poeng du kunne ha fått for dette arbeidsskrittet.
+msgTestStart4	Resultatet ditt blir vist etter at testen er avsluttet, prøv å slå resultatet @{res_mastery_percent}%.
+capTestOk	Du har bestått testen.
+capTestFailed	Du har ikke bestått testen.
+msgTestFailed1	Ettersom du har oppnådd færre poeng enn @{res_mastery_percent}% av maks oppnåelige poeng, anbefaler vi at du gjennomgår dette kurset en gang til. Etterpå bør du ta testen på nytt for å teste ut dine kunnskaper.
+msgTestFinished2	Denne testen er kun for å gi deg et inntrykk av dine kunnskaper. Resultatene bli hverken lagret eller overført.
+msgTestOk1	Gratulerer, du har bestått denne oppgaven.
+msgTestResult	Resultat
+msgTestScore	Antall poeng du har oppnådd
+msgTestScoreValue	@{res_collected_points} av @{res_possible_points}
+
+capPracticeStart	Oppgave-Modus
+msgPracticeStart1	I Oppgave-Modus kan du prøve ut det du har lært, ved at du løser oppgaver i applikasjonen.
+msgPracticeStart2	Følg veiledningen skritt-for-skritt.
+msgPracticeStop	Oppgave-Modus er avsluttet.
+
+# eof# New messages added after 6.1.0 beta 2
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+TOK_LIB_VAL_NOFILTER no filter
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

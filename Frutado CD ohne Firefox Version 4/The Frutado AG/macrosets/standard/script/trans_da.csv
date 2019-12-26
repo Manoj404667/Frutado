@@ -1,0 +1,221 @@
+﻿click.demo	Klik nu på [B_NAME].
+click.prac	Klik venligst på [B_NAME].
+click_img.demo	Klik nu på [B_NAME_ICON].
+click_img.prac	Klik venligst på [B_NAME_ICON].
+click_cancel_trans_img.demo	Ved klik på [B_ICON_NAME] afbrydes transaktionen.
+click_cancel_trans_img.prac	Klik på [B_ICON_NAME] for at afbryde transaktionen.
+click_back_img.demo	Ved klik på [B_ICON_NAME] vender du tilbage til den foregående side.
+click_back_img.prac	Klik på [B_ICON_NAME] for at vende tilbage til den foregående side.
+click_ok_img.demo	Klik nu på [B_ICON_NAME].
+click_ok_img.prac	Klik på [B_ICON_NAME].
+click_exit_trans_img.demo	Ved klik på [B_ICON_NAME] forlader du transaktionen.
+click_exit_trans_img.prac	Klik på [B_ICON_NAME] for at forlade transaktionen.
+click_save_img.demo	Ved klik på [B_ICON_NAME] gemmer du indtastningerne.
+click_save_img.prac	Klik på [B_ICON_NAME] for at gemme indtastningerne.
+click_checkbox_off.demo	[B_NAME] deaktiveres.
+click_checkbox_off.prac	Deaktiver værdien [B_NAME].
+click_next_page_img.demo	Ved klik på [B_NAME_ICON] åbner du den næste side.
+click_next_page_img.prac	Klik venligst på [B_NAME_ICON].
+click_checkbox_on.demo	[B_NAME] selekteres.
+click_checkbox_on.prac	Selekter værdien [B_NAME].
+click_select_value.demo	Værdien [B_NAME] vælges.
+click_select_value.prac	Vælg værdien [B_NAME].
+click_open_menu.demo	Menuen [B_NAME] åbnes.
+click_open_menu.prac	Åbn menuen [B_NAME].
+click_menu_select.demo	Posten [B_NAME] vælges.
+click_menu_select.prac	Vælg posten [B_NAME].
+click_select_column.demo	Spalten [B_NAME] vælges.
+click_select_column.prac	Vælg spalten [B_NAME] ved klik på spaltehovedet.
+click_open_value_help.demo	Værdihjælpen åbnes.
+click_open_value_help.prac	Åbn venligst værdihjælpen.
+click_select_line.demo	Linjen [B_NAME] vælges.
+click_select_line.prac	Vælg linjen [B_NAME] ved klik på første spalte.
+click_scroll_top.demo	Ved klik på [ICON] scrolles der til begyndelsen.
+click_scroll_top.prac	Scroll til begyndelsen ved klik på [ICON].
+click_scroll_bottom.demo	Ved klik på [ICON] scrolles der til slutningen.
+click_scroll_bottom.prac	Scroll til slutningen ved klik på [ICON].
+click_scroll_pageup.demo	Ved klik på [ICON] scrolles der en side op.
+click_scroll_pageup.prac	Scroll en side op ved klik på [ICON].
+click_scroll_pagedown.demo	Ved klik på [ICON] scrolles der en side ned.
+click_scroll_pagedown.prac	Scroll en side ned ved klik på [ICON].
+click_scroll_lineup.demo	Ved klik på [ICON] scrolles der en linje op.
+click_scroll_lineup.prac	Scroll en linje op ved klik på [ICON].
+click_scroll_linedown.demo	Ved klik på [ICON] scrolles der en linje ned.
+click_scroll_linedown.prac	Scroll en linje ned ved klik på [ICON].
+click_close_window_img.demo	Vinduet lukkes ved klik på [ICON].
+click_close_window_img.prac	Luk vinduet ved klik på [ICON].
+click_select_all_lines_img.demo	Ved klik på [ICON] markeres alle linjer.
+click_select_all_lines_img.prac	Vælg alle linjer ved klik på [ICON].
+click_open_card_menu.demo	Ved klik på [ICON] åbnes valget af kort.
+click_open_card_menu.prac	Åbn kortvalget ved klik på [ICON].
+click_select_card.demo	Kortet [B_NAME] vælges.
+click_select_card.prac	Vælg kortet [B_NAME].
+click_next_cards_img.demo	Ved klik på [ICON] vises de næste kort.
+click_next_cards_img.prac	Vis de næste kort ved klik på [ICON].
+click_prev_cards_img.demo	Ved klik på [ICON] vises de foregående kort.
+click_prev_cards_img.prac	Vis de foregående kort ved klik på [ICON].
+click_open_nav_menu.demo	Ved klik på [ICON] åbnes navigeringsmenuen.
+click_open_nav_menu.prac	Åbn navigeringsmenuen ved klik på [ICON].
+click_close_folder_img.demo	Ved klik på [ICON] lukkes mappen [B_NAME].
+click_close_folder_img.prac	Luk mappen [B_NAME] ved klik på [ICON].
+click_open_folder_img.demo	Ved klik på [ICON] åbnes mappen [B_NAME].
+click_open_folder_img.prac	Åbn mappen [B_NAME] ved klik på [ICON].
+click_select_element_img.demo	Ved klik på [ICON] vælges elementet [B_NAME].
+click_select_element_img.prac	Vælg elementet [B_NAME] ved klik på [ICON].
+click_scroll_down.demo	Der scrolles ned med scrollbaren.
+click_scroll_down.prac	Scroll ned ved hjælp af scrollbaren
+dblclick_select_entry.demo	Ved dobbeltklik på [B_NAME] vælges posten.
+dblclick_select_entry.prac	Vælg posten [B_NAME] med dobbeltklik.
+dblclick_select_date.demo	[B_NAME] vælges.
+dblclick_select_date.prac	Vælg [B_NAME].
+dblclick_start_transaction.demo	Med et dobbeltklik startes transaktionen [B_NAME].
+dblclick_start_transaction.prac	"Start transaktionen [B_NAME] med et dobbeltklik <br>eller<br>indtast transaktionskoden [B_TCODE], og bekræft med Enter-tasten."
+click_close_group.demo	Gruppen [B_NAME] lukkes.
+click_close_group.prac	Luk venligst gruppen [B_NAME].
+click_open_group.demo	Gruppen [B_NAME] åbnes.
+click_open_group.prac	Åbn venligst gruppen [B_NAME].
+select.demo	Som [B_NAME] vælges [B_SELECTED].
+select.prac	Vælg venligst [B_SELECTED] som [B_NAME].
+input_text.demo	Feltet [B_NAME] udfyldes.
+input_text.prac	Indtast venligst [B_INPUT] i feltet [B_NAME].
+input_text_value.demo	Nu indføres [B_INPUT] i feltet [B_NAME].
+input_text_value.prac	Indtast venligst [B_INPUT] i feltet [B_NAME].
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Bekræft indtastningen med <b>Tab-</b> eller <b>Entertasten</b> eller klik på <b>den tilhørende button</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Bekræft indtastningen med <b>Tab-</b> eller <b>Entertasten</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Bekræft indtastningen med <b>Entertasten</b> eller klik på <b>den tilhørende button</b>.
+input_tab.demo
+input_tab.prac	<br>Bekræft indtastningen med <b>Tabtasten</b>.
+input_enter.demo
+input_enter.prac	<br>Bekræft indtastningen med <b>Entertasten</b>.
+input_button.demo
+input_button.prac	<br>Bekræft indtastningen med et <b>klik på den tilhørende button</b>.
+click_select.demo	Nu vælges [B_NAME].
+click_select.prac	Vælg venligst [B_NAME].
+click_show_value_help_button.demo	Ved klik i tekstfeltet [B_NAME] åbner du værdihjælpen.
+click_show_value_help_button.prac	Åbn værdihjælpen ved klik i tekstfeltet [B_NAME].
+click_scroll_horizontal.demo	Der scrolles til højre...
+click_scroll_horizontal.prac	Scroll venligst til højre.
+click_scroll_vertical.demo	Der scrolles ned...
+click_scroll_vertical.prac	Scroll venligst ned.
+click_img_expand.demo	For at forstørre navigeringsområdet klikkes der på [ICON].
+click_img_expand.prac	Forstør navigeringsområdet ved at klikke på [ICON].
+click_img_collapse.demo	For at formindske navigeringsområdet klikkes der på [ICON].
+click_img_collapse.prac	Formindsk navigeringsområdet ved at klikke på [ICON].
+click_navrow.demo	I navigeringslinjen vælges [B_NAME].
+click_navrow.prac	Åbn venligst [B_NAME] fra navigeringslinjen.
+click_navrow2.demo	I en anden navigeringslinje vælges [B_NAME].
+click_navrow2.prac	Åbn venligst [B_NAME] fra anden navigeringslinje.
+click_open_context_menu.demo	Kontekstmenuen til [B_NAME] åbnes.
+click_open_context_menu.prac	Åbn kontekstmenuen til [B_NAME].
+click_radio_select.demo	[B_NAME] udvælges.
+click_radio_select.prac	Vælg [B_NAME].
+click_select_img.demo	[B_ICON_NAME] vælges.
+click_select_img.prac	Vælg [B_ICON_NAME].
+click_open_form_view.demo	Med [B_ICON_NAME] skiftes der til formularvisning.
+click_open_form_view.prac	Skift med [B_ICON_NAME] til formularvisningen.
+history_select.demo	[B_NAME] vælges fra historien.
+history_select.prac	Vælg [B_NAME] fra historien.
+click_page_up_img.demo	Ved klik på [B_ICON] scrolles der en side op.
+click_page_up_img.prac	Scroll en side op ved klik på [B_ICON].
+click_page_down_img.demo	Ved klik på [B_ICON] scrolles der en side ned.
+click_page_down_img.prac	Scroll en side ned ved klik på [B_ICON].
+click_page_top_img.demo	Ved klik på [B_ICON] scrolles der til begyndelsen.
+click_page_top_img.prac	Scroll til begyndelsen ved klik på [B_ICON].
+click_page_bottom_img.demo	Ved klik på [B_ICON] scrolles der til slutningen.
+click_page_bottom_img.prac	Scroll til slutningen ved klik på [B_ICON].
+click_sort_by_column.demo	Spalten [B_NAME] sorteres.
+click_sort_by_column.prac	Sorter efter spalte [B_NAME].
+click_select_date.demo	[B_NAME] vælges.
+click_select_date.prac	Vælg [B_NAME].
+click_close_card_img.demo	Ved klik på [ICON] lukkes kortet.
+click_close_card_img.prac	Klik på [ICON] for at lukke kortet.
+click_select_function_img.demo	Ved klik på [ICON] vælges funktionen [B_NAME].
+click_select_function_img.prac	Klik på [ICON] for at vælge funktionen [B_NAME].
+click_hide_treeview.demo	Ved klik på [ICON] skjules trævisningen.
+click_hide_treeview.prac	Skjul trævisningen ved klik på [ICON].
+click_show_treeview.demo	Ved klik på [ICON] vises trævisningen.
+click_show_treeview.prac	Vis trævisningen ved klik på [ICON].
+click_mark_transaction.demo	Ved klik på [B_NAME] markeres transaktionen.
+click_mark_transaction.prac	Marker transaktionen [B_NAME] med et klik.
+dblclick_select_element.demo	Med et dobbeltklik vælges elementet [B_NAME].
+dblclick_select_element.prac	Vælg elementet [B_NAME] med et dobbeltklik.
+please_note.demo	Bemærk følgende: [B_NAME].
+please_note.prac	Bemærk følgende: [B_NAME].
+click_open_value_help_img.demo	Ved klik på <b>Indtastningshjælp</b> [ICON] får du en udvalgsliste med gyldige værdier.
+click_open_value_help_img.prac	Klik på <b>Indtastningshjælp</b> [ICON] for at få en udvalgsliste med gyldige værdier.
+click_open_selection.demo	Ved klik på [ICON] får du en udvalgsliste.
+click_open_selection.prac	Klik på [ICON] for at få en udvalgsliste.
+click_mark_entry.demo	Ved klik på posten [B_NAME] markerer du den.
+click_mark_entry.prac	Marker posten [B_NAME] ved at klikke på den.
+click_mark_entry_img.demo	Ved klik på posten [ICON] vælger du den.
+click_mark_entry_img.prac	Vælg posten [ICON] med klik.
+click_menu_select_img.demo	Ved klik på menupunktet [ICON] udfører du det.
+click_menu_select_img.prac	Klik på menupunktet [ICON] for at udføre det.
+click_open_menu_img.demo	Ved klik på menuen [ICON] åbner du den.
+click_open_menu_img.prac	Klik på menuen [ICON] for at åbne den.
+click_select_card_img.demo	Ved klik på registerkortet [ICON] vælger du det.
+click_select_card_img.prac	Klik på registerkortet [ICON] for at vælge det.
+dblclick_select_line.demo	Ved dobbeltklik på kontaktknappen [NAME] markerer du linjen.
+dblclick_select_line.prac	Dobbeltklik på kontaktknappen [NAME] for at markere linjen.
+click_activate_edit.demo	Ved klik i indtastningsfeltet [B_NAME] aktiverer du det.
+click_activate_edit.prac	Klik i indtastningsfeltet [B_NAME] for at aktivere det.
+dblclick_activate_edit.demo	Ved dobbeltklik i indtastningsfeltet [B_NAME] aktiverer du det.
+dblclick_activate_edit.prac	Dobbeltklik i indtastningsfeltet [B_NAME] for at aktivere det.
+dblclick_open_folder_img.demo	Ved dobbeltklik på symbolet [ICON] åbner du mappen [B_NAME].
+dblclick_open_folder_img.prac	Åbn mappen [B_NAME] ved dobbeltklik på symbolet [ICON].
+click_open_folder.demo	Ved klik på <b>'Åbn mappen'</b> symbol åbner du mappen [B_NAME].
+click_open_folder.prac	Åbn mappen [B_NAME] ved at klikke på <b>'Åbn mappen'</b> symbolet.
+dblclick_open_folder.demo	Ved dobbeltklik på <b>'Åbn mappen'</b> symbolet åbner du mappen [B_NAME].
+dblclick_open_folder.prac	Åbn mappen [B_NAME] ved at dobbeltklikke på <b>'Åbn mappen'</b> symbolet.
+click_close_folder.demo	Ved klik på <b>'Luk mappen'</b> symbolet åbner du mappen [B_NAME].
+click_close_folder.prac	Luk mappen [B_NAME] ved at klikke på <b>'Luk mappen'</b> symbolet.
+drag_scroll_hor.demo	Ved at klikke på og trække i <b>Scroll-bjælken</b> bliver det ønskede område synligt.
+drag_scroll_hor.prac	Klik på og træk i den <b>vandrette scroll-bjælke</b> for at scrolle.
+drag_scroll_vert.demo	Ved at klikke på og trække i <b>Scroll-bjælken</b> bliver det ønskede område synligt.
+drag_scroll_vert.prac	Klik på den <b>lodrette scroll-bjælke</b> og træk i den for at scrolle.
+click_scroll.demo	Ved at klikke på <b>Scroll-kontaktknappen</b> [NAME] bliver det ønskede område synligt.
+click_scroll.prac	Scroll ved at klikke på <b>Scroll-kontaktknappen</b> [NAME].
+click_scroll_page_left.demo	Ved at klikke på <b>Scroll-området</b> bliver det ønskede område synligt.
+click_scroll_page_left.prac	Klik i <b>området til venstre for scroll-bjælken</b> for at scrolle.
+click_scroll_page_right.demo	Ved at klikke på <b>Scroll-området</b> bliver det ønskede område synligt.
+click_scroll_page_right.prac	Klik i <b>området til højre for scroll-bjælken</b> for at scrolle.
+click_scroll_page_up.demo	Ved at klikke på <b>Scroll-området</b> bliver det ønskede område synligt.
+click_scroll_page_up.prac	Klik i <b>området over scroll-bjælken</b> for at scrolle.
+click_scroll_page_down.demo	Ved at klikke på <b>Scroll-området</b> bliver det ønskede område synligt.
+click_scroll_page_down.prac	Klik i <b>området under scroll-bjælken</b> for at scrolle.
+rclick_context.demo	Ved klik med den højre musetaste på [B_NAME] åbnes der en kontekstmenu.
+rclick_context.prac	Klik venligst på [B_NAME] med højre musetaste.
+dblclick_img.demo	Der klikkes dobbelt på [ICON].
+dblclick_img.prac	Dobbeltklik venligst på [ICON].
+keypress.demo	Indtast venligst [B_KEY].
+keypress.prac	Indtast venligst [B_KEY].
+item.close_folder	Luk mappen
+item.open_folder	Åbn mappen
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	lodret scroll-bjælke
+item.hscroll	vandret scroll-bjælke
+item.close_window	Luk vinduet
+item.value_help	Værdiudvalg
+item.scroll	Scroll-bjælke
+item.back_btn	Tilbage
+item.save_btn	Gem
+item.scroll_area	Scroll-område
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

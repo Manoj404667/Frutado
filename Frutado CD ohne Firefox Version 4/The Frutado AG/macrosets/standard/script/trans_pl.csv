@@ -1,0 +1,221 @@
+﻿click.demo	Kliknij teraz na [B_NAME].
+click.prac	Proszę kliknąć na [B_NAME].
+click_img.demo	Kliknij teraz na [B_NAME_ICON].
+click_img.prac	Proszę kliknąć na [B_NAME_ICON].
+click_cancel_trans_img.demo	Kliknięcie na [B_ICON_NAME] anuluje transakcję.
+click_cancel_trans_img.prac	Kliknij na [B_ICON_NAME] w celu anulowania transakcji.
+click_back_img.demo	Kliknięcie na [B_ICON_NAME] wraca do poprzedniej strony.
+click_back_img.prac	"Kliknij na [B_ICON_NAME], aby wrócić do poprzedniej strony."
+click_ok_img.demo	Kliknij teraz na [B_ICON_NAME].
+click_ok_img.prac	Kliknij na [B_ICON_NAME].
+click_exit_trans_img.demo	Kliknięcie na [B_ICON_NAME] prowadzi do opuszczenia transakcji.
+click_exit_trans_img.prac	"Kliknij na [B_ICON_NAME], aby opuścić transakcję."
+click_save_img.demo	Kliknięcie na [B_ICON_NAME] zapisuje wprowadzone dane.
+click_save_img.prac	Kliknij na [B_ICON_NAME] w celu zapisania do pamięci wprowadzonych danych.
+click_checkbox_off.demo	Trwa wyłączanie [B_NAME].
+click_checkbox_off.prac	Wyłącz wartość [B_NAME].
+click_next_page_img.demo	Kliknięcie na [B_NAME_ICON] otwiera następną stronę.
+click_next_page_img.prac	Proszę kliknąć na [B_NAME_ICON].
+click_checkbox_on.demo	Trwa wybieranie [B_NAME].
+click_checkbox_on.prac	Wybierz wartość [B_NAME].
+click_select_value.demo	Trwa wybieranie wartości [B_NAME].
+click_select_value.prac	Wybierz wartość [B_NAME].
+click_open_menu.demo	Trwa otwieranie menu [B_NAME].
+click_open_menu.prac	Otwórz menu [B_NAME].
+click_menu_select.demo	Trwa wybieranie wpisu [B_NAME].
+click_menu_select.prac	Wybierz wpis [B_NAME].
+click_select_column.demo	Trwa wybieranie kolumny [B_NAME].
+click_select_column.prac	Wybierz kolumnę [B_NAME] klikając na nagłówek kolumny.
+click_open_value_help.demo	Trwa otwieranie pomocy dla wartości.
+click_open_value_help.prac	Proszę otworzyć pomoc dla wartości.
+click_select_line.demo	Trwa wybieranie wiersza [B_NAME].
+click_select_line.prac	Wybierz wiersz [B_NAME] klikając na pierwszą kolumnę.
+click_scroll_top.demo	Kliknięcie na [ICON] przewija ekran na początek.
+click_scroll_top.prac	Przewiń ekran na początek klikając na [ICON].
+click_scroll_bottom.demo	Kliknięcie na [ICON] przewija ekran do końca.
+click_scroll_bottom.prac	Przewiń ekran na koniec klikając na [ICON].
+click_scroll_pageup.demo	Kliknięcie na [ICON] przewija ekran o jedną stronę w górę.
+click_scroll_pageup.prac	Przewiń ekran o jedną stronę w górę klikając na [ICON].
+click_scroll_pagedown.demo	Kliknięcie na [ICON] przewija ekran o jedną stronę w dół.
+click_scroll_pagedown.prac	Przewiń ekran o jedną stronę w dół klikając na [ICON].
+click_scroll_lineup.demo	Kliknięcie na [ICON] przewija ekran o jeden wiersz w górę.
+click_scroll_lineup.prac	Przewiń ekran o jeden wiersz w górę klikając na [ICON].
+click_scroll_linedown.demo	Kliknięcie na [ICON] przewija ekran o jeden wiersz w dół.
+click_scroll_linedown.prac	Przewiń ekran o jeden wiersz w dół klikając na [ICON].
+click_close_window_img.demo	Kliknięcie na [ICON] powoduje zamknięcie okna.
+click_close_window_img.prac	Zamknij okno klikając na [ICON].
+click_select_all_lines_img.demo	Kliknięcie na [ICON] zaznacza wszystkie wiersze.
+click_select_all_lines_img.prac	Zaznacz wszystkie wiersze klikając na [ICON].
+click_open_card_menu.demo	Kliknięcie na [ICON] otwiera wybieranie kart.
+click_open_card_menu.prac	Otwórz wybieranie kart klikając na [ICON] .
+click_select_card.demo	Trwa wybieranie karty [B_NAME].
+click_select_card.prac	Wybierz kartę [B_NAME].
+click_next_cards_img.demo	Kliknięcie na [ICON] wyświetla następne karty.
+click_next_cards_img.prac	Wyświetl następne karty klikając na [ICON].
+click_prev_cards_img.demo	Kliknięcie na [ICON] wyświetla poprzednie karty.
+click_prev_cards_img.prac	Wyświetl poprzednie karty klikając na [ICON].
+click_open_nav_menu.demo	Kliknięcie na [ICON] otwiera menu nawigacyjne.
+click_open_nav_menu.prac	Otwórz menu nawigacyjne klikając na [ICON].
+click_close_folder_img.demo	Kliknięcie na [ICON] zamyka folder [B_NAME].
+click_close_folder_img.prac	Zamknij folder [B_NAME] klikając na [ICON].
+click_open_folder_img.demo	Kliknięcie na [ICON] otwiera folder [B_NAME].
+click_open_folder_img.prac	Otwórz folder [B_NAME] klikając na [ICON].
+click_select_element_img.demo	Kliknięcie na [ICON] wybiera element [B_NAME].
+click_select_element_img.prac	Wybierz element [B_NAME] klikając na [ICON].
+click_scroll_down.demo	Za pomocą paska przewijania ekran przewijany jest w dół.
+click_scroll_down.prac	Przewiń ekran w dół przy pomocy paska przewijania.
+dblclick_select_entry.demo	Podwójne kliknięcie na [B_NAME] wybiera wpis.
+dblclick_select_entry.prac	Wybierz wpis [B_NAME] przy pomocy podwójnego kliknięcia.
+dblclick_select_date.demo	Trwa wybieranie [B_NAME].
+dblclick_select_date.prac	Wybierz [B_NAME].
+dblclick_start_transaction.demo	Podwójne kliknięcie startuje transakcję [B_NAME].
+dblclick_start_transaction.prac	Wystartuj transakcję [B_NAME] podwójnie klikając <br>lub<br>wprowadź kod transakcji [B_TCODE] i potwierdź klawiszem Enter.
+click_close_group.demo	Trwa zamykanie grupy [B_NAME].
+click_close_group.prac	Proszę zamknąć grupę [B_NAME].
+click_open_group.demo	Trwa otwieranie grupy [B_NAME].
+click_open_group.prac	Proszę otworzyć grupę [B_NAME].
+select.demo	[B_SELECTED] jest wybierany jako [B_NAME].
+select.prac	Proszę wybrać [B_SELECTED] jako [B_NAME].
+input_text.demo	Wypełniane jest pole [B_NAME].
+input_text.prac	Proszę wpisać [B_INPUT] w polu [B_NAME].
+input_text_value.demo	Trwa wpisywanie [B_INPUT] w polu [B_NAME].
+input_text_value.prac	Proszę wpisać [B_INPUT] w polu [B_NAME].
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Potwierdź wpisane dane przy pomocy klawisza <b>Tab</b> lub <b>Enter</b> lub kliknij na <b>odpowiedni przycisk</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Potwierdź wpisane dane przy pomocy klawisza <b>Tab</b> lub <b>Enter</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Potwierdź wpisane dane przy pomocy klawisza <b>Enter</b> lub kliknij na <b>odpowiedni przycisk</b>.
+input_tab.demo
+input_tab.prac	<br>Potwierdź wpisane dane przy pomocy klawisza <b>Tab</b>.
+input_enter.demo
+input_enter.prac	<br>Potwierdź wpisane dane przy pomocy klawisza <b>Enter</b>.
+input_button.demo
+input_button.prac	<br>Potwierdź wpisane dane <b>klikając na odpowiedni przycisk</b>.
+click_select.demo	Trwa wybieranie [B_NAME].
+click_select.prac	Proszę wybrać [B_NAME].
+click_show_value_help_button.demo	Kliknięcie w pole tekstowe [B_NAME] otwiera pomoc dla wartości.
+click_show_value_help_button.prac	Otwórz pomoc dla wartości klikając w pole tekstowe [B_NAME].
+click_scroll_horizontal.demo	Trwa przewijanie ekranu w prawo…
+click_scroll_horizontal.prac	Proszę przewinąć ekran w prawo.
+click_scroll_vertical.demo	Trwa przewijanie ekranu w dół…
+click_scroll_vertical.prac	Proszę przewinąć ekran w dół.
+click_img_expand.demo	W celu powiększenia obszaru nawigacyjnego należy kliknąć na [ICON].
+click_img_expand.prac	Powiększ obszar nawigacyjny klikając na [ICON].
+click_img_collapse.demo	W celu pomniejszenia obszaru nawigacyjnego należy kliknąć na [ICON].
+click_img_collapse.prac	Pomniejsz obszar nawigacyjny klikając na [ICON].
+click_navrow.demo	Wybierany jest [B_NAME] w wierszu nawigacyjnym.
+click_navrow.prac	Proszę otworzyć [B_NAME] z wiersza nawigacyjnego.
+click_navrow2.demo	Wybierany jest [B_NAME] w drugim wierszu nawigacyjnym.
+click_navrow2.prac	Proszę otworzyć [B_NAME] z drugiego wiersza nawigacyjnego.
+click_open_context_menu.demo	Trwa otwieranie menu kontekstowego dla [B_NAME].
+click_open_context_menu.prac	Otwórz menu kontekstowe dla [B_NAME].
+click_radio_select.demo	Trwa wybieranie [B_NAME].
+click_radio_select.prac	Wybierz [B_NAME].
+click_select_img.demo	Trwa wybieranie [B_ICON_NAME].
+click_select_img.prac	Wybierz [B_ICON_NAME].
+click_open_form_view.demo	Przy pomocy [B_ICON_NAME] włączany jest widok formularza.
+click_open_form_view.prac	Włącz widok formularza przy pomocy [B_ICON_NAME].
+history_select.demo	Trwa wybieranie [B_NAME] z historii.
+history_select.prac	Wybierz [B_NAME] z historii.
+click_page_up_img.demo	Kliknięcie na [B_ICON] przewija ekran o jedną stronę w górę.
+click_page_up_img.prac	Przewiń ekran o jedną stronę w górę klikając na [B_ICON].
+click_page_down_img.demo	Kliknięcie na [B_ICON] przewija ekran o jedną stronę w dół.
+click_page_down_img.prac	Przewiń ekran o jedną stronę w dół klikając na [B_ICON].
+click_page_top_img.demo	Kliknięcie na [B_ICON] przewija ekran na początek.
+click_page_top_img.prac	Przewiń ekran na początek klikając na [B_ICON].
+click_page_bottom_img.demo	Kliknięcie na [B_ICON] przewija ekran do końca.
+click_page_bottom_img.prac	Przewiń ekran na koniec klikając na [B_ICON].
+click_sort_by_column.demo	Trwa sortowanie wg kolumny [B_NAME].
+click_sort_by_column.prac	Posortuj wg kolumny [B_NAME].
+click_select_date.demo	Wybierany jest [B_NAME].
+click_select_date.prac	Wybierz [B_NAME].
+click_close_card_img.demo	Kliknięcie na [ICON] zamyka kartę.
+click_close_card_img.prac	"Kliknij na [ICON], aby zamknąć kartę."
+click_select_function_img.demo	Kliknięcie na [ICON] wybiera funkcję [B_NAME].
+click_select_function_img.prac	"Kliknij na [ICON], aby wybrać funkcję [B_NAME]."
+click_hide_treeview.demo	Kliknięcie na [ICON] ukrywa widok katalogu.
+click_hide_treeview.prac	Ukryj widok katalogu klikając na [ICON].
+click_show_treeview.demo	Kliknięcie na [ICON] wyświetla widok katalogu.
+click_show_treeview.prac	Wyświetl widok katalogu klikając na [ICON].
+click_mark_transaction.demo	Kliknięcie na [B_NAME] zaznacza transakcję.
+click_mark_transaction.prac	Zaznacz transakcję [B_NAME] klikając na nią.
+dblclick_select_element.demo	Za pomocą podwójnego kliknięcia wybierany jest element [B_NAME].
+dblclick_select_element.prac	Wybierz element [B_NAME] za pomocą podwójnego kliknięcia.
+please_note.demo	Zwróć uwagę na: [B_NAME].
+please_note.prac	Zwróć uwagę na: [B_NAME].
+click_open_value_help_img.demo	Kliknięcie na <b>pomoc przy wprowadzaniu danych</b> [ICON] generuje przewijaną listę wyboru z aktualnymi wartościami.
+click_open_value_help_img.prac	"Kliknij na <b>pomoc przy wprowadzaniu danych</b> [ICON], aby uzyskać przewijaną listę wyboru z aktualnymi wartościami."
+click_open_selection.demo	Klikając na [ICON] otrzymasz przewijaną listę wyboru.
+click_open_selection.prac	"Kliknij na [ICON], aby otrzymać przewijaną listę wyboru."
+click_mark_entry.demo	Kliknięcie na wpis [B_NAME] zaznacza go.
+click_mark_entry.prac	Zaznacz wpis [B_NAME] klikając w niego.
+click_mark_entry_img.demo	Wybierz wpis [ICON] klikając w niego.
+click_mark_entry_img.prac	Kliknięcie na wpis [ICON] powoduje jego wybranie.
+click_menu_select_img.demo	Kliknięcie na element menu [ICON] powoduje jego wykonanie.
+click_menu_select_img.prac	"Kliknij na element menu [ICON], aby go wykonać."
+click_open_menu_img.demo	Kliknięcie na menu [ICON] otwiera je.
+click_open_menu_img.prac	"Kliknij na menu [ICON], aby je otworzyć."
+click_select_card_img.demo	Kliknięcie na zakładkę [ICON] powoduje wybranie karty.
+click_select_card_img.prac	"Kliknij na zakładkę [ICON], aby wybrać kartę."
+dblclick_select_line.demo	Podwójne kliknięcie na przycisk [NAME] zaznacza wiersz.
+dblclick_select_line.prac	"Kliknij podwójnie na przycisk [NAME], aby zaznaczyć wiersz."
+click_activate_edit.demo	Kliknięcie w pole wpisywania [B_NAME] aktywuje je.
+click_activate_edit.prac	"Kliknij w pole wpisywania [B_NAME], aby je aktywować."
+dblclick_activate_edit.demo	Podwójne kliknięcie w pole wpisywania [B_NAME] aktywuje je.
+dblclick_activate_edit.prac	"Kliknij podwójnie w pole wpisywania [B_NAME], aby je aktywować."
+dblclick_open_folder_img.demo	Podwójne kliknięcie na symbol [ICON] otwiera folder [B_NAME].
+dblclick_open_folder_img.prac	Otwórz folder [B_NAME] podwójnie klikając na symbol [ICON].
+click_open_folder.demo	Kliknięcie na symbol <b>'Otwórz folder'</b> otwiera folder [B_NAME].
+click_open_folder.prac	Otwórz folder [B_NAME] klikając na symbol <b>'Otwórz folder'</b>.
+dblclick_open_folder.demo	Podwójne kliknięcie na symbol <b>'Otwórz folder'</b> otwiera folder [B_NAME].
+dblclick_open_folder.prac	Otwórz folder [B_NAME] klikając podwójnie na symbol <b>'Otwórz folder'</b>.
+click_close_folder.demo	Kliknięcie na symbol <b>'Zamknij folder'</b> zamyka folder [B_NAME].
+click_close_folder.prac	Zamknij folder [B_NAME] klikając na symbol <b>'Zamknij folder'</b>.
+drag_scroll_hor.demo	Poprzez ciągnięcie klikniętego <b>paska przewijania</b> uwidoczniony zostaje pożądany obszar.
+drag_scroll_hor.prac	"Kliknij i ciągnij <b>poziomy pasek przewijania</b>, aby przewinąć ekran."
+drag_scroll_vert.demo	Poprzez ciągnięcie klikniętego <b>paska przewijania</b> uwidoczniony zostaje pożądany obszar.
+drag_scroll_vert.prac	Kliknij i ciągnij <b>pionowy pasek przewijania</b> aby przewinąć ekran.
+click_scroll.demo	Kliknięcie na <b>przycisk przewijania ekranu</b> [NAME] uwidacznia pożądany obszar.
+click_scroll.prac	Przewiń ekran klikając na <b>przycisk przewijania</b> [NAME].
+click_scroll_page_left.demo	Kliknięcie w <b>pole przewijania ekranu</b> uwidacznia pożądany obszar.
+click_scroll_page_left.prac	"Kliknij w <b>pole na lewo od paska przewijania</b>, aby przewinąć ekran."
+click_scroll_page_right.demo	Kliknięcie w <b>pole przewijania ekranu</b> uwidacznia pożądany obszar.
+click_scroll_page_right.prac	"Kliknij w <b>pole na prawo od paska przewijania</b>, aby przewinąć ekran."
+click_scroll_page_up.demo	Kliknięcie w <b>pole przewijania ekranu</b> uwidacznia pożądany obszar.
+click_scroll_page_up.prac	"Kliknij w <b>pole powyżej paska przewijania</b>, aby przewinąć ekran."
+click_scroll_page_down.demo	Kliknięcie w <b>pole przewijania ekranu</b> uwidacznia pożądany obszar.
+click_scroll_page_down.prac	"Kliknij w <b>pole poniżej paska przewijania</b>, aby przewinąć ekran."
+rclick_context.demo	Kliknięcie prawym przyciskiem myszki na [B_NAME] otwiera menu kontekstowe.
+rclick_context.prac	Proszę kliknąć prawym przyciskiem myszki na [B_NAME].
+dblclick_img.demo	Podwójne kliknięcie na [ICON].
+dblclick_img.prac	Proszę podwójnie kliknąć na [ICON].
+keypress.demo	Proszę wprowadzić [B_KEY].
+keypress.prac	Proszę wprowadzić [B_KEY].
+item.close_folder	Zamykanie folderu
+item.open_folder	Otwieranie folderu
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	pionowy pasek przewijania ekranu
+item.hscroll	poziomy pasek przewijania ekranu
+item.close_window	Zamykanie okna
+item.value_help	Wybór wartości
+item.scroll	Pasek przewijania ekranu
+item.back_btn	Z powrotem 
+item.save_btn	Zapis
+item.scroll_area	Pole przewijania ekranu
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

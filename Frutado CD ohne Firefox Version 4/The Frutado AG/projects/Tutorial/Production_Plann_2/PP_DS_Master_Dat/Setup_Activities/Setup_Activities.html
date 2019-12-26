@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+<title>Tour Links</title>
+</head>
+<body bgcolor="#FFFFB7">
+<span style="font-size:12px;font-family:Arial;">
+<h1>'Setup Activities'</h1>
+<div>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 10pt"><FONT size=3><FONT face=sans-serif><IMG src="pages/header_e02.jpg"></P><FONT face=verdana size=5><B>Create Sequence-Dependent&nbsp;Setup Activities</B></FONT><FONT size=3><FONT face=arial> 
+<P>In the Frutado AG, setup activities are required when changing the bottle type and the flavor of the beverage. These are considered to be sequence dependent. E.g., changing the flavor from a light flavor like Banana to a strong like Cherry takes less time than vice versa.</P>
+<P>The <STRONG>sequence-dependent setup activities</STRONG> are represented by setup matrices. A setup matrix has to be created for each production resource. To each setup activity, a setup group or setup key is assigned to determine the required setup time and the associated costs.</P>
+<P>The setup matrices indicate the possible <STRONG>setup transitions of the predecessor to the successor activity</STRONG> as well as the <STRONG>setup times</STRONG> and <STRONG>setup costs.</STRONG> While it would be possible to define all setup transitions&nbsp;using a&nbsp;<U>nXn</U> matrix (<U>n</U> being the number of products), this would require a big table which would cause stress&nbsp;to the performance of the system&nbsp; because the system has to search for the&nbsp;associated setup transition&nbsp;whenever there is an order planned.&nbsp;The fact that&nbsp;usually many products have very similar setup requirements can be exploited to&nbsp;reduce the number of entries in the table, by splitting&nbsp;the definition of setups into <STRONG>setup groups</STRONG> and <STRONG>setup keys</STRONG>. </P>
+<P><STRONG>Setup groups</STRONG> can contain&nbsp;similar products, which&nbsp;have&nbsp;(mostly)&nbsp;the same setup transitions (in regard to time and costs). A so called standard setup transition&nbsp;indicates the setup transition between two setup groups. If&nbsp;exception setup transitions between certain products of the&nbsp;groups are different&nbsp;from the&nbsp;standard&nbsp;setup transition, individual exception&nbsp;setup transitions can be defined. These setup transitions are represented <STRONG>by setup keys</STRONG> which are assigned to the setup groups.</P>
+<P>Remark: If setup activites are not sequence dependent, setup groups and matrices are not required.&nbsp;Then, the setup times and costs are maintained directly in the PP/DS-PPMs.</P></FONT></FONT><IMG src="pages/separator_logo_e.g"> </FONT></FONT></div>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FMaster%5FDat%2FSetup%5FActivities%2Fdmf%2FSetup%5FActivities%5Fdemo%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Demo: Demo</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FMaster%5FDat%2FSetup%5FActivities%2Fdmf%2FSetup%5FActivities%5Fuebung%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Practice: Practice</a><br><br>
+<a target="blank_" style="text-decoration:none" href="../../../../../frameset.html?config=projects%2FTutorial%2FProduction%5FPlann%5F2%2FPP%5FDS%5FMaster%5FDat%2FSetup%5FActivities%2Fdmf%2FSetup%5FActivities%5Ftest%5Fcfg%2Ejs"><img align="top" border="0" src="../../../../../skin/library/icons/tour.gif">&nbsp;Test: Test</a><br><br>
+<br>
+</span>
+</body>
+</html>

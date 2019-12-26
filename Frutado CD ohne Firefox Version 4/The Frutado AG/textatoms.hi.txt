@@ -1,0 +1,249 @@
+﻿# Base tokens
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY	डाटांगो
+TOK_LIB	@{TOK_COMPANY} कोर्स
+TOK_TOUR	@{TOK_COMPANY} सीखने का पाठ
+TOK_TRAINER	@{TOK_COMPANY} शिक्षक
+
+# Key names
+ALTKEY	ऑल्ट
+CTRLKEY	कंट्रोल
+LEFTALTKEY	ऑल्ट (बायें)
+LEFTCTRLKEY	कंट्रोल (बायें)
+LEFTSHIFTKEY	शिफ्ट (बायें)
+ON	शुरु
+OFF	बंद
+RIGHTALTKEY	ऑल्ट (दायें)
+RIGHTCTRLKEY	कंट्रोल (दायें)
+RIGHTSHIFTKEY	शिफ्ट (दायें)
+SHIFTKEY	शिफ्ट 
+
+# trainer states
+TOK_BUFFERING	आवाज शुरु हो रही है ...
+TOK_CONNECTING	जोड़ना...
+TOK_IDLE
+TOK_LMS	नतीजा लिखना ...
+TOK_OPENING	जोड़ना...
+TOK_OPEN
+TOK_PAUSED	रुकना
+TOK_PLAYING	चल रहा है
+TOK_READY	तैयार
+TOK_USERINPUT	इनपुट
+TOK_WAITING	पृष्ठ शुरु हो रहा है ...
+
+# Display errors
+TOK_IEPOPUP_FRAMESET_EXC	"<span style=""color: red; font-weight: bolder;"">फ्रेमसैट यहाँ नही दिखाये जा सकते हैं ।</span>"
+TOK_IEPOPUP_IFRAME_EXC	"<span style=""color: red; font-weight: bolder;"">IFRAME के दस्तावेज़ यहां नही दिखाये जा सकते हैं ।</span>"
+
+# Popupblocker errors
+TOK_POPUPBLOCKER_EXC	एक पॉप-अप ब्लॉकर पाठ का शुरु होना रोक रहा है ।
+TOK_POPUPBLOCKER_CONFIRM	एक पॉप-अप ब्लॉकर ने ब्राउजर-विन्डो का खोलना रोक दिया है । आप आगे बढ़ सकते हैं, क्योंकि आपने वेब सरवर के लिये पॉप-अप ब्लॉकर बंद कर दिया है । रद्द करना पाठ बंद किया जा रहा है ।
+
+# Security setting errors
+TOK_SECURITY_WINDOW_POSITION_EXC	"इंटरनेट एक्सप्लोरर की एक सुरक्षा सेटिंग @{TOK_TOUR} को दिखने से रोक रही है । ""स्क्रिप्ट द्वारा शुरु किये जाने वाली विन्डो को बिना आकार या स्थान की सीमा के इजाज़त दीजिये ।"
+
+# Standard errors
+TOK_COULD_NOT_READ_EXC	"@1 ""@2"" पढ़ा नही जा सका ।"
+TOK_COULD_NOT_READ2_EXC	"@1 ""@2"" पढ़ा नही जा सका ।@3"
+
+# Form texts
+TOK_CLOSE	बंद कीजिये
+TOK_DIR	डायरेक्टरी
+TOK_ERROR	गलती
+TOK_EXIT	खत्म कीजिये
+TOK_OPEN	खोलिये
+TOK_SEARCH	खोजिये
+TOK_START	शुरु कीजिये
+TOK_START_TOUR	@{TOK_TOUR} शुरु कीजिये
+TOK_STOP	रोकिये
+
+# Library
+TOK_LIB_BTN_LESS	कम...
+TOK_LIB_BTN_MORE	ज्यादा...
+TOK_LIB_EMPTY	खाली तत्व
+TOK_LIB_FLAG_DESC	व्याख्या में खोजिये
+TOK_LIB_FLAG_KEEP_OPEN	कोर्स बनावट खोलिये
+TOK_LIB_FLAG_NEWWIN	एक नयी विन्डो में
+TOK_LIB_FLAG_TITLE	उपाधि में खोजिये
+TOK_LIB_RESET	खोज के नतीजों को मिटाना
+
+# Mimetypes
+MIME_TEXT_PDF	पी डी एफ - एडोब एक्रोबैट फॉरमैट
+MIME_APP_MSWORD	विनवर्ड दस्तावेज़
+MIME_APP_EXCEL	एक्सल वर्क शीट
+MIME_APP_PPT	पावर प्वाइंट पृष्ठ
+MIME_APP_OOFF	ओपन ऑफिस दस्तावेज
+MIME_APP_OOFFWRITE	ओपन ऑफिस टेक्स्ट
+MIME_APP_OOFFCALC	ओपन ऑफिस गणना
+MIME_APP_OOFFIMPRESS	ओपन ऑफिस प्रेज़ेंटेशन
+MIME_APP_OOFFMATH	ओपन ऑफिस फार्मूला
+MIME_AUDIO	आवाज
+MIME_VIDEO	विडियो
+MIME_TEXT_HTML	वेब पृष्ठ
+MIME_TEXT	लिखित दस्तावेज
+MIME_APP_DGO	@{TOK_COMPANY} सीखने का पाठ
+MIME_APP_DGO_DEMO	@{TOK_COMPANY} डेमो
+MIME_APP_DGO_PRACTISE	@{TOK_COMPANY} अभ्यास
+MIME_APP_DGO_TEST	@{TOK_COMPANY} परीक्षा
+MIME_APP_DGO_CONCURRENT	@{TOK_COMPANY} पाठ का अभ्यास करना
+MIME_UNKNOWN	@{TOK_LIB_UNKNOWN}
+
+# Tooltips
+TIP_PLAY	"आगे चलना (F8); ""ऑल्ट""से दोबारा शुरु करना "
+TIP_PAUSE	"रोकना (PAUSE); आवाज का गुण ""शिफ्ट"" से बढ़ाना; आवाज की बैंड-विड्थ ""ऑल्ट"" से बचाना"
+TIP_STOP	"खत्म करना (F12); ""शिफ्ट"" से विवरण दिखाना"
+TIP_NEXT	अगला अध्याय (ऑल्ट-पृष्ठ ऊपर)
+TIP_BACK	"पिछला अध्याय (ऑल्ट-पृष्ठ नीचे) ""ऑल्ट"" से कोर्स दिखाना"
+TIP_MAXBUBBLE	बुलबुला दोबारा बनाना
+TIP_MINBUBBLE	बुलबुला छोटा करना
+TIP_CLOSEBUBBLE	बुलबुला मिटाना
+TIP_ENABLED
+TIP_DISABLED	अभी मुमकिन नही
+TIP_TASK	किया जाने वाला कार्य
+
+# Bracepages
+TOK_BP_CLOSEWINDOW	विन्डो बंद करना
+TOK_BP_GOBACK	वापस
+TOK_BP_GOON	आगे
+TOK_BP_JSCONSOLE	जावा स्क्रिप्ट संदेश
+TOK_BP_MODE	ढंग
+TOK_BP_PARAMETER	पैरामीटर
+TOK_BP_RESTARTPROGRAM	प्रोग्राम दोबारा चलाना
+TOK_BP_STARTANOTHER	दूसरा प्रोग्राम चलाना
+TOK_BP_VALUE	आकलन
+
+# Exercise colors
+EXER_COLOR_ERROR	लाल मे अंकित
+EXER_COLOR_CLICK	हरे में अंकित
+EXER_COLOR_DBLCLICK	पीले मे अंकित
+EXER_COLOR_RCLICK	फिरोजा मे अंकित
+EXER_COLOR_CHANGE	हरे में रेखांकित
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises
+EXER_AND	और
+EXER_FAIL0	गलत है
+EXER_FAIL1	गलत है । 1 नम्बर कटा । बाकी बचेः  @1_rest-points_.
+EXER_FAIL2	गलत है ।@1_नम्बर कटे । बाकी बचेः @2_rest-points_.
+EXER_FAIL_ASK4HELP	क्या आपको मदद चाहिये ?
+EXER_FAILCHANGE_HELP	बदली हुई फील्ड @{EXER_COLOR_ERROR}.@{NEWLINE} बन गयी । सारी इनपुट फील्ड, जो बदली जा सकती है, @{EXER_COLOR_CHANGE} बन गयीं ।
+EXER_FAILCHANGE0_HELP	कोई भी स्वीकृत इनपुट फील्ड्स नही हैं । बदली हुई फील्ड@{NEWLINE} बन गयी । @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP	क्लिक की हुई जगह @{EXER_COLOR_ERROR}.@{NEWLINE}बन गयी । सारे क्लिक किये हुऐ बटन @{EXER_COLOR_CLICK} बन गये ।
+EXER_FAILCLICK0_HELP	कहीं पर भी क्लिक की आज्ञा नही है क्लिक की हुई जगह@{NEWLINE}बन गयी । @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP	डबल-क्लिक की हुई जगह @{EXER_COLOR_ERROR} बन गयी ।@{NEWLINE}सारे बटन, जिनके लिये डबल-क्लिक स्वीकृत है @{EXER_COLOR_DBLCLICK} बन गये ।
+EXER_FAILDBLCLICK0_HELP	डबल-क्लिक की कहीं भी आज्ञा नही है । क्लिक की हुई जगह@{NEWLINE}बन गयी । @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP	दायें-क्लिक से क्लिक की हुई जगह@{EXER_COLOR_ERROR} बन गयी ।@{NEWLINE} सारे बटन जिनके लिये दायाँ-क्लिक स्वीकृत है@{EXER_COLOR_RCLICK} बन गये ।
+EXER_FAILRCLICK0_HELP	दायें-क्लिक की कहीं भी आज्ञा नही है ।@{NEWLINE}क्लिक की हुई जगह @{EXER_COLOR_ERROR} बन गयी ।
+EXER_FAILKEY_HELP0	आपने गलत बटन दबाया है ।
+EXER_FAILKEY_HELP1	"आपने ""@1_बटन_"" दबाया है ।"
+EXER_FAILKEY_HELP2	@{NEWLINE}स्वीकृत फंक्शन बटन हैं@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID	@{NEWLINE}@{NEWLINE}यह भी स्वीकृत हैः
+EXER_HINT_CHANGABLE_MARKED	@{NEWLINE}@{BULLET} फील्ड मे कोई बदलाव नही (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED	@{NEWLINE}@{BULLET} कोई क्लिक नही (बटन हैं @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED	@{NEWLINE}@{BULLET} कोई डबल-क्लिक नही (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS	@{NEWLINE}(संकेतः इससे सारे बिंदु खत्म हो जायेंगे)
+EXER_HINT_KEYS	"@{NEWLINE}@{BULLET} कोई फंक्शन बटन नही दबाया गया@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID	@{NEWLINE}@{NEWLINE}यह स्वीकृत हैः
+EXER_HINT_RCLICK_MARKED	@{NEWLINE}@{BULLET} कोई दाँया-क्लिक नहीः (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON	@{NEWLINE}(संकेतः अन्यथा आगे बढ़ना स्वंय शुरु हो जायेगा)
+EXER_HINT_YOURINPUT	"आपने ""@1_input_"" लिखा है।@{NEWLINE}"
+EXER_OR	@{NEWLINE}अथवा@{NEWLINE}
+
+# StandardMacros.xml
+MSG_OPTIONFIELD_DESELECT	"कृपया चुने हुऐ विकल्प ""@1""! का चुनाव हटायें ।"
+MSG_OPTIONFIELD_SELECT	"कृपया विकल्प ""@1""! को चुनिये या उसका चुनाव हटायें ।"
+MSG_SCORE	"कुल नंबर मिले ""@1""."
+MSG_SINGLE_SELECT	"कृपया ऐंट्री ""@1"" को चुनिये"
+MSG_TEXTINPUT	"कृपया इनपुट फील्ड ""@1"" में ""@2"" लिखिये ।"
+MSG_TRANSACTIONCODE	"कृपया सही ट्रांजेक्शन कोड लिखिये""@1"" "
+
+capDemoStart	डेमो मोड
+msgDemoStart1	"इस डेमो मे आप प्रोग्राम में काम का होना देख सकते हैं । आपको केवल देखना है; सारे कार्य स्वयं ही होते जाऐंगे ।"
+msgDemoStart2	स्कीन के नीचे दिये गये नेवीगेशन बार से आप डेमो को रोक सकते हैं या बंद कर सकते हैं । इसकी मदद से आप डेमो के अगले या पिछले कदम पर भी जा सकते हैं । 
+msgDemoStop	डेमो को खत्म किया गया ।
+
+capConcurrentStart	अभ्यास
+msgConcurrentStart1	इस अभ्यास मे आपको हर कदम पर प्रोग्राम में एक कार्य को करने का तरीका बताया जाऐगा ।  
+msgConcurrentStart2	हर कदम के बाद डेमो को रोक दिया जाऐगा, ताकि आप दिखाये हुऐ कदम को प्रोग्राम में अच्छी तरह समझ सकें ।
+msgConcurrentStop	अभ्यास खत्म हुआ
+
+capTestStart	परीक्षा 
+msgTestStart1	परीक्षा में आप प्रोग्राम में स्वयं काम करके जाँच कर सकते हैं कि आपने कितना सीखा है । सिवाय उन आकड़ों के, जिन्हे आपको प्रोग्राम में लिखना है, आपको कार्य करने से संबंधित कोई आदेश नही दिया जाऐगा । आपका पूरा कार्य कार्य-क्षेत्र मे किया जाएगा, जिसे आप टाईटल बार में दिये गये बटनों की मदद से छोटा या बड़ा कर सकते हैं ।
+msgTestStart2	परीक्षा के अंत मे आपको परिणाम इस आधार पर मिलेगा कि आपने कितने कार्य सफलतापूर्वक किये । यह परिणाम केवल आपके स्वयं आकलन के लिये है । आपके द्वारा लिखा गया डाटा न तो प्रोग्राम मे लिखा जाएगा और न ही ट्रांसफर किया जाएगा ।
+msgTestStart3	कृपया अपना कार्य ध्यानपूर्वक करें, क्योंकि प्रोग्राम लिखने में की गयी हर गलती और हर गलत क्लिक को याद रखता है और आपके नंबर काट देता है । यदि आप किसी कदम के लिये मदद लेते हैं, तो उस कदम के लिये आपको मिले हुऐ सारे नंबर कट जाऐंगे । 
+msgTestStart4	परीक्षा के अंत में आपको आपका परिणाम दिखाया जाएगा, कृपया  @{res_mastery_percent}% के लक्ष्य तक पहुँचने की कोशिश करें ।
+capTestOk	आप परीक्षा मे सफल रहे ।
+capTestFailed	आप परीक्षा मे असफल रहे ।
+msgTestFailed1	क्योंकि आपको @{res_mastery_percent}% के मुमकिन नंबरों से कम नंबर मिले हैं, इसलिये हमारी राय है कि आप पाठ को दुबारा पढ़ें और फिर से परीक्षा में अपने ज्ञान की जाँच करें ।
+msgTestFinished2	यह परीक्षा केवल  आपके स्वयं-आकलन के लिये है । इसका परिणाम न तो रिकार्ड और न ही स्थानान्तरित (ट्रान्सफर) किया जाएगा ।
+msgTestOk1	बधाई हो, आपने यह कार्य सफलतापूवर्क संपन्न किया ।
+msgTestResult	परिणाम
+msgTestScore	नबंर मिले
+msgTestScoreValue	@{res_collected_points} मे से @{res_possible_points} नंबर
+
+capPracticeStart	अभ्यास
+msgPracticeStart1	इस अभ्यास में आप प्रोग्राम में एक कार्य कर के स्वयं देख सकते हैं कि आपने कितना सीखा है ।
+msgPracticeStart2	कृपया हर कदम पर दिये गये आदेशों का पालन कीजिये ।
+msgPracticeStop	अभ्यास खत्म हुआ ।
+
+# eof# New messages added after 6.1.0 beta 2
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+TOK_LIB_VAL_NOFILTER no filter
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

@@ -1,0 +1,21 @@
+/* datango standard/quiz.css */
+/* last update: 2008-01-18 */
+
+/* it is not recommended to change something here! */
+
+.feedback_popup {
+    position: absolute;
+    display: none;
+}
+.image_popup {
+    position: absolute;
+    display: none;
+}
+.helpers_box {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+}
+.config {
+    display: none;
+}

@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MacroShelf version="6.3.1.114" comment="Demo/Uebungs/Test/Praxismakros deutsch/english">
+    <Translation basename="translation"/>   <!-- Modes -->
+
+    <Mode name="Demo" IconID="0" play_ok="1" offline_ok="0" doc_ok="1" dmf_suffix="demo"/>
+    <Mode name="Practice" IconID="1" play_ok="1" offline_ok="0" doc_ok="1" dmf_suffix="uebung"/>
+    <Mode name="Test" IconID="2" play_ok="1" offline_ok="0" doc_ok="1" dmf_suffix="test"/>
+    <Mode name="Concurrent" IconID="3" play_ok="1" offline_ok="0" doc_ok="1" dmf_suffix="praxis"/>
+    <ParamSet name="global">
+        <ParamInfo type="TEXT" name="g_back_link"/>
+        <ParamInfo type="TEXT" name="g_close_link"/>
+        <ParamInfo type="TEXT" name="g_linktextpraxis"/>
+        <ParamInfo type="BOOL_0_1" name="g_show_step_bubble"/>
+        <ParamInfo type="TEXT" name="g_alternate_link"/>
+        <ParamInfo type="BOOL_0_1" name="g_show_ok_bubble"/>
+        <ParamInfo type="BOOL_0_1" name="g_no_praxis_links"/>
+        <ParamInfo type="SHELF" name="g_bubblestyle_ok">
+            <Properties shelf="bubblestyles"/>
+        </ParamInfo>
+        <ParamInfo type="BOOL_0_1" name="g_show_mouse"/>
+        <ParamInfo type="BOOL_0_1" name="g_logging" visibility="conditional"/>
+        <ParamGroup name="highlights">
+            <ParamInfo type="ENUM" name="g_highlight_effect">
+                <EnumValue value="1" name="frame"/>
+                <EnumValue value="2" name="underline"/>
+                <EnumValue value="3" name="flash"/>
+                <EnumValue value="4" name="zoom_in"/>
+                <EnumValue value="5" name="zoom_out"/>
+            </ParamInfo>
+            <ParamInfo type="ENUM" name="g_highlight_border">
+                <EnumValue value="1" name="1"/>
+                <EnumValue value="2" name="2"/>
+                <EnumValue value="3" name="3"/>
+                <EnumValue value="4" name="4"/>
+                <EnumValue value="5" name="5"/>
+                <EnumValue value="1" name="6"/>
+                <EnumValue value="2" name="7"/>
+                <EnumValue value="3" name="8"/>
+                <EnumValue value="4" name="9"/>
+                <EnumValue value="5" name="10"/>
+            </ParamInfo>
+            <ParamInfo type="COLOR" name="g_highlight_rgb"/>
+            <ParamInfo type="TEXT" name="g_highlight_name"/>
+            <ParamInfo type="TEXT" name="g_highlight_style"/>
+            <ParamInfo type="TEXT" name="g_highlight_fillstyle"/>
+        </ParamGroup>
+        <ParamGroup name="quizzes">
+            <ParamInfo type="ENUM" name="g_quiz_style_dir">
+                <EnumValue value="1" name="standard"/>
+                <EnumValue value="2" name="datango"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_0_1" name="g_quiz_skipping"/>
+            <ParamInfo type="INTEGER" name="g_quiz_timeout"/>
+            <ParamInfo type="BOOL_0_1" name="g_feedback_enable" textkey="feedback_enable"/>
+            <ParamInfo type="BOOL_0_1" name="g_feedback_popup" textkey="feedback_popup"/>
+            <ParamInfo type="BOOL_0_1" name="g_feedback_correct_solutions" textkey="feedback_correct_solutions"/>
+            <ParamInfo type="HTML" name="g_feedback_pass" textkey="feedback_pass">
+                <Properties height="60"/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="g_feedback_fail" textkey="feedback_fail">
+                <Properties height="60"/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="g_feedback_time" textkey="feedback_time">
+                <Properties height="60"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_0_1" name="g_in_demo" textkey="in_demo"/>
+            <ParamInfo type="BOOL_0_1" name="g_in_practice" textkey="in_practice"/>
+            <ParamInfo type="BOOL_0_1" name="g_in_test" textkey="in_test"/>
+            <ParamInfo type="BOOL_0_1" name="g_in_prax" textkey="in_prax"/>
+        </ParamGroup>
+    </ParamSet>
+    <GlobalDefault g_quiz_style_dir="datango" g_in_demo="1" g_in_practice="1" g_in_test="1" g_in_prax="1" g_highlight_name="hl" g_highlight_effect="frame" g_highlight_style="red" g_highlight_fillstyle="" g_highlight_border="2" g_highlight_rgb="FF0000" g_linktextpraxis="&lt;img src=&quot;${resource_dir}/next_red.int.gif&quot; border=0 &gt;" g_back_link="&lt;img src=&quot;${resource_dir}/prev_red.int.gif&quot; border=0 &gt;" g_close_link="&lt;img src=&quot;${resource_dir}/close_red.int.gif&quot; border=0 &gt;" g_alternate_link="Show Step" g_show_ok_bubble="1" g_show_step_bubble="0" g_show_mouse="0" g_bubblestyle_ok="_default" g_no_praxis_links="false"/>
+    <CommandGroup name="doc" displayMode="browser" IconID="28"/>
+    <CommandGroup name="action" displayMode="browser" IconID="4"/>  <!-- MacroTemplate global -->
+
+    <MacroTemplate Name="global" IconID="global">
+        <Properties hidden="true"/>
+        <ParamSet name="global">
+        </ParamSet>
+        <ScriptCommand name="test" displayName="Test" displayMode="255" required_feature="TestScript" menu_path="/main/tools" IconID="29">
+            #use(test.js); test();
+        </ScriptCommand>
+        <ScriptCommand name="ttv" displayName="TTV" displayMode="255" required_feature="TTV" menu_path="/main/tools" IconID="29">
+            #use(ttv.js); ttv();
+        </ScriptCommand>
+        <ScriptCommand name="record2" Path="record.js" menu_path="/main/action" displayMode="9" IconID="55" required_feature="WebRecording"/>
+        <ScriptCommand name="cmd_rerecord" Path="rerecord.js" menu_path="/main/action" displayMode="9" IconID="56" required_feature="WebRecording"/>
+        <ScriptCommand name="prepare_rerecord" menu_path="/main/tools/translate" displayMode="8" IconID="77" group="tools">
+            #use(macro_functions.js); prepare_rerecord();
+        </ScriptCommand>
+        <ScriptCommand name="translate" menu_path="/main/tools/translate" displayMode="8" IconID="57">
+            #use(translate.js); translate();
+        </ScriptCommand>
+        <ScriptCommand name="bubble_duration_any" displayMode="8" IconID="62">
+            #use(macro_functions.js); bubble_duration();
+        </ScriptCommand>
+        <ScriptCommand name="doc_dropdown" type="dropdown" IconID="51" menu_path="/doc_dropdown" displayMode="24"/>
+        <ScriptCommand name="gendoc_tb" textkey="gendoc" displayMode="16" IconID="51" menu_path="/doc_dropdown">
+            #use(doc.js); generate_doc('standard');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_checklist_tb" textkey="gendoc_checklist" displayMode="16" IconID="82" menu_path="/doc_dropdown">
+            #use(doc.js); generate_doc('jobhelp');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_tables_tb" textkey="gendoc_tables" displayMode="16" IconID="83" menu_path="/doc_dropdown">
+            #use(doc.js); generate_doc('training');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_tables_wide_tb" textkey="gendoc_tables_wide" displayMode="16" IconID="84" menu_path="/doc_dropdown">
+            #use(doc.js); generate_doc('test');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_work_tb" textkey="gendoc_work" displayMode="16" IconID="85" menu_path="/doc_dropdown">
+            #use(doc.js); generate_doc('work');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_menu" textkey="gendoc" displayMode="8" IconID="51" menu_path="/main/doc/word_doc">
+            #use(doc.js); generate_doc('standard');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_checklist_menu" textkey="gendoc_checklist" displayMode="8" IconID="82" menu_path="/main/doc/word_doc">
+            #use(doc.js); generate_doc('jobhelp');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_tables_menu" textkey="gendoc_tables" displayMode="8" IconID="83" menu_path="/main/doc/word_doc">
+            #use(doc.js); generate_doc('training');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_tables_wide_menu" textkey="gendoc_tables_wide" displayMode="8" IconID="84" menu_path="/main/doc/word_doc">
+            #use(doc.js); generate_doc('test');
+        </ScriptCommand>
+        <ScriptCommand name="gendoc_work_menu" textkey="gendoc_work" displayMode="8" IconID="85" menu_path="/main/doc/word_doc">
+            #use(doc.js); generate_doc('work');
+        </ScriptCommand>
+        <ScriptCommand name="ipkex" displayMode="8" required_feature="IPKEx">
+            #use(ipkex.js); ipkex();
+        </ScriptCommand>
+        <ScriptCommand name="genppt" Path="ppt.js" displayMode="24" menu_path="/main/doc" IconID="52"/>
+        <ScriptCommand name="genhtml" displayMode="24" menu_path="/main/doc" IconID="53">
+            #use(html_doc.js); generate_html();
+        </ScriptCommand>
+        <ScriptCommand name="set_language" displayMode="8" menu_path="/main/tools/translate" IconID="58">
+            #use(lang.js); set_project_language();
+        </ScriptCommand>
+        <ScriptCommand name="update_all_macros" displayMode="8" IconID="61">
+            #use(macro_functions.js); update_all_macros();
+        </ScriptCommand>
+        <ScriptCommand name="prev_page" displayMode="9" menu_path="/main/action" IconID="59">
+            #use(edit_functions.js); load_prev_page();
+        </ScriptCommand>
+        <ScriptCommand name="edit_screendump" displayMode="1" IconID="41">
+            #use(edit_functions.js); edit_tourstop_screendump();
+        </ScriptCommand>
+        <ScriptCommand name="next_page" displayMode="9" menu_path="/main/action" IconID="60">
+            #use(edit_functions.js); load_next_page();
+        </ScriptCommand>
+        <ScriptCommand name="ppt_import" displayMode="8" IconID="54">
+            #use(ppt_import.js); ppt_import();
+        </ScriptCommand>
+        <ScriptCommand name="onbeforesave" displayMode="0">
+            #use(macro_functions.js); onbeforesave();
+        </ScriptCommand>
+        <ScriptCommand name="merge_selected_newpages" displayMode="8" IconID="78">
+            #use(macro_functions.js); merge_selected_newpages();
+        </ScriptCommand>
+        <!--
+        <ScriptCommand name="generate_navprj" displayMode="24" IconID="81">
+            #use(navigation_helpers.js); generate_navprj();
+        </ScriptCommand>
+        -->
+    </MacroTemplate>    <!-- MacroTemplate start_unit -->
+
+    <MacroTemplate Name="start_unit" rgbcolor="#daea00" Duration="10" IconID="19">
+        <Properties hidden="true"/>
+        <ParamSet name="start_unit">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="possible_points"/>
+            <ParamInfo type="INTEGER" name="mastery_score"/>
+            <ParamGroup name="task_text">
+                <ParamInfo type="HTML" name="task_text">
+                    <Properties height="400" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="task_width" textkey="task_window_width"/>
+                <ParamInfo type="INTEGER" name="task_height" textkey="task_window_height"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="task_orientation" textkey="task_window_orientation"/>
+                <ParamInfo type="COLOR" name="task_bgcolor" textkey="task_window_bgcolor"/>
+                <ParamInfo type="BOOL_0_1" name="in_practice" textkey="task_window_in_practice"/>
+                <ParamInfo type="BOOL_0_1" name="in_test" textkey="task_window_in_test"/>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable task_text="true"/>
+        <Default possible_points="0" mastery_score="0" in_test="1" in_practice="0" task_width="240" task_height="0" task_bgcolor="#FFFFB7" task_orientation="NW" task_text=""/>
+        <ScriptCommand name="update" displayMode="2" IconID="38">
+            #use(macro_functions.js); update_possible_points();
+        </ScriptCommand>
+        <ScriptCommand name="start_unit" displayMode="9" menu_path="/main/tools/addmac" IconID="38" group="action">
+            InsertEventAfter(CreateMacro("start_unit"));
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate new_page -->
+
+    <MacroTemplate Name="new_page" rgbcolor="#66c5c5" Duration="10" IconID="5" alt_name="next asset">
+        <Properties hidden="true" dump_force="1" dump_prefix="index" dump_remove_js="1" dump_remove_target="1" dump_remove_onload="1" dump_link_subst="javascript:void(0)" Overwrite="0"/>
+        <Translatable new_step="true"/>
+        <ParamSet name="new_page">
+            <ParamInfo type="COMMENT" name="macro_comment">
+                <Properties specified=""/>
+            </ParamInfo>
+            <ParamInfo type="RELATIVE_URL" name="dump_page" visibility="conditional"/>
+            <ParamInfo type="TEXT" name="new_step"/>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="BOOL_YES_NO" name="process_enable" NoExport="1"/>
+                <ParamInfo type="BOOL_YES_NO" name="doc_heading" NoExport="1"/>
+                <ParamInfo type="INTEGER" name="imagesize" NoExport="1"/>
+                <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                    <Properties filter="img_filter" nocrop=""/>
+                </ParamInfo>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="screenshot_border" NoExport="1"/>
+            </ParamGroup>
+            <ParamGroup name="rerecord">
+                <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="TEXT" name="sc_config_file" visibility="conditional" NoExport="1"/>
+                <ParamInfo type="TEXT_SHORT" name="key" visibility="conditional" NoExport="1"/>
+                <ParamInfo type="INTEGER" name="record_window_id" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="rerec_manual" NoExport="1"/>
+            </ParamGroup>
+        </ParamSet>
+        <ScriptCommand name="new_page" displayMode="1" IconID="5" group="action">
+            #use(macro_functions.js); record_newpage();
+        </ScriptCommand>
+        <ScriptCommand name="update_page" displayMode="2" IconID="39">
+            #use(macro_functions.js); update_page();
+        </ScriptCommand>
+        <ScriptCommand name="edit_screenshot" displayMode="2" IconID="40">
+            #use(macro_functions.js); crop_screenshot_rect();
+        </ScriptCommand>
+        <ScriptCommand name="auto_crop_screenshot" displayMode="2" IconID="40">
+            #use(macro_functions.js); auto_crop_screenshot();
+        </ScriptCommand>
+        <ScriptCommand name="edit_screendump" displayMode="2" IconID="41">
+            #use(edit_functions.js); edit_screendump();
+        </ScriptCommand>
+        <ScriptCommand name="create_branch" displayMode="2" IconID="25">
+            #use(macro_functions.js); create_branch();
+        </ScriptCommand>
+        <ScriptCommand name="create_form" displayMode="2" IconID="23">
+            #use(macro_functions.js); create_form();
+        </ScriptCommand>
+        <ScriptCommand name="win_screenshot" displayMode="1" scope="1" IconID="6" keycode="66" shift="1" ctrl="1" group="action">
+            #use(macro_functions.js); record_window_screenshot();
+        </ScriptCommand>
+        <Default doc_enable="yes" process_enable="yes" doc_heading="yes" imagesize="40" record_window_id="0"/>
+    </MacroTemplate>    <!-- MacroTemplate new_window -->
+
+    <MacroTemplate Name="new_window" rgbcolor="#daea00" Duration="10" IconID="7">
+        <Properties hidden="true"/>
+        <Translatable new_step="true"/>
+        <ParamSet name="new_window">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="RELATIVE_URL" name="dump_page" visibility="conditional"/>
+            <ParamInfo type="TEXT" name="new_step"/>
+            <ParamInfo type="RELPOS_DOCREF" name="dump_win_relpos"/>
+            <ParamInfo type="INTEGER" name="dump_win_left" visibility="conditional"/>
+            <ParamInfo type="INTEGER" name="dump_win_top" visibility="conditional"/>
+            <ParamInfo type="INTEGER" name="dump_win_width" visibility="conditional"/>
+            <ParamInfo type="INTEGER" name="dump_win_height" visibility="conditional"/>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="BOOL_YES_NO" name="doc_heading" NoExport="1"/>
+                <ParamInfo type="INTEGER" name="imagesize" NoExport="1"/>
+                <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                    <Properties filter="img_filter" nocrop=""/>
+                </ParamInfo>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="screenshot_border" NoExport="1"/>
+            </ParamGroup>
+            <ParamGroup name="rerecord">
+                <ParamInfo type="INTEGER" name="record_window_id" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="rerec_manual" NoExport="1"/>
+            </ParamGroup>
+        </ParamSet>
+        <ScriptCommand name="new_window" displayMode="1" IconID="7" group="action">
+            #use(macro_functions.js); record_new_window();
+        </ScriptCommand>
+        <ScriptCommand name="update_page" displayMode="2" IconID="39">
+            #use(macro_functions.js); update_window_page();
+        </ScriptCommand>
+        <ScriptCommand name="edit_screenshot" displayMode="2" IconID="40">
+            #use(macro_functions.js); crop_screenshot_rect();
+        </ScriptCommand>
+        <ScriptCommand name="update_pos_size" displayMode="2" IconID="42">
+            #use(macro_functions.js); update_window_pos_size();
+        </ScriptCommand>
+        <ScriptCommand name="edit_screendump" displayMode="2" IconID="41">
+            #use(edit_functions.js); edit_screendump();
+        </ScriptCommand>
+        <Default doc_enable="yes" doc_heading="yes" imagesize="40"/>
+    </MacroTemplate>    <!-- MacroTemplate new_window_close -->
+
+    <MacroTemplate Name="new_window_close" rgbcolor="#daea00" Duration="10" IconID="21">
+        <Properties hidden="true"/>
+        <ParamSet name="new_window_close">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="RELPOS_DOCREF" name="win_relpos" textkey="close_win_relpos"/>
+        </ParamSet>
+        <Default>
+            <win_relpos>
+                <frame path=":1"/>
+            </win_relpos>
+        </Default>
+        <ScriptCommand name="new_window_close" displayMode="9" menu_path="/main/tools/addmac" IconID="21" group="action">
+            InsertEventAfter(CreateMacro("new_window_close"));
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate explanation -->
+
+    <MacroTemplate Name="explanation" rgbcolor="#eada00" Duration="10" IconID="8" required_feature="old_explanation">
+        <Properties hidden="true"/>
+        <Translatable explanation_d="true" explanation_p="true"/>
+        <ParamSet name="explanation">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="fieldname"/>
+            <ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+                <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="RELPOS_RECT" name="position_h" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="in_demo"/>
+            <ParamInfo type="BOOL_0_1" name="in_practice"/>
+            <ParamInfo type="BOOL_0_1" name="in_test"/>
+            <ParamInfo type="BOOL_0_1" name="in_prax"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p" visibility="conditional"/>
+            <ParamGroup name="bubble_d">
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+                <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                    <Properties shelf="textstyles"/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height_p" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration_p" textkey="bubble_duration_p" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_p_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" b_width="180" b_height="40" doc_enable="yes" b_duration="3" bubble_class_p="StyleA" orientation="SE" fieldname="" fieldicon="" in_demo="1" in_practice="1" in_test="0" b_width_p="180" b_height_p="40" b_duration_p="3" bubblestyle_d="_default" show_hl_p="1" show_hl_d="1" in_prax="1">
+            <position_b>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_b>
+            <position_h>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+                <rectElement x="0.6" y="0.6"/>
+            </position_h>
+        </Default>
+        <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+        </ScriptCommand>
+        <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_explanation();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_rect" displayMode="2" IconID="47">
+            #use(macro_functions.js); show_highlight_rect();
+        </ScriptCommand>
+        <ScriptCommand name="explanation" displayMode="1" IconID="8" group="action" required_feature="old_explanation">
+            #use(macro_functions.js); record_explain();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate explanation_long -->
+
+    <MacroTemplate Name="explanation_long" rgbcolor="#eada00" Duration="10" IconID="9">
+        <Properties hidden="true"/>
+        <Translatable explanation_d="true" explanation_p="true"/>
+        <ParamSet name="explanation_long">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="fieldname"/>
+            <ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+                <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="ENUM" name="type" textkey="explanation_type">
+                <EnumValue name="hinweis" value="1" textkey="note"/>
+                <EnumValue name="tipp" value="2"/>
+                <EnumValue name="info" value="3"/>
+                <EnumValue name="warnung" value="4"/>
+                <EnumValue name="none" value="5" textkey="no_image"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_0_1" name="all_like_demo"/>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="BOOL_0_1" name="in_demo"/>
+            <ParamInfo type="BOOL_0_1" name="in_practice"/>
+            <ParamInfo type="BOOL_0_1" name="in_test"/>
+            <ParamInfo type="BOOL_0_1" name="in_prax"/>
+            <ParamInfo type="BOOL_0_1" name="show_nav_buttons"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p" visibility="conditional"/>
+            <ParamInfo type="RELPOS_RECT" name="position_h" visibility="conditional"/>
+            <ParamGroup name="bubble_d">
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+                <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                    <Properties shelf="textstyles"/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height_p" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration_p" textkey="bubble_duration_p" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_p_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" bubble_class_p="StyleA" b_width="400" b_height="40" doc_enable="yes" orientation="C" type="none" in_demo="1" in_practice="1" in_test="1" in_prax="1" fieldname="" fieldicon="" bubblestyle_d="_default" explanation_d="" explanation_p="" show_nav_buttons="1">
+            <position_b>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_b>
+        </Default>
+        <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+        </ScriptCommand>
+        <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_explanation();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_rect" displayMode="2" IconID="47">
+            #use(macro_functions.js); show_highlight_rect();
+        </ScriptCommand>
+        <ScriptCommand name="explanation_long" displayMode="1" IconID="9" group="action">
+            #use(macro_functions.js); record_explain_long();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- acroTemplate quick_click -->
+
+    <MacroTemplate Name="quick_click" rgbcolor="#008684" Duration="10" IconID="22">
+        <Properties hidden="true"/>
+        <Translatable explanation_d="true" explanation_p="true"/>
+        <ParamSet name="quick_click">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="fieldname"/>
+            <ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+                <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="ENUM" name="action">
+                <EnumValue value="1" name="lclick"/>
+                <EnumValue value="2" name="ldblclick"/>
+                <EnumValue value="3" name="rclick"/>
+                <EnumValue value="4" name="rdblclick"/>
+                <EnumValue value="5" name="drag"/>
+                <EnumValue value="6" name="drop"/>
+                <EnumValue value="7" name="enter"/>
+            </ParamInfo>
+            <ParamInfo type="RELPOS_RECT" name="position_h"/>
+            <ParamGroup name="bubble">
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                    <Properties filter="img_filter"/>
+                </ParamInfo>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1"/>
+            </ParamGroup>
+            <ParamGroup name="rerecord">
+                <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="POSITION" name="click_pos" NoExport="1" textkey="rerec_click_pos"/>
+                <ParamInfo type="TEXT_SHORT" name="elem_key" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="adv">
+                <ParamInfo type="TOURSTOP_NAME" name="jump_target" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="wait_for_input" visibility="conditional"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" doc_enable="yes" position_h="0" action="lclick" wait_for_input="1" fieldicon="" fieldname="">
+            <click_pos x="-1" y="-1"/>
+            <position_h>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+                <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_bu>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_bu>
+        </Default>
+        <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+        </ScriptCommand>
+        <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_quick_click();
+        </ScriptCommand>
+        <ScriptCommand name="edit_rect" displayMode="2" IconID="47">
+            #use(macro_functions.js); show_highlight_rect();
+        </ScriptCommand>
+        <ScriptCommand name="quick_click" displayMode="1" IconID="22" group="action">
+            #use(macro_functions.js); record_quick_click();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate click -->
+
+    <MacroTemplate Name="click" rgbcolor="#008684" Duration="10" IconID="10" alt_name="general_action">
+        <Properties hidden="true"/>
+        <Translatable explanation_d="true" explanation_p="true"/>
+        <ParamSet name="click">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="fieldname"/>
+            <ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+                <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="TEXT" name="hotkey"/>
+            <ParamInfo type="ENUM" name="action">
+                <EnumValue value="1" name="lclick"/>
+                <EnumValue value="2" name="ldblclick"/>
+                <EnumValue value="3" name="rclick"/>
+                <EnumValue value="4" name="rdblclick"/>
+                <EnumValue value="5" name="drag"/>
+                <EnumValue value="6" name="drop"/>
+                <EnumValue value="7" name="enter"/>
+            </ParamInfo>
+            <ParamInfo type="RELPOS_RECT" name="position_h" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p"/>
+            <ParamGroup name="bubble_d">
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+                <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height_p" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_p_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                    <Properties filter="img_filter"/>
+                </ParamInfo>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="rerecord">
+                <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="POSITION" name="click_pos" textkey="rerec_click_pos" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="click_count" textkey="rerec_click_count" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="rerec_manual" NoExport="1"/>
+                <ParamInfo type="TEXT_SHORT" name="elem_key" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="adv">
+              <ParamInfo type="TOURSTOP_NAME" name="jump_target" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="wait_for_input" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="full_form" visibility="conditional"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" b_width="150" b_height="40" b_duration="3" orientation="SE" doc_enable="yes" position_h="0" orientation_p="C" action="lclick" wait_for_input="1" show_hl_d="1" show_hl_p="0" fieldicon="" fieldname="" full_form="0" click_count="1" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40">
+            <click_pos x="-1" y="-1"/>
+            <position_h>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+                <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_b>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_b>
+            <position_bu>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_bu>
+        </Default>
+        <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+        </ScriptCommand>
+        <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_click();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_rect" displayMode="2" IconID="47">
+            #use(macro_functions.js); show_highlight_rect();
+        </ScriptCommand>
+        <ScriptCommand name="general_action" displayMode="1" IconID="10" group="action">
+            #use(macro_functions.js); record_gen_action();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate click_SAP -->
+
+    <MacroTemplate Name="click_SAP" rgbcolor="#008684" Duration="10" IconID="11" alt_name="general_action_SAP_EA_Menu">
+        <Properties hidden="true"/>
+        <Translatable explanation_d="true" explanation_p="true"/>
+        <ParamSet name="click_SAP">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="fieldname"/>
+            <ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+                <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="TEXT" name="transaction_code"/>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="RELPOS_RECT" name="position_h" visibility="conditional"/>
+            <ParamInfo type="RELPOS" name="position_tc"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p"/>
+            <ParamGroup name="bubble_d">
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+                <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_p_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                    <Properties filter="img_filter"/>
+                </ParamInfo>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="rerecord">
+                <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="POSITION" name="click_pos" textkey="rerec_click_pos" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="rerec_manual" NoExport="1"/>
+                <ParamInfo type="TEXT_SHORT" name="elem_key" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="adv">
+                <ParamInfo type="TOURSTOP_NAME" name="jump_target" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="wait_for_input" visibility="conditional"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" b_width="150" b_height="40" b_duration="3" orientation="SE" doc_enable="yes" explanation_d="" wait_for_input="1" show_hl_d="1" show_hl_p="0" fieldicon="" fieldname="" orientation_p="C" explanation_p="" position_h="" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40">
+            <click_pos x="-1" y="-1"/>
+            <position_tc>
+                <frame>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                </frame>
+                <element elementCollection="forms" elementIndex="0" subElementIndex="0" elementName="" elementContent="" ID="eep_path=&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:3:0&quot;;&amp;#xA;eep_options=3;eep_version=&quot;4.4&quot;;&amp;#xA;eep_atts={id:&quot;OKCodeField&quot;,name:&quot;~ToolbarOkCode&quot;,tagName:&quot;INPUT&quot;,type:&quot;text&quot;};&#xA;eep_coll={n:&quot;forms&quot;,i:0,ii:0};&#xA;eep_parents=[{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:3&quot;,eep_atts:{tagName:&quot;TD&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0&quot;,eep_atts:{tagName:&quot;TR&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0:0&quot;,eep_atts:{tagName:&quot;TBODY&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0:0&quot;,eep_atts:{id:&quot;webguiStdButtonBar&quot;,tagName:&quot;TABLE&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2:0&quot;,eep_atts:{tagName:&quot;TD&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0:2&quot;,eep_atts:{tagName:&quot;TR&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TBODY&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TABLE&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TD&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TR&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0:0&quot;,eep_atts:{tagName:&quot;TBODY&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0:0&quot;,eep_atts:{id:&quot;webguiToolbar&quot;,tagName:&quot;TABLE&quot;}}&#xA;,{eep_path:&quot;1:0:0:0:0&quot;,eep_atts:{tagName:&quot;TD&quot;}}&#xA;,{eep_path:&quot;1:0:0:0&quot;,eep_atts:{tagName:&quot;TR&quot;}}&#xA;,{eep_path:&quot;1:0:0&quot;,eep_atts:{tagName:&quot;TBODY&quot;}}&#xA;,{eep_path:&quot;1:0&quot;,eep_atts:{name:&quot;toolbarform&quot;,tagName:&quot;FORM&quot;}}&#xA;,{eep_path:&quot;1&quot;,eep_atts:{id:&quot;webguiPage&quot;,tagName:&quot;TABLE&quot;}}&#xA;];&#xA;eep_siblingTags=&quot;&quot;;">
+                    <pathelement name="" index="1"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="2"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="0"/>
+                    <pathelement name="" index="4"/>
+                    <pathelement name="" index="0"/>
+                </element>
+                <posDocument x="0.050248" y="0.059846"/>
+                <posElement x="0.000000" y="0.000000"/>
+                <rectDocument x="0.252644" y="0.094484"/>
+                <rectElement x="1.000000" y="1.000000"/>
+            </position_tc>
+            <position_h>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+                <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_b>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_b>
+            <position_bu>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_bu>
+        </Default>
+        <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+        </ScriptCommand>
+        <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_click_sap();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_rect" displayMode="2" IconID="47">
+            #use(macro_functions.js); show_highlight_rect();
+        </ScriptCommand>
+        <ScriptCommand name="click_SAP" displayMode="1" IconID="11" group="action">
+            #use(macro_functions.js); record_gen_action_menu();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate key_press -->
+
+    <MacroTemplate Name="key_press" rgbcolor="#008684" Duration="10" IconID="12">
+        <Properties hidden="true"/>
+        <Translatable explanation_d="true" explanation_p="true"/>
+        <ParamSet name="key_press">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="key_name"/>
+            <ParamInfo type="TEXT" name="key_desc"/>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="RELPOS_RECT" name="position_h" visibility="conditional"/>
+            <ParamGroup name="bubble_d">
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+                <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_p_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+            </ParamGroup>
+            <ParamGroup name="adv">
+                <ParamInfo type="TOURSTOP_NAME" name="jump_target" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="wait_for_input" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="full_form" visibility="conditional"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" b_width="150" b_height="40" b_duration="3" orientation="C" doc_enable="yes" position_h="0" orientation_p="C" wait_for_input="1" full_form="0" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" element_type="WINKeyPress">
+            <position_h>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+                <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_b>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_b>
+            <position_bu>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_bu>
+        </Default>
+        <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+        </ScriptCommand>
+        <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_explanation();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="key_press" displayMode="1" IconID="12" group="action">
+            #use(macro_functions.js); record_key_press();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate input_text -->
+
+    <MacroTemplate Name="input_text" rgbcolor="#b5bb1b" Duration="10" IconID="13" alt_name="activate field text">
+        <Properties hidden="true"/>
+        <Translatable explanation_d="true" explanation_p="true"/>
+        <ParamSet name="input_text">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="fieldname"/>
+            <ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+                <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="TEXT" name="text_d"/>
+            <ParamInfo type="TEXT" name="regexp"/>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="RELPOS_RECT" name="position_h" visibility="conditional"/>
+            <ParamInfo type="RELPOS_ELEMREF" name="position_af"/>
+            <ParamInfo type="BOOL_0_1" name="confirmation_tab"/>
+            <ParamInfo type="BOOL_0_1" name="confirmation_enter"/>
+            <ParamInfo type="BOOL_0_1" name="affirmation_button" textkey="confirmation_button"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p"/>
+            <ParamInfo type="BOOL_0_1" name="set_focus"/>
+            <ParamInfo type="BOOL_0_1" name="animated"/>
+            <ParamGroup name="bubble_d">
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+                <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height_p" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_p_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                    <Properties filter="img_filter"/>
+                </ParamInfo>
+                <ParamInfo type="POSITION" name="overlay_pos" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="rerecord">
+                <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="TEXT" name="confirmation_key" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="POSITION" name="click_pos" textkey="rerec_click_pos" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="rerec_manual" NoExport="1"/>
+                <ParamInfo type="TEXT_SHORT" name="elem_key" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="adv">
+                <ParamInfo type="TOURSTOP_NAME" name="jump_target" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="wait_for_input" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="full_form" visibility="conditional"/>
+            </ParamGroup>
+          </ParamSet>
+          <Default bubble_class="StyleA" b_width="180" b_height="40" b_duration="3" doc_enable="yes" confirmation_tab="1" explanation_p="" orientation_p="C" orientation="SE" wait_for_input="1" set_focus="1" show_hl_d="1" show_hl_p="0" fieldname="" fieldicon="" animated="1" full_form="0" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" text_d="" element_type="WINEdit">
+            <click_pos x="-1" y="-1"/>
+            <position_h>
+              <frame path=":0"/>
+              <posElement x="0.5" y="0.5"/>
+              <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_b>
+              <frame path=":0"/>
+              <posElement x="0.5" y="0.5"/>
+            </position_b>
+            <position_bu>
+              <frame path=":0"/>
+              <posElement x="0.5" y="0.5"/>
+            </position_bu>
+          </Default>
+          <ScriptCommand name="input_text" displayMode="1" IconID="13" group="action">
+            #use(macro_functions.js); record_input_text();
+          </ScriptCommand>
+          <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+          </ScriptCommand>
+          <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_input_text();
+          </ScriptCommand>
+          <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+          </ScriptCommand>
+          <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+          </ScriptCommand>
+          <ScriptCommand name="edit_rect" displayMode="2" IconID="47">
+            #use(macro_functions.js); show_highlight_rect();
+          </ScriptCommand>
+        </MacroTemplate>
+        <!-- MacroTemplate select_single -->
+
+        <MacroTemplate Name="select_single" rgbcolor="#bb769a" Duration="10" IconID="14" alt_name="select single">
+          <Properties hidden="true"/>
+          <Translatable explanation_d="true" explanation_p="true"/>
+          <ScriptCommand name="select_single" displayMode="1" IconID="14" group="action">
+            #use(macro_functions.js); record_single_select();
+          </ScriptCommand>
+          <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+          </ScriptCommand>
+          <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_single_select();
+          </ScriptCommand>
+          <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+          </ScriptCommand>
+          <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+          </ScriptCommand>
+          <ScriptCommand name="edit_rect" displayMode="2" IconID="47">
+            #use(macro_functions.js); show_highlight_rect();
+          </ScriptCommand>
+          <ParamSet name="select_single">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="fieldname"/>
+            <ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+              <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="INTEGER" name="choose_nr"/>
+            <ParamInfo type="TEXT" name="choose_text"/>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="RELPOS_ELEMREF" name="position_h" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p"/>
+            <ParamInfo type="BOOL_0_1" name="animated"/>
+            <ParamGroup name="bubble_d">
+              <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                <Properties shelf="textstyles" specified=""/>
+              </ParamInfo>
+              <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                <Properties shelf="bubblestyles" specified=""/>
+              </ParamInfo>
+              <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+              <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+              <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+              <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+              <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+              <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                <Properties shelf="textstyles" specified=""/>
+              </ParamInfo>
+              <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                <Properties shelf="bubblestyles" specified=""/>
+              </ParamInfo>
+              <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width" visibility="conditional"/>
+              <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height" visibility="conditional"/>
+              <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+              <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="explanation_p_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+              <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+              <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                <Properties filter="img_filter"/>
+              </ParamInfo>
+              <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+              <ParamInfo type="POSITION" name="overlay_pos" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="rerecord">
+              <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+              <ParamInfo type="POSITION" name="click_pos" textkey="rerec_click_pos" NoExport="1" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="rerec_manual" NoExport="1"/>
+              <ParamInfo type="TEXT_SHORT" name="elem_key" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="adv">
+                <ParamInfo type="TOURSTOP_NAME" name="jump_target" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="wait_for_input" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="full_form" visibility="conditional"/>
+            </ParamGroup>
+          </ParamSet>
+          <Default bubble_class="StyleA" b_width="180" b_height="40" doc_enable="yes" b_duration="3" choose_nr="0" explanation_d="" explanation_p="" orientation_p="C" orientation="SE" wait_for_input="1" show_hl_d="1" show_hl_p="0" fieldname="" fieldicon="" animated="1" full_form="0" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40">
+            <click_pos x="-1" y="-1"/>
+            <position_h>
+              <frame path=":0"/>
+              <posElement x="0.5" y="0.5"/>
+              <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_b>
+              <frame path=":0"/>
+              <posElement x="0.5" y="0.5"/>
+            </position_b>
+            <position_bu>
+              <frame path=":0"/>
+              <posElement x="0.5" y="0.5"/>
+            </position_bu>
+          </Default>
+        </MacroTemplate>
+        <!-- MacroTemplate input_radio -->
+
+        <MacroTemplate Name="input_radio" rgbcolor="#4e6dbb" Duration="10" IconID="15" alt_name="input radio">
+          <Properties hidden="true"/>
+          <Translatable explanation_d="true" explanation_p="true"/>
+          <ScriptCommand name="input_radio" displayMode="1" IconID="15" group="action">
+            #use(macro_functions.js); record_input_radio();
+          </ScriptCommand>
+          <ScriptCommand name="show_position" displayMode="2" IconID="43">
+            #use(macro_functions.js); show_position();
+          </ScriptCommand>
+          <ScriptCommand name="set_position" displayMode="2" IconID="44">
+            #use(macro_functions.js); position_input_radio();
+          </ScriptCommand>
+          <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+          </ScriptCommand>
+          <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+          </ScriptCommand>
+          <ScriptCommand name="edit_rect" displayMode="2" IconID="47">
+            #use(macro_functions.js); show_highlight_rect();
+          </ScriptCommand>
+          <ParamSet name="input_radio">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="fieldname"/>
+            <ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+              <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="TEXT" name="choose_bool"/>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="HTML" name="explanation_p"/>
+            <ParamInfo type="RELPOS_ELEMREF" name="position_h" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p"/>
+            <ParamGroup name="bubble_d">
+              <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                <Properties shelf="textstyles" specified=""/>
+              </ParamInfo>
+              <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                <Properties shelf="bubblestyles" specified=""/>
+              </ParamInfo>
+              <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+              <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+              <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+              <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+              <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+              <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                <Properties shelf="textstyles" specified=""/>
+              </ParamInfo>
+              <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                <Properties shelf="bubblestyles" specified=""/>
+              </ParamInfo>
+              <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width_p" visibility="conditional"/>
+              <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height_p" visibility="conditional"/>
+              <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+              <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="explanation_p_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+              <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+              <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                <Properties filter="img_filter"/>
+              </ParamInfo>
+              <ParamInfo type="POSITION" name="overlay_pos" NoExport="1" visibility="conditional"/>
+              <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="rerecord">
+              <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+              <ParamInfo type="POSITION" name="click_pos" textkey="rerec_click_pos" NoExport="1" visibility="conditional"/>
+              <ParamInfo type="BOOL_0_1" name="rerec_manual" NoExport="1"/>
+              <ParamInfo type="TEXT_SHORT" name="elem_key" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="adv">
+                <ParamInfo type="TOURSTOP_NAME" name="jump_target" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="wait_for_input" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="full_form" visibility="conditional"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" b_width="180" b_height="40" doc_enable="yes" b_duration="3" explanation_d="" explanation_p="" orientation_p="C" orientation="SE" wait_for_input="1" show_hl_d="1" show_hl_p="0" fieldname="" fieldicon="" full_form="0" bubblestyle_d="_default" bubblestyle_p="_default" bubble_class_p="StyleA" b_width_p="180" b_height_p="40" element_type="WINCheckbox">
+            <click_pos x="-1" y="-1"/>
+            <position_h>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+                <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_b>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_b>
+            <position_bu>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_bu>
+        </Default>
+    </MacroTemplate>    <!-- MacroTemplate scroll_hor -->
+
+    <MacroTemplate Name="scroll_hor" rgbcolor="#daea00" Duration="10" IconID="16" alt_name="scrollInDivsLeftRight">
+        <Properties hidden="true"/>
+        <ParamSet name="scroll_hor">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="scrollleft"/>
+            <ParamInfo type="RELPOS" name="position_h" visibility="conditional"/>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p" visibility="conditional"/>
+            <ParamGroup name="bubble">
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="INTEGER" name="imagesize" NoExport="1"/>
+                <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="TEXT_SHORT" name="elem_key" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                    <Properties filter="img_filter" nocrop=""/>
+                </ParamInfo>
+                <ParamInfo type="TEXT" name="caption" textkey="screenshot_sub_heading" NoExport="1"/>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="screenshot_border" NoExport="1"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" b_width="180" b_height="40" b_duration="3" scrollleft="1000" doc_enable="yes" element_type="HScroll" explanation_d="" orientation="NW" bubblestyle_d="_default" imagesize="40" show_hl_d="0" show_hl_p="0">
+            <position_h>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+                <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_b>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_b>
+        </Default>
+        <ScriptCommand name="scroll_hor" displayMode="1" IconID="16" group="action">
+        #use(macro_functions.js); record_hor_scroll();
+    </ScriptCommand>
+        <ScriptCommand name="edit_bubble" displayMode="2" IconID="45">
+        #use(macro_functions.js); edit_demo_bubble();
+    </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate scroll_vert -->
+
+    <MacroTemplate Name="scroll_vert" rgbcolor="#daea00" Duration="10" IconID="17" alt_name="scrollInDivsTopDown">
+        <ParamSet name="scroll_vert">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="scrolltop"/>
+            <ParamInfo type="RELPOS" name="position_h" visibility="conditional"/>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_d" visibility="conditional"/>
+            <ParamInfo type="BOOL_0_1" name="show_hl_p" visibility="conditional"/>
+            <ParamGroup name="bubble">
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="explanation_d_modified" NoExport="1" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="doc">
+                <ParamInfo type="BOOL_YES_NO" name="doc_enable" NoExport="1"/>
+                <ParamInfo type="INTEGER" name="imagesize" NoExport="1"/>
+                <ParamInfo type="TEXT" name="element_type" textkey="rerec_element_type" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="TEXT_SHORT" name="elem_key" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                    <Properties filter="img_filter" nocrop=""/>
+                </ParamInfo>
+                <ParamInfo type="TEXT" name="caption" textkey="screenshot_sub_heading" NoExport="1"/>
+                <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="screenshot_border" NoExport="1"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" b_width="180" b_height="40" b_duration="3" scrolltop="1000" doc_enable="yes" element_type="HScroll" explanation_d="" orientation="NW" bubblestyle_d="_default" imagesize="40" show_hl_d="0" show_hl_p="0">
+            <position_h>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+                <rectElement x="0.6" y="0.6"/>
+            </position_h>
+            <position_b>
+                <frame path=":0"/>
+                <posElement x="0.5" y="0.5"/>
+            </position_b>
+        </Default>
+        <Properties hidden="true"/>
+        <ScriptCommand name="scroll_vert" displayMode="1" IconID="17" group="action">
+            #use(macro_functions.js); record_vscroll();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate goto_tourstop -->
+
+    <MacroTemplate Name="goto_tourstop" rgbcolor="#daea00" Duration="10" IconID="18">
+        <ParamSet name="goto_tourstop">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TOURSTOP_NAME" name="jump_target"/>
+        </ParamSet>
+        <Properties hidden="true"/>
+        <ScriptCommand name="goto_tourstop" displayMode="9" menu_path="/main/tools/addmac" IconID="18" group="action">
+            #use(macro_functions.js); record_goto_tourstop();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate end_unit -->
+
+    <MacroTemplate Name="end_unit" rgbcolor="#daea00" Duration="10" IconID="20">
+        <ParamSet name="end_unit">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="last_page_pause">
+                <Properties postfix="sec"/>
+            </ParamInfo>
+        </ParamSet>
+        <ScriptCommand name="end_unit" displayMode="9" menu_path="/main/tools/addmac" IconID="20" group="action">
+            #use(macro_functions.js); record_end_unit();
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>    <!-- MacroTemplate kurs -->
+
+    <MacroTemplate Name="kurs" rgbcolor="#66c5c5" Duration="1" IconID="29">
+        <Properties hidden="true"/>
+        <Translatable text="true"/>
+        <ParamSet name="kurs">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="titel" textkey="doc_title"/>
+            <ParamInfo type="TEXT" name="bezeichnung" textkey="doc_description"/>
+        </ParamSet>
+        <ScriptCommand name="kurs" displayMode="9" menu_path="/main/doc/doclet" IconID="29" group="doc">
+            InsertEventAfter(CreateMacro("kurs"));
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate transaction_info -->
+
+    <MacroTemplate Name="transaction_info" rgbcolor="#66c5c5" Duration="1" IconID="30">
+        <Properties hidden="true"/>
+        <ParamSet name="transaction_info">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="tcode"/>
+            <ParamInfo type="TEXT" name="sap_path"/>
+        </ParamSet>
+        <ScriptCommand name="transaction_info" displayMode="9" menu_path="/main/doc/doclet" IconID="30" group="doc">
+            InsertEventAfter(CreateMacro("transaction_info"));
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate screenshot_part -->
+
+    <MacroTemplate Name="screenshot_part" rgbcolor="#66c5c5" Duration="1" IconID="31">
+        <Properties hidden="true"/>
+        <ParamSet name="screenshot_part">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="imagesize" NoExport="1"/>
+            <ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+                <Properties filter="img_filter"/>
+            </ParamInfo>
+            <ParamInfo type="TEXT" name="caption" textkey="screenshot_sub_heading" NoExport="1"/>
+            <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+            <ParamInfo type="BOOL_TRUE_FALSE" name="show_actions" NoExport="1"/>
+            <ParamInfo type="INTEGER" name="screenshot_border" NoExport="1"/>
+        </ParamSet>
+        <Default show_actions="false" imagesize="40"/>
+        <ScriptCommand name="screenshot_part" displayMode="9" menu_path="/main/doc/doclet" IconID="31" scope="1" group="doc">
+            #use(macro_functions.js); record_partial_screenshot();
+        </ScriptCommand>
+        <ScriptCommand name="edit_screenshot" displayMode="2" IconID="40" group="doc">
+            #use(macro_functions.js); crop_screenshot_rect();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate hinweis -->
+
+    <MacroTemplate Name="hinweis" rgbcolor="#66c5c5" Duration="1" IconID="32">
+        <Properties hidden="true"/>
+        <Translatable text="true"/>
+        <ScriptCommand name="hinweis" displayMode="9" menu_path="/main/doc/doclet" IconID="32" group="doc">
+            #use(macro_functions.js); record_doc_note();
+        </ScriptCommand>
+        <ParamSet name="hinweis">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="ENUM" name="type" textkey="explanation_type">
+                <EnumValue name="hinweis" value="1" textkey="#note"/>
+                <EnumValue name="tipp" value="2"/>
+                <EnumValue name="info" value="3"/>
+                <EnumValue name="warnung" value="4"/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="text">
+                <Properties height="400" specified=""/>
+            </ParamInfo>
+        </ParamSet>
+        <Default type="hinweis"/>
+    </MacroTemplate>    <!-- MacroTemplate beschreibung -->
+
+    <MacroTemplate Name="beschreibung" rgbcolor="#66c5c5" Duration="1" IconID="33">
+        <Properties hidden="true"/>
+        <Translatable text="true"/>
+        <ParamSet name="beschreibung">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="HTML" name="text">
+                <Properties height="400" specified=""/>
+            </ParamInfo>
+        </ParamSet>
+        <Default text=""/>
+        <ScriptCommand name="beschreibung" displayMode="9" menu_path="/main/doc/doclet" IconID="33" group="doc">
+            InsertEventAfter(CreateMacro("beschreibung"));
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate doc_caption -->
+
+    <MacroTemplate Name="doc_caption" rgbcolor="#66c5c5" Duration="1" IconID="34" alt_name="neuer abschnitt">
+        <Properties hidden="true"/>
+        <Translatable caption="true"/>
+        <ParamSet name="doc_caption">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="caption" textkey="doc_chapter_heading" NoExport="1"/>
+            <ParamInfo type="TEXT" name="type" textkey="doc_heading_template" NoExport="1"/>
+        </ParamSet>
+        <ScriptCommand name="doc_caption" displayMode="9" menu_path="/main/doc/doclet" IconID="34" group="doc">
+            #use(macro_functions.js); record_heading();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate free_marker -->
+
+    <MacroTemplate Name="free_marker" rgbcolor="#66c5c5" Duration="1" IconID="35">
+        <ScriptCommand name="free_marker" displayMode="9" menu_path="/main/doc/doclet" IconID="35" group="doc">
+            #use(macro_functions.js); record_free_marker();
+        </ScriptCommand>
+        <ScriptCommand name="edit" displayMode="2" IconID="47">
+            #use(macro_functions.js); edit_free_marker();
+        </ScriptCommand>
+        <Translatable text="true"/>
+        <Properties hidden="true"/>
+        <ParamSet name="free_marker">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+            <ParamInfo type="HTML" name="text"/>
+            <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="doc_marker_orientation" visibility="conditional"/>
+        </ParamSet>
+        <Default orientation="E"/>
+    </MacroTemplate>    <!-- MacroTemplate arrow -->
+
+    <MacroTemplate Name="arrow" rgbcolor="#66c5c5" Duration="1" IconID="36">
+        <ScriptCommand name="arrow" displayMode="9" menu_path="/main/doc/doclet" IconID="36" group="doc">
+            #use(macro_functions.js); record_pfeil();
+        </ScriptCommand>
+        <ScriptCommand name="edit" displayMode="2" IconID="50">
+            #use(macro_functions.js); edit_pfeil();
+        </ScriptCommand>
+        <Properties hidden="true"/>
+        <ParamSet name="arrow">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1" visibility="conditional"/>
+            <ParamInfo type="INTEGER" name="orientation" textkey="doc_arrow_orientation" NoExport="1"/>
+        </ParamSet>
+    </MacroTemplate>    <!-- MacroTemplate page_break -->
+
+    <MacroTemplate Name="page_break" rgbcolor="#66c5c5" Duration="1" IconID="37">
+        <Properties hidden="true"/>
+        <ParamSet name="page_break">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+        </ParamSet>
+        <ScriptCommand name="page_break" displayMode="9" menu_path="/main/doc/doclet" IconID="37" group="doc">
+            InsertEventAfter(CreateMacro("page_break"));
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate swf_page -->
+
+    <MacroTemplate Name="swf_page" rgbcolor="#daea00" Duration="10" IconID="66">
+        <ParamSet name="swf_page">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="RELATIVE_URL" name="swf_file">
+                <Properties filter="swf_filter" copy="true"/>
+            </ParamInfo>
+            <ParamInfo type="INTEGER" name="swf_width"/>
+            <ParamInfo type="INTEGER" name="swf_height"/>
+            <ParamGroup name="mode_avail">
+                <ParamInfo type="BOOL_0_1" name="in_demo"/>
+                <ParamInfo type="BOOL_0_1" name="in_practice"/>
+                <ParamInfo type="BOOL_0_1" name="in_test"/>
+                <ParamInfo type="BOOL_0_1" name="in_prax"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default swf_file="" in_demo="1" in_test="0" in_practice="1" in_prax="1"/>
+        <ScriptCommand name="swf_page" displayMode="9" menu_path="/main/tools/addmac" IconID="66" group="action">
+            InsertEventAfter(CreateMacro("swf_page"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>    <!-- MacroTemplate info_page -->
+
+    <MacroTemplate Name="info_page" rgbcolor="#daea00" Duration="10" IconID="27" required_feature="InfoPage">
+        <ParamSet name="info_page">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="explanation_d"/>
+            <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width"/>
+            <ParamInfo type="RELPOS_DOCREF" name="dump_win_relpos"/>
+            <ParamInfo type="ENUM" name="type" textkey="explanation_type">
+                <EnumValue name="" value="0" textkey=""/>
+                <EnumValue name="hinweis" value="1" textkey="note"/>
+                <EnumValue name="tipp" value="2"/>
+                <EnumValue name="info" value="3"/>
+                <EnumValue name="warnung" value="4"/>
+            </ParamInfo>
+        </ParamSet>
+        <ScriptCommand name="info_page" displayMode="9" menu_path="/main/doc/doclet" IconID="27" group="doc" required_feature="InfoPage">
+            #use(macro_functions.js); record_info_page();
+        </ScriptCommand>
+        <Default color="#B2BFD5" b_width="360">
+            <dump_win_relpos>
+                <frame path=":0"/>
+            </dump_win_relpos>
+        </Default>
+        <Properties hidden="true"/>
+    </MacroTemplate>    <!-- MacroTemplate form_on -->
+
+    <MacroTemplate Name="form_on" rgbcolor="#daea00" Duration="10" IconID="23">
+        <ParamSet name="form_on">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+        </ParamSet>
+        <Default color="#B2BFD5" b_width="360">
+            <dump_win_relpos>
+                <frame path=":0"/>
+            </dump_win_relpos>
+        </Default>
+        <Properties hidden="true"/>
+        <ScriptCommand name="remove_form" displayMode="2" IconID="23">
+            #use(macro_functions.js); remove_form();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate form_off -->
+
+    <MacroTemplate Name="form_off" rgbcolor="#daea00" Duration="10" IconID="24">
+        <ParamSet name="form_off">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamGroup name="bubble_d">
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration" textkey="bubble_duration" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+                <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                    <Properties shelf="textstyles"/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height_p" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_duration_p" textkey="bubble_duration_p" visibility="conditional"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class_p="StyleA" bubble_class="StyleA" orientation="C" orientation_p="C" b_width="160" b_height="100" b_width_p="160" b_height_p="100"/>
+        <Properties hidden="true"/>
+        <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="remove_form" displayMode="2" IconID="23">
+            #use(macro_functions.js); remove_form(1);
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate branch_on -->
+
+    <MacroTemplate Name="branch_on" rgbcolor="#daea00" Duration="10" IconID="25">
+        <ParamSet name="branch_on">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+        </ParamSet>
+        <Default color="#B2BFD5" b_width="360">
+            <dump_win_relpos>
+                <frame path=":0"/>
+            </dump_win_relpos>
+        </Default>
+        <Properties hidden="true"/>
+        <ScriptCommand name="edit_jump_targets" displayMode="2" IconID="49">
+            #use(macro_functions.js); edit_jump_targets();
+        </ScriptCommand>
+        <ScriptCommand name="remove_branch" displayMode="2" IconID="49">
+            #use(macro_functions.js); remove_branch();
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate branch_off -->
+
+    <MacroTemplate Name="branch_off" rgbcolor="#daea00" Duration="10" IconID="26">
+        <ParamSet name="branch_off">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamGroup name="bubble_d">
+                <ParamInfo type="RELPOS" name="position_b" visibility="conditional"/>
+                <ParamInfo type="SHELF" name="bubble_class" visibility="conditional">
+                    <Properties shelf="textstyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_d" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width" textkey="bubble_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height" textkey="bubble_height" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation" textkey="bubble_orientation" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="bubble_p">
+                <ParamInfo type="RELPOS" name="position_bu" visibility="conditional"/>
+                <ParamInfo type="SHELF" name="bubble_class_p" visibility="conditional">
+                    <Properties shelf="textstyles"/>
+                </ParamInfo>
+                <ParamInfo type="SHELF" name="bubblestyle_p" visibility="conditional">
+                    <Properties shelf="bubblestyles" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="b_width_p" textkey="bubble_width_p" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="b_height_p" textkey="bubble_height_p" visibility="conditional"/>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation_p" textkey="bubble_orientation_p" visibility="conditional"/>
+            </ParamGroup>
+        </ParamSet>
+        <Default bubble_class="StyleA" b_width="200" b_height="200" b_width_p="200" b_height_p="200" orientation="C" orientation_p="C" bubble_class_p="StyleA"/>
+        <Properties hidden="true"/>
+        <ScriptCommand name="edit_jump_targets" displayMode="2" IconID="49" keycode="74" shift="0" ctrl="1">
+            #use(macro_functions.js); edit_jump_targets();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_demo" displayMode="2" IconID="45">
+            #use(macro_functions.js); edit_demo_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="edit_bubble_prax" displayMode="2" IconID="46">
+            #use(macro_functions.js); edit_practice_bubble();
+        </ScriptCommand>
+        <ScriptCommand name="remove_branch" displayMode="2" IconID="49">
+            #use(macro_functions.js); remove_branch(1);
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate mode_change -->
+
+    <MacroTemplate Name="mode_change" rgbcolor="#daea00" Duration="10" IconID="63">
+        <ParamSet name="mode_change">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="ENUM" name="in_demo_to">
+                <EnumValue value="1" name="demo"/>
+                <EnumValue value="2" name="uebung"/>
+                <EnumValue value="3" name="test"/>
+                <EnumValue value="4" name="praxis"/>
+            </ParamInfo>
+            <ParamInfo type="ENUM" name="in_uebung_to">
+                <EnumValue value="1" name="demo"/>
+                <EnumValue value="2" name="uebung"/>
+                <EnumValue value="3" name="test"/>
+                <EnumValue value="4" name="praxis"/>
+            </ParamInfo>
+            <ParamInfo type="ENUM" name="in_test_to">
+                <EnumValue value="1" name="demo"/>
+                <EnumValue value="2" name="uebung"/>
+                <EnumValue value="3" name="test"/>
+                <EnumValue value="4" name="praxis"/>
+            </ParamInfo>
+            <ParamInfo type="ENUM" name="in_praxis_to" visibility="conditional">
+                <EnumValue value="1" name="demo"/>
+                <EnumValue value="2" name="uebung"/>
+                <EnumValue value="3" name="test"/>
+                <EnumValue value="4" name="praxis"/>
+            </ParamInfo>
+        </ParamSet>
+        <Properties hidden="true"/>
+        <Default in_demo_to="demo" in_uebung_to="uebung" in_test_to="test" in_praxis_to="praxis"/>
+        <ScriptCommand name="mode_change" displayMode="8" IconID="63" menu_path="/main/tools/addmac">
+            InsertEventAfter(CreateMacro("mode_change"));
+        </ScriptCommand>
+    </MacroTemplate>    <!-- MacroTemplate mode_change_end -->
+
+    <MacroTemplate Name="mode_change_end" rgbcolor="#daea00" Duration="10" IconID="64">
+        <ParamSet name="mode_change_end">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+        </ParamSet>
+        <Properties hidden="true"/>
+        <ScriptCommand name="mode_change_end" displayMode="8" IconID="64" menu_path="/main/tools/addmac">
+            InsertEventAfter(CreateMacro("mode_change_end"));
+        </ScriptCommand>
+    </MacroTemplate>
+
+<!-- MacroTemplate multiple_choice -->
+    <MacroTemplate Name="mchoice" rgbcolor="#daea00" Duration="10" IconID="68">
+        <ParamSet name="mchoice">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="question"/>
+            <ParamInfo type="TEXT" name="answer_1">
+                <Properties height="60"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_0_1" name="answer_1_correct"/>
+            <ParamInfo type="TEXT" name="answer_2">
+                <Properties height="60"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_0_1" name="answer_2_correct"/>
+            <ParamInfo type="TEXT" name="answer_3">
+                <Properties height="60"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_0_1" name="answer_3_correct"/>
+            <ParamGroup name="more_answers">
+                <ParamInfo type="TEXT" name="answer_4">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="answer_4_correct"/>
+                <ParamInfo type="TEXT" name="answer_5">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="answer_5_correct"/>
+                <ParamInfo type="TEXT" name="answer_6">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="answer_6_correct"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="BOOL_0_1" name="shuffle_solutions"/>
+                <ParamInfo type="BOOL_0_1" name="force_multiple_choice"/>
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="qm_as_question" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" question="true" answer_1="true" answer_2="true" answer_3="true" answer_4="true" answer_5="true" answer_6="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default question="" title="" points="1" qm_file="" shuffle_solutions="0" answer_1="" answer_2="" answer_3="" answer_1_correct="0" answer_2_correct="0" answer_3_correct="0" force_multiple_choice="0" />
+        <ScriptCommand name="mchoice" displayMode="8" IconID="68" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("mchoice"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate singe_question_multiple_answer -->
+    <MacroTemplate Name="sqmaquiz" rgbcolor="#daea00" Duration="10" IconID="69">
+        <ParamSet name="sqmaquiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="question"/>
+            <ParamInfo type="ENUM" name="answer_type">
+                <EnumValue value="1" name="at_text"/>
+                <EnumValue value="2" name="at_cs_text"/>
+                <EnumValue value="3" name="at_integer"/>
+                <EnumValue value="4" name="at_float"/>
+                <EnumValue value="5" name="at_regexp"/>
+                <EnumValue value="6" name="at_comma_list"/>
+                <EnumValue value="7" name="at_cs_comma_list"/>
+            </ParamInfo>
+            <ParamInfo type="TEXT" name="answer_1"/>
+            <ParamInfo type="TEXT" name="answer_2"/>
+            <ParamInfo type="TEXT" name="answer_3"/>
+            <ParamGroup name="more_answers">
+                <ParamInfo type="TEXT" name="answer_4"/>
+                <ParamInfo type="TEXT" name="answer_5"/>
+                <ParamInfo type="TEXT" name="answer_6"/>
+                <ParamInfo type="TEXT" name="answer_7"/>
+                <ParamInfo type="TEXT" name="answer_8"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="qm_as_question" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" question="true" answer_1="true" answer_2="true" answer_3="true" answer_4="true" answer_5="true" answer_6="true" answer_7="true" answer_8="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default question="" qm_file="" title="" points="1" answer_1="" answer_2="" answer_3="" answer_type="at_comma_list" />
+        <ScriptCommand name="sqmaquiz" displayMode="8" IconID="69" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("sqmaquiz"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate fill_in_blank_quiz -->
+    <MacroTemplate Name="fibquiz" rgbcolor="#daea00" Duration="10" IconID="70">
+        <ParamSet name="fibquiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="question"/>
+            <ParamInfo type="HTML" name="fibtext"/>
+            <ParamInfo type="ENUM" name="quiz_type">
+                <EnumValue value="1" name="qt_text"/>
+                <EnumValue value="2" name="qt_cs_text"/>
+                <EnumValue value="3" name="qt_drop_down"/>
+                <EnumValue value="4" name="qt_drag_drop"/>
+            </ParamInfo>
+            <ParamInfo type="TEXT" name="answer_1"/>
+            <ParamInfo type="TEXT" name="answer_2"/>
+            <ParamInfo type="TEXT" name="answer_3"/>
+            <ParamGroup name="more_answers">
+                <ParamInfo type="TEXT" name="answer_4"/>
+                <ParamInfo type="TEXT" name="answer_5"/>
+                <ParamInfo type="TEXT" name="answer_6"/>
+                <ParamInfo type="TEXT" name="answer_7"/>
+                <ParamInfo type="TEXT" name="answer_8"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="BOOL_0_1" name="shuffle_solutions"/>
+                <ParamInfo type="BOOL_0_1" name="one_for_all"/>
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="qm_as_question" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" question="true" fibtext="true" answer_1="true" answer_2="true" answer_3="true" answer_4="true" answer_5="true" answer_6="true" answer_7="true" answer_8="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default question="" qm_file="" fibtext="" title="" points="1" shuffle_solutions="0" answer_1="" answer_2="" answer_3="" quiz_type="qt_text" />
+        <ScriptCommand name="fibquiz" displayMode="8" IconID="70" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("fibquiz"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate matching_quiz -->
+    <MacroTemplate Name="matchquiz" rgbcolor="#daea00" Duration="10" IconID="74">
+        <ParamSet name="matchquiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="matchquestion"/>
+            <ParamInfo type="ENUM" name="quiz_type">
+                <EnumValue value="1" name="qt_drop_down"/>
+                <EnumValue value="2" name="qt_drag_drop"/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="question_1">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="answer_1">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="question_2">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="answer_2">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="question_3">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="answer_3">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamGroup name="more_answers">
+                <ParamInfo type="HTML" name="question_4">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_4">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="question_5">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_5">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="question_6">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_6">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="question_7">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_7">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="question_8">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_8">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+            </ParamGroup>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="qm_as_question" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" matchquestion="true" question_1="true" question_2="true" question_3="true" question_4="true" question_5="true" question_6="true" question_7="true" question_8="true" answer_1="true" answer_2="true" answer_3="true" answer_4="true" answer_5="true" answer_6="true" answer_7="true" answer_8="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default matchquestion="" qm_file="" title="" points="1" question_1="" answer_1="" question_2="" answer_2="" question_3="" answer_3="" quiz_type="qt_drop_down" />
+        <ScriptCommand name="matchquiz" displayMode="8" IconID="74" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("matchquiz"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate connection_quiz -->
+    <MacroTemplate Name="connquiz" rgbcolor="#daea00" Duration="10" IconID="81" required_feature="QuizConn">
+        <ParamSet name="connquiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="connquestion" textkey="matchquestion"/>
+            <ParamInfo type="HTML" name="question_1">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="answer_1">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="question_2">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="answer_2">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="question_3">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamInfo type="HTML" name="answer_3">
+                <Properties height="50" specified=""/>
+            </ParamInfo>
+            <ParamGroup name="more_answers">
+                <ParamInfo type="HTML" name="question_4">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_4">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="question_5">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_5">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="question_6">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_6">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="question_7">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_7">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="question_8">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="answer_8">
+                    <Properties height="50" specified=""/>
+                </ParamInfo>
+            </ParamGroup>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="qm_as_question" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" connquestion="true" question_1="true" question_2="true" question_3="true" question_4="true" question_5="true" question_6="true" question_7="true" question_8="true" answer_1="true" answer_2="true" answer_3="true" answer_4="true" answer_5="true" answer_6="true" answer_7="true" answer_8="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default connquestion="" qm_file="" title="" points="1" question_1="" answer_1="" question_2="" answer_2="" question_3="" answer_3="" quiz_type="qt_drop_down" />
+        <ScriptCommand name="connquiz" displayMode="8" IconID="81" menu_path="/main/edit/addqmac" required_feature="QuizConn">
+            InsertEventAfter(CreateMacro("connquiz"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate mix_quiz -->
+    <MacroTemplate Name="mixquiz" rgbcolor="#daea00" Duration="10" IconID="71">
+        <ParamSet name="mixquiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="question"/>
+            <ParamInfo type="ENUM" name="quiz_type">
+                <EnumValue value="1" name="qt_drop_down"/>
+                <EnumValue value="2" name="qt_drag_drop"/>
+            </ParamInfo>
+            <ParamInfo type="ENUM" name="quiz_alignment">
+                <EnumValue value="2" name="qa_horizontal"/>
+                <EnumValue value="3" name="qa_vertical"/>
+            </ParamInfo>
+            <ParamInfo type="TEXT" name="answer_1"/>
+            <ParamInfo type="TEXT" name="answer_2"/>
+            <ParamInfo type="TEXT" name="answer_3"/>
+            <ParamGroup name="more_answers">
+                <ParamInfo type="TEXT" name="answer_4"/>
+                <ParamInfo type="TEXT" name="answer_5"/>
+                <ParamInfo type="TEXT" name="answer_6"/>
+                <ParamInfo type="TEXT" name="answer_7"/>
+                <ParamInfo type="TEXT" name="answer_8"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="qm_as_question" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" question="true" answer_1="true" answer_2="true" answer_3="true" answer_4="true" answer_5="true" answer_6="true" answer_7="true" answer_8="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default question="" qm_file="" title="" points="1" answer_1="" answer_2="" answer_3="" quiz_type="qt_drop_down" quiz_alignment="qa_horizontal" />
+        <ScriptCommand name="mixquiz" displayMode="8" IconID="71" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("mixquiz"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate scale_quiz -->
+    <MacroTemplate Name="scalequiz" rgbcolor="#daea00" Duration="10" IconID="75">
+        <ParamSet name="scalequiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="question"/>
+            <ParamInfo type="TEXT" name="range"/>
+            <ParamInfo type="TEXT" name="answer"/>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="qm_as_question" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" question="true" range="true" answer="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default question="" qm_file="" title="" points="1" range="" answer="" />
+        <ScriptCommand name="scalequiz" displayMode="8" IconID="75" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("scalequiz"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate grid_quiz -->
+    <MacroTemplate Name="gridquiz" rgbcolor="#daea00" Duration="10" IconID="72">
+        <ParamSet name="gridquiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="question"/>
+            <ParamInfo type="TEXT" name="grid_list"/>
+            <ParamInfo type="TEXT" name="question_1"/>
+            <ParamInfo type="TEXT" name="answer_1"/>
+            <ParamInfo type="TEXT" name="question_2"/>
+            <ParamInfo type="TEXT" name="answer_2"/>
+            <ParamInfo type="TEXT" name="question_3"/>
+            <ParamInfo type="TEXT" name="answer_3"/>
+            <ParamGroup name="more_answers">
+                <ParamInfo type="TEXT" name="question_4"/>
+                <ParamInfo type="TEXT" name="answer_4"/>
+                <ParamInfo type="TEXT" name="question_5"/>
+                <ParamInfo type="TEXT" name="answer_5"/>
+                <ParamInfo type="TEXT" name="question_6"/>
+                <ParamInfo type="TEXT" name="answer_6"/>
+                <ParamInfo type="TEXT" name="question_7"/>
+                <ParamInfo type="TEXT" name="answer_7"/>
+                <ParamInfo type="TEXT" name="question_8"/>
+                <ParamInfo type="TEXT" name="answer_8"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="BOOL_0_1" name="shuffle_solutions"/>
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+                <ParamInfo type="BOOL_0_1" name="qm_as_question" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" question="true" grid_list="true" question_1="true" question_2="true" question_3="true" question_4="true" question_5="true" question_6="true" question_7="true" question_8="true" answer_1="true" answer_2="true" answer_3="true" answer_4="true" answer_5="true" answer_6="true" answer_7="true" answer_8="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default question="" qm_file="" title="" points="1" shuffle_solutions="0" grid_list="" question_1="" answer_1="" question_2="" answer_2="" question_3="" answer_3="" />
+        <ScriptCommand name="gridquiz" displayMode="8" IconID="72" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("gridquiz"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>    
+
+<!-- MacroTemplate puzzle quiz -->
+    <MacroTemplate Name="puzzlequiz" rgbcolor="#daea00" Duration="10" IconID="73">
+        <ParamSet name="puzzlequiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="question"/>
+            <ParamInfo type="ENUM" name="quiz_type">
+                <EnumValue value="1" name="qt_oneplace_puzzle"/>
+                <EnumValue value="2" name="qt_twoplace_puzzle"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_0_1" name="qp_show_hint"/>
+            <ParamInfo type="INTEGER" name="qp_pieces_x"/>
+            <ParamInfo type="INTEGER" name="qp_pieces_y"/>
+            <ParamInfo type="IMAGE_DOC_REL" name="qm_file" textkey="hs_image">
+                <Properties filter="media_filter" copy="true"/>
+            </ParamInfo>
+            <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+            <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" question="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />        
+        <Default question="" qm_file="" title="" points="1" quiz_type="qt_oneplace_puzzle" qp_show_hint="1" qp_pieces_x="" qp_pieces_y="" />
+        <ScriptCommand name="puzzlequiz" displayMode="8" IconID="73" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("puzzlequiz"));
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate hotspot quiz -->
+    <MacroTemplate Name="hotspotquiz" rgbcolor="#daea00" Duration="10" IconID="76">
+        <ParamSet name="hotspotquiz">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="INTEGER" name="points"/>
+            <ParamInfo type="TEXT" name="title"/>
+            <ParamInfo type="HTML" name="question"/>
+            <ParamInfo type="IMAGE_DOC_REL" name="hs_image">
+                <Properties filter="img_filter" copy="true"/>
+            </ParamInfo>
+            <ParamInfo type="POSSIZE" name="selection_rect" textkey="screenshot_rect" visibility="conditional"/>
+            <ParamGroup name="quiz_media">
+                <ParamInfo type="IMAGE_DOC_REL" name="qm_file">
+                    <Properties filter="media_filter" copy="true"/>
+                </ParamInfo>
+                <ParamInfo type="INTEGER" name="qm_width" visibility="conditional"/>
+                <ParamInfo type="INTEGER" name="qm_height" visibility="conditional"/>
+            </ParamGroup>
+            <ParamGroup name="quiz_options">
+                <ParamInfo type="INTEGER" name="quiz_timeout"/>
+            </ParamGroup>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass" visibility="conditional"><Properties height="60"/></ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail" visibility="conditional"><Properties height="60"/></ParamInfo>
+                <ParamInfo type="HTML" name="feedback_time" visibility="conditional"><Properties height="60"/></ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" title="true" question="true" feedback_pass="true" feedback_fail="true" feedback_time="true" />
+        <Default question="" hs_image="" title="" points="1" quiz_type="qt_oneplace_puzzle" qp_show_hint="1" qp_pieces_x="" qp_pieces_y="" />
+        <ScriptCommand name="hotspotquiz" displayMode="8" IconID="76" menu_path="/main/edit/addqmac">
+            InsertEventAfter(CreateMacro("hotspotquiz"));
+        </ScriptCommand>
+        <ScriptCommand name="hotspot_define" displayMode="2" IconID="40">
+            #use(macro_functions.js); set_quiz_hotspot_rect();
+        </ScriptCommand>
+        <Properties hidden="true"></Properties>
+    </MacroTemplate>
+
+<!-- MacroTemplate quiz_selection_on -->
+    <MacroTemplate Name="quiz_shuffle_on" rgbcolor="#daea00" Duration="10" IconID="79">
+        <ParamSet name="quiz_shuffle_on">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="ENUM" name="quiz_selection_type">
+                <EnumValue value="1" name="qst_random_choice"/>
+                <EnumValue value="2" name="qst_shuffle_quizzes"/>
+            </ParamInfo>
+            <ParamInfo type="INTEGER" name="points"/>
+        </ParamSet>
+        <Translatable macro_comment="true" />
+        <Default quiz_selection_type="qst_random_choice" points="1" />
+        <ScriptCommand name="remove_quiz_selection" displayMode="2" IconID="80">
+            #use(macro_functions.js); remove_quiz_selection();
+        </ScriptCommand>
+        <ScriptCommand name="quiz_selection" displayMode="8" IconID="79" menu_path="/main/edit/addqmac">
+            #use(macro_functions.js); create_quiz();
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate quiz_selection_off -->
+    <MacroTemplate Name="quiz_shuffle_off" rgbcolor="#daea00" Duration="10" IconID="80">
+        <ParamSet name="quiz_shuffle_off">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+        </ParamSet>
+        <Translatable macro_comment="true" />
+        <ScriptCommand name="remove_quiz_selection" displayMode="2" IconID="80">
+            #use(macro_functions.js); remove_quiz_selection(1);
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+
+<!-- MacroTemplate quiz evaluation -->
+    <MacroTemplate Name="quiz_eval" rgbcolor="#daea00" Duration="10" IconID="67">
+        <ParamSet name="quiz_eval">
+            <ParamInfo type="COMMENT" name="macro_comment"/>
+            <ParamInfo type="TEXT" name="proj_title"/>
+            <ParamInfo type="TEXT" name="quiz_threshold"/>
+            <ParamInfo type="ENUM" name="eval_type">
+                <EnumValue value="1" name="et_full"/>
+                <EnumValue value="2" name="et_reduced"/>
+                <EnumValue value="3" name="et_minimal"/>
+            </ParamInfo>
+            <ParamGroup name="feedback">
+                <ParamInfo type="BOOL_0_1" name="feedback_enable"/>
+                <ParamInfo type="HTML" name="feedback_pass">
+                    <Properties height="60"/>
+                </ParamInfo>
+                <ParamInfo type="HTML" name="feedback_fail">
+                    <Properties height="60"/>
+                </ParamInfo>
+            </ParamGroup>
+        </ParamSet>
+        <Translatable macro_comment="true" proj_title="true" quiz_threshold="true" feedback_pass="true" feedback_fail="true" />
+        <ScriptCommand name="quiz_eval" displayMode="8" IconID="67" menu_path="/main/edit/addqmac">
+            var m = CreateMacro("quiz_eval");
+            m.SetParam("proj_title", Project.DisplayName);
+            InsertEventAfter(m);            
+        </ScriptCommand>
+        <Properties hidden="true"/>
+    </MacroTemplate>
+</MacroShelf>

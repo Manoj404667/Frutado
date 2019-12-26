@@ -1,0 +1,221 @@
+﻿click.demo	Klikk nå på [B_NAME].
+click.prac	Klikk på [B_NAME].
+click_img.demo	Klikk nå på [B_NAME_ICON].
+click_img.prac	Klikk på [B_NAME_ICON].
+click_cancel_trans_img.demo	Ved å klikke på [B_ICON_NAME] avbrytes transaksjonen.
+click_cancel_trans_img.prac	Klikk på [B_ICON_NAME] for å avbryte transaksjonen.
+click_back_img.demo	Ved å klikke på [B_ICON_NAME] kommer du tilbake til forrige side.
+click_back_img.prac	Klikk på [B_ICON_NAME] for å gå tilbake til forrige side.
+click_ok_img.demo	Klikk nå på [B_ICON_NAME].
+click_ok_img.prac	Klikk på [B_ICON_NAME].
+click_exit_trans_img.demo	Ved å klikke på [B_ICON_NAME] forlates transaksjonen.
+click_exit_trans_img.prac	Klikk på [B_ICON_NAME] for å forlate transaksjonen.
+click_save_img.demo	Ved å klikke på [B_ICON_NAME] lagres dataene.
+click_save_img.prac	Klikk på [B_ICON_NAME] for å lagre dataene.
+click_checkbox_off.demo	[B_NAME] slås av.
+click_checkbox_off.prac	Slå av verdien [B_NAME].
+click_next_page_img.demo	Ved å klikke på [B_NAME_ICON] åpnes neste side.
+click_next_page_img.prac	Klikk på [B_NAME_ICON].
+click_checkbox_on.demo	[B_NAME] velges.
+click_checkbox_on.prac	Velg verdien [B_NAME].
+click_select_value.demo	Verdien [B_NAME] velges.
+click_select_value.prac	Velg verdien [B_NAME].
+click_open_menu.demo	Menyen [B_NAME] åpnes.
+click_open_menu.prac	Åpne menyen [B_NAME].
+click_menu_select.demo	Oppføringen [B_NAME] velges.
+click_menu_select.prac	Velg oppføringen [B_NAME].
+click_select_column.demo	Kolonnen [B_NAME] velges.
+click_select_column.prac	Velg kolonnen [B_NAME] ved å klikke på linjen over kolonnen.
+click_open_value_help.demo	Verdivelgeren åpnes.
+click_open_value_help.prac	Åpne verdivelgeren.
+click_select_line.demo	Linjen [B_NAME] velges.
+click_select_line.prac	Velg linjen [B_NAME] ved å klikke i den første kolonnen.
+click_scroll_top.demo	Ved å klikke på [ICON] scrolles det til begynnelsen.
+click_scroll_top.prac	Scroll til begynnelsen ved å klikke på [ICON].
+click_scroll_bottom.demo	Ved å klikke på [ICON] scrolles det til slutten.
+click_scroll_bottom.prac	Scroll til slutten ved å klikke på [ICON].
+click_scroll_pageup.demo	Ved å klikke på [ICON] scrolles det en side oppover.
+click_scroll_pageup.prac	Scroll en side oppover ved å klikke på [ICON].
+click_scroll_pagedown.demo	Ved å klikke på [ICON] scrolles det en side nedover.
+click_scroll_pagedown.prac	Scroll en side nedover ved å klikke på [ICON].
+click_scroll_lineup.demo	Ved å klikke på [ICON] scrolles det en linje oppover.
+click_scroll_lineup.prac	Scroll en linje oppover ved å klikke på [ICON].
+click_scroll_linedown.demo	Ved å klikke på [ICON] scrolles det en linje nedover.
+click_scroll_linedown.prac	Scroll en linje nedover ved å klikke på [ICON].
+click_close_window_img.demo	Vinduet lukkes ved å klikke på [ICON].
+click_close_window_img.prac	Lukk vinduet ved å klikke på [ICON].
+click_select_all_lines_img.demo	Ved å klikke på [ICON] markeres alle linjene.
+click_select_all_lines_img.prac	Velg alle linjene ved å klikke på [ICON].
+click_open_card_menu.demo	Ved å klikke på [ICON] åpnes oversikten over arkfanene.
+click_open_card_menu.prac	Åpne oversikten over arkfanene ved å klikke på [ICON] .
+click_select_card.demo	Arkfanen [B_NAME] velges.
+click_select_card.prac	Velg arkfanen [B_NAME].
+click_next_cards_img.demo	Ved å klikke på [ICON] vises de neste arkfanene.
+click_next_cards_img.prac	Vis de neste arkfanene ved å klikke på [ICON].
+click_prev_cards_img.demo	Ved å klikke på [ICON] vises de forrige arkfanene.
+click_prev_cards_img.prac	Vis de forrige arkfanene ved å klikke på [ICON].
+click_open_nav_menu.demo	Ved å klikke på [ICON] åpnes navigasjonsmenyen.
+click_open_nav_menu.prac	Åpne navigasjonsmenyen ved å klikke på [ICON].
+click_close_folder_img.demo	Ved å klikke på [ICON] lukkes mappen [B_NAME].
+click_close_folder_img.prac	Lukk mappen [B_NAME] ved å klikke på [ICON].
+click_open_folder_img.demo	Ved å klikke på [ICON] åpnes mappen [B_NAME].
+click_open_folder_img.prac	Åpne mappen [B_NAME] ved å klikke på [ICON].
+click_select_element_img.demo	Ved å klikke på [ICON] velges elementet [B_NAME].
+click_select_element_img.prac	Velg elementet [B_NAME] ved å klikke på [ICON].
+click_scroll_down.demo	Ved hjelp av rullefeltet scrolles det nedover.
+click_scroll_down.prac	Scroll nedover med rullefeltet.
+dblclick_select_entry.demo	Ved å dobbeltklikke på [B_NAME] velges oppføringen.
+dblclick_select_entry.prac	Velg oppføringen [B_NAME] ved å dobbeltklikke.
+dblclick_select_date.demo	[B_NAME] velges.
+dblclick_select_date.prac	Velg [B_NAME].
+dblclick_start_transaction.demo	Ved å dobbeltklikke startes transaksjonen [B_NAME].
+dblclick_start_transaction.prac	Start transaksjonen [B_NAME] ved å dobbeltklikke <br>eller<br>oppgi transaksjonskoden [B_TCODE] og bekreft med entertasten.
+click_close_group.demo	Gruppen [B_NAME] lukkes.
+click_close_group.prac	Lukk gruppen [B_NAME].
+click_open_group.demo	Gruppen [B_NAME] åpnes.
+click_open_group.prac	Åpne gruppen [B_NAME].
+select.demo	[B_SELECTED] velges som [B_NAME].
+select.prac	Velg [B_SELECTED] som [B_NAME].
+input_text.demo	Feltet [B_NAME] fylles ut.
+input_text.prac	Oppgi [B_INPUT] i feltet [B_NAME].
+input_text_value.demo	I feltet [B_NAME] oppgis [B_INPUT].
+input_text_value.prac	Oppgi [B_INPUT] i feltet [B_NAME].
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Bekreft dataene med <b>tab-</b> eller <b>entertasten</b> eller klikk på <b>tilsvarende knapp</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Bekreft dataene med <b>tab-</b> eller <b>entertasten</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Bekreft dataene med <b>entertasten</b> eller klikk på <b>tilsvarende knapp</b>.
+input_tab.demo
+input_tab.prac	<br>Bekreft dataene med <b>tabtasten</b>.
+input_enter.demo
+input_enter.prac	<br>Bekreft dataene med <b>entertasten</b>.
+input_button.demo
+input_button.prac	<br>Bekreft dataene ved å <b>klikke på tilsvarende knapp</b>.
+click_select.demo	[B_NAME] velges.
+click_select.prac	Velg [B_NAME].
+click_show_value_help_button.demo	Ved å klikke i tekstfeltet [B_NAME] åpnes verdivelgeren.
+click_show_value_help_button.prac	Åpne verdivelgeren ved å klikke i tekstfeltet [B_NAME].
+click_scroll_horizontal.demo	Det scrolles mot høyre…
+click_scroll_horizontal.prac	Scroll mot høyre.
+click_scroll_vertical.demo	Det scrolles nedover...
+click_scroll_vertical.prac	Scroll nedover.
+click_img_expand.demo	For å forstørre navigasjonsområdet klikkes det på [ICON].
+click_img_expand.prac	Forstørr navigasjonsområdet ved å klikke på [ICON].
+click_img_collapse.demo	For å forminske navigasjonsområdet klikkes det på [ICON].
+click_img_collapse.prac	Forminsk navigasjonsområdet ved å klikke på [ICON].
+click_navrow.demo	I navigasjonslinjen velges [B_NAME].
+click_navrow.prac	Åpne [B_NAME] fra navigasjonslinjen.
+click_navrow2.demo	I den andre navigasjonslinjen velges [B_NAME].
+click_navrow2.prac	Åpne [B_NAME] fra den andre navigasjonslinjen.
+click_open_context_menu.demo	Kontekstmenyen fra [B_NAME] åpnes.
+click_open_context_menu.prac	Åpne kontekstmenyen fra [B_NAME].
+click_radio_select.demo	[B_NAME] velges.
+click_radio_select.prac	Velg [B_NAME].
+click_select_img.demo	[B_ICON_NAME] velges.
+click_select_img.prac	Velg [B_ICON_NAME].
+click_open_form_view.demo	Med [B_ICON_NAME] kobles det over til skjemavisning.
+click_open_form_view.prac	Koble over til skjemavisning med [B_ICON_NAME].
+history_select.demo	[B_NAME] velges fra historie.
+history_select.prac	Velg [B_NAME] fra historie.
+click_page_up_img.demo	Ved å klikke på [B_ICON] scrolles det en side oppover.
+click_page_up_img.prac	Scroll en side oppover ved å klikke på [B_ICON].
+click_page_down_img.demo	Ved å klikke på [B_ICON] scrolles det en side nedover.
+click_page_down_img.prac	Scroll en side nedover ved å klikke på [B_ICON].
+click_page_top_img.demo	Ved å klikke på [B_ICON] scrolles det til begynnelsen.
+click_page_top_img.prac	Scroll til begynnelsen ved å klikke på [B_ICON].
+click_page_bottom_img.demo	Ved å klikke på [B_ICON] scrolles det til slutten.
+click_page_bottom_img.prac	Scroll til slutten ved å klikke på [B_ICON].
+click_sort_by_column.demo	Det sorteres eller kolonne [B_NAME].
+click_sort_by_column.prac	Sorter etter kolonne [B_NAME].
+click_select_date.demo	[B_NAME] velges.
+click_select_date.prac	Velg [B_NAME].
+click_close_card_img.demo	Ved å klikke på [ICON] lukkes arkfanen.
+click_close_card_img.prac	Klikk på [ICON] for å lukke arkfanen.
+click_select_function_img.demo	Ved å klikke på [ICON] velges funksjonen [B_NAME].
+click_select_function_img.prac	Klikk på [ICON] for å velge funksjonen [B_NAME].
+click_hide_treeview.demo	Ved å klikke på [ICON] skjules trevisningen.
+click_hide_treeview.prac	Skjul trevisningen ved å klikke på [ICON].
+click_show_treeview.demo	Ved å klikke på [ICON] vises trevisningen.
+click_show_treeview.prac	Vis trevisningen ved å klikke på [ICON].
+click_mark_transaction.demo	Ved å klikke på [B_NAME] markeres transaksjonen.
+click_mark_transaction.prac	Marker transaksjonen [B_NAME] ved å klikke.
+dblclick_select_element.demo	Ved å dobbeltklikke velges elementet [B_NAME].
+dblclick_select_element.prac	Velg elementet [B_NAME] ved å dobbeltklikke.
+please_note.demo	Merk følgende: [B_NAME].
+please_note.prac	Merk følgende: [B_NAME].
+click_open_value_help_img.demo	Ved å klikke på <b>inntastingshjelpen</b> [ICON] åpnes en utvalgsliste med gyldige verdier.
+click_open_value_help_img.prac	Klikk på <b>inntastingshjelpen</b> [ICON] for å åpne en utvalgsliste med gyldige verdier.
+click_open_selection.demo	Ved å klikke på [ICON] åpnes en utvalgsliste.
+click_open_selection.prac	Klikk på [ICON] for å åpne en utvalgsliste.
+click_mark_entry.demo	Ved å klikke på oppføringen [B_NAME] markeres den.
+click_mark_entry.prac	Marker oppføringen [B_NAME] ved å klikke.
+click_mark_entry_img.demo	Ved å klikke på oppføringen [ICON] velges den.
+click_mark_entry_img.prac	Velg oppføringen [ICON] ved å klikke.
+click_menu_select_img.demo	Ved å klikke på menypunktet [ICON] velges det.
+click_menu_select_img.prac	Klikk på menypunktet [ICON] for å velge det.
+click_open_menu_img.demo	Ved å klikke på menyen [ICON] åpnes den.
+click_open_menu_img.prac	Klikk på menyen [ICON] for å åpne den.
+click_select_card_img.demo	Ved å klikke på arkfanen [ICON] velges den.
+click_select_card_img.prac	Klikk på arkfanen [ICON] for å velge den.
+dblclick_select_line.demo	Ved å dobbeltklikke på knappen [NAME] markeres linjen.
+dblclick_select_line.prac	Dobbeltklikk på knappen [NAME] for å markere linjen.
+click_activate_edit.demo	Ved å klikke i inntastingsfeltet [B_NAME] aktiveres det.
+click_activate_edit.prac	Klikk i inntastingsfeltet [B_NAME] for å aktivere det.
+dblclick_activate_edit.demo	Ved å dobbeltklikke i inntastingsfeltet [B_NAME] aktiveres det.
+dblclick_activate_edit.prac	Dobbeltklikk i inntastingsfeltet [B_NAME] for å aktivere det.
+dblclick_open_folder_img.demo	Ved å dobbeltklikke på symbolet [ICON] åpnes mappen [B_NAME].
+dblclick_open_folder_img.prac	Åpne mappen [B_NAME] ved å dobbeltklikke på symbolet [ICON].
+click_open_folder.demo	Ved å klikke på <b>'åpne mappe'</b>-symbolet åpnes mappen [B_NAME].
+click_open_folder.prac	Åpne mappen [B_NAME] ved å klikke på <b>'åpne mappe'</b>-symbolet.
+dblclick_open_folder.demo	Ved å dobbeltklikke på <b>'åpne mappe'</b>-symbolet åpnes mappen [B_NAME].
+dblclick_open_folder.prac	Åpne mappen [B_NAME] ved å dobbeltklikke på <b>'åpne mappe'</b>-symbolet.
+click_close_folder.demo	Ved å klikke på <b>'lukke mappe'</b>-symbolet lukkes mappen [B_NAME].
+click_close_folder.prac	Lukk mappen [B_NAME] ved å klikke på <b>'lukke mappe'</b>-symbolet.
+drag_scroll_hor.demo	Ved å klikke og dra i <b>rullefeltet</b> kommer ønsket område til syne.
+drag_scroll_hor.prac	Klikk og dra i det <b>horisontale rullefeltet</b> for å scrolle.
+drag_scroll_vert.demo	Ved å klikke og dra i <b>rullefeltet</b> kommer ønsket område til syne.
+drag_scroll_vert.prac	Klikk og dra i det <b>vertikale rullefeltet</b> for å scrolle.
+click_scroll.demo	Ved å klikke på <b>scrolleknappen</b> [NAME] kommer ønsket område til syne.
+click_scroll.prac	Scroll ved å klikke på <b>scrolleknappen</b> [NAME].
+click_scroll_page_left.demo	Ved å klikke i <b>scrolleområdet</b> kommer ønsket område til syne.
+click_scroll_page_left.prac	Klikk i <b>området til venstre for rullefeltet</b> for å scrolle.
+click_scroll_page_right.demo	Ved å klikke i <b>scrolleområdet</b> kommer ønsket område til syne.
+click_scroll_page_right.prac	Klikk i <b>området til høyre for rullefeltet</b> for å scrolle.
+click_scroll_page_up.demo	Ved å klikke i <b>scrolleområdet</b> kommer ønsket område til syne.
+click_scroll_page_up.prac	Klikk i <b>området over rullefeltet</b> for å scrolle.
+click_scroll_page_down.demo	Ved å klikke i <b>scrolleområdet</b> kommer ønsket område til syne.
+click_scroll_page_down.prac	Klikk i <b>området under rullefeltet</b> for å scrolle.
+rclick_context.demo	Ved å høyreklikke på [B_NAME] åpnes en kontekstmeny.
+rclick_context.prac	Høyreklikk på [B_NAME].
+dblclick_img.demo	Det dobbeltklikkes på [ICON].
+dblclick_img.prac	Dobbeltklikk på [ICON].
+keypress.demo	Tast inn [B_KEY].
+keypress.prac	Tast inn [B_KEY].
+item.close_folder	Lukk mappe
+item.open_folder	Åpne mappe
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	Vertikalt rullefelt
+item.hscroll	Horisontalt rullefelt
+item.close_window	Lukk vindu
+item.value_help	Verdivelger
+item.scroll	Rullefelt
+item.back_btn	Tilbake
+item.save_btn	Lagre
+item.scroll_area	Scrolleområde
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

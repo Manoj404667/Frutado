@@ -1,0 +1,251 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY	datango
+TOK_LIB	 @{TOK_COMPANY} курс
+TOK_TOUR	 @{TOK_COMPANY} шаг
+TOK_TRAINER	 @{TOK_COMPANY} тренер
+
+# Key names	
+ALTKEY	alt
+CTRLKEY	ctrl
+LEFTALTKEY	левый alt
+LEFTCTRLKEY	левый ctrl
+LEFTSHIFTKEY	левый shift
+ON	включен
+OFF	выключен
+RIGHTALTKEY	правый alt
+RIGHTCTRLKEY	правый ctrl
+RIGHTSHIFTKEY	правый shift
+SHIFTKEY	shift
+
+# trainer states	
+TOK_BUFFERING	Aудио загружается ... 
+TOK_CONNECTING	Соединение ... 
+TOK_IDLE	
+TOK_LMS	Записать результат ...
+TOK_OPENING	Соединение ... 
+TOK_OPEN	
+TOK_PAUSED	Пауза
+TOK_PLAYING	В процессе
+TOK_READY	В готовности
+TOK_USERINPUT	Ввод
+TOK_WAITING	Страница загружается ... 
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC	"<span style=""color: red; font-weight: bolder;"">Наборы фреймов (framesets) здесь не могут быть показаны.</span>"
+TOK_IEPOPUP_IFRAME_EXC	"<span style=""color: red; font-weight: bolder;"">Документы с IFRAMEs здесь не могут быть показаны.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC	Блокиратор всплывающих окон (Popup Blocker) препятствует воспроизведению шага.
+TOK_POPUPBLOCKER_CONFIRM	Из-за блокиратора всплывающих окон (Popup Blocker) нельзя было открыть новое окно браузера.@{NEWLINE}@{NEWLINE}OK: Вы можете продолжить, так как Вы деактивировали блокиратор всплывающих окон (Popup Blocker)@{NEWLINE} для данной веб-страницы. @{NEWLINE}Прервать: шаг завершается.
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC	"Установка безопасности Internet Explorer\n\rпрепятствует изображению @{TOK_TOUR}.\nДопустите, пожалуйста,\n""текстовым драйвером инициированные окна без ограничений размеров и позиций""!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC	" @1 ""@2"" не могло быть прочитано."
+TOK_COULD_NOT_READ2_EXC	" @1 ""@2"" не могло быть прочитано: @3"
+
+# Form texts	
+TOK_CLOSE	Закрыть
+TOK_DIR	Указатель
+TOK_ERROR	Ошибка
+TOK_EXIT	Закончить
+TOK_OPEN	Открыть
+TOK_SEARCH	Искать
+TOK_START	Старт
+TOK_START_TOUR	 Запустить @{TOK_TOUR} 
+TOK_STOP	Стоп
+
+# Library	
+TOK_LIB_BTN_LESS	меньше...
+TOK_LIB_BTN_MORE	больше...
+TOK_LIB_EMPTY	Пустой элемент
+TOK_LIB_FLAG_DESC	Просмотреть описание
+TOK_LIB_FLAG_KEEP_OPEN	Оставить открытым обзор структуры курса
+TOK_LIB_FLAG_NEWWIN	В новом окне
+TOK_LIB_FLAG_TITLE	Просмотреть заголовок
+TOK_LIB_RESET	Стереть результаты поиска
+TOK_LIB_VAL_NOFILTER без фильтра
+
+# Mimetypes	
+MIME_TEXT_PDF	PDF - Adobe Acrobat формат
+MIME_APP_MSWORD	Winword документ
+MIME_APP_EXCEL	Рабочий лист Excel 
+MIME_APP_PPT	Фольи Powerpoint
+MIME_APP_OOFF	OpenOffice документ
+MIME_APP_OOFFWRITE	OpenOffice текст
+MIME_APP_OOFFCALC	OpenOffice калькуляция
+MIME_APP_OOFFIMPRESS	OpenOffice презентация
+MIME_APP_OOFFMATH	OpenOffice формулы
+MIME_AUDIO	Аудио
+MIME_VIDEO	Видео
+MIME_TEXT_HTML	Веб-страница
+MIME_TEXT	Текстовой документ
+MIME_APP_DGO	 @{TOK_COMPANY} шаг
+MIME_APP_DGO_DEMO	 @{TOK_COMPANY} демо
+MIME_APP_DGO_PRACTISE	 @{TOK_COMPANY} упражнение
+MIME_APP_DGO_TEST	 @{TOK_COMPANY} тест
+MIME_APP_DGO_CONCURRENT	" @{TOK_COMPANY} шаг ""режим практики"""
+MIME_UNKNOWN	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY	"Продолжить (F8);  ""Alt"": Перезапуск"
+TIP_PAUSE	"Остановить (ПАУЗА);  ""Shift"": улучшить качество звука;  ""Alt"": сократить полосу пропускания аудио"
+TIP_STOP	"Закончить (F12); ""Shift"": показать версию"
+TIP_NEXT	Следующая глава (alt+стрелка вниз)
+TIP_BACK	"Предыдущая глава (alt+стрелка вверх);  ""Alt"": показать курс"
+TIP_MAXBUBBLE	Восстановить подсказку
+TIP_MINBUBBLE	Уменьшить подсказку
+TIP_CLOSEBUBBLE	Закрыть подсказку
+TIP_ENABLED	
+TIP_DISABLED	(в данный момент невозможно)
+TIP_TASK	Постановка задачи
+TIP_HELPBUBBLE;	"Да, показать помощь"
+TIP_GOONBUBBLE;	"Следующий шаг"
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW	Закрыть окно
+TOK_BP_GOBACK	Назад
+TOK_BP_GOON	Дальше
+TOK_BP_JSCONSOLE	Консоль Javascript
+TOK_BP_MODE	Режим
+TOK_BP_PARAMETER	Параметр
+TOK_BP_RESTARTPROGRAM	Перезапустить программу
+TOK_BP_STARTANOTHER	Стартовать новую программу
+TOK_BP_VALUE	Величина
+
+# Exercise colors	
+EXER_COLOR_ERROR	красным цветом
+EXER_COLOR_CLICK	зеленым цветом
+EXER_COLOR_DBLCLICK	желтым цветом
+EXER_COLOR_RCLICK	бирюзовым цветом
+EXER_COLOR_CHANGE	зеленым подчеркиванием
+EXER_COLOR_DRAG;	синим цветом
+EXER_COLOR_DROP;	кориченевым цветом
+
+# Exercises	
+EXER_AND	@{NEWLINE}и@{NEWLINE}
+EXER_FAIL0	К сожалению неправильно.
+EXER_FAIL1	К сожалению неправильно. 1 штрафной пункт. Осталось: @1_rest-points_.
+EXER_FAIL2	К сожалению неправильно. @1_points-penalty_ штрафные пункты. Осталось: @2_rest-points_.
+EXER_FAIL_ASK4HELP	@{NEWLINE}@{NEWLINE}Вам необходима помощь?
+EXER_FAILCHANGE_HELP	Измененное поле ваделено @{EXER_COLOR_ERROR}.@{NEWLINE}Все поля ввода, которые могут быть изменены, выделены @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP	Допустимых полей ввода нет.@{NEWLINE}Измененное поле выделено @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP	Поле ввода, обозначенное нажатием мышью, обозначено @{EXER_COLOR_ERROR}.@{NEWLINE}Все допустимые кнопки обозначены @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP	Нажатие мышью недопустимо нигде.@{NEWLINE}Поле, нажатое мышью выделено @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP	Поле ввода, обозначенное двойным нажатием мышью, выделено @{EXER_COLOR_ERROR}.@{NEWLINE}Все кнопки, допустимые для двойного нажатия мышью обозначены @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP	Двойное нажатие мышью недопустимо нигде.@{NEWLINE}Обозначенное нажатием мышью поле выделено @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP	Поле ввода, обозначенное нажатием правой кнопкой мыши, выделено @{EXER_COLOR_ERROR}.@{NEWLINE}Все допустимые для нажатия правой кнопкой мыши кнопки обозначены @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP	Нажатие правой кнопкой мыши недопустимо нигде.@{NEWLINE}Обозначенное нажатием мышью поле выделено@{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0	Вы нажали неправильную кнопку.
+EXER_FAILKEY_HELP1	"Вы нажали ""@1_key_""."
+EXER_FAILKEY_HELP2	@{NEWLINE}Допустимые клавиши управления:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID	@{NEWLINE}@{NEWLINE}Допустимы также:
+EXER_HINT_CHANGABLE_MARKED	@{NEWLINE}@{BULLET} Изменение поля, выделенного (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED	@{NEWLINE}@{BULLET} Нажатие мышью (кнопки обозначены @{EXER_COLOR_CLICK})
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Перетянуть (Элементы выделены @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Отпустить(Элементы выделены @{EXER_COLOR_DROP})"
+EXER_HINT_DBLCLICK_MARKED	@{NEWLINE}@{BULLET} Двойное нажатие мышью (обозначено @{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS	@{NEWLINE}(Указание: Таким образом Вы теряете набранные пункты)
+EXER_HINT_KEYS	"@{NEWLINE}@{BULLET} Нажатие клавиш управления@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID	@{NEWLINE}@{NEWLINE}Допустимы:
+EXER_HINT_RCLICK_MARKED	@{NEWLINE}@{BULLET} Нажатие правой кнопкой мыши (выделено @{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON	@{NEWLINE}(Указание: В противном случае продолжение следует автоматически)
+EXER_HINT_YOURINPUT	"Вы ввели ""@1_input_"".@{NEWLINE}"
+EXER_OR	@{NEWLINE}или@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT	"Пожалуйста, отмените выбор опции ""@1""!"
+MSG_OPTIONFIELD_SELECT	"Пожалуйста, выберите опцию ""@1"" либо отмените ее выбор!"
+MSG_SCORE	"Набранные пункты: ""@1""."
+MSG_SINGLE_SELECT	"Пожалуйста, выберите запись ""@1""!"
+MSG_TEXTINPUT	"Пожалуйста, запишите ""@1"" в графе для ввода данных ""@2"" !"
+MSG_TRANSACTIONCODE	"Пожалуйста, введите правильный код транзакции ""@1""!"
+
+capDemoStart	Режим Demo 
+msgDemoStart1	В режиме Demo Вы можете наблюдать за использованием приложения. Просто следите за демонстрацией, все шаги выполняются автоматически.
+msgDemoStart2	При помощи нижней навигационной планки Вы можете остановить или прекратить демонстрацию. Кроме того, Вы можете перейти к следующему либо вернуться к предыдущему шагу.
+msgDemoStop	Режим Demo завершен.
+
+capConcurrentStart	Режим практики
+msgConcurrentStart1	В режиме практики Вы получите последовательную инструкцию по использованию программы.  
+msgConcurrentStart2	После каждого шага демонстрация прерывается, чтобы Вы имели возможность осмыслить продемонстрированный шаг. 
+msgConcurrentStop	Режим практики завершен.
+
+capTestStart	Режим теста
+msgTestStart1	В режиме теста Вы можете проконтролировать свои знания, самостоятельно выполняя задачу в программе. Кроме данных примера, которые Вам необходимо ввести, Вам не будут даваться никаких указаний относительно процесса выполнения задачи. Постановка задачи описывается в отдельном окне, которое Вы при необходимости можете увеличить или уменьшить при помощи соответствующей кнопки заголовка окна.  
+msgTestStart2	На основании успешно выполненных шагов по завершении теста Вы будете оценены. Оценка предназначена исключительно для самоконтроля, данные теста не сохраняются и не посылаются.  
+msgTestStart3	Пожалуйста, выполняйте все действия очень внимательно, так как в системе регистрируются все ошибки правописания и неправильные нажатия, в результате чего соответственно снижается Ваша оценка. Если Вы решаете воспользоваться помощью, Вы не получаете пунктов, предусмотренных за данный шаг. 
+msgTestStart4	Ваша оценка показывается по завершении теста. Постарайтесь, пожалуйста, достичь показателя  @{res_mastery_percent}%.
+capTestOk	Вы успешно прошли тест.
+capTestFailed	Вы не прошли тест.
+msgTestFailed1	Вы набрали менее @{res_mastery_percent}% от возможного количества пунктов, поэтому мы рекомендуем Вам просмотреть содержание курса еще раз и проверить Ваши знания повторно в режиме теста. 
+msgTestFinished2	Данный тест предусмотрен исключительно для Вашей самооценки. Результаты теста не сохраняются и не посылаются.
+msgTestOk1	Поздравляем! Вы успешно выполнили задание.
+msgTestResult	Результат
+msgTestScore	Набранное количество пунктов
+msgTestScoreValue	 @{res_collected_points} из @{res_possible_points}
+
+capPracticeStart	Режим тренировки
+msgPracticeStart1	В режиме тренировки Вы можете испробовать пройденный материал, самостоятельно выполняя задачу в программе. 
+msgPracticeStart2	Соблюдайте последовательную инструкцию.
+msgPracticeStop	Режим тренировки завершен.
+
+
+# eof	
+# New messages added after 6.1.0 beta 2
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"Вы изменили неверное поле!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"Все доступные поля ввода выделены @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"Нет доступных полей ввода."
+
+EXER_FAILCLICK;	"Вы нажали неверную кнопку!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"Все разрешенные кнопки отмечены @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"Нажатие мышью недопустимо нигде."
+
+EXER_FAILDRAG;	"Вы перетянули неверную область.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"Перетянутая область обозначена @{EXER_COLOR_ERROR}.@{NEWLINE}Все области, которые могут быть перетянуты обозначены @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"Все разрешенные области @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"Здесь перетягивание не разрешено.@{NEWLINE}Перетянутая область отмечена @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"Перетягивание не разрешено."
+
+EXER_FAILDROP;	"При перетягивании, вы отпустили в неверной области.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"Пертянутый элемент отмечен @{EXER_COLOR_ERROR}.@{NEWLINE}Все области, на которые можно перетягивать, отмечены @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (Если нет элементов, которые можно перетягивать, вы можете нажать на целевой элемент)."
+EXER_FAILDROP_NOMARK_HELP;	"Все разрешенные области отмечены @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"Сюда вы не можете перетягивать.@{NEWLINE}Перетянутый элемент отмечен @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"Перетягивание не разрешено.."
+
+EXER_FAILDBLCLICK;	"Вы сделали двойной шелчок в неверной области!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"Все кнопки, на которых можно сделать двойной щелчок выделены @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"Двойной шелчок не разрешен."
+
+EXER_FAILRCLICK;	"Вы нажали правой кнопкой мыши на неверную область!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"Все кнопки, доступные для нажтия правой кнопкой мыши отмечены @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	Нажатия правой кнопкой мыши не разрешено нигде."
+
+MSG_WILLAUTOCLOSE;  "Из-за отсутствия  действий пользователя урок будет закрыт автоматически через @1 сек. Для продолжения занятия произведите любое движение мышью по активному окну."
+
+quizScoreReached;   "Ваш результат: "
+quizScorePass;  "Необходимый минимальный результат: "
+quizScoreMax;   "Максимальный результат: "
+quizItemName;   Название теста
+quizSolutions;  Правильные ответы
+quizResult; Результат
+quizPoints; Очки
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

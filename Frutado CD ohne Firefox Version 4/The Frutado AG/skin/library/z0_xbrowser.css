@@ -1,0 +1,404 @@
+/* Styles for datango library */
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+    /* background-color: #E8E8F0; */
+    /* background-color: #dfeaf2; */
+    background-color: #ffffff;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#dgoLibraryDetails {
+    overflow: auto;
+}
+
+div {
+    color: black;
+    /* background-color: #F0F0F8; */
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.DGO_Title {
+    overflow: hidden;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.DGO_Tree {
+    color: magenta;
+    /* background-color: #e0e0ff; */
+    background-color: #ffffff;
+    border: 0px;
+    margin: 0px;
+    padding: 2px;
+    overflow: auto; /*changed to 'scroll' for Mozilla by program*/
+    scrollbar-base-color: #dfeaf2;
+
+    scrollbar-highlight-color: #e0ecf4;
+    scrollbar-3dlight-color: #e0ecf4;
+
+    scrollbar-shadow-color: #acb7c6;
+    scrollbar-darkshadow-color: #939dac;
+
+    scrollbar-face-color: #dfeaf2;
+    scrollbar-track-color: #dfeaf2;
+    scrollbar-arrow-color: black;
+}
+
+table.DGO_Title {
+    background-color: #dfeaf2;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+
+
+td.DGO_Prompt {
+    color: white;
+    border-width: 0px;
+    margin: 0px;
+    background-color: #E9EDF0;
+    /* background-color: #ffffff; */
+    padding: 3px;
+    background-image: url("icons/background1x1.gif");
+}
+
+td.DGO_Prompt_bgr {
+    color: white;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("icons/background57.gif");
+}
+
+td.DGO_Input {
+    color: white;
+    border-width: 1px;
+    margin: 0px;
+    background-color: #dfeaf2;
+    /* background-color: #ffffff; */
+    padding: 0px 4px 0px 4px;
+    background-image: url("icons/background1x1.gif");
+}
+
+td.DGO_Search {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #dfeaf2;
+    border: 0px;
+    margin: 0px;
+    padding: 4px 4px 4px 8px;
+    word-wrap: break-word;
+    background-image: url("icons/background1x1.gif");
+}
+
+td.DGO_Search2 {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #dfeaf2;
+    border: 0px;
+    margin: 0px;
+    padding: 0px 3px 4px 8px;
+    word-wrap: break-word;
+    background-image: url("icons/background1x1.gif");
+}
+
+td.DGO_TitleRight {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    background-color: #dfeaf2;
+    border: 0px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    word-wrap: break-word;
+}
+
+td.DGO_Title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    background-color: #dfeaf2;
+    border: 0px;
+    margin: 0px;
+    padding: 10px 10px 10px 5px;
+    word-wrap: break-word;
+    background-image: url("icons/background57.gif");
+}
+
+td.DGO_Title2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    background-color: #B2BFD5;
+    border: 0px;
+    margin: 0px;
+    padding: 10px 10px 10px 5px;
+    word-wrap: break-word;
+}
+
+td.DGO_TourBar {
+    color: white;
+    background-color: #B2BFD5;
+    border: 0px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+td.DGO_DocBar {
+    color: white;
+    background-color: #C7D6EE;
+    border: 0px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+td.DGO_TourBarItem {
+    border-width: 0px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+    min-width: 100px;
+    min-height: 20px;
+    width: 100px;
+    height: 20px;
+    valign: top;
+    align:left;
+}
+
+a.DGO_TourButton {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+    background-color: #F6E9C1;
+    min-width: 100px;
+    min-height: 20px;
+display: table-cell;
+border-spacing:2px;
+    width: 100px;
+    height: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: #BFA273;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px; 
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+a.DGO_TourButton:link {
+    text-decoration: none;
+    color: #000000;
+    background-color: #F9F6EE;
+}
+
+a.DGO_TourButton:visited {
+    color: #000000;
+    background-color: #F9F6EE;
+}
+
+a.DGO_TourButton:hover {
+    text-decoration: none;
+    color: #202020;
+    background-color: #FFE6AC;
+}
+
+a.DGO_DocButton {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+    min-width: 100px;
+    min-height: 20px;
+display: table-cell;
+border-spacing:2px;
+    width: 100px;
+    height: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: #BFA273;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px; 
+    padding-left: 2px;
+    padding-right: 10px;
+    
+}
+
+a.DGO_DocButton:link {
+    color: #000000;
+    background-color: #F9F6EE;
+}
+
+a.DGO_DocButton:visited {
+    color: #000000;
+    background-color: #F9F6EE;
+}
+
+a.DGO_DocButton:hover {
+    color: #202020;
+    background-color: #FFE6AC;
+}
+
+img.DGO_TourBarIcon {
+    margin: 2px;
+}
+
+span {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+}
+
+span.DGO_Title {
+    color: #e0e0e0;
+}
+
+input {
+}
+
+button.DGO_Button {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border-width: 0px;
+    color: black;
+
+    width: 80px;
+    height: 21px;
+    background-image: url("icons/button.gif");
+}
+
+input.DGO_Button {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border-width: 0px;
+    color: black;
+
+    width: 80px;
+    height: 21px;
+    background-image: url("icons/button.gif");
+}
+
+a:hover {
+    color: magenta;
+}
+
+.DGO_Author {
+    font-size: 10px;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+
+.DGO_Footer {
+    margin: 5px 5px 0px 5px;
+}
+
+.DGO_Description {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 5px 5px 0px 5px;
+}
+
+.DGO_Href {
+    font-size: 10px;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+
+.DGO_Id {
+    font-size: 10px;
+    font-style: normal;
+    padding: 5px 5px 0px 5px;
+}
+
+.DGO_Link {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: blue;
+    margin: 5px 5px 0px 5px;
+}
+
+.DGO_Type {
+    color: black;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.DGO_Url {
+    font-family: sans-serif;
+    font-size: 9px;
+    padding: 3px 3px 0px 3px;
+}
+
+TD.DGO_TourIcon {
+    color: white;
+    margin: 0px;
+    width: 10px;
+    height: 10px;
+    overflow: visible;
+    border: 1px;
+    padding: 2px 4px 2px 2px;
+    color: black;
+}
+
+TD.DGO_TourTitle {
+    color: white;
+    border-width: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    padding: 2px;
+    color: black;
+}
+
+.DGO_TourSelected {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid rgb(224, 224, 255);
+    border-right: 1px solid rgb(224, 224, 255);
+    border-bottom: 1px solid rgb(224, 224, 255); 
+    background-color: rgb(233, 244, 253);
+}
+
+TR.DGO_TourDelimiter {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid rgb(172, 183, 198); 
+    border-right: 1px solid rgb(172, 183, 198); 
+    border-bottom: 5px solid blue; 
+    background-color: rgb(172, 183, 198);
+}
+/* eof */

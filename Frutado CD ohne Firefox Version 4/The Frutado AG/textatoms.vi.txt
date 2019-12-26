@@ -1,0 +1,242 @@
+﻿# English text atoms	
+# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	@{TOK_COMPANY} Course
+TOK_TOUR;	@{TOK_COMPANY} Lesson
+TOK_TRAINER;@{TOK_COMPANY} trainer	
+
+# Key names	
+ALTKEY;	Alt
+CTRLKEY;	Ctrl
+LEFTALTKEY;	Alt (trái)
+LEFTCTRLKEY;	Ctrl (trái)
+LEFTSHIFTKEY;	Shift (trái)
+ON;	bật
+OFF;	tắ́t
+RIGHTALTKEY;	Alt (phải)
+RIGHTCTRLKEY;	Ctrl (phải)
+RIGHTSHIFTKEY;	Shift (phải)
+SHIFTKEY;	Shift
+
+# Trainer states	
+TOK_BUFFERING;	Đang nạp âm thanh...
+TOK_CONNECTING;	Kết nối...
+TOK_IDLE;	
+TOK_LMS;	Ghi kết qủa...
+TOK_OPENING;	Kết nối...
+TOK_OPEN;	
+TOK_PAUSED;	Tạm ngừng
+TOK_PLAYING;	Đang phát
+TOK_READY;	Sẵn sàng
+TOK_USERINPUT;	Đầu vào
+TOK_WAITING;Page loading...	
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Các tập khung không thể được hiện ở đây.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">Những tài liệu với các IFRAME không thể được hiện ở đây.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	Một bộ chặn bật lên đang ngăn không cho bài giảng phát.
+TOK_POPUPBLOCKER_CONFIRM;	Một bộ chặn bật lên đã ngăn cản một cửa sổ trình duyệt mới mở.@{NEWLINE}@{NEWLINE}OK: Bây giờ bạn không thể tiếp tục vì bạn đã tắt bộ chặn bật lên@{NEWLINE}  cho webserver.@{NEWLINE}Hủy bỏ: Bài giảng này đang kết thúc.
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Một thiết đặt bảo mật Internet Explorer\n\r đang ngăn cản  việc hiển thị @{TOK_TOUR}.\nVui lòng cho phép \n""Cho phép các cửa sổ khởi đầu-bởi-kịch đoạn mà không đổi cỡ hoặc định vị những ràng buộc""!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	"@1 ""@2"" không thể đọc được."
+TOK_COULD_NOT_READ2_EXC;	"@1 ""@2"" không thể đọc được: @3"
+
+# Form texts	
+TOK_CLOSE;	Đóng
+TOK_DIR;	Thư mục
+TOK_ERROR;	Lỗi
+TOK_EXIT;	Ra khỏi
+TOK_OPEN;	Mở
+TOK_SEARCH;	Tìm kiếm
+TOK_START;	Khởi động
+TOK_START_TOUR;	@{TOK_TOUR} khởi động
+TOK_STOP;	Dừng
+
+# Library	
+TOK_LIB_BTN_LESS;	ít hơn...
+TOK_LIB_BTN_MORE;	nhiều hơn...
+TOK_LIB_EMPTY;	Cấu phần rỗng
+TOK_LIB_FLAG_DESC;	Mô tả tìm kiếm
+TOK_LIB_FLAG_KEEP_OPEN;	Để cấu trúc khoá học mở
+TOK_LIB_FLAG_NEWWIN;	Trong một cửa sổ mới
+TOK_LIB_FLAG_TITLE;	Tìm tiêu đề
+TOK_LIB_RESET;	Xoá bỏnhững kết qủa tìm kiêm
+TOK_LIB_VAL_NOFILTER; no filter	
+
+# Mimetypes	
+MIME_TEXT_PDF;	PDF - Dạng thức Adobe Acrobat
+MIME_APP_MSWORD;	Tài liệu Word
+MIME_APP_EXCEL;	Bảng tính Excel
+MIME_APP_PPT;	Bản chiếu Powerpoint
+MIME_APP_OOFF;	Tài liệu OpenOffice 
+MIME_APP_OOFFWRITE;	Văn bản OpenOffice
+MIME_APP_OOFFCALC;	Bảng tính OpenOffice
+MIME_APP_OOFFIMPRESS;	Bản trình bày OpenOffice
+MIME_APP_OOFFMATH;	Công thức toán học OpenOffice 
+MIME_AUDIO;	Âm thanh
+MIME_VIDEO;	Video
+MIME_TEXT_HTML;	Trang Web
+MIME_TEXT;	Tài liệu văn bản
+MIME_APP_DGO;	@{TOK_COMPANY} Bài giảng
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Trình diễn
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} Luyện tập
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} Kiểm tra
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} Chế độ Đồng thời Bài giảng
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY;""Continue (F8);	" Bắt đầu lại với """"Alt"""": """
+TIP_PAUSE;""Stop (PAUSE);	" Tăng chất lượng âm thanh với  """"Shift"""": Lưu dải thông-âm thanh với """"Alt"""":"""
+TIP_STOP;""Exit (F12);	"Hiển thị phiên bản với """"Shift"""": """
+TIP_NEXT;	Chương tiếp theo (ALT-ấn xuống)
+TIP_BACK;	"Chương trước (ALT-lên); Hiển thị khóa học với ""Alt"":"
+TIP_MAXBUBBLE;	Khôi phục bọt văn bản
+TIP_MINBUBBLE;	Cực tiểu hoá bọt văn bản
+TIP_CLOSEBUBBLE;	Loại bỏ bọt văn bản
+TIP_ENABLED;	
+TIP_DISABLED;	(bây giờ không thể)
+TIP_TASK;	Nhiệm vụ
+TOK_CLOSE_TASK;	Đóng @{TIP_TASK}
+TIP_HELPBUBBLE;	Vâng, hiện trợ giúp
+TIP_GOONBUBBLE;	Tiếp tục đến bước tiếp theo
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW;	Đóng cửa sổ
+TOK_BP_GOBACK;	Lùi
+TOK_BP_GOON;	Tiếp
+TOK_BP_JSCONSOLE;	Các thông điệp Javascript
+TOK_BP_MODE;	Chế độ
+TOK_BP_PARAMETER;	Các tham biến
+TOK_BP_RESTARTPROGRAM;	Lặp lại chương trình
+TOK_BP_STARTANOTHER;	Khởi động chương trình mới
+TOK_BP_VALUE;	Giá trị
+
+# Exercise colors	
+EXER_COLOR_ERROR;	được đánh dấu màu đỏ
+EXER_COLOR_CLICK;	được đánh dấu màu lục
+EXER_COLOR_DBLCLICK;	được đánh dấu màu vàng
+EXER_COLOR_RCLICK;	được đánh dấu màu ngọc lam
+EXER_COLOR_CHANGE;	được gạch dưới màu lục
+EXER_COLOR_DRAG;	được đánh dấu màu lam
+EXER_COLOR_DROP;	được đánh dấu màu nâu
+
+# Exercises	
+EXER_AND;	@{NEWLINE}và@{NEWLINE}
+EXER_FAIL0;	Hành động bạn đã thực hiện là sai.
+
+EXER_FAIL1;	Hành động bạn đã thực hiện không đúng. 1 điểm bị giảm từ điểm số tổng thể của bạn. Số điểm còn lại cho hành động này: @1_rest-points_.
+EXER_FAIL2;	Hành động bạn đã thực hiện không đúng. @1_points-penalty_ points bị giảm từ điểm số tổng thể của bạn. Số điểm còn lại cho hành động này: @2_rest-points_ points.
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Bạn cần trợ giúp không?
+
+EXER_FAILCHANGE;	Bạn đã soạn thảo sai trường.@{NEWLINE}
+EXER_FAILCHANGE_HELP;	Trường đã soạn thảo là @{EXER_COLOR_ERROR}.@{NEWLINE}Tất cả các trường nhập  được phép soạn thảo là @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE_NOMARK_HELP;	Tất cả các trường đầu vào là @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP;	Việc soạn thảo các trường nhập không được phép tại điểm này. @{NEWLINE} Trường đã soạn thảo là @{EXER_COLOR_ERROR}.
+EXER_FAILCHANGE0_NOMARK_HELP;	Không có các trường đầu vào hợp lệ.
+
+EXER_FAILCLICK;	Bạn đã bấm nhầm phímn.@{NEWLINE}
+EXER_FAILCLICK_HELP;	Vùng được bấm là @{EXER_COLOR_ERROR}.@{NEWLINE}Tất cả các phím có thể được bấm là @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK_NOMARK_HELP;	Tất cả các phím hợp lệ là @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;	Việc bấm không được phép tại điểm này.@{NEWLINE}Vùng đã bấm là @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK0_NOMARK_HELP;	Không thể có bấm hợp lệ.
+
+EXER_FAILDRAG;	Bạn đã kéo sai vùng.@{NEWLINE}
+EXER_FAILDRAG_HELP;	Vùng đã kéo là @{EXER_COLOR_ERROR}.@{NEWLINE}Tất cả các vùng có thể được kéo là @{EXER_COLOR_DRAG}.
+EXER_FAILDRAG_NOMARK_HELP;	Tất cả các vùng hợp lệ là @{EXER_COLOR_DRAG}.
+EXER_FAILDRAG0_HELP;	Thao tác kéo không được phép tại điểm này.@{NEWLINE}Vùng đã kéo là @{EXER_COLOR_ERROR}.
+EXER_FAILDRAG0_NOMARK_HELP;	Không thể có thao tác kéo hợp lệ.
+
+EXER_FAILDROP;	Bạn đã thả sai vùng.@{NEWLINE}
+EXER_FAILDROP_HELP;	Vùng bạn đã thả là @{EXER_COLOR_ERROR}.@{NEWLINE}Tất cả các vùng bạn đã thả là @{EXER_COLOR_DROP}.
+EXER_FAILDROP_NODRAG_HELP;	@{NEWLINE} (Nếu không có vùng kéo nào sẵn dùng, bạn có thể bấm vào các phần tử thả).
+EXER_FAILDROP_NOMARK_HELP;	Tất cả các vùng hợp lệ là @{EXER_COLOR_DROP}.
+EXER_FAILDROP0_HELP;	Thao tác thả không được phép tại điểm này.@{NEWLINE}Tất cả các vùng bạn đã thả là @{EXER_COLOR_ERROR}.
+EXER_FAILDROP0_NOMARK_HELP;	Không thể có thao tác thả hợp lệ.
+
+EXER_FAILDBLCLICK;	Bạn đã bấm đúp sai vùng.@{NEWLINE}
+EXER_FAILDBLCLICK_HELP;	Vùng đã bấm đúp là @{EXER_COLOR_ERROR}.@{NEWLINE}Tất cả các nút được phép bấm đúp là @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK_NOMARK_HELP;	Tất cả các nút bấm đúp hợp lệ là @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;	Bấm đúp không được phép tại điểm này.@{NEWLINE}Vùng đã bấm là @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK0_NOMARK_HELP;	Bấm đúp không hợp lệ.
+
+EXER_FAILRCLICK;	Bạn đã bấm chuột phải vào sai vùng.@{NEWLINE}
+EXER_FAILRCLICK_HELP;	Vùng đã bấm chuột phải là @{EXER_COLOR_ERROR}.@{NEWLINE}Tất cả các nút được phép bấm chuột phải là @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK_NOMARK_HELP;	Tất cả các nút bấm chuột phải hợp lệ là @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP;	Việc bấm chuột phải không được phép tại điểm này.@{NEWLINE}Vùng đã bấm là @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK0_NOMARK_HELP;	Bấm chuột phải không hợp lệ.
+
+EXER_FAILKEY_HELP0;	Bạn đã nhấn nhầm phím.
+EXER_FAILKEY_HELP1;	"Bạn đã nhấn phím ""@1_key_"" ."
+EXER_FAILKEY_HELP2;	@{NEWLINE}Các phím chức năng có thể được dùng là:@{NEWLINE}@1_keys_
+
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}Các hành động thêm nữa được phép là:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Soạn thảo (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Bấm (Các nút là @{EXER_COLOR_CLICK})
+EXER_HINT_DRAG_MARKED;	@{NEWLINE}@{BULLET} Kéo (Các phần tử là @{EXER_COLOR_DRAG})
+EXER_HINT_DROP_MARKED;	@{NEWLINE}@{BULLET} Thả (Các phần tử là @{EXER_COLOR_DROP})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Bấm đúp (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Ghi chú: Tất cả các điểm cho hành động này sẽ bị giảm từ điểm số cuối cùng của bạn)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Nhấn các phím chức năng@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Những hành động được phép là:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Bấm chuột phải (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Ghi chú: Nếu không thì được tiếp tục tự động)
+EXER_HINT_YOURINPUT;	"Bạn đã nhập ""@1_input_"".@{NEWLINE}"
+EXER_OR;	@{NEWLINE}hoặc@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	"Vui lòng bỏ tùy chọn ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"Vui lòng chọn hoặc bỏ tùy chọn ""@1""!"
+MSG_SCORE;	"điểm số đạt được: ""@1""."
+MSG_SINGLE_SELECT;	"Vui lòng chọn mục ""@1""!"
+MSG_TEXTINPUT;	"Vui lòng nhập ""@1"" trong trường nhập ""@2""!"
+MSG_TRANSACTIONCODE;	"Vui lòng nhập mã giao tác chính xác ""@1""!"
+
+# Producer bracepages	
+capDemoStart;	Chế độ Trình diễn
+msgDemoStart1;	Trong Chế độ Trình diễn bạn có thể theo dõi việc hoàn thành của một hoạt động bên trong ứng dụng. Đơn giản bạn có thể dõi theo trình diễn, trong khi tất cả các hành động được thực hiện tự động. 
+msgDemoStart2;	Bằng cách dùng thanh dẫn hướng tại đáy của màn hình của bạn, bạn có thể tạm ngừng hoặc dừng trình diễn. Bạn cũng có thể nhảy tới bước tiếp theo hoặc quay về bước trước đó.
+msgDemoStop;	Chế độ Trình diễn kết thúc.
+
+capConcurrentStart;	Chế độ Đồng thời
+msgConcurrentStart1;	Chế độ Đồng thời cho bạn thấy cách hoàn thành một hành động bên trong ứng dụng.
+msgConcurrentStart2;	Trình diễn sẽ tạm ngưng sau mỗi bước để cho bạn cơ hội hoàn thành bước đó trong ứng dụng thực.
+msgConcurrentStop;	Chế độ Đồng thời đã kết thúc
+
+capTestStart;	Chế độ Sát hạch
+msgTestStart1;	Trong Chế độ Sát hạch bạn có thể tự mình kiểm tra kiến thức của bạn bằng cách hoàn thành một hành động bên trong ứng dụng: Ngoài dữ liệu mẫu bạn đã nhập bạn không nhận được bất kì chỉ dẫn từng bước nào. Nhiệm vụ bạn phải hoàn thành được mô tả trong cửa sổ tác vụ mà bạn mở rộng hoặc cực tiểu hoá theo nhu cầu dùng các nút ở đỉnh ngăn tác vụ.
+msgTestStart2;	Tại cuối bài kiểm tra bạn sẽ được chấm điểm dựa trên số lượng các bước đã được hoàn thành chính xác. Việc chấm điểm này chỉ để cho bạn tự đánh giá mình và tiếp theo sẽ không được xử lí hoặc lưu!
+msgTestStart3;	Vui lòng rất cẩn thận trong những hành động của bạn vì hệ thống sẽ ghi lại mọi mục nhập sai chính tả và những cú bấm sai và do đó giảm chấm điểm cho bạn. Nhớ điền các trường yêu cầu từ trên cùng đến cuối cùng và từ trái sang phải. Trong trường hợp bạn bấm sai trường hoặc nhập vào một giá trị sai, hệ thống sẽ hiển thị một cảnh báo và chấm điểm của bạn sẽ bị giảm. Nếu bạn chọn để nhận trợ giúp từ hệ thống để hoàn thành một bước, việc chấm điểm của bạn cho bước cụ thể này sẽ bị đặt về không. 
+msgTestStart4;	Điểm số tổng thể của bạn sẽ được hiển thị tại cuối bài kiểm tra. Vui lòng thử tiếp nhận điểm số đích của các bước đã thực hiện chính xác @{res_mastery_percent}%.
+capTestOk;	Kiểm tra hoàn thành
+capTestFailed;	Kiểm tra hỏng
+msgTestFailed1;	Do bạn đã đạt được nhỏ hơn @{res_mastery_percent}% chúng tôi khuyên bạn kiểm tra lần nữa nội dung mà khóa học bao gồm và sau đó thử kiểm tra lại kiến thức của mình trong chế độ Kiểm tra.
+msgTestFinished2;	Kiểm tra này chỉ để cho bạn tự đánh giá mình. Những kết qủa sẽ không được ghi lại hoặc truyền cho bất kì ai.
+msgTestOk1;	Chúc mừng, bạn đã hoàn thành thắng lợi Hoạt động.
+msgTestResult;	Kết qủa
+msgTestScore;	Điểm số
+msgTestScoreValue;	{res_collected_points} của @{res_possible_points}
+
+capPracticeStart;	Chế độ Luyên tập
+msgPracticeStart1;	Trong Chế độ Luyện tập bạn có thể tiến hành kiểm tra điều bạn đã học bằng cách tự bạn hoàn thành một nhiệm vụ bên trong ứng dụng.
+msgPracticeStart2;	Bạn sẽ nhận những chỉ dẫn từng-bước cần theo.
+msgPracticeStop;	Chế độ Luyên tập kết thúc
+
+
+# New messages
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+# New messages end
+
+# eof	

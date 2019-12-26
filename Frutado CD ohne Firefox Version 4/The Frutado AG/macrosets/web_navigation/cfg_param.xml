@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfg>
+<!--
+    <Language name="1031">
+        <Text name="doc">Dokumentation</Text>
+        <Text name="doc_template">Vorlage Word-Dokumentation</Text>
+    </Language>
+    <Language name="1033">
+        <Text name="doc">Documentation</Text>
+        <Text name="doc_template">Template Word Documentation</Text>
+    </Language>
+    <ParamSet name="doc">
+        <ParamInfo type="FILENAME" name="template" text_key="doc_template" default='Project.ScriptBase + "datangoNoToc.dot"'>
+            <Properties filter="#dot_filter"/>
+        </ParamInfo>
+    </ParamSet>
+-->
+</cfg>

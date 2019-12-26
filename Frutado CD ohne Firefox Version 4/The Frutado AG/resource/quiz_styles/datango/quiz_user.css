@@ -1,0 +1,634 @@
+/* datango datango/quiz_user.css */
+/* last update:2008-02-27 */
+
+/* begin global settings section */
+html, body, th, td {
+    font-family:Verdana;
+    font-size:14px;
+}
+body {
+    margin:0;
+    width:100%;
+    height:100%;
+    padding:0;
+    position:absolute;
+    background:#010101 url(bg_kompass.jpg) no-repeat center top;
+}
+form {
+    margin:0px;
+    padding:0px;
+}
+img {
+    border:none;
+}
+/* end global settings section */
+
+/* begin quiz form configuration section */
+.quiz {
+    position:absolute;
+    height:100%;
+}
+.textarea {
+    /* this configurates the main content table */
+    background-color:transparent;
+    color:#000000;
+    width:80%;
+    visibility:hidden;
+    border:none;
+    text-align:left;
+}
+#centerTable {
+}
+.status {
+    /* this configures the status bar */
+    background-color:#AEBFD0;
+    width:100%;
+    padding:2px;
+    border-top:1px solid #f6f6f6;
+}
+.status td {
+    font-size:10px;
+    color:#606060;
+}
+.title {
+    /* this configures the quiz title area */
+    vertical-align:middle;
+    background:#D8E0E9 url(logo.jpg) no-repeat 97% 6px;
+    color:#000;
+    /*display:none;*/
+    border-bottom:1px solid #808080;
+    padding:0 140px 5px 16px;
+    font-size:15px;
+    height:35px;
+}
+.bottomRight {
+    /* this defines the bottom right edge of the quiz area */
+    width:5px;
+    background:transparent url(box_edge_bottom_r.gif) no-repeat top right;
+}
+.topRight {
+    /* this defines the bottom left edge of the quiz area */
+    width:5px;
+    background:transparent url(box_edge_top_r.gif) no-repeat top right;
+}
+.bottomLeft {
+    /* this defines the bottom left edge of the quiz area */
+    width:5px;
+    background:transparent url(box_edge_bottom_l.gif) no-repeat top left;
+}
+.topLeft {
+    /* this defines the top left edge of the quiz area */
+    width:5px;
+    background:transparent url(box_edge_top_l.gif) no-repeat top left;
+}
+.topMiddle {
+    /* this defines the top of the quiz area */
+    background:#D8E0E9;
+    width:99%;
+}
+.textarea_middle {
+    /* this defines the inner content area of the quiz area */
+    background:#AEBFD0 url(box_gradient_middle.gif) repeat-x top left;
+    border-top:solid 1px #FFF;
+    border-bottom:solid 1px #606060;
+    padding:0;
+    height:219px;
+    vertical-align:top;
+}
+.bottomMiddle {
+    /* this defines the bottom of the quiz area */
+    background:#AEBFD0;
+    width:99%;
+}
+.td_topTextarea,
+.td_bottomTextarea {
+    font-size:1px;
+    background:none;
+    padding:0;
+}
+.topTextarea, .bottomTextarea {
+    width:100%;
+    z-index:10;
+    padding:0;
+}
+.topTextarea td, .bottomTextarea td {
+    height:5px;
+}
+/* begin of the the content of the quiz form */
+#ok {
+    float:right;
+    height:19px;
+    margin-top:2px;/* 0 0 15px;*/
+    overflow:visible;
+    padding:5px 0 0;
+}
+#ok img {
+    margin-right:6px;
+    z-index:4;
+}
+#questions_image {
+    padding:30px 0 20px;
+    vertical-align:top;
+}
+.answers {
+    /* this configures the quiz answers area */
+    vertical-align:top;
+    padding:10px 0 20px 25px;
+    font-size:12px;
+}
+.answers td {
+    font-size:12px;
+}
+.answers font {
+    background:none !important;
+}
+.score {
+    /* this configures the quiz points area */
+    padding:6px 0 0 15px;
+    width:40px;
+}
+.points {
+    /* this configures the quiz points area */
+    text-align:center;
+    padding:6px 0 0;
+    width:auto;
+}
+.timeout {
+    display:none;
+}
+.next {
+    /*float:right;*/
+    width:20px;
+}
+.quiznbr {
+    /* this configures the quiz numbering area */
+    text-align:right;
+}
+.dnd {
+    /* this configures the quiz dnd area */
+    /* it is not recommended to change something here */
+    vertical-align:top;
+}
+.questions {
+    /* this configures the quiz question area */
+    font-weight:bold;
+    width:100%;
+    font-size:12px;
+    padding:16px;
+}
+.questions font {
+    vertical-align:top;
+    background:none !important;
+}
+/* end quiz form configuration section */
+
+/* begin of time out control section */
+.hourglass {
+    display:none;
+    background:transparent url(hourglass_small.gif) no-repeat left bottom;
+    height:20px;
+    width:10px;
+}
+.local_time_counter {
+    /* this configures the local time counter area */
+    padding:5px 5px 0 5px;
+    display:none;
+}
+.global_time_counter {
+    /* this configures the global time counter area */
+    padding:5px 5px 0 5px;
+    display:none;
+}
+/* end of time out control section */
+
+/* begin of feedback section */
+.feedback {
+    /* this is the static feedback section */
+    padding:0;
+    background:#C9C9C9;
+    top:0;
+    margin:0;
+    width:100%;
+    font-size:12px;
+}
+
+#feedback #feedback_fail span,
+#feedback #feedback_time span {
+    color:#434443 !important;
+    border-top:1px solid #B0B1B0;
+    display:block;
+    margin-top:0;
+    padding:6px 0 6px 30px;
+    top:0;
+}
+#feedback #feedback_fail img,
+#feedback #feedback_time img {
+    display:block !important;
+    width:100px !important;
+    margin:5px 0;
+}
+#feedback #feedback_fail br,
+#feedback #feedback_time br {
+    display:none;
+}
+#feedback #feedback_fail,
+#feedback #feedback_time {
+    color:#a80303;
+    font-weight:bold;
+    background:transparent url(feed_fail.gif) no-repeat 38px 6px;
+    border-top:1px solid #BCBCBC;
+    border-bottom:1px solid #000;
+    padding:7px 0 7px 60px;
+}
+#feedback #feedback_fail p,
+#feedback #feedback_time p {
+    background:none !important;
+    color:#a80303;
+    font-weight:bold;
+    display:block;
+    padding:10px 0 0 0;
+    margin:0 0 -2px 0;
+    width:inherit;
+}
+#feedback #feedback_pass {
+    height:12px;
+    background:transparent url(feed_pass.gif) no-repeat 38px 50%;
+    font-weight:bold;
+    color:#434443;
+    border-top:1px solid #BCBCBC;
+    border-bottom:1px solid #808080;
+    padding:7px 0 7px 60px;
+}
+#feedback .fb_wrong_answered {
+    background:transparent url(feed_fail.gif) no-repeat 4px 4px;
+}
+#feedback .fb_correct_answered {
+    background:transparent url(feed_pass.gif) no-repeat 4px 4px;
+}
+#feedback #feedback_fail font,
+#feedback #feedback_time font,
+#feedback #feedback_pass font {
+    /* disallows background changing of feedbacks */
+    background:none !important;
+}
+/* End feedback included in quiz form */
+
+/* begin of feedback popup */
+.feedback_popup {
+    /* this is the popup feedback table */
+    /* do not change position or display here! */
+}
+.fp_main {
+    /* this is the content part of the feedback popup */
+    background:#b2c1d2 url(feedpop_gradient_main.gif) repeat-x top left;
+    border-left:1px solid #808080;
+    border-right:1px solid #808080;
+    width:278px;
+    height:220px;
+    text-align:center;
+    vertical-align:top;
+}
+.fp_border_topleft,
+.fp_border_topright,
+.fp_border_left,
+.fp_border_right,
+.fp_border_bottomleft,
+.fp_border_bottomright,
+.fp_footer,
+.fp_head {
+    padding:0;
+    font-size:1px;
+}
+.fp_border_topleft {
+    /* this defines the top left edge of the feedback popup */
+    width:5px;
+    background:transparent url(fed_edge_top_l.gif) no-repeat bottom left;
+}
+.fp_border_topright {
+    /* this defines top right edge of the feedback popup */
+    background:transparent url(fed_edge_top_r.gif) bottom left no-repeat;
+    width:5px;
+}
+.fp_border_bottomleft {
+    /* this defines the bottom left edge of the feedback popup */
+    background:transparent url(fed_edge_bottom_l.gif) top left no-repeat;
+    width:5px;
+}
+.fp_border_bottomright {
+    /* this defines the bottom right edge of the feedback popup */
+    background:transparent url(fed_edge_bottom_r.gif) top right no-repeat;
+    width:5px;
+}
+.fp_footer {
+    /* this defines the bottom part of the feedback popup */
+    background-color:#b2c1d2;
+    height:5px;
+    border-bottom:1px solid #808080;
+}
+.fp_head {
+    /* this defines the top part of the feedback popup */
+    height:5px;
+    width:270px;
+    border:none;
+    background:#D8E0E9 url(fed_head.gif) repeat-x top left;
+}
+.fp_close_area {
+    background-color:#b2c1d2;
+    text-align:right;
+    border-left:1px solid #808080;
+    border-right:1px solid #808080;
+}
+#fp_close {
+    margin:3px 10px 0 0;
+}
+/* begin of section of the fail and the timeout popup */
+.feedback_popup #feedback_fail {
+    padding-top:30px;
+    color:#a80303;
+    font-weight:bold;
+}
+.feedback_popup #feedback_fail font {
+    background:none !important;
+}
+.feedback_popup #feedback_time {
+    background:none !important;
+    padding-top:30px;
+    font-weight:bold;
+    color:#a80303;
+}
+.feedback_popup #feedback_time p {
+    bottom:-30px;
+}
+.feedback_popup #feedback_fail p br {
+    display:none;
+}
+.feedback_popup #feedback_fail p,
+.feedback_popup #feedback_time p {
+    margin:30px 10px 10px;
+    width:inherit;
+    background:#C9C9C9;
+    background:#C9C9C9 url(fedpop_col.gif) repeat-y left top;
+    border-left:solid 1px #6A6B6A;
+    border-right:solid 1px #6A6B6A;
+    min-height:120px;
+    height:70%;
+}
+html>body .feedback_popup #feedback_fail p,
+html>body .feedback_popup #feedback_time p {
+    height:auto;
+}
+.feedback_popup #feedback_fail p span,
+.feedback_popup #feedback_time p span {
+    color:#288404 !important;
+    display:block;
+    font-size:12px;
+    margin:0;
+    padding:7px 5px 7px 40px;
+    text-align:left;
+}
+.feedback_popup #feedback_fail p span img,
+.feedback_popup #feedback_time p span img {
+    display:block;
+    margin:5px 15%;
+    width:100px;
+}
+.feedback_popup .fb_wrong_answered {
+    background:transparent url(fail.gif) no-repeat 6px 45%;
+}
+.feedback_popup .fb_correct_answered {
+    background:transparent url(pass.gif) no-repeat 6px 45%;
+}
+/* this defines the content of the pass popup */
+.feedback_popup #feedback_pass {
+    background:#C9C9C9;
+    font-weight:bold;
+    color:green;
+    padding:90px 0;
+    margin:10px;
+}
+.feedback_popup #feedback_pass font {
+    background:none !important;
+}
+/* end of feedback section */
+
+/* begin of image section */
+.quiz_image {
+    /* this is the static small image section */
+    text-align:left;
+    padding-top:10px;
+}
+.quiz_image br {
+    display:none;
+}
+.quiz_image img {
+    /* this is the static small image itself */
+    cursor:pointer;
+}
+#image_popup_handler,
+#hotspotimage {
+    border:1px solid #999 !important;
+}
+#image_popup_handler2 {
+    /* this defines the zoom image icon */
+    float:right;
+    margin-right:10px;
+    margin-top:-22px;
+}
+#image_popup_handler2 img {
+    /* this defines the size of the zoom image icon */
+    width:22px;
+    height:22px;
+}
+.image_popup {
+    /* this is the popup image table */
+    /* do not change position or display here! */
+}
+.img_main {
+    /* this is the content part of the image popup */
+    background:#b2c1d2 url(feedpop_gradient_main.gif) repeat-x top left;
+    text-align:center;
+    padding:0 5px;
+    height:245px;
+}
+.img_main img {
+    border:1px solid #838483;
+}
+.img_border_left,
+.img_border_right {
+    /* this defines the left and right border of the image popup */
+    background:#b2c1d2 url(feedpop_gradient_main.gif) repeat-x top left;
+    width:4px;
+    font-size:1px;
+}
+.img_border_left,
+.img_head {
+    border-left:1px solid #808080;
+}
+.img_border_right,
+.img_head {
+    border-right:1px solid #808080;
+}
+.img_footer {
+    /* this defines the bottom part of the image popup */
+    background:#b2c1d2;
+    height:10px;
+    font-size:1px;
+}
+.img_head {
+    /* this defines the top part of the image popup */
+    background:#d8e0e9;
+    height:20px;
+    font-size:1px;
+    text-align:right;
+}
+.img_head img {
+    margin-right:10px;
+    padding:3px 0;
+}
+/* end of image section */
+
+/*begin of slider section */
+#range {
+    border:solid 1px #5d5d5d !important;
+    background:url(slider_bg.gif) repeat-x top left;
+    height:10px !important;
+}
+#maxval, #minval {
+    padding-top:3px;
+    font-weight:bold;
+    font-size:13px;
+}
+#slider {
+    height:10px;
+    padding:13px 6px 10px 1px;
+    width:29px;
+}
+/* end of slider setion */
+
+/* begin of macro design section */
+.grid th {
+    font-weight:normal;
+    font-size:12px;
+    padding-bottom:5px;
+}
+.grid td {
+    font-size:12px;
+    font-weight:bold;
+    padding:4px 10px 4px 16px;
+}
+.gridquestions {
+    padding:4px 0px;
+}
+.gridanswers {
+    background-repeat:no-repeat;
+    background-position:center;
+    cursor:pointer;
+}
+.gridspacer {
+    border-right:1px solid #6e6e6e;
+    width:1px;
+    font-size:1px;
+}
+.mchoice_radiobutton {
+    border:0px;
+    height:11px;
+    vertical-align:top;
+}
+.mchoice_checkbox {
+    border:0px;
+    height:11px;
+    vertical-align:middle;
+}
+.answer_input {
+    border:1px solid #5d5d5d;
+    margin:20px 4px 4px 12px;
+    background:#fff url(input_bg.gif) repeat-x top left;
+    font-weight:bold;
+    font-size:11px;
+    padding:2px;
+}
+.fib_input {
+    background:#fff url(input_bg.gif) repeat-x top left;
+    border:1px solid #909090;
+    margin-left:4px;
+    margin-right:10px;
+}
+.choice_radiobutton {
+    border:0px;
+}
+.answers select,
+.mixquiz_selectbox,
+#matchquiz td select {
+    margin:0 3px;
+    background:transparent url(input_bg.gif) repeat-x top left;
+    border:none;
+}
+.mixquiz_selectbox option,
+#matchquiz td select option {
+}
+.conn_active {
+    background-color: #f9b257;
+}
+.conn_line {
+    background-color: #ff0000;
+}
+.conn_elem {
+    cursor: pointer;
+}
+/* end of macro design section */
+
+/* begin of drag and drop design section */
+.dd_object_idle,
+.dd_object_mouse_over,
+.dd_object_in_drag,
+.dd_object_over_target,
+.dd_object_on_target,
+.dd_target_idle,
+.dd_target_under_object,
+.dd_target_on_mouseover_object {
+    border:solid 1px #cccccc;
+    font-size:12px;
+    padding:0;
+    margin:0;
+}
+.dd_object_idle {
+    color:#000000;
+    background-color:#fff6ec;
+
+}
+.dd_object_mouse_over {
+    color:#000000;
+    background:#fae1cd;
+    border:solid 2px #8B0000;
+}
+.dd_object_in_drag {
+    color:#000000;
+    background:#fae1cd;
+    border:solid 2px #8B0000;
+}
+.dd_object_over_target {
+    color:#000000;
+    background:#fae1cd;
+    border:solid 2px #8B0000;
+}
+.dd_object_on_target {
+    color:#000000;
+    background:#fff;
+    border:solid 2px #808080;
+}
+.dd_target_idle {
+    color:#ffffff;
+    background-color:#ffffff;
+    margin:0 3px;
+}
+.dd_target_under_object {
+    color:#ffebd8;
+    background:#FFFFFF;
+    margin:0 3px;
+}
+.dd_target_on_mouseover_object {
+    color:#f9b257;
+    background-color:#f9b257;
+    margin:0 3px;
+}
+/* end of drag and drop design section */

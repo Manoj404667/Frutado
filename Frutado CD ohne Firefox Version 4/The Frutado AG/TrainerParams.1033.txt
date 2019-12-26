@@ -1,0 +1,137 @@
+﻿aicc_get.h	Issue the value of 'GetParam' before 'PutParam'. The parameter {log} must be empty or the parameter {passive}==true.
+aicc_sid.h	Contains the value AICC_SID passed by LMS.
+aicc_url.h	Contains the URL of the LMS for AICC-HACP communication passed by the LMS.
+anybrowser.h	Deactivates the recognition of browser type and version during trainer start-up.
+appframename.h	Name of the trainer-generated frame, in which the application is running (not used, if {tourframe} is set).
+appname.h	Web Application name use in rescue application link (see {appurl}).
+apptimeout.h	Sets the timeout in seconds, after which the start page activates the URL given in {appurl} (see {appurl}) (0 = infinity).
+appurl.h	When running lessons in Navigation Mode, datango trainer is controlling the live application it's own frame. In case of error while loading datango trainer or the lesson file, {appurl} offers a direct link to the web application on the start page and gives the user the opportunity to start the application without the trainer software.
+autoplace.h	After a text bubble was placed within a lesson it can happen, that they are overlapping with others or (e.g. after scrolling the page or on smaller screens) are cut-off. If this option is set, text bubbles are rotating around the referenced object, until they found free space for being displayed.
+autoscroll.h	Autoscroll means, that those target elements, that are covered by their parents, are made visible to the user. This is done by scrolling all parent elements into an adequate position.
+autofocus.h	(default true) Turns  on/off automatic window focusing.
+autostart.h	Starts the lesson with the name entered automatically when the library is opened. The lesson must exist in the library and the entered string must match exactly the original given name of the lesson in the library. Spaces and special characters need to be converted into HTML-conform fashion.
+back.h	One or more function keys can be set here using key names, separated with commas, for the "back" functionality.\r\nFor example: alt_up.
+brand.h	Shows a small datango logo on the left side of the datango trainer control bar in the browser window.
+bubblefeedback.h	Show feedback in bubbles: -1: never; 1: always; 0: only if {recording_mode=='screendump'}; -2: no feedback at all; -3: no feedback at all and wait forever.
+base.h	Configures the "topmost" window of a lesson (Internet Explorer only!). This setting only applies if the "topmost" feature is enabled for the lesson. If 'base' is provided, the GIFs making up the "topmost" window are taken from the passed URL. It is strongly recommended to use either a workarea-wide or a project-specific directory for customized images. Use a trainer-special URL like "data:dir/" in the former and "resourcebase:dir/" in the latter case!
+scrollable.h	This setting only applies if the "topmost" feature is enabled for the lesson.\r\n'scrollable' provides scrollbars and makes the content of the topmost window scrollable. 
+show_startpage.h	This setting only applies if the "topmost" feature is enabled for the lesson. \r\n'show_start_page' shows the corresponding start page.
+
+deactivate_lms.h	Deactivates the communication with the LMS.
+ignore_errors.h	Ignores the LMS errors.
+score_percentage_100.h	If activated and use_original_max is deactivated, this option causes that the reached points as percent (0-100%) are passed to the LMS (with 2 decimal places).
+use_original_max.h	If activated, this option causes that the reached points as integer value are passed to the LMS. This is the standard setting.
+score_precedence_lms.h	If activated, the maximum possible points will not be read from LMS.
+decide_completeness.h	0: send everytime "passed/failed", 1: send "passed/failed" when complete, 2: never send "passed/failed". Default is 0.
+only_one_commit.h	Commit only once after sending the points to LMS.
+suspend_on_user_stop.h	Informs LMS when the user does not complete the test (non-standard extension).
+score_precision.h Decimal places after the point, when score_percentage_100 is deactivated and use_original_max is also deactivated. Default is 3.
+check_moodle_previous_points.h	Workaround for the bug in Moodle when the score is the same as the last time.
+bookmark_with_score.h When restart a tour through a bookmark, old bookmarked score is reassumed
+
+charset.h	Name of the default character set, to which the page containing the JavaScript lesson file is set using "document.charset=" (Important for Internet Explorer only).
+clock.h	Shows the remaining time in the gui, when this supports it.
+closeOnIdle.h	Determines the number of seconds after which the topmost window will be closed if idle.
+contentlanguage.h	Sets the language of the lesson content (two-letter ISO Code). At present only applicable for cfg_config().
+control.appurl_match_pattern.h	Here you can enter a string, which has to match parts of the url, as  a start condition for a Live tour.  Example: Instead of starting the tour by calling up datango.de you want to start it when you start a special progress at datango.de/travelmanagement. In that case you should enter '/travelmanagement'.
+css.h	Sets the URL to the CSS file containing bubble text styles. Resolved against trainer URL, if relative.
+data.h	Sets the default location within the workarea to find workarea-wide resources of any kind. It is the base for library content, which is not project-related (images in descriptions of library root, folders, etc...).
+defaultmediaquality.h	Index to the {mediaqualities} list. 0 means playing no media. Can by modified at runtime by clicking "pause", while "shift" (increase quality) or "control" (decrease quality) is pressed.
+domain.h	If set, in all trainer HTML documents window.document.domain will have this value. It is targeted at server-side integration into apps, which set this value themselves. This feature does not work with Mozilla browsers.
+errorpage.h	This parameter contains the URL of the page, which will be displayed after a fatal error of datango trainer. An absolute or relative URL can be entered. If the URL is relative, it will be resolved against the trainer URL. Advanced syntax, e.g. "trainer-config:", "project:", "trainer:", should not be used since these values are not available during the booting process.
+feedbackstyle.h	Sets the control feedback styles for control elements in the lesson. Properties are {highlight:[{effect:string, border:number, color:string}, ...]}. The Highlight array describes 0:error, 1:click, 2:dblclick, 3:rclick, 4:change.
+forward.h	Lessons offer an internal JavaScript object ctx (alias ctx_control) for free use. With {forward} any properties can be passed as a URL parameter to start, stop and error pages. The standard macro set installed together with datango producer. Semicolons separate the entries in the list. The standard macro set installed together with datango producer uses this set of internal variables in practice and test mode.\r\nFor example: collected_points,possible_points,result_scaled,mastery_score\r\ncollected_points: number of achieved points, possible_points: maximum number of achievable points, result_scaled: achieved ratio (0..1) of the maximum score, mastery_score: score necessary to pass the test.
+fullscreen.h	Activates the fullscreen mode (only MS Internet Explorer, in Firefox the user must press F11).\r\nUse carefully, specially when the lesson is published in internet, because many users think, this is a risk factor.
+guilanguage.h	Defines the language used by the user interface of datango trainer, if the content language is not set or not available as GUI language. The two-letter ISO Code is entered.
+gzip.h	If this option is activated, compression is used when loading JavaScript files, which are part of datango trainer. Since even MS Internet Explorer, in most cases a modification of the webserver's configuration may be necessary. If this is not possible (e.g. IIS), turn gzip off, but expect performance penalties due to the larger files sizes to be transferred.
+height.h	Defines the height of a new trainer window.\r\nMeaningless in combination with "fullscreen".
+hidden.h	Hides datango trainer's user interface, but keeps it in an invisible frame.
+highwater.h	Seconds of audio data preloaded with maximum network bandwidth before falling back to the bandwidth set under {maxbandwidth}.
+imagedir_bubbles.h	URL to the directory containing the bubble images for the different bubble types.
+jsdebug.h	Shows all Javascript error messages. Is required for debugging of Javascript events.
+jscrash.h	 Do not activate! Only for internal use of the datango development team.
+jscrash2.h	Do not activate! Only for internal use of the datango development team.
+keepbug.h	Defines a bitfield to keep the behavior of older known bugs, in order to keep compatibility to older lessons: (bit10=1024: keep bubble size bug)(bit11=2048: keep bubble-position-without-spike bug)(bit12=4096: keep small body size bug)
+left.h	Defines the horizontal position of a new trainer window.\r\nMeaningless in combination with "orientation" or "fullscreen".
+library.h	Sets the URL to the SCORM-conformant XML file, which contains the links to the configuration files and the library structure.
+librarydefaults.h	All properties of the object literal are interpreted as NAMEs of FORM elements and their value is initially put into the BUTTON/INPUT/SELECT/TEXTAREA tags of "FORM_Library" in the library User Interface.
+
+search.h	The value is initially put into the "Search" field in the library User Interface.
+filter.h	The value is initially put into the "Filter" field in the library User Interface.
+search_in_description.h	The value is initially put into the "Search description" field in the library User Interface.
+search_in_title.h	The value is initially put into the "Search title" field in the library User Interface.
+keep_course_open.h	The value is initially put into the "Leave course structure open" field in the library User Interface.
+open_new_window.h	The value is initially put into the "In a new window" field in the library User Interface.
+
+librarydetails.h	Defines the initial width of the Library part of the 'rows' attribute of the main frameset
+libraryNewStyle.h	Defines the behaviour of the Library's user interface. When set, tours are no longer shown inside the tree but on the right side.
+libraryshow.h	Shows initially the library, if the Parameter {library} is passed. Default is to hide, if Parameter {autostart} is set, and to show otherwise.
+librarysize.h	Library part of the 'rows' attribute of the main frameset
+libraryskin.h	Defines the layout of the Library's user interface. Sets the skin subdirectory with the library skin parts.
+libraryUseXMLHttpRequest.h	XMLHttpRequest is used to load XML files. Very rare configuration when the Library runs inside a portal. Only for HTTP connections.
+live.h	Projects in Navigation Mode require extra customization in order to meet the requirements of the special conditions within a live web application. The object literal can contain these settings; twistIeDocWrite: [true|false] special treatment for Frames (iFrames) within SAP EP6 (applies only for MS Internet Explorer), maxOpenPollErrors: [20..x] number of trials to access an external window before it is marked as not accessible (default is 100).
+location.h	Determines if the new trainer window contains a navigation bar.\r\nMeaningless in combination with "topmost" or "fullscreen".\r\nNot every combination of these parameters will be supported by every browser and version.
+log.h	URL to the log web service.
+logo.h	Contains the URL to the logo image. Is resolved against the URL of the currently defined skin (see {skin}), if relative.
+logopanel.h	Contains the URL to the logo's frame image. Is resolved against the URL of the currently defined skin (see {skin}), if relative.
+logurl.h	Url to the tour log web service.
+loguser.h	Username for the tour log web service.
+logpwd.h	Password for the tour log web service.
+lowwater.h	Minimum seconds of audio data in the local buffer, before downloading the audio file with maximum network bandwidth until the value of {highwater} is reached and falling back to the bandwidth set under {maxbandwidth}. It also sets the time to read ahead the audio file before starting to play back audio.
+macroset_files.h	List of files to be loaded BEFORE the javascript tourfile. The list entries are separated by semi-colons. Typically, the files contain the macroset definition used by the tour. Relative filenames are resolved against the trainer URL.
+maxbandwidth.h	Sets the maximum bandwidth datango trainer is using to load the audio track of a lesson.
+mediaqualities.h	List of file extensions of supported media files. The entries are seperated by semicolons.
+mediaselector.h	HTML ID of an input tag in the start page, which pre-sets {defaultmediaquality}. Playback of the current lesson is delayed until the tag's numeric value becomes >= 0. Subject of change in future releases.
+menubar.h	Determines if the new trainer window contains a menu.\r\nMeaningless in combination with "topmost" or "fullscreen".\r\nNot every combination of these parameters will be supported by every browser and version.
+minigui.h	Determines if the topmost window contains a small gui on the caption.
+mode.h	Name of the tour mode, i.e. 'demo', 'test', 'praxis'. May be empty.
+mousespeed.h	Defines the factor to adjust mouse movement speed in milliseconds per X- or Y-Pixel.
+mousetick.h	Interval of displayed mouse movement in miliseconds. May be decreased to 50 in simple pages (screenshot based lessons).
+mute.h	The playback of audio is suspended, even if media files exist.
+name.h	Internal name of the new opened trainer window.
+next.h	One or more function keys can be set here using key names, separated with commas, for the "next" functionality.\r\nFor example: alt_down.
+orientation.h	This can be one of 'N', 'NW',..., 'C' and overrides {top, left}.\r\nMeaningless in combination with "fullscreen".
+passive.h	This option prevents the usage of datango webride proxy to read HTML pages for playback of a lesson.
+pause.h	One or more function keys can be set here using key names, separated with commas, for the "pause" functionality.\r\nFor example: pause.
+play.h	One or more function keys can be set here using key names, separated with commas, for the "play" functionality.\r\nFor example: f8,space,enter.
+playsounds.h	Play sound for bubbles.
+previous.h	One or more function keys can be set here using key names, separated with commas, for the "previous" functionality.\r\nFor example: shift_f8.
+proxypath.h	URL to the datango webride proxy (server to unify HTTP server names to circumvent cross-frame security issues). Only used, if the option {passive} is not set.
+recording_mode.h	This parameter denotes, if the lesson is a recording of a Web or a Windows Application. It is set by datango producer.
+referrer.h	This option passes the referrer (URL of calling page) as URL parameter to start, stop and error pages.
+resizable.h	Determines if the size of the new trainer window can be changed.\r\nMeaningless in combination with "topmost" or "fullscreen".\r\nNot every combination of these parameters will be supported by every browser and version.
+resourcebase.h	Base-URL for all URLs starting with 'project:'. Resolved against the datango trainer URL, if relative. 'project:', 'program:' or 'trainer-config:' may be used.
+scroll_x.h	Value between 0 and 1, indicating the relative x position of the element on the screen, if it is scrolled automatically into view. -1 means minimal scroll.
+scroll_y.h	Value between 0 and 1, indicating the relative y position of the element on the screen, if it is scrolled automatically into view. -1 means minimal scroll.
+scrollbars.h	Determines if the new trainer window contains scrollbars when the content of the page smaller is than the window surface, for bigger contents the scrollbars are blended accordingly.\r\nMeaningless in combination with "topmost".\r\nNot every combination of these parameters will be supported by every browser and version. 
+showSecondaryGuis.h	Show the trainer's UI in secondary windows.
+skin.h	Defines the layout of the trainer's user interface. Available are any path conform names. 'slim', 'slim2', 'datango4 [5][6][7][10]' are converted to "datango_standard".
+skip.h	This option allows jumps to other sub programs within the lesson.
+startpage.h	This parameter defines the page which is shown, while the trainer is loaded and initialized. An absolute or relative URL can be entered. If the URL is relative, it will be resolved against the trainer URL. Advanced syntax may be used, e.g.: 'trainer-config:' (always), 'project:' (if {project} is set).
+status.h	Determines if the new trainer window contains a status bar.\r\nMeaningless in combination with "topmost" or "fullscreen".\r\nNot every combination of these parameters will be supported by every browser and version.
+stop.h	One or more function keys can be set here using key names, separated with commas, for the "stop" functionality.\r\nFor example: f12.
+stoppage.h	This parameter defines the page which is shown, after the trainer has been stopped. An absolute or relative URL can be entered. If the URL is relative, it will be resolved against the trainer URL. Advanced syntax may be used, e.g.: 'trainer-config:' (always), 'project:' (if {project} is set). If the parameter is empty(''), no page will be shown.
+synopsis.h	Displays the sub program overview. The structure depends on the parameter {skin}.
+template.h	Synonymous to the Parameter {skin}.
+textfileUseXMLHttpRequest.h	Download text files with XMLHttpRequest. Change with extreme care and only on request of datango support!
+ticktime.h	This parameter defines the cycle time of the trainer's main program loop [ms]. Change with extreme care and only on request of datango support!
+timeout.h	Sets the time in seconds, after which every(!) pause is automatically canceled and the lesson is continued. -1 switches that feature off.
+title.h	Defines the browser window title, while datango trainer is running.
+toolbar.h	Determines if the new trainer window contains a toolbar.\r\nMeaningless in combination with "topmost" or "fullscreen".\r\nNot every combination of these parameters will be supported by every browser and version.
+top.h	Defines the vertical position of a new trainer window.\r\nMeaningless in combination with "orientation" or "fullscreen".
+topmost.h	Defines if a lesson is played in a topmost popup window. -1: never; 1: always; 0: only if {recording_mode=='screendump'} (only applicable for MS Internet Explorer).\r\nMeaningless in combination with "fullscreen".
+topmostMinPosition.h Configures the minimize position of the "topmost" windows. 0: left bottom of screen; 1: rollup; 2: same place on the left; 3: same place on the right. Default is 3.
+topmostMinAnimate.h Activates or deactivates the animations when minimizing or restoring a "topmost" window.
+tour.h	Shortcut for the URL "/tour/{tour}" as value of {config}. Interpretation depends on the server settings. Not useful, if {passive} is set.
+tourframe.h	JavaScript expression which denotes the frame in which the datango lesson is running, in case datango trainer resides in a hidden frame. Example: tourframe = "top.frames['sap']";
+tr.h	Overrides an existing translation or adds a new one to the default dictionary of datango trainer by an object literal: {de_DE:{name:value, name2:value2, ...}, ... further languages ...}
+transition.h	Defines which page transition will be used. For example: "progid:DXImageTransform.Microsoft.Fade(duration=1.0,overlap=1.0)" (enter value without quotes). IE only.
+bubbletransition.h	Defines which bubble transition will be used. For example: "progid:DXImageTransform.Microsoft.Wheel(duration=1.0,spokes=10)" (enter value without quotes). IE only.
+ui.h	Allows to activate the trainer's DOM inspector.
+urlparam.h	Sends all URL parameters of the trainer to start, stop and error pages.
+verbose.h	Enables logging, if > 0. Verbosity is increased on higher numbers. Logging is started by clicking "stop" while holding "shift" pressed.
+width.h	Defines the width of a new trainer window.\r\nMeaningless in combination with "fullscreen".
+workaroundIEDocTypeBug.h	Workaround for the bubbles scroll bug in IE6 when using mixed document types in different frames.
+xbubble_scroll.h	Distance of the target element of a cross-frame bubble after automatic scroll measured as ratio of the frame size [0..1].
+xbubble_autohide.h	Hide cross-frame bubbles when target element is not visible (ignored if autoplace is on).
+xmouse.h	This option allows the synthesis of mouse events in MS Internet Explorer. May cause JavaScript errors, as the event's environment can only be emulated.

@@ -1,0 +1,249 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY	datango
+TOK_LIB	@{TOK_COMPANY} Kursas
+TOK_TOUR	@{TOK_COMPANY} Mokomasis blokas
+TOK_TRAINER	@{TOK_COMPANY} Treneris
+
+# Key names	
+ALTKEY	alt
+CTRLKEY	strg
+LEFTALTKEY	alt (kairėje)
+LEFTCTRLKEY	strg (kairėje)
+LEFTSHIFTKEY	umsch (kairėje)
+ON	įj.
+OFF	išj.
+RIGHTALTKEY	alt (dešinėje)
+RIGHTCTRLKEY	strg (dešinėje)
+RIGHTSHIFTKEY	umsch (dešinėje)
+SHIFTKEY	perj.
+
+# trainer states	
+TOK_BUFFERING	Audio kraunasi ... 
+TOK_CONNECTING	Sujungti ... 
+TOK_IDLE	
+TOK_LMS	Užrašyti rezultatą ...
+TOK_OPENING	Jungti ... 
+TOK_OPEN	
+TOK_PAUSED	Pauzė
+TOK_PLAYING	Eiga
+TOK_READY	Paruošta
+TOK_USERINPUT	Įrašas
+TOK_WAITING	Puslapis kraunasi ... 
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC	"<span style=""color: red; font-weight: bolder;"">Rėmelio nustatymai čia negali būti parodyti.</span>"
+TOK_IEPOPUP_IFRAME_EXC	"<span style=""color: red; font-weight: bolder;"">Dokumentai su IFRAME'ais čia negali būti parodyti.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC	Popup blokatorius trukdo paleisti mokomąjį bloką.
+TOK_POPUPBLOCKER_CONFIRM	Popup blokatorius neleido atverti naujo paieškos lango.@{NEWLINE}@{NEWLINE}OK: galite tęsti, nes@{NEWLINE}    Jūs išjungėte web serverio blokatorių.@{NEWLINE}Nutraukti: Mokomasis blokas užbaigiamas.
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC	"Internet Explorer'io apsaugos nustatymas\n\rneleidžia pateikti @{TOK_TOUR}.\nPrašome\nleisti naudoti ""skripto inicijuotus langus, neribojant dydžio ir pozicijos""!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC	"@1 ""@2"" nepavyko perskaityti."
+TOK_COULD_NOT_READ2_EXC	"@1 ""@2"" nepavyko perskaityti: @3"
+
+# Form texts	
+TOK_CLOSE	Uždaryti
+TOK_DIR	Katalogas
+TOK_ERROR	Klaida
+TOK_EXIT	Baigti
+TOK_OPEN	Atverti
+TOK_SEARCH	Ieškoti
+TOK_START	Startas
+TOK_START_TOUR	@{TOK_TOUR} pradėti
+TOK_STOP	Stop
+
+# Library	
+TOK_LIB_BTN_LESS	mažiau...
+TOK_LIB_BTN_MORE	daugiau...
+TOK_LIB_EMPTY	Tuščias elementas
+TOK_LIB_FLAG_DESC	Ieškoti aprašyme
+TOK_LIB_FLAG_KEEP_OPEN	Palikti atvirą kurso struktūrą
+TOK_LIB_FLAG_NEWWIN	Naujame lange
+TOK_LIB_FLAG_TITLE	Ieškoti pavadinime
+TOK_LIB_RESET	išvalyti paieškos rezultatus
+
+# Mimetypes	
+MIME_TEXT_PDF	PDF - Adobe Acrobat formatas
+MIME_APP_MSWORD	Winword dokumentas
+MIME_APP_EXCEL	Excel'io lentelė
+MIME_APP_PPT	Powerpoint'o skaidrės
+MIME_APP_OOFF	OpenOffice dokumentas
+MIME_APP_OOFFWRITE	OpenOffice tekstas
+MIME_APP_OOFFCALC	OpenOffice kalkuliacija
+MIME_APP_OOFFIMPRESS	OpenOffice prezentacija
+MIME_APP_OOFFMATH	OpenOffice formulės
+MIME_AUDIO	Garsas
+MIME_VIDEO	Video
+MIME_TEXT_HTML	Web puslapis
+MIME_TEXT	Tekstinis dokumentas
+MIME_APP_DGO	@{TOK_COMPANY} Mokomasis blokas
+MIME_APP_DGO_DEMO	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE	@{TOK_COMPANY} Pratimas
+MIME_APP_DGO_TEST	@{TOK_COMPANY} Testas
+MIME_APP_DGO_CONCURRENT	@{TOK_COMPANY} Mokomasis blokas praktikos režimas
+MIME_UNKNOWN	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY	"Tęsti (F8); su ""Alt"": naujas startas"
+TIP_PAUSE	"Sustabdyti (PAUSE); Su ""Shift"": Pagerinti garso kokybę; Su ""Alt"": tausoti audio diapazoną"
+TIP_STOP	"Baigti (F12); Su ""Shift"": rodyti versiją"
+TIP_NEXT	Kitas skyrius (ALT-žemyn)
+TIP_BACK	"Ankstesnis skyrius (ALT-aukštyn); Su ""Alt"": rodyti kursą"
+TIP_MAXBUBBLE	Atkurti teksto laukelį
+TIP_MINBUBBLE	Minimizuoti teksto laukelį
+TIP_CLOSEBUBBLE	Pašalinti teksto laukelį
+TIP_ENABLED	
+TIP_DISABLED	(šiuo metu negalima)
+TIP_TASK	Užduoties iškėlimas
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW	Užverti langą
+TOK_BP_GOBACK	Atgal
+TOK_BP_GOON	Toliau
+TOK_BP_JSCONSOLE	Javascript'o pranešimai
+TOK_BP_MODE	Režimas
+TOK_BP_PARAMETER	Parametras
+TOK_BP_RESTARTPROGRAM	pakartoti programą
+TOK_BP_STARTANOTHER	Paleisti jnaują programą
+TOK_BP_VALUE	Vertė
+
+# Exercise colors	
+EXER_COLOR_ERROR	raudonai markiruota
+EXER_COLOR_CLICK	žaliai markiruota
+EXER_COLOR_DBLCLICK	geltonai markiruota
+EXER_COLOR_RCLICK	turkis markiruota
+EXER_COLOR_CHANGE	žaliai pabraukta
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_AND	@{NEWLINE}ir@{NEWLINE}
+EXER_FAIL0	Deja, neteisingai.
+EXER_FAIL1	Deja neteisingai. Minusuojamas 1 taškas. Liko taškų: @1_rest-points_.
+EXER_FAIL2	Deja neteisingai. @1_points-penalty_ taškų minusuokama. Liko taškų: @2_rest-points_.
+EXER_FAIL_ASK4HELP	@{NEWLINE}@{NEWLINE}Jums reikalinga pagalba?
+EXER_FAILCHANGE_HELP	Pakeistas laukelis tapo @{EXER_COLOR_ERROR}.@{NEWLINE}Visi įrašų laukeliai, kurie buvo pakeisti, tapo @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP	Nėra leistinų įrašų laukelių.@{NEWLINE}Pakeistas laukelis tapo @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP	Pasirinkta zona tapo @{EXER_COLOR_ERROR}.@{NEWLINE}Visi leistini mygtukai tapo @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP	Niekur neleistinas vienas klavišo nuspaudimas.@{NEWLINE}Pasirinkta zona tapo @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP	Dvigubu klavišo nuspaudimu pasirinkta zona tapo @{EXER_COLOR_ERROR}.@{NEWLINE}Visi dvigubam klavišo nuspaudimui leistini mygtukai tapo @{EXER_COLOR_DBLCLICK}.
+EXER_FAILRCLICK_HELP	Dešiniojo klavišo nuspaudimu pasirinkta zona tapo @{EXER_COLOR_ERROR}.@{NEWLINE}Visi dešinio klavišo nuspaudimu pasirenkami mygtukai tapo @{EXER_COLOR_RCLICK}.
+EXER_FAILKEY_HELP0	Jūs nauspaudėte neteisingą klavišą.
+EXER_FAILKEY_HELP1	"Jūs nuspaudėte ""@1_key_"" ."
+EXER_FAILKEY_HELP2	@{NEWLINE}Leistini funkciniai mygtukai yra:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID	@{NEWLINE}@{NEWLINE}Taip pat yra leistini:
+EXER_HINT_CHANGABLE_MARKED	@{NEWLINE}@{BULLET} Laukelio pakeitimas (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED	@{NEWLINE}@{BULLET} Nuspaudimas (mygtukai yra @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED	@{NEWLINE}@{BULLET} Dvigubas nuspaudimas (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS	@{NEWLINE}(Nuoroda: tuo pačiu dingsta visi taškai)
+EXER_HINT_KEYS	"@{NEWLINE}@{BULLET} Funkcinio mygtuko nuspaudimas@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID	@{NEWLINE}@{NEWLINE}Leistini yra:
+EXER_HINT_RCLICK_MARKED	@{NEWLINE}@{BULLET} Dešiniojo klavišo nuspaudimas (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON	@{NEWLINE}(Nuoroda: kitu atveju automatiškai vyksta pratęsimas)
+EXER_HINT_YOURINPUT	"Jūs įvedėte ""@1_input_"" .@{NEWLINE}"
+EXER_OR	@{NEWLINE}arba@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT	"Prašom deselektuoti opciją ""@1""!"
+MSG_OPTIONFIELD_SELECT	"Prašom selektuoti arba deselektuoti opciją ""@1""!"
+MSG_SCORE	"surinktų taškų skaičius: ""@1""."
+MSG_SINGLE_SELECT	"Prašom pasirinkti įrašą ""@1"" !"
+MSG_TEXTINPUT	"Prašom įvesti ""@1"" į įrašymo laukelį ""@2"" !"
+MSG_TRANSACTIONCODE	"Prašom įvesti teisingą operacijos kodą ""@1"" !"
+
+capDemoStart	Demo režimas 
+msgDemoStart1	Demo režime galite stebėti užduoties įvykdymą. Tiesiog sekite demonstravimą, visi žingsniai atliekami automatiškai.
+msgDemoStart2	Navigacijos eilutės, esančios apatiniame krašte, pagalba galite nutraukti arba sustabdyti demonstravimą. Be to galite peršokti pirmyn prie tolesnio, raba atgal prie buvusio žingsnio.
+msgDemoStop	Der Demo-Modus wurde beendet.
+
+capConcurrentStart	Praktikos režimas
+msgConcurrentStart1	Praktikos režime Jums suteikiama instrukcija žingsnis po žingsnio, užduoties atlikimui aplikacijoje. 
+msgConcurrentStart2	Po kiekvieno žingsnio demonstravimas nutraukiamas, kad galėtumėte išbaigti aplikacijoje pademonstruotą žingsnį. 
+msgConcurrentStop	Praktikos režimas užbaigtas.
+
+capTestStart	Testavimo režimas
+msgTestStart1	Testavimo režime galite pasitikrinti savo žinias, patys išspręsdami užduotį. Jums nebus suteikti jokie nurodymai, liečiantys darbo žingsnius, išskyrus pavyzdinių įvedimui būtinų parametrų. Visa užduotis aprašoma užduočių langelyje, kurį, esant reikalui, galima padidinti arba pamažinti, naudojantis nuorodomis titulinėje eilutėje.
+msgTestStart2	Testo pabaigoje, remiantis Jūsų atliktais žingsniais Jūs gausite įvertinimą. Šis įvertinimas skirtas tik Jums, duomenys niekur neišsaugomi ir neperduodami.
+msgTestStart3	Prašom labai kruopščiai atlikti visus veiksmus, kadangi sistema registruoja visas rašybos klaidas ir neteisingus nuspaudimus bei atitinkamai sumažina įvertinimą. Jei jūs nusprendėte kažkuriam žingsniui pasitelkti pagalbą, jJūs prarandate visus šiam žingsniui skirtus taškus.
+msgTestStart4	Jūsų įvertinimas bus parodytas testų pabaigoje, pamėginkite pasiekti  @{res_mastery_percent}% tikslą.
+capTestOk	Jūs išlaikėte testą
+capTestFailed	Jūs neišlaikėte testo
+msgTestFailed1	Kadangi surinkote mažiau nei @{res_mastery_percent}% galimų taškų, rekomenduojame dar kartą pasikartoti šio kurso turinį ir iš naujo pasitikrinti savo žinias testavimo režime
+msgTestFinished2	Šis testas buvo skirtas tik Jums. Rezultatai nėra įrašomi ir neperduodami.
+msgTestOk1	Nuoširdžiai sveikiname, Jūs sėkmingai užbaigėte šią užduotį.
+msgTestResult	Rezultatas
+msgTestScore	Surinktų taškų skaičius
+
+capPracticeStart	Pratybų režimas
+msgPracticeStart1	Pratybų režime Jūs galite išmėginti tai, ko išmokote, patys išspręsdami užduotį aplikacijoje.
+msgPracticeStart2	Tiesiog žingsnis po žingsnio vykdykite instrukciją.
+msgPracticeStop	Pratybų režimas užbaigtas
+
+# eof# New messages added after 6.1.0 beta 2
+TOK_LIB_VAL_NOFILTER no filter
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+EXER_FAILRCLICK0_HELP;	Right-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK0_HELP;	Double-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+msgTestScoreValue	@{res_collected_points} of @{res_possible_points}
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

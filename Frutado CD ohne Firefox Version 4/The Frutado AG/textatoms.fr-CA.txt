@@ -1,0 +1,242 @@
+﻿# English text atoms
+# Base tokens
+BULLET;	•
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	@{TOK_COMPANY} Cours
+TOK_TOUR;	@{TOK_COMPANY} Leçon
+TOK_TRAINER;	@{TOK_COMPANY} Formateur
+
+# Key names
+ALTKEY;	Touche Alt
+CTRLKEY;	Touche Contrôle
+LEFTALTKEY;	Touche Alt (gauche)
+LEFTCTRLKEY;	Touche Contrôle (gauche)
+LEFTSHIFTKEY;	Touche Majuscule (gauche)
+ON;	marche
+OFF;	arrêt
+RIGHTALTKEY;	Touche Alt (droite)
+RIGHTCTRLKEY;	Touche Contrôle (droite)
+RIGHTSHIFTKEY;	Touche Majuscule (droite)
+SHIFTKEY;	Touche Majuscule
+
+# Trainer states
+TOK_BUFFERING;	Chargement du son en cours...
+TOK_CONNECTING;	Connexion en cours...
+TOK_IDLE;
+TOK_LMS;	Résultat en cours d'écriture...
+TOK_OPENING;	Connexion en cours...
+TOK_OPEN;
+TOK_PAUSED;	Pause
+TOK_PLAYING;	Lecture
+TOK_READY;	Prêt
+TOK_USERINPUT;	Entrée
+TOK_WAITING;	Chargement de la page en cours...
+
+# Display errors
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Les jeux de cadres ne peuvent pas être affichés ici.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">Les documents avec des IFRAME ne peuvent pas être affichés ici.</span>"
+
+# Popupblocker errors
+TOK_POPUPBLOCKER_EXC;	Un système de blocage de fenêtres contextuelles empêche la lecture de la leçon.
+TOK_POPUPBLOCKER_CONFIRM;	Un système de blocage de fenêtres contextuelles a empêché une nouvelle fenêtre du navigateur de s'ouvrir.@{NEWLINE}@{NEWLINE}OK : Vous pouvez continuer maintenant que vous avez désactivé le système de blocage de fenêtres contextuelles @{NEWLINE}    pour le serveur Web.@{NEWLINE}Annuler : La leçon est terminée.
+
+# Security setting errors
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Un réglage de sécurité d'Internet Explorer \n\empêche l'affichage du @{TOK_TOUR}.\nVeuillez activer \n""Autoriser les fenêtres initiées par des scripts sans restriction de taille ou de position""!"
+
+# Standard errors
+TOK_COULD_NOT_READ_EXC;	"Impossible de lire @1 ""@2""."
+TOK_COULD_NOT_READ2_EXC;	"Impossible de lire @1 ""@2"" : @3"
+
+# Form texts
+TOK_CLOSE;	Fermer
+TOK_DIR;	Répertoire
+TOK_ERROR;	Erreur
+TOK_EXIT;	Quitter
+TOK_OPEN;	Ouvrir
+TOK_SEARCH;	Rechercher
+TOK_START;	Démarrer
+TOK_START_TOUR;	Démarrage de @{TOK_TOUR}
+TOK_STOP;	Arrêt
+
+# Library
+TOK_LIB_BTN_LESS;	moins...
+TOK_LIB_BTN_MORE;	plus...
+TOK_LIB_EMPTY;	Élément vide
+TOK_LIB_FLAG_DESC;	Rechercher une description
+TOK_LIB_FLAG_KEEP_OPEN;	Laisser la structure de cours ouverte
+TOK_LIB_FLAG_NEWWIN;	Dans une nouvelle fenêtre
+TOK_LIB_FLAG_TITLE;	Rechercher un titre
+TOK_LIB_RESET;	Effacer les résultats de recherche
+TOK_LIB_VAL_NOFILTER;	Sans filtre
+
+# Mimetypes
+MIME_TEXT_PDF;	Format PDF – Adobe Acrobat
+MIME_APP_MSWORD;	Document Word
+MIME_APP_EXCEL;	Tableur Excel
+MIME_APP_PPT;	Diapositives PowerPoint
+MIME_APP_OOFF;	Document OpenOffice
+MIME_APP_OOFFWRITE;	Texte OpenOffice
+MIME_APP_OOFFCALC;	Tableur OpenOffice
+MIME_APP_OOFFIMPRESS;	Présentation OpenOffice
+MIME_APP_OOFFMATH;	Formules mathématiques OpenOffice
+MIME_AUDIO;	Audio
+MIME_VIDEO;	Vidéo
+MIME_TEXT_HTML;	Page Internet
+MIME_TEXT;	Document texte
+MIME_APP_DGO;	@{TOK_COMPANY} Leçon
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Démo
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} Approfondissement
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} Test
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} Leçon en mode concurrent
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips
+TIP_PLAY;	"""Continuer (F8); Recommencer avec """"Alt"""" : """
+TIP_PAUSE;	"""Arrêt (PAUSE); Améliorer la qualité sonore avec la touche """"Majuscule"""" : Économiser la bande audiofréquence avec """"Alt"""" :"""
+TIP_STOP;	"""Quitter (F12); Afficher la version avec la touche """"Majuscule"""" : """
+TIP_NEXT;	Chapitre suivant (ALT-vers le bas)
+TIP_BACK;	"Chapitre précédent (ALT-vers le haut); Afficher le cours avec la touche ""Alt"" :"
+TIP_MAXBUBBLE;	Rétablir la bulle de texte
+TIP_MINBUBBLE;	Réduire la bulle de texte
+TIP_CLOSEBUBBLE;	Fermer la bulle de texte
+TIP_ENABLED;
+TIP_DISABLED;	(impossible maintenant)
+TIP_TASK;	Tâche
+TOK_CLOSE_TASK;	Fermer @{TIP_TASK}
+TIP_HELPBUBBLE;	Oui, afficher l'aide
+TIP_GOONBUBBLE;	Aller à l'étape suivante
+
+# Bracepages
+TOK_BP_CLOSEWINDOW;	Fermer la fenêtre
+TOK_BP_GOBACK;	Précédent
+TOK_BP_GOON;	Suivant
+TOK_BP_JSCONSOLE;	Messages Javascript
+TOK_BP_MODE;	Mode
+TOK_BP_PARAMETER;	Paramètres
+TOK_BP_RESTARTPROGRAM;	Répéter le programme
+TOK_BP_STARTANOTHER;	Démarrer un nouveau programme
+TOK_BP_VALUE;	Valeur
+
+# Exercise colors
+EXER_COLOR_ERROR;	indication en rouge
+EXER_COLOR_CLICK;	indication en vert
+EXER_COLOR_DBLCLICK;	indication en jaune
+EXER_COLOR_RCLICK;	indication en turquoise
+EXER_COLOR_CHANGE;	soulignement en vert
+EXER_COLOR_DRAG;	indication en bleu
+EXER_COLOR_DROP;	indication en brun
+
+# Exercises
+EXER_AND;	@{NEWLINE}et@{NEWLINE}
+EXER_FAIL0;	Votre action était incorrecte.
+
+EXER_FAIL1;	Votre action était incorrecte. 1 point a été soustrait de votre nombre de points global. Total des points pour cette action : @1_rest_points_.
+EXER_FAIL2;	Votre action était incorrecte. @1_points-penalty_ points soustraits de votre nombre de points global. Total des points pour cette action : @2_rest-points_ points.
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Avez-vous besoin d'aide ?
+
+EXER_FAILCHANGE;	Vous avez modifié le mauvais champ.@{NEWLINE}
+EXER_FAILCHANGE_HELP;	Le champ modifié est @{EXER_COLOR_ERROR}.@{NEWLINE}Tous les champs d'entrée qui peuvent être modifiés sont @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE_NOMARK_HELP;	Tous les champs de saisie valides sont @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP;	Modifier les champs de saisie n'est pas autorisé à cet endroit.@{NEWLINE}Le champ modifié est @{EXER_COLOR_ERROR}.
+EXER_FAILCHANGE0_NOMARK_HELP;	Aucun champ de saisie valide.
+
+EXER_FAILCLICK;	Vous avez cliqué sur le mauvais bouton.@{NEWLINE}
+EXER_FAILCLICK_HELP;	La zone cliquée est @{EXER_COLOR_ERROR}.@{NEWLINE}Tous les boutons qui peuvent être cliqués sont @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK_NOMARK_HELP;	Tous les boutons valides sont @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;	Les clics ne sont pas autorisés à cet endroit.@{NEWLINE}La zone cliquée est @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK0_NOMARK_HELP;	Aucun clic valide possible.
+
+EXER_FAILDRAG;	Vous avez fait glisser la mauvaise zone.@{NEWLINE}
+EXER_FAILDRAG_HELP;	La zone que vous avez fait glisser est @{EXER_COLOR_ERROR}.@{NEWLINE}Toutes les zones qui peuvent être glissées sont @{EXER_COLOR_DRAG}.
+EXER_FAILDRAG_NOMARK_HELP;	Toutes les zones valides sont @{EXER_COLOR_DRAG}.
+EXER_FAILDRAG0_HELP;	Il n'est pas autorisé de faire glisser à cet endroit.@{NEWLINE}La zone qui a été glissée est @{EXER_COLOR_ERROR}.
+EXER_FAILDRAG0_NOMARK_HELP;	Aucune action de faire glisser valide.
+
+EXER_FAILDROP;	Vous avez déposé dans la mauvaise zone.@{NEWLINE}
+EXER_FAILDROP_HELP;	La zone dans laquelle vous avez déposé est @{EXER_COLOR_ERROR}.@{NEWLINE}Toutes les zones dans lesquelles vous pouvez déposer sont @{EXER_COLOR_DROP}.
+EXER_FAILDROP_NODRAG_HELP;	@{NEWLINE} (S'il n'y a aucune zone disponible pour faire glisser, vous pouvez cliquer sur les éléments à déposer).
+EXER_FAILDROP_NOMARK_HELP;	Toutes les zones valides sont @{EXER_COLOR_DROP}.
+EXER_FAILDROP0_HELP;	Il n'est pas autorisé de faire glisser à cet endroit.@{NEWLINE}La zone dans laquelle vous avez fait glisser est @{EXER_COLOR_ERROR}.
+EXER_FAILDROP0_NOMARK_HELP;	Aucune action de déposer valide.
+
+EXER_FAILDBLCLICK;	Vous avez double-cliqué dans la mauvaise zone.@{NEWLINE}
+EXER_FAILDBLCLICK_HELP;	La zone double-cliquée est @{EXER_COLOR_ERROR}.@{NEWLINE}Tous les boutons qui peuvent être double-cliqués sont @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK_NOMARK_HELP;	Tous les boutons valides pour un double clic sont @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;	Les double-clics ne sont pas autorisés à cet endroit.@{NEWLINE}La zone cliquée est @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK0_NOMARK_HELP;	Le double-clic n'est pas valide.
+
+EXER_FAILRCLICK;	Vous avez cliqué à droite dans la mauvaise zone.@{NEWLINE}
+EXER_FAILRCLICK_HELP;	La zone dans laquelle vous avez cliqué à droite est @{EXER_COLOR_ERROR}.@{NEWLINE}Tous les messages qui peuvent être cliqués à droite sont @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK_NOMARK_HELP;	Tous les boutons valides pour un clic droit sont @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP;	Les clics droits ne sont pas valides à cet endroit.@{NEWLINE}La zone cliquée est @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK0_NOMARK_HELP;	Le clic droit n'est pas valide.
+
+EXER_FAILKEY_HELP0;	Vous avez appuyé sur la mauvaise touche.
+EXER_FAILKEY_HELP1;	"Vous avez appuyé sur la touche ""@1_key_""."
+EXER_FAILKEY_HELP2;	@{NEWLINE}Les touches de fonction qui peuvent être utilisées sont B179:@{NEWLINE}@1_keys_
+
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}Les autres actions autorisées sont :
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Modifier (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Clic (Les boutons sont @{EXER_COLOR_CLICK})
+EXER_HINT_DRAG_MARKED;	@{NEWLINE}@{BULLET} Glisser (Les éléments sont @{EXER_COLOR_DRAG})
+EXER_HINT_DROP_MARKED;	@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Double clic (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Remarque : Tous les points pour cette action seront soustraits de votre nombre de points final)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Appuyez sur les touches de fonction@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Les actions autorisées sont :
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Clic droit (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Remarque : Sinon continue automatiquement)
+EXER_HINT_YOURINPUT;	"Vous avez saisi ""@1_input_"".@{NEWLINE}"
+EXER_OR;	@{NEWLINE}ou@{NEWLINE}
+
+# StandardMacros.xml
+MSG_OPTIONFIELD_DESELECT;	"Veuillez désélectionner l'option ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"Veuillez sélectionner ou désélectionner l'option ""@1""!"
+MSG_SCORE;	"Nombre de points obtenu : ""@1""."
+MSG_SINGLE_SELECT;	"Veuillez sélectionner l'entrée ""@1""!"
+MSG_TEXTINPUT;	"Veuillez saisir ""@1"" dans le champ de saisie ""@2""!"
+MSG_TRANSACTIONCODE;	"Veuillez saisir le bon code de transaction ""@1""!"
+
+# Producer bracepages
+capDemoStart;	Mode démo
+msgDemoStart1;	En mode démo vous pouvez voir une activité complétée à l'intérieur de l'application. Vous pouvez simplement suivre la démo, pendant que toutes les actions sont exécutées automatiquement.
+msgDemoStart2;	En utilisant la barre de navigation au bas de votre écran, vous pouvez mettre la démo en pause ou l'arrêter. Vous pouvez aussi faire un saut en avant à l'étape suivante ou vers l'arrière à l'étape précédente.
+msgDemoStop;	Mode démo terminé
+
+capConcurrentStart;	Mode concurrent
+msgConcurrentStart1;	Le mode concurrent vous montre comment compléter une activité à l'intérieur de l'application.
+msgConcurrentStart2;	La démo sera mise en pause après chaque étape pour vous permettre de compléter l'étape dans l'application réelle.
+msgConcurrentStop;	Mode concurrent terminé
+
+capTestStart;	Mode test
+msgTestStart1;	En mode test vous pouvez testez vos connaissances en complétant une activité par vous-même à l'intérieur de l'application : outre l'échantillon de données que vous devez saisir, vous ne recevrez pas d'instructions étape par étape. La tâche que vous devez compléter est décrite dans la fenêtre des tâches que vous pouvez agrandir ou réduire au besoin à l'aide des boutons situés en haut de la sous-fenêtre de tâches.
+msgTestStart2;	À la fin du test votre nombre de points sera fondé sur le nombre d'étapes complétées correctement. Ce nombre de points sert uniquement à votre auto-évaluation et ne sera ni analysé ni enregistré !
+msgTestStart3;	Veuillez être très précis dans vos actions puisque le système enregistrera toutes les entrées mal orthographiées ainsi que les clics inexacts et réduira votre nombre de points en conséquence. Rappelez-vous de remplir les champs requis de haut en bas et de gauche à droite. Si vous cliquez dans le mauvais champ ou saisissez une valeur incorrecte, le système affichera un message d'avertissement et votre nombre de points sera réduit. Si vous choisissez de recevoir de l'aide du système pour compléter l'étape, votre nombre de points pour cette étape en particulier sera remis à zéro.
+msgTestStart4;	Votre nombre de points total sera affiché à la fin du test. Veuillez essayer d'atteindre le résultat cible de @{res_mastery_percent} % d'étapes correctement complétées.
+capTestOk;	Test réussi
+capTestFailed;	Test échoué
+msgTestFailed1;	Puisque vous avez obtenu moins que @{res_mastery_percent} %, nous vous recommandons de parcourir le contenu couvert par le cours de formation une fois de plus et de tester ensuite vos connaissance en mode test.
+msgTestFinished2;	Vous avez procédé à ce test uniquement pour votre auto-évaluation. Les résultats ne seront ni enregistrés ni transmis à quiconque.
+msgTestOk1;	Félicitations, vous avez complété l'activité avec succès.
+msgTestResult;	Résultat
+msgTestScore;	Nombre de points
+msgTestScoreValue;	@{res_collected_points} de @{res_possible_points}
+
+capPracticeStart;	Mode approfondissement
+msgPracticeStart1;	En mode approfondissement, vous pouvez tester ce que vous avez appris en complétant une tâche par vous-même à l'intérieur de l'application.
+msgPracticeStart2;	Vous recevrez les instructions étape par étape à suivre.
+msgPracticeStop;	Mode approfondissement terminé
+
+
+# New messages
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+# New messages end
+
+# eof

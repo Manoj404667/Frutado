@@ -1,0 +1,249 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY	datango
+TOK_LIB	@{TOK_COMPANY} 学程
+TOK_TOUR	@{TOK_COMPANY} 学程单元
+TOK_TRAINER	@{TOK_COMPANY} 培训人
+	
+# Key names	
+ALTKEY	alt键
+CTRLKEY	ctrl键
+LEFTALTKEY	(左)alt键
+LEFTCTRLKEY	(左)ctrl键
+LEFTSHIFTKEY	(左)shift键
+ON	开
+OFF	关
+RIGHTALTKEY	(右)alt键
+RIGHTCTRLKEY	 (右)ctrl键
+RIGHTSHIFTKEY	(右)shift转换键
+SHIFTKEY	shift转换键
+	
+# trainer states	
+TOK_BUFFERING	音频下载中...
+TOK_CONNECTING	连接中...
+TOK_IDLE	
+TOK_LMS	写出结果...
+TOK_OPENING	连接中...
+TOK_OPEN	
+TOK_PAUSED	停顿
+TOK_PLAYING	运行
+TOK_READY	准备就绪
+TOK_USERINPUT	输入
+TOK_WAITING	网页下载中...
+	
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC	"<span style=""color: red; font-weight: bolder;""> 框架设置(framesets)在此不能显示.</span>"
+TOK_IEPOPUP_IFRAME_EXC	"<span style=""color: red; font-weight: bolder;""> 不能显示带有内嵌框架(IFRAMEs )的文件.</span>"
+	
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC	广告拦截功能阻止学程单元的展示.
+TOK_POPUPBLOCKER_CONFIRM	广告拦截功能阻止了新浏览器窗口的开启.@{NEWLINE}@{NEWLINE}OK: 您可以继续,因为您已对该网络服务器关闭了广告拦截功能.@{NEWLINE}@{NEWLINE}停止: 学程单元被终止.
+	
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC	"互联网探索器(Internet Explorer)中的安全设置\n阻止@{TOK_TOUR}.\n的展示.请选择\n""允许由脚本初始化的窗口，没有大小和位置限制""!"
+	
+# Standard errors	
+TOK_COULD_NOT_READ_EXC	"@1 ""@2"" 不能解读."
+TOK_COULD_NOT_READ2_EXC	"@1 ""@2"" 不能解读: @3"
+	
+# Form texts	
+TOK_CLOSE	关闭
+TOK_DIR	目录
+TOK_ERROR	错误
+TOK_EXIT	结束
+TOK_OPEN	开启
+TOK_SEARCH	搜索
+TOK_START	开始
+TOK_START_TOUR	@{TOK_TOUR} 开始
+TOK_STOP	停止
+	
+# Library	
+TOK_LIB_BTN_LESS	少...
+TOK_LIB_BTN_MORE	多...
+TOK_LIB_EMPTY	空白标签
+TOK_LIB_FLAG_DESC	搜索该描述
+TOK_LIB_FLAG_KEEP_OPEN	学程结构保持开启状态
+TOK_LIB_FLAG_NEWWIN	在新的窗口
+TOK_LIB_FLAG_TITLE	搜索该题目
+TOK_LIB_RESET	删除搜索结果
+	
+# Mimetypes	
+MIME_TEXT_PDF	PDF - Adobe Acrobat 格式
+MIME_APP_MSWORD	Winword 文件
+MIME_APP_EXCEL	Excel 文件
+MIME_APP_PPT	Powerpoint 演示文件
+MIME_APP_OOFF	开放原始码办公室(OpenOffice) 文件
+MIME_APP_OOFFWRITE	开放原始码办公室(OpenOffice) 文字
+MIME_APP_OOFFCALC	开放原始码办公室(OpenOffice) 计算
+MIME_APP_OOFFIMPRESS	开放原始码办公室(OpenOffice)演示
+MIME_APP_OOFFMATH	开放原始码办公室(OpenOffice) 格式
+MIME_AUDIO	声音
+MIME_VIDEO	视频
+MIME_TEXT_HTML	网页
+MIME_TEXT	文字文件
+MIME_APP_DGO	@{TOK_COMPANY} 学程单元
+MIME_APP_DGO_DEMO	@{TOK_COMPANY} 演示
+MIME_APP_DGO_PRACTISE	@{TOK_COMPANY} 练习
+MIME_APP_DGO_TEST	@{TOK_COMPANY} 测验
+MIME_APP_DGO_CONCURRENT	@{TOK_COMPANY} 学程单元实践模式
+MIME_UNKNOWN	@{TOK_LIB_UNKNOWN}
+	
+# Tooltips	
+TIP_PLAY	"继续 (F8); 使用 ""Alt""键: 重新开始"
+TIP_PAUSE	"停顿 (PAUSE); 使用 ""Umsch""键: 提高音频; 使用 ""Alt""键: 节省音频-带宽"
+TIP_STOP	"结束 (F12); 使用 ""Umsch""键: 显示版本"
+TIP_NEXT	下一章(ALT-下滑键)
+TIP_BACK	"前一章 (ALT-上滑键); 使用""Alt""键: 显示学程"
+TIP_MAXBUBBLE	重新设置文字气泡框(Textbubble) 
+TIP_MINBUBBLE	尽量减少文字气泡框(Textbubble) 
+TIP_CLOSEBUBBLE	去除文字气泡框(Textbubble)
+TIP_ENABLED	
+TIP_DISABLED	(目前不可能)
+TIP_TASK	出习题
+	
+# Bracepages	
+TOK_BP_CLOSEWINDOW	关闭窗口
+TOK_BP_GOBACK	回车
+TOK_BP_GOON	继续
+TOK_BP_JSCONSOLE	Javascript 报告
+TOK_BP_MODE	模式
+TOK_BP_PARAMETER	参数
+TOK_BP_RESTARTPROGRAM	重复程序
+TOK_BP_STARTANOTHER	启动其他程序
+TOK_BP_VALUE	价值
+	
+# Exercise colors	
+EXER_COLOR_ERROR	红色标示
+EXER_COLOR_CLICK	绿色标示
+EXER_COLOR_DBLCLICK	黄色标示
+EXER_COLOR_RCLICK	松石绿色标示
+EXER_COLOR_CHANGE	绿色下划线
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+	
+# Exercises	
+EXER_FAIL0	错误.
+EXER_FAIL1	错误.减一分.余分: @1_rest-points_.
+EXER_FAIL2	错误. @1_points-penalty_ 减分. 余分: @2_rest-points_.
+EXER_FAIL_ASK4HELP	@{NEWLINE}@{NEWLINE}是否需要帮助?
+EXER_FAILCHANGE_HELP	更改过的区域成为@{EXER_COLOR_ERROR}.@{NEWLINE}所有允许更改的输入区域成为@{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP	没有允许输入区域.@{NEWLINE}被更改过的区域成为@{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP	点击的部分成为@{EXER_COLOR_ERROR}.@{NEWLINE}所有允许使用的键成为 @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP	不允许点击任何地方.@{NEWLINE}被点击的部分成为 @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP	被双击的部分成为@{EXER_COLOR_ERROR}.@{NEWLINE}所有允许双击的键纽成为 @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP	不允许双击任何地方.\r\被点击的部分成为@{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP	鼠标右键点击过的区域将成为@{EXER_COLOR_ERROR}.@{NEWLINE}所有允许使用鼠标右键点击的键纽成为@{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP	不允许用鼠标右键点击任何地方.@{NEWLINE}被点击的部分成为@{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0	您点击了错误键纽.
+EXER_FAILKEY_HELP1	"您点击了 ""@1_key_"" 键."
+EXER_FAILKEY_HELP2	@{NEWLINE}允许使用的功能键为:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID	@{NEWLINE}@{NEWLINE}允许使用的还有:
+EXER_HINT_CHANGABLE_MARKED	@{NEWLINE}@{BULLET} 区域更改(@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED	@{NEWLINE}@{BULLET} 点击 (键纽为 @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED	@{NEWLINE}@{BULLET} 双击 (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS	@{NEWLINE}(提示: 由此所有的分数将消除)
+EXER_HINT_KEYS	"@{NEWLINE}@{BULLET} 按击功能键@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID	@{NEWLINE}@{NEWLINE}允许的有:
+EXER_HINT_RCLICK_MARKED	@{NEWLINE}@{BULLET} 点击右键 (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON	@{NEWLINE}(提示: 否则将自动继续)
+EXER_HINT_YOURINPUT	"您输入了""@1_input_"".@{NEWLINE}"
+	
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT	"请取消您的选择""@1""!"
+MSG_OPTIONFIELD_SELECT	"请选择或取消您以选择的功能""@1""!"
+MSG_SCORE	"取得的分数: ""@1""."
+MSG_SINGLE_SELECT	"请选择输入 ""@1""!"
+MSG_TEXTINPUT	"请在输入区域""@2""内输入""@1""!"
+MSG_TRANSACTIONCODE	"请输入正确的任务代码""@1""!"
+	
+capDemoStart	演示模式 
+msgDemoStart1	演示模式中,您得以观察应用中完成某个课题的过程.您仅需跟进演示的过程,每个步骤将自动进行.
+msgDemoStart2	您可以使用下边界的导航栏中止或停止演示.此外,您也可以前进到下一步或跳回到上一步.
+msgDemoStop	演示模式完成.
+	
+capConcurrentStart	实验模式
+msgConcurrentStart1	在实验模式中,您会得到关于如何完成应用中的某个课题的逐步指示. 
+msgConcurrentStart2	在每一步骤后演示将被中断,以使您得以在应用中体会演示过的步骤. 
+msgConcurrentStop	实验模式完成.
+	
+capTestStart	测验模式
+msgTestStart1	在测验模式中,您可以通过运用您的知识独自解决一个课题来检查您所掌握的知识.除了需要填写的实例数据之外,您不会得到有关工作步骤的指示.整个课题在课题视窗中显示,您可以根据需要使用标题栏中的相应键放大或缩小
+msgTestStart2	在测验的结尾处您将基于您成功进行的步骤而得到一个评分.评分仅用于您对自己的评价,此数据既不被储存亦不被转达.
+msgTestStart3	请您非常严谨地执行您的任务,因为系统会记录您的所有书写错误及每个错误点击,并相应降低您的评分.如果您决定就某一步骤要求帮助,那么您将丢掉本步骤的全部分数
+msgTestStart4	您的评分在测验的结尾处显示,请尝试达到@{res_mastery_percent}%.
+capTestOk	您已通过测验
+capTestFailed	您未通过测验
+msgTestFailed1	因为您取得的分数比要求的分数@{res_mastery_percent}%低,我们建议您重复本学程,之后再次通过模拟测验来考察您的有关知识
+msgTestFinished2	本测验仅用于您对自己的评估.测验结果既不记录亦不被转达.
+msgTestOk1	祝贺您已成功完成本课题.
+msgTestResult	结果
+msgTestScore	取得的分数
+	
+capPracticeStart	模拟练习
+msgPracticeStart1	在模拟练习中您可以尝试使用将您之所学,在应用的范围内完成所要求解决的课题.
+msgPracticeStart2	请按逐步指导之指示进行.
+msgPracticeStop	模拟联系结束
+
+# New messages added after 6.1.0 beta 2
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+msgTestScoreValue	@{res_collected_points} of @{res_possible_points}
+TOK_LIB_VAL_NOFILTER no filter
+EXER_OR	@{NEWLINE}or@{NEWLINE}
+EXER_AND	@{NEWLINE}and@{NEWLINE}
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

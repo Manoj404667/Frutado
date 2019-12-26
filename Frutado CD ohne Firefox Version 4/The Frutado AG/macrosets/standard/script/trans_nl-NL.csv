@@ -1,0 +1,233 @@
+﻿click.demo	Op [B_NAME] wordt geklikt.
+click.prac	Klik op [B_NAME].
+click_img.demo	Op [B_NAME_ICON] wordt geklikt.
+click_img.prac	Klik op [B_NAME_ICON].
+click_cancel_trans_img.demo	Via aanklikken van [B_ICON_NAME] wordt de transactie afgebroken.
+click_cancel_trans_img.prac	Klik op [B_ICON_NAME] om de transactie af te breken.
+click_back_img.demo	Via aanklikken van [B_ICON_NAME] keert u naar de vorige pagina terug.
+click_back_img.prac	Klik op [B_ICON_NAME] om naar de vorige pagina terug te keren.
+click_ok_img.demo	Klik nu op [B_ICON_NAME].
+click_ok_img.prac	Klik op [B_ICON_NAME].
+click_exit_trans_img.demo	Via aanklikken van [B_ICON_NAME] verlaat u die transactie.
+click_exit_trans_img.prac	Klik op [B_ICON_NAME] om de transactie te verlaten.
+click_save_img.demo	Via aanklikken van [B_ICON_NAME] slaat u de invoeren op.
+click_save_img.prac	Klik op [B_ICON_NAME] om de invoeren op te slaan.
+click_checkbox_off.demo	[B_NAME] wordt uitgeschakeld.
+click_checkbox_off.prac	Schakel de waarde [B_NAME] uit.
+click_next_page_img.demo	Via aanklikken van [B_NAME_ICON] opent u de volgende pagina.
+click_next_page_img.prac	Klik op [B_NAME_ICON].
+click_checkbox_on.demo	[B_NAME] wordt geselecteerd.
+click_checkbox_on.prac	Selecteer de waarde [B_NAME].
+click_select_value.demo	De waarde [B_NAME] wordt geselecteerd.
+click_select_value.prac	Selecteer de waarde [B_NAME].
+click_open_menu.demo	Het menu [B_NAME] wordt geopend.
+click_open_menu.prac	Open het menu [B_NAME].
+click_menu_select.demo	De invoer [B_NAME] wordt geselecteerd.
+click_menu_select.prac	Selecteer de invoer [B_NAME].
+click_select_column.demo	De kolom  [B_NAME] wordt geselecteerd.
+click_select_column.prac	Selecteer de kolom [B_NAME] via aanklikken van de kolomkop.
+click_open_value_help.demo	De waardenhulp wordt geopend.
+click_open_value_help.prac	Open de waardenhulp a.u.b.
+click_select_line.demo	De regel [B_NAME] wordt geselecteerd.
+click_select_line.prac	Selecteer de regel [B_NAME] met klik in de eerste kolom.
+click_scroll_top.demo	Via aanklikken van [ICON] wordt naar het begin gescrold.
+click_scroll_top.prac	Scroll naar het begin via aanklikken van [ICON].
+click_scroll_bottom.demo	Via aanklikken van [ICON] wordt naar het einde gescrold.
+click_scroll_bottom.prac	Scroll naar het einde via aanklikken van [ICON].
+click_scroll_pageup.demo	Via aanklikken van [ICON] wordt een pagina omhoog gescrold.
+click_scroll_pageup.prac	Scroll een pagina omhoog via aanklikken van [ICON].
+click_scroll_pagedown.demo	Via aanklikken van [ICON] wordt een pagina omlaag gescrold.
+click_scroll_pagedown.prac	Scroll een pagina omlaag via aanklikken van [ICON].
+click_scroll_lineup.demo	Via aanklikken van [ICON] wordt een regel omhoog gescrold.
+click_scroll_lineup.prac	Scroll een regel omhoog via aanklikken van [ICON].
+click_scroll_linedown.demo	Via aanklikken van [ICON] wordt een regel omlaag gescrold.
+click_scroll_linedown.prac	Scroll een regel omlaag via aanklikken van [ICON].
+click_close_window_img.demo	Het venster wordt via aanklikken van [ICON] gesloten.
+click_close_window_img.prac	Sluiten het venster via aanklikken van [ICON].
+click_select_all_lines_img.demo	Via aanklikken van [ICON] werden alle Regels gemarkeerd.
+click_select_all_lines_img.prac	Selecteer alle Regels via aanklikken van [ICON].
+click_open_card_menu.demo	Via aanklikken van [ICON] wordt de kaartselectie geopend.
+click_open_card_menu.prac	Open de kaartselectie via aanklikken van [ICON] .
+click_select_card.demo	De kaart [B_NAME] wordt geselecteerd.
+click_select_card.prac	Selecteer de kaart [B_NAME].
+click_next_cards_img.demo	Via aanklikken van[ICON] werden de volgende kaarten getoond.
+click_next_cards_img.prac	Toon de volgende kaarten via aanklikken van [ICON].
+click_prev_cards_img.demo	Via aanklikken van[ICON] werden de vorige kaarten getoond.
+click_prev_cards_img.prac	Toon de vorige kaarten via aanklikken van [ICON].
+click_open_nav_menu.demo	Via aanklikken van[ICON] wordt het navigatiemenu geopend.
+click_open_nav_menu.prac	Open het navigatiemenu via aanklikken op [ICON].
+click_close_folder_img.demo	Via aanklikken van[ICON] wordt de map [B_NAME] gesloten.
+click_close_folder_img.prac	Sluiten de map [B_NAME] via aanklikken van [ICON].
+click_open_folder_img.demo	Via aanklikken van[ICON] wordt de map [B_NAME] geopend.
+click_open_folder_img.prac	Open de map [B_NAME] via aanklikken van [ICON].
+click_select_element_img.demo	Via aanklikken van[ICON] wordt het element [B_NAME] geselecteerd.
+click_select_element_img.prac	Selecteer het element [B_NAME] via aanklikken van [ICON].
+click_scroll_down.demo	Met de scrollbar wordt omlaag gescrold.
+click_scroll_down.prac	Scroll met behulp van de scrollbar omlaag
+dblclick_select_entry.demo	Met dubbelklik op [B_NAME] wordt de invoer geselecteerd.
+dblclick_select_entry.prac	Selecteer de invoer [B_NAME] met dubbelklik.
+dblclick_select_date.demo	De [B_NAME] wordt geselecteerd.
+dblclick_select_date.prac	Selecteer de [B_NAME].
+dblclick_start_transaction.demo	Met een dubbelklik wordt de transactie [B_NAME] gestart.
+dblclick_start_transaction.prac	Start de transactie [B_NAME] met dubbelklik <br>of<br>voer de transactiecode [B_TCODE] in en bevestig met de  Enter toets.
+click_close_group.demo	De groep [B_NAME] wordt gesloten.
+click_close_group.prac	Sluiten de groep [B_NAME].
+click_open_group.demo	De groep [B_NAME] wordt geopend.
+click_open_group.prac	Open de groep [B_NAME].
+select.demo	Als [B_NAME] wordt [B_SELECTED] geselecteerd.
+select.prac	Selecteer als [B_NAME] a.u.b. [B_SELECTED].
+input_text.demo	Het veld [B_NAME] wordt ingevuld.
+input_text.prac	Voer [B_INPUT] in het veld [B_NAME] in.
+input_text_value.demo	In het veld [B_NAME] wordt nu [B_INPUT] vastgelegd.
+input_text_value.prac	Voer [B_INPUT] in het veld [B_NAME] in.
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Bevestig de invoer met de <b>Tab-</b> of <b>Enter-toets</b> of klik op <b>de betreffende button</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Bevestig de invoer met de <b>Tab-</b> of <b>Enter-toets</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Bevestig de invoer met de <b>Enter-toets</b> of klik op <b>de betreffende button</b>.
+input_tab.demo
+input_tab.prac	<br>Bevestig de invoer met de <b>Tab-toets.
+input_enter.demo
+input_enter.prac	<br>Bevestig de invoer met de <b>Enter-toets</b>.
+input_button.demo
+input_button.prac	<br>Bevestig de invoer met een <b>klik op de betreffende button</b>.
+click_select.demo	[B_NAME] wordt nu geselecteerd.
+click_select.prac	Selecteer [B_NAME] a.u.b.
+click_show_value_help_button.demo	Via aanklikken van het tekstveld [B_NAME] opent u de waardenhulp.
+click_show_value_help_button.prac	Open de waardenhulp via aanklikken van het tekstveld [B_NAME].
+click_scroll_horizontal.demo	Er wordt naar rechts gescrold…
+click_scroll_horizontal.prac	Naar rechts scrollen a.u.b..
+click_scroll_vertical.demo	Er wordt omlaag gescrold...
+click_scroll_vertical.prac	Omlaag scrollen a.u.b..
+click_img_expand.demo	"Om het navigatiegebied te vergroten, wordt op [ICON] geklikt."
+click_img_expand.prac	"Vergroot het navigatiegebied, door op [ICON] te klikken."
+click_img_collapse.demo	"Om het navigatiegebied te verkleinen, wordt op [ICON] geklikt."
+click_img_collapse.prac	"Verklein het navigatiegebied, door op [ICON] te klikken."
+click_navrow.demo	In de navigatieregel wordt [B_NAME] geselecteerd.
+click_navrow.prac	Open [B_NAME] uit de navigatieregel a.u.b.
+click_navrow2.demo	In de tweede navigatieregel wordt [B_NAME] geselecteerd.
+click_navrow2.prac	Open [B_NAME] uit de tweede navigatieregel.
+click_open_context_menu.demo	Het contextmenu van[B_NAME] wordt geopend.
+click_open_context_menu.prac	Open het contextmenu van[B_NAME].
+click_radio_select.demo	[B_NAME] wordt geselecteerd.
+click_radio_select.prac	Selecteer[B_NAME].
+click_select_img.demo	[B_ICON_NAME] wordt geselecteerd.
+click_select_img.prac	Selecteer[B_ICON_NAME].
+click_open_form_view.demo	Met [B_ICON_NAME] wordt naar formulieraanzicht omgeschakeld.
+click_open_form_view.prac	Schakel met [B_ICON_NAME] naar het formulieraanzicht.
+history_select.demo	[B_NAME] wordt uit de Historie geselecteerd.
+history_select.prac	Selecteer[B_NAME] uit de historie.
+click_page_up_img.demo	Via aanklikken van [B_ICON] wordt een pagina omhoog gescrold.
+click_page_up_img.prac	Scroll een pagina omhoog via aanklikken van [B_ICON].
+click_page_down_img.demo	Via aanklikken van [B_ICON] wordt een pagina omlaag gescrold.
+click_page_down_img.prac	Scroll een pagina omlaag via aanklikken van [B_ICON].
+click_page_top_img.demo	Via aanklikken van [B_ICON] wordt naar het begin gescrold.
+click_page_top_img.prac	Scroll naar het begin via aanklikken van [B_ICON].
+click_page_bottom_img.demo	Via aanklikken van [B_ICON] wordt naar het einde gescrold.
+click_page_bottom_img.prac	Scroll naar het einde via aanklikken van [B_ICON].
+click_sort_by_column.demo	Er wordt op kolom [B_NAME] gesorteerd.
+click_sort_by_column.prac	Sorteer op kolom [B_NAME].
+click_select_date.demo	De [B_NAME] wordt geselecteerd.
+click_select_date.prac	Selecteer de [B_NAME].
+click_close_card_img.demo	Via aanklikken van [ICON] wordt de kaart gesloten.
+click_close_card_img.prac	Klik op [ICON] om de kaart te sluiten.
+click_select_function_img.demo	Via aanklikken van [ICON] selecteert u de functie [B_NAME].
+click_select_function_img.prac	Klik op [ICON] om de functie [B_NAME] te selecteren.
+click_hide_treeview.demo	Via aanklikken van[ICON] wordt de boomstructuur uitgeregeld.
+click_hide_treeview.prac	Regel de boomstructuur via klik op [ICON] uit.
+click_show_treeview.demo	Via aanklikken van[ICON] wordt de boomstructuur ingelast.
+click_show_treeview.prac	Las de boomstructuur via klik op [ICON] in.
+click_mark_transaction.demo	Via aanklikken van [B_NAME] wordt die transactie gemarkeerd.
+click_mark_transaction.prac	Markeer die transactie [B_NAME] met een klik.
+dblclick_select_element.demo	Met een dubbelklik wordt het element [B_NAME] geselecteerd.
+dblclick_select_element.prac	Selecteer het element [B_NAME] met een dubbelklik.
+please_note.demo	Let op het volgende: [B_NAME].
+please_note.prac	Let op het volgende: [B_NAME].
+click_open_value_help_img.demo	Via aanklikken van de <b>Invoerhulp</b> [ICON] roept u een selectielijst met geldige waarden op.
+click_open_value_help_img.prac	Klik op de <b>Invoerhulp</b> [ICON] om een selectielijst met geldige waarden op te roepen.
+click_open_selection.demo	Via aanklikken van [ICON] roep u een selectielijst op.
+click_open_selection.prac	Klik op [ICON] om een selectielijst op te roepen.
+click_mark_entry.demo	Via aanklikken van de invoer [B_NAME] markeert u deze.
+click_mark_entry.prac	Markeer de invoer [B_NAME] via aanklikken.
+click_mark_entry_img.demo	Via aanklikken van de invoer [ICON] selecteert u deze.
+click_mark_entry_img.prac	Selecteer de invoer [ICON] via aanklikken.
+click_menu_select_img.demo	Via aanklikken van het menupunt [ICON] voert u dit uit.
+click_menu_select_img.prac	Klik op het menupunt [ICON] om dit uit te voeren.
+click_open_menu_img.demo	Via aanklikken van het menu [ICON] opent u dit.
+click_open_menu_img.prac	Klik op het menu [ICON] om dit te openen.
+click_select_card_img.demo	Via aanklikken van de registerkaart [ICON] selecteert u deze.
+click_select_card_img.prac	Klik op de registerkaart [ICON] om deze te selecteren.
+dblclick_select_line.demo	Met dubbelklik op het schakelveld [NAME] markeert u de regel.
+dblclick_select_line.prac	Dubbelklik op het schakelveld [NAME] om de Regel te markeren.
+click_activate_edit.demo	Via aanklikken van het invoerveld [B_NAME] activeert u dit.
+click_activate_edit.prac	Klik in het invoerveld [B_NAME] om dit te activeren.
+dblclick_activate_edit.demo	Met dubbelklik in het invoerveld [B_NAME] activeert u dit.
+dblclick_activate_edit.prac	Dubbelklik in het invoerveld [B_NAME] om dit te activeren.
+dblclick_open_folder_img.demo	Met dubbelklik op het symbool [ICON] open de map [B_NAME].
+dblclick_open_folder_img.prac	Open de map [B_NAME] via dubbelklik op het symbool [ICON].
+click_open_folder.demo	Via aanklikken van het <b>'Map openen'</b> symbool open de map [B_NAME].
+click_open_folder.prac	Open de map [B_NAME] via aanklikken van het <b>'Map openen'</b> symbool.
+dblclick_open_folder.demo	Met dubbelklik op het <b>'Map openen'</b> symbool opent u de map [B_NAME].
+dblclick_open_folder.prac	Open de map [B_NAME] via dubbelklik op het <b>'Map openen'</b> symbool.
+click_close_folder.demo	Via aanklikken van het <b>'Map sluiten'</b> symbool sluiten u de map [B_NAME].
+click_close_folder.prac	Sluit de map [B_NAME] via aanklikken van het <b>'Map sluiten'</b> symbool.
+drag_scroll_hor.demo	Via aanklikken en slepen van de <b>scroll-balk</b> wordt het gewenste -gebied zichtbaar.
+drag_scroll_hor.prac	Klik en sleep de <b>horizontale scroll-balk</b> om te scrollen.
+drag_scroll_vert.demo	Via klikken en slepen van de <b>scroll-balk</b> wordt het gewenste -gebied zichtbaar.
+drag_scroll_vert.prac	Klik en sleep de <b>verticale scroll-balk</b> om te scrollen.
+click_scroll.demo	Via aanklikken van het <b>scroll-schakelveld</b> [NAME] wordt het gewenste gebied zichtbaar.
+click_scroll.prac	Scroll via aanklikken van het <b>scroll-schakelveld</b> [NAME].
+click_scroll_page_left.demo	Via klikken in het <b>scroll-gebied</b> wordt het gewenste gebied zichtbaar.
+click_scroll_page_left.prac	Klik in het <b>-gebied links van de scroll-balk</b> om te scrollen.
+click_scroll_page_right.demo	Via klikken in het <b>scroll-gebied</b> wordt het gewenste gebied zichtbaar.
+click_scroll_page_right.prac	Klik in het <b>-gebied rechts van de scroll-balk</b> om te scrollen.
+click_scroll_page_up.demo	Via klikken in het <b>scroll-gebied</b> wordt het gewenste gebied zichtbaar.
+click_scroll_page_up.prac	Klik in het <b>-gebied boven de scroll-balk</b> om te scrollen.
+click_scroll_page_down.demo	Via klikken in het <b>scroll-gebied</b> wordt het gewenste gebied zichtbaar.
+click_scroll_page_down.prac	Klik in het <b>-gebied onder de scroll-balk</b> om te scrollen.
+rclick_context.demo	Via klikken met de rechter muistoets op [B_NAME] wordt een contextmenu geopend.
+rclick_context.prac	Klik op [B_NAME] met de rechter muistoets.
+dblclick_img.demo	Op [ICON] wordt dubbelgeklikt.
+dblclick_img.prac	Dubbelklikken op [ICON].
+keypress.demo	Voer [B_KEY] in.
+keypress.prac	[B_KEY] invoeren a.u.b.
+item.close_folder	Map sluiten
+item.open_folder	Map openen
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	Verticale scroll-balk
+item.hscroll	Horizontale scroll-balk
+item.close_window	Venster sluiten
+item.value_help	Waardenselectie
+item.scroll	Scroll-balk
+item.back_btn	Terug
+item.save_btn	Opslaan
+item.scroll_area	Scroll-gebied
+input_text_value_tpcd.demo	[B_INPUT] nu intypen in <b>Transaktie-veld</b>.
+input_text_value_tpcd.prac	Typ [B_INPUT] in het <b> Transaktie-veld </b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+enter_img.prac	Beweeg muis op [B_NAME_ICON].
+enter_img.demo	Beweeg muis op [B_NAME_ICON].
+docTableHeaderFailed	Gezakt
+docTableHeaderPassed	Geslaagd
+docTableHeaderExpectedResults	Verwachte resultaat
+docTableHeaderInput	Invoeren
+docTableHeaderAction	Aktie
+docTableHeaderStep	Stap
+docSAPTransaction	Transaktie
+docSAPMenuPath	Menupad
+dblclick_start_transaction2.prac	Start U de transaktie [B_NAME] met een dubbelklik.
+dblclick_start_transaction2.demo	Met een muisklik wordt de Transaktie [B_NAME] gestart.
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

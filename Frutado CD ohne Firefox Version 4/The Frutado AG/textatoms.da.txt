@@ -1,0 +1,249 @@
+﻿# Base tokens;
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;datango
+TOK_LIB;@{TOK_COMPANY} Kurs
+TOK_TOUR;@{TOK_COMPANY} Indlæringsenhed
+TOK_TRAINER;@{TOK_COMPANY} trainer
+
+# Key names;
+ALTKEY;alt
+CTRLKEY;strg
+LEFTALTKEY;alt (venstre)
+LEFTCTRLKEY;strg (venstre)
+LEFTSHIFTKEY;shift (venstre)
+ON;on
+OFF;off
+RIGHTALTKEY;alt (højre)
+RIGHTCTRLKEY;strg (højre)
+RIGHTSHIFTKEY;shift (højre)
+SHIFTKEY;shift
+
+# trainer states;
+TOK_BUFFERING;Audio loader... 
+TOK_CONNECTING;Forbinder... 
+TOK_IDLE;
+TOK_LMS;Skriv resultatet ...
+TOK_OPENING;Forbinder... 
+TOK_OPEN;
+TOK_PAUSED;Pause
+TOK_PLAYING;Kører
+TOK_READY;Klar
+TOK_USERINPUT;Indtastning
+TOK_WAITING;Siden loader ... 
+
+# Display errors;
+TOK_IEPOPUP_FRAMESET_EXC;"<span style=""color: red; font-weight: bolder;"">Framesets kan ikke vises her.</span>"
+TOK_IEPOPUP_IFRAME_EXC;"<span style=""color: red; font-weight: bolder;"">Dokumenter med IFRAMEs kan ikke vises her.</span>"
+
+# Popupblocker errors;
+TOK_POPUPBLOCKER_EXC;En popup-blocker forhindrer afspilning af indlæringsenheden.
+TOK_POPUPBLOCKER_CONFIRM;En popup-blocker har forhindret åbning af et nyt browservindue.@{NEWLINE}@{NEWLINE}OK: Du kan fortsætte, fordi du har deaktiveret popup-blockeren@{NEWLINE}    til webserveren.@{NEWLINE}Afbryd: Indlæringsenheden afsluttes.
+
+# Security setting errors;
+TOK_SECURITY_WINDOW_POSITION_EXC;"En sikkerhedsindstilling i Internet Explorer\n\forhindrer visning af @{TOK_TOUR}.\nDu skal tillade\n""Script-initierede vinduer uden størrelses- og positionsbegrænsninger""+B105!"
+
+# Standard errors;
+TOK_COULD_NOT_READ_EXC;"@1 ""@2"" kunne ikke læses."
+TOK_COULD_NOT_READ2_EXC;"@1 ""@2"" kunne ikke læses: @3"
+
+# Form texts;
+TOK_CLOSE;Luk
+TOK_DIR;Mappe
+TOK_ERROR;Fejl
+TOK_EXIT;Afslut
+TOK_OPEN;Åbn
+TOK_SEARCH;Søg
+TOK_START;Start
+TOK_START_TOUR;Start @{TOK_TOUR}
+TOK_STOP;Stop
+
+# Library;
+TOK_LIB_BTN_LESS;mindre...
+TOK_LIB_BTN_MORE;mere...
+TOK_LIB_EMPTY;Tomt element
+TOK_LIB_FLAG_DESC;Gennemsøg beskrivelsen
+TOK_LIB_FLAG_KEEP_OPEN;Lad kursusstrukturen være åbnet
+TOK_LIB_FLAG_NEWWIN;I et nyt vindue
+TOK_LIB_FLAG_TITLE;Gennemsøg titlerne
+TOK_LIB_RESET;Slet søgeresultaterne
+
+# Mimetypes;
+MIME_TEXT_PDF;PDF - Adobe Acrobat-format
+MIME_APP_MSWORD;Winword-dokument
+MIME_APP_EXCEL;Excel-arbejdsblad
+MIME_APP_PPT;Powerpoint-folier
+MIME_APP_OOFF;OpenOffice-dokument
+MIME_APP_OOFFWRITE;OpenOffice-tekst
+MIME_APP_OOFFCALC;OpenOffice-regneark
+MIME_APP_OOFFIMPRESS;OpenOffice-præsentation
+MIME_APP_OOFFMATH;OpenOffice-formler
+MIME_AUDIO;Lyd
+MIME_VIDEO;Video
+MIME_TEXT_HTML;Webside
+MIME_TEXT;Tekstdokument
+MIME_APP_DGO;@{TOK_COMPANY} indlæringsenhed
+MIME_APP_DGO_DEMO;@{TOK_COMPANY} demo
+MIME_APP_DGO_PRACTISE;@{TOK_COMPANY} øvelse
+MIME_APP_DGO_TEST;@{TOK_COMPANY} test
+MIME_APP_DGO_CONCURRENT;@{TOK_COMPANY} Indlæringsenhed praksismodus
+MIME_UNKNOWN;@{TOK_LIB_UNKNOWN}
+
+# Tooltips;
+TIP_PLAY;"Fortsæt (F8); med ""Alt"": Start igen"
+TIP_PAUSE;"Stands (PAUSE); med ""Shift"": Forhøj audiokvaliteten; med ""Alt"": Spar audio-båndbredden"
+TIP_STOP;"Afslut (F12); med ""Shift"": Vis version"
+TIP_NEXT;Næste kapitel (ALT-ned)
+TIP_BACK;"Forrige kapitel (ALT-op); med ""Alt"": Vis kurs"
+TIP_MAXBUBBLE;Genopret tekstboble
+TIP_MINBUBBLE;Minimer tekstboble
+TIP_CLOSEBUBBLE;Fjern tekstboble
+TIP_ENABLED;
+TIP_DISABLED;(ikke muligt nu)
+TIP_TASK;Opgavestilling
+
+# Bracepages;
+TOK_BP_CLOSEWINDOW;Luk vinduet
+TOK_BP_GOBACK;Tilbage
+TOK_BP_GOON;Videre
+TOK_BP_JSCONSOLE;Javascript-meddelelser
+TOK_BP_MODE;Modus
+TOK_BP_PARAMETER;Parameter
+TOK_BP_RESTARTPROGRAM;Gentag program
+TOK_BP_STARTANOTHER;Start andet program
+TOK_BP_VALUE;Værdi
+
+# Exercise colors;
+EXER_COLOR_ERROR;markeret med rødt
+EXER_COLOR_CLICK;markeret med grønt
+EXER_COLOR_DBLCLICK;markeret med gult
+EXER_COLOR_RCLICK;markeret med turkis
+EXER_COLOR_CHANGE;understreget med grønt
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises;
+EXER_AND;@{NEWLINE}og@{NEWLINE}
+EXER_FAIL0;Desværre forkert.
+EXER_FAIL1;Desværre forkert. Fratræk af 1 point. Der er stadig: @1_rest-points_.
+EXER_FAIL2;Desværre forkert. @1_points-penalty_ fratræk af point. Der er stadig: @2_rest-points_.
+EXER_FAIL_ASK4HELP;@{NEWLINE}@{NEWLINE}Behøver du hjælp?
+EXER_FAILCHANGE_HELP;Det ændrede felt blev @{EXER_COLOR_ERROR}.@{NEWLINE}Alle indtastningsfelter, som må ændres, blev @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP;Der er ingen tilladte indtastningsfelter.@{NEWLINE}Det ændrede felt blev @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP;Det klikkede område blev @{EXER_COLOR_ERROR}.@{NEWLINE}Alle tilladte knapper blev @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;Klik er ikke tilladt nogen steder.@{NEWLINE}Det klikkede område blev @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP;Området, der blev klikket på med dobbeltklik, blev @{EXER_COLOR_ERROR}.@{NEWLINE}Alle knapper, som er tilladt til dobbeltklik, blev@{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;Dobbeltklik er ikke tilladt nogen steder.@{NEWLINE}Det klikkede område blev @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP;Området, der blev klikket på med højreklik, blev @{EXER_COLOR_ERROR}.@{NEWLINE}Alle knapper, som er tilladt til højreklik, blev@{EXER_COLOR_RCCLICK}.
+EXER_FAILRCLICK0_HELP;Højreklik er ikke tilladt nogen steder.@{NEWLINE}Det klikkede område blev @{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0;Du har trykket på en forkert taste.
+EXER_FAILKEY_HELP1;"Du har trykket på ""@1_key_""."
+EXER_FAILKEY_HELP2;@{NEWLINE}Tilladte funktionstaster er:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID;@{NEWLINE}@{NEWLINE}Ligeledes tilladt er:
+EXER_HINT_CHANGABLE_MARKED;@{NEWLINE}@{BULLET} Feltændring (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;@{NEWLINE}@{BULLET} Klik (knapperne er @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED;@{NEWLINE}@{BULLET} dobbeltklik (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;@{NEWLINE}(Bemærk: derved forfalder alle point)
+EXER_HINT_KEYS;"@{NEWLINE}@{BULLET} Tryk på funktionstasterne@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;@{NEWLINE}@{NEWLINE}Tilladte er:
+EXER_HINT_RCLICK_MARKED;@{NEWLINE}@{BULLET} højreklik (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;@{NEWLINE}(Bemærk: Ellers fortsættes der automatisk)
+EXER_HINT_YOURINPUT;"Du har indtastet ""@1_input_"".@{NEWLINE}"
+EXER_OR;@{NEWLINE}eller@{NEWLINE}
+
+# StandardMacros.xml;
+MSG_OPTIONFIELD_DESELECT;"Fravælg optionen ""@1""!"
+MSG_OPTIONFIELD_SELECT;"Vælg eller fravælg optionen ""@1""!"
+MSG_SCORE;"Opnået pointtal: ""@1""."
+MSG_SINGLE_SELECT;"Vælg posten ""@1""!"
+MSG_TEXTINPUT;"Indtast ""@1"" i indtastningsfeltet ""@2""!"
+MSG_TRANSACTIONCODE;"Indtast den korrekte transaktionskode ""@1"" !"
+
+capDemoStart;Demo-modus 
+msgDemoStart1;I Demo-modus kan du se, hvordan en opgave udføres i praksis. Følg forevisningen, hvor alle trin udføres automatisk.
+msgDemoStart2;Med navigationsbjælken på den nederste kant kan du afbryde eller standse forevisningen. Du kan endvidere hoppe frem til det næste trin eller tilbage til det foregående trin.
+msgDemoStop;Demo-modus er afsluttet.
+
+capConcurrentStart;Praksis-modus
+msgConcurrentStart1;I Praksis-modus får du en trin-for-trin-vejledning til udførelse af opgaverne i programmet. 
+msgConcurrentStart2;Efter hvert trin afbrydes forevisningen, så du kan prøve at udføre det viste trin i programmet. 
+msgConcurrentStop;Praksis-modus er afsluttet.
+
+capTestStart;Test-modus
+msgTestStart1;I Test-modus kan du teste din viden ved selv at løse en opgave med programmet. Ud over dataene, som skal indtastes til eksemplet, får du ingen anvisninger til, hvordan du skal udføre opgaven. Hele opgaven beskrives i opgavevinduet, som du efter ønske kan forstørre eller formindske ved hjælp af kontaktknapperne i titelbjælken.
+msgTestStart2;Når testen er slut, får du en vurdering på basis af de udførte trin. Denne vurdering er kun til dit eget brug, og dataene gemmes ikke og sendes ikke videre.
+msgTestStart3;Udfør disse aktioner meget omhyggeligt, da systemet registrerer alle slåfejl og forkerte klik, hvorved vurderingen bliver ringere. Hvis du beslutter dig for at bede om hjælp til et trin, mister du alle point til dette trin.
+msgTestStart4;Din vurdering vises, når testen er slut - forsøg at nå målet på @{res_mastery_percent}%.
+capTestOk;Du har bestået testen
+capTestFailed;Du har ikke bestået testen
+msgTestFailed1;Da du har opnået mindre end @{res_mastery_percent}% af de mulige point, anbefaler vi, at du gennemgår dette kursus endnu en gang og derefter kontrollerer din viden i Test-modus igen
+msgTestFinished2;Denne test er kun til dit eget brug. Resultaterne registreres ikke og sendes heller ikke videre.
+msgTestOk1;Til lykke, du har klaret denne opgave.
+msgTestResult;Resultat
+msgTestScore;Opnået pointtal
+
+capPracticeStart;Øve-modus
+msgPracticeStart1;I øve-modus kan du afprøve det, du har lært, ved selv at løse opgaven i programmet.
+msgPracticeStart2;Følg trin-for-trin-vejledningen.
+msgPracticeStop;Øve-modus er afsluttet
+
+# eof# New messages added after 6.1.0 beta 2
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+TOK_LIB_VAL_NOFILTER;no filter
+msgTestScoreValue;@{res_collected_points} of @{res_possible_points}
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

@@ -1,0 +1,221 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+	text-align:center;
+}
+
+body.Start {
+	text-align:center;
+	background:#FFFFF;
+}
+
+body.StartLibrary {
+	text-align:center;
+	background:#FFFFF;
+}
+
+body.Stop {
+	text-align:center;
+	background:#FFFFF;
+}
+
+body.Error {
+	text-align:center;
+	background:#FFFFF;
+}
+body.Error table {
+	border:1px solid #CECECE;
+	border-bottom:30px solid #CECECE;
+	border-top:none;
+	margin:290px 0 0;
+	width:750px;
+	background:#F0F0F0;
+}
+html>body.Error table {
+	margin:290px auto 0;
+	width:750px;
+	padding:0;
+    background-color: #F0F0F0;
+}
+body.Error table td img {
+	position:absolute;
+	top:20px;
+	left:10px;
+}
+
+body.Start table {
+	border:1px solid #CECECE;
+	border-bottom:30px solid #CECECE;
+	border-top:none;
+	margin:290px 0 0;
+	width:750px;
+	background:#F0F0F0;
+}
+html>body.Start table {
+	margin:290px auto 0;
+	width:750px;
+	padding:0;
+    background-color: #F0F0F0;
+}
+body.Start table td img {
+	position:absolute;
+	top:20px;
+	left:10px;
+}
+
+body.Stop table {
+	border:1px solid #CECECE;
+	border-bottom:30px solid #CECECE;
+	border-top:none;
+	margin:290px 0 0;
+	width:750px;
+	background:#F0F0F0;
+}
+html>body.Stop table {
+	margin:290px auto 0;
+	width:750px;
+	padding:0;
+    background-color: #F0F0F0;
+}
+body.Stop table td img {
+	position:absolute;
+	top:20px;
+	left:10px;
+}
+
+div.all {
+    text-align: center;
+}
+table.all {
+    width: 100%;
+    text-align: center;
+}
+tr.all {
+    width: 100%;
+    text-align: center;
+}
+td {
+    color: black; 
+	height:auto;
+	z-index:1;
+}
+td .title {
+	margin:0 !important;
+	border:none !important;
+	background:transparent url(skin/error_head.gif) repeat-x left top !important;
+	position:relative;
+	left:-131px;
+}
+html>body td .title {
+}
+.title .title {
+    font-size:15px;
+    font-weight:700;
+    font-family: verdana, arial, sans-serif;
+    color:black;
+    background:none;
+    padding:9px;
+	border:none;
+	left:0;
+}
+.Error .title2 .title2 {
+	background:#F0F0F0 url(skin/error.gif) no-repeat 10px 50%;
+	padding-left:50px;
+	text-transform:uppercase;
+}
+.Start .title2 .title2 {
+	background:#F0F0F0 url(jswidget/icons/ajax-loader.gif) no-repeat 10px 50%;
+	padding-left:50px;
+	text-transform:uppercase;
+}
+.Stop .title2 .title2 {
+	background:#F0F0F0 url(skin/stop.gif) no-repeat 10px 50%;
+	padding-left:50px;
+	text-transform:uppercase;
+}
+
+.Error .title2 {
+	color:red;
+	font-weight:bold;
+	padding:50px 10px 40px;
+	z-index:2 !important;
+
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    background-color: #F0F0F0;
+
+}
+
+.Stop .title2 {
+	color:#0b5a8f;
+	font-weight:bold;
+	padding:50px 10px 40px;
+	z-index:2 !important;
+
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    background-color: #F0F0F0;
+
+}
+.Start .title2 {
+	color:#0b5a8f;
+	font-weight:bold;
+	padding:50px 10px 40px;
+	z-index:2 !important;
+
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    background-color: #F0F0F0;
+}
+
+table.parameters-table { 
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px solid #ffffff;
+    background-color: #000000;
+    text-align: left;
+}
+td {
+    color: black;
+    background: #F0F0F0 url(skin/error_head.gif) repeat-x left top;
+}
+td.parameter-title { 
+	color:black;
+	font-weight:bold;
+	padding:10px 50px 10px 10px;
+	font-size:12px;
+	background:#BCCCDD;
+	border-top:1px solid #CDCDCD;
+}
+td.parameter-name { 
+    font-size:12px;
+	font-weight:bold;
+	padding:10px;
+	background:#DDE6EE;
+	vertical-align:top;
+}
+
+td.parameter-value { 
+    font-size:12px;
+	padding:10px;
+	background:#DDE6EE;
+}
+a {
+    color: #808080;
+	border:solid 1px #cecece;
+	padding:4px 18px;
+	font-size:11px;
+	background:transparent url(skin/arrow_info.gif) no-repeat scroll 3px 50%;
+	position:relative;
+	top:-44px;
+}
+a:hover {
+    color: #808080;
+	background:#DEDEDE url(skin/arrow_info.gif) no-repeat scroll 3px 50%;
+	border-left:solid 1px #808080;
+	border-right:solid 1px #808080;
+}

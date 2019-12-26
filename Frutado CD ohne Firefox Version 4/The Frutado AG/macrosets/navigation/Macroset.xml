@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Macroset>
+    <Info type="navigation" description="Navigation Macroset" displayname="Navigation Macroset"/>
+    <Version version="6.2.2.049" mintrainer="2.3"/>
+    <Headers>Headers.xml</Headers>
+    <Defaults>Defaults.xml</Defaults>
+    <JSMacroSetObjectName>MacroSet</JSMacroSetObjectName>
+    <Icons>WinNavMacros.bmp</Icons>
+    <JSIncludes>
+    </JSIncludes>
+    <ScriptBase>script</ScriptBase>
+</Macroset>

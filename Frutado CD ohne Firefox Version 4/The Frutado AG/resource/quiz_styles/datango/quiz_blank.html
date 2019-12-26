@@ -1,0 +1,171 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+       "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<!-- datango datango/quiz_blank.html -->
+<!-- last update: 2008-02-27 -->
+<head>
+    <!-- head area: do not change something here! -->
+    <meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="quiz_user.css">
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script src="..\standard\quiz_dnd.js" type="text/javascript"></script>
+    <script src="..\standard\quiz_sort.js" type="text/javascript"></script>
+    <script src="..\standard\quiz_tools.js" type="text/javascript"></script>
+    <script src="..\standard\quiz_puzzle.js" type="text/javascript"></script>
+    <script src="..\standard\quiz_impl.js" type="text/javascript"></script>
+</head>
+<body onload="on_load()">
+    <!-- config section -->
+    <form name="config" onsubmit="javascript:return false;" action="" style="display:none;">
+        <input type="hidden" name="fade_on_feedback_popup" value="0">
+    </form>
+
+    <!-- main quiz section -->
+    <form name="quiz" onsubmit="javascript:return false;" action="" class="quiz">
+    <table id="centerTable" width="100%" height="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td style="vertical-align:middle;">
+            <table id="textarea" class="textarea" cellspacing="0" cellpadding="9" align="center">
+            <tr>
+                <td colspan="2" class="td_topTextarea">
+                <table class="topTextarea" cellspacing="0" cellpadding="0" align="center" >
+            <tr>
+                <td class="topLeft"></td>
+                <td class="topMiddle"></td>
+                <td class="topRight"></td>
+            </tr>
+            </table>
+            </td>
+            <tr>
+                <th colspan="2" id="title" class="title"></th>
+            </tr>
+            <tr>
+                <td class="textarea_middle" colspan="2">
+                    <table cellspacing="0" cellpadding="9" align="center">
+                        <tr>
+                            <td id="questions" class="questions"></td>
+                            <td id="questions_image" rowspan="4">
+                                <table width="200px" align="right"><tr><td id="quiz_image" class="quiz_image"></td></tr></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="answers" class="answers"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" id="dnd" class="dnd"></td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                            <td colspan="2" id="feedback" class="feedback"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="status">
+                    <table style="width:100%">
+                    <colgroup>
+                        <col width="33%">
+                        <col width="33%">
+                        <col width="33%">
+                    </colgroup>
+                    <tr>
+                        <td id="score" class="score"></td>
+                        <td id="points" class="points"></td>
+                        <td id="timeout" class="timeout">
+                            <table cellpadding="0" cellspacing="0" align="right">
+                                <tr>
+                                    <td id="ltc_hourglass" class="hourglass">&nbsp;</td>
+                                    <td id="local_time_counter" class="local_time_counter"></td>
+                                    <td id="gtc_hourglass" class="hourglass">&nbsp;</td>
+                                    <td id="global_time_counter" class="global_time_counter"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="next">
+                            <a id="ok" href="javascript:void(0);"><img src="next_disabled.gif" alt=""></a>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+            <td colspan="2" class="td_bottomTextarea">
+            <table class="bottomTextarea" cellspacing="0" cellpadding="0" align="center" >
+            <tr>
+                <td class="bottomLeft"></td>
+                <td class="bottomMiddle"></td>
+                <td class="bottomRight"></td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+            </table>
+        </td>
+    </tr>
+    </table>
+    </form>
+
+    <!-- feedback_popup section -->
+    <div id="feedback_popup" class="feedback_popup">
+        <table cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="fp_border_topleft">&nbsp;</td>
+            <td class="fp_head" id="fp_head">&nbsp;</td>
+            <td class="fp_border_topright">&nbsp;</td>
+        </tr>
+        <tr>
+
+            <td colspan="3" class="fp_main" id="fp_main"></td>
+
+        </tr>
+        <tr>
+            <td colspan="3" class="fp_close_area">
+                <img id="fp_close" src="next_enabled.gif" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td class="fp_border_bottomleft">&nbsp;</td>
+            <td class="fp_footer" id="fp_footer">&nbsp;</td>
+            <td class="fp_border_bottomright">&nbsp;</td>
+        </tr>
+        </table>
+    </div>
+
+    <!-- full quiz_image section -->
+    <div id="image_popup" class="image_popup">
+        <table cellpadding="0" cellspacing="0">
+    <tr>
+            <td class="fp_border_topleft">&nbsp;</td>
+            <td class="fp_head" id="fp_head">
+        </td>
+            <td class="fp_border_topright">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="img_head" id="img_head">
+                 <img id="img_close" src="close_red.int.gif" width="15" height="15" alt="">
+           </td>
+        </tr>
+        <tr>
+    <td rowspan="2" class="img_border_left">&nbsp;</td>
+            <td class="img_main" id="img_main"></td>
+    <td rowspan="2" class="img_border_right">&nbsp;</td>
+        </tr>
+        <tr>
+    <td class="img_footer" id="img_footer">&nbsp;</td>
+     </tr>
+    <tr>
+    <td class="fp_border_bottomleft">&nbsp;</td>
+            <td class="fp_footer" id="fp_footer">&nbsp;</td>
+    <td class="fp_border_bottomright">&nbsp;</td>
+        </tr>
+        </table>
+    </div>
+
+    <!-- helpers box: do not remove!! -->
+    <div id="helpers_box" class="helpers_box"></div>
+</body>
+</html>

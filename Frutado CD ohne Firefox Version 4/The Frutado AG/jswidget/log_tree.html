@@ -1,0 +1,115 @@
+<HTML>
+
+<HEAD>
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <TITLE>Logging</TITLE>
+  <LINK rel=stylesheet type="text/css" href="tree.css">
+<STYLE>
+  body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+  }
+
+  DIV.posabs {
+    position: absolute;
+  }
+
+  INPUT.BUTTON {
+    width: 100px;
+  }
+
+  BUTTON {
+    width: 100px;
+  }
+</STYLE>
+<script language=javascript>
+if (self.location.search.length > 1) {
+    if (self.location.protocol == 'http:' ||
+        self.location.protocol == 'https:') 
+    {
+        self.document.domain = self.location.search.substr(1);
+    }
+}
+</script>
+<script language=javascript src="callback.js"></script>
+<script language=javascript src="js_extensions.js"></script>
+<script language=javascript src="url.js"></script>
+<script language=javascript src="dict.js"></script>
+<script language=javascript>
+self.document.write('<script src="dhtml_' +
+    (navigator.appName == 'Microsoft Internet Explorer'
+        ? 'explorer' : 'standard') + '.js" language=javascript><' + '/script>');
+</script>
+<script language=javascript src="dhtml.js" id="dgo_dhtml.js"></script>
+<script language=javascript src="tree.js"></script>
+<script language=javascript src="tree_explorer.js"></script>
+<script language=javascript src="log_tree.js"></script>
+</HEAD>
+
+<BODY
+ ONLOAD="return Xne(self);"
+ ONKEYDOWN="var xrF = self.event || arguments[0]; if (xrF.keyCode == 27) self.close();"
+ ONBEFOREUNLOAD="window.dgoL && window.dgoL.close();"
+ ONUNLOAD="window.dgoL && window.dgoL.close();"
+>
+  <FORM>
+  <BUTTON NAME='CLOSE' TYPE=BUTTON WIDTH=80 ACCESSKEY=c
+   ONCLICK='window.close();'>
+   <span style="text-decoration: underline;">C</span>lose</button>&nbsp;
+  <BUTTON NAME='CLEAR' TYPE=BUTTON WIDTH=80 ACCESSKEY=l
+   ONCLICK="if (window.dgoL) return window.dgoL.x1D()">
+   C<span style="text-decoration: underline;">l</span>ear</button>&nbsp;
+  <BUTTON NAME='REFRESH' TYPE=BUTTON WIDTH=80 ACCESSKEY=r
+   ONCLICK="if (window.dgoL) return window.dgoL.xb1()">
+   <span style="text-decoration: underline;">R</span>efresh</button>&nbsp;
+  <BUTTON NAME='OPENALL' TYPE=BUTTON WIDTH=80 ACCESSKEY=o
+   ONCLICK="if (window.dgoL) return window.dgoL.XG1_()">
+   <span style="text-decoration: underline;">O</span>pen all</button>&nbsp;
+  <BUTTON NAME='SIMPLEREFRESH' TYPE=BUTTON WIDTH=80 ACCESSKEY=s
+   ONCLICK="if (window.dgoL) return window.dgoL.XoQ()">
+   <span style="text-decoration: underline;">S</span>imple Log</button>&nbsp;
+  <SELECT NAME='FILTER' ONCHANGE="if (window.dgoL) return window.dgoL.filter()">
+    <OPTION VALUE=0>all</OPTION>
+    <OPTION VALUE=1>trace</OPTION>
+    <OPTION VALUE=2>tour</OPTION>
+  </SELECT>
+  <A HREF='javascript:'>Javascript Console</A>&nbsp;
+  </FORM>
+  <DIV ID='LOG'>
+    <FORM>
+    <textarea name="Xl" rows=20 cols=132></textarea>
+    </FORM>
+  </DIV>
+  <FORM>
+  <INPUT NAME='CLOSE2' TYPE=BUTTON CLASS=BUTTON WIDTH=80
+   ONCLICK='window.close();' value='Close'>
+  <INPUT NAME='CLEAR2' TYPE=BUTTON CLASS=BUTTON WIDTH=80
+   ONCLICK="if (window.dgoL) return window.dgoL.x1D()"
+   value='Clear'>
+  <INPUT NAME='REFRESH2' TYPE=BUTTON CLASS=BUTTON WIDTH=80
+   ONCLICK="if (window.dgoL) return window.dgoL.xb1()"
+   VALUE='Refresh'>
+  <INPUT NAME='OPENALL2' TYPE=BUTTON CLASS=BUTTON WIDTH=80
+   ONCLICK="if (window.dgoL) return window.dgoL.XG1_()"
+   VALUE='Open all'>
+  <INPUT NAME='SIMPLEREFRESH' TYPE=BUTTON CLASS=BUTTON WIDTH=80
+   ONCLICK="if (window.dgoL) return window.dgoL.XoQ()"
+   VALUE='Simple Log'>
+  </FORM>
+</BODY>
+</HTML>
+
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

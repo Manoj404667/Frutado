@@ -1,0 +1,9 @@
+# Library
+TOK_LIB_UNKNOWN;	"Unbekannter Dokumententyp"
+TOK_LIB_EMPTY;		"Leeres Element"
+TOK_LIB_BTN_MORE;	"mehr..."
+TOK_LIB_BTN_LESS;	"weniger..."
+TOK_LIB_RESET;		"Suchergebnisse löschen"
+TOK_LIB_FLAG_KEEP_OPEN;	"Kursstruktur geöffnet lassen"
+TOK_LIB_FLAG_NEWWIN;	"In einem neuen Fenster"
+TOK_LIB_FLAG_TITLE;	"Titel durchsuchen"

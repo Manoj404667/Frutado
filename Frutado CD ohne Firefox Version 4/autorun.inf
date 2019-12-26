@@ -1,0 +1,5 @@
+[autorun]
+open=FrutadoLauncher\FrutadoLauncher.exe LicenseAgreement.html
+icon=logos\Frutado.ico
+label="Frutado AG"
+action="Start tutorial with integrated browser"

@@ -1,0 +1,858 @@
+content-type: multipart/related;
+	boundary="----=_datango-MIME-bound"
+
+This is a multi-part message in MIME format.
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: quoted-printable
+content-type: text/html
+Content-Location: http://dgo_mht_proxy/index.htm
+
+<html><body>1.gif&nbsp;<IMG SRC =3D"1.gif"/></p>
+body.png&nbsp;<IMG SRC =3D"body.png"/></p>
+close.png&nbsp;<IMG SRC =3D"close.png"/></p>
+close_moz.png&nbsp;<IMG SRC =3D"close_moz.png"/></p>
+connect1_n.png&nbsp;<IMG SRC =3D"connect1_n.png"/></p>
+connect1_ne.png&nbsp;<IMG SRC =3D"connect1_ne.png"/></p>
+connect1_nw.png&nbsp;<IMG SRC =3D"connect1_nw.png"/></p>
+connect_e.png&nbsp;<IMG SRC =3D"connect_e.png"/></p>
+connect_n.png&nbsp;<IMG SRC =3D"connect_n.png"/></p>
+connect_ne.png&nbsp;<IMG SRC =3D"connect_ne.png"/></p>
+connect_nw.png&nbsp;<IMG SRC =3D"connect_nw.png"/></p>
+connect_s.png&nbsp;<IMG SRC =3D"connect_s.png"/></p>
+connect_se.png&nbsp;<IMG SRC =3D"connect_se.png"/></p>
+connect_sw.png&nbsp;<IMG SRC =3D"connect_sw.png"/></p>
+connect_w.png&nbsp;<IMG SRC =3D"connect_w.png"/></p>
+corner1_ne.png&nbsp;<IMG SRC =3D"corner1_ne.png"/></p>
+corner1_nw.png&nbsp;<IMG SRC =3D"corner1_nw.png"/></p>
+corner_ne.png&nbsp;<IMG SRC =3D"corner_ne.png"/></p>
+corner_nw.png&nbsp;<IMG SRC =3D"corner_nw.png"/></p>
+corner_se.png&nbsp;<IMG SRC =3D"corner_se.png"/></p>
+corner_sw.png&nbsp;<IMG SRC =3D"corner_sw.png"/></p>
+edge01_n.png&nbsp;<IMG SRC =3D"edge01_n.png"/></p>
+edge0_e.png&nbsp;<IMG SRC =3D"edge0_e.png"/></p>
+edge0_n.png&nbsp;<IMG SRC =3D"edge0_n.png"/></p>
+edge0_s.png&nbsp;<IMG SRC =3D"edge0_s.png"/></p>
+edge0_w.png&nbsp;<IMG SRC =3D"edge0_w.png"/></p>
+edge1_n.png&nbsp;<IMG SRC =3D"edge1_n.png"/></p>
+edge_e.png&nbsp;<IMG SRC =3D"edge_e.png"/></p>
+edge_n.png&nbsp;<IMG SRC =3D"edge_n.png"/></p>
+edge_s.png&nbsp;<IMG SRC =3D"edge_s.png"/></p>
+edge_w.png&nbsp;<IMG SRC =3D"edge_w.png"/></p>
+max.png&nbsp;<IMG SRC =3D"max.png"/></p>
+max_moz.png&nbsp;<IMG SRC =3D"max_moz.png"/></p>
+min.png&nbsp;<IMG SRC =3D"min.png"/></p>
+mini.png&nbsp;<IMG SRC =3D"mini.png"/></p>
+miniactive.png&nbsp;<IMG SRC =3D"miniactive.png"/></p>
+min_moz.png&nbsp;<IMG SRC =3D"min_moz.png"/></p>
+sizer.png&nbsp;<IMG SRC =3D"sizer.png"/></p>
+spike1_n.png&nbsp;<IMG SRC =3D"spike1_n.png"/></p>
+spike1_ne.png&nbsp;<IMG SRC =3D"spike1_ne.png"/></p>
+spike1_nw.png&nbsp;<IMG SRC =3D"spike1_nw.png"/></p>
+spike_e.png&nbsp;<IMG SRC =3D"spike_e.png"/></p>
+spike_n.png&nbsp;<IMG SRC =3D"spike_n.png"/></p>
+spike_ne.png&nbsp;<IMG SRC =3D"spike_ne.png"/></p>
+spike_nw.png&nbsp;<IMG SRC =3D"spike_nw.png"/></p>
+spike_s.png&nbsp;<IMG SRC =3D"spike_s.png"/></p>
+spike_se.png&nbsp;<IMG SRC =3D"spike_se.png"/></p>
+spike_sw.png&nbsp;<IMG SRC =3D"spike_sw.png"/></p>
+spike_w.png&nbsp;<IMG SRC =3D"spike_w.png"/></p>
+<a href =3D"_default.txt">_default.txt</a></p>
+<a href =3D"_default.xml">_default.xml</a></p>
+</body></html>
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/gif
+Content-Location: http://dgo_mht_proxy/1.gif
+
+R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/body.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAIAAABY/YLgAAAALHRFWHRDcmVhdGlvbiBU
+aW1lAFR1ZSAxOSBGZWIgMjAwOCAxNTo1MTo0MiArMDEwMOs/ZIwAAAAHdElNRQfYAhMO
+NCpg2ojYAAAACXBIWXMAAB7CAAAewgFu0HU+AAAABGdBTUEAALGPC/xhBQAAABJJREFU
+eNpj+P9/OxMDAwO5GACsHgLUEo/yrAAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/close.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAUAAAAEAQMAAAB8/WcDAAAABlBMVEUAAADU0Mg7YKu+
+AAAADklEQVQImWPIYJgBhBkACAgCAdE5tSYAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/close_moz.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAABlBMVEUAAADU0Mg7YKu+
+AAAAFUlEQVQImWNgYKhjiGJIA8IoIIsBABPwAn0zvH3rAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect1_n.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAMBAMAAACQIoDIAAAACVBMVEUAAAD8/LX//7c+
+4tzmAAAAE0lEQVQImWNgUoICAQYlOKAvEwADrA+/gUu0mQAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect1_ne.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAMBAMAAACQIoDIAAAADFBMVEUAAAC8vIf09K//
+/7cJV1j6AAAAE0lEQVQImWNgMoYCAQZjOKAvEwAA7ReVczAQEAAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect1_nw.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAMBAMAAACQIoDIAAAADFBMVEUAAADExI3s7Kn/
+/7cDl+81AAAAE0lEQVQImWNgNIYCBQZjOKAvEwAIChekagsRbQAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect_e.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAUBAMAAABGwLFlAAAACVBMVEUAAADo6Kb//7dx
+aVVYAAAAFUlEQVQImWNQAgIFBgSpRGNSEWIXABu8DUJWhQsIAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect_n.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAMBAMAAACQIoDIAAAACVBMVEUAAAA1ovw2pP/W
+DBV1AAAAFElEQVQImWNgUoICAQYlOKAHEwEA/E8Oa2EW+gQAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect_ne.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAMBAMAAACQIoDIAAAADFBMVEUAAAAoebw0nfQ2
+pP8g/JDqAAAAFElEQVQImWNgMoYCAQZjOKAHEwEA9ekVl1EW2rkAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect_nw.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAMBAMAAACQIoDIAAAADFBMVEUAAAAqfsQymOw2
+pP9QXDwkAAAAFElEQVQImWNgNIYCBQZjOKAHEwEA/QYVpvTqZoMAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect_s.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAKBAMAAABGe2PVAAAACVBMVEUAAAD8/LX//7c+
+4tzmAAAAEklEQVQImWNQggMGWjGZYCwBANmyDRd7LgCNAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect_se.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAKBAMAAABGe2PVAAAADFBMVEUAAACwsH74+LL/
+/7dZa2OTAAAAEklEQVQImWMwhgMGWjGZYCwBAEZRE5mwesSGAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect_sw.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAKBAMAAABGe2PVAAAADFBMVEUAAADExI309K//
+/7eZ6excAAAAEklEQVQImWMwhgMGWjEZYSwFAEZXE6jUR/rJAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/connect_w.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAUBAMAAABGwLFlAAAACVBMVEUAAADo6Kb//7dx
+aVVYAAAAFUlEQVQImWNgUgICBgipRGNSCGEXAP8mDNnrjwURAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/corner1_ne.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAYAAABbayygAAAA30lEQVQYlY3NsWrCUBjF
+8X/vbQxiL8TRTXASFwddiotQCg4dnASHBkQcXV0FF1/DsQ9QnPsYDgEhgQwtpqCDjdGv
+k2BFUw+c7cc5GhDHyQ0s674cx8kK8LkQvVzOxo1GxWitqr7/2bVtq7Xdxh9A9EeKzOXY
+JHmX6bQnxmTXQOfU3YnM5fxmsQhoNkebMFz1gberEMDzQur14XcUbWqApy4hgFKpwGTy
+6uTzD7PURYD9/kCx6K6D4Kt1dRFAa4XrPuWMyfZTIUC7/ai0Vs+p18dkMi8//y4C7HaJ
+fRME+AXmwVWxAQtaGQAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/corner1_nw.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAYAAABbayygAAAAu0lEQVQYlWNgwA2seXk5
+ZwsIcD9lYGD4z4hFgbKgIM9CZmYmI39/S/bAQCsmHR0FDEXhvLycnzs6kv7/+bP1////
+2+EY2cRwSUmhOfv3d/Koq8tgmABTqCwoyHPm9OlJAsrKklgdzMTAwMAgKMizsLk5Dqci
+mInWMjIi2x88WMjLzMyEUyETLy9nSny8Czc+RQwMDAxMzMxMboGBVvhVMTAwMLKysvz4
+9WszOyGFTL9//yGoiIEB6mtiAAA5WDBRhTazOQAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/corner_ne.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAYAAABbayygAAAA3klEQVQYlYXOsWrCUBjF
+8X/ujSR4DSSoleAkQgsKdqi4iCAUunUQBEcHHXwAoVMn6ebQsaCL4NKx0D6Bbr5ElxZ3
+tVRKvE4ZWmxyto/z++AAaJl0P6TtTIA6/+Xy8V2fD191ttkLTCfzZSpvCRT/OqM21zo8
+9CFg/Tbm8+VhG3xv+sBz2IlfX0Li395RHq1SCdefAp2TMIztX1C6X6RM5T2FM05CACtX
+JN8euabyZpEQ4Ox6gLBUBahHQkNIMo2ukrbTj4QAXrUlEPImFqrCFYf9Lh0LAXTwYxmA
+jpXAEZ44LaNGkP8pAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/corner_nw.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAYAAABbayygAAAAu0lEQVQYlWNgwA2smTl4
+ZzNzCTxlYGD4z4hFgTILt+BCBiZmI0Fjf3ZBk0AmThkdBhY0ReHMHLxzJH3KeSS8SxgY
+mZjhEsgmhrMKSM7RrN7PwyGpjmENTKEyC7fgGe2m0wLs4spYHczEwMDAwMItuFA6pBmn
+IphCayZ2bj0x5wycihgYGBiYmDl4U0Rs47mRHY7dRCZmN0GTQCa8qhgYGJj+/fwqzK1o
+TEgdA9P/v7/ZCapigATPf2IUAgDL3hrfLYhPOwAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/corner_se.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAwElEQVQYlYWOPQ7BABiG
+nyKi0UgTQ89gEGcQYxeLgRPYDQZJT+AGJrGpYOsBpJvZIIZ2FX/RNq2EfCaDpOpN3u15
+fxQRR8iQ7x+p1/unXBYEsN3uKZWKh7+gbW8e12u4VLKmoyjBMLpxFCW1zEbLmj3z+dwc
+8Au/INfdMZk4tyCIBwCpja67wzStexDEbeAMgIgjH4fhSobDzkvT1AvQ+kp73lQWi5H0
+es2npqlxtVpZA0bakuh62VfV4hho/Pr8BsaMUcU/dSQ+AAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/corner_sw.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAuklEQVQYlWNkZWX58evX
+ZnYGAoCJm5v97dmztwmpY2D6+/ffrvXrj/0jpJCRgYHBWkZGZPuDBwt5mZmZcCpkZmBg
+eMzMzOTNx8clZ2amjtdEBgYGBmVBQZ4zp09PElBWlsTuRih99/37Lxm2tiVfbt58gtNq
+GLj65cv3ewsX7vFgYmJis7TUZGBiYoRLMmLqZVAWFORZyMzMZOTvb8keGGjFpKOjgNPt
+DAwMDNa8vJyzBQS4nzIwMPwHACL9LghmM1ElAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge01_n.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMAQMAAACZRUUUAAAABlBMVEUAAAD//7fd3lZ/
+AAAADElEQVQImWNoYMAKAUgYBgHeROMDAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge0_e.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAABAQMAAADdO609AAAABlBMVEUAAAD//7fd3lZ/
+AAAAC0lEQVQImWP4fwAAAsEBwAAPqXUAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge0_n.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMAQMAAACZRUUUAAAABlBMVEUAAAA2pP9i6LaN
+AAAADUlEQVQImWNoYMAGGQBHmAWBkUP/YgAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge0_s.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKAQMAAABPHKYJAAAABlBMVEUAAAD//7fd3lZ/
+AAAADElEQVQImWNoYMCAADIUBQF6uhdSAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge0_w.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAABAQMAAADdO609AAAABlBMVEUAAAD//7fd3lZ/
+AAAAC0lEQVQImWP4fwAAAsEBwAAPqXUAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge1_n.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMAQMAAACZRUUUAAAABlBMVEUAAAD//7fd3lZ/
+AAAADUlEQVQImWNgYGjABgE8mAWBJy9XfQAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge_e.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAABAQMAAADdO609AAAABlBMVEUAAAD//7fd3lZ/
+AAAAC0lEQVQImWP43wAAAoEBgEHitksAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge_n.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMAQMAAACZRUUUAAAABlBMVEUAAAA2pP9i6LaN
+AAAADklEQVQImWNgYGjAAhkAPBgFAX2V75EAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge_s.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAKAQMAAABPHKYJAAAABlBMVEUAAAD//7fd3lZ/
+AAAADUlEQVQImWNoYECHDAAxlASB4Vc/swAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/edge_w.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAoAAAABAQMAAADdO609AAAABlBMVEUAAAD//7fd3lZ/
+AAAAC0lEQVQImWOoPwAAAcEBQO4vAwQAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/max.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAUAAAAEAQMAAAB8/WcDAAAABlBMVEUBAQHU0Mh14DbO
+AAAADklEQVQImWPgYMgAQg4AA4gA4UaIHrUAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/max_moz.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAABlBMVEUAAADU0Mg7YKu+
+AAAAFUlEQVQImWNgYKhjcGKIAkInIIsBABGwAjVj+3KTAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/min.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAUAAAAEAQMAAAB8/WcDAAAABlBMVEUBAQHU0Mh14DbO
+AAAAEElEQVQImWP4wfCDoYPhBwAOOANxqlX0VAAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/mini.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABP0lEQVQ4je2TvUsCcRjH
+v78X787fz5fjiOBAEIIiaHVJhKDNyaFBKNC1tdxaXKKp5pDApcm/wNHFQTg5CgwqNBIq
+I5x8Ie1OriGCBiWuuQ8808Pny8MDX+ALKYRaCoeDPQDeoqGUzKJR+aQo/AQAAwACQIZC
+QTudTsQKhR2RSKyCMYp5TKcOGo1bFIuXI9tu28Ph+zYRQi1ls1t75fKBnGstIJk8HFjW
+/THTNOWiUjkydN2Xj1hsSa1WmwYFEIrHl33JAJBKbcBx3BXKOXN92wCk1EAIIfO/5YP/
+AIC67oz/RRyPJ/A8z6MARt3um++Aev0GgQB/YJyztX5/sJ7JbCp+AnK500Gn0ztnjjOr
+tdsvu5Z1p5mmoZimAc7ZwrNrtWvk82fDVuvxajL52P/eSSHUUiQiXvFLnXVdPv+s8ydA
+Cm4aVtXx8AAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/miniactive.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABOklEQVQ4je2TPUvDUBiF
+z3tvehOT1sboYKEgVVA3Bx1EnNx0cRQUdBMXJ3+ACOJfsEVwd3F17OIgFIKIFIQ2Ilb8
+oIM0jTakyXUogkKLpLMHzvTyPPAOB+jEYEIvcC31DED2LLGQ6+kaKeIIAAcAAmBwLWmn
+Z5azoyt7upGbAzGObpGBj2blCrXz/ebHvW2HLXeJmNALw/NrG7ntU6Mr1SPlg4WG55QO
+OUtoJxO7Z5aim3F4CCurvt9cWAxAUh0ZiwUDQGpqEbIdjDPiSjs2DYCpBoiIWD/wL9G/
+AEyGbaUfMPI9SCklA9D06w+xBe7dJUhJOJyYMhm69emh2VURR+DkNxv+W/WYyzAo+q+V
+da9a0oSZEcLMgHj3ryLfQ6NchJPfcj8fb6+joLXzfevMeWDwBX/O2Xz6OecvgnBu2HPw
+1nAAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/min_moz.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAABlBMVEUAAADU0Mg7YKu+
+AAAAEUlEQVQImWNgYKiDQicgZgAAFoQCuc+bVqcAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/sizer.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAuElEQVQokd3SMQrCQBQE
+0D9/Y0SiSMQ6bFq9hgELO2+SRtLa6kHsxEtY2HiKIIJJkSBE4+63tYixd+o3MMVAaz0d
+Mm/vIrOXiEMNcYBHDziU1sbOkHm78Lz5yvdpwNzk6WZMN8my5amqLpiEYXEOgoELNOKP
+EkVpeuUOYH5hIqKxUiRE3eYNLfmLQi2iniI/4c0YUkDNLnBc5zmV1rbiJMuMiOygtZ6O
+lNoU1kbfruECdZ95nxsTvwFUmUiNSUWIeAAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike1_n.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAA8CAYAAABmdppWAAADeElEQVRYhbWXa3PaOBiF
+jyVbsrhOQiklCzEJCbhYBkIxYTqz7exum9lfvH9mf0VbYsBcsh+CqQHfgO75JvHqGeFz
+/EoGUiiT4f+Wy8V/0tSqaYp0ndVWq3Wq2jRFfL1eM9edX6UBkhQ1XUoprq5KMwDtXwH8
+YlnX6HSuAcA8G6hp6ufhsEUcp5VTVdo5G6jrmhyN2rDtBrm4yP2eVJ9oiqapFdOsQVUp
+FouldS6wuFgsqWnWoaoUk8nsCgAFsIpakPSXx4VC5oVzDZQS1GpvXCQYkwR8krKh+IM0
+TscCGVPHo1F7C3ScVk7XWf+cHR6tWKAQ/H2vd7Md23aD5PPi8WQgpaRomvXt2DTrWC5X
+Jz/DiuctlX3gjx/TKl6jczTwS7lcBKU/S9JEJw74R7d7o+xPWpahnATkXHt8fDzsVo7T
+yjOmfjgaKAS73QR5R1IaKBQy46OBAISUjYPJjdORjTYKaHneEs1mNRT4/bv7DgA/BvjV
+MN6G/kApwfX12wkijAkFEqJ87PebBw77inM6FCgEdwaDuygeHKeVF4I5qYHnKBSo66xq
+243IRVIayOVEaBbDgNnlcsX6/dtIYFx0woAPnrdApXIRC/z27bmCkOiEAf+6v/8tEga8
+RscwKs8IcfoAyJj6aTw2IyPjy7IMAkAmAoXgVrd7sz99oOHwPhsWnQOgqtI3Ye/wvqQ0
+kM3qgyRgaTbzqJRGItA065jPF++TgB8JUV5KpUIq4PPz7BJANg74FNalwxTl9A6QMXUU
+9w7vK8zpHWAmw9uWlfz8fG2cfogE/grtABVFKfT7zdSLw5pEEGhMJjPFNGupgWHRCQL/
+vLzMvxSLWaSVadYxmUwvEIhOEPjJthupIuOLUoJGo+Ii4PQWqOts3OtF98AoSdlQAWzv
+jFugEMyI69JRGgzu9FxO9PaBdLVai7guHb1DA8Es+sDOZDJF8OqWVqZZh+vOtx9EPvCp
+Viu/cK6dBJxO5zkAxS2QUvLZsq6PcthXwGlzC9R11jvFYV9BpwkAcK5Vh8P7k4FBp/+X
+5pD1vKV2isO+NufLBx/ouO7spMj42hz8HR/49+1tdee2fwrQ8xYZACXCmDpOc8rFaROd
+KQBJhODWeHxwGh4t275RAUhCKbk8pqlG6eGhyfN50SeuOyfnGOJLSgOca0OyWq3Rbp+/
+w9fuPbv7DxsqtOKVHZD4AAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike1_ne.png
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAYAAAAUufjgAAAETElEQVRogc3ZXWhbZRgH
+8P9yPt/zvqdpm67Tthg7wYijhl3UgzAIU2RIOodmuzHMlU6HHV3Z4qiso2462FqdskGg
+FMZMwBSSBgSZ9M4Wt8Fu54V3CiKM1QsvZnUhJ93xorSLzdf5Sk+ey3PePPzP88v7nkCA
+1q4rPq8T1KkYgJLXIWqV3+fbsQIg7HWQquX30yxj5IHXOWpVFIBBiDjtdZBq5WeM/AnA
+QCvyUirPDw6+qLe1KQ83rrXSLo52dLChvXtf2KHrpZTXYbaWn1J55d69a0ZXV9u/KOPl
+PQy1WapKro2MHFBLpTUUi6VHAO57nam8In19XY8Khe+N8fFDeqvtXkqpvLK8/IVhGIsV
+vJ6XokhzJ0689Y9hLBp37nxllO/eVqjIzp3+v1dXvzMMY7HleKmiSA83aOvxenIOKor0
+dTy+n0YiAwCAu3d/aandq3V2qqsbtK3GK6kq+ePWrc82wzXavdtKzBj5cmhI64hGX928
+1oh3OwNqsiwMz86O0fKLudxPpVZ490qUyr9vpTVzOG/LBAkRZw4e1DrLaQFzu3c7fixo
+oih8mEyeVLbeyGR+1L3m5VSV/JbPn6+gLZV+MFSVFNDg3dtUYsbI55HIK92x2L6Ke8vL
+P8Mw8BcaHM7NJA5znO90KpWooAWATGZJLxb1VKMmzZogxxjJ3bhxWgoE2ipurq09QT5/
++0mxWMo2atSUgLIsXoxEBp49fHgfV+2+WV6gOcRhjvN9PDc3TmotMMsLuD9BjjGSSyZP
+ir29gaoLrPACLgckRDyraaGe4eE3q9IC67wc51uByZ9WbhKHBIGfSqfP0nqLMpklvVDQ
+b5pt6tYEOVUlC9evfyTXogWe8hYKxW/NNnYlIM9ziYGB/ufr0QLrvDzPPQDwq+nejtMB
+IVHkL87Pf1L1QC6vTGZJf/y4mLbS3OkEOcZIbmZmRA4Gu+sutMMLOAzI81xiz57ndo+N
+vd2wjx1ewFnAICHip9nsJDOz2A4v4CCg30/zly8PK41oAfu8gM2AgsCfCga7XxodHTL1
+ebu8gL1dHOR535VcbpJynLnns8sL2AioqiQ3NfWeFAr1mVrvhBewSCwI/Kn+/mdeTiTe
+Nf1gTngBaxO0TAs44wUsBGxvp6mJiSOmaQHnvIB54mO7dnUMTkwcsfSddcoLmAvYK8ti
+Mps9Z4kWcM4LmCBmjKTPnHlHDId3W2rsBi/QeILHeno6tQsX4qLVxm7wAvUD9sqymMzl
+JplVWsAdXqAOMWMkPToatUwLuMcL1J5gLBBQX7t06X3LtIB7vED1gAFK5ZvZ7KQiSYKt
+pm7xAlWIVZWkjx8/IGlayFZDN3mBygnG2ttZZHp6RLLb0E1e4P8BA5IkfLOwcJ7ZpQXc
+5QXKiFWVpOPx10W7tID7vMDTCR5SFHn/1asf2KYF3OcF1gP613ftOYVS2VEzt3kBwEep
+PHv06Bub/5vZrWbwAsB/6asdMFIKPyMAAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike1_nw.png
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAYAAAAUufjgAAAEuklEQVRogc3Zf2iUdRzA
+8fc9v2/PeXPzhoIeFTVHwbpwpKHSSDLBhYIN/4lQlhK5IbESa4Mk0pJQEPxBiM01Tb3d
+P/0h3B/+ESUiof8MqUjcSpgt5zbqNp3ubvftj2tzm3vu7vmx3X3+2t3zvefefF88uzse
+gC8p4pGAFPBWoUOyTY0k+e4CpYUOsZxgsORvTVPOFLrDcsLhimOAAOoK3WI1EVmW0oah
+9VOs1OXlCwZWrHhuVFWVjkK3TB1p4g/TNC5s3PiyoWlKPUVKHampqRyJxVpTuq4W51Vd
+Xr5goLf3rKirW5lQVeVkoXuemHC44tiRI++JgYGoME3jAVBb6KaZE6mpqRwRIi5isdaU
+YWh/AWaho6ZNWVng3q1bbUKIuNiwoSahqsqJQjdNm8WLy47s379NCBEXvb1nhd+vPaTI
+qCNVVctGhIgLIeLi9Onm4qOeyixEXKxbF/lXknzHCtEizfakpqnfXbjw4+Tjjo49QU1T
+3wVWzVdYrpnGPIW6B9DnM2TWHQS6+vv/Ge3u7pt8Yvv29fLq1c8vkiTfgflJy4xV4BPM
+MEndSJFQP8EsRFwcPfr++HxSW+4gszADNDVtkiKRZyrmizpb4KzMANFoS6BYqGdlnkJ9
+E5DnMiDrDmLBDBnq6uqnFyuK/OncpGUmV6AlM0As1hqUZWkPEPE6bGJy8ty//7Dvzp3B
+d5qaNmkzjy1caKLrqu/y5V9eS6XGvybzy9DTybmDZGEGaG7eoixfvjQ8V9T5BGZllmWJ
+zs6WgM/n28scUOd1BWZjBgiFghiGxlxQ57WDQNfQ0HDCihmmUTd7k5aZfANRVeWMFTM8
+ppZl6TOgyos4sPFPdnh49I/bt/t37N69WbVaEwoFkSSfuHr1t1dTqfFTeECd9w4C3YnE
+g8Gurp6si/bu3aqFwxWVwAeuyv4fO4Gk0+JMLHY5nW3NBLWqKgfwgNrW5+jo6KPbPT19
+O5ubt1gyAyxZUkYyOZ6+du1319S2dhDoHhtL5WQG2LfvbU+o7QbmxQyPqXVd/Rx4ylEd
+Dr4q5csMGeqxsZS4fv3mmmRy/BsngbZ3EBvMkKGuqCh9EWh08F6OAvNmhgx1NNpSomnK
+VzigdhQ4OJhoa2+/9DDf9atWVbFr15uy36+dt/tejgKxyQxw8GCDHgqVVmOT2mmgLWYA
+XVeJxVoDdqkd/+CxczVPzLJlIYaGhtM3bvz5UjKZyuvGkeMdxAEzZKjLyxe8AmzLZ72b
+QNvMkKE+f/7jgKYpJ4Cluda7CrR7NU/MmjUv0NCwQTZNoz3XWleBOGQGOHRohx4I+FeT
+g9ptoCNmANM0iEY/KVFV5ThZqF0HOmUGqK2tpqHhDdkwNMubRq4DccEMcPjwTiMYLKnF
+4q6/F4GOmSFD3dnZYuq6ehpYNPO4J4GDg4m2kyfjY05fX1tbTX39WtXv19pmHvMkEOhO
+p8XdK1d+dXyC48cbDdM01jOD2qtAHj1KftvZ+VPK6etLS03a2z/0z6T2LHBkZLTj3Lkf
+km7OUVe3kvr6taquq5Pfvj0LBLqFoN8NM0xSvw5sBm8DXTNDhrqj4yPT79dOAaU+j9om
+5tlQKHjj3r2o3+2Jtm794sHFiz9//x8e2y03oQFYwgAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike_e.png
+
+iVBORw0KGgoAAAANSUhEUgAAADwAAAAeCAYAAABwmH1PAAAEAElEQVRYheXY/08bdRzH
+8dfRO45ev8IymQi2tBVO8hk9KqVaQ/Q/mIt/gP8B+2VGHV8M9QdGULeflIRfCDLiGAnw
+g5LpNMGEzR8whmjMErOFKT+MzMB67bV3vbueP9CPIcoILW354jPpj/d5fx65Tz9pyuB0
+dwaABIAAEAH8erTbKV88gDCAdziO/bShwbUiCPxTABbDMAbHsVMAggDAHOUuS8yHnbcm
+1tc737Qsq0OWM81+f6Pc1RWqOXvW456fv2s9efLUcjrtt2Q50w/gAX34OIM9KBxHl8ve
+zbK2nnRaDbpcdiMcDhiSFBBiMZEjxAdRbMH6+iYSiRvmzZs/5Hmem5XlzIfYBaWxVWf8
+NxsK3zGOY2Mul/0VTdOJYZiuUKhJicXaayORkECIH5IUgMfj4Hc/vLb2EBcvJvTbt3+y
+HI66SU3ThzRN33zWsGq/4RdQOI5er+MNAGFZzjQ3NZ1ROjtbrXi8w02ID4T4EQw+v+9C
+a2sPMTg4pS8trTJ1dbUT6XR2GMAzobRKgT3YuRW7BYHvrKurfU1R1BDHsQwhPi0abRPC
+4QAnSQEQ4gfPcwdeuFQo7bBgG3ZgYm0tG3O7hW5V1Ymq5ur9/sZMT087F4kE7fQ4NjbW
+lzxoZeU3XL06m7tz5+c8x9k+T6WyoygCSisG3IjCJeL1Ol4HEE6n1RcbGlwaIb58NNrm
+iEbbakSxBaLYAputpti97Nny8i/o75/Mra7+bjIM84mq5j4GkCx1vb3ADhSOo9NpD/M8
+96qiqC9ZlsW3tzdr8XgHR4iPl6QgCPHB43GUOnvfyg2lMQDeZllbp9fr6NU0/eVUKnuu
+tfVc6vx5PxuPd9hFsRmSFITP99zhFQeoUlAa09tLkpFIyNnVFayRpABEsaWoS6RcLS7e
+QyIxo96//6dmWdZH2WxuHIBS7jmMZS1Z5V60mBYX7+HKlUltfX1T1XVzWNeNzwBolZp3
+ZD88qg2lVRVsmnksLNzFwMBUdmPjr7Sm6SPVgtKqAjbNPKanv8fQ0Bfa1lZqK53OfgBg
+GoBZjfm7qyj4OEFpFQFT6ODglLq9nd4+DlBaWcGapmN8/CuMjt5SFUXdkOXMAIA5HAMo
+rSxgCk0kZnKGYf4hy5nLABbLsXa5OxT4JEFpJYGTSQWTk99iePiGmssZjxRFfQ/HHEor
+CpxMKrh+fQFjY3M6y9rWkknlfQDfVWhvFelA4H9DFUW9DGC5wnurSPuCk0kF167N58fG
+5owC9F2cUChtT/Dm5jZGRmbzExNLhs1W82Mmow3hhEP/ybKWLPp5/HjGunTpLZPjWMPj
+cXyDnT+3T1cU2td3QT/VUFpf3wWdZW26IPBf4zRDaW638CX+D9BCfwPtjuW7kuQzFgAA
+AABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike_n.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAA8CAYAAABmdppWAAADgUlEQVRYhbWYa3PaOBiF
+jyRfJNuEhiSldnFISXbqBpNLG1KmM9vO7raZ/uL+mf0V3VICxJf9UGxMLN8gPd9sSw+v
+dY7kdwBqiGrGv8re0bc6Y5V6QN5DFNYaW0c6M56FRNEWtX68xpgLQhm0fWcO4PVTAD+L
+3hDi5TkAeDsDCVM/ma9uqDkYW4Qp5zsDqcp96/QWwh1RZu7/WTW+0jmiqF3ueCBUQRw8
+DHcFtuPggQnbA5iCaDF1ADAAYdGEqleeMLEXE1UHoQxapzdDhTFVwDvh+iS5qON0KZAo
+2sQc3KZAczC2qMqvdqmwsUqBVBNvjP5lei3cEaWi9X5rIKGsLez1kgnbA8Jg6zXsxsGS
+cGc9nzsewvkPG7+i0xj4WWkdgdD13DrRKQP+ZRxfkMc3xcsh2QpIVP29eZpff3MwbhFF
+e9cYSFUxWAV5s0LXBxN7k8ZAAMLo+fmbtoc4DAoP2iLgMA6W0LunuQfc8RDe//cCgN4E
++EU/7EsfEMqgHx5PUWCMHEjoB6N/lXM4UZnTUiDVxNg4eVvEgzkYt6gmxvUr3EHyClVu
+G+6ocJJwfVBuSbMoA5pxFGhGv/jYWx0S0ujIgNdxsITa7hYCueMhmH3vQhIdGfAf/uKP
+QhiQRKf/ExKnc0CiaB+ts0lhZBKJ3pACyG2lHJBqYijciyoezFc3piw6+Qqpcijbw7kK
+XR9UN3NhfQw8iB7mTLg1gLaH+GHxpgr4gRAaK9ZBJZA7HsLFzw4Aswx4JySntExFTm8A
+iaLdmiV7+LFkTm8AqWa8Fr3KBivVyunrQuBTaPOVCdkr28OPJTskssB+OJ+SbKdQCZRE
+Jwv8W7E6MTPatYG/OonpPjLRyQI/CndUKzKJCGXQj05myDidAqnKJ8bxpXRimYyerwBI
+F34N1ES/7JQuBJ685YxbaSUJkMVRKJo4nEi4PkgmiwnwPJxP0cThFGh7iBaztGdJgHda
+pxcTVdoMlIo7HqLlvQWgnQIJZZ9Eb9jI4UQZp701UOWX2zicKOs0BQCq6rY5uNkemHH6
+txwOZhws1W0cTrT6vrxLgONwMUO2228MtD2Es+/nCfArfz7Y6PabijseomBpADigRNEm
+osZns0yr6NwD8CnVxNA6K+zBa8twRwoAnxLKOrusXwrsX+uMt65otJhR8QRA4fogqn5D
+4ygEtyv/jqkG2h6i+fTsfzc2ntEM1RTaAAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike_ne.png
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAYAAAAUufjgAAAEY0lEQVRogc3Z32tbZRgH
+8O9535xz3pz3HJM2WWt/rGmTSteJ1AldkIpRhqi0Iq6DwuLsdI5tuBStshuZTgU7Uari
+YAjaNdJ2JO0fsQs7pndeCYK3w4rZxRRXkjTHi7osTZOT8ys5fS7P++bhm+eT93DCAfZ2
+zRGvExjUJICi1yHqVQAC2QAw4nWQmkWVQIYy9bbXOerVOACdSP7LXgepVQHK1D8B6NiL
+vETmKzw6WqD+h/4oX/MyUFWN+3jbBO8/JOhbhUWvw1RXgMh84+BHt3SfFv4XFbw+D0OV
+izLtq32JNzRsFaEX83cB/OJ1pspKSO29d0evbeqdz88U9trp5UTmG8Pv39APL+m7eAGP
+DwmRlPnwWFLVhhP457f1mrxeBkwQxo/3JecVAMj9lC3WOr1eBeREUjKPpFZVInMAQO7m
+SqGUv3e9eqMnAYmkzIfGklwbTgBAXV7Am9tMnEgsGXn1S37/Qj1eoPUTlCnT1qJnf+D3
+aYH6vECLA1Kmfh48NNEWfHy8fM2IF2htwLggspP9r1/llReNeIHWBZSJzLPRM4saVQI7
+Fox4gRYFJJL/s7YnXmqvpAUa8wKtOcVxwSedjkxfUaoX/rq5XGj0aNXsCVLKtOsDp79X
+fGpox4Je2kLux6WSES/Q5ICUqR9rw4mO9tHJXWt//3oDgH4HDR6tmkk8AkLfjp5Z3EUL
+ALn15UKpmF9s1KRZE6SUqdmBN7+Tq2mBbd47P6+V9GI+06hRUwISkV3SDiS62g8fo7XW
+zfICzSEeAaHv9p/61l9vg1lewP2AlDI1G3ntG0lq66m5wQov4DIxkfzv8Vi8O/z0yZq0
+wP+8hG7A5B8jNyc4JFDxYvRsmhttyq0vF/TC5oLZpm5NkFKmrUZOfM3q0QIPeEuFzSWz
+jV0JKFDfrH//Y/1GtMA2r0B9twH8bra3G8RDApUuxd5aqXlDrqzc+nKhlL+XttLcaUBK
+mZrtnZpjcjhiuNEOL+CQWKC+WX/Po9HO58437GOHF3AWMEJE/wexVEY1s9kOL+AgIFUC
+a71TnyqNaAH7vIDNgAIVU3I4cqDjyDlTn7fLC9g7JBGB+uYGU1kuEMO7Srns8gI2AlKm
+ZbtfuSizriFT+53wAhaJBSqm5I6Bgw+/OGv6iznhBaxN0DIt4IwXsBCQKsHFrokLpmkB
+57yAeeJpMdA52jVxwdJv1ikvYC5gDxHZlcFUxhIt4JwXMEFMmZrufOEdSemz9uLHDV6g
+8QSnxWB3vOfoh5LVxm7wAsYBt2lnsqpVWsAdXsCAmDI13XHknGVawD1eoP4EJ31q6Mne
+Y59YpgXc4wVqBwwRmS/EUhlFEGVbTd3iBWoQU6al9z1zSlZjcVsN3eQFdk9wkvJgYv/U
+ZXujg7u8wM6AIUGUrw3OrKp2aQF3eYEKYsq0dGgsKdmlBdznBR5M8GUiK8/2Hf/C/ujg
+Pi+wHTBAZL4weD6jVL5csVNu8wIAITK/Gn7qRPm9md1qBi8A/Ad1E91jskee3AAAAABJ
+RU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike_nw.png
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAYAAAAUufjgAAAEp0lEQVRogc3Z3W9TZRzA
+8e/zPOetPacbbCNjwQ7GCoQolkAyFBIWk6FBMCa6xARDUHwhClsMieCVxhjiC5p4AUoI
+bzIU2C78E0x8J/Fml2oqEePLxgYRC1tH1+NFNzLKTttzetbud9Wuz+m++33SLusA3mUe
+jwSywNO1Dik26xFyCKivdYjnqEjdP0Iz+mrd4TlGY/wI4ALbat3iNUkhVU7q1jDzlVpz
+GkbsZevGhNLP1rpl5sg7N0z7Qv3axy2hGd3MU+qk3bY+negdyArdnDevajnj9mDm6uVx
+Z8XDqv7+rohQ+uGaVXmN0Rg/0rrzY3fdsRFXmvYtoLPWTYWTtNvWpzvOuW6idyArdesv
+wK5lkCy4P5gZ/m0sM5SioaNbxVZ3OrWmLgxEaMbnoz9eAKDtpZMxobTdzDPqpNWyKt1x
+znU7zrnu8pdP15T6ng0Cg9kbw2OZoRQATZufU86KjTZCvl/dtPzMFngXM8DyV87WSc14
+AdhQrbDpmTXw9r9Dp0e+7bs5fd9YuIRlz3+qS906D5hVq8MjkAJmuEPdiJCHqpOWH6/A
+e5jhDvVeqkjtGVjIDHnq+I7DRjWpPQOZhRmgecs+GW1NLqoWdbHAWZkB2nsuOtWiLho4
+GzOA2bR0mroPUHNWR4lAPJghTx2Jr2kWSntzbtLyUyrQkxkg0TtQh1SvA8mww6anJE8u
+c/Pviet/7mx+dJ9R+JgWXYDUTZH++ZtH3Fz2GPm/DEOdkhukCDPA4q37NatlZXyuqMsJ
+LMospCLR0++AOMgcUJf1CizGDKDFmpCGxVxQl7VBYDB789oNL2a4i3p/OGn5KTcQqfQ+
+L2aYQS3V28CqMOLAx5vs5Ph/lzOjv7+4+LFe3euMFmtCSOmmf/1hszuZPUEI1GVvEEhN
+jt0YvXVlsOihlu0HDaMhvgJ4raKyqfETCLlc37VLA7liR4RUJHr7HaH0Q4RA7Sswmx49
+NfL1mfFS56KtSVqeeENII3KeCn9X+9sgpHKTEyWZAZY89VYo1H4Dy2KGGdS6+Q6wNEgc
+BAgslxmmqLcdUNKIer8/lRj/G/TBDHlqvW7Rg8DeAN8rUGDZzJCnbu+5GBWa8QEBqAMF
++mEGcNo30Nz1qpp6VfuaYBv0yQwQf+Y9U4s1rcEnddBAX8wAQjdJ9A44fqkDB/plhhnU
+pn2i3GuCbzAAM0xROw0PAbvKOV9JoG9mmKLee94RmvEJsKTU+YoCgzADOCs3sahzt5Km
+fabU2co2GJAZoHXHh6aynI2UoK40MBAzgDRtEvsuRoXSj1KEuuLAoMwAsdWdeWrdOu51
+pvINVsAM0PrsR5aK1HXi8V//MAIDM8MUdU+/LXTzNNB4z+MVx5FnHv7q+ETQ62OrO2no
+6NalETlV+Fg4G4QUudxQ+pfvAj/Bsl1HLWnaWyigDisQN5v5bPRSfzbo9Spaz/I9ZyKF
+1KEFTo6nz45+/8XtSp5jwdptNHR060I3T05/LbRAIIXrDlfCDHlqZdpdwJMQ8se3QqqF
+QjM2LUhuDfyDS90ict8DxvWfvuxyJ7PHQw10sxN/ZIZTe1q2H/D8eKScsRav5NaVQTJX
+L7f/D3NAySzV5qU9AAAAAElFTkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike_s.png
+
+iVBORw0KGgoAAAANSUhEUgAAABQAAAA8CAYAAABmdppWAAADlklEQVRYha3Y3XLaRhgG
+4BdJiD/ZyUwOcpCTnPUG0kvo7fTmetJxm3aSzGQwEAxmRRbb2MiiocSxHX5XWmmlHhQT
+MPpD8ncGkp7Z0ffuJ0Eun1d8zn9D1tJ1A2/e/DqXZFlCrzfMDFJqQtOKF1K5XPAoNTOD
+hBiwbachCeHdUZp9hScnfXs2Yy2JMVuvVj9nBjudKxcAkTh3q4QYmTAhPAwG4xIAIgH4
+/fJyBCG81CClJlQ1vwRwKwGol8tFZGkMpSaePat0AUACsFBVxckCEmJgsbA+PYBPWhIA
+2LYzajTOUyPN5oU1n7P2GrQs3m63L1ODhAxcAK01KIT3Ttev/TTYKjJlAHQNAjgaDm9y
+tu3sDVJqolQqzAFMNsGuppVSRYdSE+Vyofvw+QEUsiyxVmv/+0iIAcb4yWMQjHGj0xns
+DW52eAu0LF5N0+nNDm+BAN53OoO9Or3RYRIE/nV3N8tNJovE4P9TunQPYH3RJmhoWtHf
+Z9hSaqJQyG8N06297Pv+tNXqJwYJMTCfs0+h4FPUFrhc2j1dTz69G43zxWYGd0DO3Vqz
+eZEY1HXDw0aHd0AAR6enV4miI4QHwxhXsBoKYeBHz/Nzt7fTWJBSE5VK8Q4bkQkCb4tF
+VSR5CgZFJgiE64pvhAxiwdVzpBkLMmbrp6dXseCqw/VYkHP3fbVKYxsT1OFAEMDb8/N/
+IrGwDoeBJ6qax3h8HwquHuxjAHYScKEoMo+a3pSaUBS5F3QscC9bFh9FTe+goRAJZqlA
+kDG7HrWn6/WzWVBkQkHP8z+2Wv3Q6Oi64SOgw6EggD8M42vgASE8XF9/1fYFdVVV0O+P
+dg5QauLwsPwvAiITBQIAC9rTUZGJBBnjl93u9c73hBiYTpfVvUHbdo6Pj3cXUq+fzTh3
+AzMYCQL4O2h6R3U4Dvzz5may9etACA/D4bf1u+C+4FhVFX/zFY9SEwcHpREAkQaEEN7k
+MagocujqYkHG7M/t9o/p3ekMvNmMHacG01QkyLlbrdV6607X62dzy+KtqGviVnhEyI93
+xlXQ099DANXpdJmzbSdRZABAiQEn+bwiKDUVRZGhacUv378vQiOTBITjuGNKh68URUI+
+r+hx58eCluWQWq336uCg5N3fzz9kBh3HfddonP2iaaW564pu3PlJ6ucXLw7F69cvJwB+
+egqw8Px5RaiqEjihH1eSnWJLksQ1rfTlqUBYFh/KspTov5j/AM16Oc5S3xfAAAAAAElF
+TkSuQmCC
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike_se.png
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAYAAAAUufjgAAAEi0lEQVRogc3WXUhbdxjH
+8Z/RnHj0NFqUXkyhXR0bbMOrlm5jG5HduNEyi63RZpowV9uL0g6KjFHCUJhurouuunU3
+BVfozaSTSoOMVuiYrNqbzeGQ4CLLMFRq3RZ7ct5fdpFE1CbxvMXkgZCE/PPkSz6ckCKK
+Iu+ePt34ZiDQZYeJ4XkRFRXNIs+LzwKImtm1eWw0zXqvXg3ys7MhU4scDjuaml5V7PaS
+FovaAAA2AFGOEz50u/sYnhdNLWtrczmczrL3rUlLjC15f211Nfa7339dMLOssfEQaJp9
+AUCN+bTEpALBMHzrlSu35Lm5JcPLcsFs2/Q4wvNid0tLHy3LiuGFVjPbtj3/enn58XxP
+zw3D1FYzbw8Ew/CtAwNjhqmtZn4qEEBEUdSP3O7+uFFqK5nTBUIUpeHl5cd/9vbekIws
+tZI5bSAAxOOcu7//ezkUWta91ErmjIEAQqqq+o1e1W1tLkdFRVmn8bTEZAuEJMmBcPhh
+OBD4QTf10aNHwPPiczDJnDUQgByPc26//7qol7q42IYTJ96wkSTRajxv50AACMmy8okR
+ao+nwe50lpti1hK4QT04OK6r0OWqB8NwB2GCWVMgEtSeS5dGpXD4oeblVjBrDQSAPxRF
+/czj+ZzW8wFmmfUEQpLk3vn5SHRkZEIztVlmXYFIXtXd3deESOSRpjeYZdYbCABzkiQP
+uN19mqnNMBsJ1E1thtlQIHRSm2E2GggAc4qiDHd2DmqiNspsJhCCIPnv319YGx29I+90
+1iizqUAAPMPw7nPnvhGi0bWsB40ymw0EgFlBkL71ei/vSG2E2YpAiKL0sRZqI8yWBEIj
+tRHmYkvyEhMFULWw8PfLp041ODIdoiiyeGJiZj/D8CNallr1DQJIUE9N/UbfvDmd8YzL
+VQ+eFw8AqNOy09JAADzHCW0+X4BbW1tPeyDFXFpKvKdlodWBAPCTJMnf+XyBeKYDHk+D
+nSQJr5ZluQgExwkXp6Z+fZKJ2uWqhyTJz0ADc04CAcRZVmjNRK2HOVeBQJL67NnhtD/g
+WplzGQiOEy4Ggw/oYPDBU69pZc5pIBLUH7S3f0HHYluvGa3MVv5QZ5pFRVFeXFpaqWtu
+fp3Y/AJFkcXj47/s5zjhq13oyDoVJEms3r7do6rq5MZNkoLqnj0khyzMuSZOTYxlBV9H
+x+X4ZmotzLtBnJpFAC9FIo8OHj/+2gZ1ITEDSep79wa2MO/dS7HIwLxbxKmJsazgO3ny
+Uzoe5wAkmNvb3yqhKLIj3Rt2kzg1i7KsHFlZ+af22LFXCABwOstsY2M/H2BZfigPPWmn
+iiBKYpupq6udDDT+Bdutad63r5Km6XFVVSfV8+ffFSmK7Ml31JYhSeLWmTPvsKo6qU5P
+f6lWVTn/ynfT9qkiSeLfmZmhgmUGgOba2up1jpsoTGYgQX3hQhNTqMwAUONw2NdnZoYK
+lhkAvLW11etdXW9LBckMAKWlxI+HDz8vFiozkKQGoKJAmQHAC0AtWGYAKC8vvVNZWR7O
+d0e2qSkqKvoPQF0+/s1omSfJ26F8h+w0g/8DlWxWk+wEYe4AAAAASUVORK5CYII=
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike_sw.png
+
+iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAYAAAAUufjgAAAENklEQVRogc3Xb2gbZRwH
+8G/uTlnsVloySE1FqEEK+qKDQd8MFVcUoS+lyZYRW9o6N3wxcIVupCCDNjJ0s8zshVjT
+VCZsFBUn/sH5JsJgebcwOhodxcx0L9KJbZp2TZ/nufNF83SxzV3uX5b7wr25e+6e7/0+
+HCEu2Jv2/fub/1xauua2+qATJz7bmJn57XfJjlY8+/a5Q6HQ609ZfU4yeQfx+K+MEDoo
+2FGMZ+9e91Ag8Kqll15b20Aw+NE6IfQUgEU7C7YTQp8/dOglSw8ZGZkqFQpraQBfAoBt
+xHbwJpN3MDX1i0IpO8rP2TZBq7ycllI2AiDLz9tV0DJvBe3lyvO2EFvlTaUyu2h5bJmg
+Fd5SiaCvb6K4k5bHjoKWeM+ciZeWllbuYgctj2ViK7ypVAax2A8KpewdtTWWJ2iWt4J2
+DEBGbZ3VgqZ5z56dJvn88h8AJrXWWSI2y1umlQmhIQBMa62lCTY3P/Pu4OCbhl6yVCII
+BqPrhNAINGh5rBRsB9De1fWCoZsmJq5u5vPLGdSg5TFN7PW29g8MvLHHyD3p9AKi0asu
+xuQwatDymC4oScJAX98rugUYkxEIRIuMyZ8AmNN7n1liw7znzn29mc3m7wMYN7KRqQka
+5a2grfnV7oypgkZ4d9Cmje5lhtgQr1laHsMTNMI7N5c1TctjuKBeXsZkhELni4qiXIYJ
+Wh6jxLp5L178lmYyubwsKx+aalaOoQnq5c1kcohEZlj5t7Zkuh0MFtTD+/irZZ8DSFkp
+Bxgj1sVbQRux1Kwc3RPUw2snLY/ugoLgGtLitZt2e1+d6/yC4GrT4r106XsyP//3il20
+PLom6PW2Dg8Pv6XKm83mMToalwmhx2ATLY9e4nA43KM67UAgusoY+wpA0p5aj6OH2N/S
+0tTi9z9b9WIsdl1OpxdWZVkZtbfaVmpO0OfzHA+He5qqXctm8zh9+gu6uUlDANZsbwcd
+BRmTjx058lrVa8FgtEgpm0EdaHlqEavyxmLX5du3Fwr1ouXRnKAabwXtcdSJlkezoBpv
+OPxxgVL2HYAf61WMR4u4Km8icYPdujX/SJaVU/WtthXVgtV4Fxf/wcmTMUIIHQKwUvd2
+WvF6W3P37sUVRfl5+zh8uGtFEFyJJ9lDbYK7eBOJG+zmzbsbT4pWMz6f5/z4eP/25HK5
+K4rb/fQGgN5GdwOwm7en58CqKArfNLoXj7+z87kiLzc9/QGVJPFfAJ5GFwPwf96HD68p
+TU171gG83ehe26nk7e3tLjiJFqjgnZ2NOIsWADo62i5MTr7nTFoA8Pk8D3K5K46kBQD/
+wYMvFmdnI1QUhQK2/gc7Jx0dbRfGxo5y2v5G99kVn8/zoLu785EkiT81uku1+EVRkCVJ
+XIXTaIEtXgAKnEgLAB5P819OpQWAl10u1zKcSFtOBMD7jS6hlU8bXUAr/wFRejMqxKFK
+CQAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: base64
+content-type: image/png
+Content-Location: http://dgo_mht_proxy/spike_w.png
+
+iVBORw0KGgoAAAANSUhEUgAAADwAAAAeCAYAAABwmH1PAAAEA0lEQVRYhd3UTUwjZRzH
+8d8wM53pdDpYIumFNUQ02V01TSMH3U0kMZtsiAfYxGWTFZGYkOCasAdNWA52Iy/rYYnZ
+RG/ePBgPGm+aeFLJloViO4URp9iWVhDBjQulr9NnSj00DyBxtSx9Ab9JD02mz/w/k/6H
+BfA2gDcBPAVABrANIIv/eW08z33KMIwJoChJwlZTk/0uz3MfAngDgAuAUN8RKxNz4Hub
+okgTqVT2cnPzY8ylS+eY+/cT24FAeCcW21AURVplGGZxczP1HQAdgAogXvOpj9BBMK1N
+UaT3DYP0XLnyUoPH8xrb2uqErq9A0+KYmdGJqkYzwWCUSyaznCyLEdMszCaT2TkAGkoP
+IlE7Rvk9DExzOhzyaDqd67948XlmbKyPd7me/NsFiUQaqhqFpsXg94czMzOhfDi8ZuM4
+NikIvJZMZn8kxJxB6R+hAShUyVJW/wWmOWXZejOXyw90drYX/wl+sEjkd2haDJoWh9e7
+uD0/v8ysrf1pUxRpFUBwayv9PfbW4rejMcqvXDDt0PD9GQaBpsWgqlEEg1Hi8y1lNC0u
+EGIWbTYxnMvlpzMZYx7AHEoPo+JrcVgwzWm3W4cJKbx14YK74caNHsv582cfeYiNjc19
+axHJzs6GSCy2IYmiZVMUeW17OzOXz++uhY4jrMWjgmmNomh5t1gsvtPe/jQ7MdFv6eh4
+7ohHlioUdqDrK9D1Ffh8Szs+31Ja0+INDx4kBVkWf0VpLe5i7yW5Uc65RwXTqgY/WCKR
+hqbFoaoRaFrc8HoXSSi0KjAMY9hs4i+GQe6lUtkg9tYivf/3lQLTagY/WDz+B1Q1Al1f
+hde7mF1YiJnLy+t2u926Lgj8z1tb6SnTLMxXGkyzWa2WQYZh3jt9+pTg8VwVu7perNKt
+Hp5hEOj6ClQ1ikAgsuP3h1PVAtMEnueu8Tx7s7XVKd661S/UA76/aoNpxwZeKzBN4Hnu
+miDwIy0tj8vj433W7u5zYNmGmg1QazCNBdAry9YPmprsTaOjrwu9vS/XBF4vMK3m8HqD
+abtwh0N2jI31idWCHxcwjQXwqqJI4zab2DI8fFkcHHwFgsBX7AbHDby/LkWRJjmOfcLj
+uWqpFPw4g2kVhbMVHKxahQyDfJTN5hempn5y37nzlSyKFu7MmVMQRcuhDzsJYFqIEPPj
+XC5/b3paPzs5+WUzIQXW7W47FPwkgWnLhkE+IcT8IRCIPHtY+EkE0+IU7veHn7l9+4tm
+QkzG7W5j/g1+El5a5dZht1tHC4WdFwYGOrmRkZ4Gp9NR75lqkqux0fYtz3Pm9evdhfX1
+z4rF4je7n3oPV8124UNDXYTC6z1ULXJJkvA1x7FkaKiL1HuYWuZSFOnzvwDKE9bzLQLg
+LAAAAABJRU5ErkJggg==
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: quoted-printable
+content-type: text/plain
+Content-Location: http://dgo_mht_proxy/_default.txt
+
+_default
+version_ : 2
+useGIFs_ : 0
+newStyle_ : 0
+animateButtons_ : 0
+imagesBorderWidth_ : 1
+innerBorder_ : 9
+spikeDockOverlap_ : 0
+spikeDockWidth_ : 20
+spikeLength_ : 60
+useConnects_ : 1
+captionInnerHeight_ : 9
+captionBorderHeight_ : 1
+images_min_moz_offX_ : -2
+images_min_moz_offY_ : 2
+images_close_moz_offX_ : -7
+images_close_moz_offY_ : 2
+
+
+------=_datango-MIME-bound
+content-disposition: attachment
+content-transfer-encoding: quoted-printable
+content-type: text/xml
+Content-Location: http://dgo_mht_proxy/_default.xml
+
+=EF=BB=BF<?xml version=3D"1.0" encoding=3D"UTF-8"?>
+<BubbleStyle Name=3D"_default" DisplayName=3D"Standard" Template=3D"com=
+ic" TextStyle=3D"StyleA" BorderColor=3D"000000" BackgroundColor=3D"FFFF=
+B7" TitleBarColor=3D"36A4FF" ConstantAlpha=3D"255" IsDefault=3D"1" Vers=
+ion=3D"2" BorderSize=3D"1" SpikeDockWidth=3D"20" SpikeLength=3D"60" Inn=
+erHeight=3D"9" CaptionBorder=3D"1" UseGIFs=3D"0">
+    <Margin left=3D"10" top=3D"12" right=3D"10" bottom=3D"10"/>
+    <ImageFragment id=3D"corner_nw"/>
+    <ImageFragment id=3D"corner_ne"/>
+    <ImageFragment id=3D"corner_sw"/>
+    <ImageFragment id=3D"corner_se"/>
+    <ImageFragment id=3D"corner1_nw"/>
+    <ImageFragment id=3D"corner1_ne"/>
+    <ImageFragment id=3D"edge_n"/>
+    <ImageFragment id=3D"edge_s"/>
+    <ImageFragment id=3D"edge_w"/>
+    <ImageFragment id=3D"edge_e"/>
+    <ImageFragment id=3D"edge1_n"/>
+    <ImageFragment id=3D"edge0_s"/>
+    <ImageFragment id=3D"edge0_w"/>
+    <ImageFragment id=3D"edge0_e"/>
+    <ImageFragment id=3D"edge0_n"/>
+    <ImageFragment id=3D"edge01_n"/>
+    <ImageFragment id=3D"spike_nw"/>
+    <ImageFragment id=3D"spike_n"/>
+    <ImageFragment id=3D"spike_ne"/>
+    <ImageFragment id=3D"spike_w"/>
+    <ImageFragment id=3D"spike_e"/>
+    <ImageFragment id=3D"spike_sw"/>
+    <ImageFragment id=3D"spike_s"/>
+    <ImageFragment id=3D"spike_se"/>
+    <ImageFragment id=3D"spike1_nw"/>
+    <ImageFragment id=3D"spike1_n"/>
+    <ImageFragment id=3D"spike1_ne"/>
+    <ImageFragment id=3D"mini"/>
+    <ImageFragment id=3D"miniactive"/>
+    <ImageFragment id=3D"connect_nw"/>
+    <ImageFragment id=3D"connect1_nw"/>
+    <ImageFragment id=3D"connect_n"/>
+    <ImageFragment id=3D"connect1_n"/>
+    <ImageFragment id=3D"connect_ne"/>
+    <ImageFragment id=3D"connect1_ne"/>
+    <ImageFragment id=3D"connect_w"/>
+    <ImageFragment id=3D"connect_e"/>
+    <ImageFragment id=3D"connect_sw"/>
+    <ImageFragment id=3D"connect_s"/>
+    <ImageFragment id=3D"connect_se"/>
+    <ImageFragment id=3D"min">
+        <ClickRect left=3D"-1" top=3D"-1" right=3D"-1" bottom=3D"-1"/>
+    </ImageFragment>
+    <ImageFragment id=3D"max"/>
+    <ImageFragment id=3D"close">
+        <ClickRect left=3D"-1" top=3D"-1" right=3D"-1" bottom=3D"-1"/>
+    </ImageFragment>
+    <ImageFragment id=3D"min_moz" offset_x=3D"-2" offset_y=3D"2"/>
+    <ImageFragment id=3D"max_moz"/>
+    <ImageFragment id=3D"close_moz" offset_x=3D"-7" offset_y=3D"2"/>
+    <ImageFragment id=3D"sizer"/>
+</BubbleStyle>
+
+
+------=_datango-MIME-bound

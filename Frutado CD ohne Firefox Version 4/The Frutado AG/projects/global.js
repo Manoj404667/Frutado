@@ -1,0 +1,16 @@
+window.cfg_startpage='projects/start_${mode}.html';
+window.cfg_stoppage='projects/stop_${mode}.html';
+window.cfg_errorpage='error.html';
+window.cfg_verbose=0;
+window.cfg_keys_invertedkeys_PLAY='';
+window.cfg_keys_invertedkeys_STOP='';
+window.cfg_keys_invertedkeys_PAUSE='';
+window.cfg_keys_invertedkeys_PREV='';
+window.cfg_keys_invertedkeys_BACK='';
+window.cfg_keys_invertedkeys_NEXT='';
+window.cfg_mediaqualities='.mp3.wav';
+window.cfg_mute=false;
+window.cfg_defaultmediaquality=1;
+window.cfg_gzip=false;
+window.cfg_passive=true;
+window.cfg_css='bubble_${mode}.css';

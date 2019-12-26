@@ -1,0 +1,10 @@
+window.cfg_keys_invertedkeys_PLAY='space,enter,right';
+window.cfg_keys_invertedkeys_STOP='f12';
+window.cfg_keys_invertedkeys_PAUSE='pause';
+window.cfg_keys_invertedkeys_PREV='shift_f8';
+window.cfg_keys_invertedkeys_BACK='left';
+window.cfg_keys_invertedkeys_NEXT='right';
+window.cfg_window_cfg_features_fullscreen=1;
+window.cfg_guilanguage='EN';
+window.cfg_contentlanguage='EN';
+window.cfg_mousetick=50;

@@ -1,0 +1,241 @@
+﻿# English text atoms
+# Base tokens
+BULLET;	•
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	หลักสูตรของ @{TOK_COMPANY}
+TOK_TOUR;	บทเรียนของ @{TOK_COMPANY}
+TOK_TRAINER;@{TOK_COMPANY} trainer"
+
+# Key names
+ALTKEY;	Alt
+CTRLKEY;	Ctrl
+LEFTALTKEY;	Alt (ซ้าย)
+LEFTCTRLKEY;	Ctrl (ซ้าย)
+LEFTSHIFTKEY;	Shift (ซ้าย)
+ON;	เปิด
+OFF;	ปิด
+RIGHTALTKEY;	Alt (ขวา)
+RIGHTCTRLKEY;	Ctrl (ขวา)
+RIGHTSHIFTKEY;	Shift (ขวา)
+SHIFTKEY;	Shift
+
+# Trainer states	
+TOK_BUFFERING;	กำลังโหลดเสียง...
+TOK_CONNECTING;	เชื่อมต่อ...
+TOK_IDLE;	
+TOK_LMS;	เขียนผลคะแนน...
+TOK_OPENING;	เชื่อมต่อ...
+TOK_OPEN;	
+TOK_PAUSED;	หยุดชั่วคราว
+TOK_PLAYING;	กำลังเล่น
+TOK_READY;	พร้อม
+TOK_USERINPUT;	ป้อนข้อมูล
+TOK_WAITING;Page loading..."	
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">ไม่สามารถแสดงชุดเฟรมที่นี่</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">ไม่สามารถแสดงเอกสารที่มี IFRAME ที่นี่</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	ตัวบล็อกป็อปอัพทำให้ไม่สามารถเปิดเล่นบทเรียนได้
+TOK_POPUPBLOCKER_CONFIRM;	ตัวบล็อกป็อปอัพป้องกันไม่ให้หน้าต่างเบราว์เซอร์ใหม่เปิดขึ้นมา @{NEWLINE}@{NEWLINE}ตกลง: คุณสามารถดำเนินการต่อได้หลังจากปิดตัวบล็อกป็อปอัพ @{NEWLINE}    สำหรับเว็บเซิร์ฟเวอร์ @{NEWLINE}ยกเลิก: กำลังจะศึกษาบทเรียนนี้เสร็จ
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	"การตั้งค่าการรักษาความปลอดภัยของ Internet Explorer\n\rป้องกันไม่ให้มีการแสดงผลของ @{TOK_TOUR}\nโปรดเปิดใช้งาน \n""อนุญาตให้มีหน้าต่างที่สร้างจากสคริปต์โดยไม่มีข้อจำกัดด้านขนาดและตำแหน่ง""! "
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	"ไม่สามารถอ่าน @1 ""@2"""
+TOK_COULD_NOT_READ2_EXC;	"ไม่สามารถอ่าน @1 ""@2"": @3"
+
+# Form texts	
+TOK_CLOSE;	ปิด
+TOK_DIR;	ไดเรกทอรี
+TOK_ERROR;	ข้อผิดพลาด
+TOK_EXIT;	ออก
+TOK_OPEN;	เปิด
+TOK_SEARCH;	ค้นหา
+TOK_START;	เริ่ม
+TOK_START_TOUR;	เริ่ม @{TOK_TOUR}
+TOK_STOP;	หยุด
+
+# Library	
+TOK_LIB_BTN_LESS;	น้อยกว่า...
+TOK_LIB_BTN_MORE;	มากกว่า...
+TOK_LIB_EMPTY;	คอมโพเนนต์ว่างเปล่า
+TOK_LIB_FLAG_DESC;	ค้นหาคำอธิบาย
+TOK_LIB_FLAG_KEEP_OPEN;	เปิดโครงสร้างหลักสูตรค้างไว้
+TOK_LIB_FLAG_NEWWIN;	ในหน้าต่างใหม่
+TOK_LIB_FLAG_TITLE;	ค้นหาชื่อเรื่อง
+TOK_LIB_RESET;	ลบผลลัพธ์จากการค้นหา
+TOK_LIB_VAL_NOFILTER; no filter"	
+
+# Mimetypes	
+MIME_TEXT_PDF;	รูปแบบ PDF - Adobe Acrobat
+MIME_APP_MSWORD;	เอกสาร Word
+MIME_APP_EXCEL;	กระดาษคำนวณ Excel
+MIME_APP_PPT;	ภาพนิ่ง Powerpoint
+MIME_APP_OOFF;	เอกสาร OpenOffice
+MIME_APP_OOFFWRITE;	ข้อความ OpenOffice
+MIME_APP_OOFFCALC;	กระดาษคำนวณ OpenOffice
+MIME_APP_OOFFIMPRESS;	การนำเสนอ OpenOffice
+MIME_APP_OOFFMATH;	สูตรคณิตศาสตร์ OpenOffice
+MIME_AUDIO;	เสียง
+MIME_VIDEO;	ภาพ
+MIME_TEXT_HTML;	เว็บเพจ
+MIME_TEXT;	เอกสารข้อความ
+MIME_APP_DGO;	บทเรียนของ @{TOK_COMPANY}
+MIME_APP_DGO_DEMO;	ตัวอย่างของ @{TOK_COMPANY}
+MIME_APP_DGO_PRACTISE;	การฝึกปฏิบัติของ @{TOK_COMPANY}
+MIME_APP_DGO_TEST;	แบบทดสอบของ @{TOK_COMPANY}
+MIME_APP_DGO_CONCURRENT;	โหมดทวนบทเรียนของ @{TOK_COMPANY}
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY;""Continue (F8);	"เริ่มอีกครั้งด้วย """"Alt"""": """
+TIP_PAUSE;""Stop (PAUSE);	"เพิ่มคุณภาพเสียงด้วย """"Shift"""": บันทึกช่วงแบนด์วิดท์เสียงด้วย """"Alt"""":"""
+TIP_STOP;""Exit (F12);	" แสดงเวอร์ชันด้วย """"Shift"""": """
+TIP_NEXT;	บทต่อไป (ALT-down)
+TIP_BACK;	"บทก่อนหน้า (ALT-up); แสดงหลักสูตรด้วย ""Alt"":"
+TIP_MAXBUBBLE;	คืนค่ากรอบคำพูด
+TIP_MINBUBBLE;	ย่อกรอบคำพูดให้เล็กสุด
+TIP_CLOSEBUBBLE;	เอากรอบคำพูดออก
+TIP_ENABLED;	
+TIP_DISABLED;	(ไม่สามารถทำได้ในขณะนี้)
+TIP_TASK;	งาน
+TOK_CLOSE_TASK;	ปิด @{TIP_TASK}
+TIP_HELPBUBBLE;	ใช่ แสดงวิธีใช้
+TIP_GOONBUBBLE;	ไปที่ขั้นตอนถัดไป
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW;	ปิดหน้าต่าง
+TOK_BP_GOBACK;	ย้อนกลับ
+TOK_BP_GOON;	ถัดไป
+TOK_BP_JSCONSOLE;	ข้อความจาวาสคริปต์
+TOK_BP_MODE;	โหมด
+TOK_BP_PARAMETER;	พารามิเตอร์
+TOK_BP_RESTARTPROGRAM;	เล่นซ้ำโปรแกรม
+TOK_BP_STARTANOTHER;	เริ่มโปรแกรมใหม่
+TOK_BP_VALUE;	ค่า
+
+# Exercise colors	
+EXER_COLOR_ERROR;	ทำเป็นสีแดง
+EXER_COLOR_CLICK;	ทำเป็นสีเขียว
+EXER_COLOR_DBLCLICK;	ทำเป็นสีเหลือง
+EXER_COLOR_RCLICK;	ทำเป็นสีเทอร์คอยส์
+EXER_COLOR_CHANGE;	ขีดเส้นใต้เป็นสีเขียว
+EXER_COLOR_DRAG;	ทำเป็นสีฟ้า
+EXER_COLOR_DROP;	ทำเป็นสีน้ำตาล
+
+# Exercises	
+EXER_AND;	@{NEWLINE}และ@{NEWLINE}
+EXER_FAIL0;	การกระทำที่ดำเนินการไม่ถูกต้อง
+
+EXER_FAIL1;	การกระทำที่ดำเนินการไม่ถูกต้อง คุณจะถูกหัก 1 คะแนน คะแนนที่เหลือสำหรับการกระทำนี้คือ: @1_rest-points_
+EXER_FAIL2;	การกระทำที่ดำเนินการไม่ถูกต้อง คุณจะถูกหัก @1_points-penalty_ points คะแนน คะแนนที่เหลือสำหรับการกระทำนี้คือ: @2_rest-points_ points
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}ต้องการความช่วยเหลือหรือไม่
+
+EXER_FAILCHANGE;	คุณแก้ไขผิดช่อง@{NEWLINE}
+EXER_FAILCHANGE_HELP;	ช่องที่ถูกแก้ไขคือ @{EXER_COLOR_ERROR} @{NEWLINE}ช่องป้อนข้อมูลทั้งหมดที่แก้ไขได้คือ @{EXER_COLOR_CHANGE}
+EXER_FAILCHANGE_NOMARK_HELP;	ช่องป้อนข้อมูลทั้งหมดที่ถูกต้องคือ @{EXER_COLOR_CHANGE}
+EXER_FAILCHANGE0_HELP;	ไม่อนุญาตให้แก้ไขช่องป้อนข้อมูลในขณะนี้ @{NEWLINE}ช่องที่ถูกแก้ไขคือ @{EXER_COLOR_ERROR}
+EXER_FAILCHANGE0_NOMARK_HELP;	ไม่มีช่องป้อนข้อมูลที่ถูกต้อง
+
+EXER_FAILCLICK;	คุณคลิกผิดปุ่ม@{NEWLINE}
+EXER_FAILCLICK_HELP;	พื้นที่ที่ถูกคลิกคือ @{EXER_COLOR_ERROR} @{NEWLINE}ปุ่มทั้งหมดที่สามารถคลิกได้คือ @{EXER_COLOR_CLICK}
+EXER_FAILCLICK_NOMARK_HELP;	ปุ่มทั้งหมดที่ถูกต้องคือ @{EXER_COLOR_CLICK}
+EXER_FAILCLICK0_HELP;	ไม่อนุญาตให้คลิกได้ในขณะนี้ @{NEWLINE}พื้นที่ที่ถูกคลิกคือ @{EXER_COLOR_ERROR}
+EXER_FAILCLICK0_NOMARK_HELP;	ไม่สามารถคลิกได้
+
+EXER_FAILDRAG;	คุณลากพื้นที่ที่ไม่ถูกต้อง@{NEWLINE}
+EXER_FAILDRAG_HELP;	พื้นที่ที่ถูกลากคือ @{EXER_COLOR_ERROR} @{NEWLINE}พื้นที่ทั้งหมดที่ลากได้คือ @{EXER_COLOR_DRAG}
+EXER_FAILDRAG_NOMARK_HELP;	พื้นที่ทั้งหมดที่ถูกต้องคือ @{EXER_COLOR_DRAG}
+EXER_FAILDRAG0_HELP;	ไม่อนุญาตให้ทำการลากได้ในขณะนี้ @{NEWLINE}พื้นที่ที่ถูกลากคือ @{EXER_COLOR_ERROR}
+EXER_FAILDRAG0_NOMARK_HELP;	ไม่สามารถทำการลากได้
+
+EXER_FAILDROP;	คุณวางพื้นที่ที่ไม่ถูกต้อง@{NEWLINE}
+EXER_FAILDROP_HELP;	พื้นที่ที่คุณวางคือ @{EXER_COLOR_ERROR} @{NEWLINE}พื้นที่ทั้งหมดที่คุณวางได้คือ @{EXER_COLOR_DROP}
+EXER_FAILDROP_NODRAG_HELP;	@{NEWLINE} (หากไม่มีพื้นที่ที่ลากได้ คุณสามารถคลิกที่องค์ประกอบการลาก)
+EXER_FAILDROP_NOMARK_HELP;	พื้นที่ทั้งหมดที่ถูกต้องคือ @{EXER_COLOR_DROP}
+EXER_FAILDROP0_HELP;	ไม่อนุญาตให้ทำการวางในขณะนี้ @{NEWLINE}พื้นที่ที่คุณวางได้คือ @{EXER_COLOR_ERROR}
+EXER_FAILDROP0_NOMARK_HELP;	ไม่สามารถทำการวางได้
+
+EXER_FAILDBLCLICK;	คุณคลิกสองครั้งบนพื้นที่ที่ไม่ถูกต้อง @{NEWLINE}
+EXER_FAILDBLCLICK_HELP;	พื้นที่ที่ถูกคลิกสองครั้งคือ @{EXER_COLOR_ERROR} @{NEWLINE}ปุ่มทั้งหมดที่คลิกสองครั้งได้คือ @{EXER_COLOR_DBLCLICK}
+EXER_FAILDBLCLICK_NOMARK_HELP;	ปุ่มทั้งหมดที่คลิกสองครั้งได้คือ @{EXER_COLOR_DBLCLICK}
+EXER_FAILDBLCLICK0_HELP;	ไม่อนุญาตให้คลิกสองครั้งได้ในขณะนี้ @{NEWLINE}พื้นที่ที่ถูกคลิกคือ @{EXER_COLOR_ERROR}
+EXER_FAILDBLCLICK0_NOMARK_HELP;	การคลิกสองครั้งไม่ถูกต้อง
+
+EXER_FAILRCLICK;	คุณคลิกขวาพื้นที่ที่ไม่ถูกต้อง@{NEWLINE}
+EXER_FAILRCLICK_HELP;	พื้นที่ที่ถูกคลิกขวาคือ @{EXER_COLOR_ERROR}.@{NEWLINE}ปุ่มทั้งหมดที่คลิกขวาได้คือ @{EXER_COLOR_RCLICK}
+EXER_FAILRCLICK_NOMARK_HELP;	ปุ่มทั้งหมดที่คลิกขวาได้คือ @{EXER_COLOR_RCLICK}
+EXER_FAILRCLICK0_HELP;	ไม่อนุญาตให้คลิกขวา ณ คะแนนตอนนี้@{NEWLINE}พื้นที่ที่ถูกคลิกคือ @{EXER_COLOR_ERROR}
+EXER_FAILRCLICK0_NOMARK_HELP;	คลิกขวาไม่ถูกต้อง
+
+EXER_FAILKEY_HELP0;	คุณกดปุ่มผิด
+EXER_FAILKEY_HELP1;	"คุณกดปุ่ม ""@1_key_"""
+EXER_FAILKEY_HELP2;	@{NEWLINE}Function keys which can be used are:@{NEWLINE}@1_keys_
+
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}การกระทำอื่นๆ ที่อนุญาตคือ:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} แก้ไข (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} คลิก (ปุ่มคือ @{EXER_COLOR_CLICK})
+EXER_HINT_DRAG_MARKED;	@{NEWLINE}@{BULLET} ลาก (องค์ประกอบคือ  @{EXER_COLOR_DRAG})
+EXER_HINT_DROP_MARKED;	@{NEWLINE}@{BULLET} วาง (องค์ประกอบคือ @{EXER_COLOR_DROP})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} คลิกสองครั้ง (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(หมายเหตุ: คะแนนทั้งหมดจากการกระทำนี้จะถูกหักออกจากคะแนนสุดท้ายของคุณ)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} การกดปุ่มฟังก์ชัน@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}การกระทำที่อนุญาตคือ:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} คลิกขวา (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(หมายเหตุ: ไม่เช่นนั้นการดำเนินการต่อจะเกิดขึ้นโดยอัตโนมัติ)
+EXER_HINT_YOURINPUT;	"คุณได้ป้อน ""@1_input_""@{NEWLINE}"
+EXER_OR;	@{NEWLINE}หรือ@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	"โปรดยกเลิกการเลือกตัวเลือก ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"โปรดเลือกหรือยกเลิกการเลือกตัวเลือก ""@1""!"
+MSG_SCORE;	"คะแนนที่ได้: ""@1"""
+MSG_SINGLE_SELECT;	"โปรดเลือกรายการ ""@1""!"
+MSG_TEXTINPUT;	"โปรดป้อน ""@1"" ลงในช่องป้อนข้อมูล ""@2""!"
+MSG_TRANSACTIONCODE;	"โปรดป้อนรหัสทรานแซคชันที่ถูกต้อง ""@1""!"
+
+# Producer bracepages	
+capDemoStart;	โหมดตัวอย่าง
+msgDemoStart1;	ในโหมดตัวอย่าง คุณสามารถดูกิจกรรมที่ทำเสร็จสมบูรณ์ภายในโปรแกรม คุณสามารถปฏิบัติตามตัวอย่างได้อย่างง่ายดาย ขณะที่การกระทำทั้งหมดจะดำเนินไปโดยอัตโนมัติ
+msgDemoStart2;	เมื่อใช้แถบนำทางที่ด้านล่างของหน้าจอ คุณสามารถหยุดตัวอย่างชั่วคราวหรือหยุดตัวอย่างได้ นอกจากนี้ คุณยังสามารถข้ามไปยังขั้นตอนถัดไปหรือถอยกลับไปที่ขั้นตอนก่อนหน้า
+msgDemoStop;	เสร็จสิ้นโหมดตัวอย่าง
+
+capConcurrentStart;	โหมดทวนบทเรียน
+msgConcurrentStart1;	โหมดทวนบทเรียนแสดงวิธีทำกิจกรรมหนึ่งๆ ให้เสร็จสมบูรณ์ภายในโปรแกรม
+msgConcurrentStart2;	ตัวอย่างจะหยุดชั่วคราวหลังจากผ่านพ้นแต่ละขั้นตอนเพื่อให้คุณมีโอกาสทำตามขั้นตอนนั้นให้เสร็จในการใช้งานจริง
+msgConcurrentStop;	เสร็จสิ้นโหมดทวนบทเรียน
+
+capTestStart;	โหมดทดสอบ
+msgTestStart1;	ในโหมดทดสอบ คุณสามารถทดสอบความรู้ของคุณได้ด้วยการทำกิจกรรมที่อยู่ภายในโปรแกรมให้เสร็จด้วยตัวคุณเอง: นอกจากข้อมูลตัวอย่างที่คุณต้องป้อนแล้ว คุณจะไม่ได้รับคำแนะนำทีละขั้นตอนใดๆ อีก งานที่คุณต้องทำให้เสร็จจะปรากฏอยู่ในหน้าต่างงาน ซึ่งคุณสามารถขยายหรือย่อตามจำเป็นโดยใช้ปุ่มต่างๆ ที่ด้านบนของบานหน้าต่างงาน
+msgTestStart2;	เมื่อทำแบบทดสอบเสร็จ คุณจะได้รับคะแนนตามจำนวนขั้นตอนที่คุณทำเสร็จและทำได้ถูกต้อง การคิดคะแนนนี้มีจุดประสงค์เพื่อประเมินผลตัวคุณเองเท่านั้น และจะไม่ถูกนำมาประมวลผลหรือเก็บไว้!
+msgTestStart3;	โปรดทำสิ่งต่างๆ ด้วยความระมัดระวังเนื่องจากระบบจะลงทะเบียนข้อมูลที่มีคำสะกดผิดและการคลิกผิด พร้อมหักคะแนนของคุณ  จำไว้ว่าต้องกรอกข้อมูลในช่องบังคับจากด้านบนลงมาที่ด้านล่าง และจากด้านซ้ายไปขวา ในกรณีที่คุณคลิกผิดช่องหรือป้อนค่าที่ไม่ถูกต้อง ระบบจะแสดงข้อความเตือน และคุณจะถูกหักคะแนน ถ้าคุณเลือกรับความช่วยเหลือจากระบบเพื่อทำขั้นตอนหนึ่งๆ ให้เสร็จ คะแนนสำหรับขั้นตอนเฉพาะขั้นตอนนี้ของคุณจะถูกตั้งเป็นศูนย์ 
+msgTestStart4;	คะแนนรวมของคุณจะปรากฏขึ้นเมื่อสิ้นสุดการทดสอบ กรุณาพยายามทำคะแนนตามเป้าที่ @{res_mastery_percent}% สำหรับขั้นตอนต่างๆ ที่ถูกต้องและสมบูรณ์
+capTestOk;	ผ่านการทดสอบ
+capTestFailed;	ไม่ผ่านการทดสอบ
+msgTestFailed1;	เนื่องจากคุณทำคะแนนได้ไม่ถึง @{res_mastery_percent}% เราขอแนะนำให้คุณกลับไปทบทวนเนื้อหาในหลักสูตรการฝึกอบรมอีกครั้ง ก่อนทำการทดสอบความรู้ของคุณใหม่ในโหมดทดสอบ
+msgTestFinished2;	การทดสอบนี้มีจุดประสงค์เพื่อประเมินผลตัวคุณเองเท่านั้น ผลคะแนนที่ได้จะไม่ถูกบันทึกหรือรายงานให้กับผู้อื่น
+msgTestOk1;	ขอแสดงความยินดี คุณสำเร็จหลักสูตรของกิจกรรมแล้ว
+msgTestResult;	ผลลัพธ์
+msgTestScore;	คะแนน
+msgTestScoreValue;	@{res_collected_points} ของ @{res_possible_points}
+
+capPracticeStart;	โหมดฝึกปฏิบัติ
+msgPracticeStart1;	ในโหมดฝึกปฏิบัติ คุณสามารถลองทำสิ่งที่คุณได้เรียนรู้มาด้วยการทำงานหนึ่งๆ ให้เสร็จสมบูรณ์ด้วยตัวคุณเอง
+msgPracticeStart2;	คุณจะได้รับคำแนะนำทีละขั้นตอน และคุณต้องปฏิบัติตาม
+msgPracticeStop;	เสร็จสิ้นโหมดฝึกปฏิบัติ
+
+# New messages
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+# New messages end
+
+# eof

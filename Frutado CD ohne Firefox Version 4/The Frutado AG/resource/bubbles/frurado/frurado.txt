@@ -1,0 +1,18 @@
+frurado
+version_ : 2
+useGIFs_ : 0
+newStyle_ : 0
+animateButtons_ : 0
+imagesBorderWidth_ : 1
+innerBorder_ : 9
+spikeDockOverlap_ : 0
+spikeDockWidth_ : 20
+spikeLength_ : 60
+useConnects_ : 1
+captionInnerHeight_ : 9
+captionBorderHeight_ : 1
+textStyle_ : "StyleB"
+images_min_moz_offX_ : -2
+images_min_moz_offY_ : 2
+images_close_moz_offX_ : -7
+images_close_moz_offY_ : 2

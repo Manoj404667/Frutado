@@ -1,0 +1,173 @@
+/* datango3/xbrowser.XZL shifted left by 157px */
+
+BODY {
+  border-top: 1px solid black;
+  background: #336699;
+  background-image: url(background57.gif);
+  margin: 0px;
+  padding: 0px;
+}
+
+IMG {
+  border: 0px;
+}
+
+#CtrlBack {
+  position: absolute;
+  z-index: 30;
+  left: 57px;
+  top: 4px;
+  width: 21px;
+  height: 20px;
+  visibility: visible;
+}
+
+#CtrlStop {
+  position: absolute;
+  z-index: 30;
+  left: 2px;
+  top: 4px;
+  width: 21px;
+  height: 20px;
+  visibility: visible;
+}
+
+#CtrlPause {
+  position: absolute;
+  z-index: 30;
+  left: 78px;
+  top: 4px;
+  width: 21px;
+  height: 20px;
+  visibility: visible;
+}
+
+#CtrlPlay {
+  position: absolute;
+  z-index: 30;
+  left: 99px;
+  top: 4px;
+  width: 21px;
+  height: 20px;
+  visibility: visible;
+}
+
+#CtrlNext {
+  position: absolute;
+  z-index: 30;
+  left: 120px;
+  top: 4px;
+  width: 21px;
+  height: 20px;
+  visibility: visible;
+}
+
+#Task {
+  position: absolute;
+  z-index: 30;
+  left: 325px;
+  top: 4px;
+  width: 21px;
+  height: 20px;
+  visibility: hidden;
+}
+
+/* tourstopps */
+#Synopsis {
+  position: absolute;
+  z-index: 21;
+  left: 352px;
+  top: 5px;
+  width: 250px;
+  height: 16px;
+  visibility: hidden;
+  /*debug*/
+ border: 0px solid black;
+}
+
+.XBg {
+  /* cursor: pointer/hand; not portable, thus must be set programmatically*/
+}
+
+#SynopsisTitle {
+  position: absolute;
+  z-index: 20;
+  left: 353px;
+  top: 7px;
+  width: 400px;
+  height: 27px;
+  visibility: visible;
+}
+
+#Ruler {
+  position: absolute;
+  z-index: 17;
+  left: 353px;
+  top: 7px;
+  width: 100px;
+  height: 4px;
+  visibility: visible;
+  display: none;
+}
+
+#Timeline {
+  position: absolute;
+  z-index: 19;
+  left: 353px;
+  top: 7px;
+  width: 250px;
+  height: 2px;
+  visibility: visible;
+}
+
+#Timeline0 {
+  position: absolute;
+  z-index: 18;
+  left: 353px;
+  top: 6px;
+  width: 250px;
+  height: 4px;
+  visibility: invisible;
+}
+
+#StatusText {
+  position: absolute;
+  z-index: 20;
+  left: 145px;
+  top: 5px;
+  width: 150px;
+  height: 27px;
+  visibility: visible;
+  text-align: left;
+}
+
+#StatusTime {
+  position: absolute;
+  z-index: 20;
+  left: 270px;
+  top: 5px;
+  width: 48px;
+  height: 27px;
+  visibility: visible;
+  text-align: right;
+}
+
+.TextDisplay {
+  font: 11px sans-serif;
+  color: #FFFFFF;
+  line-height: 18px;
+}
+
+.TextSelector {
+  font: 11px sans-serif;
+}
+
+#SlimBrand {
+  position: absolute;
+  z-index: 11;
+  left: 230px;
+  top: 7px;
+  width: 42px;
+  height: 14px;
+  visibility: hidden;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>datango Trainer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<noscript>
+  <link rel=stylesheet href="!start.css">
+  <body>
+    <table cellpadding=0 cellspacing=1 width=100% ID="Table1"><tr>
+    <td><img style="border: 0px solid black;" src="skin/datango_logo.gif"></td>
+    <td class="title2" style="padding: 0px;" width=100% valign=top>
+      <table border=0 class="title" cellpadding=0 cellspacing=0 width=100% ID="Table2">
+      <tr height=50%>
+      <td id=title class="title" style="color: #a00000;" nowrap
+        >datango Trainer <span style="font-size: 80%;">not available</span></td>
+      </tr><tr>
+      <td class="title2" style="color: #ff0000;">(Javascript is turned off)</td>
+      </tr></table>
+    </td></tr></table>
+  </body>
+</noscript>
+
+<script src="./jswidget/callback.js" language=javascript></script>
+<script src="./jswidget/check.js" language=javascript></script>
+<script src="./jswidget/url.js" language=javascript></script>
+<script src="./jswidget/dhtml.js" language=javascript></script>
+<script src="./jswidget/js_extensions.js" language=javascript></script>
+<script src="./jswidget/config.js" language=javascript></script>
+<script src="./boot_helper.js" language=javascript></script>
+<script src="./boot.js" language=javascript></script>
+<script src="./param.js" language=javascript></script>
+<script src="./boot1.js" language=javascript></script>
+
+<script language=javascript>
+
+function dgoRescueStartpage(url_, name_, timeout_) {
+    var doc = self.document;
+
+    if (!self.document.body ||
+        !self.document.body.tagName ||
+        self.document.body.tagName != 'BODY' ||
+        !self.document.body.id ||
+        self.document.body.id != "dgo_body")
+    {
+        var html = '<body onload="self.setTimeout(' +
+                   "'self.dgoRescueAppStart()'" + ', ' +
+                   (timeout_ || 0) + ' * 1000)"><p>';
+        html += '<a href="' + url_ + '">Manual ' + (name_ || 'application') +
+                ' start</a><br>';
+        html += '<a href="' + url_ + '">Manueller Start ' +
+                (name_ ? 'von <b>' + name_ + '</b>' : 'der Anwendung') + '</a>';
+        html += '</p><' + 'script language=javascript>';
+        html += 'function dgoRescueAppStart() {';
+
+        if (timeout_) {
+            html += '  self.location = "' + url_ + '";';
+        }
+        html += '}</' + 'script></body>';
+
+        doc.writeln(html);
+        doc.close();
+    }
+}
+
+function dgoRescueInit() {
+    var dgoUrlParam = new String(self.location.search);
+    if (dgoUrlParam.substr(0,1) == '?') {
+        dgoUrlParam = dgoUrlParam.substr(1);
+    }
+
+    var paramArray = dgoUrlParam.split('&');
+    var appname = '';
+    var appurl = '';
+    var apptimeout = '';
+    var startpage = '';
+    var startpagename = '';
+    var startpagetimeout = 0;
+    var param, name, value;
+
+    for (i = 0; i < paramArray.length; ++i) {
+        param = paramArray[i].split('=', 2);
+        name = param[0];
+        value = unescape(param[1]);
+
+        switch (name) {
+        case 'startpage':        startpage = value;         break;
+        case 'startpagename':    startpagename = value;     break;
+        case 'startpagetimeout': startpagetimeout = value;  break;
+        case 'appname':          appname = value;           break;
+        case 'appurl':           appurl = value;            break;
+        case 'apptimeout':       apptimeout = value;        break;
+        default: break;
+        }
+    }
+
+    if (startpage) {
+        var param = '';
+
+        if (appname) {
+            param += '&appname=' + escape(appname);
+        }
+
+        if (appurl) {
+            param += '&appurl=' + escape(appurl);
+        }
+
+        if (apptimeout) {
+            param += '&apptimeout=' + escape(apptimeout);
+        }
+
+        if (param) {
+            startpage +=
+                (startpage.indexOf('?') >= 0 ? '&' : '?') + param.substr(1);
+        }
+
+        self.dgo.RescueInitId = self.setTimeout(
+            'self.dgoRescueStartpage("' + startpage + '", "' +
+            startpagename + '", ' + startpagetimeout + ')', 5000);
+    }
+}
+
+// datango global boot object.
+self.dgo = {};
+dgoRescueInit();
+
+var DHtml_isIE = (navigator.appName == 'Microsoft Internet Explorer');
+var DHtml_isSTD = !DHtml_isIE;
+if (DHtml_isSTD) {
+    if (self.location.search == '') {
+        self.dgo.Url = new String((self.location.href) + '?library=project/library.xml');
+    }
+    else{
+        self.dgo.Url = new String(self.location.protocol + '//' + (self.location.hostname) +
+                         ((self.location.port != '') ? (':' + self.location.port) : '') +
+                        (self.location.pathname) +
+                        ((self.location.search.indexOf('?') == 0) ? '' : (self.location.search.length > 0 ? '?' : '')) +
+                        self.location.search) +
+                        self.location.hash;
+    }
+}
+else {
+    if (self.location.search == '') {
+        self.dgo.Url = new String(unescape(self.location.href) + '?library=project/library.xml');
+    }
+    else{
+        self.dgo.Url = new String(self.location.protocol + '//' + unescape(self.location.hostname) +
+                         ((self.location.port != '') ? (':' + self.location.port) : '') +
+                         (self.location.pathname.indexOf('/\\') == 0 ?
+                           unescape(self.location.pathname.substr(3)) :
+                           unescape(self.location.pathname)) +
+                        ((self.location.search.indexOf('?') == 0) ? '' : (self.location.search.length > 0 ? '?' : '')) +
+                        self.location.search) +
+                        self.location.hash;
+    }
+}
+
+self.dgo.Referrer = new String(self.document.referrer);
+var x = self.location.search;
+self.dgo.UrlParam = (x.substr(0,1) == '?' ? x.substr(1) : x + '');
+x += self.location.hash;
+x = self.dgo.Url.substr(0, self.dgo.Url.length - x.length);
+x = x.replace(/\\/g, '/');
+var p = x.lastIndexOf('/');
+self.dgo.Home = (p < 0 ? x : x.substr(0, p + 1));
+
+// Uncomment and adapt this for parameterless program start. i.e. in CHMs!
+// self.dgo.UrlParam = 'config=projects/bubble/dmf/bu_xcfg.js';
+</script>
+</head>
+<body noscroll scrolling=no scroll=no width="100%" height="100%" style="position:absolute;width:100%;height:100%;overflow:hidden;overflow-x:hidden;overflow-y:hidden;border:0px;padding:0px;margin:0px;" id="dgo_body" name="dgo_body" onscroll="self.document.body.scrollLeft = 0; self.document.body.scrollTop = 0;" onload="return boot();"></body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

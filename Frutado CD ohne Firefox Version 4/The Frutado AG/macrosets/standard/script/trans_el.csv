@@ -1,0 +1,221 @@
+﻿click.demo	Επιλέξτε [B_NAME].
+click.prac	Επιλέξτε [B_NAME].
+click_img.demo	Επιλέξτε [B_NAME_ICON].
+click_img.prac	Επιλέξτε [B_NAME_ICON].
+click_cancel_trans_img.demo	Επιλέγοντας [B_ICON_NAME] διακόπτεται η συναλλαγή.
+click_cancel_trans_img.prac	Επιλέγοντας [B_ICON_NAME] διακόπτεται η συναλλαγή.
+click_back_img.demo	Επιλέγοντας [B_ICON_NAME] επιστρέφετε στην προηγούμενη σελίδα.
+click_back_img.prac	Επιλέξτε [B_ICON_NAME] για να επιστρέψετε στην προηγούμενη σελίδα.
+click_ok_img.demo	Επιλέξτε [B_ICON_NAME].
+click_ok_img.prac	Επιλέξτε [B_ICON_NAME].
+click_exit_trans_img.demo	Επιλέγοντας [B_ICON_NAME] εγκαταλείπετε τη συναλλαγή.
+click_exit_trans_img.prac	Επιλέξτε [B_ICON_NAME], για να εγκαταλείψετε τη συναλλαγή.
+click_save_img.demo	Επιλέγοντας [B_ICON_NAME] αποθηκεύετε τις καταχωρήσεις.
+click_save_img.prac	Επιλέξτε [B_ICON_NAME], για να αποθηκεύσετε τις καταχωρήσεις.
+click_checkbox_off.demo	Η επιλογή [B_NAME] απεπιλέγεται.
+click_checkbox_off.prac	Απεπιλέξτε την επιλογή [B_NAME].
+click_next_page_img.demo	Επιλέγοντας [B_NAME_ICON] ανοίγετε τις επόμενες σελίδες.
+click_next_page_img.prac	Επιλέξτε [B_NAME_ICON].
+click_checkbox_on.demo	Το [B_NAME] επιλέγεται.
+click_checkbox_on.prac	Επιλέξτε την επιλογή [B_NAME].
+click_select_value.demo	Επιλέγεται η τιμή [B_NAME].
+click_select_value.prac	Επιλέξτε την τιμή [B_NAME].
+click_open_menu.demo	Το μενού [B_NAME] ανοίγει.
+click_open_menu.prac	Ανοίξτε το μενού [B_NAME].
+click_menu_select.demo	Επιλέγεται η καταχώρηση [B_NAME].
+click_menu_select.prac	Επιλέξτε την καταχώρηση [B_NAME].
+click_select_column.demo	Επιλέγεται η στήλη [B_NAME].
+click_select_column.prac	Επιλέξτε τη στήλη [B_NAME] κάνοντας κλικ στην κεφαλίδα της στήλης.
+click_open_value_help.demo	Η βοήθεια τιμών ανοίγει.
+click_open_value_help.prac	Ανοίξτε τη βοήθεια τιμών.
+click_select_line.demo	Επιλέγεται η σειρά [B_NAME].
+click_select_line.prac	Επιλέξτε κάνοντας κλικ στη σειρά [B_NAME] της πρώτης στήλης.
+click_scroll_top.demo	Κάνοντας κλικ στο [ICON] μετακινείστε στην αρχή.
+click_scroll_top.prac	Μετακινηθείτε στην αρχή κάνοντας κλικ στο [ICON].
+click_scroll_bottom.demo	Κάνοντας κλικ [ICON] μετακινείστε στο τέλος.
+click_scroll_bottom.prac	Μετακινηθείτε στο τέλος κάνοντας κλικ στο [ICON].
+click_scroll_pageup.demo	Κάνοντας κλικ στο [ICON] μετακινείστε μια σελίδα επάνω.
+click_scroll_pageup.prac	Μετακινηθείτε μια σελίδα επάνω κάνοντας κλικ στο [ICON].
+click_scroll_pagedown.demo	Κάνοντας κλικ στο [ICON] μετακινείστε μια σελίδα κάτω.
+click_scroll_pagedown.prac	Μετακινηθείτε μια σελίδα κάτω κάνοντας κλικ στο [ICON].
+click_scroll_lineup.demo	Κάνοντας κλικ στο [ICON] μετακινείστε μια στήλη επάνω.
+click_scroll_lineup.prac	Μετακινηθείτε μια στήλη επάνω κάνοντας κλικ στο [ICON].
+click_scroll_linedown.demo	Κάνοντας κλικ στο [ICON] μετακινήστε μια στήλη κάτω.
+click_scroll_linedown.prac	Μετακινηθείτε μια στήλη προς τα κάτω κάνοντας κλικ στο[ICON].
+click_close_window_img.demo	Το παράθυρο κλείνει κάνοντας κλικ στο [ICON].
+click_close_window_img.prac	Κλείστε το παράθυρο κάνοντας κλικ στο [ICON].
+click_select_all_lines_img.demo	Κάνοντας κλικ στο [ICON] μαρκάρονται όλες οι στήλες.
+click_select_all_lines_img.prac	Επιλέξτε όλες τις στήλες κάνοντας κλικ στο [ICON].
+click_open_card_menu.demo	Κάνοντας κλικ στο [ICON] εμφανίζεται η επιλογή καρτών.
+click_open_card_menu.prac	Εμφανίστε την επιλογή καρτών κάνοντας κλικ στο [ICON].
+click_select_card.demo	Επιλέγεται η κάρτα [B_NAME].
+click_select_card.prac	Επιλέξτε την κάρτα [B_NAME].
+click_next_cards_img.demo	Κάνοντας κλικ στο [ICON] εμφανίζονται οι επόμενες κάρτες.
+click_next_cards_img.prac	Εμφανίστε τις επόμενες κάρτες κάνοντας κλικ στο [ICON].
+click_prev_cards_img.demo	Κάνοντας κλικ στο [ICON] εμφανίζονται οι προηγούμενες κάρτες.
+click_prev_cards_img.prac	Εμφανίστε τις προηγούμενες κάρτες κάνοντας κλικ στο [ICON].
+click_open_nav_menu.demo	Κάνοντας κλικ στο [ICON] εμφανίζεται το μενού πλοήγησης.
+click_open_nav_menu.prac	Ανοίξτε το μενού πλοήγησης κάνοντας κλικ στο [ICON].
+click_close_folder_img.demo	Κάνοντας κλικ στο [ICON] κλείνει το αρχείο [B_NAME].
+click_close_folder_img.prac	Κλείστε το αρχείο [B_NAME] κάνοντας κλικ στο [ICON].
+click_open_folder_img.demo	Επιλέγοντας [ICON] ανοίγει το αρχείο [B_NAME].
+click_open_folder_img.prac	Ανοίξτε το αρχείο [B_NAME] κάνοντας κλικ στο [ICON].
+click_select_element_img.demo	Κάνοντας κλικ στο [ICON] επιλέγεται το στοιχείο [B_NAME].
+click_select_element_img.prac	Ενεργοποιήστε το [ICON] για να επιλέξετε το [B_NAME].
+click_scroll_down.demo	Με τη μπάρα έχετε τη δυνατότητα να μετακινηθείτε προς τα κάτω.
+click_scroll_down.prac	Μετακινηθείτε με τη βοήθεια της μπάρας προς τα κάτω
+dblclick_select_entry.demo	Κάνοντας διπλό κλικ στο [B_NAME] επιλέγεται η καταχώρηση.
+dblclick_select_entry.prac	Επιλέξτε κάνοντας διπλό κλικ την καταχώρηση [B_NAME].
+dblclick_select_date.demo	Επιλέγεται το [B_NAME].
+dblclick_select_date.prac	Επιλέξτε το [B_NAME].
+dblclick_start_transaction.demo	Κάνοντας διπλό κλικ ξεκινά η συναλλαγή [B_NAME].
+dblclick_start_transaction.prac	Εκκινήστε τη συναλλαγή [B_NAME] κάνοντας διπλό κλικ <br>ή<br>εισάγετε τον κωδικό συναλλαγής [B_TCODE] και επιβεβαιώστε με το πλήκτρο Enter.
+click_close_group.demo	Η ομάδα [B_NAME] κλείνει.
+click_close_group.prac	Κλείστε την ομάδα [B_NAME].
+click_open_group.demo	Η ομάδα [B_NAME] ανοίγει.
+click_open_group.prac	Ανοίξτε την ομάδα [B_NAME].
+select.demo	Ως [B_NAME] επιλέγεται το [B_SELECTED].
+select.prac	Επιλέξτε [B_SELECTED] ως [B_NAME].
+input_text.demo	Συμπληρώνεται το πεδίο [B_NAME].
+input_text.prac	Εισάγετε [B_INPUT] στο πεδίο [B_NAME].
+input_text_value.demo	Στο πεδίο [B_NAME] θα καταχωρηθεί το [B_INPUT].
+input_text_value.prac	Εισάγετε [B_INPUT] στο πεδίο [B_NAME].
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Επιβεβαιώστε την καταχώριση με το πλήκτρο <b>Tab</b> ή <b>Enter</b> ή επιλέξτε <b>το ανάλογο πλήκτρο</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Επιβεβαιώστε την καταχώριση με το πλήκτρο <b>Tab</b> ή <b>Enter</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Επιβεβαιώστε την καταχώριση με το <b>πλήκτρο Enter</b> ή επιλέξτε <b> το ανάλογο πλήκτρο </b>.
+input_tab.demo
+input_tab.prac	<br>Επιβεβαιώστε την καταχώριση με το <b>πλήκτρο Tab</b>.
+input_enter.demo
+input_enter.prac	<br>Επιβεβαιώστε την καταχώριση με το <b>πλήκτρο Enter</b>.
+input_button.demo
+input_button.prac	<br>Επιβεβαιώστε την καταχώριση με <b>κλικ στο ανάλογο πλήκτρο</b>.
+click_select.demo	Επιλέγεται το [B_NAME].
+click_select.prac	Επιλέξτε το [B_NAME].
+click_show_value_help_button.demo	Η βοήθεια τιμών ανοίγει κάνοντας κλικ στο πεδίο κειμένου [B_NAME].
+click_show_value_help_button.prac	Ανοίξτε τη βοήθεια τιμών κάνοντας κλικ στο πεδίο κειμένου [B_NAME].
+click_scroll_horizontal.demo	Μετακινείστε προς τα δεξιά…
+click_scroll_horizontal.prac	Παρακαλώ μετακινηθείτε προς τα δεξιά.
+click_scroll_vertical.demo	Μετακινείστε προς τα κάτω
+click_scroll_vertical.prac	Παρακαλώ μετακινηθείτε προς τα κάτω.
+click_img_expand.demo	Για να μεγεθύνετε το πεδίο πλοήγησης επιλέξτε [ICON].
+click_img_expand.prac	Μεγεθύνετε το πεδίο πλοήγησης κάνοντας κλικ στο [ICON].
+click_img_collapse.demo	Για να ελαχιστοποιήσετε το πεδίο πλοήγησης επιλέξτε [ICON].
+click_img_collapse.prac	Ελαχιστοποιήστε το πεδίο πλοήγησης κάνοντας κλικ στο [ICON].
+click_navrow.demo	Στη στήλη πλοήγησης επιλέγετε [B_NAME].
+click_navrow.prac	Παρακαλώ ανοίξτε το [B_NAME] από τη στήλη πλοήγησης.
+click_navrow2.demo	Στη δεύτερη στήλη πλοήγησης επιλέγετε [B_NAME].
+click_navrow2.prac	Παρακαλώ ανοίξτε το [B_NAME] από τη δεύτερη στήλη πλοήγησης.
+click_open_context_menu.demo	Εμφανίζεται το θεματικό μενού [B_NAME].
+click_open_context_menu.prac	Ανοίξτε το θεματικό μενού από το [B_NAME].
+click_radio_select.demo	Επιλέγεται το [B_NAME].
+click_radio_select.prac	Επιλέξτε το [B_NAME].
+click_select_img.demo	Επιλέγεται το [B_ICON_NAME].
+click_select_img.prac	Επιλέξτε το [B_ICON_NAME].
+click_open_form_view.demo	Με το [B_ICON_NAME] μεταβαίνετε στην εμφάνιση φόρμας.
+click_open_form_view.prac	Μεταβείτε στην εμφάνιση εγγράφου με [B_ICON_NAME].
+history_select.demo	Επιλέγεται [B_NAME] από το ιστορικό.
+history_select.prac	Επιλέξτε [B_NAME] από το ιστορικό.
+click_page_up_img.demo	Κάνοντας κλικ στο [B_ICON] πραγματοποιείται μετακίνηση μιας σελίδας προς τα πάνω.
+click_page_up_img.prac	Μετακινηθείτε μια σελίδα προς τα πάνω κάνοντας κλικ στο[B_ICON].
+click_page_down_img.demo	Κάνοντας κλικ στο [B_ICON] πραγματοποιείται μετακίνηση μιας σελίδας προς τα κάτω.
+click_page_down_img.prac	Μετακινηθείτε μια σελίδα προς τα κάτω κάνοντας κλικ στο[B_ICON].
+click_page_top_img.demo	Κάνοντας κλικ στο [B_ICON] μετακινείστε στην αρχή.
+click_page_top_img.prac	Μετακινηθείτε στην αρχή κάνοντας κλικ στο [B_ICON].
+click_page_bottom_img.demo	Κάνοντας κλικ στο [B_ICON] μετακινείστε στην αρχή.
+click_page_bottom_img.prac	Μετακινηθείτε στο τέλος κάνοντας κλικ στο [B_ICON].
+click_sort_by_column.demo	Οι καταχωρήσεις του πίνακα ταξινομούνται σύμφωνα με τη στήλη [B_NAME].
+click_sort_by_column.prac	Ταξινομήστε τις καταχωρήσεις του πίνακα κάνοντας κλικ στην κεφαλίδα της στήλης [B_NAME].
+click_select_date.demo	Επιλέγεται το [B_NAME].
+click_select_date.prac	Επιλέξτε το [B_NAME].
+click_close_card_img.demo	Κάνοντας κλικ στο [ICON] κλείνει η κάρτα.
+click_close_card_img.prac	Επιλέξτε [ICON] για να κλείσετε την κάρτα.
+click_select_function_img.demo	Κάνοντας κλικ στο [ICON] επιλέγετε τη λειτουργία [B_NAME].
+click_select_function_img.prac	Επιλέξτε [ICON] για να επιλέξετε τη λειτουργία[B_NAME].
+click_hide_treeview.demo	Κάνοντας κλικ στο [ICON] κλείνει η δεντροειδής απεικόνιση.
+click_hide_treeview.prac	Κλείστε τη δεντροειδή απεικόνιση κάνοντας κλικ στο [ICON].
+click_show_treeview.demo	Κάνοντας κλικ στο [ICON] εμφανίζεται η δεντροειδής απεικόνιση.
+click_show_treeview.prac	Εμφανίστε τη δεντροειδή απεικόνιση κάνοντας κλικ στο [ICON].
+click_mark_transaction.demo	Κάνοντας κλικ στο [B_NAME] μαρκάρεται η συναλλαγή.
+click_mark_transaction.prac	Μαρκάρετε τη συναλλαγή [B_NAME] με ένα κλικ.
+dblclick_select_element.demo	Με διπλό κλικ επιλέγεται το στοιχείο [B_NAME].
+dblclick_select_element.prac	Επιλέξτε το στοιχείο [B_NAME] κάνοντας διπλό κλικ.
+please_note.demo	Προσέξτε τα ακόλουθα: [B_NAME].
+please_note.prac	Προσέξτε τα ακόλουθα: [B_NAME].
+click_open_value_help_img.demo	Κάνοντας κλικ στην <b>Βοήθεια καταχώρισης</b> [ICON] εμφανίζεται μια λίστα επιλογής με ισχύουσες τιμές.
+click_open_value_help_img.prac	Επιλέξτε τη <b>Βοήθεια καταχώρησης</b> [ICON] για να εμφανιστεί μια λίστα επιλογής με ισχύουσες τιμές.
+click_open_selection.demo	Κάνοντας κλικ στο [ICON] θα εμφανιστεί μια λίστα επιλογής.
+click_open_selection.prac	Επιλέξτε [ICON] για να εμφανιστεί μια λίστα επιλογής.
+click_mark_entry.demo	Με κλικ μαρκάρεται η καταχώρηση [B_NAME].
+click_mark_entry.prac	Μαρκάρετε την καταχώρηση [B_NAME].] με ένα κλικ.
+click_mark_entry_img.demo	Με κλικ επιλέγεται η καταχώρηση [ICON].
+click_mark_entry_img.prac	Επιλέξτε την καταχώρηση [ICON] με κλικ.
+click_menu_select_img.demo	Κάνοντας κλικ εκτελείται το σημείο μενού [ICON].
+click_menu_select_img.prac	Κάντε κλικ στο σημείο μενού [ICON] για να το εκτελέσετε.
+click_open_menu_img.demo	Κάνοντας κλικ ανοίγει το μενού [ICON].
+click_open_menu_img.prac	Κάντε κλικ στο μενού [ICON], για να το ανοίξετε.
+click_select_card_img.demo	Με κλικ επιλέγετε την κάρτα καταχώρησης [ICON].
+click_select_card_img.prac	Κάντε κλικ στην κάρτα καταχώρησης [ICON]για να την επιλέξετε.
+dblclick_select_line.demo	Με διπλό κλικ στο πλήκτρο [NAME] μαρκάρεται η γραμμή.
+dblclick_select_line.prac	Κάντε διπλό κλικ στη μπάρα [NAME] για να μαρκάρετε τη γραμμή.
+click_activate_edit.demo	Με κλικ ενεργοποιείται το πεδίο καταχωρήσεων [B_NAME].
+click_activate_edit.prac	Κάντε κλικ στο πεδίο καταχωρήσεων[B_NAME] για να το ενεργοποιήσετε.
+dblclick_activate_edit.demo	Με διπλό κλικ ενεργοποιείται το πεδίο καταχωρήσεων[B_NAME].
+dblclick_activate_edit.prac	Κάντε διπλό κλικ στο πεδίο καταχωρήσεων [B_NAME] για να το ενεργοποιήσετε.
+dblclick_open_folder_img.demo	Με διπλό κλικ στο σύμβολο [ICON] ανοίγετε το αρχείο [B_NAME].
+dblclick_open_folder_img.prac	Ανοίξτε το αρχείο [B_NAME] με διπλό κλικ στο σύμβολο [ICON].
+click_open_folder.demo	Επιλέγοντας το σύμβολο <b>Άνοιγμα αρχείου</b> ανοίγει το αρχείο [B_NAME].
+click_open_folder.prac	Ανοίξτε το αρχείο [B_NAME] επιλέγοντας το σύμβολο<b>Άνοιγμα αρχείου</b>.
+dblclick_open_folder.demo	Με διπλό κλικ στο σύμβολο <b>Άνοιγμα αρχείου</b> ανοίγει το αρχείο [B_NAME].
+dblclick_open_folder.prac	Ανοίξτε το αρχείο [B_NAME] με διπλό κλικ στο σύμβολο <b>Άνοιγμα αρχείου</b>.
+click_close_folder.demo	Επιλέγοντας το σύμβολο <b>Κλείσιμο αρχείου</b> θα κλείσει το αρχείο [B_NAME].
+click_close_folder.prac	Κλείστε το αρχείο [B_NAME] επιλέγοντας το σύμβολο <b>Κλείσιμο αρχείου</b>.
+drag_scroll_hor.demo	Η <b>μπάρα κύλισης</b> χρησιμοποιείται για την εμφάνιση της επιθυμητής περιοχής. 
+drag_scroll_hor.prac	Χρησιμοποιήστε την <b>οριζόντια μπάρα κύλισης</b>, για να εμφανιστεί η επιθυμητή περιοχή.
+drag_scroll_vert.demo	Η <b>μπάρα κύλισης</b> χρησιμοποιείται για την εμφάνιση της επιθυμητής περιοχής. 
+drag_scroll_vert.prac	Χρησιμοποιήστε την <b>κάθετη μπάρα κύλισης</b>, για να εμφανιστεί η επιθυμητή περιοχή. 
+click_scroll.demo	Πατώντας το <b>βελάκι στην μπάρα κύλισης</b> [NAME] εμφανίζεται η επιθυμητή περιοχή.
+click_scroll.prac	Μετακινηθείτε πατώντας το <b>βελάκι στη μπάρα κύλισης</b> [NAME].
+click_scroll_page_left.demo	Κάνοντας κλικ στην <b>περιοχή της μπάρας κύλισης</b> [NAME] εμφανίζεται η επιθυμητή περιοχή. 
+click_scroll_page_left.prac	Κάντε κλικ στην <b>περιοχή αριστερά της μπάρας κύλισης</b>, για να μετακινηθείτε.
+click_scroll_page_right.demo	Κάνοντας κλικ στην <b>περιοχή της μπάρας κύλισης</b> [NAME] εμφανίζεται η επιθυμητή περιοχή.
+click_scroll_page_right.prac	Κάντε κλικ στην <b>περιοχή δεξιά της μπάρας κύλισης</b>, για να μετακινηθείτε. 
+click_scroll_page_up.demo	Κάνοντας κλικ στην <b>περιοχή της μπάρας κύλισης</b> [NAME] εμφανίζεται η επιθυμητή περιοχή.
+click_scroll_page_up.prac	Κάντε κλικ στην <b>περιοχή πάνω από την μπάρα κύλισης</b>, για να μετακινηθείτε.
+click_scroll_page_down.demo	Κάνοντας κλικ στην <b>περιοχή της μπάρας κύλισης</b> [NAME] εμφανίζεται η επιθυμητή περιοχή.
+click_scroll_page_down.prac	Κάντε κλικ στην <b>περιοχή κάτω από την μπάρα κύλισης</b>, για να μετακινηθείτε. 
+rclick_context.demo	Κάνοντας δεξί κλικ στο [B_NAME] εμφανίζεται ένα θεματικό μενού. 
+rclick_context.prac	Κάντε δεξί κλικ στο [B_NAME].
+dblclick_img.demo	Κάνατε διπλό κλικ στο [ICON].
+dblclick_img.prac	Κάντε ένα διπλό κλικ στο [ICON].
+keypress.demo	Παρακαλώ εισάγετε το [B_KEY].
+keypress.prac	Παρακαλώ εισάγετε το [B_KEY].
+item.close_folder	Κλείσιμο αρχείου
+item.open_folder	Άνοιγμα αρχείου
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	κάθετη μπάρα κύλισης
+item.hscroll	οριζόντια μπάρα κύλισης
+item.close_window	κλείσιμο παραθύρου
+item.value_help	Βοήθεια τιμών
+item.scroll	Μπάρα κύλισης
+item.back_btn	Επιστροφή
+item.save_btn	Αποθήκευση
+item.scroll_area	Περιοχή κύλισης
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

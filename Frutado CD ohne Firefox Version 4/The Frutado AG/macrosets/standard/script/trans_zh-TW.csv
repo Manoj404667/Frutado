@@ -1,0 +1,214 @@
+﻿click.demo	现在请您点击[B_NAME]。
+click.prac	请您点击[B_NAME]。
+click_img.demo	现在请您点击[B_NAME_ICON]。
+click_img.prac	请您点击[B_NAME_ICON]。
+click_cancel_trans_img.demo	点击[B_ICON_NAME]中止交易。
+click_cancel_trans_img.prac	请您点击[B_ICON_NAME]以中止交易。 
+click_back_img.demo	点击[B_ICON_NAME]，您回到前页。
+click_back_img.prac	请您点击[B_ICON_NAME]以回到前页。
+click_ok_img.demo	现在请您点击[B_ICON_NAME]。
+click_ok_img.prac	请您点击[B_ICON_NAME]。
+click_exit_trans_img.demo	点击[B_ICON_NAME]，您退出交易。
+click_exit_trans_img.prac	请您点击[B_ICON_NAME]以退出交易。
+click_save_img.demo	点击[B_ICON_NAME]，您存储输入的信息。
+click_save_img.prac	您点击[B_ICON_NAME]以存储输入的信息。
+click_checkbox_off.demo	[B_NAME]被关闭。
+click_checkbox_off.prac	请您关闭数值[B_NAME]。
+click_next_page_img.demo	点击[B_NAME_ICON]，您打开下一页。 
+click_next_page_img.prac	请您点击[B_NAME_ICON]。
+click_checkbox_on.demo	[B_NAME]被选择。 
+click_checkbox_on.prac	请您选择数值[B_NAME]。
+click_select_value.demo	数值[B_NAME]被选出。 
+click_select_value.prac	请您选择数值[B_NAME] 。
+click_open_menu.demo	菜单[B_NAME]被打开。
+click_open_menu.prac	请您打开菜单[B_NAME]。
+click_menu_select.demo	记录[B_NAME]被选出。
+click_menu_select.prac	请您选择记录[B_NAME]。
+click_select_column.demo	[B_NAME]列被选出。 
+click_select_column.prac	您以点击列首选择[B_NAME]列。
+click_open_value_help.demo	数值帮助被打开。
+click_open_value_help.prac	请您打开数值帮助。
+click_select_line.demo	[B_NAME]行被选出。 
+click_select_line.prac	您以点击第一列选择[B_NAME]行。
+click_scroll_top.demo	点击[ICON]，滚屏至开始。
+click_scroll_top.prac	您以点击 [ICON]滚屏至开始。
+click_scroll_bottom.demo	点击[ICON]，滚屏至结尾。
+click_scroll_bottom.prac	您以点击 [ICON]滚屏至结尾。
+click_scroll_pageup.demo	点击[ICON]，向上滚屏一页。
+click_scroll_pageup.prac	您以点击[ICON]向上滚屏一页。
+click_scroll_pagedown.demo	点击[ICON]，向下滚屏一页。 
+click_scroll_pagedown.prac	您以点击[ICON]向下滚屏一页。
+click_scroll_lineup.demo	点击[ICON]，向上滚屏一行。
+click_scroll_lineup.prac	您以点击[ICON]向上滚屏一行。
+click_scroll_linedown.demo	点击[ICON]，向下滚屏一行。
+click_scroll_linedown.prac	您以点击[ICON]向下滚屏一行。
+click_close_window_img.demo	点击[ICON]，窗口被关闭。
+click_close_window_img.prac	您以点击[ICON]关闭窗口。
+click_select_all_lines_img.demo	点击[ICON]，所有行被标出。
+click_select_all_lines_img.prac	您以点击[ICON]选出所有行。
+click_open_card_menu.demo	点击[ICON]打开索引卡选项。
+click_open_card_menu.prac	您以点击[ICON]打开索引卡选项。
+click_select_card.demo	索引卡[B_NAME]被选出。 
+click_select_card.prac	请您选出索引卡[B_NAME]。
+click_next_cards_img.demo	通过点击[ICON]，下几个索引卡被显示。 
+click_next_cards_img.prac	请您以点击[ICON]显示下几个索引卡。
+click_prev_cards_img.demo	通过点击 [ICON]，上几个索引卡被显示。
+click_prev_cards_img.prac	请您以点击[ICON]显示上几个索引卡。
+click_open_nav_menu.demo	通过点击 [ICON]，导向菜单被打开。 
+click_open_nav_menu.prac	请您点击[ICON]打开导向菜单。
+click_close_folder_img.demo	通过点击[ICON]，文件夹[B_NAME]被关闭。
+click_close_folder_img.prac	请您以点击[ICON]关闭文件夹[B_NAME]。 
+click_open_folder_img.demo	通过点击[ICON]，文件夹[B_NAME]被打开。 
+click_open_folder_img.prac	请您以点击[ICON]打开文件夹[B_NAME]。
+click_select_element_img.demo	通过点击[ICON]，元素[B_NAME]被选出。
+click_select_element_img.prac	请您以点击[ICON] 选出元素[B_NAME]。
+click_scroll_down.demo	以滚屏条向下滚屏。
+click_scroll_down.prac	请您借助滚屏条向下滚屏。
+dblclick_select_entry.demo	双击[B_NAME]选择记录。 
+dblclick_select_entry.prac	请您以双击选择记录[B_NAME]。 
+dblclick_select_date.demo	[B_NAME]被选出。 
+dblclick_select_date.prac	请您选出[B_NAME]。
+dblclick_start_transaction.demo	以双击开始交易[B_NAME]。 
+dblclick_start_transaction.prac	请您双击<br>或<br>开始交易[B_NAME]，请输入交易代码[B_TCODE]并按输入（Enter）键确认。
+click_close_group.demo	[B_NAME]组被关闭。
+click_close_group.prac	请您关闭[B_NAME]组。
+click_open_group.demo	[B_NAME]组被打开。
+click_open_group.prac	请您打开[B_NAME]组。
+select.demo	[B_SELECTED]被选为[B_NAME]。
+select.prac	请您将[B_SELECTED]选为[B_NAME]。
+input_text.demo	填写空格[B_NAME]。 
+input_text.prac	请您将[B_INPUT]填入空格[B_NAME]。 
+input_text_value.demo	在空格[B_NAME]填入[B_INPUT]。 
+input_text_value.prac	请您将[B_INPUT]填入空格[B_NAME]。 
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>请您以<b>制表（Tab）键</b> 或 <b>输入键</b>，或点击 <b>相应的按键</b>确认输入。
+input_tab_enter.demo
+input_tab_enter.prac	<br>请您以<b>制表键</b> 或<b>输入键</b>确认输入。
+input_enter_button.demo
+input_enter_button.prac	<br>请您以 <b>输入键</b> 或点击<b> 相应的按键</b> 确认输入。
+input_tab.demo
+input_tab.prac	<br>请您以 <b>制表键</b>确认输入。
+input_enter.demo
+input_enter.prac	<br>请您以 <b>输入键</b>确认输入。
+input_button.demo
+input_button.prac	<br>请您以 <b>点击相应的按键</b> 确认输入。
+click_select.demo	[B_NAME]被选出。 
+click_select.prac	请您选择[B_NAME] 。
+click_show_value_help_button.demo	您以点击文字[B_NAME]打开数值帮助。
+click_show_value_help_button.prac	请您以点击文字[B_NAME]打开数值帮助[B_NAME]。
+click_scroll_horizontal.demo	向右滚屏…
+click_scroll_horizontal.prac	请您向右滚屏。
+click_scroll_vertical.demo	向下滚屏…
+click_scroll_vertical.prac	请您向下滚屏。
+click_img_expand.demo	以点击[ICON]放大导向区域。 
+click_img_expand.prac	请您以点击[ICON]放大导向区域。
+click_img_collapse.demo	以点击[ICON]缩小导向区域。
+click_img_collapse.prac	请您以点击[ICON]缩小导向区域。
+click_navrow.demo	在导向行中选择[B_NAME]。
+click_navrow.prac	请您在导向行中打开[B_NAME]。
+click_navrow2.demo	在第二导向行中选择[B_NAME]。
+click_navrow2.prac	请您打开第二导向行中的[B_NAME]。 
+click_open_context_menu.demo	[B_NAME]的上下文菜单被打开。 
+click_open_context_menu.prac	请您打开[B_NAME]的上下文菜单。
+click_radio_select.demo	[B_NAME]被选择。
+click_radio_select.prac	请您选择[B_NAME] 。
+click_select_img.demo	[B_ICON_NAME]被选出。
+click_select_img.prac	请您选择[B_ICON_NAME]。
+click_open_form_view.demo	以[B_ICON_NAME]转换到表格状态。
+click_open_form_view.prac	请您以[B_ICON_NAME]转换到表格状态。
+history_select.demo	从历史选出[B_NAME]。
+history_select.prac	请您从历史选出[B_NAME]。
+click_page_up_img.demo	以点击[B_ICON]向上滚屏一页。
+click_page_up_img.prac	请您以点击[B_ICON]向上滚屏一页。
+click_page_down_img.demo	以点击[B_ICON]向下滚屏一页。
+click_page_down_img.prac	请您以点击[B_ICON]向下滚屏一页。
+click_page_top_img.demo	以点击 [B_ICON] 滚屏至开始。
+click_page_top_img.prac	请您以点击 [B_ICON] 滚屏至开始。
+click_page_bottom_img.demo	以点击 [B_ICON] 滚屏至结尾。
+click_page_bottom_img.prac	请您以点击 [B_ICON] 滚屏至结尾。
+click_sort_by_column.demo	按 [B_NAME] 列分类。
+click_sort_by_column.prac	请您按 [B_NAME] 列分类。
+click_select_date.demo	[B_NAME] 被选择。
+click_select_date.prac	请您选择 [B_NAME]。
+click_close_card_img.demo	点击 [ICON] 关闭索引卡。
+click_close_card_img.prac	请您点击 [ICON] 关闭索引卡。
+click_select_function_img.demo	您以点击 [ICON] 选择功能 [B_NAME]。 
+click_select_function_img.prac	请您点击[ICON] 以选择功能 [B_NAME]。
+click_hide_treeview.demo	点击[ICON] 隐去树状图示。
+click_hide_treeview.prac	请您点击[ICON] 隐去树状图示。
+click_show_treeview.demo	点击[ICON] 显示树状图示。
+click_show_treeview.prac	请您点击[ICON] 显示树状图示。
+click_mark_transaction.demo	点击 [B_NAME] 标出交易。
+click_mark_transaction.prac	请您以点击标出交易 [B_NAME]。
+dblclick_select_element.demo	以双击选择元素 [B_NAME]。
+dblclick_select_element.prac	请您以双击选择元素 [B_NAME]。
+please_note.demo	请您注意以下: [B_NAME]。
+please_note.prac	请您注意以下: [B_NAME]。
+click_open_value_help_img.demo	点击<b>输入帮助</b> [ICON]，您得到有效数值的选择表。
+click_open_value_help_img.prac	请您点击 <b>输入帮助</b> [ICON]，以得到有效数值的选择表。
+click_open_selection.demo	点击[ICON]，您得到选择表。 
+click_open_selection.prac	请您点击[ICON]，以得到选择表。
+click_mark_entry.demo	您以点击标示输入[B_NAME]。
+click_mark_entry.prac	请您以点击标示输入[B_NAME]。
+click_mark_entry_img.demo	您以点击选择输入[ICON] 。
+click_mark_entry_img.prac	请您以点击选择输入[ICON] 。
+click_menu_select_img.demo	您以点击执行菜单项目[ICON] 。
+click_menu_select_img.prac	请您以点击执行菜单项目[ICON] 。
+click_open_menu_img.demo	您以点击打开菜单[ICON]。
+click_open_menu_img.prac	请您以点击打开菜单[ICON]。
+click_select_card_img.demo	您以点击选择索引卡[ICON]。 
+click_select_card_img.prac	请您以点击选择索引卡[ICON]。
+dblclick_select_line.demo	您以双击控制区[NAME]标示行。
+dblclick_select_line.prac	请您双击控制区[NAME]以标示行。
+click_activate_edit.demo	您击活输入区 [B_NAME]。
+click_activate_edit.prac	请您击活输入区 [B_NAME]。
+dblclick_activate_edit.demo	您以双击击活输入区[B_NAME]。
+dblclick_activate_edit.prac	请您以双击击活输入区 [B_NAME]。
+dblclick_open_folder_img.demo	双击[ICON]标志，您打开文件夹[B_NAME]。 
+dblclick_open_folder_img.prac	请您双击[ICON]标志，以打开文件夹[B_NAME]。
+click_open_folder.demo	点击 <b>'打开文件夹'</b> 标志，您打开文件夹[B_NAME]。
+click_open_folder.prac	请您点击 <b>'打开文件夹'</b> 标志，以打开文件夹[B_NAME]。
+dblclick_open_folder.demo	双击 <b>'打开文件夹'</b> 标志，您打开文件夹[B_NAME]。
+dblclick_open_folder.prac	请您双击 <b>'打开文件夹'</b> 标志，以打开文件夹[B_NAME]。
+click_close_folder.demo	点击 <b>'关闭文件夹'</b> 标志，您关闭文件夹[B_NAME]。
+click_close_folder.prac	请您点击 <b>'关闭文件夹'</b> 标志，以关闭文件夹[B_NAME]。
+drag_scroll_hor.demo	通过点击和移动 <b>滚屏条</b>可看见想看的区域。
+drag_scroll_hor.prac	请您点击和移动<b>水平滚屏条</b>滚屏。 
+drag_scroll_vert.demo	通过点击和移动 <b>滚屏条</b>可看见想看的区域。
+drag_scroll_vert.prac	请您点击和移动<b>垂直滚屏条</b>滚屏。 
+click_scroll.demo	通过点击<b>滚屏操纵区域</b> [NAME] 可看见想看的区域。
+click_scroll.prac	请您以点击<b>滚屏操纵区域</b> [NAME]滚屏。
+click_scroll_page_left.demo	通过点击<b>滚屏区</b> 可看见想看的区域。
+click_scroll_page_left.prac	请您点击<b>滚屏条左侧区域</b> 滚屏。
+click_scroll_page_right.demo	通过点击<b>滚屏区</b> 可看见想看的区域。
+click_scroll_page_right.prac	请您点击<b>滚屏条右侧区域</b> 滚屏。
+click_scroll_page_up.demo	通过点击<b>滚屏区</b> 可看见想看的区域。
+click_scroll_page_up.prac	请您通过点击 <b>滚屏条上方区域</b> 滚屏。
+click_scroll_page_down.demo	通过点击<b>滚屏区</b> 可看见想看的区域。
+click_scroll_page_down.prac	请您通过点击 <b>滚屏条下方区域</b> 滚屏。
+rclick_context.demo	以鼠标右键点击[B_NAME] 打开上下文菜单。
+rclick_context.prac	请您以鼠标右键点击 [B_NAME]。
+dblclick_img.demo	双击[ICON]。
+dblclick_img.prac	请您双击[ICON]。
+keypress.demo	请您输入[B_KEY]。
+keypress.prac	请您输入[B_KEY]。
+item.close_folder	关闭文件夹
+item.open_folder	打开文件夹
+item.enter_key	输入
+item.tab_key	制表
+item.vscroll	垂直滚屏条
+item.hscroll	水平滚屏条
+item.close_window	关闭窗口
+item.value_help	数值选择
+item.scroll	滚屏条
+item.back_btn	返回
+item.save_btn	存盘
+item.scroll_area	滚屏区
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.

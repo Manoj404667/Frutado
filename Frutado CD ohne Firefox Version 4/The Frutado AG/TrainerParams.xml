@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<TrainerConfig>
+    <Translation basename="TrainerParams"/>
+    <ParamSet name='TrainerConfig'>
+        <ParamInfo type='TEXT' name='startpage' default='start'><Properties js='0' l='0'/></ParamInfo>
+        <ParamInfo type='TEXT' name='stoppage' default='stop'><Properties js='0' l='0'/></ParamInfo>
+        <ParamInfo type='TEXT' name='errorpage' default='error'><Properties js='0' l='0'/></ParamInfo>
+        <ParamGroup name="debug">
+            <ParamInfo type='INTEGER' name='verbose' default='null' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='jsdebug' default='false' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='jscrash' default='false' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='jscrash2' default='false' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='TEXT' name='log' default='log.php' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='ui' default='false' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='anybrowser' default='false' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='urlparam' default='false' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="keys">
+            <ParamInfo type='TEXT' displayName='play' name='keys_invertedkeys_PLAY' default='f8'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' displayName='stop' name='keys_invertedkeys_STOP' default='f12'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' displayName='pause' name='keys_invertedkeys_PAUSE' default='pause'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' displayName='previous' name='keys_invertedkeys_PREV' default='shift_f8'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' displayName='back' name='keys_invertedkeys_BACK' default='alt_up'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' displayName='next' name='keys_invertedkeys_NEXT' default='alt_down'><Properties js='2' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="window properties">
+            <ParamInfo type='TEXT' name='title' default=''><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='INTEGER' displayName='top' name='window_cfg_top' default=''><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='INTEGER' displayName='left' name='window_cfg_left' default=''><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='INTEGER' displayName='width' name='window_cfg_width' default=''><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='INTEGER' displayName='height' name='window_cfg_height' default=''><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='ORIENTATION_SCROLL' displayName='orientation' name='window_cfg_orientation' default='C'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='TEXT' displayName='name' name='window_cfg_name' default='' visibility='conditional'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_0_1' displayName='fullscreen' name='window_cfg_features_fullscreen' default='0'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_0_1' displayName='menubar' name='window_cfg_features_menubar' default='1'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_0_1' displayName='toolbar' name='window_cfg_features_toolbar' default='1'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_0_1' displayName='location' name='window_cfg_features_location' default='1'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_0_1' displayName='resizable' name='window_cfg_features_resizable' default='1'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_0_1' displayName='scrollbars' name='window_cfg_features_scrollbars' default='1'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_0_1' displayName='status' name='window_cfg_features_status' default='1'><Properties js='1' l='2'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="ontop window">
+            <ParamInfo type='ENUM' name='topmost' default='-1'><Properties js='2' l='1'/>
+                <EnumValue value="-1" name="-1"/>
+                <EnumValue value="0" name="0"/>
+                <EnumValue value="1" name="1"/>
+            </ParamInfo>
+            <ParamInfo type='TEXT' displayName='base' name='topmost_style_cfg_base' default='' visibility='conditional'><Properties js='1' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='scrollable' name='topmost_style_cfg_scrollable' default='false'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='minigui' name='topmost_style_cfg_minigui' default='false'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='INTEGER' displayName='closeOnIdle' name='topmost_style_cfg_closeOnIdle' default='0'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='show_startpage' name='topmost_style_cfg_show_startpage' default='false' visibility='conditional'><Properties js='1' l='2'/></ParamInfo>
+            <ParamInfo type='TEXT' displayName='topmost_skin' name='topmost_style_cfg_skin' default='' visibility='conditional'><Properties js='1' l='0'/></ParamInfo>
+            <ParamInfo type='ENUM' name='topmostMinPosition' default='3'><Properties js='0' l='0'/>
+                <EnumValue value="0" name="0"/>
+                <EnumValue value="1" name="1"/>
+                <EnumValue value="2" name="2"/>
+                <EnumValue value="3" name="3"/>
+            </ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='topmostMinAnimate' default='false' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="gui">
+            <ParamInfo type='BOOL_TRUE_FALSE' name='hidden' default='false'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='TEXT' name='skin' default='datango_standard'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='showSecondaryGuis' default='false' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='brand' default='true'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='synopsis' default='true'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='clock' default='false'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='skip' default='true' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="library">
+            <ParamInfo type='TEXT' name='library' default='null' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='libraryNewStyle' default='false'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' displayName='search' name='librarydefaults_INP_Search' default='' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='SHELF' displayName='filter' name='libraryfilter' default='' visibility='conditional'><Properties shelf="catfilters" js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='search_in_description' name='librarydefaults_INP_FlagInDescription' default='true' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='search_in_title' name='librarydefaults_INP_FlagInTitle' default='true' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='keep_course_open' name='librarydefaults_INP_FlagKeepCourse' default='false' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='open_new_window' name='librarydefaults_INP_FlagNewWindow' default='false' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='libraryshow' default='true' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='libraryskin' default='' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='autostart' default='null' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='librarydetails' default='library_details.html' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='libraryUseXMLHttpRequest' default='false' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="audio">
+            <ParamInfo type='TEXT' name='maxbandwidth' default='2400' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='mediaqualities' default='.gsm.wav;.mp3'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='TEXT' name='mediaselector' default='DATANGO_MEDIASELECTOR' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='highwater' default='8.0' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='TEXT' name='lowwater' default='2.0' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='mute' default='false'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='INTEGER' name='defaultmediaquality' default='1' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='playsounds' default='false'><Properties js='2' l='0'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="international">
+            <ParamInfo type='TEXT' name='guilanguage' default=''><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='charset' default='iso-8859-1'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='TEXT' name='contentlanguage' default=''><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='tr' default=''><Properties js='1' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="modes">
+            <ParamInfo type='TEXT' name='recording_mode' default='' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="directories">
+            <ParamInfo type='TEXT' name='data' default='resource/' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='imagedir_bubbles' default='bubbles' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='TEXT' name='resourcebase' default='trainer:' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="adv">
+            <ParamInfo type='BOOL_TRUE_FALSE' name='gzip' default='true' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='passive' default='true' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='proxypath' default='//default//' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='referrer' default='false' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='tour' default='null' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='textfileUseXMLHttpRequest' default='false' visibility='conditional'><Properties js='2' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="compatibility">
+            <ParamInfo type='INTEGER' name='keepbug' default='0' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='workaroundIEDocTypeBug' default='false' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="visual">
+            <ParamInfo type='TEXT' name='css' default='null'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='autoplace' default='true'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='autoscroll' default='true'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='autofocus' default='true'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='FLOAT' name='mousespeed' default='1.5' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='INTEGER' name='mousetick' default='200' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='FLOAT' name='scroll_x' default='0.4'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='FLOAT' name='scroll_y' default='0.4'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='INTEGER' name='ticktime' default='50' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='FLOAT' name='xbubble_scroll' default='0.2'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='xbubble_autohide' default='false'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' name='xmouse' default='false' visibility='conditional'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='INTEGER' name='timeout' default='-1'><Properties js='2' l='0'/></ParamInfo>
+            <ParamInfo type='ENUM' name='bubblefeedback' default='1'><Properties js='2' l='0'/>
+                <EnumValue value="-3" name="-3"/>
+                <EnumValue value="-2" name="-2"/>
+                <EnumValue value="-1" name="-1"/>
+                <EnumValue value="0" name="0"/>
+                <EnumValue value="1" name="1"/>
+            </ParamInfo>
+            <ParamInfo type='TEXT' name='transition' default=''  visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='TEXT' name='bubbletransition' default='' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='JSEXP' name='feedbackstyle' default='' visibility='conditional'><Properties js='1' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="aicc">
+            <ParamInfo type='TEXT' name='aicc_get' default='false' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='aicc_sid' default='' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='aicc_url' default='' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="scorm lms">
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='deactivate_lms' name='lms_cfg_deactivate_lms' default='false'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='ignore_errors' name='lms_cfg_ignore_errors' default='false'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='forward' default='null'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='use_original_max' name='lms_cfg_use_original_max' default='true'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='score_percentage_100' name='lms_cfg_score_percentage_100' default='false'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='INTEGER' displayName='score_precision' name='lms_cfg_score_precision' default='3'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='only_one_commit' name='lms_cfg_only_one_commit' default='false'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='score_precedence_lms' name='lms_cfg_score_precedence_lms' default='false'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='ENUM' displayName='decide_completeness' name='lms_cfg_decide_completeness' default='0'><Properties js='0' l='1'/>
+                <EnumValue value="0" name="0"/>
+                <EnumValue value="1" name="1"/>
+                <EnumValue value="1" name="2"/>
+            </ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='suspend_on_user_stop' name='lms_cfg_suspend_on_user_stop' default='false'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='check_moodle_previous_points' name='lms_cfg_check_moodle_previous_points' default='false'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='BOOL_TRUE_FALSE' displayName='bookmark_with_score' name='lms_bookmark_with_score' default='false'><Properties js='0' l='1'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="navi">
+            <ParamInfo type='TEXT' name='domain' default='null' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='JSEXP' name='live' default='' visibility='conditional'><Properties js='1' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='appframename' default='webride_frame' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='appname' default='' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='INTEGER' name='apptimeout' default='0' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='appurl' default='' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='tourframe' default='null' visibility='conditional'><Properties js='0' l='1'/></ParamInfo>
+            <ParamInfo type='TEXT' name='macroset_files' default='trainer-config:navi_std.js;trainer-config:navi_ep6_custom.js;trainer-config:sapep6_fake_top.js;' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+            <ParamInfo type='TEXT' name='control.appurl_match_pattern' default='/' visibility='conditional'><Properties js='0' l='0'/></ParamInfo>
+        </ParamGroup>
+        <ParamGroup name="logging">
+            <ParamInfo type='TEXT' name='logurl' default='' visibility='conditional'/>
+            <ParamInfo type='TEXT' name='loguser' default='' visibility='conditional'/>
+            <ParamInfo type='TEXT' name='logpwd' default='' visibility='conditional'/>
+        </ParamGroup>
+    </ParamSet>
+</TrainerConfig>

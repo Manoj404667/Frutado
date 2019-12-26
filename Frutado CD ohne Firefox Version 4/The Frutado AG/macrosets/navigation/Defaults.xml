@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MacroDefaults version="6.2.0beta1" MacroShelfComment="Demo/Uebungs/Test/Praxismakros deutsch/english mit Automatik">
+<Macro name="start_unit">
+<Values obj_index="0" app_res_time="0" use_screen_watcher="0" screen_tolerence="6" sc_calm_down_time="20" />
+</Macro>
+<Macro name="define_target">
+<Values bubblestyle_d="_default" b_width="150" b_height="40" b_minimizable="1" b_movable="1" orientation="C" mode="Single Bubble" process_id="-1" ts_validatory="0" key_sc_depend="1" ts_sc_depend="1" resize="0" subkey="0" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x0000ff" anim_steps="30" screen_tolerence="-1" />
+<ComplexValues>
+<single_bubble_pos x="60" y="50" />
+<win_rect x="0" y="0" cx="0" cy="0" />
+</ComplexValues>
+</Macro>
+<Macro name="explanation">
+<Values bubblestyle_d="_default" b_width="180" b_height="40" doc_enable="yes" b_minimizable="1" b_movable="1" explanation_d="" orientation="SE" fieldicon="" b_minimized="0" enabled="1" no_spike="0" />
+<ComplexValues>
+<click_pos_rel x="50" y="50" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="explanation_long">
+<Values bubblestyle_d="_default" b_width="400" b_height="40" doc_enable="yes" orientation="C" b_minimizable="1" b_movable="1" fieldicon="" explanation_d="" b_minimized="0" enabled="1" no_spike="0" />
+<ComplexValues>
+<click_pos_rel x="50" y="50" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="choose_process">
+<Values bubblestyle_d="_default" b_width="180" b_height="40" doc_enable="yes" orientation="C" b_minimizable="1" b_movable="1" explanation_d="&lt;INPUT type=&quot;radio&quot; name=&quot;proc&quot; onclick='window.external.onClick(&quot;winnavp_SetProcessID(1);winnavp_Restart();&quot;)'&gt;Process 1&lt;BR&gt;&lt;INPUT type=&quot;radio&quot; name=&quot;proc&quot; onclick='window.external.onClick(&quot;winnavp_SetProcessID(2);winnavp_Restart();&quot;);'&gt;Process 2" b_minimized="0" no_spike="0" />
+<ComplexValues>
+<click_pos_rel x="50" y="50" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="click">
+<Values bubblestyle_d="_default" b_width="150" b_height="40" b_minimizable="1" b_movable="1" orientation="SE" action="lclick" fieldicon="" b_minimized="0" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="1" show_hilight="0" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="active_area">
+<Values bubblestyle_d="_default" b_width="150" b_height="40" b_minimizable="1" b_movable="1" orientation="SE" b_minimized="0" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="1" show_hilight="0" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="key_press">
+<Values bubblestyle_d="_default" b_width="150" b_height="40" b_minimizable="1" b_movable="1" orientation="SE" position_h="0" b_minimized="0" enabled="1" leaves_page="0" no_spike="0" />
+<ComplexValues>
+<click_pos_rel x="50" y="50" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="input_text">
+<Values bubblestyle_d="_default" b_width="180" b_height="40" b_minimizable="1" b_movable="1" explanation_d="" orientation="SE" fieldicon="" init="" b_minimized="1" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="1" show_hilight="0" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="select_single">
+<Values bubblestyle_d="_default" b_width="180" b_height="40" b_minimizable="1" b_movable="1" choose_nr="0" explanation_d="" orientation="SE" fieldicon="" b_minimized="0" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="1" show_hilight="0" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="input_radio">
+<Values bubblestyle_d="_default" b_width="180" b_height="40" b_minimizable="1" b_movable="1" explanation_d="Wählen Sie diese Option aus." orientation="SE" fieldicon="" init="/*ctx_control.Handlers.onFocusLost=function(){ctx_control.HideEffectHighlight();if (ctx_control.Recapture() &amp;&amp; NavPlayer.CtrlValue!=ctx_control.value) {ctx_control.ShowEffectHighlight();return false;} else {ctx_control.HideEffectHighlight();} return true;}*/" b_minimized="0" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="1" show_hilight="0" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0" />
+<ComplexValues>
+<click_pos x="-1" y="-1" />
+<bubble_offset x="0" y="0" />
+</ComplexValues>
+</Macro>
+<Macro name="script">
+<Values init="" />
+</Macro>
+<Macro name="behaviour_assign_global">
+<Values action="LClick" />
+</Macro>
+<Macro name="behaviour_assign_ns">
+<Values action="LClick" />
+</Macro>
+<Macro name="behaviour_assign_object">
+<Values action="LClick" />
+</Macro>
+<Macro name="free_object">
+<Values bubblestyle_d="_default" b_width="180" b_height="40" b_minimizable="1" b_movable="1" explanation_d="" orientation="C" b_minimized="0" window_dependent="0" no_spike="0" />
+<ComplexValues>
+<bubble_offset x="0" y="0" />
+<position x="100" y="100" />
+</ComplexValues>
+</Macro>
+<Macro name="free_object_elem">
+<Values explanation_d="" enabled="1" />
+</Macro>
+<Macro name="beh_cancel">
+<Values script="return false;" />
+</Macro>
+<Macro name="beh_foe_change_state">
+<Values explanation_d="" enabled="0" exclusive="0" />
+</Macro>
+<Macro name="beh_hilight">
+<Values g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" />
+</Macro>
+</MacroDefaults>

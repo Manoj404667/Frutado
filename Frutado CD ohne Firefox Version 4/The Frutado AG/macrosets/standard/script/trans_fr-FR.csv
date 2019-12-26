@@ -1,0 +1,221 @@
+﻿click.demo	Il est cliqué sur [B_NAME].
+click.prac	Veuillez cliquer sur [B_NAME].
+click_img.demo	Il est cliqué sur [B_NAME_ICON].
+click_img.prac	Veuillez cliquer sur [B_NAME_ICON].
+click_cancel_trans_img.demo	En cliquant sur [B_ICON_NAME], la transaction est interrompue.
+click_cancel_trans_img.prac	Cliquer sur [B_ICON_NAME] pour interrompre la transaction.
+click_back_img.demo	En cliquant sur [B_ICON_NAME], vous revenez à la page précédente.
+click_back_img.prac	Cliquer sur [B_ICON_NAME] pour revenir à la page précédente.
+click_ok_img.demo	Cliquer maintenant sur [B_ICON_NAME].
+click_ok_img.prac	Cliquer sur [B_ICON_NAME].
+click_exit_trans_img.demo	En cliquant sur [B_ICON_NAME], vous quittez la transaction.
+click_exit_trans_img.prac	Cliquer sur [B_ICON_NAME] pour quitter la transaction.
+click_save_img.demo	En cliquant sur [B_ICON_NAME], vous enregistrez les saisies.
+click_save_img.prac	Cliquer sur [B_ICON_NAME] pour enregistrer les saisies.
+click_checkbox_off.demo	[B_NAME] est mis hors service.
+click_checkbox_off.prac	Mettre la valeur [B_NAME] hors service.
+click_next_page_img.demo	En cliquant sur [B_NAME_ICON], la prochaine page est ouverte.
+click_next_page_img.prac	Veuillez cliquer sur [B_NAME_ICON].
+click_checkbox_on.demo	[B_NAME] est sélectionné.
+click_checkbox_on.prac	Sélectionner la valeur [B_NAME].
+click_select_value.demo	La valeur [B_NAME] est sélectionnée.
+click_select_value.prac	Sélectionner la valeur [B_NAME].
+click_open_menu.demo	Le menu [B_NAME] est ouvert.
+click_open_menu.prac	Ouvrir le menu [B_NAME].
+click_menu_select.demo	L’entrée [B_NAME] est sélectionnée.
+click_menu_select.prac	Sélectionner l’entrée [B_NAME].
+click_select_column.demo	La colonne [B_NAME] est sélectionnée.
+click_select_column.prac	Sélectionner la colonne [B_NAME] en cliquant sur son en-tête.
+click_open_value_help.demo	L’aide des valeurs est ouverte.
+click_open_value_help.prac	Veuillez ouvrir l’aide des valeurs.
+click_select_line.demo	La ligne [B_NAME] est sélectionnée.
+click_select_line.prac	Sélectionner la ligne [B_NAME] en cliquant dans la première colonne.
+click_scroll_top.demo	I est remonté au début en cliquant sur [ICON].
+click_scroll_top.prac	Remonter au début en cliquant sur [ICON].
+click_scroll_bottom.demo	I est descendu à la fin en cliquant sur [ICON].
+click_scroll_bottom.prac	Descendre à la fin en cliquant sur [ICON].
+click_scroll_pageup.demo	Il est remonté d’une page en cliquant sur [ICON] .
+click_scroll_pageup.prac	Remonter d’une page en cliquant sur [ICON].
+click_scroll_pagedown.demo	Il est descendu d’une page en cliquant sur [ICON].
+click_scroll_pagedown.prac	Descendre d’une page en cliquant sur [ICON].
+click_scroll_lineup.demo	Il est remonté d’une ligne en cliquant sur [ICON].
+click_scroll_lineup.prac	Remonter d’une ligne en cliquant sur [ICON].
+click_scroll_linedown.demo	Il est descendu d’une ligne en cliquant sur [ICON].
+click_scroll_linedown.prac	Descendre d’une ligne en cliquant sur [ICON].
+click_close_window_img.demo	La fenêtre est fermée en cliquant sur [ICON].
+click_close_window_img.prac	Fermer la fenêtre en cliquant sur [ICON].
+click_select_all_lines_img.demo	Toutes les lignes sont mises en surbrillance en cliquant sur [ICON].
+click_select_all_lines_img.prac	Sélectionner toutes les lignes en cliquant sur [ICON].
+click_open_card_menu.demo	La sélection des cartes est ouverte en cliquant sur [ICON].
+click_open_card_menu.prac	Ouvrir la sélection des cartes en cliquant sur [ICON] .
+click_select_card.demo	La carte [B_NAME] est sélectionnée.
+click_select_card.prac	Sélectionner la carte [B_NAME].
+click_next_cards_img.demo	Les prochaines cartes sont affichées en cliquant sur [ICON].
+click_next_cards_img.prac	Afficher les prochaines cartes en cliquant sur [ICON].
+click_prev_cards_img.demo	Les cartes précédentes sont affichées en cliquant sur [ICON].
+click_prev_cards_img.prac	Afficher les cartes précédentes en cliquant sur [ICON].
+click_open_nav_menu.demo	Le menu de navigation est ouvert en cliquant sur [ICON].
+click_open_nav_menu.prac	Ouvrir le menu de navigation en cliquant sur [ICON].
+click_close_folder_img.demo	Le dossier [B_NAME] est fermé en cliquant sur [ICON].
+click_close_folder_img.prac	Fermer le dossier [B_NAME] en cliquant sur [ICON].
+click_open_folder_img.demo	Le dossier [B_NAME] est ouvert en cliquant sur [ICON].
+click_open_folder_img.prac	Ouvrir le dossier [B_NAME] en cliquant sur [ICON].
+click_select_element_img.demo	L’élément [B-NAME] est sélectionné en cliquant sur [ICON].
+click_select_element_img.prac	Sélectionner l’élément [B_NAME] en cliquant sur [ICON].
+click_scroll_down.demo	Il est descendu en utilisant la barre de défilement.
+click_scroll_down.prac	Descendre en utilisant la barre de défilement.
+dblclick_select_entry.demo	L’entrée est sélectionnée en double-cliquant sur [B_NAME].
+dblclick_select_entry.prac	Sélectionner l’entrée en double-cliquant sur [B_NAME].
+dblclick_select_date.demo	[B_NAME] est sélectionné.
+dblclick_select_date.prac	Sélectionner [B_NAME].
+dblclick_start_transaction.demo	La transaction [B_NAME] est lancée par un double-clic.
+dblclick_start_transaction.prac	Lancer la transaction [B_NAME] avec un double-clic <br>ou<br>saisir le code de transaction avec [B_TCODE] et confirmer avec la touche Entrée.
+click_close_group.demo	Le groupe [B_NAME] est fermé.
+click_close_group.prac	Veuillez fermer le groupe [B_NAME].
+click_open_group.demo	Le groupe [B_NAME] est ouvert.
+click_open_group.prac	Veuillez ouvrir le groupe [B_NAME].
+select.demo	[B_SELECTED] est sélectionné comme [B_NAME].
+select.prac	Veuillez sélectionner [B_SELECTED] comme [B_NAME].
+input_text.demo	Le champ [B_NAME] est rempli.
+input_text.prac	Veuillez entrer [B_INPUT] dans le champ [B_NAME].
+input_text_value.demo	Dans le champ [B_NAME], [B_INPUT] est maintenant entré.
+input_text_value.prac	Veuillez saisir [B_INPUT] dans le champ [B_NAME].
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Confirmer la saisie avec la touche <b>Tab</b> ou <b>Entrée</b> ou cliquer sur <b> le bouton correspondant</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Confirmer la saisie avec la touche <b>Tab</b> ou <b>Entrée</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Confirmer la saisie avec la touche <b>Entrée</b> ou cliquer sur <b>le bouton correspondant</b>.
+input_tab.demo
+input_tab.prac	<br>Confirmer la saisie avec la touche <b>Tab</b>.
+input_enter.demo
+input_enter.prac	<br>Confirmer la saisie avec la touche <b>Entrée</b>.
+input_button.demo
+input_button.prac	<br>Confirmer la saisie avec un <b>clic sur le bouton correspondant</b>.
+click_select.demo	[B_NAME] est maintenant sélectionné.
+click_select.prac	Veuillez sélectionner [B_NAME].
+click_show_value_help_button.demo	Ouvrir l’aide des valeurs en cliquant sur le champ de texte [B_NAME].
+click_show_value_help_button.prac	Ouvrir l’aide des valeurs en cliquant dan le champ de texte [B_NAME].
+click_scroll_horizontal.demo	Défilement vers la droite…
+click_scroll_horizontal.prac	Faire défiler ver la droite.
+click_scroll_vertical.demo	Défilement vers le bas...
+click_scroll_vertical.prac	Faire défiler vers le bas.
+click_img_expand.demo	Il est cliqué sur [ICON] pour augmenter la zone de navigation.
+click_img_expand.prac	Augmenter la zone de navigation en cliquant sur [ICON].
+click_img_collapse.demo	Il est cliqué sur [ICON] pour réduire la zone de navigation.
+click_img_collapse.prac	Réduire la zone de navigation en cliquant sur [ICON].
+click_navrow.demo	[B_NAME] est sélectionné dans la ligne de navigation.
+click_navrow.prac	Veuillez ouvrir [B_NAME] depuis la ligne de navigation.
+click_navrow2.demo	[B_NAME] est sélectionné dans la seconde ligne de navigation.
+click_navrow2.prac	Veuillez ouvrir [B_NAME] depuis la seconde ligne de navigation.
+click_open_context_menu.demo	Le menu de contexte [B_NAME] est ouvert.
+click_open_context_menu.prac	Ouvrir le menu de contexte de [B_NAME].
+click_radio_select.demo	[B_NAME] est sélectionné.
+click_radio_select.prac	Sélectionner [B_NAME].
+click_select_img.demo	[B_ICON_NAME] est sélectionné.
+click_select_img.prac	Sélectionner [B_ICON_NAME].
+click_open_form_view.demo	Avec [B_ICON_NAME], il est basculé à la vue de formulaire.
+click_open_form_view.prac	Basculer avec [B_ICON_NAME] en vue de formulaire.
+history_select.demo	[B_NAME] est sélectionné dans l’historique.
+history_select.prac	Sélectionner [B_NAME] dans l’historique.
+click_page_up_img.demo	En cliquant sur [B_ICON], il est remonté d’une page.
+click_page_up_img.prac	Remonter d’une page en cliquant sur [B_ICON].
+click_page_down_img.demo	En cliquant sur [B_ICON], il est descendu d’une page.
+click_page_down_img.prac	Descendre d’une page en cliquant sur [B_ICON].
+click_page_top_img.demo	En cliquant sur [B_ICON], il est remonté au début.
+click_page_top_img.prac	Remonter au début en cliquant sur [B_ICON].
+click_page_bottom_img.demo	En cliquant sur [B_ICON], il est descendu à la fin.
+click_page_bottom_img.prac	Descendre à la fin en cliquant sur [B_ICON].
+click_sort_by_column.demo	Il est trié selon la colonne [B_NAME].
+click_sort_by_column.prac	Trier selon la colonne [B_NAME].
+click_select_date.demo	[B_NAME] est sélectionné.
+click_select_date.prac	Sélectionner [B_NAME].
+click_close_card_img.demo	La carte est fermée en cliquant sur [ICON].
+click_close_card_img.prac	Cliquer sur [ICON] pour fermer la carte.
+click_select_function_img.demo	Sélectionner la fonction [B_NAME] en cliquant sur [ICON].
+click_select_function_img.prac	Cliquer sur [ICON] pour sélectionner la fonction [B_NAME].
+click_hide_treeview.demo	En cliquant sur [ICON], la vue d’arbre est masquée.
+click_hide_treeview.prac	Masquer la vue d’arbre en cliquant sur [ICON].
+click_show_treeview.demo	En cliquant sur [ICON], la vue d’arbre est affichée.
+click_show_treeview.prac	Afficher la vue d’arbre en cliquant sur [ICON].
+click_mark_transaction.demo	La transaction est mise en surbrillance en cliquant sur [B_NAME].
+click_mark_transaction.prac	Mettre la transaction en surbrillance  [B_NAME] avec un clic.
+dblclick_select_element.demo	L’élément est sélectionné avec un double clic [B_NAME].
+dblclick_select_element.prac	Sélectionner l’élément [B_NAME] avec un double-clic.
+please_note.demo	Prendre ce qui suit en compte : [B_NAME].
+please_note.prac	Prendre ce qui suit en compte : [B_NAME].
+click_open_value_help_img.demo	En cliquant sur <b>Aide à la saisie</b> [ICON], une liste de sélection avec des valeurs valables est obtenue.
+click_open_value_help_img.prac	Cliquer sur <b>Aide à la saisie</b> [ICON], pour obtenir une liste de sélection avec des valeurs valables.
+click_open_selection.demo	Une liste de sélection est obtenue en cliquant sur [ICON].
+click_open_selection.prac	Cliquer sur [ICON] pour obtenir une liste de sélection.
+click_mark_entry.demo	L’entrée [B_NAME] est mise en surbrillance en cliquant dessus.
+click_mark_entry.prac	Mettre l’entrée [B_NAME] en surbrillance en cliquant dessus.
+click_mark_entry_img.demo	Sélectionner l’entrée [ICON] en cliquant dessus.
+click_mark_entry_img.prac	Sélectionner l’entrée [ICON] en cliquant dessus.
+click_menu_select_img.demo	En cliquant sur le point de menu [ICON], il est exécuté.
+click_menu_select_img.prac	Cliquer sur le point de menu [ICON] pour l’exécuter.
+click_open_menu_img.demo	Le menu [ICON] est ouvert en cliquant dessus.
+click_open_menu_img.prac	Cliquer sur le menu [ICON] pour l’ouvrir.
+click_select_card_img.demo	L’onglet [ICON] est sélectionné en cliquant dessus.
+click_select_card_img.prac	Cliquer sur l’onglet [ICON] pour le sélectionner.
+dblclick_select_line.demo	La ligne est mise en surbrillance en double-cliquant sur le bouton [NAME].
+dblclick_select_line.prac	Double-cliquer sur le bouton [NAME] pour mettre la ligne en surbrillance.
+click_activate_edit.demo	Le champ de saisie est activé en cliquant dessus [B_NAME].
+click_activate_edit.prac	Cliquer sur le champ de saisie [B_NAME] pour l’activer.
+dblclick_activate_edit.demo	Le champ de saisie [B_NAME] est activé par double-clic.
+dblclick_activate_edit.prac	Double-cliquer dans le champ de saisie [B_NAME] pour l’activer.
+dblclick_open_folder_img.demo	Un double-clic sur le symbole [ICON] ouvre le dossier [B_NAME].
+dblclick_open_folder_img.prac	Ouvrir le dossier [B_NAME] en double-cliquant sur le symbole [ICON].
+click_open_folder.demo	En cliquant sur le symbole <b>Ouvrir le fichier</b>, le dossier [B_NAME] est ouvert.
+click_open_folder.prac	Ouvrir le dossier [B_NAME] en cliquant sur le symbole <b>Ouvrir le dossier</b>.
+dblclick_open_folder.demo	En double-cliquant sur le symbole <b>’Ouvrir le dossier’</b>, le dossier [B_NAME] est ouvert.
+dblclick_open_folder.prac	Ouvrir le dossier [B_NAME] en double-cliquant sur le symbole <b>'Ouvrir le dossier'</b>.
+click_close_folder.demo	En cliquant sur le symbole <b>'Fermer dossier'</b>, le dossier est fermé [B_NAME].
+click_close_folder.prac	Fermer le dossier [B_NAME] en cliquant sur le symbole <b>'Fermer dossier'</b>.
+drag_scroll_hor.demo	La zone désirée est rendue visible en cliquant et tirant sur la <b>zone de défilement</b>.
+drag_scroll_hor.prac	Cliquer et tirer la <b>barre de défilement horizontal</b> pour faire défiler.
+drag_scroll_vert.demo	En cliquant et en tirant la <b>barre de défilement</b>, la zone souhaitée devient visible.
+drag_scroll_vert.prac	Cliquer et tirer la <b>barre de défilement verticale</b> pour faire défiler.
+click_scroll.demo	La zone désirée est rendue visible en cliquant sur le <b>bouton de défilement</b> [NAME].
+click_scroll.prac	Faire défiler en cliquant sur le <b>bouton de défilement</b> [NAME].
+click_scroll_page_left.demo	En cliquant sur la <b>zone de défilement</b>, la zone désirée est rendue visible.
+click_scroll_page_left.prac	Cliquer dans la <b>zone à gauche de la barre de défilement</b> pour faire défiler.
+click_scroll_page_right.demo	En cliquant sur la <b>zone de défilement</b>, la zone désirée est rendue visible.
+click_scroll_page_right.prac	Cliquer sur la <b>zone à droite de la barre de défilement</b> pour faire défiler.
+click_scroll_page_up.demo	La zone désirée devient visible sur la <b>zone de défilement</b>.
+click_scroll_page_up.prac	Cliquer dans la <b>zone au-dessus de la barre de défilement</b> pour faire défiler.
+click_scroll_page_down.demo	La zone désirée est rendue visible en cliquant sur la <b>zone de défilement</b>.
+click_scroll_page_down.prac	Cliquer dans la <b>zone de défilement sous la barre de défilement</b> pour faire défiler.
+rclick_context.demo	Un menu de contexte est ouvert en cliquant avec le bouton droit de la souris sur [B_NAME].
+rclick_context.prac	Veuillez cliquer sur [B_NAME] avec le bouton droit de la souris.
+dblclick_img.demo	Il est double-cliqué sur [ICON].
+dblclick_img.prac	Veuillez double-cliquer sur [ICON].
+keypress.demo	Veuillez entrer [B_KEY].
+keypress.prac	Veuillez entrer [B_KEY].
+item.close_folder	Fermer le dossier
+item.open_folder	Ouvrir le dossier
+item.enter_key	Entrée
+item.tab_key	Tab
+item.vscroll	Barre de défilement verticale
+item.hscroll	Barre de défilement horizontale
+item.close_window	Fermer la fenêtre
+item.value_help	Sélection des valeurs
+item.scroll	Barre de défilement
+item.back_btn	Retour
+item.save_btn	Enregistrer
+item.scroll_area	Zone de défilement
+input_text_value_tpcd.demo	[B_INPUT] est désormais saisi dans le <b>champ Transaction</b>.
+input_text_value_tpcd.prac	Entrer [B_INPUT] dans le <b>champ Transaction</b>.
+drag_img.demo	Glisser [B_NAME_ICON].
+drag_img.prac	Glisser [B_NAME_ICON].
+drop_img.demo	Déposer sur [B_NAME_ICON].
+drop_img.prac	Déposer sur [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

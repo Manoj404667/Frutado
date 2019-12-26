@@ -1,0 +1,97 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script type="text/javascript" language="javascript" src="./jswidget/url.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/callback.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/config.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/dhtml.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/dhtml_explorer.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/dict.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/log_tree.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/tree_explorer.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/tree.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/js_extensions_standard.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/js_extensions.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/queue.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/batch.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./agent_urler.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./xbrowser.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/queue.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./agent.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./eventfactory.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./events.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./eep.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./eep_standard.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./media.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/animation.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/object_configurator.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./jswidget/textfile.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render_container.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render_base.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render_highlight.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render_bubble.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render_xbubble.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render_scroll.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render_form.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./render_task.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./condition.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./pause.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./cursor.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./explorer.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./gui_controller.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./api.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./frame.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./frame_container.js.gz"></script>
+  <script type="text/javascript" language="javascript" src="./window_container.js.gz"></script>
+  <script language=javascript>
+    function splitUrlParams() {
+        var temp = new String(window.location.search);
+    
+        if (temp.substr(0, 1) == '?') {
+            temp = temp.substr(1);
+        }
+    
+        var urlParams = [];
+    
+        if (temp.length && temp.length > 0) {
+            urlParams = temp.split('&');
+        }
+        var urlParamsAsoc = [];
+        for (var i = 0; i < urlParams.length; i++) {
+            var urlParam = urlParams[i].split('=');
+        urlParamsAsoc[urlParam[0]] = urlParam[1];
+        }
+        return urlParamsAsoc;
+    }
+
+    function bootsecondary_ready() {
+        parent.dgobootsecondaryReadyCount = 2;
+        parent.bootsecondary_ready('dynloader.secondary.load(I)');
+    }
+
+    var urlParams = splitUrlParams();
+    dgoDOMAIN = urlParams['dgoDOMAIN'] || '';
+    if (dgoDOMAIN != '') { // relax inmediately
+        self.document.domain = dgoDOMAIN;
+    }
+  </script>
+</head>
+
+<body onload = "bootsecondary_ready()">
+</body>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+<title>${TOK_TRAINER} ${TOK_START}</title>
+<link rel=stylesheet type="text/css" href="bracepage.css" dgohref="trainer:bracepage.css">
+
+<script language=javascript>
+
+// Extract trainer URL from bracepage URL.
+// 1. Take "restart" URL param
+// 2. Take current URL
+// Return result als string (in any case).
+
+var Templater_getBaseUrl_Re_ = /[?&]/;
+
+function Templater_setUrls_(paramName_) {
+    var paramName = paramName_ || '';
+    var url = self.location.href + '';
+    var pos = url.indexOf('?');
+    var tourlink = null;
+    var base = null;
+
+    if (pos >= 0 /*URL params*/ && paramName) {
+        var params = url.split(Templater_getBaseUrl_Re_);
+        var i, l, param;
+
+        for (i = 0, l = params.length; i < l && !tourlink; ++i) {
+            param = params[i].split('=', 2);
+
+            if (param[0] == paramName_) {
+                tourlink = unescape(param[1]);
+            }
+        }
+    }
+
+    // Missing URL parameter(s).
+    tourlink || (tourlink = url);
+    base = tourlink;
+
+    // Remove URL param.
+    pos = base.indexOf('?');
+    (pos >= 0) && (base = base.substr(0, pos));
+
+    // Remove optional "file.ext", but keep directory slash.
+    pos = base.lastIndexOf('/');
+    (pos >= 0) && (base = base.substr(0, pos + 1));
+
+    Tourlink = tourlink;
+    BaseUrl = base;
+    return true;
+}
+
+Templater_setUrls_('restart');
+/*DBG alert('start.html:\n\rTourlink: ' + Tourlink + '\n\rtrainer Base: ' + BaseUrl); /**/
+
+self.document.write(
+    '<script src="' + BaseUrl + 'templater.js" language=javascript><' + '/script>');
+self.document.write(
+    '<script src="' + BaseUrl + 'bracepage.js" language=javascript><' + '/script>');
+
+var pagetype = 'Start';
+</script>
+</head>
+</html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

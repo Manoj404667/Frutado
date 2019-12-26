@@ -1,0 +1,241 @@
+﻿# English text atoms
+# Base tokens
+BULLET;
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	@{TOK_COMPANY} Kursus
+TOK_TOUR;	@{TOK_COMPANY} Pelajaran
+TOK_TRAINER;@{TOK_COMPANY} trainer"
+
+# Key names
+ALTKEY;	Alt
+CTRLKEY;	Ctrl
+LEFTALTKEY;	Alt (kiri)
+LEFTCTRLKEY;	Ctrl (kiri)
+LEFTSHIFTKEY;	Shift (kiri)
+ON;	hidup
+OFF;	mati
+RIGHTALTKEY;	Alt (kanan)
+RIGHTCTRLKEY;	Ctrl (kanan)
+RIGHTSHIFTKEY;	Shift (kanan)
+SHIFTKEY;	Shift
+
+# Trainer states
+TOK_BUFFERING;	Memuatkan suara...
+TOK_CONNECTING;	Melakukan koneksi...
+TOK_IDLE;
+TOK_LMS;	Menuliskan hasil...
+TOK_OPENING;	Melakukan koneksi...
+TOK_OPEN;
+TOK_PAUSED;	Jeda
+TOK_PLAYING;	Memutar
+TOK_READY;	Siap
+TOK_USERINPUT;	Input
+TOK_WAITING;Page loading..."
+
+# Display errors
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Frameset tidak dapat diperlihatkan di sini.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;"">Dokumen dengan IFRAME tidak dapat diperlihatkan di sini.</span>"
+
+# Popupblocker errors
+TOK_POPUPBLOCKER_EXC;	Pemblokir popup (menu timbul) membuat pelajaran tidak dapat dimainkan.
+TOK_POPUPBLOCKER_CONFIRM;	Pemblokir popup telah mencegah terbukanya jendela browser baru.@{NEWLINE}@{NEWLINE}OK: Sekarang Anda dapat melanjutkan setelah Anda mematikan pemblokir popup tersebut@{NEWLINE}    untuk webserver.@{NEWLINE}Batal: Pelajaran sedang diselesaikan.
+
+# Security setting errors
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Setelan keamanan Internet Explorer\n\rmencegah ditampilkannya  @{TOK_TOUR}.\nHarap aktifkan \n""Allow script-initiated windows without size or position constraints"" (Izinkan jendela yang diawali skrip tanpa pembatasan ukuran atau posisi)!"
+
+# Standard errors
+TOK_COULD_NOT_READ_EXC;	"@1 ""@2"" tidak dapat dibaca."
+TOK_COULD_NOT_READ2_EXC;	"@1 ""@2"" tidak dapat dibaca: @3"
+
+# Form texts
+TOK_CLOSE;	Tutup
+TOK_DIR;	Direktori
+TOK_ERROR;	Salah
+TOK_EXIT;	Keluar
+TOK_OPEN;	Buka
+TOK_SEARCH;	Cari
+TOK_START;	Mulai
+TOK_START_TOUR;	@{TOK_TOUR} mulai
+TOK_STOP;	Stop
+
+# Library
+TOK_LIB_BTN_LESS;	kurang...
+TOK_LIB_BTN_MORE;	lebih...
+TOK_LIB_EMPTY;	Komponen kosong
+TOK_LIB_FLAG_DESC;	Deskripsi pencarian
+TOK_LIB_FLAG_KEEP_OPEN;	Biarkan struktur kursus terbuka
+TOK_LIB_FLAG_NEWWIN;	Dalam jendela baru
+TOK_LIB_FLAG_TITLE;	Judul pencarian
+TOK_LIB_RESET;	Hapus hasil pencarian
+TOK_LIB_VAL_NOFILTER; no filter"
+
+# Mimetypes
+MIME_TEXT_PDF;	PDF - Format Adobe Acrobat
+MIME_APP_MSWORD;	Dokumen Word
+MIME_APP_EXCEL;	Spreadsheet Excel
+MIME_APP_PPT;	Slide Powerpoint
+MIME_APP_OOFF;	Dokumen OpenOffice
+MIME_APP_OOFFWRITE;	Teks OpenOffice
+MIME_APP_OOFFCALC;	Spreadsheet OpenOffice
+MIME_APP_OOFFIMPRESS;	Presentasi OpenOffice
+MIME_APP_OOFFMATH;	Rumus matematika OpenOffice
+MIME_AUDIO;	Audio
+MIME_VIDEO;	Video
+MIME_TEXT_HTML;	Laman web
+MIME_TEXT;	Dokumen teks
+MIME_APP_DGO;	@{TOK_COMPANY} Pelajaran
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} Latihan
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} Tes
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} Pelajaran Mode Bersamaan
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+
+# Tooltips
+TIP_PLAY;""Continue (F8);	" Mulai lagi dengan """"Alt"""": """
+TIP_PAUSE;""Stop (PAUSE);	" Tingkatkan kualitas audio dengan """"Shift"""": Simpan bandwidth audio dengan """"Alt"""":"""
+TIP_STOP;""Exit (F12);	" Tampilkan versi dengan """"Shift"""": """
+TIP_NEXT;	Bab berikutnya (ALT-panah bawah)
+TIP_BACK;	"Bab sebelumnya (ALT-panah atas); Tampilkan kursus dengan ""Alt"":"
+TIP_MAXBUBBLE;	Pulihkan gelembung teks
+TIP_MINBUBBLE;	Minimalkan gelembung teks
+TIP_CLOSEBUBBLE;	Minimalkan gelembung teks
+TIP_ENABLED;
+TIP_DISABLED;	(tidak mungkin sekarang)
+TIP_TASK;	Tugas
+TOK_CLOSE_TASK;	Tutup @{TIP_TASK}
+TIP_HELPBUBBLE;	Ya, perlihatkan bantuan
+TIP_GOONBUBBLE;	Teruskan ke langkah berikutnya
+
+# Bracepages
+TOK_BP_CLOSEWINDOW;	Tutup jendela
+TOK_BP_GOBACK;	Kembali
+TOK_BP_GOON;	Berikutnya
+TOK_BP_JSCONSOLE;	Pesan Javascript
+TOK_BP_MODE;	Mode
+TOK_BP_PARAMETER;	Parameter
+TOK_BP_RESTARTPROGRAM;	Ulangi program
+TOK_BP_STARTANOTHER;	Mulai program baru
+TOK_BP_VALUE;	Nilai
+
+# Exercise colors
+EXER_COLOR_ERROR;	ditandai merah
+EXER_COLOR_CLICK;	ditandai hijau
+EXER_COLOR_DBLCLICK;	ditandai kuning
+EXER_COLOR_RCLICK;	ditandai biru-hijau
+EXER_COLOR_CHANGE;	digarisbawahi hijau
+EXER_COLOR_DRAG;	ditandai biru
+EXER_COLOR_DROP;	ditandai coklat
+
+# Exercises
+EXER_AND;	@{NEWLINE}dan@{NEWLINE}
+EXER_FAIL0;	Tindakan yang Anda lakukan tidak benar.
+
+EXER_FAIL1;	Tindakan yang Anda lakukan tidak benar. 1 poin dikurangkan dari skor keseluruhan Anda. Poin yang tersisa untuk tindakan ini: @1_rest-points_.
+EXER_FAIL2;	Tindakan yang Anda lakukan tidak benar. @1_points-penalty_ points dikurangkan dari skor keseluruhan Anda. Poin yang tersisa untuk tindakan ini: @2_rest-points_ points.
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Apakah Anda membutuhkan bantuan?
+
+EXER_FAILCHANGE;	Anda mengedit kotak isian yang salah.@{NEWLINE}
+EXER_FAILCHANGE_HELP;	Kotak isian yang diedit adalah @{EXER_COLOR_ERROR}.@{NEWLINE}Semua kotak isian pemasukan yang boleh diedit adalah @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE_NOMARK_HELP;	Semua kotak isian pemasukan yang valid adalah @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP;	Mengedit kotak isian pemasukan tidak diizinkan pada saat ini.@{NEWLINE}Kotak isian yang diedit adalah @{EXER_COLOR_ERROR}.
+EXER_FAILCHANGE0_NOMARK_HELP;	Tidak ada kotak isian pemasukan yang valid.
+
+EXER_FAILCLICK;	Anda mengklik tombol yang salah.@{NEWLINE}
+EXER_FAILCLICK_HELP;	Bidang yang diklik adalah @{EXER_COLOR_ERROR}.@{NEWLINE}Semua tombol yang dapat diklik adalah @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK_NOMARK_HELP;	Semua tombol yang valid adalah @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP;	Klik tidak diizinkan pada saat ini.@{NEWLINE}Bidang yang diklik adalah @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK0_NOMARK_HELP;	Klik yang valid tidak dapat dilakukan.
+
+EXER_FAILDRAG;	Anda menyeret bidang yang salah.@{NEWLINE}
+EXER_FAILDRAG_HELP;	Bidang yang diseret adalah @{EXER_COLOR_ERROR}.@{NEWLINE}Semua bidang yang dapat diseret adalah @{EXER_COLOR_DRAG}.
+EXER_FAILDRAG_NOMARK_HELP;	Semua bidang yang valid adalah @{EXER_COLOR_DRAG}.
+EXER_FAILDRAG0_HELP;	Operasi menyeret tidak diizinkan pada saat ini.@{NEWLINE}Bidang yang diseret adalah @{EXER_COLOR_ERROR}.
+EXER_FAILDRAG0_NOMARK_HELP;	Operasi menyeret yang valid tidak dapat dilakukan.
+
+EXER_FAILDROP;	Anda meletakkan di bidang yang salah.@{NEWLINE}
+EXER_FAILDROP_HELP;	Bidang di mana Anda meletakkan adalah @{EXER_COLOR_ERROR}.@{NEWLINE}Semua bidang di mana Anda dapat meletakkan adalah @{EXER_COLOR_DROP}.
+EXER_FAILDROP_NODRAG_HELP;	@{NEWLINE} (Jika tidak ada area penyeretan yang tersedia, Anda dapat mengklik pada elemen peletakan).
+EXER_FAILDROP_NOMARK_HELP;	Semua bidang yang valid adalah @{EXER_COLOR_DROP}.
+EXER_FAILDROP0_HELP;	Operasi peletakan tidak diizinkan pada saat ini.@{NEWLINE}Bidang di mana Anda meletakkan adalah @{EXER_COLOR_ERROR}.
+EXER_FAILDROP0_NOMARK_HELP;	Operasi peletakan yang valid tidak dapat dilakukan.
+
+EXER_FAILDBLCLICK;	Anda mengklik dua kali bidang yang salah.@{NEWLINE}
+EXER_FAILDBLCLICK_HELP;	Bidang yang diklik dua kali adalah @{EXER_COLOR_ERROR}.@{NEWLINE}Semua tombol yang diizinkan untuk diklik dua kali adalah @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK_NOMARK_HELP;	Semua tombol klik dua kali yang valid adalah @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP;	Klik dua kali tidak diizinkan pada saat ini.@{NEWLINE}Bidang yang diklik adalah @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK0_NOMARK_HELP;	Klik dua kali tidak valid.
+
+EXER_FAILRCLICK;	Anda mengklik-kanan bidang yang salah.@{NEWLINE}
+EXER_FAILRCLICK_HELP;	Bidang yang diklik-kanan adalah @{EXER_COLOR_ERROR}.@{NEWLINE}Semua tombol yang diizinkan untuk diklik-kanan adalah @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK_NOMARK_HELP;	Semua tombol klik-kanan yang valid adalah @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP;	Klik kanan tidak diizinkan pada saat ini.@{NEWLINE}Bidang yang diklik adalah @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK0_NOMARK_HELP;	Klik kanan tidak valid.
+
+EXER_FAILKEY_HELP0;	Anda telah menekan tombol yang salah.
+EXER_FAILKEY_HELP1;	"Anda menekan tombol ""@1_key_""."
+EXER_FAILKEY_HELP2;	@{NEWLINE}Tombol fungsi yang dapat digunakan adalah:@{NEWLINE}@1_keys_
+
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}Tindakan lebih jauh yang diizinkan adalah:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Edit (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Klik (Tombol adalah @{EXER_COLOR_CLICK})
+EXER_HINT_DRAG_MARKED;	@{NEWLINE}@{BULLET} Seret (Elemen adalah @{EXER_COLOR_DRAG})
+EXER_HINT_DROP_MARKED;	@{NEWLINE}@{BULLET} Letakkan (Elemen adalah @{EXER_COLOR_DROP})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Klik dua kali (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Catatan: Semua poin untuk tindakan ini akan dikurangkan dari skor akhir Anda)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Menekan tombol fungsi@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Tindakan yang diizinkan adalah:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Klik kanan (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Catatan: Jika tidak lanjutkan secara otomatis)
+EXER_HINT_YOURINPUT;	"Anda telah memasukkan ""@1_input_"".@{NEWLINE}"
+EXER_OR;	@{NEWLINE}atau@{NEWLINE}
+
+# StandardMacros.xml
+MSG_OPTIONFIELD_DESELECT;	"Batalkan pemilihan untuk opsi ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"Pilih atau batalkan pemilihan untuk opsi ""@1""!"
+MSG_SCORE;	"skor yang dicapai: ""@1""."
+MSG_SINGLE_SELECT;	"Pilihlah entri ""@1""!"
+MSG_TEXTINPUT;	"Masukkanlah ""@1"" di kotak isian pemasukan ""@2""!"
+MSG_TRANSACTIONCODE;	"Masukkan kode transaksi yang benar ""@1""!"
+
+# Producer bracepages
+capDemoStart;	Mode Demo
+msgDemoStart1;	Dalam Mode Demo Anda dapat menyaksikan penyelesaian suatu kegiatan di dalam aplikasi. Anda dapat hanya mengikuti demo tersebut, sedangkan semua tindakannya dilakukan secara otomatis.
+msgDemoStart2;	Dengan menggunakan bilah navigasi di bagian bawah layar, Anda dapat menjedakan atau menghentikan demo. Anda juga dapat melompat maju ke langkah berikutnya atau mundur ke langkah sebelumnya.
+msgDemoStop;	Mode Demo selesai
+
+capConcurrentStart;	Mode Bersamaan
+msgConcurrentStart1;	Mode Bersamaan memperlihatkan cara menyelesaikan suatu kegiatan di dalam aplikasi.
+msgConcurrentStart2;	Demo akan mengambil jeda setelah masing-masing langkah untuk memberi Anda kesempatan untuk menyelesaikan langkah tersebut dalam aplikasi nyata.
+msgConcurrentStop;	Mode Bersamaan selesai
+
+capTestStart;	Mode Tes
+msgTestStart1;	Dalam Mode Tes Anda dapat menguji pengetahuan Anda dengan menyelesaikan sendiri suatu kegiatan di dalam aplikasi tersebut sendiri: Di samping data contoh yang harus Anda masukkan, Anda tidak akan menerima petunjuk langkah-demi-langkah apa pun. Tugas yang harus Anda selesaikan diuraikan dalam jendela tugas yang dapat Anda perbesar atau minimalkan sesuai kebutuhan dengan menggunakan tombol-tombol di bagian atas jendela tugas.
+msgTestStart2;	Pada akhir tes, Anda akan diberi nilai atau skor berdasarkan jumlah langkah yang diselesaikan dengan benar. Penilaian ini hanyalah untuk pengujian diri Anda saja dan tidak akan diproses lebih lanjut atau disimpan!
+msgTestStart3;	Anda harus bertindak dengan sangat tepat karena sistem akan mencatat setiap entri yang salah eja dan klik yang salah dan akan mengurangi poin Anda berdasarkan kesalahan itu. Ingatlah untuk mengisi kotak isian yang diwajibkan dari atas ke bawah dan dari kiri ke kanan. Jika Anda sampai mengklik kotak isian yang salah atau memasukkan nilai yang tidak benar, sistem akan menampilkan pesan peringatan dan skor Anda akan dikurangi. Jika Anda memilih untuk menerima bantuan dari sistem untuk menyelesaikan suatu langkah, skor Anda untuk langkah itu akan menjadi nol.
+msgTestStart4;	Skor total Anda akan ditampilkan pada akhir tes. Usahakanlah untuk memenuhi skor target sebesar @{res_mastery_percent}% dari langkah yang diselesaikan dengan benar.
+capTestOk;	Tes berhasil
+capTestFailed;	Tes gagal
+msgTestFailed1;	Karena Anda mencapai kurang dari @{res_mastery_percent}% kami menganjurkan agar Anda mempelajari lagi bahan yang dibahas dalam kursus pelatihan ini dari depan sekali lagi dan kemudian menguji pengetahuan Anda sekali lagi dalam mode Tes.
+msgTestFinished2;	Tes ini hanyalah untuk menguji diri sendiri. Hasilnya tidak akan dicatat atau dikirimkan kepada siapa pun.
+msgTestOk1;	Selamat, Anda telah berhasil menyelesaikan Kegiatan ini.
+msgTestResult;	Hasil
+msgTestScore;	Skor
+msgTestScoreValue;	@{res_collected_points} dari @{res_possible_points}
+
+capPracticeStart;	Mode Latihan
+msgPracticeStart1;	Dalam Mode Latihan Anda dapat mencoba apa yang telah Anda pelajari dengan menyelesaikan sendiri suatu tugas di dalam aplikasi tersebut sendiri:
+msgPracticeStart2;	Anda akan menerima petunjuk langkah-demi-langkah yang perlu diikuti.
+msgPracticeStop;	Mode Latihan selesai
+
+# New messages
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+# New messages end
+
+# eof

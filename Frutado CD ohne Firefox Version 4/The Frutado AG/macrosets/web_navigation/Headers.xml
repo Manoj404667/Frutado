@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MacroShelf version="6.2.2.049" comment="Web Navigationsmakro">fpage_init
+
+<!---- Kommentare Zu dieserVersion  ----->
+
+<Language name="1031">
+            <Text name="action">Aktion</Text>
+            <Text name="input_text">Texteingabe</Text>
+            <Text name="b_name">Objektname</Text>
+            <Text name="adv">Erweitert</Text>
+            <Text name="bubble">Bubble</Text>
+            <Text name="affirmation_button">Bestätigungsbutton</Text>
+            <Text name="alternate_text">2. Status Text</Text>
+            <Text name="Add_Hint">Hinweis ändern</Text>
+            <Text name="Add_Value">Wert ändern</Text>
+            <Text name="arrow">Dok: Pfeil</Text>
+            <Text name="b_duration">Bubble-Dauer</Text>
+            <Text name="b_height">Bubblelhöhe</Text>
+            <Text name="b_width">Bubblebreite</Text>
+            <Text name="b_minimizable">Minimierbar</Text>
+            <Text name="b_closeable">Closeable</Text>
+            <Text name="b_movable">Verschiebbar</Text>
+            <Text name="b_transparent">Transparent</Text>
+            <Text name="beschreibung">Dok: Beschreibung</Text>
+            <Text name="bezeichnung">Bezeichnung</Text>
+            <Text name="Check_Validity">Gültigkeit Überprüfen</Text>
+            <Text name="Check_ValiditySpec">Gültigkeit Überprüfen II</Text>
+            <text name="caption">Titel</text>
+            <Text name="choose_bool">Gewählter Wert</Text>
+            <Text name="choose_nr">Gewählter Index</Text>
+            <Text name="choose_text">Gewählter Wert</Text>
+            <Text name="confirmation_enter">Bestätigung: Enter</Text>
+            <Text name="confirmation_tab">Bestätigung: Tab</Text>
+            <Text name="dbl_click">Doppelklick</Text>
+            <Text name="demo">Demo</Text>
+            <Text name="define_target">Zieldefinition</Text>
+            <Text name="in_demo">Im Demo-Modus</Text>
+            <Text name="in_practise">Im Übungs-Modus</Text>
+            <Text name="in_test">Im Test-Modus</Text>
+            <Text name="in_prax">Im Praxis-Modus</Text>
+            <Text name="jump_target">Sprungziel</Text>
+            <Text name="ts">Sprungziel</Text>
+            <Text name="wait_for_input">Aktion abwarten</Text>
+            <Text name="set_focus">Fokus setzen</Text>
+            <Text name="doc">Dokumentation</Text>
+            <Text name="rerecord">Erneut Aufnehmen</Text>
+            <Text name="prepare_rerecord">Übersetzung vorbereiten</Text>
+            <Text name="doc_enable">In Dok anzeigen</Text>
+            <Text name="dump_page">Url</Text>
+            <Text name="dump_win_height">Window Höhe</Text>
+            <Text name="dump_win_left">Window Links</Text>
+            <Text name="dump_win_relpos">Window</Text>
+            <Text name="dump_win_top">Window Oben</Text>
+            <Text name="dump_win_width">Window Breite</Text>
+            <Text name="edit">Bearbeiten</Text>
+            <Text name="edit_bubble_demo">Demo-Bubble positionieren</Text>
+            <Text name="edit_bubble_prax">Übungs-Bubble positionieren</Text>
+            <Text name="edit_rect">Markierung bearbeiten</Text>
+            <Text name="edit_screendump">Screendump bearbeiten</Text>
+            <Text name="edit_screenshot">Dok. Bildausschnitt</Text>
+            <Text name="element_type">Elementtyp</Text>
+            <Text name="end_unit">Lerneinheit Ende</Text>
+            <Text name="ende">Ende</Text>
+            <Text name="explanation">Erklärung</Text>
+            <Text name="explanation_d">Erklärung</Text>
+            <Text name="explanation_long">Erklärung lang</Text>
+            <Text name="explanation_p">Erklärung Übung</Text>
+            <Text name="flash">Rahmen blinkend</Text>
+            <Text name="fieldhelp">Minimierte Bubble</Text>
+            <Text name="fieldname">Feldname</Text>
+            <Text name="fieldicon">Feld-Icon</Text>
+            <Text name="frame">Rahmen fest</Text>
+            <Text name="frame">Rahmen</Text>
+            <Text name="free_marker">Dok: Markierung</Text>
+            <Text name="g_bubble_text_style">Bubble Textstil</Text>
+            <Text name="bubble_class">Bubble-Stil</Text>
+            <Text name="g_highlight_border">
+             Rand</Text>
+            <Text name="g_highlight_effect">Highlight Effekt</Text>
+            <Text name="g_highlight_fillstyle">Highlight Füllstil</Text>
+            <Text name="g_highlight_name">Highlight Name</Text>
+            <Text name="g_highlight_rgb">Highlight Farbe</Text>
+            <Text name="g_highlight_style">Highlight Stil</Text>
+            <Text name="g_linktextpraxis">Praxis Link Text (Vor)</Text>
+            <Text name="g_back_link">Praxis Link Text (Zurück)</Text>
+            <Text name="show_hl_p">Highlight in Übung</Text>
+            <Text name="gendoc">Word-Dokument erzeugen</Text>
+            <Text name="general_action">Klick auf Link</Text>
+            <Text name="hlname">HL Name</Text>
+            <Text name="key_press">Tastendruck</Text>
+            <Text name="key_name">Tastencode</Text>
+            <Text name="key_desc">Tastenbezeichnung</Text>
+            <Text name="click_SAP">Klick auf Link im SAP EA Menü</Text>
+            <Text name="genhtml">HTML-Dokument erzeugen</Text>
+            <Text name="global">Global</Text>
+            <Text name="hinweis">Dok: Hinweis</Text>
+            <Text name="imagesize">Bildgröße (%)</Text>
+            <Text name="info">Info</Text>
+            <Text name="input radio">Optionsfeld</Text>
+            <Text name="input_radio">Optionsfeld</Text>
+            <Text name="kurs">Kopfangaben</Text>
+            <Text name="lclick">Linker Klick</Text>
+            <Text name="ldblclick">Linker Doppelklick</Text>
+            <Text name="linktext">Link Text</Text>
+            <Text name="genppt">PowerPoint-Dokument erzeugen</Text>
+            <Text name="doc_caption">Dok: Überschrift</Text>
+            <Text name="new_step">Lernschritt Name</Text>
+            <Text name="new_window">Neues Fenster</Text>
+            <Text name="new_window_close">Neues Fenster schließen</Text>
+            <Text name="next asset">Neue Seite</Text>
+            <Text name="new_page">Neue Seite</Text>
+            <Text name="page_init">Neue Seite</Text>
+            <Text name="next_page">Nächste Seite</Text>
+            <Text name="note">Bemerkung</Text>
+            <Text name="no_spike">ohne Spitze</Text>
+            <Text name="orientation">Ausrichtung</Text>
+            <Text name="orientation_p">Ausrichtung Übung</Text>
+            <Text name="orientation_b">Bubble Ausrichtung</Text>
+            <Text name="page_break">Dok: Seitenumbruch</Text>
+            <Text name="plausifeld">Feld pruefen</Text>
+            <Text name="plausibutton">Plausi aktivieren</Text>
+            <Text name="position">Position</Text>
+            <Text name="position_af">Position Button</Text>
+            <Text name="position_b">Position Demo-Bubble</Text>
+            <Text name="position_bu">Position Übungs-Bubble</Text>
+            <Text name="position_h">Objektposition</Text>
+            <Text name="position_tc">Pos. Transaktionscode</Text>
+            <Text name="position_ed">Pos. Editbox</Text>
+            <Text name="position_validFrom">Pos. Von - Datum</Text>
+            <Text name="position_validUntil">Pos. Bis - Datum</Text>
+            <Text name="position_Text1">Pos. Text1</Text>
+            <Text name="position_Text2">Pos. Text2</Text>
+            <Text name="position_CheckButton">Check Button</Text>
+            <Text name="possible_points">Maximale Punktzahl</Text>
+            <Text name="mastery_score">Erforderliche Punktzahl</Text>
+            <Text name="goto_tourstop">Sprung zu Tourstop</Text>
+            <Text name="praxis">Praxis</Text>
+            <Text name="prev_page">Vorherige Seite</Text>
+            <Text name="quick_click">Quick Click</Text>
+            <Text name="click">Klick auf Link</Text>
+            <Text name="rclick">Rechter Klick</Text>
+            <Text name="rdblclick">Rechter Doppelklick</Text>
+            <Text name="drag">Drag</Text>
+            <Text name="drop">Drop</Text>
+            <Text name="enter">Mouse Enter</Text>
+            <Text name="record">Automatische Aufnahme</Text>
+            <Text name="record2">Automatische Aufnahme</Text>
+            <Text name="record_config">Einstellungen Aufnahme</Text>
+            <Text name="set_language">Projektsprache ändern</Text>
+            <Text name="doc_config">Einstellungen Dokumentation</Text>
+            <Text name="record_window_id">aufgen. Fenster ID</Text>
+            <Text name="sap_path">SAP Menüpfad</Text>
+            <Text name="sc_position">Scrollbar Position</Text>
+            <Text name="screenshot_border">Screenshot Border</Text>
+            <Text name="screenshot_file">Screenshot</Text>
+            <Text name="screenshot_part">Dok: Partieller Screenshot</Text>
+            <Text name="screenshot_rect">Screenshot Position</Text>
+            <Text name="click_pos">Klick Position</Text>
+            <Text name="replace_txt">Text ersetzen</Text>
+            <Text name="replace">Ersetzen</Text>
+            <Text name="scrollInDivsLeftRight">Horizontal scrollen</Text>
+            <Text name="scroll_hor">Horizontal scrollen</Text>
+            <Text name="scrollInDivsTopDown">Vertikal scrollen</Text>
+            <Text name="scroll_vert">Vertikal scrollen</Text>
+            <Text name="scrollleft">Horizontale Position</Text>
+            <Text name="scrolltop">Vertikale Position</Text>
+            <Text name="select single">Einfachauswahl</Text>
+            <Text name="select_single">Einfachauswahl</Text>
+            <Text name="show_actions">Aktionen anzeigen</Text>
+            <Text name="start_unit">Lerneinheit Anfang</Text>
+            <Text name="status_info">Dok: Status-Information</Text>
+            <Text name="status_text">Statustext</Text>
+            <Text name="tcode">Transaktionscode</Text>
+            <Text name="test">Test</Text>
+            <Text name="text">Text</Text>
+            <Text name="text_d">Eingabetext</Text>
+            <Text name="tipp">Tipp</Text>
+            <Text name="titel">Titel</Text>
+            <Text name="title">Titel</Text>
+            <Text name="Title_Text1">Titel 1</Text>
+            <Text name="Title_Text2">Titel 2</Text>
+            <Text name="transaction_code">Transaktionscode</Text>
+            <Text name="transaction_info">Dok: Transaktionscode</Text>
+            <Text name="translate">Automatische Übersetzung</Text>
+            <Text name="task_text">Aufgabentext</Text>
+            <Text name="type">Typ</Text>
+            <Text name="uebung">Übung</Text>
+            <Text name="underline">Unterstreichung</Text>
+            <Text name="update">Aktualisieren</Text>
+            <Text name="update_all_macros">Alle Makros aktualisieren</Text>
+            <Text name="update_pagedump">Seitenabzug aktualisieren</Text>
+            <Text name="update_screenshot">Screenshot aktualisieren</Text>
+            <Text name="warnung">Warnung/Hinweis</Text>
+            <Text name="win_relpos">Window</Text>
+            <Text name="win_screenshot">Neue Seite als Screenshot</Text>
+            <Text name="zoom_in">Rahmen Zoom In</Text>
+            <Text name="zoom_out">Rahmen Zoom out</Text>
+        </Language>
+<Language name="1033">
+            <Text name="action">Action</Text>
+            <Text name="b_name">Objectname</Text>
+            <Text name="input_text">Input Text</Text>
+            <Text name="adv">Advanced</Text>
+            <Text name="Add_Hint">Change Hint</Text>
+            <Text name="Add_Value">Change Value</Text>
+            <Text name="bubble">Bubble</Text>
+            <Text name="affirmation_button">Confirm with Button</Text>
+            <Text name="alternate_text">Add. Status Text</Text>
+            <Text name="arrow">Doc: Arrow</Text>
+            <Text name="b_duration">Bubble Duration</Text>
+            <Text name="b_height">Bubble Height</Text>
+            <Text name="b_width">Bubble Width</Text>
+            <Text name="b_minimizable">Minimizable</Text>
+            <Text name="b_closeable">Closeable</Text>
+            <Text name="b_movable">Moveable</Text>
+            <Text name="b_transparent">Transparent</Text>
+            <Text name="beschreibung">Doc: Description</Text>
+            <Text name="bezeichnung">Description</Text>
+            <Text name="caption">Title</Text>
+            <Text name="Check_ValiditySpec">Check Validity II</Text>
+            <Text name="Check_Validity">Check Validity</Text>
+            <Text name="choose_bool">Value Selected</Text>
+            <Text name="choose_nr">Index Selected</Text>
+            <Text name="choose_text">Value Selected</Text>
+            <Text name="confirmation_enter">Confirm with Enter</Text>
+            <Text name="confirmation_tab">Confirm with Tab</Text>
+            <Text name="dbl_click">Double Click</Text>
+            <Text name="demo">Demo</Text>
+            <Text name="in_demo">In Demo Mode</Text>
+            <Text name="in_practise">In Practise Mode</Text>
+            <Text name="in_test">In Test Mode</Text>
+            <Text name="in_prax">In Help Mode</Text>
+            <Text name="jump_target">Jump Target</Text>
+            <Text name="ts">Jump Target</Text>
+            <Text name="wait_for_input">Wait for Action</Text>
+            <Text name="set_focus">Set Focus</Text>
+            <Text name="define_target">Define Target</Text>
+            <Text name="doc">Documentation</Text>
+            <Text name="rerecord">Rerecord</Text>
+            <Text name="prepare_rerecord">Prepare Translation</Text>
+            <Text name="doc_enable">Show in Doc</Text>
+            <Text name="dump_page">Url</Text>
+            <Text name="dump_win_height">Window Height</Text>
+            <Text name="dump_win_left">Window Left</Text>
+            <Text name="dump_win_relpos">Window</Text>
+            <Text name="dump_win_top">Window Top</Text>
+            <Text name="dump_win_width">Window Width</Text>
+            <Text name="edit">Edit</Text>
+            <Text name="edit_bubble_demo">Position Demo Bubble</Text>
+            <Text name="edit_bubble_prax">Position Practise Bubble</Text>
+            <Text name="edit_rect">Edit Marker Position</Text>
+            <Text name="edit_screendump">Edit Screendump</Text>
+            <Text name="edit_screenshot">Crop Doc Screenshot</Text>
+            <Text name="element_type">Element Type</Text>
+            <Text name="end_unit">Unit End</Text>
+            <Text name="ende">End</Text>
+            <Text name="explanation">Explanation</Text>
+            <Text name="explanation_d">Explanation</Text>
+            <Text name="explanation_long">Explanation Long</Text>
+            <Text name="explanation_p">Explanation Practise</Text>
+            <Text name="fieldhelp">Minimized Bubble</Text>
+            <Text name="flash">Frame flashing</Text>
+            <Text name="fieldname">Field Name</Text>
+            <Text name="fieldicon">Field-Icon</Text>
+            <Text name="frame">Frame fixed</Text>
+            <Text name="free_marker">Doc: Free Marker</Text>
+            <Text name="g_bubble_text_style">Bubble Text Style</Text>
+            <Text name="bubble_class">Bubble Style</Text>
+            <Text name="g_highlight_border">Highlight Border</Text>
+            <Text name="g_highlight_effect">Highlight Effect</Text>
+            <Text name="g_highlight_fillstyle">Highlight Fillstyle</Text>
+            <Text name="g_highlight_name">Highlight Name</Text>
+            <Text name="g_highlight_rgb">Highlight Color</Text>
+            <Text name="g_highlight_style">Highlight Style</Text>
+            <Text name="g_linktextpraxis">Praxis Link Text (Forw)</Text>
+            <Text name="g_back_link">Praxis Link Text (Back)</Text>
+            <Text name="show_hl_p">Highlight in Practise</Text>
+            <Text name="gendoc">Generate Word Document</Text>
+            <Text name="general_action">Click Link</Text>
+            <Text name="hlname">HL Name</Text>
+            <Text name="key_press">Key Press</Text>
+            <Text name="key_name">Key Code</Text>
+            <Text name="key_desc">Key Name</Text>
+            <Text name="click_SAP">Click Link in SAP EA Menu</Text>
+            <Text name="genhtml">Generate HTML Document</Text>
+            <Text name="global">Global</Text>
+            <Text name="hinweis">Doc: Note</Text>
+            <Text name="imagesize">Image Size (%)</Text>
+            <Text name="info">Info</Text>
+            <Text name="input radio">Radio/Checkbox</Text>
+            <Text name="input_radio">Radio/Checkbox</Text>
+            <Text name="kurs">Boilerplate Text</Text>
+            <Text name="lclick">Left Click</Text>
+            <Text name="ldblclick">Left Double Click</Text>
+            <Text name="linktext">Link Text</Text>
+            <Text name="genppt">Generate PowerPoint Document</Text>
+            <Text name="doc_caption">Doc: Subheading</Text>
+            <Text name="new_step">Name of Step</Text>
+            <Text name="new_window">New Window</Text>
+            <Text name="new_window_close">Close New Window</Text>
+            <Text name="next asset">New Page</Text>
+            <Text name="new_page">New Page</Text>
+            <Text name="page_init">New Page</Text>
+            <Text name="next_page">Next Page</Text>
+            <Text name="note">Remark</Text>
+            <Text name="no_spike">Without Spike</Text>
+            <Text name="orientation">Orientation</Text>
+            <Text name="orientation_p">Orientation Practise Bubble</Text>
+            <Text name="orientation_b">Orientation Bubble</Text>
+            <Text name="page_break">Doc: Page Break</Text>
+            <Text name="plausifeld">Check Field</Text>
+            <Text name="plausibutton">Activate Plausi</Text>
+            <Text name="position">Position</Text>
+            <Text name="position_af">Position Affirmation Button</Text>
+            <Text name="position_b">Position Demo Bubble</Text>
+            <Text name="position_bu">Position Practise Bubble</Text>
+            <Text name="position_h">Object Position</Text>
+            <Text name="position_tc">Pos. Transaction Code</Text>
+            <Text name="position_ed">Pos. Editbox</Text>
+            <Text name="position_validFrom">Pos. From Date</Text>
+            <Text name="position_validUntil">Pos. Until Date</Text>
+            <Text name="position_Text1">Pos. Text1</Text>
+            <Text name="position_Text2">Pos. Text2</Text>
+            <Text name="position_CheckButton">Pos. Check Button</Text>
+            <Text name="possible_points">Maximum Score</Text>
+            <Text name="mastery_score">Mastery Score</Text>
+            <Text name="goto_tourstop">Jump to Tourstop</Text>
+            <Text name="praxis">Concurrent</Text>
+            <Text name="prev_page">Previous Page</Text>
+            <Text name="quick_click">Quick Click</Text>
+            <Text name="click">Click Link</Text>
+            <Text name="rclick">Right Click</Text>
+            <Text name="rdblclick">Right Double Click</Text>
+            <Text name="drag">Drag</Text>
+            <Text name="drop">Drop</Text>
+            <Text name="enter">Mouse Enter</Text>
+            <Text name="record">Automated Recording</Text>
+            <Text name="record2">Automated Recording</Text>
+            <Text name="record_config">Recording Settings</Text>
+            <Text name="set_language">Modify Project Language</Text>
+            <Text name="doc_config">Documentation Settings</Text>
+            <Text name="record_window_id">Recorded Window ID</Text>
+            <Text name="sap_path">SAP Menu Path</Text>
+            <Text name="sc_position">Scrollbar Location</Text>
+            <Text name="screenshot_border">Screenshot Border</Text>
+            <Text name="screenshot_file">Screenshot</Text>
+            <Text name="screenshot_part">Doc: Partial Screenshot</Text>
+            <Text name="screenshot_rect">Screenshot Rect</Text>
+            <Text name="click_pos">Click Position</Text>
+            <Text name="replace_txt">Replace Text</Text>
+            <Text name="replace">Replace</Text>
+            <Text name="scrollInDivsLeftRight">Scroll in Tables left/right</Text>
+            <Text name="scroll_hor">Horizontal Scroll</Text>
+            <Text name="scrollInDivsTopDown">Scroll in Tables up/down</Text>
+            <Text name="scroll_vert">Scroll in Tables up/down</Text>
+            <Text name="scrollleft">Horizontal Pos.</Text>
+            <Text name="scrolltop">Vertical Pos.</Text>
+            <Text name="select single">Select Single</Text>
+            <Text name="select_single">Select Single</Text>
+            <Text name="show_actions">Show actions</Text>
+            <Text name="start_unit">Start Unit</Text>
+            <Text name="status_info">Doc: Status Info</Text>
+            <Text name="status_text">Status Text</Text>
+            <Text name="tcode">Transaction Code</Text>
+            <Text name="test">Test</Text>
+            <Text name="text">Text</Text>
+            <Text name="text_d">Input Text</Text>
+            <Text name="tipp">Tip</Text>
+            <Text name="titel">Title</Text>
+            <Text name="title">Title</Text>
+            <Text name="Title_Text1">Title 1</Text>
+            <Text name="Title_Text2">Title 2</Text>
+            <Text name="transaction_code">Transaction Code</Text>
+            <Text name="transaction_info">Doc: Transaction Code</Text>
+            <Text name="translate">Automated Translation</Text>
+            <Text name="task_text">Task Description</Text>
+            <Text name="type">Typ</Text>
+            <Text name="type">Type</Text>
+
+            <Text name="uebung">Practise</Text>
+            <Text name="underline">Underline fixed</Text>
+            <Text name="underline">Unterstrich fest</Text>
+            <Text name="update">Update</Text>
+            <Text name="update_all_macros">Update All Macros</Text>
+            <Text name="update_pagedump">Update Page Dump</Text>
+            <Text name="update_screenshot">Update Screenshot</Text>
+            <Text name="warnung">Warning/Guideline</Text>
+            <Text name="win_relpos">Window</Text>
+            <Text name="win_screenshot">New Page as Screenshot</Text>
+            <Text name="zoom_in">Frame Zoom In</Text>
+            <Text name="zoom_in">Rahmen Zoom in</Text>
+            <Text name="zoom_out">Frame Zoom out</Text>
+            <Text name="zoom_out">Rahmen Zoom out</Text>
+        </Language>
+
+<Mode name="Navi" IconID="1" play_ok="1" offline_ok="0" doc_ok="1" dmf_suffix="navi"></Mode>
+<Mode name="Demo" IconID="0" play_ok="1" offline_ok="0" doc_ok="1" dmf_suffix="demo"></Mode>
+
+						<ParamSet name="global">
+		            <ParamInfo type="ENUM" name="g_highlight_effect" helptext="">
+		                <EnumValue value="1" name="frame"></EnumValue>
+		                <EnumValue value="2" name="underline"></EnumValue>
+		                <EnumValue value="3" name="flash"></EnumValue>
+		                <EnumValue value="4" name="zoom_in"></EnumValue>
+		                <EnumValue value="5" name="zoom_out"></EnumValue>
+		            </ParamInfo>
+		            <ParamInfo type="ENUM" name="g_highlight_border" helptext="">
+		                <EnumValue value="1" name="1"></EnumValue>
+		                <EnumValue value="2" name="2"></EnumValue>
+		                <EnumValue value="3" name="3"></EnumValue>
+		                <EnumValue value="4" name="4"></EnumValue>
+		                <EnumValue value="5" name="5"></EnumValue>
+		                <EnumValue value="1" name="6"></EnumValue>
+		                <EnumValue value="2" name="7"></EnumValue>
+		                <EnumValue value="3" name="8"></EnumValue>
+		                <EnumValue value="4" name="9"></EnumValue>
+		                <EnumValue value="5" name="10"></EnumValue>
+		            </ParamInfo>
+		            <ParamInfo type="COLOR" name="g_highlight_rgb" helptext=""></ParamInfo>
+		            <ParamInfo type="TEXT" name="g_highlight_name" helptext="nur noetig bei festen HLs"></ParamInfo>
+		            <ParamInfo type="TEXT" name="g_highlight_style" helptext="nur noetig bei festen HLs"></ParamInfo>
+		            <ParamInfo type="TEXT" name="g_highlight_fillstyle" helptext="nur noetig bei festen HLs"></ParamInfo>
+		            <ParamInfo type="TEXT" name="g_bubble_text_style" helptext=""></ParamInfo>
+		            <ParamInfo type="TEXT" name="g_linktextpraxis" helptext=""></ParamInfo>
+		            <ParamInfo type="TEXT" name="g_back_link" helptext=""></ParamInfo>
+		      </ParamSet>
+					<GlobalDefault g_highlight_name="hl" g_highlight_effect="frame" g_highlight_style="red" g_highlight_fillstyle="" g_highlight_border="2" g_highlight_rgb="FF0000" g_bubble_text_style="'size=100%'" g_linktextpraxis="weiter" g_back_link="zurück"></GlobalDefault>
+
+   
+    <CommandGroup name="action" displayMode="browser" IconID="26"></CommandGroup>
+
+
+        <!--MacroTemplate global-->
+				<MacroTemplate Name="global" IconID="21">
+						<Properties hidden="true"></Properties>
+						<ParamSet name="global"></ParamSet>
+						<ScriptCommand name="record_navi" displayMode="9" displayName="Start Navigation Tour" IconID="57">
+								#use(macro_functions.js); start_navi();
+						</ScriptCommand>
+						<ScriptCommand name="navi_add_ts" displayMode="9" displayName="Add Tourtop" IconID="65">
+								#use(macro_functions.js); navi_add_tourstop();
+						</ScriptCommand>											
+						<ScriptCommand name="edit_rect" displayMode="8" IconID="36">
+								#use(macro_functions.js); show_highlight_rect();
+						</ScriptCommand>
+				</MacroTemplate>
+
+				<!--MacroTemplate USE_HELP | used to insert icon to turn on / off help  -->
+				<MacroTemplate Name="USE_HELP" rgbcolor="#66c5c5" Duration="20" IconID="51">
+						<Properties hidden="true"></Properties>
+						<ParamSet name="USE_HELP">
+								<ParamInfo type="COMMENT" name="macro_comment"><Properties specified=""/></ParamInfo>			
+								<ParamInfo type="TEXT" name="Help_Button_Path"><Properties specified="" /></ParamInfo>
+								<ParamInfo type="TEXT" name="Help_Button_Path2"><Properties specified="" /></ParamInfo>
+								<ParamInfo type="BOOL_TRUE_FALSE" name="Help_on"><Properties specified="" /></ParamInfo>
+								  <!-- Wether help is on right from the beginning -->
+						</ParamSet>
+						<Default Help_on="TRUE"></Default>
+				</MacroTemplate>
+
+				<!--MacroTemplate define_target-->
+				<MacroTemplate Name="define_target" rgbcolor="#66c5c5" Duration="20" IconID="56">
+						<Properties hidden="true"></Properties>
+						<ParamSet name="define_target">
+								<ParamInfo type="COMMENT" name="macro_comment"><Properties specified=""/></ParamInfo>			
+								<ParamInfo type="TOURSTOP_CAPTION" name="ts" textkey="ts"/>						
+								<ParamInfo type="TEXT" name="title">
+										<Properties specified="" />
+								</ParamInfo>
+								<ParamInfo type="TEXT" name="label">
+										<Properties specified="" />
+								</ParamInfo>
+								<ParamInfo type="TEXT" name="img_titles" displayName="IMG.title (Sep. #)">
+										<Properties specified="" />
+								</ParamInfo>
+								<ParamInfo type="TEXT" name="dgoid">
+										<Properties specified="" />
+								</ParamInfo>
+						</ParamSet>
+				</MacroTemplate>
+
+
+<!--MacroTemplate define_context_select-->
+<MacroTemplate Name="define_context_select" rgbcolor="#008684" Duration="5" user_defined="0" IconID="17">
+<Properties hidden="true"></Properties>
+<ParamSet name="define_context_select" displayName="Define target plus Selection">
+<ParamInfo type="COMMENT" name="macro_comment"><Properties specified=""/></ParamInfo>			
+                <ParamInfo type="TOURSTOP_CAPTION" name="tourstopname" displayName="Tourstopname">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="TEXT" name="title" displayName="Titel (partiell)">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="TEXT" name="label" displayName="Erk.text mit #">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="TEXT" name="selectbox" displayName="Selektion">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="RELPOS" name="position_s" displayName="Position Selektbox">
+<Properties specified="" />
+</ParamInfo>
+    </ParamSet>
+</MacroTemplate>
+
+
+<!--MacroTemplate navi_initB-->
+<MacroTemplate Name="navi_initB" rgbcolor="#66c5c5" Duration="70" IconID="52">
+<Properties hidden="true"></Properties>
+<ParamSet name="navi_initB">
+<ParamInfo type="COMMENT" name="macro_comment"><Properties specified=""/></ParamInfo>			
+            </ParamSet>
+</MacroTemplate>
+
+<!--MacroTemplate set_efp-->
+<MacroTemplate Name="set_efp" rgbcolor="#66c5c5" Duration="50" user_defined="0" IconID="47" group="action">
+<Properties hidden="false"></Properties>
+<ParamSet name="set_efp">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>			
+                <ParamInfo type="TEXT" name="efp">
+<Properties specified="" />
+</ParamInfo>
+            </ParamSet>
+</MacroTemplate>
+
+
+				<!--MacroTemplate page_init-->
+				<MacroTemplate Name="page_init" rgbcolor="#66c5c5" Duration="50" user_defined="0" IconID="54">
+						<Properties hidden="true" dump_force="1" dump_prefix="index" dump_remove_js="1" dump_remove_target="1" dump_remove_onload="1" dump_link_subst="javascript:void(0)" Overwrite="0"></Properties>				
+						<Translatable new_step="true"></Translatable>
+						<NoRecord element_type="true" screenshot_file="true" screenshot_rect="true"></NoRecord>
+						<ParamSet name="page_init">
+						    <ParamInfo type="COMMENT" name="macro_comment"><Properties specified=""/></ParamInfo>			
+								<ParamInfo type="RELATIVE_URL" name="dump_page" textkey="dump_page" visibility="conditional"><Properties specified="" /></ParamInfo>
+								<ParamInfo type="TEXT" name="new_step" textkey="new_step"></ParamInfo>
+								<ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" textkey="screenshot_file" NoExport="1">
+		                    <Properties filter="#img_filter"/>
+		            </ParamInfo>
+						</ParamSet>
+						
+						<ScriptCommand name="new_page" displayMode="1" IconID="11" group="action">
+		            #use(macro_functions.js); record_newpage();
+		        </ScriptCommand>		
+		        
+				</MacroTemplate>
+
+
+<!--MacroTemplate highlight-->
+<MacroTemplate Name="highlight" rgbcolor="#008684" Duration="5" user_defined="0" IconID="59">
+<Properties hidden="true"></Properties>
+<NoRecord element_type="true" doc_enable="true" screenshot_rect="true" screenshot_file="true"></NoRecord>
+<ParamSet name="highlight" displayName="Highlight">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+        <ParamInfo type="RELPOS" name="position_h" displayName="Pos. Highlight">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="TEXT" name="hlname">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="plausifeld">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="plausibutton">
+<Properties specified="" />
+</ParamInfo>
+      </ParamSet>
+</MacroTemplate>
+
+
+				<!--MacroTemplate explanation-->
+				<MacroTemplate Name="explanation" rgbcolor="#eada00" Duration="60" user_defined="0" IconID="4" >
+						<Properties hidden="true"></Properties>
+						<Translatable explanation_d="true"></Translatable>
+						<NoRecord b_width="true" b_height="true"></NoRecord>
+						
+						<ParamSet name="explanation">
+								<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+								<ParamInfo type="TEXT" name="fieldname"></ParamInfo>	
+								<ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+										<Properties filter="Image File (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png" specified="" />
+								</ParamInfo>
+								<ParamInfo type="HTML" name="explanation_d" NoExport="1"></ParamInfo>
+								<ParamInfo type="BOOL_0_1" name="enabled"></ParamInfo>	
+															
+								<ParamGroup name="adv">
+										<ParamInfo type="RELPOS" name="position_b" textkey="position_b"/>																							
+										<ParamInfo type="SHELF" name="bubble_class" textkey="bubble_class" visibility="conditional">
+                    		<Properties shelf="textstyles" specified="" />
+                		</ParamInfo>
+                		<ParamInfo type="SHELF" name="bubblestyle_d" textkey="bubblestyle_d" visibility="conditional">
+                    		<Properties shelf="bubblestyles" specified="" />
+                		</ParamInfo>										
+										<ParamInfo type="INTEGER" name="b_width"></ParamInfo>
+										<ParamInfo type="INTEGER" name="b_height"></ParamInfo>										
+										<ParamInfo type="ORIENTATION_BUBBLE" name="orientation"></ParamInfo>										
+										<ParamInfo type="POSITION" name="bubble_offset" NoExport="1"></ParamInfo>
+										<ParamInfo type="BOOL_0_1" name="b_minimized"></ParamInfo>
+										<ParamInfo type="BOOL_0_1" name="no_spike"></ParamInfo>
+										<ParamInfo type="BOOL_0_1" name="b_minimizable"></ParamInfo>
+										<ParamInfo type="BOOL_0_1" name="b_movable"></ParamInfo>
+								</ParamGroup>
+						</ParamSet>
+						
+						<Default bubblestyle_d="_default" b_width="180" 
+						         b_height="40" doc_enable="yes" b_minimizable="1" 
+						         b_movable="1" explanation_d="" orientation="SE" 
+						         fieldicon="" b_minimized="0" enabled="1" no_spike="0">
+										
+										<click_pos_rel x="50" y="50"></click_pos_rel>
+						        <bubble_offset x="0" y="0"></bubble_offset>		
+				            <position_b>
+				                <frame path=":0"></frame>
+				                <posElement x="0.5" y="0.5"></posElement>
+				            </position_b>
+				            <position_h>
+				                <frame path=":0"></frame>
+				                <posElement x="0.5" y="0.5"></posElement>
+				                <rectElement x="0.6" y="0.6"></rectElement>
+				             </position_h>
+				    </Default>																
+						
+						
+						<StringTemplate name="js_define">
+						ctx_control=new winnavp_Macro();ctx_control.element_type='WINExplain';ctx_control.ctrl_dependent=false;ctx_control.enabled=$%enabled$;ctx_control.fieldname='$%fieldname$';ctx_control.click_pos={x:$%click_pos_rel.x$,y:$%click_pos_rel.y$};eval('$%init$');
+						ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+						ctx_window.Macros.push(ctx_control);
+						</StringTemplate>
+						
+						<ScriptCommand name="edit_bubble" displayMode="2" IconID="45">
+		            #use(macro_functions.js); edit_bubble();
+		        </ScriptCommand>	               
+		        		        
+		        <ScriptCommand name="explanation" displayMode="1" IconID="12" group="action">
+		            #use(macro_functions.js); record_explanation();
+		        </ScriptCommand>								
+				</MacroTemplate>
+
+
+
+
+<MacroTemplate Name="fieldhelp" rgbcolor="#eada00" Duration="100" user_defined="0" IconID="64">
+<!--MacroTemplate fieldhelp-->
+<Properties hidden="true"></Properties>
+<Translatable explanation_d="true"></Translatable>
+<NoRecord b_width="true" b_height="true" screenshot_file="true" screenshot_rect="true"></NoRecord>
+<ParamSet name="fieldhelp">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+        <ParamInfo type="HTML" name="explanation_d">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="TEXT" name="b_name">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="TEXT" name="b_width">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="TEXT" name="b_height">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="RELPOS" name="position_b">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="RELPOS" name="position_ed">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="no_spike">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="replace">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="b_closeable">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="b_minimizable">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="b_movable">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="BOOL_0_1" name="b_transparent">
+<Properties specified="" />
+</ParamInfo>
+      </ParamSet>
+<Default b_width="250" b_height="40" b_minimizable="0" explanation_d="Text" orientation="E" no_spike="1" replace="1" closeable="1" Objectname="Bubble1">
+      </Default>
+</MacroTemplate>
+
+<!--MacroTemplate delete_events-->
+<MacroTemplate Name="delete_events" rgbcolor="#eada00" Duration="100" user_defined="0" IconID="62">
+<Properties hidden="false"></Properties>
+<Translatable explanation_d="true"></Translatable>
+<NoRecord b_width="true" b_height="true" screenshot_file="true" screenshot_rect="true"></NoRecord>
+<ParamSet name="delete_events">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+       </ParamSet>
+</MacroTemplate>
+<MacroTemplate Name="clickconfirm" rgbcolor="#008684" Duration="5" user_defined="0" IconID="15">
+
+
+<!--MacroTemplate clickconfirm-->
+<Properties hidden="true"></Properties>
+<ParamSet name="clickconfirm" displayName="Klick Popup">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+        <ParamInfo type="RELPOS" name="position_h" displayName="Pos. Klick Button">
+<Properties specified="" />
+</ParamInfo>
+        <ParamInfo type="TEXT" name="alerttext" displayName="Popup Text">
+<Properties specified="" />
+</ParamInfo>
+      </ParamSet>
+</MacroTemplate>
+
+
+<MacroTemplate Name="checkboxselection" rgbcolor="#008684" Duration="5" user_defined="0" IconID="10">
+<!--MacroTemplate checkboxselection-->
+<Properties hidden="true"></Properties>
+<ParamSet name="checkboxselection" displayName="Checkboxauswahl">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+            <ParamInfo type="RELPOS" name="position_h" displayName="Pos. Klick Button">
+<Properties specified="" />
+</ParamInfo>
+            <ParamInfo type="BOOL_0_1" name="checkvalue" displayName="Selektiert">
+<Properties specified="" />
+</ParamInfo>
+        </ParamSet>
+</MacroTemplate>
+
+
+<!--MacroTemplate Check_Validity-->
+<MacroTemplate Name="Check_Validity" rgbcolor="#eada00" Duration="100" user_defined="0" IconID="60">
+<Properties hidden="false"></Properties>
+<Translatable explanation_d="true"></Translatable>
+<NoRecord b_width="true" b_height="true" screenshot_file="true" screenshot_rect="true"></NoRecord>
+<ParamSet name="Check_Validity">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+                <ParamInfo type="RELPOS" name="position_validFrom">
+<Properties specified="" />
+</ParamInfo>
+                <ParamInfo type="RELPOS" name="position_validUntil">
+<Properties specified="" />
+</ParamInfo>
+      </ParamSet>
+</MacroTemplate>
+
+<!--MacroTemplate Check_ValiditySpec-->
+<MacroTemplate Name="Check_ValiditySpec" rgbcolor="#eada00" Duration="100" user_defined="0" IconID="61">
+<Properties hidden="false"></Properties>
+<Translatable explanation_d="true"></Translatable>
+<NoRecord b_width="true" b_height="true" screenshot_file="true" screenshot_rect="true"></NoRecord>
+<ParamSet name="Check_ValiditySpec">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+          <ParamInfo type="RELPOS" name="position_validFrom">
+<Properties specified="" />
+</ParamInfo>
+          <ParamInfo type="RELPOS" name="position_validUntil">
+<Properties specified="" />
+</ParamInfo>
+          <ParamInfo type="RELPOS" name="position_Text1">
+<Properties specified="" />
+</ParamInfo>
+          <ParamInfo type="TEXT" name="Title_Text1">
+<Properties specified="" />
+</ParamInfo>
+          <ParamInfo type="RELPOS" name="position_Text2">
+<Properties specified="" />
+</ParamInfo>
+          <ParamInfo type="TEXT" name="Title_Text2">
+<Properties specified="" />
+</ParamInfo>
+          <ParamInfo type="RELPOS" name="position_CheckButton">
+<Properties specified="" />
+</ParamInfo>
+      </ParamSet>
+</MacroTemplate>
+
+
+<!--MacroTemplate Add_Hint-->
+<MacroTemplate name="Add_Hint" rgbcolor="#eada00" Duration="100" user_defined="0" IconID="63">
+<Properties hidden="false"></Properties>
+<Translatable explanation_d="true"></Translatable>
+<NoRecord b_width="true" b_height="true" screenshot_file="true" screenshot_rect="true"></NoRecord>
+<ParamSet name="Add_Hint">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+          <ParamInfo type="RELPOS" name="position_h">
+<Properties specified="" />
+</ParamInfo>
+           <ParamInfo type="TEXT" name="title">
+<Properties specified="" />
+</ParamInfo>
+       </ParamSet>
+</MacroTemplate>
+
+
+<MacroTemplate Name="Add_Value" rgbcolor="#eada00" Duration="100" user_defined="0" IconID="66">
+<!--MacroTemplate Add_Value-->
+<Properties hidden="false"></Properties>
+<Translatable explanation_d="true"></Translatable>
+<NoRecord b_width="true" b_height="true" screenshot_file="true" screenshot_rect="true"></NoRecord>
+<ParamSet name="Add_Value">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+           <ParamInfo type="RELPOS" name="position_h">
+<Properties specified="" />
+</ParamInfo>
+           <ParamInfo type="TEXT" name="value">
+<Properties specified="" />
+</ParamInfo>
+       </ParamSet>
+</MacroTemplate>
+
+<MacroTemplate Name="Disable_element" rgbcolor="#eada00" Duration="100" user_defined="0" IconID="66">
+<!--MacroTemplate Disable_element-->
+<Properties hidden="true"></Properties>
+<Translatable explanation_d="true"></Translatable>
+<NoRecord b_width="true" b_height="true" screenshot_file="true" screenshot_rect="true"></NoRecord>
+<ParamSet name="Disable_element">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+           <ParamInfo type="RELPOS" name="position_h">
+<Properties specified="" />
+</ParamInfo>
+       </ParamSet>
+</MacroTemplate>
+
+
+<!--MacroTemplate page_fini-->
+<MacroTemplate Name="page_fini" rgbcolor="#66c5c5" Duration="50" IconID="55">
+<Properties hidden="true"></Properties>
+<ParamSet name="page_fini">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+        </ParamSet>
+</MacroTemplate>
+
+<!--MacroTemplate navi_fini-->
+<MacroTemplate Name="navi_fini" rgbcolor="#66c5c5" Duration="20" IconID="53">
+<Properties hidden="true"></Properties>
+<ParamSet name="navi_fini">
+<ParamInfo type="COMMENT" name="macro_comment"></ParamInfo>
+            </ParamSet>
+</MacroTemplate>
+</MacroShelf>

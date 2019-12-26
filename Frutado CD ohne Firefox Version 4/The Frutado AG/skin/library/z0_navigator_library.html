@@ -1,0 +1,365 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>${TOK_LIB}</title>
+
+<link rel=stylesheet type="text/css" href="xbrowser.css">
+<link rel=stylesheet type="text/css" href="../../jswidget/tree.css">
+
+<script language=javascript>
+
+var resizing = false;
+var resizestartx = 0;
+
+function beginresize(event) {
+    resizing = true;
+    resizestartx = event.screenX;
+    var flib = parent.document.getElementById("trainer_library_frame");
+    resizestartwidth = flib.dgoX_ - 0;
+    if (document.releaseCapture) {
+        document.getElementById("TD_LibrarySeparator").setCapture(true);
+    }
+    else {
+      var webrideframe = parent.frames[1];
+      webrideframe.addEventListener('mousemove', doresize, true); 
+      webrideframe.addEventListener('mouseup', endresize, true); 
+    }
+    event.cancelBubble = true;
+    if (event.preventDefault) {
+        event.preventDefault();
+    }
+    event.returnValue = false;
+    return false;
+}
+
+function setTheCursor() {
+    document.getElementById("TD_LibrarySeparator").style.cursor = '';
+    document.getElementById("TD_LibrarySeparator").style.cursor = 'col-resize';
+}
+
+function doresize(event) {
+    if (resizing) {
+        var flib = parent.document.getElementById("trainer_library_frame");
+        flib.dgoX_ = resizestartwidth + event.screenX - resizestartx;
+        if (flib.dgoX_ < 20) {
+            flib.dgoX_ = 20;
+        }
+        parent.trainer_program_frame.readjustSizes();
+        setTimeout(setTheCursor, 10);
+        event.cancelBubble = true;
+        if (event.preventDefault) {
+            event.preventDefault();
+        }
+        event.returnValue = false;
+        return false;
+    }
+}
+
+function endresize(event) {
+    if (resizing) {
+        resizing = false;
+        dgoX_ = resizestartwidth + event.screenX - resizestartx ;
+        parent.trainer_program_frame.readjustSizes();
+        if (document.releaseCapture) {
+            document.releaseCapture();
+        }
+        else {
+          var webrideframe = parent.frames[1];
+          webrideframe.removeEventListener('mousemove', doresize, true); 
+          webrideframe.removeEventListener('mouseup', endresize, true); 
+        }
+        parent.trainer_program_frame.dgoAgent.setLastLibrarysize(dgoX_);
+        event.cancelBubble = true;
+        if (event.preventDefault) {
+            event.preventDefault();
+        }
+        event.returnValue = false;
+        return false;
+    }
+}
+
+function splitUrlParams() {
+    var temp = new String(window.location.search);
+
+    if (temp.substr(0, 1) == '?') {
+        temp = temp.substr(1);
+    }
+
+    var urlParams = [];
+
+    if (temp.length && temp.length > 0) {
+        urlParams = temp.split('&');
+    }
+    var urlParamsAsoc = [];
+    for (var i = 0; i < urlParams.length; i++) {
+        var urlParam = urlParams[i].split('=');
+    urlParamsAsoc[urlParam[0]] = urlParam[1];
+    }
+    return urlParamsAsoc;
+}
+
+var urlParams = splitUrlParams();
+dgoDOMAIN = urlParams['dgoDOMAIN'] || '';
+if (dgoDOMAIN != '') {
+    if (self.location.protocol == 'http:' ||
+        self.location.protocol == 'https:') 
+    {
+        self.document.domain = dgoDOMAIN;
+    }
+}
+
+function searchTrAPI(frames_) {
+    for (var i = 0; i < frames_.length; ++i)
+        if (frames_[i].cfg_tr) return frames_[i].cfg_tr;
+
+    return null;
+}
+
+var cfg_tr = searchTrAPI(parent.frames) || function(token_) { return token_; }
+
+// Where the tree icons come from.
+// Note: Defaults are in '{trainer}/skin/library/icons'.
+
+var cfg_libraryicons = '../library/icons';
+
+// Dynamic format definition
+// Note: Only 'tour' nodes can be started as datango Web Programs.
+
+var cfg_libraryformats = [
+  { cfg_re: 'pdf$', cfg_icon: 'pdf', cfg_name: cfg_tr('MIME_TEXT_PDF') }
+, { cfg_re: '^application/msword$', cfg_icon: 'doc', cfg_name: cfg_tr('MIME_APP_MSWORD') }
+, { cfg_re: '^application/.*excel', cfg_icon: 'xls', cfg_name: cfg_tr('MIME_APP_EXCEL') }
+, { cfg_re: '^application/.*powerpoint', cfg_icon: 'ppt', cfg_name: cfg_tr('MIME_APP_PPT') }
+, { cfg_re: '^application/.*stardivision', cfg_icon: 'ooo', cfg_name: cfg_tr('MIME_APP_OOFF') }
+, { cfg_re: '^application/.*sun\.xml\.writer$', cfg_icon: 'ooo', cfg_name: cfg_tr('MIME_APP_OOFFWRITE') }
+, { cfg_re: '^application/.*sun\.xml\.calc$', cfg_icon: 'ooo', cfg_name: cfg_tr('MIME_APP_OOFFWRITE') }
+, { cfg_re: '^application/.*sun\.xml\.impress', cfg_icon: 'ooo', cfg_name: cfg_tr('MIME_APP_OOFFIMPRESS') }
+, { cfg_re: '^application/.*sun\.xml\.math', cfg_icon: 'ooo', cfg_name: cfg_tr('MIME_APP_OOFFMATH') }
+, { cfg_re: '^audio/', cfg_icon: 'audio', cfg_name: cfg_tr('MIME_AUDIO') }
+, { cfg_re: '^video/', cfg_icon: 'video', cfg_name: cfg_tr('MIME_VIDEO') }
+, { cfg_re: '^text/html', cfg_icon: 'html', cfg_name: cfg_tr('MIME_TEXT_HTML') }
+, { cfg_re: '^text/', cfg_icon: 'text', cfg_name: cfg_tr('MIME_TEXT') }
+, { cfg_re: 'datango-tour-demo', cfg_icon: 'tour_demo', cfg_name: cfg_tr('MIME_APP_DGO_DEMO') }
+, { cfg_re: 'datango-tour-uebung', cfg_icon: 'tour_uebung', cfg_name: cfg_tr('MIME_APP_DGO_PRACTISE') }
+, { cfg_re: 'datango-tour-test', cfg_icon: 'tour_test', cfg_name: cfg_tr('MIME_APP_DGO_TEST') }
+, { cfg_re: 'datango-tour-praxis', cfg_icon: 'tour_praxis', cfg_name: cfg_tr('MIME_APP_DGO_CONCURRENT') }
+, { cfg_re: 'datango', cfg_icon: 'tour', cfg_name: cfg_tr('MIME_APP_DGO') }
+, { cfg_re: '^.*$', cfg_icon: 'unknown', cfg_name: cfg_tr('MIME_UNKNOWN') }
+];
+
+// Tree style definition.
+// All possible atts are mentioned (some are commented out).
+// Defaults apply, if cfg_... style object is undefined.
+
+var cfg_librarytreestyle = {
+    // Special handling for borders, since the tree has to decrease padding,
+    // if the border is increased.
+
+    cfg_nodeBorderColor: undefined,
+    cfg_nodeBorderColorMouse: '#acb7c6',
+    cfg_nodeBorderColorClick: undefined,
+
+    cfg_titleStyle: {
+        backgroundColor: 'transparent',
+        color: '#000000',
+        cursor: 'auto',
+        textAlign: 'left'
+    },
+
+    cfg_titleStyleMouse: {
+        backgroundColor: '#fdfcfd',
+        color: '#000000',
+        cursor: 'hand',
+        textDecoration: 'none'
+    },
+
+    cfg_titleStyleClick: {
+        backgroundColor: '#acb7c6',
+        color: '#ffffff',
+        cursor: 'wait'
+    },
+
+    // These values default to cfg_titleStyle:
+    // cfg_portStyle, cfg_iconStyle
+
+    // Played node.
+    cfg_playStyle: {
+        cfg_titleStyle: {
+            backgroundColor: '#ffe0e0',
+            color: '#400000',
+            textDecoration: 'none',
+            cursor: 'auto'
+        },
+
+        // These values default to cfg_titleStyle:
+        // cfg_titleStyleMouse, cfg_titleStyleClick, cfg_portStyle, cfg_iconStyle
+
+        borderColor: '#ffc0c0'
+    },
+
+    // Node, whose properties are displayed.
+    cfg_showStyle: {
+        cfg_titleStyle: {
+            backgroundColor: '#e9f4fd',
+            color: 'black',
+            cursor: 'hand',
+            textDecoration: 'none'
+        },
+
+        // These values default to cfg_titleStyle:
+        // cfg_portStyle, cfg_iconStyle
+
+        borderColor: '#e0e0ff'
+    },
+
+    // Node matching search criteria.
+    cfg_findStyle: {
+        cfg_titleStyle: {
+            color: 'black',
+            backgroundColor: '#f0fff0',
+            textDecoration: 'none'
+        },
+
+        // These values default to cfg_titleStyle:
+        // cfg_portStyle, cfg_iconStyle
+
+        borderColor: '#e0ffe0'
+    }
+}
+
+function dobodyload() {
+    if (document.body.addEventListener){
+      document.body.addEventListener('mousemove', doresize, true); 
+      document.body.addEventListener('mouseup', endresize, true); 
+    }
+    var dgoAgent = parent.trainer_program_frame && parent.trainer_program_frame.dgoAgent;
+    if (dgoAgent && dgoAgent.libraryLoaded) { // refresh
+        dgoAgent.reloadLibrary(self);
+    }
+}
+
+</script>
+</head>
+
+<body id=DGO_Lib onscroll="self.scrollTo(0,0)" onload="dobodyload()">
+<form name="FORM_Library" id="FORM_Library">
+
+<div id="DIV_Header">
+
+<div id="DIV_Title" class="DGO_Title">
+<table border=0 class="DGO_Title" cellpadding=0 cellspacing=0 width=100%>
+<tr>
+  <td width=90% class="DGO_Title"><span id="SPAN_LibraryName"></span></td>
+  <td width=30 valign=top class="DGO_Title"><img src="brand.gif"></td>
+</tr>
+</table>
+</div>
+
+<table border=0 class="DGO_Title" cellpadding=0 cellspacing=0 width=100%>
+        <tr>
+            <td valign="top" class="DGO_Search" height="30">
+                <input name="INP_Search" style="border-width:1px" size="30">
+            </td>
+            <td valign="top" class="DGO_Search" height="25">
+                <nobr>
+                <input id="BTN_Search" type=submit class="DGO_Button" value=" ${TOK_SEARCH} " style="width:60px;vertical-align:top">&nbsp;
+                <button style="width:21px;font-family:Arial;font-size:14px;font-weight:bold" id="BTN_Clear" type=button class="DGO_Button" title="${TOK_LIB_RESET}" disabled><img valign="top" src="icons/x.gif"></button>
+                </nobr>
+            </td>
+        </tr>
+        <tr id="DGO_FilterBox" name="DGO_FilterBox" class="DGO_Search" width="100%" style="display:none">
+            <td valign="top" class="DGO_Search" height="30" width="100%" colspan="2">
+            <select name="INP_Filter" id="INP_Filter" onmousewheel="return false;">
+               <option value="">${TOK_LIB_VAL_NOFILTER}</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" class="DGO_Search" height="30">
+            <nobr><input name="INP_FlagInDescription" type=checkbox checked>
+            <span onclick="var x = document.FORM_Library.INP_FlagInDescription;
+                    x.checked = !x.checked; return true;">${TOK_LIB_FLAG_DESC}</span></nobr>
+            </td>
+            <td valign="top" class="DGO_Search" height="30">
+                <nobr>
+                <input id="BTN_Options" type=button class="DGO_Button" value="${TOK_LIB_BTN_MORE}" style="width:60px; vertical-align:top">&nbsp;
+                </nobr>
+            </td>
+        </tr>
+</table>
+<table class="DGO_Search2" style="display:none" id="DIV_Options" cellpadding=0 cellspacing=0 width="100%" border="0">
+    <tr width="100%">
+        <td class="DGO_Search2" width="100%">
+            <input name="INP_FlagInTitle" type=checkbox checked>
+            <span onclick="var x = document.FORM_Library.INP_FlagInTitle;
+                    x.checked = !x.checked; return true;">${TOK_LIB_FLAG_TITLE}</span><br>
+            <input name="INP_FlagKeepCourse" type=checkbox>
+            <span onclick="var x = document.FORM_Library.INP_FlagKeepCourse;
+                x.checked = !x.checked; return true;">${TOK_LIB_FLAG_KEEP_OPEN}</span><br>
+            <input name="INP_FlagNewWindow" type=checkbox>
+            <span onclick="var x = document.FORM_Library.INP_FlagNewWindow;
+                x.checked = !x.checked; return true;">${TOK_LIB_FLAG_NEWWIN}</span>
+        </td>
+        <td class="DGO_Search2">
+          
+        </td>
+    </tr>
+</table>
+
+</div>
+
+
+<table border=0 cellpadding=0 cellspacing=0 width="100%" style="table-layout:fixed;background-color:transparent;">
+<tr>
+  <td>
+    <div id="DIV_LibraryTree" class="DGO_Tree" style="overflow:auto; height:10000px;"></div>
+  </td>
+  <td id="TD_LibrarySeparator" 
+      style='background-color:transparent;width:3px;background-image:url("./skin/library/icons/background1x1.gif");background-position:top left;background-repeat:repeat;cursor:col-resize'
+      onmousedown="beginresize(event)"
+      onmousemove="doresize(event)"
+      onmouseup="endresize(event)"
+      >
+  </td>
+</tr>
+</table>
+
+<div id="DIV_Footer">
+<table border=0 class="DGO_Title" cellpadding=0 cellspacing=0 width=100%
+ style="table-layout:fixed">
+<tr>
+  <td class="DGO_Prompt" style="text-align: left;"><input id="BTN_Close"
+      type=button class="DGO_Button" value=" ${TOK_CLOSE} "
+      style="visibility: hidden;">&nbsp;</td>
+  <td class="DGO_Prompt" style="text-align: right;"><input id="BTN_Exit"
+      type=button class="DGO_Button" value=" ${TOK_EXIT} "></td>
+</tr>
+<tr>
+  <td class="DGO_Prompt" colspan=2 style="text-align: left;"
+   ><div id="DIV_LibraryUrl" style="background: transparent; display: none;"
+    ><span id="SPAN_LibraryUrl" class="DGO_Url">&nbsp;</span></div></td>
+</tr>
+</table>
+</div>
+
+</form>
+
+
+<div id="filler" style="height: 10000px;"></div>
+
+</body></html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

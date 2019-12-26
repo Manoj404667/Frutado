@@ -1,0 +1,233 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	datango
+TOK_LIB;	@{TOK_COMPANY} tanfolyam
+TOK_TOUR;	@{TOK_COMPANY} tanulási egység
+TOK_TRAINER;	@{TOK_COMPANY} oktató
+	
+# Key names	
+ALTKEY;	Alt
+CTRLKEY;	Strg
+LEFTALTKEY;	alt (bal)
+LEFTCTRLKEY;	strg (bal)
+LEFTSHIFTKEY;	átkapcs (bal)
+ON;	rá
+OFF;	ki
+RIGHTALTKEY;	alt (jobb)
+RIGHTCTRLKEY;	strg (jobb)
+RIGHTSHIFTKEY;	átkapcs (jobb)
+SHIFTKEY;	átkapcs
+	
+# trainer states	
+TOK_BUFFERING;	Audio töltődik
+TOK_CONNECTING;	Kapcsolódás…
+TOK_IDLE;	
+TOK_LMS;	Eredmény írása …
+TOK_OPENING;	Kapcsolódás…
+TOK_OPEN;	
+TOK_PAUSED;	Szünet
+TOK_PLAYING;	Folyamatban
+TOK_READY;	készenlétben
+TOK_USERINPUT;	Bevitel
+TOK_WAITING;	Oldalt töltődik…
+	
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red; font-weight: bolder;"">Frame-készleteket itt nem lehet megjeleníteni. </span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red; font-weight: bolder;""> IFRAME egységeket tartalmazó dokumentumokat itt nem lehet megjeleníteni.</span>"
+	
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	Egy előugró menü blokkoló megakadályozza a tanulási egység megtekintését.
+TOK_POPUPBLOCKER_CONFIRM;	Egy blokkoló megakadályozta egy új böngészőablak megjelenését. @{NEWLINE}@{NEWLINE}OK: Folytathatja, mert kikapcsolta az előugró menü blokkolót @{NEWLINE} a web-böngészőhöz. @{NEWLINE}megszakítás: A tanulási egység befejeződik.
+	
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Az Internet Explorer biztonsági beállítása megakadályozza a @{TOK_TOUR} ábrázolását. \nEngedélyezze a \n""Script által inicializált ablakot méret- és pozíció-korlátozások nélkül""\n!"
+	
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	"@1 ""@2"" nem lehetett olvasni."
+TOK_COULD_NOT_READ2_EXC;	"@1 ""@2"" nem lehetett olvasni: @3"
+	
+# Form texts	
+TOK_CLOSE;	Zárás
+TOK_DIR;	Könyvtár
+TOK_ERROR;	Hiba
+TOK_EXIT;	Befejezés
+TOK_OPEN;	Megnyitás
+TOK_SEARCH;	Keresés
+TOK_START;	Start
+TOK_START_TOUR;	@{TOK_TOUR} indítása
+TOK_STOP;	Állj!
+	
+# Library	
+TOK_LIB_BTN_LESS;	kevesebb…
+TOK_LIB_BTN_MORE;	több…
+TOK_LIB_EMPTY;	Üres elem
+TOK_LIB_FLAG_DESC;	Keresés a leírásban 
+TOK_LIB_FLAG_KEEP_OPEN;	A tanfolyam-struktúra nyitva hagyása
+TOK_LIB_FLAG_NEWWIN;	Új ablakban
+TOK_LIB_FLAG_TITLE;	Keresés a fejlécben
+TOK_LIB_RESET;	A keresési eredmények törlése
+	
+# Mimetypes	
+MIME_TEXT_PDF;	PDF - Adobe Acrobat Formátum
+MIME_APP_MSWORD;	Winword Dokumentum
+MIME_APP_EXCEL;	Excel munkalap
+MIME_APP_PPT;	Powerpoint diák
+MIME_APP_OOFF;	OpenOffice dokumentum
+MIME_APP_OOFFWRITE;	OpenOffice szöveg
+MIME_APP_OOFFCALC;	OpenOffice kalkuláció
+MIME_APP_OOFFIMPRESS;	OpenOffice bemutató
+MIME_APP_OOFFMATH;	OpenOffice képletek
+MIME_AUDIO;	Dallam
+MIME_VIDEO;	Videó
+MIME_TEXT_HTML;	Weblap
+MIME_TEXT;	Szöveges dokumentum
+MIME_APP_DGO;	@{TOK_COMPANY} Tanulási egység
+MIME_APP_DGO_DEMO;	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE;	@{TOK_COMPANY} Gyakorlat
+MIME_APP_DGO_TEST;	@{TOK_COMPANY} Teszt
+MIME_APP_DGO_CONCURRENT;	@{TOK_COMPANY} A tanulási egység gyakorlati módja
+MIME_UNKNOWN;	@{TOK_LIB_UNKNOWN}
+	
+# Tooltips	
+TIP_PLAY;	"Folytatás (F8); Az ""Alt"" billentyűvel: újraindítás"
+TIP_PAUSE;	"Leállítás (SZÜNET); ""Átkapcs.” Gombbal: az audio minőség javítása; az „Alt” gombbal: takarékoskodás az audio-sávszélességgel"
+TIP_STOP;	"Befejezés (F12); Az ""Átkapcs.” Gombbal: a verzió megjelenítése"
+TIP_NEXT;	Következő fejezet (ALT – lefelé mutató nyílbillentyű)
+TIP_BACK;	"Előző fejezet (ALT - felfelé mutató nyílbillentyű); Az „Alt” gombbal: tanfolyam megjelenítése"
+TIP_MAXBUBBLE;	Szövegbuborék helyreállítása
+TIP_MINBUBBLE;	Szövegbuborék minimalizálása
+TIP_CLOSEBUBBLE;	Szövegbuborék eltávolítása
+TIP_ENABLED;	
+TIP_DISABLED;	(most nem lehetséges)
+TIP_TASK;	A feladat kijelölése
+	
+# Bracepages	
+TOK_BP_CLOSEWINDOW;	Ablak bezárása
+TOK_BP_GOBACK;	Vissza
+TOK_BP_GOON;	Tovább
+TOK_BP_JSCONSOLE;	Javascript üzenetek
+TOK_BP_MODE;	Üzemmód
+TOK_BP_PARAMETER;	Paraméter
+TOK_BP_RESTARTPROGRAM;	Program ismétlése
+TOK_BP_STARTANOTHER;	Másik program indítása
+TOK_BP_VALUE;	Érték
+	
+# Exercise colors	
+EXER_COLOR_ERROR;	Pirossal jelölve
+EXER_COLOR_CLICK;	Zölddel jelölve
+EXER_COLOR_DBLCLICK;	Sárgával jelölve
+EXER_COLOR_RCLICK;	Türkiz kékkel
+EXER_COLOR_CHANGE;	Zölddel aláhúzva
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+	
+# Exercises	
+EXER_AND;	@{NEWLINE}és@{NEWLINE}
+EXER_FAIL0;	Sajnos hibás.
+EXER_FAIL1;	Sajnos hibás. Egy pont levonás. Fennamradó pontszám: @1_rest-points_.
+EXER_FAIL2;	Sajnos hibás. @1_points-penalty_ Pont levonás. Fennmaradó pontszám: @2_rest-points_.
+EXER_FAIL_ASK4HELP;	@{NEWLINE}@{NEWLINE}Kér segítséget?
+EXER_FAILCHANGE_HELP;	A módosított mező  @{EXER_COLOR_ERROR} lett. @{NEWLINE}Valamennyi módosítható adatbeviteli mező  @{EXER_COLOR_CHANGE} lett.
+EXER_FAILCHANGE0_HELP;	Nincsenek megengedett adatbeviteli mezők.@{NEWLINE}A módosított mező  @{EXER_COLOR_ERROR} lett.
+EXER_FAILCLICK_HELP;	Az zóna amelyre rákattintoty @{EXER_COLOR_ERROR} lett.@{NEWLINE}Az összes megengedett gomb @{EXER_COLOR_CLICK} lett.
+EXER_FAILCLICK0_HELP;	Sehol sem lehet kattintani.@{NEWLINE}A zóna, amelyre rákattintott, @{EXER_COLOR_ERROR} lett.
+
+EXER_FAILDBLCLICK_HELP;	A zóna, amelyre kétszer rákattintott, @{EXER_COLOR_ERROR} lett.@{NEWLINE}Valamennyi olyan gomb, amelyre kétszer rá lehet kattintani, @{EXER_COLOR_DBLCLICK} lett.
+EXER_FAILDBLCLICK0_HELP;	Dupla kattintás sehol sem engedélyezett.@{NEWLINE}A zóna, amelyre rákattintott, @{EXER_COLOR_ERROR} lett.
+EXER_FAILRCLICK_HELP;	A zóna, amelyre kétszer rákattintott az egér jobb oldali gombjával, @{EXER_COLOR_ERROR} lett.@{NEWLINE}Valamennyi gomb, amelyre rá lehet kattintani az egér jobb oldali gombjával, @{EXER_COLOR_RCLICK} lett.
+EXER_FAILRCLICK0_HELP;	Kattintás az egér jobb oldali gombjával sehol sem lehetséges.@{NEWLINE}A zóna, amelyre rákattintott, @{EXER_COLOR_ERROR} lett.
+EXER_FAILKEY_HELP0;	Rossz gombot nyomott meg.
+EXER_FAILKEY_HELP1;	"Lenyomta a ""@1_key_"" billentyűt."
+EXER_FAILKEY_HELP2;	@{NEWLINE}A megengedett funkcióbillentyűk a következők:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID;	@{NEWLINE}@{NEWLINE}Szintén engedélyezettek:
+EXER_HINT_CHANGABLE_MARKED;	@{NEWLINE}@{BULLET} Mező módosítása (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED;	@{NEWLINE}@{BULLET} Kattintás (a gombok: @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED;	@{NEWLINE}@{BULLET} Kettős kattintás (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS;	@{NEWLINE}(Tudnivaló: ezáltal érvényét veszti az összes pont)
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} A funkcióbillentyűk lenyomása@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	@{NEWLINE}@{NEWLINE}Megengedettek a következők:
+EXER_HINT_RCLICK_MARKED;	@{NEWLINE}@{BULLET} Kattintás az egér jobb oldali gombjával (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON;	@{NEWLINE}(Tudnivaló: máskülönben automatikusan folytatódik)
+EXER_HINT_YOURINPUT;	"Ön bevitte a „@1_input_"" értéket.@{NEWLINE}"
+EXER_OR;	@{NEWLINE}agy@{NEWLINE}
+	
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	"Szüntesse meg a ""@1"" opció kiválasztását!"
+MSG_OPTIONFIELD_SELECT;	"Válassza ki a opciót, illetve szüntesse meg annak kiválasztását! ""@1""!"
+MSG_SCORE;	"Elért pontszám: ""@1""."
+MSG_SINGLE_SELECT;	"Válassza ki a ""@1"" bejegyzést!"
+MSG_TEXTINPUT;	"Írja be a ""@1"" értéket a ""@2"" adatbeviteli mezőbe!"
+MSG_TRANSACTIONCODE;	"Írja be a megfelelő ""@1"" tranzakció-kódot!"
+	
+capDemoStart;	Demo üzemmód 
+msgDemoStart1;	Demo üzemmódban nyomon követheti egy feladat végrehajtását az alkalmazásban. Csak figyelje a bemutatót: valamennyi lépés automatikusan végrehajtásra kerül.
+msgDemoStart2;	Az alsó szélen található navigációs sorral megszakíthatja, vagy leállíthatja az előadást. Ezen kívül előreugorhat a következő, illetve visszaugorhat az előző lépéshez.
+msgDemoStop;	A demo üzemmód befejeződött.
+	
+capConcurrentStart;	Gyakorlati üzemmód
+msgConcurrentStart1;	Gyakorlati üzemmódban a rendszer lépésről lépésre végigvezeti Önt, bemutatva, hogyan kell végrehajtani egy feladatot az alkalmazásban.
+msgConcurrentStart2;	Az egyes lépéseket követően az előadás megszakad, hogy Ön is végrehajthassa a bemutatott lépést az alkalmazásban. 
+msgConcurrentStop;	A gyakorlati üzemmód befejeződött.
+	
+capTestStart;	Teszt-üzemmód
+msgTestStart1;	Teszt-üzemmódban tesztelheti ismereteit azáltal, hogy az alkalmazással önállóan megold egy feladatot. A példaként közölt beírandó adatokon túlmenően ekkor nem kap útmutatást a műveleti lépésekre vonatkozóan. A teljes feladat a feladat-ablakban kerül ismertetésre, amelyet Ön igény szerint a címsorban található parancsgombokkal felnagyíthat, vagy lekicsinyíthet.
+msgTestStart2;	"A teszt végén a rendszer a sikeresen végrehajtott lépések alapján értékeli az Ön teljesítményét. Ez az azonban csupán önértékelésre szolgál; az adatok nem kerülnek elmentésre, sem pedig továbbításra."
+msgTestStart3;	Gondosan hajtsa végre a műveleteket, mivel a rendszer regisztrálja az íráshibákat és a rossz kattintásokat, ennek megfelelően csökkentve az osztályzatot. Ha úgy dönt, hogy egy műveleti lépéshez segítséget vesz igénybe, akkor ezzel elveszti az adott lépéshez előirányzott pontszámot.
+msgTestStart4;	"Az Ön osztályzata a teszt végén jelenik meg; próbálja meg elérni legalább a @{res_mastery_percent}% célt."
+capTestOk;	Ön megfelelt a teszten.
+capTestFailed;	Ön nem felelt meg a teszten.
+msgTestFailed1;	Mivel a lehetséges pontszám [mastery_percent] százalékarányánál kevesebbet ért el, ezért ajánlatos e tanfolyam anyagát még egyszer átvenni, majd azt követően tudását ismételten teszt-üzemmódban ellenőrizni.
+msgTestFinished2;	Ez a teszt kizárólag önértékelésre szolgál. Az eredményeket a rendszer nem regisztrálja és nem is továbbítja. 
+msgTestOk1;	Gratulálunk, sikeresen teljesítette ezt a feladatot!
+msgTestResult;	Eredmény
+msgTestScore;	Elért pontszám
+msgTestScoreValue;	@{res_collected_points} az elérhető pontszámhoz @{res_possible_points}
+	
+capPracticeStart;	Gyakorló üzemmód
+msgPracticeStart1;	Gyakorló-üzemmódban kipróbálhatja a tanultakat, önállóan megoldva a feladatot az alkalmazásban.
+msgPracticeStart2;	Csak a lépésenkénti útmutatót kell követnie.
+msgPracticeStop;	A gyakorló-üzemmód befejeződött.
+
+# eof# New messages added after 6.1.0 beta 2
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+TOK_LIB_VAL_NOFILTER; no filter
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

@@ -1,0 +1,251 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY	datango
+TOK_LIB	@{TOK_COMPANY} Kurs
+TOK_TOUR	@{TOK_COMPANY} Jednostka materiału dydaktycznego
+TOK_TRAINER	@{TOK_COMPANY} Trener
+
+# Key names	
+ALTKEY	Alt
+CTRLKEY	Ctrl
+LEFTALTKEY	Alt (lewy)
+LEFTCTRLKEY	Ctrl (lewy)
+LEFTSHIFTKEY	Shift (lewy)
+ON	Wł.
+OFF	Wył.
+RIGHTALTKEY	Alt (prawy)
+RIGHTCTRLKEY	Ctrl (prawy)
+RIGHTSHIFTKEY	Shift (prawy)
+SHIFTKEY	Shift
+
+# trainer states	
+TOK_BUFFERING	Ładowanie audio ...
+TOK_CONNECTING	Łączenie ...
+TOK_IDLE	
+TOK_LMS	Zapisywanie wyniku ...
+TOK_OPENING	Łączenie ...
+TOK_OPEN	
+TOK_PAUSED	Pauza
+TOK_PLAYING	Odtwarzanie
+TOK_READY	Gotowy
+TOK_USERINPUT	Wprowadzanie
+TOK_WAITING	Ładowanie strony ...
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC	"<span style=""color: red; font-weight: bolder;"">Nie można wyświetlić ramek.</span>"
+TOK_IEPOPUP_IFRAME_EXC	"<span style=""color: red; font-weight: bolder;"">Nie można wyświetlić dokumentów zawierających ramki typu IFRAME.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC	Blokada pop-up uniemożliwia odtworzenie jednostki materiału dydaktycznego.
+TOK_POPUPBLOCKER_CONFIRM	Blokada pop-up zablokowała otwarcie nowego okna przeglądarki.@{NEWLINE}@{NEWLINE}OK: Po wyłączeniu blokady pop-up przeglądarki@{NEWLINE}    można kontynuować.@{NEWLINE}Anuluj: Jednostka materiału dydaktycznego zostanie zakończona.
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC	"Ustawienie bezpieczeństwa programu Internet Explorer\n\uniemożliwia wyświetlenie @{TOK_TOUR}.\nWłącz opcję\n""Skrypt inicjuje okna bez ograniczania wielkości i pozycji""!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC	"Nie można odczytać @1 ""@2""."
+TOK_COULD_NOT_READ2_EXC	"Nie można odczytać @1 ""@2"": @3"
+
+# Form texts	
+TOK_CLOSE	Zamknij
+TOK_DIR	Spis
+TOK_ERROR	Błąd
+TOK_EXIT	Zakończ
+TOK_OPEN	Otwórz
+TOK_SEARCH	Szukaj
+TOK_START	Start
+TOK_START_TOUR	@{TOK_TOUR} Uruchom 
+TOK_STOP	Stop
+
+# Library	
+TOK_LIB_BTN_LESS	Mniej...
+TOK_LIB_BTN_MORE	Więcej...
+TOK_LIB_EMPTY	Pusty element
+TOK_LIB_FLAG_DESC	Przeszukaj opis
+TOK_LIB_FLAG_KEEP_OPEN	Pozostaw otwartą strukturę kursu
+TOK_LIB_FLAG_NEWWIN	W nowym oknie
+TOK_LIB_FLAG_TITLE	Przeszukaj tytuł
+TOK_LIB_RESET	Skasuj wyniki wyszukiwania
+
+# Mimetypes	
+MIME_TEXT_PDF	PDF – format Adobe Acrobat
+MIME_APP_MSWORD	Dokument Winword
+MIME_APP_EXCEL	Arkusz kalkulacyjny Excel
+MIME_APP_PPT	Folia Powerpoint
+MIME_APP_OOFF	Dokument OpenOffice
+MIME_APP_OOFFWRITE	Tekst OpenOffice
+MIME_APP_OOFFCALC	Arkusz kalkulacyjny OpenOffice
+MIME_APP_OOFFIMPRESS	Prezentacja OpenOffice
+MIME_APP_OOFFMATH	Formuła OpenOffice
+MIME_AUDIO	Dźwięk
+MIME_VIDEO	Wideo
+MIME_TEXT_HTML	Strona internetowa
+MIME_TEXT	Dokument tekstowy
+MIME_APP_DGO	 @{TOK_COMPANY}Jednostka materiału dydaktycznego
+MIME_APP_DGO_DEMO	 @{TOK_COMPANY}Demonstracja
+MIME_APP_DGO_PRACTISE	 @{TOK_COMPANY}Ćwiczenie 
+MIME_APP_DGO_TEST	 @{TOK_COMPANY}Test 
+MIME_APP_DGO_CONCURRENT	 @{TOK_COMPANY} Część praktyczna jednostki materiału dydaktycznego
+MIME_UNKNOWN	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY	"Kontynuuj (F8); ""Alt"": Ponowny start"
+TIP_PAUSE	"Zatrzymaj (PAUSE); ""Shift"": Wyższa jakość dźwięku; ""Alt"": Oszczędność pasma audio"
+TIP_STOP	"Zakończ (F12); ""Shift"": Pokaż wersję"
+TIP_NEXT	Następny rozdział (ALT-w dół)
+TIP_BACK	"Poprzedni rozdział (ALT-w górę); ""Alt"": Pokaż kurs"
+TIP_MAXBUBBLE	Przywróć dymek tekstowy
+TIP_MINBUBBLE	Zminimalizuj dymek tekstowy
+TIP_CLOSEBUBBLE	Usuń dymek tekstowy
+TIP_ENABLED	
+TIP_DISABLED	(w danej chwili niemożliwe)
+TIP_TASK	Postawienie zadań
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW	Zamknij okno
+TOK_BP_GOBACK	Powrót
+TOK_BP_GOON	Dalej
+TOK_BP_JSCONSOLE	Komunikaty Javascript
+TOK_BP_MODE	Tryb
+TOK_BP_PARAMETER	Parametr
+TOK_BP_RESTARTPROGRAM	Powtórz program
+TOK_BP_STARTANOTHER	Uruchom inny program
+TOK_BP_VALUE	Wartość
+
+# Exercise colors	
+EXER_COLOR_ERROR	Czerwone zaznaczenie
+EXER_COLOR_CLICK	Zielone zaznaczenie
+EXER_COLOR_DBLCLICK	Żółte zaznaczenie
+EXER_COLOR_RCLICK	Turkusowe zaznaczenie
+EXER_COLOR_CHANGE	Zielone podkreślenie
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_AND	@{NEWLINE}i@{NEWLINE}
+EXER_FAIL0	Niestety błędnie.
+EXER_FAIL1	Niestety błędnie. Odjęcie 1 punktu. Pozostają: @1_rest-points_.
+EXER_FAIL2	Niestety błędnie. @1_points-penalty_ Odjęcie punktów. Pozostają: @2_rest-points_.
+EXER_FAIL_ASK4HELP	@{NEWLINE}@{NEWLINE}Czy potrzebujesz pomocy?
+EXER_FAILCHANGE_HELP	Zmienione pole zostało @{EXER_COLOR_ERROR}.@{NEWLINE}Wszystkie pola wprowadzania, które mogą być zmienione, zostały @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP	Brak dopuszczalnych pól wprowadzania.@{NEWLINE}Zmienione pole zostało @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP	Wybrany obszar został  @{EXER_COLOR_ERROR}.@{NEWLINE}Wszystkie dopuszczalne przyciski zostały @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP	Kliknięcie jest niedopuszczalne.@{NEWLINE}Wybrany obszar został @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP	Obszar wybrany poprzez podwójne kliknięcie został @{EXER_COLOR_ERROR}.@{NEWLINE}Wszystkie przyciski umożliwiające wybór poprzez podwójne kliknięcie zostały @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP	Podwójne kliknięcie jest niedopuszczalne.@{NEWLINE}Wybrany obszar został @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP	Wybrany prawym klawiszem obszar został @{EXER_COLOR_ERROR}.@{NEWLINE}Przyciski umożliwiające wybór prawym klawiszem zostały @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP	Wybór prawym klawiszem jest niedopuszczalny.@{NEWLINE}Wybrany obszar został @{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0	Nieprawidłowy klawisz.
+EXER_FAILKEY_HELP1	"Naciśnięty został klawisz ""@1_key_""."
+EXER_FAILKEY_HELP2	@{NEWLINE}Dopuszczalne klawisze funkcyjne:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID	@{NEWLINE}@{NEWLINE}Dopuszczalne są również:
+EXER_HINT_CHANGABLE_MARKED	@{NEWLINE}@{BULLET} Zmiana pola (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED	@{NEWLINE}@{BULLET} Kliknięcie (Przyciski @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED	@{NEWLINE}@{BULLET} Podwójne kliknięcie (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS	@{NEWLINE}(Wskazówka: w wyniku tego przepadają wszystkie punkty)
+EXER_HINT_KEYS	"@{NEWLINE}@{BULLET} Naciśnij klawisze funkcyjne@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID	@{NEWLINE}@{NEWLINE}Dopuszczalne są:
+EXER_HINT_RCLICK_MARKED	@{NEWLINE}@{BULLET} Kliknięcie prawym klawiszem (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON	@{NEWLINE}(Wskazówka: w przeciwnym razie nastąpi automatyczna kontynuacja)
+EXER_HINT_YOURINPUT	"Wprowadzono ""@1_input_"".@{NEWLINE}"
+EXER_OR	@{NEWLINE}lub@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT	"Odznacz opcję ""@1""!"
+MSG_OPTIONFIELD_SELECT	"Zaznacz lub odznacz opcję ""@1""!"
+MSG_SCORE	"Uzyskana liczba punktów: ""@1""."
+MSG_SINGLE_SELECT	"Wybierz wpis ""@1""!"
+MSG_TEXTINPUT	"Wprowadź ""@1"" w polu wprowadzania ""@2""!"
+MSG_TRANSACTIONCODE	"Wprowadź prawidłowy kod transakcji ""@1""!"
+
+capDemoStart	Tryb Demo
+msgDemoStart1	W trybie Demo możesz śledzić wykonanie zadania w aplikacji. Postępuj zgodnie z prezentacją, wszystkie kroki są wykonywane automatycznie.
+msgDemoStart2	Za pomocą listwy nawigacyjnej w dolnej części możesz przerwać lub wstrzymać prezentację. Ponadto możesz przejść do następnego lub poprzedniego kroku.
+msgDemoStop	Tryb Demo został zakończony.
+
+capConcurrentStart	Tryb praktyczny
+msgConcurrentStart1	W trybie praktycznym otrzymasz instrukcje, jak krok po kroku wykonać zadanie w aplikacji. 
+msgConcurrentStart2	Po każdym kroku prezentacja zostanie przerwana, aby umożliwić wykonanie pokazanego kroku w aplikacji. 
+msgConcurrentStop	Tryb praktyczny został zakończony.
+
+capTestStart	Tryb testowy
+msgTestStart1	W trybie testowym możesz sprawdzić swoje wiadomości, wykonując osobiście zadanie w aplikacji. Poza koniecznymi do wprowadzenia przykładowymi danymi nie otrzymasz wskazówek dotyczących dalszych kroków. Całe zadanie jest opisane w oknie zadania, które w razie potrzeby można zmniejszyć lub powiększyć za pomocą przycisków na listwie tytułowej. 
+msgTestStart2	Na koniec testu otrzymasz ocenę na podstawie prawidłowo wykonanych kroków. Ta ocena służy tylko określeniu własnej wiedzy, dane nie są zapisywane, ani przekazywane.
+msgTestStart3	Dane wprowadzaj starannie, system rejestruje wszystkie błędy w pisowni i nieprawidłowe kliknięcia, co odpowiednio obniża ocenę. Jeśli w danym kroku zażądasz pomocy, stracisz wszystkie przewidziane za ten krok punkty. 
+msgTestStart4	Twoja ocena zostanie wyświetlona na koniec testu. Postaraj się osiągnąć cel @{res_mastery_percent}%.
+capTestOk	Test zdany.
+capTestFailed	Test nie zdany.
+msgTestFailed1	Ponieważ uzyskana liczba punktów jest mniejsza od @{res_mastery_percent}% możliwych punktów, zalecamy powtórzenie kursu i ponowne sprawdzenie wiedzy w trybie testowym.
+msgTestFinished2	Ten test służył tylko określeniu własnej wiedzy. Wyniki nie zostaną zapisane, ani przekazane.
+msgTestOk1	Gratulujemy wykonania zadania.
+msgTestResult	Wynik
+msgTestScore	Uzyskana liczba punktów
+msgTestScoreValue	@{res_collected_points} z @{res_possible_points}
+
+capPracticeStart	Tryb ćwiczebny
+msgPracticeStart1	W trybie ćwiczebnym możesz wypróbować zdobytą wiedzę, wykonując osobiście zadanie w aplikacji.
+msgPracticeStart2	Wykonuj kolejne kroki zgodnie z instrukcją.
+msgPracticeStop	Tryb ćwiczebny został zakończony.
+
+
+# eof	
+# New messages added after 6.1.0 beta 2
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+TOK_LIB_VAL_NOFILTER no filter
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

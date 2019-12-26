@@ -1,0 +1,47 @@
+/* Styles for datango ontop window */
+
+.dgoBody {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffb7;
+}
+
+.dgoScroll {
+    scrollbar-3dlight-color:#e5e8ec;
+    scrollbar-arrow-color:#0a3b5a;
+    scrollbar-base-color:teal;
+    scrollbar-darkshadow-color:#012b45;
+    scrollbar-face-color:#e5e8ec;
+    scrollbar-highlight-color:#7392ae;
+    scrollbar-shadow-color:#28536e;
+    border:none 0px #ffffb7;
+    background-color:ffffb7;
+}
+.dgoScrollBottom {
+    scrollbar-3dlight-color:#e5e8ec;
+    scrollbar-arrow-color:#0a3b5a;
+    scrollbar-base-color:teal;
+    scrollbar-darkshadow-color:#012b45;
+    scrollbar-face-color:#e5e8ec;
+    scrollbar-highlight-color:#7392ae;
+    scrollbar-shadow-color:#28536e;
+    border:none 0px #ffffb7;
+    background-color:#cccccc;
+}
+
+.SynopsisTitle {
+    color: #333333;
+    font-size:14px;
+    font-weight:bolder;
+    white-space:nowrap;
+    padding-left:5px;
+    padding-top:6px;
+    text-overflow:ellipsis;
+    overflow:hidden;    
+}
+
+/* eof */

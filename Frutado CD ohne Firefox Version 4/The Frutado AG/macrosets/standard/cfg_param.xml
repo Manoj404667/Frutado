@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfg>
+    <Translation basename="translation"/>
+    <ParamSet name="doc">
+        <ParamInfo type="FILENAME" name="template" textkey="doc_template" default='Project.ScriptBase + "..\\dot\\neutralNoToc_en.dot"'>
+            <Properties filter="#dot_filter"/>
+        </ParamInfo>
+        <ParamInfo type="FILENAME" name="ppt_template" default='Project.ScriptBase + "..\\dot\\neutral_en.pot"' textkey="ppt_template">
+            <Properties filter="#pot_filter"/>
+        </ParamInfo>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="include_project_details" default="true" textkey="include_project_details"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="show_bubble_text" default="true" textkey="show_bubble_text"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="use_demo_bubbles" default="true" textkey="use_demo_bubbles"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="use_practice_bubbles" default="false" textkey="use_practice_bubbles"/>
+        <ParamInfo type="INTEGER" name="hinweis_left_indent" default="0" textkey="hinweis_left_indent"/>
+        <ParamInfo type="FILENAME" name="master_template" default='WorkareaDir + "macrosets\\standard\\dot\\neutral_en.dot"'>
+            <Properties filter="#dot_filter"/>
+        </ParamInfo>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="ignore_tourstop_start" default="true" textkey="ignore_tourstop_start"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="workflow_enabled" default="false"/>
+        <ParamGroup name="headings">
+            <ParamInfo type="BOOL_TRUE_FALSE" name="heading_from_tourstop" default="false" textkey="heading_from_tourstop"/>
+            <ParamInfo type="BOOL_TRUE_FALSE" name="heading_from_new_page" default="true" textkey="heading_from_new_page"/>
+            <ParamInfo type="INTEGER" name="singledoc_headinglevel" default="2" textkey="singledoc_headinglevel"/>
+        </ParamGroup>
+        <ParamGroup name="images">
+            <ParamInfo type="INTEGER" name="image_scale" default="100" textkey="image_scale">
+                <Properties postfix="%"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_TRUE_FALSE" name="images_with_caption" default="false" textkey="images_with_caption">
+                <Properties remoteenable="image_caption_from_new_page"/>
+            </ParamInfo>
+            <ParamInfo type="BOOL_TRUE_FALSE" name="image_caption_from_new_page" default="true" textkey="image_caption_from_new_page"/>
+            <ParamInfo type="INTEGER" name="screenshot_border" default="0" textkey="screenshot_border"/>
+            <ParamInfo type="COLOR" name="screenshot_border_color" default="#ffffff" textkey="screenshot_border_color"/>
+        </ParamGroup>
+        <ParamGroup name="autocrop">
+            <ParamInfo type="INTEGER" name="crop_min_off_l" default="60"/>
+            <ParamInfo type="INTEGER" name="crop_min_off_t" default="60"/>
+            <ParamInfo type="INTEGER" name="crop_min_off_r" default="60"/>
+            <ParamInfo type="INTEGER" name="crop_min_off_b" default="60"/>
+            <ParamInfo type="INTEGER" name="crop_min_w" default="320"/>
+            <ParamInfo type="INTEGER" name="crop_min_h" default="200"/>
+        </ParamGroup>
+        <ParamGroup name="markers">
+            <ParamInfo type="BOOL_TRUE_FALSE" name="rects_with_index" default="true" textkey="rects_with_index"/>
+            <ParamInfo type="BOOL_TRUE_FALSE" name="global_index_counter" default="false" textkey="global_index_counter"/>
+            <ParamInfo type="INTEGER" name="marker_offset" default="2" textkey="marker_offset"/>
+            <ParamInfo type="INTEGER" name="marker_border" default="3" textkey="marker_border"/>
+            <ParamInfo type="COLOR" name="marker_color" default="#ff0000" textkey="marker_color"/>
+            <ParamInfo type="COLOR" name="marker_text_color" default="#000000" textkey="marker_text_color"/>
+            <ParamInfo type="COLOR" name="marker_bg_color" default="#ffff80" textkey="marker_bg_color"/>
+            <ParamInfo type="INTEGER" name="arrow_len" default="30" textkey="arrow_len"/>
+            <ParamInfo type="INTEGER" name="arrow_width" default="20" textkey="arrow_width"/>
+        </ParamGroup>
+        <ParamGroup name="quizzes">
+            <ParamInfo type="BOOL_TRUE_FALSE" name="print_solution" default="false"/>
+        </ParamGroup>
+    </ParamSet>
+    <!-- 
+    <ParamSet name="translatable">
+        <ParamInfo type="BOOL_TRUE_FALSE" name="export_page_caption" default="true" textkey="export_page_caption"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="export_tourstop_name" default="true" textkey="export_tourstop_name"/>
+    </ParamSet>
+    -->
+    <ParamSet name="rec">
+        <ParamInfo type="BOOL_TRUE_FALSE" name="demo_bubble_at_element" default="true" textkey="demo_bubble_at_element"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="practice_bubble_at_element" default="false" textkey="practice_bubble_at_element"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="demo_text_with_value" default="false" textkey="demo_text_with_value"/>
+        <ParamInfo type="INTEGER" name="default_bubble_duration" default="3" textkey="default_bubble_duration"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="input_confirm_tab" default="true" textkey="input_confirm_tab"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="input_confirm_enter" default="false" textkey="input_confirm_enter"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="input_confirm_button" default="false" textkey="input_confirm_button"/>
+    </ParamSet>
+    <ParamSet name="webrec">
+        <ParamInfo type="BOOL_TRUE_FALSE" name="use_only_window0" default="true" textkey="use_only_window0"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="record_scroll" default="true" textkey="record_scroll"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="span_is_link" default="true" textkey="span_is_link"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="div_is_link" default="true" textkey="div_is_link"/>
+    </ParamSet>
+    <ParamSet name="winrec">
+        <ParamInfo type="BOOL_TRUE_FALSE" name="insert_inactive_edit_macros" default="false" textkey="insert_inactive_edit_macros"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="atomize_scroll_buttons" default="false" textkey="atomize_scroll_buttons"/>
+    </ParamSet>
+    <ParamSet name="winrerec">
+        <ParamInfo type="BOOL_TRUE_FALSE" name="interactive" default="true" textkey="interactive"/>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="new_release" default="false" textkey="new_release"/>
+        <ParamInfo type="INTEGER" name="search_factor" default="10" textkey="search_factor"/>
+        <ParamInfo type="INTEGER" name="wait" default="2000" textkey="wait">
+            <Properties postfix="(ms)"/>
+        </ParamInfo>
+        <ParamInfo type="BOOL_TRUE_FALSE" name="check_position" default="false" textkey="check_position"/>
+    </ParamSet>
+</cfg>

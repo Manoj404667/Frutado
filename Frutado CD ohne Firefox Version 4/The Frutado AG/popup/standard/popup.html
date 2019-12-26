@@ -1,0 +1,1172 @@
+<script>
+    // here, global vars and functions must be a member of window
+    window.proportional = false;
+    window.O = function(name_) {
+        var obj = doc.getElementById(name_);
+        if (obj) {
+            if (typeof obj.V != 'function' && typeof obj.V != 'object') {
+                obj.V = function() {
+                    obj.style.visibility = 'visible';
+                }
+                obj.H = function() {
+                    obj.style.visibility = 'hidden';
+                }
+                obj.E = function() {
+                    obj.disabled = false;
+                }
+                obj.D = function() {
+                    obj.disabled = true;
+                }
+                obj.IH = function(text_) {
+                    obj.innerHTML = text_;
+                }
+                obj.T = function(text_) {
+                    obj.title = text_;
+                }
+                obj.A = function(text_) {
+                    obj.alt = text_;
+                }
+                obj.I = function(src_) {
+                    obj.src = src_;
+                }
+                obj.X = function(left_) {
+                    obj.style.left = left_;
+                }
+                obj.Y = function(top_) {
+                    obj.style.top = top_;
+                }
+                obj.W = function(width_) {
+                    obj.style.width = width_;
+                }
+                obj.OC = function(js_) {
+                    obj.onclick = js_;
+                }
+                obj.ODC = function(js_) {
+                    obj.ondblclick = js_;
+                }
+                obj.OMO = function(js_) {
+                    obj.onmouseover = js_;
+                }
+                obj.OMOU = function(js_) {
+                    obj.onmouseout = js_;
+                }
+                obj.OMD = function(js_) {
+                    obj.onmousedown = js_;
+                }
+                obj.OMM = function(js_) {
+                    obj.onmousemove = js_;
+                }
+                obj.OMU = function(js_) {
+                    obj.onmouseup = js_;
+                }
+            }
+        } else {
+            obj = new Object();
+            obj.V = function() {}
+            obj.H = function() {}
+            obj.E = function() {}
+            obj.D = function() {}
+            obj.IH = function(text_) {}
+            obj.T = function(text_) {}
+            obj.A = function(text_) {}
+            obj.I = function(src_) {}
+            obj.X = function(left_) {}
+            obj.Y = function(top_) {}
+            obj.W = function(width_) {}
+            obj.OC = function(js_) {}
+            obj.ODC = function(js_) {}
+            obj.OMO = function(js_) {}
+            obj.OMOU = function(js_) {}
+            obj.OMD = function(js_) {}
+            obj.OMM = function(js_) {}
+            obj.OMU = function(js_) {}
+        }
+        return obj;
+    }
+    
+    // TAPI must be defined as a member of this (internal trainer object).
+    // TAPI will be automatically a member of the global object ctx, in
+    // order to use it in Html event handlers.
+    // TAPI will contain GAPI
+    this.TAPI = {
+        TourTitle: ''   // will be set by trainer before _INIT
+        , popup: null   // will be set by trainer before _INIT
+        , width:  0     // will be set by trainer before _INIT
+        , height: 0     // will be set by trainer before _INIT
+        , inited: false
+        , moving : false
+        , resizing : false
+        , minimized: false
+        , BubbleTextHeight: 150 // initial value, change if changed in html
+        , lastbdHeight: 0
+        , sizerPressed: false
+        , tourVisible: true
+        , _INIT: function() {
+            window.doc = this.popup.document;
+            var cursor = (navigator.appVersion.substr(
+                                navigator.appVersion.indexOf('MSIE ') + 5, 3) == '5.5' ?
+                                'hand' : 'pointer');
+            O('Minimize').style.cursor = cursor;
+            O('Close').style.cursor = cursor;
+            O('back').style.cursor = cursor;
+            O('pause').style.cursor = cursor;
+            O('forward').style.cursor = cursor;
+            O('sizer').style.cursor = cursor;
+            O('SynopsisTitle').style.cursor = cursor;
+
+            var html = '';
+            for (var i = 0; i < this.GAPI.Tourstops(); ++i) {
+                html +=
+                    '<img style="position:absolute; top:0px; left:0px;"' +
+                    ' id="Syn_' + i + '"' +
+                    ' class="' + "SynopsisIcon" + '"' +
+                    ' src="${cfg_base}/synopsis/tourstopfuture_default.gif"' +
+                    ' width="11"' +
+                    ' height="16"' +
+                    ' border="0"' +
+                    ' style="filter:revealTrans(duration=0.25, transition=3);"' +
+                    ' ondrag="return false;">\n';
+            }
+            O('Synopsis').innerHTML = html;
+            this.inited = true;
+            this.GAPI._GetSynopsisWidth_ = this._GetSynopsisWidth_;
+            window.GAPI = this.GAPI;
+            GAPI.OnUpdateSynopsis = this.OnUpdateSynopsis;
+            var THIS = this;
+            var func = function() {
+                THIS.OnResize();
+            }
+            var func2 = function() {
+                THIS.OnEndResize();
+            }
+            doc.body.onmousemove = func; // handlers for resizing
+            doc.body.onmousedown = func2;
+            doc.body.onmouseup = func2;
+            doc.body.onclick = func2;
+            
+            return this.OnResized();
+        }
+        , OnUpdateSynopsis: function() {
+            O('Timeline0').style.width = this._GetSynopsisWidth_();
+            var currentTourStop = GAPI.CurrentTourstop();
+            var TourTitle = this.TourTitle;
+            if (TourTitle) {
+                O('SynopsisTitle').innerHTML = TourTitle + ': ' + currentTourStop.Title();
+            }
+            else {
+                O('SynopsisTitle').innerHTML = currentTourStop.Title();
+            }
+
+            O('SynopsisTitle').title = O('SynopsisTitle').innerText;
+            var firstTime = true;
+            var lastTime = true;
+            for (var i = 0; i < GAPI.Tourstops(); ++i) {
+                var tourStop = GAPI.Tourstop(i);
+                if (tourStop.Visible()) {
+                    if (firstTime) {
+                        if (i < currentTourStop.Index()) {
+                            firstTime = false;
+                            O('back').filters[0].apply();
+                            O('back').style.visibility = '';
+                            O('back').filters[0].play();
+                        }
+                        else if (i == currentTourStop.Index()) {
+                            firstTime = false;
+                            O('back').filters[0].apply();
+                            O('back').style.visibility = 'hidden';
+                            O('back').filters[0].play();
+                        }
+                    }
+                    if (GAPI.Skip()) {
+                        O('Syn_' + i).style.cursor = (navigator.appVersion.substr(
+                                navigator.appVersion.indexOf('MSIE ') + 5, 3) == '5.5' ?
+                                'hand' : 'pointer');
+                    }
+                    O('Syn_' + i).CLICK = tourStop;
+                    O('Syn_' + i).title = '[' + tourStop.DurationTextMMSS() + '] ' +
+                            tourStop.Title();
+                    O('Syn_' + i).OC(function() {GAPI.TourstopClicked(this.CLICK)});
+                        
+                    if (this.Skip()) {
+                        if (tourStop.Index() < currentTourStop.LastVisibleIndex()) {
+                            O('Syn_' + i).filters[0].apply();
+                            O('Syn_' + i).src = '${cfg_base}/synopsis/tourstoppast_default.gif';
+                            O('Syn_' + i).filters[0].play();
+                            O('Syn_' + i).OMO(function() {
+                                    this.filters[0].apply();
+                                    this.src='${cfg_base}/synopsis/tourstoppast_active.gif';
+                                    this.filters[0].play();
+                                    if (TourTitle) {
+                                        O('SynopsisTitle').innerHTML = TourTitle + ': ' + this.CLICK.Title();
+                                    }
+                                    else {
+                                        O('SynopsisTitle').innerHTML = this.CLICK.Title();
+                                    }
+                                    O('SynopsisTitle').title = O('SynopsisTitle').innerText;
+                                }
+                            );
+                            O('Syn_' + i).OMOU(function() {
+                                this.filters[0].apply();
+                                this.src='${cfg_base}/synopsis/tourstoppast_default.gif';
+                                this.filters[0].play();
+                                if (TourTitle) {
+                                    O('SynopsisTitle').innerHTML = TourTitle + ': ' + currentTourStop.Title();
+                                }
+                                else {
+                                    O('SynopsisTitle').innerHTML = currentTourStop.Title();
+                                }
+                                O('SynopsisTitle').title = O('SynopsisTitle').innerText;
+                                }
+                            );
+                        }
+                        else
+                            if (tourStop.Index() == currentTourStop.Index() ||
+                                tourStop.Index() == currentTourStop.LastVisibleIndex()) {
+                                O('Syn_' + i).filters[0].apply();
+                                O('Syn_' + i).src = '${cfg_base}/synopsis/tourstopcurrent_default.gif';
+                                O('Syn_' + i).filters[0].play();
+                                O('Syn_' + i).OMO(function() {
+                                        this.filters[0].apply();
+                                        this.src='${cfg_base}/synopsis/tourstopcurrent_active.gif';
+                                        this.filters[0].play();
+                                        if (TourTitle) {
+                                            O('SynopsisTitle').innerHTML = TourTitle + ': ' + this.CLICK.Title();
+                                        }
+                                        else {
+                                            O('SynopsisTitle').innerHTML = this.CLICK.Title();
+                                        }
+                                        O('SynopsisTitle').title = O('SynopsisTitle').innerText;
+                                    }
+                                );
+                                O('Syn_' + i).OMOU(function() {
+                                        this.filters[0].apply();
+                                        this.src='${cfg_base}/synopsis/tourstopcurrent_default.gif';
+                                        this.filters[0].play();
+                                        if (TourTitle) {
+                                            O('SynopsisTitle').innerHTML = TourTitle + ': ' + currentTourStop.Title();
+                                        }
+                                        else {
+                                            O('SynopsisTitle').innerHTML = currentTourStop.Title();
+                                        }
+                                        O('SynopsisTitle').title = O('SynopsisTitle').innerText;
+                                    }
+                                );
+                            }
+                            else
+                            {
+                                O('Syn_' + i).filters[0].apply();
+                                O('Syn_' + i).src = '${cfg_base}/synopsis/tourstopfuture_default.gif';
+                                O('Syn_' + i).filters[0].play();
+                                O('Syn_' + i).OMO(function() {
+                                        this.filters[0].apply();
+                                        this.src='${cfg_base}/synopsis/tourstopfuture_active.gif';
+                                        this.filters[0].play();
+                                        if (TourTitle) {
+                                            O('SynopsisTitle').innerHTML = TourTitle + ': ' + this.CLICK.Title();
+                                        }
+                                        else {
+                                            O('SynopsisTitle').innerHTML = this.CLICK.Title();
+                                        }
+                                        O('SynopsisTitle').title = O('SynopsisTitle').innerText;
+                                    }
+                                );
+                                O('Syn_' + i).OMOU(function() {
+                                        this.filters[0].apply();
+                                        this.src='${cfg_base}/synopsis/tourstopfuture_default.gif';
+                                        this.filters[0].play();
+                                        if (TourTitle) {
+                                            O('SynopsisTitle').innerHTML = TourTitle + ': ' + currentTourStop.Title();
+                                        }
+                                        else {
+                                            O('SynopsisTitle').innerHTML = currentTourStop.Title();
+                                        }
+                                        O('SynopsisTitle').title = O('SynopsisTitle').innerText;
+                                    }
+                                );
+                            }
+                        }
+                        var xPosition;
+
+                        if (proportional) {
+                            var duration = GAPI.Duration();
+                            var time = GAPI.Time(i);
+                            var position = Math.floor(time / duration * this._GetSynopsisWidth_());
+                            xPosition = position || 0;
+                        } else {
+                            var position = Math.floor(this._GetSynopsisWidth_() /
+                                GAPI.VisibleTourstops() * tourStop.VisibleIndex());
+                            xPosition = (position > this._GetSynopsisWidth_() ?
+                                this._GetSynopsisWidth_() : position) || 0;
+                        }
+                        tourStop._XPosition = xPosition; // to position the progress line
+                        xPosition = xPosition - 2;
+                        O('Syn_' + i).style.left = xPosition;
+                        O('Syn_' + i).style.top = '5px';
+                        O('Syn_' + i).style.visibility = 'visible';
+                    }
+                }
+                var nextVisible = GAPI.Tourstop(
+                    currentTourStop.NextVisibleIndex());
+                var lastVisible = GAPI.Tourstop(
+                    currentTourStop.LastVisibleIndex());
+                var nextXPosition, nextDuration;
+
+                if (proportional) {
+                    var scale = this._GetSynopsisWidth_() /
+                        (GAPI.Duration() || 1);
+                    nextXPosition = Math.floor(GAPI.CurrentTime() * scale);
+                    O('Timeline').style.width = nextXPosition || 0;
+                }
+                else if (lastVisible) {
+                    var duration, distance;
+                    var msTime = Math.max(0, GAPI.CurrentTime() - lastVisible.StartTime());
+
+                    if (nextVisible) {
+                        duration = nextVisible.StartTime() - lastVisible.StartTime();
+                        distance = nextVisible._XPosition - lastVisible._XPosition;
+                    }
+                    else {
+                        duration = GAPI.Duration() - lastVisible.StartTime();
+                        distance = this._GetSynopsisWidth_() - lastVisible._XPosition;
+                    }
+
+                    var scale = distance / (duration || 1);
+
+                    nextXPosition = lastVisible._XPosition + Math.floor(msTime * scale);
+                    O('Timeline').style.width = 
+                        nextXPosition < currentTourStop._XPosition
+                            ? currentTourStop._XPosition : nextXPosition;
+                }
+                else {
+                    O('Timeline').style.width = this._GetSynopsisWidth_();
+                }
+            }
+        , _GetSynopsisWidth_: function() {
+              return (O('Synopsis').offsetWidth);
+        }
+        , OnResized: function() {
+            // This method will be called after every resize.
+            // Note: width, height have been already set.
+            if (!this.inited) {
+                return true;
+            }
+
+            this.GAPI.TourTitle = this.TourTitle;
+
+            if (!this.minimized) {
+                if (!this.tourVisible) {
+                    this.BubbleTextHeight = this.height - 36 - 14 - 20;
+                }
+            }
+            if (this.BubbleTextHeight > 0) {
+                O('BubbleText').style.visibility = '';
+            }
+            else {
+                O('BubbleText').style.visibility = 'hidden';
+                this.BubbleTextHeight = 0;
+            }
+            O('BubbleText').style.height = this.BubbleTextHeight + 'px';
+            var row  = O('BubbleTextRow');
+            for (var n = 0; n < row.cells.length; n++) {
+                row.cells[n].style.height = this.BubbleTextHeight + 'px';
+            }
+            
+            O('main').style.width = this.width + 'px';
+            O('main').style.height = this.height + 'px';
+
+            O('Gui').style.width = (this.width - 16) + 'px';
+            O('Synopsis').style.width = (this.width - 16 - 70) + 'px';
+            O('Buttons').style.width = '70px';
+        
+            if (this.tourVisible) {
+                var bd = O('bd');
+                var td = O('bd').parentNode;
+
+                O('bd').style.width = (this.width - 6) + 'px';
+                var h = (this.height - 36 - this.BubbleTextHeight - 23 - 14 - 8);
+                if (h < 0) {
+                    return true;
+                }
+    
+                O('bd').style.height = (h + 8) + 'px';
+                var row  = O('bdrow');
+                for (var n = 0; n < row.cells.length; n++) {
+                    row.cells[n].style.height = h + 'px';
+                }
+                O('bd').style.height = (h + 8) + 'px';
+            }
+            return true;
+        }
+        , OnMinimize: function() {
+            var ev = doc.parentWindow.event;
+            if (this.minimized) {
+                ev.cancelBubble = true;
+                ev.returnValue = false;
+                return false;
+            }
+            this.ctx.cfg_action('PAUSE');
+            this.minimized = true;
+            this.saveWidth = this.width;
+            this.saveHeight = this.height;
+            this.saveLeft = this.x;
+            this.saveTop = this.y;
+            this.finalx = this.x;
+            this.finaly = this.y;
+            this.finalHeight = 36;
+            this.finalWidth = this.width;
+            switch (this.minimizePosition) {
+                case 0: // small left down
+                    this.finalWidth = 160;
+                    this.finalx = 0;
+                    this.finaly = screen.availHeight - 36;
+                    break;
+                case 3: // small same place right
+                    this.finalWidth = 160;
+                    this.finalx = this.saveLeft + this.saveWidth - 160;
+                    break;
+                case 2: // small same place left
+                    this.finalWidth = 160;
+                    break;
+                case 1: // rollup
+                    break;
+            }
+            O('ne').style.background = O('ne').style.background.replace('ne.gif', 'ne_min.gif');
+            O('n').style.background = O('n').style.background.replace('n.gif', 'n_min.gif');
+            O('nw').style.background = O('nw').style.background.replace('nw.gif', 'nw_min.gif');
+
+            O('nw').style.cursor = '';
+            O('n').style.cursor = '';
+            O('filler').style.cursor = '';
+            O('filler2').style.cursor = '';
+            O('ne').style.cursor = '';
+            O('w1').style.cursor = '';
+            O('w2').style.cursor = '';
+            O('w3').style.cursor = '';
+            O('w4').style.cursor = '';
+            O('e1').style.cursor = '';
+            O('e2').style.cursor = '';
+            O('e3').style.cursor = '';
+            O('e4').style.cursor = '';
+            O('sw').style.cursor = '';
+            O('s').style.cursor = '';
+            O('se').style.cursor = '';
+
+            this.aniDgoPopupStepx = Math.round(Math.abs(this.x - this.finalx) / 4);
+            this.aniDgoPopupStepy = Math.round(Math.abs(this.y - this.finaly) / 4);
+            this.aniDgoPopupStepw = Math.round(Math.abs(this.width -
+                                                    this.finalWidth) / 4);
+            this.aniDgoPopupSteph = Math.round(Math.abs(this.height -
+                                                    this.finalHeight) / 4);
+            if (this.animateMinimize) {
+                this.Popup_Animate();
+            }
+            else {
+                this.x = this.finalx;
+                this.y = this.finaly;
+                this.width = this.finalWidth;
+                this.height = this.finalHeight;
+                // Method of TAPI internally defined by trainer.
+                // MUST be called at end. It will call OnResized.
+                this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+            }
+            O('Minimize').style.display = 'none';
+            O('Restore').style.display = '';
+            return false;
+        }
+        , Popup_Animate: function() {
+            if (this.x < this.finalx) {
+                this.x = Math.min(this.finalx, 
+                                        this.x + this.aniDgoPopupStepx);
+            }
+            else if (this.x > this.finalx) {
+                this.x = Math.max(this.finalx, 
+                                        this.x - this.aniDgoPopupStepx);
+            }
+            if (this.y < this.finaly) {
+                this.y = Math.min(this.finaly, 
+                                        this.y + this.aniDgoPopupStepy);
+            }
+            else if (this.y > this.finaly) {
+                this.y = Math.max(this.finaly, 
+                                        this.y - this.aniDgoPopupStepy);
+            }
+
+            if (this.width < this.finalWidth) {
+                this.width = Math.min(this.finalWidth, 
+                                        this.width + this.aniDgoPopupStepw);
+            }
+            else if (this.width > this.finalWidth) {
+                this.width = Math.max(this.finalWidth, 
+                                        this.width - this.aniDgoPopupStepw);
+            }
+            if (this.height < this.finalHeight) {
+                this.height = Math.min(this.finalHeight, 
+                                        this.height + this.aniDgoPopupSteph);
+            }
+            else if (this.height > this.finalHeight) {
+                this.height = Math.max(this.finalHeight, 
+                                        this.height - this.aniDgoPopupSteph);
+            }
+            
+            this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+
+            if (this.x != this.finalx ||
+                this.y != this.finaly ||
+                this.width != this.finalWidth ||
+                this.height != this.finalHeight)
+            {
+                var THIS = this;
+                var func = function() {
+                    THIS.Popup_Animate();
+                }
+                window.setTimeout(func, 1);
+            }
+        }
+        , OnRestore: function() {
+            var ev = doc.parentWindow.event;
+            if (!this.minimized) {
+                ev.cancelBubble = true;
+                ev.returnValue = false;
+                return false;
+            }
+            this.minimized = false;
+
+            O('ne').style.background = O('ne').style.background.replace('ne_min.gif', 'ne.gif');
+            O('n').style.background = O('n').style.background.replace('n_min.gif', 'n.gif');
+            O('nw').style.background = O('nw').style.background.replace('nw_min.gif', 'nw.gif');
+
+            O('nw').style.cursor = 'nw-resize';
+            O('n').style.cursor = 'n-resize';
+            O('filler').style.cursor = 'n-resize';
+            O('filler2').style.cursor = 'n-resize';
+            O('ne').style.cursor = 'ne-resize';
+            O('w1').style.cursor = 'w-resize';
+            O('w2').style.cursor = 'w-resize';
+            O('w3').style.cursor = 'w-resize';
+            O('w4').style.cursor = 'w-resize';
+            O('e1').style.cursor = 'e-resize';
+            O('e2').style.cursor = 'e-resize';
+            O('e3').style.cursor = 'e-resize';
+            O('e4').style.cursor = 'e-resize';
+            O('sw').style.cursor = 'sw-resize';
+            O('s').style.cursor = 's-resize';
+            O('se').style.cursor = 'se-resize';
+            O('Minimize').style.display = '';
+            O('Restore').style.display = 'none';
+            this.finalWidth = this.saveWidth;
+            this.finalHeight = this.saveHeight;
+            this.finalx = this.saveLeft;
+            this.finaly = this.saveTop;
+            
+            if (this.animateMinimize) {
+                this.Popup_Animate();
+            }
+            else {
+                this.x = this.finalx;
+                this.y = this.finaly;
+                this.width = this.finalWidth;
+                this.height = this.finalHeight;
+                this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                // will call OnResized
+            }
+            ev.cancelBubble = true;
+            ev.returnValue = false;
+            return false;
+        }
+        , SetMoveCursorRecursive: function(el_) {
+            if (el_.style) {
+                el_.style.cursor = 'default';
+                el_.style.cursor = 'move';
+            }
+            for (var n = 0; n < el_.children.length; n++) {
+                this.SetMoveCursorRecursive(el_.children[n]);
+            }
+        }
+        , SetMoveCursor: function() {
+            O('SynopsisTitle').style.cursor = 'move';
+        }
+        , ResetMoveCursor: function() {
+            O('SynopsisTitle').style.cursor = (navigator.appVersion.substr(
+                                navigator.appVersion.indexOf('MSIE ') + 5, 3) == '5.5' ?
+                                'hand' : 'pointer');
+        }
+        , OnBeginMove: function() {
+            var ev = doc.parentWindow.event;
+            if (this.moving) {
+                ev.cancelBubble = true;
+                ev.returnValue = false;
+                return this.OnEndMove();
+            };
+            this.moving = true;
+            this.lastPosX = ev.screenX;
+            this.lastPosY = ev.screenY;
+            this.startPosX = this.x;
+            this.startPosY = this.y;
+            var bar = O('SynopsisTitle');
+            bar.setCapture(true);
+            // Method of TAPI internally defined by trainer.
+            // MUST be called at end. It will call OnResized.
+            this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+
+            window.setTimeout(this.SetMoveCursor, 10);
+            ev.cancelBubble = true;
+            ev.returnValue = false;
+            return false;
+        }
+        , OnMove: function() {
+            var ev = doc.parentWindow.event;
+            if (!this.moving) {
+                ev.cancelBubble = true;
+                ev.returnValue = false;
+                return false;
+            };
+
+            this.x = this.startPosX - this.lastPosX + ev.screenX;
+            this.y = this.startPosY - this.lastPosY + ev.screenY;
+            if (this.x < 0) {
+                this.x = 0;
+            }
+            if (this.x + this.width > screen.availWidth) {
+                this.x = screen.availWidth - this.width;
+            }
+            if (this.y < 0) {
+                this.y = 0;
+            }
+            if (this.y + this.height > screen.availHeight) {
+                this.y = screen.availHeight - this.height;
+            }
+
+            // Method of TAPI internally defined by trainer.
+            // MUST be called at end. It will call OnResized.
+            this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+
+            window.setTimeout(this.SetMoveCursor, 10);
+            ev.cancelBubble = true;
+            ev.returnValue = false;
+            return false;
+        }
+        , OnEndMove: function() {
+            var ev = doc.parentWindow.event;
+            if (!this.moving) {
+                ev.cancelBubble = true;
+                ev.returnValue = false;
+                return false;
+            };
+            this.moving = false;
+
+            this.x = this.startPosX - this.lastPosX + ev.screenX;
+            this.y = this.startPosY - this.lastPosY + ev.screenY;
+            if (this.x < 0) {
+                this.x = 0;
+            }
+            if (this.x + this.width > screen.availWidth) {
+                this.x = screen.availWidth - this.width;
+            }
+            if (this.y < 0) {
+                this.y = 0;
+            }
+            if (this.y + this.height > screen.availHeight) {
+                this.y = screen.availHeight - this.height;
+            }
+            // Method of TAPI internally defined by trainer.
+            // MUST be called at end. It will call OnResized.
+            this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+
+            var bar = O('SynopsisTitle');
+            bar.releaseCapture();
+
+            window.setTimeout(this.ResetMoveCursor, 10);
+            ev.cancelBubble = true;
+            ev.returnValue = false;
+            return false;
+        }
+        , DoUpdateSynopsis: function() {
+            this.GAPI.OnUpdateSynopsis.simplecall(this.GAPI);
+        }
+        , OnBeginBodyMove: function() {
+            var ev = doc.parentWindow.event;
+            if (ev.srcElement.id == 'bd') {
+                if (O('bd').componentFromPoint(ev.clientX, ev.clientY) != '') {
+                    return true;
+                }
+            }
+            window.TAPI.OnBeginResize();
+            window.TAPI.capturedElement = O('bd');
+            window.TAPI.startScrollLeft = window.TAPI.capturedElement.scrollLeft;
+            window.TAPI.startScrollTop = window.TAPI.capturedElement.scrollTop;
+            return false;
+        }
+        , OnBeginResize: function() {
+            var ev = doc.parentWindow.event;
+            if (this.minimized) {
+                // ev.cancelBubble = true;
+                ev.returnValue = false;
+                return false;
+            };
+            if (this.resizing) {
+                ev.cancelBubble = true;
+                ev.returnValue = false;
+                return this.OnEndResize();
+            };
+            this.resizing = true;
+            this.lastPosX = ev.screenX;
+            this.lastPosY = ev.screenY;
+            this.startPosX = this.x;
+            this.startPosY = this.y;
+            this.startWidth = this.width;
+            this.startHeight = this.height;
+            this.startBubbleTextHeight = this.BubbleTextHeight;
+            var el_ = ev.srcElement;
+            this.capturedElement = el_;
+
+            doc.body.setCapture(true);
+            // Method of TAPI internally defined by trainer.
+            // MUST be called at end. It will call OnResized.
+            this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+
+            ev.cancelBubble = true;
+            ev.returnValue = false;
+            return false;
+        }
+        , OnResize: function() {
+            this.resetIdleTimer();
+            var ev = doc.parentWindow.event;
+            if (!this.resizing) {
+                ev.cancelBubble = true;
+                ev.returnValue = false;
+                return false;
+            };
+
+            var saveWidth, saveHeight, savex, savey;
+            var el_ = this.capturedElement;
+            switch (el_.id) {
+                case 'sizer':
+                        this.sizerPressed = true; // no break here
+                case 'separator':
+                        if (this.tourVisible) {
+                            this.BubbleTextHeight = Math.max(0, this.startBubbleTextHeight - this.lastPosY + ev.screenY);
+                            if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                                this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                            }
+                        }
+                        else { // behave like south
+                            this.height = Math.max(200, this.startHeight - this.lastPosY + ev.screenY);
+                            if (this.y + this.height > screen.availHeight) {
+                                this.height = screen.availHeight - this.y;
+                            }
+                            if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                                this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                            }
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                    break;
+                case 'nw':
+                        this.x = Math.min(0, this.startPosX + ev.screenX - this.lastPosX);
+                        this.y = Math.min(0, this.startPosY + ev.screenY - this.lastPosY);
+                        this.width = Math.max(160, this.startWidth + this.lastPosX - ev.screenX);
+                        this.height = Math.max(200, this.startHeight + this.lastPosY - ev.screenY);
+                        this.x = this.lastPosX + this.startWidth - this.width;
+                        this.y = this.lastPosY + this.startHeight - this.height;
+                        if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                            this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                        this.DoUpdateSynopsis();
+                    break;
+                case 'n':
+                case 'filler':
+                case 'filler2':
+                        this.y = Math.min(0, this.startPosY + ev.screenY - this.lastPosY);
+                        this.height = Math.max(200, this.startHeight + this.lastPosY - ev.screenY);
+                        this.y = this.lastPosY + this.startHeight - this.height;
+                        if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                            this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                    break;
+                case 'ne':
+                        this.y = Math.min(0, this.startPosY + ev.screenY - this.lastPosY);
+                        this.width = Math.max(160, this.startWidth - this.lastPosX + ev.screenX);
+                        if (this.x + this.width > screen.availWidth) {
+                            this.width = screen.availWidth - this.x;
+                        }
+                        this.height = Math.max(200, this.startHeight + this.lastPosY - ev.screenY);
+                        this.y = this.lastPosY + this.startHeight - this.height;
+                        if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                            this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                        this.DoUpdateSynopsis();
+                    break;
+                case 'e3':
+                        if (this.tourVisible) {
+                            this.width = Math.max(160, this.startWidth - this.lastPosX + ev.screenX);
+                            if (this.x + this.width > screen.availWidth) {
+                                this.width = screen.availWidth - this.x;
+                            }
+                        }
+                        else { // behave like se
+                            this.width = Math.max(160, this.startWidth - this.lastPosX + ev.screenX);
+                            this.height = Math.max(200, this.startHeight - this.lastPosY + ev.screenY);
+                            if (this.x + this.width > screen.availWidth) {
+                                this.width = screen.availWidth - this.x;
+                            }
+                            if (this.y + this.height > screen.availHeight) {
+                                this.height = screen.availHeight - this.y;
+                            }
+                            if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                                this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                            }
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                        this.DoUpdateSynopsis();
+                    break;
+                case 'e1':
+                case 'e2':
+                case 'e4':
+                        this.width = Math.max(160, this.startWidth - this.lastPosX + ev.screenX);
+                        if (this.x + this.width > screen.availWidth) {
+                            this.width = screen.availWidth - this.x;
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                        this.DoUpdateSynopsis();
+                    break;
+                case 'se':
+                        this.width = Math.max(160, this.startWidth - this.lastPosX + ev.screenX);
+                        this.height = Math.max(200, this.startHeight - this.lastPosY + ev.screenY);
+                        if (this.x + this.width > screen.availWidth) {
+                            this.width = screen.availWidth - this.x;
+                        }
+                        if (this.y + this.height > screen.availHeight) {
+                            this.height = screen.availHeight - this.y;
+                        }
+                        if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                            this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                        this.DoUpdateSynopsis();
+                    break;
+                case 's':
+                        this.height = Math.max(200, this.startHeight - this.lastPosY + ev.screenY);
+                        if (this.y + this.height > screen.availHeight) {
+                            this.height = screen.availHeight - this.y;
+                        }
+                        if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                            this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                    break;
+                case 'sw':
+                        this.x = Math.min(0, this.startPosX + ev.screenX - this.lastPosX);
+                        this.width = Math.max(160, this.startWidth + this.lastPosX - ev.screenX);
+                        this.height = Math.max(200, this.startHeight - this.lastPosY + ev.screenY);
+                        this.x = this.lastPosX + this.startWidth - this.width;
+                        if (this.y + this.height > screen.availHeight) {
+                            this.height = screen.availHeight - this.y;
+                        }
+                        if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                            this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                        this.DoUpdateSynopsis();
+                    break;
+                case 'w3':
+                        if (this.tourVisible) {
+                            this.x = Math.min(0, this.startPosX + ev.screenX - this.lastPosX);
+                            this.width = Math.max(160, this.startWidth + this.lastPosX - ev.screenX);
+                            this.x = this.lastPosX + this.startWidth - this.width;
+                        }
+                        else { // behave like sw
+                            this.x = Math.min(0, this.startPosX + ev.screenX - this.lastPosX);
+                            this.width = Math.max(160, this.startWidth + this.lastPosX - ev.screenX);
+                            this.height = Math.max(200, this.startHeight - this.lastPosY + ev.screenY);
+                            this.x = this.lastPosX + this.startWidth - this.width;
+                            if (this.y + this.height > screen.availHeight) {
+                                this.height = screen.availHeight - this.y;
+                            }
+                            if (this.BubbleTextHeight >= (this.height - 36 - 23 - 14 - 8)) {
+                                this.BubbleTextHeight = Math.max(0, this.height - 36 - 23 - 14 - 8);
+                            }
+                        }
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                        this.DoUpdateSynopsis();
+                    break;
+                case 'w1':
+                case 'w2':
+                case 'w4':
+                        this.x = Math.min(0, this.startPosX + ev.screenX - this.lastPosX);
+                        this.width = Math.max(160, this.startWidth + this.lastPosX - ev.screenX);
+                        this.x = this.lastPosX + this.startWidth - this.width;
+                        // Method of TAPI internally defined by trainer.
+                        // MUST be called at end. It will call OnResized.
+                        this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+                        this.DoUpdateSynopsis();
+                    break;
+                case 'bd': // not a resize, but comfortably managed here
+                        O('bd').scrollLeft = Math.max(0, this.startScrollLeft - ev.screenX + this.lastPosX);
+                        O('bd').scrollTop = Math.max(0, this.startScrollTop - ev.screenY + this.lastPosY);
+                        var THIS = this;
+                        var func = function() {
+                            THIS.SetMoveCursorRecursive(O('bd'));
+                        }
+                        window.setTimeout(func, 200);
+                    break;
+            }
+            ev.cancelBubble = true;
+            ev.returnValue = false;
+            return false;
+        }
+        , OnEndResize: function() {
+            var ev = doc.parentWindow.event;
+            if (!this.resizing) {
+                ev.cancelBubble = true;
+                ev.returnValue = false;
+                return false;
+            };
+            this.resizing = false;
+            if (this.capturedElement.id == 'sizer') {
+                if (this.lastPosY == ev.screenY) {
+                    this.DoHideShowTour();
+                }
+            }
+            
+            // Method of TAPI internally defined by trainer.
+            // MUST be called at end. It will call OnResized.
+            this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+
+            doc.body.releaseCapture();
+
+            ev.cancelBubble = true;
+            ev.returnValue = false;
+            return false;
+        }
+        , lastHeight: 0
+        , DoHideShowTour: function() {
+            this.tourVisible = !this.tourVisible;
+            if (this.tourVisible) {
+                O('e3').style.cursor = 'e-resize';
+                O('e3').style.backgroundImage = 'url(${cfg_base}/icons/pop_sep_e.gif)';
+                O('w3').style.cursor = 'w-resize';
+                O('w3').style.backgroundImage = 'url(${cfg_base}/icons/pop_sep_w.gif)';
+                O('bdrow').style.display = '';
+                O('srow').style.display = '';
+                this.height += this.lastbdHeight;
+                if (this.y > screen.availHeight - this.height) {
+                    this.y = screen.availHeight - this.height;
+                    if (this.y < 0) {
+                        this.y = 0;
+                        this.height = screen.availHeight;
+                    }
+                    var h = (this.height - 36 - this.BubbleTextHeight - 23 - 14 - 8);
+                    if (h < 0) {
+                        this.BubbleTextHeight = (this.height - 36 - h - 23 - 14 - 8 - 16);
+                    }
+                }
+                O('sizer').src = '${cfg_base}/icons/pop_sizer.gif';
+            }
+            else {
+                O('e3').style.cursor = 'se-resize';
+                O('e3').style.backgroundImage = 'url(${cfg_base}/icons/pop_se2.gif)';
+                O('w3').style.cursor = 'sw-resize';
+                O('w3').style.backgroundImage = 'url(${cfg_base}/icons/pop_sw2.gif)';
+                O('bdrow').style.display = 'none';
+                O('srow').style.display = 'none';
+                this.lastbdHeight = (this.height - 36 - this.BubbleTextHeight - 23 - 14 + 3);
+                this.height -= this.lastbdHeight;
+                if (this.height < 200) {
+                    this.height = 200;
+                }
+                O('sizer').src = '${cfg_base}/icons/pop_sizer_inv.gif';
+            }
+            // Method of TAPI internally defined by trainer.
+            // MUST be called at end. It will call OnResized.
+            this.DoRefreshGeometry(this.x, this.y, this.width, this.height);
+        }
+        , DoSetMoveCursorRecursiv: function(el_) {
+            for (var n = 0; n < el_.childNodes.length; n++) {
+                this.DoSetMoveCursorRecursiv(el_.childNodes[n]);
+            }
+            if (el_.style) {
+                el_.style.cursor = 'move';
+            }
+            if ((el_.nodeType != 3) &&  // text
+                ((el_.nodeType == 1) &&
+                 (el_.tagName != '!')))    // on IE, comment nodes have nodeType 1 and tagName '!'
+            {
+                el_.onmousedown = this.OnBeginBodyMove;
+                el_.onmousemove = O('bd').onmousemove;
+                el_.onmouseup = O('bd').onmouseup;
+                el_.onclick = O('bd').onclick;
+                el_.ondrag = O('bd').ondrag;
+            }
+        }
+        , OnHtmlLoaded: function() {
+            this.DoSetMoveCursorRecursiv(O('bd'));
+        }
+        , OnClose: function() {
+            // Custom actions here if necessary.
+            return this.DoClose(); // Method of TAPI internally defined by trainer.
+                                   // MUST be called at end.
+        }
+    }
+
+    window.TAPI = this.TAPI; // for using in events
+
+</script>
+
+<table id="main" valign="top" style="position:absolute;table-layout:fixed;left:0px;top:0px;width:100%;height:100%;padding:0px;margin:0px;border:0px none black;" cellpadding=0 border=0 cellspacing=0>
+    <tr>
+        <td id=nw style="width:8px;height:36px;cursor:nw-resize;background:url(${cfg_base}/icons/pop_nw.gif) no-repeat;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+        <td id=n valign="top" style="cursor:n-resize;width:100%;height:36px;background:url(${cfg_base}/icons/pop_n.gif) repeat-x;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+            <table valign="top" style="cursor:default;position:relative;table-layout:fixed;left:0px;top:3px;width:100%;height:30px;padding:0px;margin:0px;border:0px none black;" cellpadding=0 border=0 cellspacing=0>
+                <tr>
+                    <td id="filler" valign="baseline" style="cursor:n-resize;height:3px;width:100%;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+                    </td>
+                    <td id="filler2" style="cursor:n-resize;height:3px;width:50px;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="SynopsisTitle" class="SynopsisTitle" valign="baseline" style="cursor:hand;position:relative;left:0px;top:0px;height:22px;width:100%;background:url(${cfg_base}/icons/pop_n0.gif) repeat-x;" onmousedown="ctx.TAPI.OnBeginMove();" onmousemove="ctx.TAPI.OnMove();" onmouseup="ctx.TAPI.OnEndMove();" onclick="ctx.TAPI.OnEndMove();">
+                    </td>
+                    <td align="right" style="padding-right:2px;position:relative;width:50px;height:22px;background:url(${cfg_base}/icons/pop_n0.gif) repeat-x;">
+                        <img id="Minimize" align="middle" src="${cfg_base}/icons/minimize.png"
+                         onmouseover="this.filters[0].apply();this.src='${cfg_base}/icons/minimize_inv.png';this.filters[0].play();"
+                         onmouseout="this.filters[0].apply();this.src='${cfg_base}/icons/minimize.png';this.filters[0].play();"
+                         onclick="ctx.TAPI.OnMinimize();";
+                         ondrag="return false;"
+                         style="cursor:pointer;filter:revealTrans(duration=0.25, transition=3);" /><img align="middle" id="Restore" src="${cfg_base}/icons/restore.png"
+                         onmouseover="this.filters[0].apply();this.src='${cfg_base}/icons/restore_inv.png';this.filters[0].play();"
+                         onmouseout="this.filters[0].apply();this.src='${cfg_base}/icons/restore.png';this.filters[0].play();"
+                         onclick="ctx.TAPI.OnRestore();";
+                         ondrag="return false;"
+                         style="cursor:pointer;display:none;filter:revealTrans(duration=0.25, transition=3);" />&nbsp;<img id="Close" align="middle" src="${cfg_base}/icons/close.png"
+                         onmouseover="this.filters[0].apply();this.src='${cfg_base}/icons/close_inv.png';this.filters[0].play();"
+                         onmouseout="this.filters[0].apply();this.src='${cfg_base}/icons/close.png';this.filters[0].play();"
+                         onclick="ctx.TAPI.OnClose();";
+                         ondrag="return false;"
+                         style="cursor:pointer;filter:revealTrans(duration=0.25, transition=3);" />
+                    </td>
+                </tr>
+                <tr>
+                    <td id="filler3" valign="baseline" style="height:3px;width:100%;">
+                    </td>
+                    <td valign="filler4" align="right" style="height:3px;width:60px;">
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td id=ne style="width:8px;height:30px;cursor:ne-resize;background:url(${cfg_base}/icons/pop_ne.gif) no-repeat;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+
+        </td>
+    </tr>
+    <tr id="BubbleTextRow">
+        <td id=w1 style="width:8px;height:150px;cursor:w-resize;background:url(${cfg_base}/icons/pop_w.gif) repeat-y;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+        <td style="position:relative;width:100%;height:150px;">
+            <div id="BubbleText" class="dgoScroll" style="position:relative;width:100%;height:150px;overflow:auto;overflow-x:hidden;overflow-y:auto;"></div>
+        </td>
+        <td id=e1 style="width:8px;height:150px;cursor:e-resize;background:url(${cfg_base}/icons/pop_e.gif) repeat-y;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+    </tr>
+    <tr>
+        <td id=w2 style="width:8px;height:23px;cursor:w-resize;background:url(${cfg_base}/icons/pop_w.gif) repeat-y;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+        <td unselectable=true valign="top" style="width:100%;height:23px;">
+            <table id="Gui" valign="top" style="position:relative;table-layout:fixed;left:0px;top:0px;width:100%;height:23px;padding:0px;margin:0px;border:0px none black;" cellpadding=0 border=0 cellspacing=0>
+                <tr>
+                    <td style="padding-top:3px;position:relative;left:0px;top:0px;height:23px;">
+                        <div valign="top" id="Synopsis" style="position:relative;z-index:21;left:0px;top:0px;height:16px;" ondrag="return false;">&nbsp;</div>
+                        <img id='Timeline' style="position:absolute;z-index:20;left:0px;top:10px;width:1px;height:2px;" src="${cfg_base}/synopsis/timeline.gif" ondrag="return false;">
+                        <img id='Timeline0' style="position:absolute;z-index:19;top:9px;width:1px;height:4px;" src="${cfg_base}/synopsis/timeline0.gif" ondrag="return false;">
+                    </td>
+                    <td id="Buttons" valign="top" align="right" style="padding-top:3px;width:70px;height:23px;">
+                        <img id="back" valign="top" src="${cfg_base}/icons/pop_backward.png"
+                         onmouseover="this.filters[0].apply();this.src='${cfg_base}/icons/pop_backward_inv.png';this.filters[0].play();"
+                         onmouseout="this.filters[0].apply();this.src='${cfg_base}/icons/pop_backward.png';this.filters[0].play();"
+                         onclick="ctx.cfg_action('PREV');";
+                         ondrag="return false;"
+                         style="visibility:hidden;cursor:pointer;filter:revealTrans(duration=0.25, transition=3);" />
+                        <img id="pause" valign="top" src="${cfg_base}/icons/pop_pause.png"
+                         onmouseover="this.filters[0].apply();this.src='${cfg_base}/icons/pop_pause_inv.png';this.filters[0].play();"
+                         onmouseout="this.filters[0].apply();this.src='${cfg_base}/icons/pop_pause.png';this.filters[0].play();"
+                         onclick="ctx.cfg_action('PAUSE');";
+                         ondrag="return false;"
+                         style="cursor:pointer;filter:revealTrans(duration=0.25, transition=3);" />
+                        <img id="forward" valign="top" src="${cfg_base}/icons/pop_forward.png"
+                         onmouseover="this.filters[0].apply();this.src='${cfg_base}/icons/pop_forward_inv.png';this.filters[0].play();"
+                         onmouseout="this.filters[0].apply();this.src='${cfg_base}/icons/pop_forward.png';this.filters[0].play();"
+                         onclick="ctx.cfg_action('PLAY');";
+                         ondrag="return false;"
+                         style="cursor:pointer;filter:revealTrans(duration=0.25, transition=3);" />
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td id=e2 style="width:8px;height:23px;cursor:e-resize;background:url(${cfg_base}/icons/pop_e.gif) repeat-y;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+    </tr>
+    <tr>
+        <td id=w3 style="width:8px;height:14px;cursor:w-resize;background:url(${cfg_base}/icons/pop_sep_w.gif) repeat-y;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;"></td>
+        <td id="separator" align="center" style="width:100%;height:14px;cursor:n-resize;background:url(${cfg_base}/icons/pop_sep.gif) repeat-x;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+            <img id="sizer" align="top" src="${cfg_base}/icons/pop_sizer.gif" style="cursor:pointer;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+        <td id=e3 style="width:8px;height:14px;cursor:e-resize;background:url(${cfg_base}/icons/pop_sep_e.gif) repeat-y;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;"></td>
+    </tr>
+    <tr id="bdrow" style="position:relative;">
+        <td id=w4 style="width:8px;height:100%;cursor:w-resize;background:url(${cfg_base}/icons/pop_w.gif) repeat-y;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+        <td style="width:100%;height:100%;overflow:visible;">
+            <div id="bd" name="bd" class="dgoScrollBottom" style="position:absolute;width:100%;height:100%;left:3px;top:-3px;overflow:scroll;"
+           onmousedown="ctx.TAPI.OnBeginResize();"
+           onmousemove="ctx.TAPI.OnResize();"
+           onmouseup="ctx.TAPI.OnEndResize();"
+           onclick="ctx.TAPI.OnEndResize();"
+           ondrag="return false;">&nbsp;</div>
+        </td>
+        <td id=e4 style="width:8px;height:100%;cursor:e-resize;background:url(${cfg_base}/icons/pop_e.gif) repeat-y;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+    </tr>
+    <tr id="srow">
+        <td id=sw style="height:8px;width:8px;cursor:sw-resize;background:url(${cfg_base}/icons/pop_sw.gif) repeat-x;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+        <td id=s style="width:100%;height:8px;cursor:s-resize;background:url(${cfg_base}/icons/pop_s.gif) repeat-x;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+        <td id=se style="height:8px;width:8px;cursor:se-resize;background:url(${cfg_base}/icons/pop_se.gif) repeat-x;" onmousedown="ctx.TAPI.OnBeginResize();" onmousemove="ctx.TAPI.OnResize();" onmouseup="ctx.TAPI.OnEndResize();" onclick="ctx.TAPI.OnEndResize();" ondrag="return false;">
+        </td>
+    </tr>
+</table>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

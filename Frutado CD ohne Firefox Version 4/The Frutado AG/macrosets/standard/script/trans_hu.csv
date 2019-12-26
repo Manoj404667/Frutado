@@ -1,0 +1,221 @@
+﻿click.demo	Most kattintson a [B_NAME] pontra.
+click.prac	Kattintson a [B_NAME] pontra.
+click_img.demo	Most kattintson a [B_NAME_ICON] pontra.
+click_img.prac	Kattintson a [B_NAME_ICON] pontra.
+click_cancel_trans_img.demo	A [B_ICON_NAME] pontra kattintva a tranzakció megszakad.
+click_cancel_trans_img.prac	A tranzakció megszakításához kattintson a [B_ICON_NAME] pontra.
+click_back_img.demo	A [B_ICON_NAME] pontra kattintva visszalép az előző oldalra.
+click_back_img.prac	Az előző oldalra való visszatéréshez kattintson a [B_ICON_NAME] pontra.
+click_ok_img.demo	Most kattintson a [B_ICON_NAME] pontra.
+click_ok_img.prac	Kattintson a [B_ICON_NAME] pontra. 
+click_exit_trans_img.demo	A [B_ICON_NAME] pontra kattintva kilép a tranzakcióból.
+click_exit_trans_img.prac	A tranzakcióból való kilépéshez kattintson a [B_ICON_NAME] pontra.
+click_save_img.demo	A [B_ICON_NAME] pontra kattintva elmentheti a bevitt adatokat.
+click_save_img.prac	A bevitt adatok mentéséhez kattintson a [B_ICON_NAME] pontra.
+click_checkbox_off.demo	A [B_NAME] kikapcsolódik.
+click_checkbox_off.prac	Kapcsolja ki a [B_NAME] értéket.
+click_next_page_img.demo	A [B_NAME_ICON] pontra kattintva megnyílik a következő oldal.
+click_next_page_img.prac	Kattintson a [B_NAME_ICON] pontra.
+click_checkbox_on.demo	A [B_NAME] kiválasztásra kerül.
+click_checkbox_on.prac	Válassza ki a [B_NAME] értéket.
+click_select_value.demo	A [B_NAME] érték kiválasztásra kerül.
+click_select_value.prac	Válassza ki a [B_NAME] értéket.
+click_open_menu.demo	Megnyílik a [B_NAME] menü.
+click_open_menu.prac	Nyissa meg a [B_NAME] menüt.
+click_menu_select.demo	A [B_NAME] bejegyzés kiválasztásra kerül.
+click_menu_select.prac	Válassza ki a [B_NAME] bejegyzést.
+click_select_column.demo	A B_NAME] oszlop kiválasztásra kerül.
+click_select_column.prac	Az oszlop fejlécére kattintva válassza ki a [B_NAME] oszlopot.
+click_open_value_help.demo	Megnyílik az értékekre vonatkozó súgó.
+click_open_value_help.prac	Nyissa meg az értékekre vonatkozó súgót.
+click_select_line.demo	A [B_NAME] sor kiválasztásra kerül.
+click_select_line.prac	Az első oszlopon belül kattintva válassza ki a [B_NAME] sort.
+click_scroll_top.demo	A [ICON] pontra kattintva az ábrázolást az oszlop elejére görgethetjük.
+click_scroll_top.prac	A [ICON] pontra kattintva görgesse az ábrázolást az oszlop elejére.
+click_scroll_bottom.demo	A [ICON] pontra kattintva az ábrázolást az oszlop végéhez görgethetjük.
+click_scroll_bottom.prac	A [ICON] pontra kattintva görgesse az ábrázolást az oszlop végéhez.
+click_scroll_pageup.demo	A [ICON] pontra kattintva egy oldallal felfelé görgethetünk.
+click_scroll_pageup.prac	A [ICON] pontra kattintva görgessen egy oldallal felfelé.
+click_scroll_pagedown.demo	A [ICON] pontra kattintva egy oldallal lefelé görgethetünk.
+click_scroll_pagedown.prac	A [ICON] pontra kattintva görgessen egy oldallal lefelé.
+click_scroll_lineup.demo	A [ICON] pontra kattintva egy sorral felfelé görgethetünk.
+click_scroll_lineup.prac	A [ICON] pontra kattintva görgessen egy sorral felfelé.
+click_scroll_linedown.demo	A [ICON] pontra kattintva egy sorral lefelé görgethetünk.
+click_scroll_linedown.prac	A [ICON] pontra kattintva görgessen egy sorral lefelé.
+click_close_window_img.demo	A [ICON] pontra kattintva bezárul az ablak.
+click_close_window_img.prac	A [ICON] pontra kattintva zárja be az ablakot.
+click_select_all_lines_img.demo	A [ICON] pontra kattintva az összes sor kijelölésre kerül.
+click_select_all_lines_img.prac	A [ICON] pontra kattintva jelölje ki az összes sort.
+click_open_card_menu.demo	A [ICON] pontra kattintva megnyílik a kártyakiválasztás képernyőábrája.
+click_open_card_menu.prac	A [ICON] pontra kattintva nyissa meg a kártyakiválasztás képernyőábráját.
+click_select_card.demo	A [B_NAME] kártya kiválasztásra kerül.
+click_select_card.prac	Válassza ki a [B_NAME] kártyát.
+click_next_cards_img.demo	A [ICON] pontra kattintva megjelenítésre kerülnek a következő kártyák.
+click_next_cards_img.prac	A [ICON] pontra kattintva jelenítse meg a következő kártyákat.
+click_prev_cards_img.demo	A [ICON] pontra kattintva megjelenítésre kerülnek a előző kártyák.
+click_prev_cards_img.prac	A [ICON] pontra kattintva jelenítse meg a előző kártyákat.
+click_open_nav_menu.demo	A [ICON] pontra kattintva megnyílik a navigációs menü.
+click_open_nav_menu.prac	A [ICON] pontra kattintva nyissa meg a navigációs menüt.
+click_close_folder_img.demo	A [ICON] pontra kattintva bezárul a [B_NAME] mappa.
+click_close_folder_img.prac	Zárja le a [B_NAME] mappát a [ICON] pontra kattintva.
+click_open_folder_img.demo	A [ICON] pontra kattintva megnyílik a [B_NAME] mappa.
+click_open_folder_img.prac	Nyissa meg a [B_NAME] mappát a [ICON] pontra kattintva.
+click_select_element_img.demo	A [ICON] pontra kattintva kiválasztásra kerül a [B_NAME] adatelem.
+click_select_element_img.prac	Válassza ki a [B_NAME] adatelemet a [ICON] pontra kattintva.
+click_scroll_down.demo	A görgetősávval lefelé görgethetünk.
+click_scroll_down.prac	Görgessen lefelé a görgetősáv segítségével.
+dblclick_select_entry.demo	Kétszer a [B_NAME] névre kattintva kiválasztásra kerül a bejegyzés.
+dblclick_select_entry.prac	"Válassza ki a [B_NAME] bejegyzést, kétszer rákattintva arra."
+dblclick_select_date.demo	A [B_NAME] kiválasztásra kerül.
+dblclick_select_date.prac	Válassza ki: [B_NAME].
+dblclick_start_transaction.demo	Kettős kattintással elindul a [B_NAME] tranzakció.
+dblclick_start_transaction.prac	Indítsa el a [B_NAME] tranzakciót kettős kattintással <br>vagy<br>hívja be a [B_TCODE] tranzakció-kódot és hagyja jóvá az Enter billentyűvel.
+click_close_group.demo	Bezárul a [B_NAME] csoport.
+click_close_group.prac	Zárja be a [B_NAME] csoportot.
+click_open_group.demo	Megnyílik [B_NAME] csoport.
+click_open_group.prac	Nyissa meg a [B_NAME] csoportot.
+select.demo	[B_NAME] csoportként a [B_SELECTED] kerül kiválasztásra.
+select.prac	[B_NAME] csoportként válassza: [B_SELECTED].
+input_text.demo	Kitöltődik a [B_NAME] mező.
+input_text.prac	Írja be: [B_INPUT] a [B_NAME] mezőbe.
+input_text_value.demo	A [B_NAME] mezőbe most beíródik a  [B_INPUT] érték.
+input_text_value.prac	Írja be: [B_INPUT] a [B_NAME] mezőbe.
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Hagyja jóvá az adatbevitelt a <b>Tabulátor</b> vagy <b>Enter billentyűvel</b> vagy kattintson a <b>megfelelő gombra</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Hagyja jóvá a bevitt adatokat a<b>Tabulátor</b> vagy <b>Enter billentyűvel</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Hagyja jóvá a bevitt adatokat az <b>Enter billentyűvel</b> vagy kattintson a<b>megfelelő gombra</b>.
+input_tab.demo
+input_tab.prac	<br>Hagyja jóvá a bevitt adatokat a <b>Tabulátor billentyűvel</b>.
+input_enter.demo
+input_enter.prac	<br>Hagyja jóvá a bevitt adatokat a <b>Enter billentyűvel</b>.
+input_button.demo
+input_button.prac	<br>Hagyja jóvá a bevitt adatokat egyszer<b>a megfelelő gombra kattintva</b>.
+click_select.demo	Most kiválasztásra kerül a [B_NAME] opció.
+click_select.prac	Válassza: [B_NAME].
+click_show_value_help_button.demo	A [B_NAME] szövegmezőbe kattintva megnyílik az értékekre vonatkozó súgó.
+click_show_value_help_button.prac	Nyissa meg az értékekre vonatkozó súgót a [B_NAME] szövegmezőbe kattintva.
+click_scroll_horizontal.demo	Görgetés jobbra…
+click_scroll_horizontal.prac	Görgessen jobbra.
+click_scroll_vertical.demo	Görgetés lefelé…
+click_scroll_vertical.prac	Görgessen lefelé.
+click_img_expand.demo	A navigációs zóna nagyításához a [ICON] pontra kell kattintani.
+click_img_expand.prac	Nagyítsa fel a navigációs zónát a [ICON] pontra kattintva.
+click_img_collapse.demo	A navigációs zóna kicsinyítéséhez a [ICON] pontra kell kattintani.
+click_img_collapse.prac	kicsinyítse a navigációs zónát a [ICON] pontra kattintva.
+click_navrow.demo	A navigációs sorban kiválasztásra kerül a [B_NAME] név.
+click_navrow.prac	Nyissa meg a [B_NAME] ablakot a navigációs sorból.
+click_navrow2.demo	A második navigációs sorban kiválasztásra kerül a [B_NAME] opció.
+click_navrow2.prac	Nyissa meg a [B_NAME] ablakot a második navigációs sorból.
+click_open_context_menu.demo	Megnyílik az előugró menü a [B_NAME] ablakból.
+click_open_context_menu.prac	Nyissa meg az előugró menüt a [B_NAME] ablakból.
+click_radio_select.demo	A [B_NAME] kiválasztásra kerül.
+click_radio_select.prac	Válassza: [B_NAME].
+click_select_img.demo	A [B_ICON_NAME] kiválasztásra kerül.
+click_select_img.prac	Válassza: [B_ICON_NAME].
+click_open_form_view.demo	A [B_ICON_NAME] segítségével átkapcsolhatunk az űrlap-nézetre.
+click_open_form_view.prac	Kapcsoljon az űrlap-nézetre a [B_ICON_NAME] segítségével.
+history_select.demo	[B_NAME] kiválasztásra kerül az előtörténetből.
+history_select.prac	Válassza a [B_NAME] opciót az előtörténetből.
+click_page_up_img.demo	A [B_ICON] pontra kattintva egy oldallal feljebb görgethetünk.
+click_page_up_img.prac	Görgessen egy oldallal feljebb a [B_ICON] pontra kattintva.
+click_page_down_img.demo	A [B_ICON] pontra kattintva egy oldallal leljebb görgethetünk.
+click_page_down_img.prac	Görgessen egy oldallal leljebb a [B_ICON] pontra kattintva.
+click_page_top_img.demo	A [B_ICON] pontra kattintva a szöveg elejére görgethetünk.
+click_page_top_img.prac	Görgessen a szöveg elejére a [B_ICON] pontra kattintva.
+click_page_bottom_img.demo	A [B_ICON] pontra kattintva a szöveg végére görgethetünk.
+click_page_bottom_img.prac	Görgessen a szöveg végére a [B_ICON] pontra kattintva.
+click_sort_by_column.demo	Rendezés a [B_NAME] oszlop szerint.
+click_sort_by_column.prac	Rendezzen a [B_NAME] oszlop szerint.
+click_select_date.demo	A [B_NAME] kiválasztásra kerül.
+click_select_date.prac	Válassza: [B_NAME].
+click_close_card_img.demo	A [ICON] pontra kattintva bezárul a kártya.
+click_close_card_img.prac	Kattintson a [ICON] pontra a kártya bezárásához.
+click_select_function_img.demo	A [ICON] pontra kattintva válassza a [B_NAME] funkciót.
+click_select_function_img.prac	Kattintson a [ICON] pontra a [B_NAME] funkció kiválasztásához.
+click_hide_treeview.demo	A [ICON] pontra kattintva a képernyőről eltűnik a fa-nézet.
+click_hide_treeview.prac	Tűntesse el a képernyőről a fa-nézetet a [ICON] pontra kattintva.
+click_show_treeview.demo	A [ICON] pontra kattintva a képernyőn megjelenik a fa-nézet.
+click_show_treeview.prac	Jelenítse meg a képernyőn a fa-nézetet a [ICON] pontra kattintva.
+click_mark_transaction.demo	A [B_NAME] névre kattintva megjelölésre kerül a tranzakció.
+click_mark_transaction.prac	"Jelölje meg a tranzakciót, egyszer rákattintva a [B_NAME] névre."
+dblclick_select_element.demo	Dupla kattintással kijelöli a [B_NAME] elemet.
+dblclick_select_element.prac	Válassza ki a [B_NAME] elemet dupla kattintással.
+please_note.demo	Vegye figyelembe a következők:
+please_note.prac	[B_NAME].
+click_open_value_help_img.demo	A <b>Adatbeviteli súgó</b> [ICON] pontra kattintva megjelenik egy érvényes értékeket tartalmazó választólista.
+click_open_value_help_img.prac	Kattintson a <b>Adatbeviteli súgó</b> [ICON] pontra egy érvényes értékeket tartalmazó választólista megjelenítéséhez.
+click_open_selection.demo	A [ICON] pontra kattintva megjelenik egy választólista.
+click_open_selection.prac	Kattintson a [ICON] pontra egy választólista megjelenítéséhez.
+click_mark_entry.demo	A [B_NAME] bejegyzésre kattintva megjelölheti azt.
+click_mark_entry.prac	"Jelölje meg a [B_NAME] bejegyzést, rákattintva arra."
+click_mark_entry_img.demo	A [ICON] bejegyzésre kattintva kiválaszthatja azt.
+click_mark_entry_img.prac	"Válassza ki a [ICON] bejegyzést, rákattintva arra."
+click_menu_select_img.demo	A [ICON] menüpontra kattintva végrehajthatja azt.
+click_menu_select_img.prac	Kattintson a [ICON] menüpontra annak végrehajtásához.
+click_open_menu_img.demo	A [ICON] menüre kattintva megnyithatja azt.
+click_open_menu_img.prac	Kattintson a [ICON] menüre annak megnyitásához.
+click_select_card_img.demo	A [ICON] fülre kattintva kiválaszthatja azt.
+click_select_card_img.prac	Kattintson a [ICON] fülre annak kiválasztásához.
+dblclick_select_line.demo	A [NAME] parancs gombra kétszer rákattintva kijelölheti a sort.
+dblclick_select_line.prac	Kattintson kétszer a [NAME] parancs gombra a sor kijelöléséhez.
+click_activate_edit.demo	A [B_NAME] adatbeviteli mezőbe kattintva aktiválhatja azt.
+click_activate_edit.prac	Kattintson a [B_NAME] adatbeviteli mezőbe annak aktiválásához.
+dblclick_activate_edit.demo	Kétszer a [B_NAME] adatbeviteli mezőbe kattintva aktiválhatja azt.
+dblclick_activate_edit.prac	Kattintson kétszer a [B_NAME] adatbeviteli mezőbe annak aktiválásához.
+dblclick_open_folder_img.demo	Kétszer a [ICON] szimbólumra kattintva  megnyithatja a [B_NAME] mappát.
+dblclick_open_folder_img.prac	"Nyissa meg a [B_NAME] mappát, kétszer rákattintva a [ICON] szimbólumra."
+click_open_folder.demo	A <b>”Mappa megnyitása”</b> szimbólumra kattintva megnyithatja a [B_NAME] mappát.
+click_open_folder.prac	"Nyissa meg a [B_NAME] mappát, rákattintva a <b>”Mappa megnyitása”</b> szimbólumra."
+dblclick_open_folder.demo	Kétszer rákattintva a <b>”Mappa megnyitása”</b> szimbólumra megnyithatja a [B_NAME] mappát.
+dblclick_open_folder.prac	"Nyissa meg a [B_NAME] mappát, kétszer rákattintva a <b>”Mappa megnyitása”</b> szimbólumra."
+click_close_folder.demo	A <b>”Mappa bezárása”</b> szimbólumra kattintva lezárhatja a [B_NAME] mappát.
+click_close_folder.prac	"Zárja be a [B_NAME] mappát, kétszer rákattintva a <b>”Mappa megnyitása”</b> szimbólumra."
+drag_scroll_hor.demo	A <b>Görgetősávokra</b> kattintva és azt húzva láthatóvá válik a kívánt terület.
+drag_scroll_hor.prac	Kattintson és húzza a <b> vízszintes görgetősávokat</b> a görgetéshez.
+drag_scroll_vert.demo	A <b>Görgetősávokra</b> kattintva és azt húzva láthatóvá válik a kívánt terület.
+drag_scroll_vert.prac	Kattintson és húzza a <b> függőleges görgetősávokat</b> a görgetéshez.
+click_scroll.demo	A <b>Görgetősávokra</b> kattintva és azt húzva láthatóvá válik a kívánt terület.
+click_scroll.prac	"Görgesse a tartalmat, rákattintva a<b>görgető-parancsgombra</b> [NAME]."
+click_scroll_page_left.demo	A <b>görgetési területbe</b> kattintva láthatóvá válik a kívánt terület.
+click_scroll_page_left.prac	Kattintson a <b>görgetősáv mellett bal oldalt található zónába </b> a görgetéshez.
+click_scroll_page_right.demo	A <b>görgetési területbe</b> kattintva láthatóvá válik a kívánt terület.
+click_scroll_page_right.prac	Kattintson a <b>görgetősáv mellett jobb oldalt található zónába </b> a görgetéshez.
+click_scroll_page_up.demo	A <b>görgetési területbe</b> kattintva láthatóvá válik a kívánt terület.
+click_scroll_page_up.prac	Kattintson a <b>görgetősáv feletti zónába</b> a görgetéshez.
+click_scroll_page_down.demo	A <b>görgetési zónába </b>kattintva láthatóvá válik a kívánt terület.
+click_scroll_page_down.prac	Kattintson a <b>görgetősáv alatti zónába </b> a görgetéshez
+rclick_context.demo	Az egér jobb oldali gombjával a [B_NAME] pontra kattintva megnyílik egy előugró menü.
+rclick_context.prac	Kattintson a [B_NAME] pontra az egér jobb oldali gombjával.
+dblclick_img.demo	Kétszer rá kell kattintani a [ICON] pontra.
+dblclick_img.prac	Kattintson kétszer a [ICON] pontra.
+keypress.demo	Írja be a [B_KEY] értéket.
+keypress.prac	Írja be a [B_KEY] értéket.
+item.close_folder	Mappa bezárása
+item.open_folder	Mappa megnyitása
+item.enter_key	Enter
+item.tab_key	Tabulátor
+item.vscroll	Függőleges görgetősáv
+item.hscroll	Vízszintes görgetősáv
+item.close_window	Ablak bezárása
+item.value_help	Érték kiválasztása
+item.scroll	Görgetősáv
+item.back_btn	Vissza
+item.save_btn	Mentés
+item.scroll_area	Görgetési terület
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

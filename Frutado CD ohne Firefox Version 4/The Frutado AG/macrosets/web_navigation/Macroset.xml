@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Macroset>
+    <Info type="web_navigation" description="Web Navigation Macroset" displayname="Web Navigation Macroset"/>
+    <Version version="6.2.2.049" mintrainer="2.3"/>
+    <Headers>Headers.xml</Headers>
+    <Defaults>Defaults.xml</Defaults>
+    <JSMacroSetObjectName>MacroSet</JSMacroSetObjectName>
+    <Icons>WebNavigation.bmp</Icons>
+    <JSIncludes>
+        <File>util.js</File>
+        <File>MacroDepot.js</File>
+        <File>StringTemplates.js</File>
+    </JSIncludes>
+    <ScriptBase>script</ScriptBase>
+</Macroset>

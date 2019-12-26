@@ -1,0 +1,221 @@
+﻿click.demo	Şimdi [B_NAME] üzerine tıklayın.
+click.prac	Lütfen [B_NAME] üzerine tıklayın.
+click_img.demo	Şimdi [B_NAME_ICON] üzerine tıklayın.
+click_img.prac	Lütfen [B_NAME_ICON] üzerine tıklayın.
+click_cancel_trans_img.demo	[B_ICON_NAME] üzerine tıklanarak eylem iptal edilir.
+click_cancel_trans_img.prac	Eylemi iptal etmek için [B_ICON_NAME] üzerine tıklayın.
+click_back_img.demo	[B_ICON_NAME] üzerine tıkladığınızda önceki sayfaya geri dönersiniz.
+click_back_img.prac	Önceki sayfaya geri dönmek için [B_ICON_NAME] üzerine tıklayın.
+click_ok_img.demo	Şimdi [B_ICON_NAME] üzerine tıklayın.
+click_ok_img.prac	[B_ICON_NAME] üzerine tıklayın.
+click_exit_trans_img.demo	[B_ICON_NAME] üzerine tıklanarak eylemden çıkılır.
+click_exit_trans_img.prac	Eylemden çıkmak için [B_ICON_NAME] üzerine tıklayın.
+click_save_img.demo	[B_ICON_NAME] tıklayarak girişleri kaydedersiniz.
+click_save_img.prac	Girişleri kaydetmek için [B_ICON_NAME] üzerine tıklayın.
+click_checkbox_off.demo	[B_NAME] kapatılıyor.
+click_checkbox_off.prac	[B_NAME] öğesini kapatın.
+click_next_page_img.demo	[B_NAME_ICON] üzerine tıklayarak sonraki sayfayı açarsınız.
+click_next_page_img.prac	Lütfen [B_NAME_ICON] üzerine tıklayın.
+click_checkbox_on.demo	[B_NAME] seçiliyor.
+click_checkbox_on.prac	[B_NAME] öğesini seçin.
+click_select_value.demo	[B_NAME] öğesi seçiliyor.
+click_select_value.prac	[B_NAME] öğesini seçin.
+click_open_menu.demo	[B_NAME] menüsü açılıyor.
+click_open_menu.prac	[B_NAME] menüsünü açın.
+click_menu_select.demo	[B_NAME] kaydı seçiliyor.
+click_menu_select.prac	[B_NAME] kaydını seçin.
+click_select_column.demo	[B_NAME] sütunu seçiliyor.
+click_select_column.prac	Sütun başlığını tıklayarak [B_NAME] sütununu seçin.
+click_open_value_help.demo	Öğe yardımcısı açılıyor.
+click_open_value_help.prac	Lütfen öğe yardımcısını açın.
+click_select_line.demo	[B_NAME] satırı seçiliyor.
+click_select_line.prac	Birinci sütunu tıklayarak [B_NAME] satırını seçin.
+click_scroll_top.demo	[ICON] üzerine tıklayarak en üste kaydırılır.
+click_scroll_top.prac	[ICON] üzerine tıklayarak en üste kaydırın.
+click_scroll_bottom.demo	[ICON] üzerine tıklayarak en alta kaydırılır.
+click_scroll_bottom.prac	[ICON] üzerine tıklayarak en alta kaydırın.
+click_scroll_pageup.demo	[ICON] üzerine tıklayarak bir sayfa yukarı kaydırılır.
+click_scroll_pageup.prac	[ICON] üzerine tıklayarak bir sayfa yukarı kaydırın.
+click_scroll_pagedown.demo	[ICON] üzerine tıklayarak bir sayfa aşağı kaydırılır.
+click_scroll_pagedown.prac	[ICON] üzerine tıklayarak bir sayfa aşağı kaydırın.
+click_scroll_lineup.demo	[ICON] üzerine tıklayarak bir satır yukarı kaydırılır.
+click_scroll_lineup.prac	[ICON] üzerine tıklayarak bir satır yukarı kaydırın.
+click_scroll_linedown.demo	[ICON] üzerine tıklayarak bir satır aşağı kaydırılır.
+click_scroll_linedown.prac	[ICON] üzerine tıklayarak bir satır aşağı kaydırın.
+click_close_window_img.demo	"Pencere, [ICON] üzerine tıklanarak kapatılır."
+click_close_window_img.prac	Pencereyi [ICON] üzerine tıklayarak kapayın.
+click_select_all_lines_img.demo	[ICON] üzerine tıklandığında bütün satırlar işaretlenir.
+click_select_all_lines_img.prac	[ICON] üzerine tıklayarak bütün satırları seçin.
+click_open_card_menu.demo	[ICON] üzerine tıklandığında sekme seçim bölümü açılır.
+click_open_card_menu.prac	[ICON] üzerine tıklayarak sekme seçim bölümünü açın.
+click_select_card.demo	[B_NAME] sekmesi seçiliyor.
+click_select_card.prac	[B_NAME] sekmesini seçin.
+click_next_cards_img.demo	[ICON] üzerine tıklandığında sonraki sekmeler gösterilir.
+click_next_cards_img.prac	[ICON] üzerine tıklayarak sonraki sekmelerin gösterilmesini sağlayın.
+click_prev_cards_img.demo	[ICON] üzerine tıklandığında önceki sekmeler gösterilir.
+click_prev_cards_img.prac	[ICON] üzerine tıklayarak önceki sekmelerin gösterilmesini sağlayın.
+click_open_nav_menu.demo	[ICON] üzerine tıklandığında gezinme menüsü açılır.
+click_open_nav_menu.prac	[ICON] üzerine tıklayarak gezinme menüsünü açın.
+click_close_folder_img.demo	[ICON] üzerine tıklandığında [B_NAME] klasörü kapatılır.
+click_close_folder_img.prac	[ICON] üzerine tıklayarak [B_NAME] klasörünü kapayın.
+click_open_folder_img.demo	[ICON] üzerine tıklandığında [B_NAME] klasörü açılır.
+click_open_folder_img.prac	[ICON] üzerine tıklayarak [B_NAME] klasörünü açın.
+click_select_element_img.demo	[ICON] üzerine tıklandığında [B_NAME] öğesi seçilir.
+click_select_element_img.prac	[ICON] üzerine tıklayarak [B_NAME] öğesini seçin.
+click_scroll_down.demo	Kaydırma çubuğu ile aşağı doğru kaydırılır.
+click_scroll_down.prac	Kaydırma çubuğunu kullanarak aşağı doğru kaydırın
+dblclick_select_entry.demo	[B_NAME] üzerine çift tıklandığında kayıt seçilir.
+dblclick_select_entry.prac	Çift tıklayarak [B_NAME] kaydını seçin.
+dblclick_select_date.demo	[B_NAME] seçiliyor.
+dblclick_select_date.prac	[B_NAME] seçin.
+dblclick_start_transaction.demo	Çift tıklanarak [B_NAME] eylemi başlatılır.
+dblclick_start_transaction.prac	Çift tıklayarak [B_NAME] eylemini başlatın <br>veya<br>eylem kodunu [B_TCODE] girin ve Enter tuşu ile onaylayın.
+click_close_group.demo	[B_NAME] grubu kapatılıyor.
+click_close_group.prac	Lütfen [B_NAME] grubunu kapayın.
+click_open_group.demo	[B_NAME] grubu açılıyor.
+click_open_group.prac	Lütfen [B_NAME] grubunu açın.
+select.demo	[B_NAME] olarak [B_SELECTED] seçilir.
+select.prac	Lütfen [B_NAME] olarak [B_SELECTED] seçin.
+input_text.demo	[B_NAME] alanı doldurulur.
+input_text.prac	Lütfen [B_NAME] alanına [B_INPUT] girin.
+input_text_value.demo	[B_NAME] alanına şimdi [B_INPUT] kaydedilir.
+input_text_value.prac	Lütfen [B_NAME] alanına [B_INPUT] girin.
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Yapılan girişi <b>Tab</b> veya <b>Enter</b> tuşu ile onaylayın veya <b>ilgili düğmeye</b> tıklayın.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Yapılan girişi <b>Tab</b> veya <b>Enter</b> tuşu ile onaylayın.
+input_enter_button.demo
+input_enter_button.prac	<br>Yapılan girişi <b>Enter</b> tuşu ile onaylayın veya <b>ilgili düğmeye</b> tıklayın.
+input_tab.demo
+input_tab.prac	<br>Yapılan girişi <b>Tab</b> tuşu ile onaylayın.
+input_enter.demo
+input_enter.prac	<br>Yapılan girişi <b>Enter</b> tuşu ile onaylayın.
+input_button.demo
+input_button.prac	<br>Yapılan girişi <b>ilgili düğmeye tıklayarak</b> onaylayın.
+click_select.demo	Şimdi [B_NAME] seçilir.
+click_select.prac	Lütfen [B_NAME] seçin.
+click_show_value_help_button.demo	[B_NAME] metin alanına tıklayarak öğe yardımcısını açarsınız.
+click_show_value_help_button.prac	[B_NAME] metin alanına tıklayarak öğe yardımcısını açın.
+click_scroll_horizontal.demo	Sağa doğru kaydırılıyor…
+click_scroll_horizontal.prac	Lütfen sağa doğru kaydırın.
+click_scroll_vertical.demo	Aşağı doğru kaydırılıyor…
+click_scroll_vertical.prac	Lütfen aşağı doğru kaydırın.
+click_img_expand.demo	Gezinme alanını büyütmek için [ICON] tıklanır.
+click_img_expand.prac	[ICON] üzerine tıklayarak gezinme alanını büyütün.
+click_img_collapse.demo	Gezinme alanını küçültmek için [ICON] tıklanır.
+click_img_collapse.prac	[ICON] üzerine tıklayarak gezinme alanını küçültün.
+click_navrow.demo	Gezinme satırında [B_NAME] seçilir.
+click_navrow.prac	Lütfen gezinme satırındaki [B_NAME] öğesini açın.
+click_navrow2.demo	İkinci gezinme satırında [B_NAME] seçilir.
+click_navrow2.prac	Lütfen ikinci gezinme satırındaki [B_NAME] öğesini açın.
+click_open_context_menu.demo	[B_NAME] öğesinin bağlam menüsü açılır.
+click_open_context_menu.prac	[B_NAME] öğesinin bağlam menüsünü açın.
+click_radio_select.demo	[B_NAME] öğesi seçilir.
+click_radio_select.prac	[B_NAME] öğesini seçin.
+click_select_img.demo	[B_ICON_NAME] öğesi seçilir.
+click_select_img.prac	[B_ICON_NAME] öğesini seçin.
+click_open_form_view.demo	[B_ICON_NAME] ile form gösterimine geçilir.
+click_open_form_view.prac	[B_ICON_NAME] ile form gösterimine geçin.
+history_select.demo	Geçmiş bölümünden [B_NAME] öğesi seçilir.
+history_select.prac	Geçmiş bölümünden [B_NAME] öğesini seçin.
+click_page_up_img.demo	[B_ICON] üzerine tıklayarak bir sayfa yukarı kaydırılır.
+click_page_up_img.prac	[B_ICON] üzerine tıklayarak bir sayfa yukarı kaydırın.
+click_page_down_img.demo	[B_ICON] üzerine tıklayarak bir sayfa aşağı kaydırılır.
+click_page_down_img.prac	[B_ICON] üzerine tıklayarak bir sayfa aşağı kaydırın.
+click_page_top_img.demo	[B_ICON] üzerine tıklayarak en üste kaydırılır.
+click_page_top_img.prac	[B_ICON] üzerine tıklayarak en üste kaydırın.
+click_page_bottom_img.demo	[B_ICON] üzerine tıklayarak en alta kaydırılır.
+click_page_bottom_img.prac	[B_ICON] üzerine tıklayarak en alta kaydırın.
+click_sort_by_column.demo	[B_NAME] sütununa göre sıralanıyor.
+click_sort_by_column.prac	[B_NAME] sütununa göre sıralayın.
+click_select_date.demo	[B_NAME] öğesi seçilir.
+click_select_date.prac	[B_NAME] öğesini seçin.
+click_close_card_img.demo	[ICON] üzerine tıklandığında sekme kapatılır.
+click_close_card_img.prac	Sekmeyi kapatmak için [ICON] üzerine tıklayın.
+click_select_function_img.demo	[ICON] üzerine tıklayarak [B_NAME] işlevini seçersiniz.
+click_select_function_img.prac	[B_NAME] işlevini seçmek için [ICON] üzerine tıklayın.
+click_hide_treeview.demo	[ICON] üzerine tıklandığında şema kapatılır.
+click_hide_treeview.prac	[ICON] üzerine tıklayarak şemayı kapayın.
+click_show_treeview.demo	[ICON] üzerine tıklandığında şema gösterilir.
+click_show_treeview.prac	[ICON] üzerine tıklayarak şemayı görüntüleyin.
+click_mark_transaction.demo	[B_NAME] üzerine tıklanarak eylem işaretlenir.
+click_mark_transaction.prac	[B_NAME] eylemini tıklayarak işaretleyin.
+dblclick_select_element.demo	Çift tıklanarak [B_NAME] öğesi seçilir.
+dblclick_select_element.prac	[B_NAME] öğesini çift tıklayarak seçin.
+please_note.demo	Dikkate alın: [B_NAME].
+please_note.prac	Dikkate alın: [B_NAME].
+click_open_value_help_img.demo	<b>Giriş yardımı</b> [ICON] üzerine tıklayarak geçerli öğeleri içeren bir seçim listesi gösterilir.
+click_open_value_help_img.prac	Geçerli öğeleri içeren bir seçim listesini görüntülemek için <b>Giriş yardımı</b> [ICON] üzerine tıklayın.
+click_open_selection.demo	[ICON] üzerine tıklayarak seçim listesi gösterilir.
+click_open_selection.prac	Seçim listesini görüntülemek için [ICON] üzerine tıklayın.
+click_mark_entry.demo	[B_NAME] kaydını tıklayarak işaretlersiniz.
+click_mark_entry.prac	[B_NAME] kaydını tıklayarak işaretleyin.
+click_mark_entry_img.demo	Kaydın [ICON] üzerine tıklayarak kaydı seçersiniz.
+click_mark_entry_img.prac	Kaydı [ICON] tıklayarak seçin.
+click_menu_select_img.demo	Menü noktasını [ICON] tıklayarak uygularsınız.
+click_menu_select_img.prac	Menü noktasını uygulamak için menü noktasına [ICON] tıklayın.
+click_open_menu_img.demo	Menüyü [ICON] tıklayarak açarsınız.
+click_open_menu_img.prac	Menüyü açmak için menüye [ICON] tıklayın.
+click_select_card_img.demo	Kayıt sekmesine [ICON] tıklayarak sekmeyi seçersiniz.
+click_select_card_img.prac	Kayıt sekmesini seçmek için kayıt sekmesine [ICON] tıklayın.
+dblclick_select_line.demo	[NAME] yüzeyine çift tıklayarak satırı işaretlersiniz.
+dblclick_select_line.prac	Satırı işaretlemek için [NAME] yüzeyine çift tıklayın.
+click_activate_edit.demo	[B_NAME] giriş alanına tıklayarak alanı etkinleştirirsiniz.
+click_activate_edit.prac	[B_NAME] giriş alanını etkinleştirmek için giriş alanının üzerine tıklayın.
+dblclick_activate_edit.demo	[B_NAME] giriş alanına çift tıklayarak alanı etkinleştirirsiniz.
+dblclick_activate_edit.prac	[B_NAME] giriş alanını etkinleştirmek için giriş alanının üzerine çift tıklayın.
+dblclick_open_folder_img.demo	[ICON] simgesine çift tıklayarak [B_NAME] klasörünü açarsınız.
+dblclick_open_folder_img.prac	[ICON] simgesine tıklayarak [B_NAME] klasörünü açın.
+click_open_folder.demo	<b>'Klasör aç'</b> simgesine tıklayarak [B_NAME] klasörünü açarsınız.
+click_open_folder.prac	<b>'Klasör aç'</b> simgesine tıklayarak [B_NAME] klasörünü açın.
+dblclick_open_folder.demo	<b>'Klasör aç'</b> simgesine çift tıklayarak [B_NAME] klasörünü açarsınız.
+dblclick_open_folder.prac	<b>'Klasör aç'</b> simgesine çift tıklayarak [B_NAME] klasörünü açın.
+click_close_folder.demo	<b>'Klasör kapat'</b> simgesine tıklayarak [B_NAME] klasörünü kaparsınız.
+click_close_folder.prac	<b>'Klasör kapat'</b> simgesine tıklayarak [B_NAME] klasörünü kapayın.
+drag_scroll_hor.demo	"<b>Kaydırma sütunu</b> tıklanarak ve çekilerek, istenen bölge belirginleşir."
+drag_scroll_hor.prac	Kaydırma işlemi için <b>yatay kaydırma sütununu</b> tıklayın ve çekin.
+drag_scroll_vert.demo	"<b>Kaydırma sütunu</b> tıklanarak ve çekilerek, istenen bölge belirginleşir."
+drag_scroll_vert.prac	Kaydırma işlemi için <b>dikey kaydırma sütununu</b> tıklayın ve çekin.
+click_scroll.demo	<b>Kaydırma alanı</b> [NAME] tıklanarak istenen bölge belirginleşir.
+click_scroll.prac	<b>Kaydırma alanına</b> [NAME] tıklayarak kaydırma yapın.
+click_scroll_page_left.demo	<b>Kaydırma alanı</b> tıklanarak istenen bölge belirginleşir.
+click_scroll_page_left.prac	Kaydırma işlemi için <b>kaydırma sütunun sol alanına</b> tıklayın.
+click_scroll_page_right.demo	<b>Kaydırma alanı</b> tıklanarak istenen bölge belirginleşir.
+click_scroll_page_right.prac	Kaydırma işlemi için <b>kaydırma sütunun sağ alanına</b> tıklayın.
+click_scroll_page_up.demo	<b>Kaydırma alanı</b> tıklanarak istenen bölge belirginleşir.
+click_scroll_page_up.prac	Kaydırma işlemi için <b>kaydırma sütunun üst tarafındaki alana</b> tıklayın.
+click_scroll_page_down.demo	<b>Kaydırma alanı</b> tıklanarak istenen bölge belirginleşir.
+click_scroll_page_down.prac	Kaydırma işlemi için <b>kaydırma sütunun alt tarafındaki alana</b> tıklayın.
+rclick_context.demo	[B_NAME] üzerine sağ fare tuşu ile tıklanarak bağlam menüsü açılır.
+rclick_context.prac	Lütfen sağ fare tuşu ile [B_NAME] üzerine tıklayın.
+dblclick_img.demo	[ICON] üzerine çift tıklanır.
+dblclick_img.prac	Lütfen [ICON] üzerine çift tıklayın.
+keypress.demo	Lütfen [B_KEY] girin.
+keypress.prac	Lütfen [B_KEY] girin.
+item.close_folder	Klasör kapat
+item.open_folder	Klasör aç
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	Dikey kaydırma sütunu
+item.hscroll	Yatay kaydırma sütunu
+item.close_window	Pencereyi kapat
+item.value_help	Öğe seç
+item.scroll	Kaydırma sütunu
+item.back_btn	Geri
+item.save_btn	Kaydet
+item.scroll_area	Kaydırma alanı
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

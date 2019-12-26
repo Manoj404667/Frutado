@@ -1,0 +1,16 @@
+
+BODY {
+    background-color: #B2BFD5;
+    font-family: Verdana;
+    overflow: hidden;
+}
+
+TABLE.textarea {
+    background-color: #ffffb7;
+    color: #000000;
+}
+
+TR.titlebar {
+    background-color: #4D7AA5;
+    color: #ffffff;
+}

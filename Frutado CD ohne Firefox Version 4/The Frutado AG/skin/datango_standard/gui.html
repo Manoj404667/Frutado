@@ -1,0 +1,462 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>datango trainer</title>
+  <link rel="stylesheet" type="text/css" href="xbrowser.css">
+
+  <script language=javascript>
+      function O(name_) {
+          var obj = document.getElementById(name_);
+          if (obj) {
+              if (typeof obj.V != 'function' && typeof obj.V != 'object') {
+                  obj.V = function() {
+                      obj.style.visibility = 'visible';
+                  }
+                  obj.H = function() {
+                      obj.style.visibility = 'hidden';
+                  }
+                  obj.IH = function(text_) {
+                      obj.innerHTML = text_;
+                  }
+                  obj.T = function(text_) {
+                      obj.title = text_;
+                  }
+                  obj.A = function(text_) {
+                      obj.alt = text_;
+                  }
+                  obj.I = function(src_) {
+                      obj.src = src_;
+                  }
+                  obj.X = function(left_) {
+                      obj.style.left = left_;
+                  }
+                  obj.Y = function(top_) {
+                      obj.style.top = top_;
+                  }
+                  obj.W = function(width_) {
+                      obj.style.width = width_;
+                  }
+                  obj.OC = function(js_) {
+                      obj.onclick = js_;
+                  }
+                  obj.OMO = function(js_) {
+                      obj.onmouseover = js_;
+                  }
+                  obj.OMU = function(js_) {
+                      obj.onmouseout = js_;
+                  }
+                  obj.OMD = function(js_) {
+                      obj.onmousedown = js_;
+                  }
+              }
+          } else {
+              obj = new Object();
+              obj.V = function() {}
+              obj.H = function() {}
+              obj.IH = function(text_) {}
+              obj.T = function(text_) {}
+              obj.A = function(text_) {}
+              obj.I = function(src_) {}
+              obj.X = function(left_) {}
+              obj.Y = function(top_) {}
+              obj.W = function(width_) {}
+              obj.OC = function(js_) {}
+              obj.OMO = function(js_) {}
+              obj.OMU = function(js_) {}
+              obj.OMD = function(js_) {}
+          }
+          return obj;
+      }
+      var proportional = false;
+      var GAPI = {
+          _INIT: function() {
+                O('GuiMover').OC(function () {GAPI.FlipOrientation();});
+                O('GuiMover').innerHTML = 'Flip Gui to South';
+                O('StatusTime').ondblclick = function () {GAPI.ChangeTimeDirection();};
+                O('SlimBrand').style.visibility = 'hidden';
+                return true;
+            }
+          , _END: function() {
+          }
+          , _CLEAR: function() {
+                for (var i = 0; i < GAPI.Tourstops(); ++i) {
+                    O('Syn_' + i).style.visibility = 'hidden';
+                }
+                O('Timeline').style.visibility = 'hidden';
+                O('Timeline0').style.visibility = 'hidden';
+                O('Synopsis').style.visibility = 'hidden';
+                O('SynopsisTitle').style.visibility = 'hidden';
+          }
+/* Play Button */
+          , PlayTipText: function(text_) {
+                O('CtrlPlay').title = text_;
+            }
+          , OnEnablePlay: function() {
+                var play = O('CtrlPlay');
+                play.src = 'buttons/play_default.gif';
+                play.OMO(function() { play.src = 'buttons/play_active.gif'; });
+                play.OMU(function() { play.src = 'buttons/play_default.gif'; });
+                play.OMD(function() { play.src = 'buttons/play_active_pressed.gif'; });
+                play.OC(function(evt) {GAPI.PlayClicked(evt || event)});
+            }
+          , OnDisablePlay: function() {
+                var play = O('CtrlPlay');
+                O('CtrlPlay').src = 'buttons/play_disabled.gif';
+                play.OMO(function() {});
+                play.OMU(function() {});
+                play.OMD(function() {});
+                play.OC(function() {});
+            }
+/* Stop Button */
+          , StopTipText: function(text_) {
+                O('CtrlStop').title = text_;
+            }
+          , OnEnableStop: function() {
+                var stop = O('CtrlStop');
+                stop.src = 'buttons/stop_default.gif';
+                stop.OMO(function() { stop.src = 'buttons/stop_active.gif'; });
+                stop.OMU(function() { stop.src = 'buttons/stop_default.gif'; });
+                stop.OMD(function() { stop.src = 'buttons/stop_active_pressed.gif'; });
+                stop.OC(function(evt) {GAPI.StopClicked(evt || event)});
+            }
+          , OnDisableStop: function() {
+                var stop = O('CtrlStop');
+                stop.src = 'buttons/stop_disabled.gif';
+                stop.OMO(function() {});
+                stop.OMU(function() {});
+                stop.OMD(function() {});
+                stop.OC(function() {});
+            }
+/* Pause Button */
+          , PauseTipText: function(text_) {
+                O('CtrlPause').title = text_;
+            }
+          , OnEnablePause: function() {
+                var pause = O('CtrlPause');
+                pause.src = 'buttons/pause_default.gif';
+                pause.OMO(function() { pause.src = 'buttons/pause_active.gif'; });
+                pause.OMU(function() { pause.src = 'buttons/pause_default.gif'; });
+                pause.OMD(function() { pause.src = 'buttons/pause_active_pressed.gif'; });
+                pause.OC(function(evt) {GAPI.PauseClicked(evt || event)});
+            }
+          , OnDisablePause: function() {
+                var pause = O('CtrlPause');
+                pause.src = 'buttons/pause_disabled.gif';
+                pause.OMO(function() {});
+                pause.OMU(function() {});
+                pause.OMD(function() {});
+                pause.OC(function() {});
+            }
+/* Next Button */
+          , NextTipText: function(text_) {
+                O('CtrlNext').title = text_;
+            }
+          , OnEnableNext: function() {
+                var next = O('CtrlNext');
+                next.src = 'buttons/next_default.gif';
+                next.OMO(function() { next.src = 'buttons/next_active.gif'; });
+                next.OMU(function() { next.src = 'buttons/next_default.gif'; });
+                next.OMD(function() { next.src = 'buttons/next_active_pressed.gif'; });
+                next.OC(function(evt) {GAPI.NextClicked(evt || event)});
+            }
+          , OnDisableNext: function() {
+                var next = O('CtrlNext');
+                next.src = 'buttons/next_disabled.gif';
+                next.OMO(function() {});
+                next.OMU(function() {});
+                next.OMD(function() {});
+                next.OC(function() {});
+            }
+/* Prev Button */
+          , PrevTipText: function(text_) {
+                O('CtrlBack').title = text_;
+            }
+          , OnEnablePrev: function() {
+                var prev = O('CtrlBack');
+                prev.src = 'buttons/back_default.gif';
+                prev.OMO(function() { prev.src = 'buttons/back_active.gif'; });
+                prev.OMU(function() { prev.src = 'buttons/back_default.gif'; });
+                prev.OMD(function() { prev.src = 'buttons/back_active_pressed.gif'; });
+                prev.OC(function(evt) {GAPI.PrevClicked(evt || event)});
+            }
+          , OnDisablePrev: function() {
+                var prev = O('CtrlBack');
+                prev.src = 'buttons/back_disabled.gif';
+                prev.OMO(function() {});
+                prev.OMU(function() {});
+                prev.OMD(function() {});
+                prev.OC(function() {});
+            }
+/* Task Button */
+          , TaskTipText: function(text_) {
+                O('Task').title = text_;
+            }
+          , OnEnableTaskButton: function() {
+                var task = O('Task');
+                task.src = 'buttons/help_default.gif';
+                task.OMO(function() { task.src = 'buttons/help_active.gif'; });
+                task.OMU(function() { task.src = 'buttons/help_default.gif'; });
+                task.OMD(function() { task.src = 'buttons/help_active_pressed.gif'; });
+                task.OC(function(evt) {GAPI.TaskClicked(evt || event)});
+            }
+          , OnDisableTaskButton: function() {
+                var task = O('Task');
+                task.src = 'buttons/help_disabled.gif';
+                task.OMO(function() {});
+                task.OMU(function() {});
+                task.OMD(function() {});
+                task.OC(function() {});
+            }
+          , OnShowTaskButton: function() {
+                O('Task').style.visibility = 'visible';
+            }
+          , OnHideTaskButton: function() {
+                O('Task').style.visibility = 'hidden';
+            }
+/* Time */
+          , OnTimeTextChange: function(text_) {
+                O('StatusTime').innerHTML = text_;
+            }
+          , OnShowTime: function() {
+                proportional = true;
+                O('StatusTime').style.visibility = 'visible';
+            }
+          , OnHideTime: function() {
+                O('StatusTime').style.visibility = 'hidden';
+            }
+/* Status */
+          , OnStatusChange: function(text_, level_) {
+                O('StatusText').innerHTML = text_;
+            }
+          , OnShowBrand: function() {
+                O('SlimBrand').style.visibility = 'visible';
+            }
+          , OnHideBrand: function() {
+                O('SlimBrand').style.visibility = 'hidden';
+            }
+/* Synopsis */
+          , OnShowSynopsis: function() {
+                O('Timeline').style.visibility = 'visible';
+                O('Timeline0').style.visibility = 'visible';
+                O('Synopsis').style.visibility = 'visible';
+            }
+          , OnHideSynopsis: function() {
+                O('Timeline').style.visibility = 'hidden';
+                O('Timeline0').style.visibility = 'hidden';
+                O('Synopsis').style.visibility = 'hidden';
+            }
+          , OnInitSynopsis: function() {
+                var html = '';
+                for (var i = 0; i < GAPI.Tourstops(); ++i) {
+                    html +=
+                        '<img style="position:absolute; top:0px; left:0px;"' +
+                        ' id="Syn_' + i + '"' +
+                        ' class="' + "SynopsisIcon" + '"' +
+                        ' src="synopsis/tourstopfuture_default.gif"' +
+                        ' width="11"' +
+                        ' height="16"' +
+                        ' border="0"' +
+                        ' ondrag="return false;">\n';
+                }
+
+                O('Synopsis').innerHTML = html;
+                if (!GAPI.Synopsis()) {
+                        return true;
+                }
+                O('Timeline').style.visibility = 'visible';
+                O('Timeline0').style.visibility = 'visible';
+                O('Synopsis').style.visibility = 'visible';
+            }
+          , OnUpdateSynopsis: function() {
+                if (!GAPI.Synopsis()) {
+                        return true;
+                }
+                O('Timeline0').style.width = this._GetSynopsisWidth_();
+                O('Timeline').style.visibility = 'visible';
+                O('Timeline0').style.visibility = 'visible';
+                O('SynopsisTitle').style.visibility = 'visible';
+                var currentTourStop = GAPI.CurrentTourstop();
+                O('SynopsisTitle').innerHTML = currentTourStop.Title();
+
+                for (var i = 0; i < GAPI.Tourstops(); ++i) {
+                    var tourStop = GAPI.Tourstop(i);
+                    if (tourStop.Visible()) {
+                        if (GAPI.Skip()) {
+                            O('Syn_' + i).style.cursor = (navigator.appVersion.substr(
+                                navigator.appVersion.indexOf('MSIE ') + 5, 3) == '5.5' ?
+                                'hand' : 'pointer');
+                        }
+                        O('Syn_' + i).CLICK = tourStop;
+                        O('Syn_' + i).title = '[' + tourStop.DurationTextMMSS() + '] ' +
+                            tourStop.Title();
+                        O('Syn_' + i).OC(function() {GAPI.TourstopClicked(this.CLICK)});
+
+                        if (GAPI.Skip()) {
+                            if (tourStop.Index() < currentTourStop.LastVisibleIndex()) {
+                                O('Syn_' + i).src = 'synopsis/tourstoppast_default.gif';
+                                O('Syn_' + i).OMO(function() {
+                                        this.src='synopsis/tourstoppast_active.gif';
+                                        O('SynopsisTitle').innerHTML = this.CLICK.Title();
+                                    }
+                                );
+                                O('Syn_' + i).OMU(function() {
+                                        this.src='synopsis/tourstoppast_default.gif';
+                                        O('SynopsisTitle').innerHTML = currentTourStop.Title();
+                                    }
+                                );
+                            }
+                            else
+                            if (tourStop.Index() == currentTourStop.Index() ||
+                                tourStop.Index() == currentTourStop.LastVisibleIndex()) {
+                                O('Syn_' + i).src = 'synopsis/tourstopcurrent_default.gif';
+                                O('Syn_' + i).OMO(function() {
+                                        this.src='synopsis/tourstopcurrent_active.gif';
+                                        O('SynopsisTitle').innerHTML = this.CLICK.Title();
+                                    }
+                                );
+                                O('Syn_' + i).OMU(function() {
+                                        this.src='synopsis/tourstopcurrent_default.gif';
+                                        O('SynopsisTitle').innerHTML = currentTourStop.Title();
+                                    }
+                                );
+                            }
+                            else
+                            {
+                                O('Syn_' + i).src = 'synopsis/tourstopfuture_default.gif';
+                                O('Syn_' + i).OMO(function() {
+                                        this.src='synopsis/tourstopfuture_active.gif';
+                                        O('SynopsisTitle').innerHTML = this.CLICK.Title();
+                                    }
+                                );
+                                O('Syn_' + i).OMU(function() {
+                                        this.src='synopsis/tourstopfuture_default.gif';
+                                        O('SynopsisTitle').innerHTML = currentTourStop.Title();
+                                    }
+                                );
+                            }
+                        }
+                        var xPosition;
+
+                        if (proportional) {
+                            var duration = GAPI.Duration();
+                            var time = GAPI.Time(i);
+                            var position = Math.floor(time / duration * this._GetSynopsisWidth_());
+                            xPosition = position || 0;
+                        } else {
+                            var position = Math.floor(this._GetSynopsisWidth_() /
+                                GAPI.VisibleTourstops() * tourStop.VisibleIndex());
+                            xPosition = (position > this._GetSynopsisWidth_() ?
+                                this._GetSynopsisWidth_() : position) || 0;
+                        }
+                        tourStop._XPosition = xPosition; // to position the progress line
+                        xPosition = xPosition - 2;
+                        O('Syn_' + i).style.left = xPosition;
+                        O('Syn_' + i).style.visibility = 'visible';
+                    }
+                }
+                var nextVisible = GAPI.Tourstop(
+                    currentTourStop.NextVisibleIndex());
+                var lastVisible = GAPI.Tourstop(
+                    currentTourStop.LastVisibleIndex());
+                var nextXPosition, nextDuration;
+
+                if (proportional) {
+                    var scale = this._GetSynopsisWidth_() /
+                        (GAPI.Duration() || 1);
+                    nextXPosition = Math.floor(GAPI.CurrentTime() * scale);
+                    O('Timeline').style.width = nextXPosition || 0;
+                }
+                else if (lastVisible) {
+                    var duration, distance;
+                    var msTime = Math.max(0, GAPI.CurrentTime() - lastVisible.StartTime());
+
+                    if (nextVisible) {
+                        duration = nextVisible.StartTime() - lastVisible.StartTime();
+                        distance = nextVisible._XPosition - lastVisible._XPosition;
+                    }
+                    else {
+                        duration = GAPI.Duration() - lastVisible.StartTime();
+                        distance = this._GetSynopsisWidth_() - lastVisible._XPosition;
+                    }
+
+                    var scale = distance / (duration || 1);
+
+                    nextXPosition = lastVisible._XPosition + Math.floor(msTime * scale);
+                    O('Timeline').style.width =
+                        nextXPosition < currentTourStop._XPosition
+                            ? currentTourStop._XPosition : nextXPosition;
+                }
+                else {
+                    O('Timeline').style.width = this._GetSynopsisWidth_();
+                }
+            }
+          , _GetSynopsisWidth_: function() {
+                return Math.max(150, (document.body.offsetWidth -
+                    O('Synopsis').offsetLeft) - 10);
+            }
+
+          , FlipOrientation: function() {
+                var ori = parent.GCONF.orientation;
+                if (ori == 's') {
+                    parent.GCONF.orientation = 'n';
+                    O('GuiMover').innerHTML = 'Flip Gui to South';
+                } else {
+                    parent.GCONF.orientation = 's';
+                    O('GuiMover').innerHTML = 'Flip Gui to North';
+                }
+                GAPI.GuiRedraw();
+            }
+
+      };
+  </script>
+
+  <script language=javascript>
+  if (self.location.search.length > 1) {
+    if (self.location.protocol == 'http:' ||
+        self.location.protocol == 'https:')
+    {
+        self.document.domain = self.location.search.substr(1);
+    }
+  }
+  </script>
+
+</head>
+
+<body onscroll="self.scrollTo(0,0)">
+
+<img id="SlimBrand" src="brand.gif" alt="" ondrag="return false;">
+
+<img id="CtrlBack" src="buttons/back_disabled.gif" ondrag="return false;">
+<img id="CtrlStop" src="buttons/stop_disabled.gif" ondrag="return false;">
+<img id="CtrlPause" src="buttons/pause_disabled.gif" ondrag="return false;">
+<img id="CtrlPlay" src="buttons/play_disabled.gif" ondrag="return false;">
+<img id="CtrlNext" src="buttons/next_disabled.gif" ondrag="return false;">
+<img id="Task" src="buttons/help_disabled.gif" ondrag="return false;">
+
+<div id="Synopsis" class="List">&nbsp;</div>
+<div id="SynopsisTitle" class="TextDisplay">&nbsp;</div>
+<img id='Timeline' src="synopsis/timeline.gif" ondrag="return false;">
+<img id='Timeline0' src="synopsis/timeline0.gif" ondrag="return false;">
+<img id='Ruler' src="synopsis/ruler.gif" ondrag="return false;">
+
+<div id="StatusText" class="TextDisplay"
+        onselectstart="this.blur(); return false;">&nbsp;</div>
+<div id="StatusTime" class="TextDisplay"
+        onselectstart="this.blur(); return false;">&nbsp;</div>
+
+</body></html>
+<!--
+  Copyright Notice:
+
+  Copyright 2000-2005 datango AG
+  ALL RIGHTS RESERVED
+
+  UNPUBLISHED - Use of a copyright notice is precautionary only and
+  does not imply publication or disclosure.
+
+  THE CONTENT OF THIS WORK CONTAINS CONFIDENTIAL AND PROPRIETARY
+  INFORMATION OF DATANGO AG. ANY DUPLICATION, MODIFICATION,
+  DISTRIBUTION, OR DISCLOSURE IN ANY FORM, IN WHOLE, OR IN PART, IS
+  STRICTLY PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+  DATANGO AG.  -->

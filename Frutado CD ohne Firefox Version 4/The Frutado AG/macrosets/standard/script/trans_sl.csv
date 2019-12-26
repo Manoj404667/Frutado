@@ -1,0 +1,221 @@
+﻿click.demo	Sedaj kliknite na [B_NAME].
+click.prac	Kliknite prosim na [B_NAME].
+click_img.demo	Sedaj kliknite na [B_NAME_ICON].
+click_img.prac	Kliknite prosim na [B_NAME_ICON].
+click_cancel_trans_img.demo	S klikom na [B_ICON_NAME] bo prekinjana transakcija.
+click_cancel_trans_img.prac	"Kliknite na [B_ICON_NAME], da bi prekinili transakcijo."
+click_back_img.demo	"S klikom na [B_ICON_NAME], se boste vrnili na prejšnjo stran."
+click_back_img.prac	"Kliknite na [B_ICON_NAME], da bi se vrnili na prejšnjo stran."
+click_ok_img.demo	Sedaj kliknite na [B_ICON_NAME].
+click_ok_img.prac	Kliknite na [B_ICON_NAME].
+click_exit_trans_img.demo	"S klikom na [B_ICON_NAME], boste zapustili transakcijo."
+click_exit_trans_img.prac	"Kliknite na [B_ICON_NAME], da bi zapustili transakcijo."
+click_save_img.demo	"S klikom na [B_ICON_NAME], boste shranili vnose."
+click_save_img.prac	"Kliknite na [B_ICON_NAME], da bi shranili vnose."
+click_checkbox_off.demo	[B_NAME] bo izklopljeno.
+click_checkbox_off.prac	Izklopite vrednost [B_NAME].
+click_next_page_img.demo	S klikom na [B_NAME_ICON] boste odprli naslednjo stran.
+click_next_page_img.prac	Kliknite prosim na [B_NAME_ICON].
+click_checkbox_on.demo	[B_NAME] bo izbrano.
+click_checkbox_on.prac	Izberite vrednost [B_NAME].
+click_select_value.demo	Vrednost [B_NAME] bo izbrana.
+click_select_value.prac	Izberite vrednost [B_NAME].
+click_open_menu.demo	Odprt bo meni [B_NAME].
+click_open_menu.prac	Odprite meni [B_NAME].
+click_menu_select.demo	Izbran bo vnos [B_NAME].
+click_menu_select.prac	Izberite vnos [B_NAME].
+click_select_column.demo	Izbran bo stolpec [B_NAME].
+click_select_column.prac	Stolpec [B_NAME] izberite s klikom na glavo stolpca.
+click_open_value_help.demo	Odpre se pomoč z vrednostmi.
+click_open_value_help.prac	Odprite prosim pomoč z vrednostmi.
+click_select_line.demo	Izbrana je vrstica [B_NAME].
+click_select_line.prac	S klikom v prvem stolpcu izberite vrstico [B_NAME].
+click_scroll_top.demo	S klikom na [ICON] se pomaknete na zahtevo.
+click_scroll_top.prac	Na zahtevo se pomaknete s klikom na [ICON].
+click_scroll_bottom.demo	S klikom na [ICON] se pomaknete na konec.
+click_scroll_bottom.prac	Na konec se pomaknite s klikom na [ICON].
+click_scroll_pageup.demo	S klikom na [ICON] se pomaknete eno stran navzgor.
+click_scroll_pageup.prac	Eno stran navzgor se pomaknete s klikom na [ICON].
+click_scroll_pagedown.demo	S klikom na [ICON] se pomaknete za eno stran navzdol.
+click_scroll_pagedown.prac	Eno stran navzdol se pomaknete s klikom na [ICON].
+click_scroll_lineup.demo	S klikom na [ICON] se pomaknete eno vrstico navzgor.
+click_scroll_lineup.prac	Eno stran navzgor se pomaknete s klikom na [ICON].
+click_scroll_linedown.demo	S klikom na [ICON] se pomaknete eno vrstico navzdol.
+click_scroll_linedown.prac	Eno vrstico navzdol se pomaknete s klikom na [ICON].
+click_close_window_img.demo	Okno se zape s klikom na [ICON].
+click_close_window_img.prac	Okno zaprite s klikom na [ICON].
+click_select_all_lines_img.demo	S klikom na [ICON] se označijo vse vrstice.
+click_select_all_lines_img.prac	Vse vrstice izberite s klikom na [ICON].
+click_open_card_menu.demo	S klikom na [ICON] se odpre izbira kart.
+click_open_card_menu.prac	Izbiro kart odprite s klikom na [ICON] .
+click_select_card.demo	Izbrana bo karta [B_NAME].
+click_select_card.prac	Izberite karto [B_NAME].
+click_next_cards_img.demo	S klikom na [ICON] bodo prikazane naslednje karte.
+click_next_cards_img.prac	Naslednje karte prikažite s klikom na [ICON].
+click_prev_cards_img.demo	S klikom na [ICON] bodo prikazane prejšnje karte.
+click_prev_cards_img.prac	Prejšnje karte prikažite s klikom na [ICON].
+click_open_nav_menu.demo	S klikom na [ICON] se odpre navigacijski meni.
+click_open_nav_menu.prac	Navigacijski meni odprite s klikom na [ICON].
+click_close_folder_img.demo	S klikom na [ICON] se zapre mapa [B_NAME].
+click_close_folder_img.prac	Mapo [B_NAME] zaprite s klikom na [ICON].
+click_open_folder_img.demo	S klikom na [ICON] se odpre mapa [B_NAME].
+click_open_folder_img.prac	Mapo [B_NAME] odprite s klikom na [ICON].
+click_select_element_img.demo	S klikom na [ICON] izberete element [B_NAME].
+click_select_element_img.prac	Element [B_NAME] izberite s klikom na [ICON].
+click_scroll_down.demo	Z drsnim trakom se pomaknete navzdol.
+click_scroll_down.prac	Navzdol se pomikajte s pomočjo drsnega traku.
+dblclick_select_entry.demo	Z dvoklikom na [B_NAME] se izbere vnos.
+dblclick_select_entry.prac	Vnos [B_NAME] izberite z dvoklikom.
+dblclick_select_date.demo	[B_NAME] bo izbran.
+dblclick_select_date.prac	Izberite [B_NAME].
+dblclick_start_transaction.demo	Z dvoklikom zaženete transakcijo [B_NAME].
+dblclick_start_transaction.prac	Transakcijo [B_NAME] zaženite z dvoklikom <br>ali<br>vnesite kodo transakcije [B_TCODE] ter potrdite s tipko Enter.
+click_close_group.demo	Skupina [B_NAME] se zapre.
+click_close_group.prac	Zaprite prosim skupino [B_NAME].
+click_open_group.demo	Skupina [B_NAME] se odpre.
+click_open_group.prac	Odprite prosim skupino [B_NAME].
+select.demo	Kot [B_NAME] se izbere [B_SELECTED].
+select.prac	Kot ime [B_NAME] izberite prosim [B_SELECTED].
+input_text.demo	Izpolni se polje [B_NAME].
+input_text.prac	Vnesite prosim [B_INPUT] v polje [B_NAME].
+input_text_value.demo	V polje [B_NAME] se sedaj vnese [B_INPUT].
+input_text_value.prac	Vnesite prosim [B_INPUT] v polje [B_NAME].
+input_tab_enter_button.demo
+input_tab_enter_button.prac	<br>Potrdite vnos s <b>Tab-</b> ali <b>tipko Enter</b> ali kliknite na <b>ustrezen gumb</b>.
+input_tab_enter.demo
+input_tab_enter.prac	<br>Vnos potrdite z <b>Tab-</b> ali <b>tipko Enter</b>.
+input_enter_button.demo
+input_enter_button.prac	<br>Vnos potrdite s <b>tipko Enter</b> ali kliknite na <b>ustrezen gumb</b>.
+input_tab.demo
+input_tab.prac	<br>Vnos potrdite s <b>tipko Tab</b>.
+input_enter.demo
+input_enter.prac	<br>Vnos potrdite s <b>tipko Enter</b>.
+input_button.demo
+input_button.prac	<br>Vnos potrdite s <b>klikom na ustrezen gumb</b>.
+click_select.demo	[B_NAME] se sedaj izbere.
+click_select.prac	Izberite prosim [B_NAME].
+click_show_value_help_button.demo	S kilkom v polje za besedilo [B_NAME] odprete pomoč z vrednostmi.
+click_show_value_help_button.prac	Pomoč z vrednostmi odprite s klikom v polje za besedilo [B_NAME].
+click_scroll_horizontal.demo	Pomaknilo se bo  v desno…
+click_scroll_horizontal.prac	Pomaknite prosim v desno.
+click_scroll_vertical.demo	Pomaknilo se bo navzdol...
+click_scroll_vertical.prac	Pomaknite prosim navzdol.
+click_img_expand.demo	Za povečanje navigacijskega območja kliknite na [ICON].
+click_img_expand.prac	"Navigacijsko območje povečajte  tako, da kliknete na [ICON]."
+click_img_collapse.demo	Za pomanjšanje navigacijskega območja kliknite na [ICON].
+click_img_collapse.prac	"Navigacijsko območje pomanjšajte  tako, da kliknete na [ICON]."
+click_navrow.demo	V navigacijski vrstici se izbere [B_NAME].
+click_navrow.prac	Odprite prosim [B_NAME] iz navigacijske vrstice.
+click_navrow2.demo	V drugi navigacijski vrstici se izbere [B_NAME].
+click_navrow2.prac	Odprite prosim [B_NAME] iz druge navigacijske vrstice.
+click_open_context_menu.demo	Odpre se kontekstni meni [B_NAME].
+click_open_context_menu.prac	Odprite kontekstni meni [B_NAME].
+click_radio_select.demo	Izbere se [B_NAME].
+click_radio_select.prac	Izberite [B_NAME].
+click_select_img.demo	Izbere se [B_ICON_NAME].
+click_select_img.prac	Izberite [B_ICON_NAME].
+click_open_form_view.demo	S [B_ICON_NAME] se preklopi v pogled obrazca.
+click_open_form_view.prac	S [B_ICON_NAME] preklopite v pogled obrazca.
+history_select.demo	[B_NAME] se izbere iz zgodovine.
+history_select.prac	Izberite [B_NAME] iz zgodovine.
+click_page_up_img.demo	S klikom na [B_ICON] se pomaknete eno stran navzgor.
+click_page_up_img.prac	Pomaknite se eno stran navzgor s klikom na [B_ICON].
+click_page_down_img.demo	S klikom na [B_ICON] se pomaknete eno stran navzdol.
+click_page_down_img.prac	Pomaknite se eno stran navzdol s klikom na [B_ICON].
+click_page_top_img.demo	S klikom na [B_ICON] se pomaknete na začetek.
+click_page_top_img.prac	Pomaknite se na začetek s klikom na [B_ICON].
+click_page_bottom_img.demo	S klikom na [B_ICON] wird an das Ende gescrollt.
+click_page_bottom_img.prac	Pomaknite se na konec s klikom na [B_ICON].
+click_sort_by_column.demo	Razvrščeno bo po stolpcu [B_NAME].
+click_sort_by_column.prac	Razvrstite po stolpcu [B_NAME].
+click_select_date.demo	Izbrano bo [B_NAME].
+click_select_date.prac	Izberite [B_NAME].
+click_close_card_img.demo	S klikom na [ICON] se zapre karta.
+click_close_card_img.prac	"Kliknite na [ICON], da bi zaprli karto."
+click_select_function_img.demo	S klikom na [ICON] izberete funkcijo [B_NAME].
+click_select_function_img.prac	"Kliknite na [ICON], da bi izbrali funkcijo [B_NAME]."
+click_hide_treeview.demo	"S klikom na [ICON], se pokaže drevesni pogled."
+click_hide_treeview.prac	Prikažite drevesni pogled s klikom na [ICON].
+click_show_treeview.demo	S klikom na [ICON] se prikaže drevesni pogled.
+click_show_treeview.prac	Prikažite dreveni pogled s klikom na [ICON].
+click_mark_transaction.demo	S klikom na [B_NAME] se označi transakcija.
+click_mark_transaction.prac	Transakcijo [B_NAME] označite z enim klikom.
+dblclick_select_element.demo	Z dvoklikom se izbere element [B_NAME].
+dblclick_select_element.prac	Izberite element [B_NAME] z dvoklikom.
+please_note.demo	Upoštevajte naslednje: [B_NAME].
+please_note.prac	Upoštevajte naslednje: [B_NAME].
+click_open_value_help_img.demo	S klikom na <b>Vnosno pomoče</b> [ICON] dobite izbirni seznam z veljavnimi vrednostmi.
+click_open_value_help_img.prac	Kliknite na <b>Vnosno pomoč</b> [ICON] da bi dobili izbirni seznam z veljavnimi vrednostmi.
+click_open_selection.demo	S klikom na [ICON] dobite izbirni seznam.
+click_open_selection.prac	"Kliknite na [ICON], da bi dobili izbirni seznam."
+click_mark_entry.demo	S klikom na vnos [B_NAME] ga označite.
+click_mark_entry.prac	Vnos [B_NAME] označite s klikom nanj.
+click_mark_entry_img.demo	S klikom na vnos [ICON] ga izberete.
+click_mark_entry_img.prac	Izberite vnos [ICON] s klikom.
+click_menu_select_img.demo	S klikom na menijsko točko [ICON] jo izvršite.
+click_menu_select_img.prac	"Kliknite na menijsko točko [ICON], da bi jo izvršili."
+click_open_menu_img.demo	S klikom na meni [ICON] ga odprete.
+click_open_menu_img.prac	"Kliknite na meni [ICON], da bi ga odprli."
+click_select_card_img.demo	S klikom na registrsko karto [ICON] jo izberete.
+click_select_card_img.prac	"Kliknite na registrsko karto [ICON], da bi jo izbrali."
+dblclick_select_line.demo	Z dvoklikom na preklopno polje [NAME] označite vrstico.
+dblclick_select_line.prac	"Dvokliknite na preklopno polje [NAME], da bi označili vrstico."
+click_activate_edit.demo	S klikom v vnosno polje [B_NAME] ga aktivirate.
+click_activate_edit.prac	"Kliknite v vnosno polje [B_NAME], da bi ga aktivirali."
+dblclick_activate_edit.demo	Z dvoklikom v vnosno polje [B_NAME] ga aktivirate.
+dblclick_activate_edit.prac	"Dvokliknite v vnosno polje [B_NAME], da bi ga aktivirali."
+dblclick_open_folder_img.demo	Z dvoklikom na simbol [ICON] odprete mapo [B_NAME].
+dblclick_open_folder_img.prac	Mapo [B_NAME] odprite z dvoklikom na simbol [ICON].
+click_open_folder.demo	"S klikom na <b> simbol 'Odpri mapo'</b>, odprete mapo [B_NAME]."
+click_open_folder.prac	Mapo [B_NAME] odprite s klikom na simbol <b>'Odpri mapo'</b>.
+dblclick_open_folder.demo	"Z dvoklikom na simbol <b>'Odpri mapo'</b>, odprete mapo [B_NAME]."
+dblclick_open_folder.prac	Mapo [B_NAME] odprite z dvoklikom na simbol <b>'Odpri mapo'</b> .
+click_close_folder.demo	"S klikom na simbol <b>'Zapri mapo'</b>, zaprete mapo [B_NAME]."
+click_close_folder.prac	Mapo [B_NAME] zaprite s klikom na simbol <b>'Zapri mapo'</b> .
+drag_scroll_hor.demo	S klikom in vlečenjem <b>drsnega traku</b> postane želeno območje vidno.
+drag_scroll_hor.prac	"Kliknite in povlecite <b>vodoravni drsni trak</b>, da bi se pomaknili."
+drag_scroll_vert.demo	S klikom in vlečenjem <b>drsnega traku</b> postane želeno območje vidno.
+drag_scroll_vert.prac	"Kliknite in povlecite <b>navpični drsni trak</b>, da bi se pomaknili."
+click_scroll.demo	Z dvoklikom na <b>površino drsnika</b> [NAME] postane želeno območje vidno.
+click_scroll.prac	S klikanjem se pomaknite na <b>površino drsnika</b> [NAME].
+click_scroll_page_left.demo	S klikanjem v <b>površino drsnika</b> postane želeno območje vidno.
+click_scroll_page_left.prac	"Kliknite v <b>območje levo od površine drsnika </b>, da bi se pomikali."
+click_scroll_page_right.demo	S klikanjem v <b>območje drsnika</b> postane želeno območje vidno.
+click_scroll_page_right.prac	"Kliknite na <b>območje desno od drsnega traku</b>, da bi se pomikali."
+click_scroll_page_up.demo	S klikanjem v <b>območje drsnika</b> postane želeno območje vidno.
+click_scroll_page_up.prac	"Kliknite v <b>območje nad drsnim trakom</b>, da bi se pomikali."
+click_scroll_page_down.demo	S klikanjem v <b>območje drsnika</b> postane želeno območje vidno.
+click_scroll_page_down.prac	"Kliknite v <b>območje pod drsnim trakom</b>, da bi se pomikali."
+rclick_context.demo	S klikanjem z desno miškino tipko na [B_NAME] se odpre kontekstni meni.
+rclick_context.prac	Kliknite prosim na [B_NAME] z desno miškino tipko.
+dblclick_img.demo	Dvoklikne se na [ICON].
+dblclick_img.prac	Dvokliknite prosim na [ICON].
+keypress.demo	"Prosim, vnesite [B_KEY]."
+keypress.prac	"Prosim, vnesite [B_KEY]."
+item.close_folder	Zaprite mapo
+item.open_folder	Odprite mapo
+item.enter_key	Enter
+item.tab_key	Tab
+item.vscroll	navpični drsni trak
+item.hscroll	vodoravni drsni trak
+item.close_window	Zaprite okno
+item.value_help	Izbira vrednosti
+item.scroll	Drsni trak
+item.back_btn	Nazaj
+item.save_btn	Shraniti
+item.scroll_area	Območje drsnika
+input_text_value_tpcd.demo	[B_INPUT] is now entered in the <b>Transaction-Field</b>.
+input_text_value_tpcd.prac	Enter [B_INPUT] in the <b>Transaction-Field</b>.
+drag_img.demo	Drag [B_NAME_ICON].
+drag_img.prac	Drag [B_NAME_ICON].
+drop_img.demo	Drop on [B_NAME_ICON].
+drop_img.prac	Drop on [B_NAME_ICON].
+click_combobtn_tpcd.demo	Clicking on [ICON] of the <b>Transaction Field</b> opens a list of already executed transactions.
+click_combobtn_tpcd.prac	Click on [ICON] of the <b>Transaction Field</b> to open the list of already executed transactions.
+docQuizzesTitle	Quiz Evaluation
+docQuizzesInformation	information:
+docQuizzesScorePassed	necessary score:
+docQuizzesScoreAchieved	achieved score:
+docQuizzesScoreMax	maximum score:
+dblclick_mark_entry_img.demo	Double-clicking on the entry [ICON] selects it.
+dblclick_mark_entry_img.prac	Select the entry [ICON] by double-clicking it.

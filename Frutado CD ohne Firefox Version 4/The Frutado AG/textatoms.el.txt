@@ -1,0 +1,256 @@
+﻿# Greek text atoms
+# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY;	"datango"
+TOK_LIB;	"Μαθήματα @{TOK_COMPANY}"
+TOK_TOUR;	"Μάθημα @{TOK_COMPANY}"
+TOK_TRAINER;	"Εκπαιδευτής @{TOK_COMPANY}"
+
+# Key names	
+ALTKEY;	"alt"
+CTRLKEY;	"ctrl"
+LEFTALTKEY;	"alt (αριστερό)"
+LEFTCTRLKEY;	"ctrl (αριστερό)"
+LEFTSHIFTKEY;	"shift (αριστερό)"
+ON;	"ενεργό"
+OFF;	"ανενεργό"
+RIGHTALTKEY;	"alt (δεξί)"
+RIGHTCTRLKEY;	"strg (δεξί)"
+RIGHTSHIFTKEY;	"shift (δεξί)"
+SHIFTKEY;	"shift"
+
+# trainer states	
+TOK_BUFFERING;	"Ηχητικό αρχείο φορτώνει... "
+TOK_CONNECTING;	"Συνδέεται... "
+TOK_IDLE;	""
+TOK_LMS;	"Καταγραφή αποτελέσματος..."
+TOK_OPENING;	"Συνδέεται... "
+TOK_OPEN;	""
+TOK_PAUSED;	"Παύση"
+TOK_PLAYING;	"Αναπαραγωγή"
+TOK_READY;	"Έτοιμο"
+TOK_USERINPUT;	"Εισαγωγή"
+TOK_WAITING;	"Η σελίδα φορτώνει... "
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC;	"<span style=""color: red, font-weight: bolder;"">Τα πλαίσια δεν μπορούν να εμφανιστούν εδώ.</span>"
+TOK_IEPOPUP_IFRAME_EXC;	"<span style=""color: red, font-weight: bolder;"">Έγγραφα με IFRAME δεν μπορούν να εμφανιστούν εδώ.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC;	"Ένα σύστημα προστασίας popup-blocker εμποδίζει την εμφάνιση του μαθήματος."
+TOK_POPUPBLOCKER_CONFIRM;	"Ένα σύστημα προστασίας popup-blocker εμποδίζει το άνοιγμα ενός νέου παραθύρου.@{NEWLINE}@{NEWLINE}OK: Μπορείτε να συνεχίσετε επειδή έχετε κλείσει το σύστημα προστασίας popup-blocker@{NEWLINE}  για τον διακομιστή.@{NEWLINE}Διακοπή: Το μάθημα τερματίστηκε."
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC;	"Μία ρύθμιση ασφαλείας του Internet Explorer\n\rεμποδίζει την εμφάνιση του@{TOK_TOUR}.\nΜην εμφανίζεται το\n""Αρχικό παράθυρο χωρίς περιορισμούς μεγέθους και θέσης""\n!"
+
+# Other messages	
+TOK_CLOSE_TASK;	"Κλείσιμο του @{TIP_TASK}"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC;	"Δεν ήταν δυνατή η ανάγνωση του @1 ""@2""."
+TOK_COULD_NOT_READ2_EXC;	Δεν ήταν δυνατή η ανάγνωση του "@1 ""@2"": @3"
+
+# Form texts	
+TOK_CLOSE;	"Κλείσιμο"
+TOK_DIR;	"Ευρετήριο"
+TOK_ERROR;	"Σφάλμα"
+TOK_EXIT;	"Τερματισμός"
+TOK_OPEN;	"Άνοιγμα"
+TOK_SEARCH;	"Αναζήτηση"
+TOK_START;	"Έναρξη"
+TOK_START_TOUR;	"Έναρξη του @{TOK_TOUR}"
+TOK_STOP;	"Διακοπή"
+
+# Library	
+TOK_LIB_BTN_LESS;	"λιγότερο..."
+TOK_LIB_BTN_MORE;	"περισσότερο..."
+TOK_LIB_EMPTY;	"Κενό στοιχείο"
+TOK_LIB_FLAG_DESC;	"Αναζήτηση περιγραφής"
+TOK_LIB_FLAG_KEEP_OPEN;	"Η δομή μαθημάτων να παραμείνει ανοιχτή"
+TOK_LIB_FLAG_NEWWIN;	"Σε νέο παράθυρο"
+TOK_LIB_FLAG_TITLE;	"Αναζήτηση τίτλου"
+TOK_LIB_RESET;	"Διαγραφή αποτελεσμάτων αναζήτησης"
+
+# Mimetypes	
+MIME_TEXT_PDF; "PDF - Adobe Acrobat Format"	
+MIME_APP_MSWORD;	"Έγγραφο Winword"
+MIME_APP_EXCEL;	"Φύλλο εργασίας Excel"
+MIME_APP_PPT;	"Διαφάνιες Powerpoint"
+MIME_APP_OOFF;	"Έγγραφο OpenOffice"
+MIME_APP_OOFFWRITE;	"Κείμενο OpenOffice"
+MIME_APP_OOFFCALC;	"Υπολογισμός OpenOffice"
+MIME_APP_OOFFIMPRESS;	"Παρουσίαση OpenOffice"
+MIME_APP_OOFFMATH;	"Τύποι OpenOffice"
+MIME_AUDIO;	"Ήχος"
+MIME_VIDEO;	"Βίντεο"
+MIME_TEXT_HTML;	"Ηλεκτρονική σελίδα"
+MIME_TEXT;	"Έγγραφο κειμένου"
+MIME_APP_DGO;	"Μάθημα @{TOK_COMPANY}"
+MIME_APP_DGO_DEMO;	"Demo @{TOK_COMPANY}"
+MIME_APP_DGO_PRACTISE;	"Άσκηση @{TOK_COMPANY}"
+MIME_APP_DGO_TEST;	"Τεστ @{TOK_COMPANY}"
+MIME_APP_DGO_CONCURRENT;	"Μάθημα πρακτικής εφαρμογής @{TOK_COMPANY}"
+MIME_UNKNOWN;	"@{TOK_LIB_UNKNOWN}"
+
+# Tooltips	
+TIP_PLAY;	"Συνέχεια (F8), Με το ""alt"": Από την αρχή"
+TIP_PAUSE;	"Προσωρινή διακοπή ("ΠΑΥΣΗ), Με το ""shift"": Μεγαλύτερη ποιότητα ήχου, Με το ""alt"": Περιορισμός του εύρους εκπομπής ήχου"
+TIP_STOP;	"Τερματισμός (F12), Με το ""shift"": Εμφάνιση έκδοσης"
+TIP_NEXT;	"Επόμενο κεφάλαιο ("ALT"-κάτω βελάκι)"
+TIP_BACK;	"Προηγούμενο κεφάλαιο ("ALT"-επάνω βελάκι), Με το ""alt"": Εμφάνιση μαθημάτων"
+TIP_MAXBUBBLE;	"Επαναδημιουργία πλαισίου κειμένου"
+TIP_MINBUBBLE;	"Ελαχιστοποίηση πλαισίου κειμένου"
+TIP_CLOSEBUBBLE;	"Απομάκρυνση πλαισίου κειμένου"
+TIP_ENABLED;	""
+TIP_DISABLED;	"(αυτή τη στιγμή δεν είναι δυνατό)"
+TIP_TASK;	"Ανάθεση εργασιών"
+
+# Simple trainer Bracepages	
+TOK_BP_CLOSEWINDOW;	"Κλείσιμο παραθύρου"
+TOK_BP_GOBACK;	"Επιστροφή"
+TOK_BP_GOON;	"Συνέχεια"
+TOK_BP_JSCONSOLE;	"Μηνύματα Javascript"
+TOK_BP_MODE;	"Λειτουργία"
+TOK_BP_PARAMETER;	"Παράμετροι"
+TOK_BP_RESTARTPROGRAM;	"Επανάληψη προγράμματος"
+TOK_BP_STARTANOTHER;	"Έναρξη άλλου προγράμματος"
+TOK_BP_VALUE;	"Τιμή"
+
+# Exercise colors	
+EXER_COLOR_ERROR;	"μαρκαρισμένο κόκκινο"
+EXER_COLOR_CLICK;	"μαρκαρισμένο πράσινο"
+EXER_COLOR_DBLCLICK;	"μαρκαρισμένο κίτρινο"
+EXER_COLOR_RCLICK;	"μαρκαρισμένο γαλάζιο"
+EXER_COLOR_CHANGE;	"υπογραμμισμένο πράσινο"
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_AND;	@{NEWLINE}και@{NEWLINE}
+EXER_FAIL0;	"Η ενέργειά σας ήταν δυστυχώς λανθασμένη."
+
+EXER_FAIL1;	"Η ενέργειά σας ήταν δυστυχώς λανθασμένη. 1 βαθμός αφαιρέθηκε από το τελικό σας αποτέλεσμα. Υπολειπόμενοι βαθμοί για αυτή την ενέργεια: @1_rest-points_."
+EXER_FAIL2;	"Η ενέργειά σας ήταν δυστυχώς λανθασμένη. @1_points-penalty_ βαθμοί αφαιρέθηκαν από το τελικό σας αποτέλεσμα. Υπολειπόμενοι βαθμοί για αυτή την ενέργεια: @2_rest-points_."
+EXER_FAIL_ASK4HELP;	"@{NEWLINE}@{NEWLINE}Χρειάζεστε βοήθεια;"
+EXER_FAILCHANGE_HELP;	"Το αλλαγμένο πεδίο είναι @{EXER_COLOR_ERROR}.@{NEWLINE}Όλα τα πεδιά εισαγωγής δεδομένων που μπορούν να αλλαχθούν είναι @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_HELP;	"Η αλλαγή των πεδίων εισαγωγής δεδομένων προς το παρόν δεν επιτρέπεται.@{NEWLINE}Το αλλαγμένο πεδίο είναι @{EXER_COLOR_ERROR}."
+
+# new	
+EXER_FAILCHANGE;	"Έχετε αλλάξει ένα μη επιτρεπτό πεδίο.@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"Όλα τα πεδία εισαγωγής δεδομένων τα οποία επιτρέπεται να αλλαχθούν είναι @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"Η αλλαγή πεδίων εισαγωγής δεδομένων δεν είναι επιτρεπτή."
+EXER_FAILCLICK_HELP;	"Η επιλεγμένη περιοχή είναι @{EXER_COLOR_ERROR}.@{NEWLINE}Όλα τα επιτρεπόμενα πλήκτρα είναι @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_HELP;	"Αυτή τη στιγμή δεν επιτρέπεται καμία επιλογή.@{NEWLINE}Η επιλεγμένη περιοχή είναι @{EXER_COLOR_ERROR}."
+
+# new	
+EXER_FAILCLICK;	"Έχετε κάνει κλικ σε μη επιτρεπόμενη περιοχή.@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"Όλα τα επιτρεπόμενα πλήκτρα είναι @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"Δεν επιτρέπεται να κάνετε κλικ."
+
+EXER_FAILDBLCLICK_HELP;	"Η περιοχή στην οποία έχει γίνει διπλό κλικ είναι @{EXER_COLOR_ERROR}.@{NEWLINE}Όλα τα πλήκτρα στα οποία επιτρέπεται επιλογή με διπλό κλικ είναι @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_HELP;	"Αυτή τη στιγμή δεν επιτρέπεται διπλό κλικ.@{NEWLINE}Η επιλεγμένη περιοχή είναι @{EXER_COLOR_ERROR}."
+
+# new	
+EXER_FAILDBLCLICK;	"Έχετε κάνει διπλό κλικ σε μη επιτρεπόμενη περιοχή.@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"Όλα τα επιτρεπόμενα πλήκτρα για επιλογή με διπλό κλικ είναι @{EXER_COLOR_CLICK}." 
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"Δεν επιτρέπεται το διπλό κλικ." 
+EXER_FAILRCLICK_HELP;	"Η περιοχή στην οποία έχει γίνει δεξί κλικ είναι @{EXER_COLOR_ERROR}.@{NEWLINE}Όλα τα πλήκτρα στα οποία επιτρέπεται επιλογή με διπλό κλικ είναι @{EXER_COLOR_DBLCLICK}." 
+EXER_FAILRCLICK0_HELP;	"Αυτή τη στιγμή δεν επιτρέπεται πουθενά δεξί κλικ.@{NEWLINE}Η επιλεγμένη περιοχή είναι @{EXER_COLOR_ERROR}." 
+
+# new	
+EXER_FAILRCLICK;	"Έχετε κάνει δεξί κλικ σε μη επιτρεπόμενη περιοχή.@{NEWLINE}" 
+EXER_FAILRCLICK_NOMARK_HELP;	"Όλα τα επιτρεπόμενα πλήκτρα για επιλογή με δεξί κλικ είναι @{EXER_COLOR_CLICK}." 
+EXER_FAILRCLICK0_NOMARK_HELP;	"Δεν επιτρέπεται δεξί κλικ." 
+EXER_FAILKEY_HELP0;	"Έχετε πιέσει λάθος πλήκτρο."
+EXER_FAILKEY_HELP1;	"Έχετε πιέσει ""@1_key_""!"
+EXER_FAILKEY_HELP2;	"@{NEWLINE}Τα επιτρεπόμενα πλήκτρα λειτουργιών είναι:@{NEWLINE}@1_keys_"
+EXER_HINT_ADDITIONALLY_VALID;	"@{NEWLINE}@{NEWLINE}Επίσης επιτρεπόμενες ενέργειες είναι:"
+EXER_HINT_CHANGABLE_MARKED;	"@{NEWLINE}@{BULLET} Αλλαγή πεδίου (@{EXER_COLOR_CHANGE})"
+EXER_HINT_CLICK_MARKED;	"@{NEWLINE}@{BULLET} Κλικ (πλήκτρα είναι @{EXER_COLOR_CLICK})"
+EXER_HINT_DBLCLICK_MARKED;	"@{NEWLINE}@{BULLET} Διπλό κλικ (@{EXER_COLOR_DBLCLICK})"
+EXER_HINT_HELPCANCELS;	"@{NEWLINE}(Σημείωση: Όλοι οι βαθμοί για αυτή την ενέργεια αφαιρέθηκαν από το τελικό σας αποτέλεσμα)"
+EXER_HINT_KEYS;	"@{NEWLINE}@{BULLET} Πάτημα των πλήκτρων λειτουργιών@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID;	"@{NEWLINE}@{NEWLINE}Οι επιτρεπόμενες ενέργειες είναι:"
+EXER_HINT_RCLICK_MARKED;	"@{NEWLINE}@{BULLET} Δεξί κλικ (@{EXER_COLOR_RCLICK})"
+EXER_HINT_WOULDGOON;	"@{NEWLINE}(Σημείωση: Διαφορετικά θα υπάρξει αυτόματη συνέχεια)"
+EXER_HINT_YOURINPUT;	"Έχετε εισάγει ""@1_input_"".@{NEWLINE}"
+EXER_OR;	"@{NEWLINE}ή@{NEWLINE}"
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT;	"Παρακαλώ απεπιλέξτε την επιλογή ""@1""!"
+MSG_OPTIONFIELD_SELECT;	"Παρακαλώ επιλέξτε / απεπιλέξτε την επιλογή ""@1""!"
+MSG_SCORE;	"Σύνολο βαθμών: ""@1""."
+MSG_SINGLE_SELECT;	"Παρακαλώ επιλέξτε την καταχώρηση ""@1""!"
+MSG_TEXTINPUT;	"Παρακαλώ εισάγετε ""@1"" στο πεδίο ""@2""!"
+MSG_TRANSACTIONCODE;	"Παρακαλώ δώστε τον σωστό κωδικό συναλλαγής ""@1""!"
+
+# Producer Bracepages	
+capDemoStart;	Δοκιμαστική λειτουργία 
+msgDemoStart1;	"Στη δοκιμαστική λειτουργία μπορείτε να παρακολουθήσετε την εκτέλεση μιας εργασίας. Απλώς παρακολουθήστε την παρουσίαση. Όλα τα βήματα γίνονται αυτόματα."
+msgDemoStart2;	Με τη μπάρα πλοήγησης στο κάτω μέρος μπορείτε να διακόψετε την παρουσίαση προσωρινά ή πλήρως. Μπορείτε επίσης να προχωρήσετε στο επόμενο βήμα ή να επιστρέψετε στο προηγούμενο. 
+msgDemoStop;	Η δοκιμαστική λειτουργία τερματίστηκε. 
+capConcurrentStart;	Λειτουργία πρακτικής εφαρμογής
+msgConcurrentStart1;	Στη λειτουργία πρακτικής εφαρμογής σάς δίνονται στην πράξη βήμα προς βήμα οδηγίες για την εκτέλση μίας εργασίας. 
+msgConcurrentStart2;	"Μετά από κάθε βήμα διακόπτεται η παρουσίαση, ώστε να μπορέσετε να εκτελέσετε το βήμα αυτό στην πράξη. "
+msgConcurrentStop;	Η λειτουργία πρακτικής εφαρμογής τερματίστηκε.
+capTestStart;	Λειτουργία τεστ
+msgTestStart1;	"Στη λειτουργία τεστ μπορείτε να ελέγξετε τις γνώσεις εκτελώντας ο ίδιος μία εργασία. Εκτός από τα στοιχεία του παραδείγματος δεν σας δίνονται άλλες οδηγίες για τα βήματα εκτέλεσης της εργασίας. Όλη η εργασία περιγράφεται στο παράθυρο εργασιών, το οποίο μπορείτε να μεγαλώσετε ή να μικρύνετε με τη βοήθεια των πλήκτρων στην μπάρα τίτλου."
+msgTestStart2;	"Στο τέλος του τεστ θα εμφανιστεί μια αξιολόγηση βάσει των σωστά εκτελεσμένων βημάτων. Αυτή η αξιολόγηση είναι αποκλειστικά και μόνο για προσωπική σας εκτίμηση των γνώσεών σας. Τα δεδομένα ούτε αποθηκεύονται, ούτε αποστέλλονται κάπου."
+msgTestStart3;	"Φροντίστε κάθε επιλογή σας να είναι προσεκτική, αφού το σύστημα καταγράφει κάθε λάθος καταχώρηση και λάθος κλικ και ανάλογα μειώνει τους βαθμούς στην αξιολόγησή σας. Αν αποφασίσετε να ζητήσετε βοήθεια για κάποιο βήμα, χάνετε όλους τους βαθμούς που αντιστοιχούν σε αυτό το βήμα."
+msgTestStart4;	"Η αξιολόγησή σας θα εμφανιστεί στο τέλος του τεστ. Προσπαθήστε να επιτύχετε τον στόχο του @{res_mastery_percent}%."
+capTestOk;	Το τεστ ολοκληρώθηκε με επιτυχία
+capTestFailed;	Το τεστ ολοκληρώθηκε με αποτυχία 
+msgTestFailed1;	"Επειδή οι βαθμοί σας ήταν λιγότεροι από @{res_mastery_percent}% των μέγιστων δυνατών βαθμών, σας συνιστούμε να ξαναδείτε τα περιεχόμενα αυτών των μαθημάτων και μετά να ξαναελέγξετε τις γνώσεις σας"
+msgTestFinished2;	Αποκλειστικός στόχος αυτού του τεστ είναι η αυτοαξιολόγηση. Τα αποτελέσματα ούτε καταγράφονται, ούτε αποστέλλονται σε τρίτους. 
+msgTestOk1;	"Συγχαρητήρια, ολοκληρώσατε αυτή την άσκηση με επιτυχία."
+msgTestResult;	Αποτέλεσμα
+msgTestScore;	Σύνολο βαθμών
+msgTestScoreValue;	@{res_collected_points} από @{res_possible_points}
+capPracticeStart;	Λειτουργία εξάσκησης
+msgPracticeStart1;	"Στη λειτουργία εξάσκησης μπορείτε να δοκιμάσετε αυτά που έχετε μάθει, εκτελώντας ο ίδιος την εργασία στα πλαίσια της εφαρμογής."
+msgPracticeStart2;	Απλώς ακολουθήστε τις οδηγίες βήμα προς βήμα. 
+msgPracticeStop;	Η λειτουργία εξάσκησης τερματίστηκε 
+
+# eof# New messages added after 6.1.0 beta 2
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+TOK_LIB_VAL_NOFILTER; "no filter"
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof

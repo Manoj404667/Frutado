@@ -1,0 +1,22 @@
+﻿ ctx.defaults = {
+	global: {}, 
+	USE_HELP: {}, 
+	define_target: {}, 
+	define_context_select: {}, 
+	navi_initB: {}, 
+	set_efp: {}, 
+	page_init: {}, 
+	highlight: {}, 
+	explanation: {}, 
+	fieldhelp: {}, 
+	delete_events: {}, 
+	clickconfirm: {}, 
+	checkboxselection: {}, 
+	Check_Validity: {}, 
+	Check_ValiditySpec: {}, 
+	Add_Hint: {}, 
+	Add_Value: {}, 
+	Disable_element: {}, 
+	page_fini: {}, 
+	navi_fini: {}
+};

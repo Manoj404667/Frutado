@@ -1,0 +1,2617 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MacroShelf version="6.2.2.049" comment="Demo/Uebungs/Test/Praxismakros deutsch/english mit Automatik">
+	<Language name="1031">
+		<Text name="action">Aktion</Text>
+		<Text name="active_area">Aktives Feld</Text>
+		<Text name="anim_steps">Animationsschritte</Text>
+		<Text name="auto_hide">Auto Hide</Text>
+		<Text name="app_res_time">Applikation-Reaktionszeit (ms)</Text>
+		<Text name="area">Feld</Text>
+		<Text name="attr_name">Attr. Name</Text>
+		<Text name="attr_exists_only">Nur Attr. Vorhandensein Prüfen</Text>
+		<Text name="input_text">Texteingabe</Text>
+		<Text name="init">Init</Text>
+		<Text name="adv">Erweitert</Text>
+		<Text name="bubble">Bubble</Text>
+		<Text name="affirmation_button">Bestätigungsbutton</Text>
+		<Text name="alternate_text">2. Status Text</Text>
+		<Text name="arrow">Dok: Pfeil</Text>
+		<Text name="b_height">Bubblelhöhe</Text>
+		<Text name="b_width">Bubblebreite</Text>
+		<Text name="b_minimized">Minimiert</Text>
+		<Text name="b_minimizable">Minimierbar</Text>
+		<Text name="b_movable">Beweglich</Text>
+		<Text name="behaviour">Verhalten</Text>
+		<Text name="beh_exec_mouse_action">V::Mausaktion ausführen</Text>
+		<Text name="beh_standby">V::Wartestellung</Text>
+		<Text name="beh_foe_bold">V::FOE hervorheben</Text>
+		<Text name="beh_foe_change_state">V::FOE aktivieren/deaktivieren</Text>
+		<Text name="beh_foe_change_state_excl">V::FOE exklusives aktivieren/deaktivieren</Text>
+		<Text name="beh_cancel">V::Abbruch</Text>
+		<Text name="beh_display_fo">V::FO anzeigen</Text>
+		<Text name="beh_hide_fo">V::FO schliessen</Text>
+		<Text name="beh_hilight">V::Highlight</Text>
+		<Text name="beh_hide_hilight">V::Highlight verstecken</Text>
+		<Text name="beh_show_bubble">V::Bubble anzeigen</Text>
+		<Text name="beh_hide_bubble">V::Bubble verstecken</Text>
+		<Text name="beh_jump">V::Sprung zu Navigationsstop</Text>
+		<Text name="beh_access">V::Ziel auswerten</Text>
+		<Text name="beh_get_value">V::Wert lesen</Text>
+		<Text name="beh_set_value">V::Wert setzen</Text>
+		<Text name="beh_set_strvar">V::Var::String Wert setzen</Text>
+		<Text name="beh_set_boolvar">V::Var::Boolean Wert setzen</Text>
+		<Text name="beh_set_numvar">V::Var::Nummer Wert setzen</Text>
+		<Text name="behaviour_assign_global">Verhaltenszuweisung::Global</Text>
+		<Text name="behaviour_assign_ns">Verhaltenszuweisung::Topic</Text>
+		<Text name="behaviour_assign_object">Verhaltenszuweisung::Objekt</Text>
+		<Text name="behaviour_assign_condition">Verhaltenszuweisung::Bedingung</Text>
+		<Text name="behave_name">Name</Text>
+		<Text name="bubble_offset">Offset</Text>
+		<Text name="beschreibung">Dok: Beschreibung</Text>
+		<Text name="bezeichnung">Bezeichnung</Text>
+		<Text name="calm_down_time">Ruhe Zeit</Text>
+		<Text name="caption">Titel</Text>
+		<Text name="convert2aa">Alle Macros in aktive Felder umwandeln</Text>
+		<Text name="convertm2aa">Macro in aktives Feld umwandeln</Text>
+		<Text name="choose_bool">Gewählter Wert</Text>
+		<Text name="choose_nr">Gewählter Index</Text>
+		<Text name="choose_text">Gewählter Wert</Text>
+		<Text name="confirmation_enter">Bestätigung: Enter</Text>
+		<Text name="confirmation_tab">Bestätigung: Tab</Text>
+		<Text name="config_file">Config. Datei</Text>
+		<Text name="condition">Bedingung</Text>
+		<Text name="cond_assign_global">Bedingungszuweisung::Global</Text>
+		<Text name="cond_assign_ns">Bedingungszuweisung::Topic</Text>
+		<Text name="cond_assign_object">Bedingungszuweisung::Objekt</Text>
+		<Text name="check">Prüfung</Text>
+		<Text name="check_strval">Prüfung::String Vergleich</Text>
+		<Text name="check_boolval">Prüfung::Boolean Vergleich</Text>
+		<Text name="check_numval">Prüfung::Nummer Vergleich</Text>
+		<Text name="check_ctrlval">Prüfung::Steuerelement Wert Vergleich</Text>
+		<Text name="check_ctrlexists">Prüfung::Steuerelement Vorhanden</Text>
+		<Text name="check_keyattr">Prüfung::Schlüsselattribut Vergleich</Text>
+		<Text name="dbl_click">Doppelklick</Text>
+		<Text name="demo">Demo</Text>
+		<Text name="drag">Drag</Text>
+		<Text name="drop">Drop</Text>
+		<Text name="dragging">Dragging</Text>
+		<Text name="exclusive">Exklusiv</Text>
+		<Text name="in_demo">Im Demo-Modus</Text>
+		<Text name="in_practise">Im Übungs-Modus</Text>
+		<Text name="in_test">Im Test-Modus</Text>
+		<Text name="in_prax">Im Praxis-Modus</Text>
+		<Text name="jump_target">Sprungziel</Text>
+		<Text name="key">Schlüssel</Text>
+		<Text name="set_focus">Fokus setzen</Text>
+		<Text name="doc">Dokumentation</Text>
+		<Text name="rerecord">Erneut Aufnehmen</Text>
+		<Text name="prepare_rerecord">Übersetzung vorbereiten</Text>
+		<Text name="doc_enable">In Dok anzeigen</Text>
+		<Text name="dump_page">Url</Text>
+		<Text name="dump_win_height">Window Höhe</Text>
+		<Text name="dump_win_left">Window Links</Text>
+		<Text name="dump_win_relpos">Window</Text>
+		<Text name="dump_win_top">Window Oben</Text>
+		<Text name="dump_win_width">Window Breite</Text>
+		<Text name="define_target">Ziel Beschreibung</Text>
+		<Text name="dest_variable">Ziel Variable</Text>
+		<Text name="edit">Bearbeiten</Text>
+		<Text name="edit_bubble_demo">Demo-Bubble positionieren</Text>
+		<Text name="edit_bubble_prax">Übungs-Bubble positionieren</Text>
+		<Text name="edit_rect">Markierung bearbeiten</Text>
+		<Text name="edit_screendump">Screendump bearbeiten</Text>
+		<Text name="edit_screenshot">Dok. Bildausschnitt</Text>
+		<Text name="element_type">Elementtyp</Text>
+		<Text name="enabled">Aktiviert</Text>
+		<Text name="end_unit">Lerneinheit Ende</Text>
+		<Text name="ende">Ende</Text>
+		<Text name="explanation">Erklärung</Text>
+		<Text name="explanation_d">Erklärung Demo</Text>
+		<Text name="explanation_long">Erklärung lang</Text>
+		<Text name="explanation_p">Erklärung Übung</Text>
+		<Text name="flash">Rahmen blinkend</Text>
+		<Text name="fieldname">Feldname</Text>
+		<Text name="fieldicon">Feld-Icon</Text>
+		<Text name="force_wait">Warten erzwingen</Text>
+		<Text name="frame">Rahmen</Text>
+		<Text name="free_marker">Dok: Markierung</Text>
+		<Text name="free_object">Freies Objekt</Text>
+		<Text name="free_object_elem">Freies Objektelement</Text>
+		<Text name="g_bubble_text_style">Bubble Textstil</Text>
+		<Text name="bubblestyle_d">Bubble-Stil</Text>
+		<Text name="g_highlight_border">Highlight Rand</Text>
+		<Text name="g_highlight_effect">Highlight Effekt</Text>
+		<Text name="g_highlight_fillstyle">Highlight Füllstil</Text>
+		<Text name="g_highlight_name">Highlight Name</Text>
+		<Text name="g_highlight_bgr">Highlight Farbe (#bbggrr)</Text>
+		<Text name="g_highlight_style">Highlight Stil</Text>
+		<Text name="g_linktextpraxis">Praxis Link Text (Vor)</Text>
+		<Text name="g_back_link">Praxis Link Text (Zurück)</Text>
+		<Text name="show_hl_p">Highlight in Übung</Text>
+		<Text name="gendoc">Word-Dokument erzeugen</Text>
+		<Text name="general_action">Klick auf Link</Text>
+		<Text name="key_press">Tastendruck</Text>
+		<Text name="key_name">Tastencode</Text>
+		<Text name="key_desc">Tastenbezeichnung</Text>
+		<Text name="key_sc_depend">Seitenschlüssel screenshot abhängig</Text>
+		<Text name="click_SAP">Klick auf Link im SAP EA Menü</Text>
+		<Text name="genhtml">HTML-Dokument erzeugen</Text>
+		<Text name="global">Global</Text>
+		<Text name="hinweis">Dok: Hinweis</Text>
+		<Text name="hilight">Highlight</Text>
+		<Text name="imagesize">Bildgröße (%)</Text>
+		<Text name="info">Info</Text>
+		<Text name="input radio">Optionsfeld</Text>
+		<Text name="input_radio">Optionsfeld</Text>
+		<Text name="insert_navigation_flow">Navigationsverlauf einfügen</Text>
+		<Text name="increment_by">Inkrementieren um den Wert</Text>
+		<Text name="kurs">Kopfangaben</Text>
+		<Text name="logic">Prüfungslogik</Text>
+		<Text name="lclick">Linker Klick</Text>
+		<Text name="ldblclick">Linker Doppelklick</Text>
+		<Text name="leaves_page">Verlässt die Seite</Text>
+		<Text name="linktext">Link Text</Text>
+		<Text name="genppt">PowerPoint-Dokument erzeugen</Text>
+		<Text name="doc_caption">Dok: Überschrift</Text>
+		<Text name="show_on_focus">Beim Fokussetzen anzeigen</Text>
+		<Text name="macro_comment">Kommentar</Text>
+		<Text name="macro_validatory">Steuerelement nach jedem Klick überprüfen</Text>
+		<Text name="min_rect">Mindest Fenstergröße</Text>
+		<Text name="mini_on_focuslost">Beim Fokusverlieren minimieren</Text>
+		<Text name="hide_on_focuslost">Beim Fokusverlieren verstecken</Text>
+		<Text name="mode">Modus</Text>
+		<Text name="name">Name</Text>
+		<Text name="new_step">Lernschritt Name</Text>
+		<Text name="new_window">Neues Fenster</Text>
+		<Text name="new_window_close">Neues Fenster schließen</Text>
+		<Text name="next asset">Neue Seite</Text>
+		<Text name="new_page">Neue Seite</Text>
+		<Text name="next_page">Nächste Seite</Text>
+		<Text name="note">Bemerkung</Text>
+		<Text name="no_spike">Ohne Spitze</Text>
+		<Text name="obj_index">Objektindex</Text>
+		<Text name="object">Objekt</Text>
+		<Text name="objname">Objektname</Text>
+		<Text name="objname2">Objektname</Text>
+		<Text name="orientation">Ausrichtung</Text>
+		<Text name="orientation_b">Bubble Ausrichtung</Text>
+		<Text name="oper">Operation</Text>
+		<Text name="page_break">Dok: Seitenumbruch</Text>
+		<Text name="path">Pfad</Text>
+		<Text name="position">Position</Text>
+		<Text name="position_af">Position Button</Text>
+		<Text name="position_b">Position Demo-Bubble</Text>
+		<Text name="position_bu">Position Übungs-Bubble</Text>
+		<Text name="position_h">Objektposition</Text>
+		<Text name="position_tc">Pos. Transaktionscode</Text>
+		<Text name="possible_points">Maximale Punktzahl</Text>
+		<Text name="process_id">Prozess ID</Text>
+		<Text name="choose_process">Prozess Auswahl</Text>
+		<Text name="mastery_score">Erforderliche Punktzahl</Text>
+		<Text name="goto_tourstop">Sprung zu Tourstop</Text>
+		<Text name="praxis">Praxis</Text>
+		<Text name="prev_page">Vorherige Seite</Text>
+		<Text name="quick_click">Quick Click</Text>
+		<Text name="click">Klick auf Link</Text>
+		<Text name="rclick">Rechter Klick</Text>
+		<Text name="rdblclick">Rechter Doppelklick</Text>
+		<Text name="enter">Mouse Enter</Text>
+		<Text name="resize">Fenstergröße anpassen</Text>
+		<Text name="record">Automatische Aufnahme</Text>
+		<Text name="record2">Automatische Aufnahme</Text>
+		<Text name="record_config">Einstellungen Aufnahme</Text>
+		<Text name="runtime">Laufzeit</Text>
+		<Text name="revision">Revision</Text>
+		<Text name="screen">Screen</Text>
+		<Text name="set_language">Projektsprache ändern</Text>
+		<Text name="doc_config">Einstellungen Dokumentation</Text>
+		<Text name="record_window_id">aufgen. Fenster ID</Text>
+		<Text name="record_page_key">Seitenschlüssel Aufnehmen</Text>
+		<Text name="record_click_pos">Klick Position Aufnehmen</Text>
+		<Text name="record_control">Steuerelement Aufnehmen</Text>
+		<Text name="sap_path">SAP Menüpfad</Text>
+		<Text name="sc_position">Scrollbar Position</Text>
+		<Text name="screenshot_border">Screenshot Border</Text>
+		<Text name="screenshot_file">Screenshot</Text>
+		<Text name="screenshot_part">Dok: Partieller Screenshot</Text>
+		<Text name="screenshot_rect">Screenshot Position</Text>
+		<Text name="single_bubble_pos">Single Bubble Pos.(w%, h%)</Text>
+		<Text name="click_pos">Klick Position</Text>
+		<Text name="click_pos_rel">Bubble Pos. (w%, h%)</Text>
+		<Text name="replace_txt">Text ersetzen</Text>
+		<Text name="sc_calm_down_time">Bildschirm ruhe Zeit</Text>
+		<Text name="screen_tolerence">Erlaubte Bildschirmabweichung (%)</Text>
+		<Text name="scrollInDivsLeftRight">Horizontal scrollen</Text>
+		<Text name="scroll_hor">Horizontal scrollen</Text>
+		<Text name="scrollInDivsTopDown">Vertikal scrollen</Text>
+		<Text name="scroll_vert">Vertikal scrollen</Text>
+		<Text name="scrollleft">Horizontale Position</Text>
+		<Text name="scrolltop">Vertikale Position</Text>
+		<Text name="script">Skript</Text>
+		<Text name="select single">Einfachauswahl</Text>
+		<Text name="select_single">Einfachauswahl</Text>
+		<Text name="show_actions">Aktionen anzeigen</Text>
+		<Text name="show_bubble">Beim aktivieren Anzeigen</Text>
+		<Text name="show_hilight">Beim aktivieren Anzeigen</Text>
+		<Text name="start_unit">Lerneinheit Anfang</Text>
+		<Text name="status_info">Dok: Status-Information</Text>
+		<Text name="status_text">Statustext</Text>
+		<Text name="stop_on_false">Abbruch bei nicht erfüllte Bedingung</Text>
+		<Text name="stop_on_true">Abbruch bei erfüllte Bedingung</Text>
+		<Text name="subkey">Als Teilschlüssel erlaubt</Text>
+		<Text name="src_variable">Source-Variable</Text>
+		<Text name="target_name">Zielname</Text>
+		<Text name="tcode">Transaktionscode</Text>
+		<Text name="test">Test</Text>
+		<Text name="text">Text</Text>
+		<Text name="text_d">Eingabetext</Text>
+		<Text name="tipp">Tipp</Text>
+		<Text name="titel">Titel</Text>
+		<Text name="title">Titel</Text>
+		<Text name="transaction_code">Transaktionscode</Text>
+		<Text name="transaction_info">Dok: Transaktionscode</Text>
+		<Text name="translate">Automatische Übersetzung</Text>
+		<Text name="task_text">Aufgabentext</Text>
+		<Text name="type">Typ</Text>
+		<Text name="ts_sc_depend">Navigationsstop screenshot abhängig</Text>
+		<Text name="ts_validatory">Steuerelemente nach jedem Klick überprüfen</Text>
+		<Text name="ts">Lernschritt</Text>
+		<Text name="uebung">Übung</Text>
+		<Text name="underline">Unterstrich</Text>
+		<Text name="update">Aktualisieren</Text>
+		<Text name="update_all_macros">Alle Makros aktualisieren</Text>
+		<Text name="update_pagedump">Seitenabzug aktualisieren</Text>
+		<Text name="update_screenshot">Screenshot aktualisieren</Text>
+		<Text name="use_screen_watcher">Bildschirm-Wächter benutzen</Text>
+		<Text name="variant">Variant</Text>
+		<Text name="value">Wert</Text>
+		<Text name="var_name">Name</Text>
+		<Text name="var_number">Var::Nummer</Text>
+		<Text name="var_bool">Var::Boolean</Text>
+		<Text name="var_string">Var::String</Text>
+		<Text name="warnung">Warnung/Hinweis</Text>
+		<Text name="window_relative">Position relativ zum Fenster (w%, h%)</Text>
+		<Text name="win_rect">Fenstergröße</Text>
+		<Text name="win_relpos">Window</Text>
+		<Text name="win_screenshot">Neue Seite als Screenshot</Text>
+		<Text name="winnav_dropdown">Navigation-Funktion</Text>
+		<Text name="zoom_in">Rahmen Zoom In</Text>
+		<Text name="zoom_out">Rahmen Zoom out</Text>
+	</Language>
+	<Language name="1033">
+		<Text name="action">Action</Text>
+		<Text name="active_area">Aktive Area</Text>
+		<Text name="anim_steps">Animation Steps</Text>
+		<Text name="auto_hide">Auto Hide</Text>
+		<Text name="app_res_time">Application Response Time (ms)</Text>
+		<Text name="area">Area</Text>
+		<Text name="attr_name">Attr. Name</Text>
+		<Text name="attr_exists_only">Check only for Attr. Existence</Text>
+		<Text name="input_text">Input Text</Text>
+		<Text name="init">Init</Text>
+		<Text name="adv">Advanced</Text>
+		<Text name="bubble">Bubble</Text>
+		<Text name="affirmation_button">Confirm with Button</Text>
+		<Text name="alternate_text">Add. Status Text</Text>
+		<Text name="arrow">Doc: Arrow</Text>
+		<Text name="b_height">Bubble Height</Text>
+		<Text name="b_width">Bubble Width</Text>
+		<Text name="b_minimized">Minimized</Text>
+		<Text name="b_minimizable">Minimizable</Text>
+		<Text name="b_movable">Moveable</Text>
+		<Text name="behaviour">Behaviour</Text>
+		<Text name="beh_exec_mouse_action">B::Execute Mouse Action</Text>
+		<Text name="beh_standby">B::Standby</Text>
+		<Text name="beh_foe_bold">B::Emphasize FOE</Text>
+		<Text name="beh_foe_change_state">B::FOE Enable/Disable</Text>
+		<Text name="beh_foe_change_state_excl">B::FOE Enable/Disable Exclusive</Text>
+		<Text name="beh_cancel">B::Cancel</Text>
+		<Text name="beh_display_fo">B::Display FO</Text>
+		<Text name="beh_hide_fo">B::Hide FO</Text>
+		<Text name="beh_hilight">B::Highlight</Text>
+		<Text name="beh_hide_hilight">B::Hide Highlight</Text>
+		<Text name="beh_show_bubble">B::Show Bubble</Text>
+		<Text name="beh_hide_bubble">B::Hide Bubble</Text>
+		<Text name="beh_jump">B::Jump to Navigationstop</Text>
+		<Text name="beh_access">B::Assess Target</Text>
+		<Text name="beh_get_value">B::Get Value</Text>
+		<Text name="beh_set_value">B::Set Value</Text>
+		<Text name="beh_set_strvar">B::Var::String Set Value</Text>
+		<Text name="beh_set_boolvar">B::Var::Boolean Set Value</Text>
+		<Text name="beh_set_numvar">B::Var::Nummer Set Value</Text>
+		<Text name="behaviour_assign_global">Behaviour Assignment::Global</Text>
+		<Text name="behaviour_assign_ns">Behaviour Assignment::Topic</Text>
+		<Text name="behaviour_assign_object">Behaviour Assignment::Object</Text>
+		<Text name="behaviour_assign_condition">Behaviour Assignment::Condition</Text>
+		<Text name="behave_name">Name</Text>
+		<Text name="bubble_offset">Offset</Text>
+		<Text name="beschreibung">Doc: Description</Text>
+		<Text name="bezeichnung">Description</Text>
+		<Text name="calm_down_time">Calm Time</Text>
+		<Text name="caption">Title</Text>
+		<Text name="convert2aa">Convert All Macros to Aktive Areas</Text>
+		<Text name="convertm2aa">Convert Macro to Aktive Area</Text>
+		<Text name="choose_bool">Value Selected</Text>
+		<Text name="choose_nr">Index Selected</Text>
+		<Text name="choose_text">Value Selected</Text>
+		<Text name="confirmation_enter">Confirm with Enter</Text>
+		<Text name="confirmation_tab">Confirm with Tab</Text>
+		<Text name="config_file">Config. File</Text>
+		<Text name="condition">Condition</Text>
+		<Text name="cond_assign_global">Condition Assignment::Global</Text>
+		<Text name="cond_assign_ns">Condition Assignment::Topic</Text>
+		<Text name="cond_assign_object">Condition Assignment::Object</Text>
+		<Text name="check">Check</Text>
+		<Text name="check_strval">Check::String Compare</Text>
+		<Text name="check_boolval">Check::Boolean Compare</Text>
+		<Text name="check_numval">Check::Number Compare</Text>
+		<Text name="check_ctrlval">Check::Control Value Compare</Text>
+		<Text name="check_ctrlexists">Check::Control Exists</Text>
+		<Text name="check_keyattr">Check::Key Attr. Value Compare</Text>
+		<Text name="dbl_click">Double Click</Text>
+		<Text name="demo">Demo</Text>
+		<Text name="define_target">Target Definition</Text>
+		<Text name="drag">Drag</Text>
+		<Text name="drop">Drop</Text>
+		<Text name="dragging">Dragging</Text>
+		<Text name="in_demo">In Demo Mode</Text>
+		<Text name="in_practise">In Practise Mode</Text>
+		<Text name="in_test">In Test Mode</Text>
+		<Text name="in_prax">In Help Mode</Text>
+		<Text name="jump_target">Jump Target</Text>
+		<Text name="set_focus">Set Focus</Text>
+		<Text name="doc">Documentation</Text>
+		<Text name="rerecord">Rerecord</Text>
+		<Text name="prepare_rerecord">Prepare Translation</Text>
+		<Text name="doc_enable">Show in Doc</Text>
+		<Text name="dump_page">Url</Text>
+		<Text name="dump_win_height">Window Height</Text>
+		<Text name="dump_win_left">Window Left</Text>
+		<Text name="dump_win_relpos">Window</Text>
+		<Text name="dump_win_top">Window Top</Text>
+		<Text name="dump_win_width">Window Width</Text>
+		<Text name="dest_variable">Destination Variable</Text>
+		<Text name="edit">Edit</Text>
+		<Text name="edit_bubble_demo">Position Demo Bubble</Text>
+		<Text name="edit_bubble_prax">Position Practise Bubble</Text>
+		<Text name="edit_rect">Edit Marker Position</Text>
+		<Text name="edit_screendump">Edit Screendump</Text>
+		<Text name="edit_screenshot">Crop Doc Screenshot</Text>
+		<Text name="element_type">Element Type</Text>
+		<Text name="enabled">Enabled</Text>
+		<Text name="end_unit">Unit End</Text>
+		<Text name="ende">End</Text>
+		<Text name="explanation">Explanation</Text>
+		<Text name="explanation_d">Explanation Demo</Text>
+		<Text name="explanation_long">Explanation Long</Text>
+		<Text name="explanation_p">Explanation Practise</Text>
+		<Text name="exclusive">Exclusive</Text>
+		<Text name="flash">Frame flashing</Text>
+		<Text name="fieldname">Field Name</Text>
+		<Text name="fieldicon">Field-Icon</Text>
+		<Text name="force_wait">Force Wait</Text>
+		<Text name="frame">Frame</Text>
+		<Text name="free_marker">Doc: Free Marker</Text>
+		<Text name="free_object">Free Object</Text>
+		<Text name="free_object_elem">Free Object Element</Text>
+		<Text name="g_bubble_text_style">Bubble Text Style</Text>
+		<Text name="bubblestyle_d">Bubble Style</Text>
+		<Text name="g_highlight_border">Highlight Border</Text>
+		<Text name="g_highlight_effect">Highlight Effect</Text>
+		<Text name="g_highlight_fillstyle">Highlight Fillstyle</Text>
+		<Text name="g_highlight_name">Highlight Name</Text>
+		<Text name="g_highlight_bgr">Highlight Color (#bbggrr)</Text>
+		<Text name="g_highlight_style">Highlight Style</Text>
+		<Text name="g_linktextpraxis">Praxis Link Text (Forw)</Text>
+		<Text name="g_back_link">Praxis Link Text (Back)</Text>
+		<Text name="show_hl_p">Highlight in Practise</Text>
+		<Text name="gendoc">Generate Word Document</Text>
+		<Text name="general_action">Click Link</Text>
+		<Text name="hilight">Highlight</Text>
+		<Text name="key_press">Key Press</Text>
+		<Text name="key_name">Key Code</Text>
+		<Text name="key_desc">Key Name</Text>
+		<Text name="key_sc_depend">Screenshot dependent Page Key</Text>
+		<Text name="key">Key</Text>
+		<Text name="click_SAP">Click Link in SAP EA Menu</Text>
+		<Text name="genhtml">Generate HTML Document</Text>
+		<Text name="global">Global</Text>
+		<Text name="hinweis">Doc: Note</Text>
+		<Text name="imagesize">Image Size (%)</Text>
+		<Text name="info">Info</Text>
+		<Text name="input radio">Radio/Checkbox</Text>
+		<Text name="input_radio">Radio/Checkbox</Text>
+		<Text name="insert_navigation_flow">Insert Navigation Flow</Text>
+		<Text name="increment_by">Increment by given Value</Text>
+		<Text name="kurs">Boilerplate Text</Text>
+		<Text name="logic">Check Logic</Text>
+		<Text name="lclick">Left Click</Text>
+		<Text name="ldblclick">Left Double Click</Text>
+		<Text name="leaves_page">Leaves Page</Text>
+		<Text name="linktext">Link Text</Text>
+		<Text name="genppt">Generate PowerPoint Document</Text>
+		<Text name="doc_caption">Doc: Subheading</Text>
+		<Text name="macro_comment">Comment</Text>
+		<Text name="macro_validatory">Validate control after every click</Text>
+		<Text name="show_on_focus">Show on Focus</Text>
+		<Text name="min_rect">Minimum Window Size</Text>
+		<Text name="mini_on_focuslost">Minimize on Focus Lost</Text>
+		<Text name="mini_on_focuslost">Hide on Focus Lost</Text>
+		<Text name="hide_on_focuslost">Beim Fokusverlieren verstecken</Text>
+		<Text name="mode">Mode</Text>
+		<Text name="name">Name</Text>
+		<Text name="new_step">Name of Step</Text>
+		<Text name="new_window">New Window</Text>
+		<Text name="new_window_close">Close New Window</Text>
+		<Text name="next asset">New Page</Text>
+		<Text name="new_page">New Page</Text>
+		<Text name="next_page">Next Page</Text>
+		<Text name="no_spike">No Spike</Text>
+		<Text name="note">Remark</Text>
+		<Text name="obj_index">Object Index</Text>
+		<Text name="object">Object</Text>
+		<Text name="objname">Object Name</Text>
+		<Text name="objname2">Object Name</Text>
+		<Text name="orientation">Orientation</Text>
+		<Text name="orientation_b">Orientation Bubble</Text>
+		<Text name="oper">Operation</Text>
+		<Text name="page_break">Doc: Page Break</Text>
+		<Text name="path">Path</Text>
+		<Text name="position">Position</Text>
+		<Text name="position_af">Position Affirmation Button</Text>
+		<Text name="position_b">Position Demo Bubble</Text>
+		<Text name="position_bu">Position Practise Bubble</Text>
+		<Text name="position_h">Object Position</Text>
+		<Text name="position_tc">Pos. Transaction Code</Text>
+		<Text name="possible_points">Maximum Score</Text>
+		<Text name="process_id">Process ID</Text>
+		<Text name="choose_process">Choose Process</Text>
+		<Text name="mastery_score">Mastery Score</Text>
+		<Text name="goto_tourstop">Jump to Tourstop</Text>
+		<Text name="praxis">Concurrent</Text>
+		<Text name="prev_page">Previous Page</Text>
+		<Text name="quick_click">Quick Click</Text>
+		<Text name="click">Click Link</Text>
+		<Text name="rclick">Right Click</Text>
+		<Text name="rdblclick">Right Double Click</Text>
+		<Text name="enter">Mouse Enter</Text>
+		<Text name="record">Automated Recording</Text>
+		<Text name="record2">Automated Recording</Text>
+		<Text name="record_config">Recording Settings</Text>
+		<Text name="set_language">Modify Project Language</Text>
+		<Text name="doc_config">Documentation Settings</Text>
+		<Text name="resize">Resize</Text>
+		<Text name="record_window_id">Recorded Window ID</Text>
+		<Text name="record_page_key">Record Page Key</Text>
+		<Text name="record_click_pos">Record Click Position</Text>
+		<Text name="record_control">Record Control</Text>
+		<Text name="runtime">Runtime</Text>
+		<Text name="revision">Revision</Text>
+		<Text name="screen">Screen</Text>
+		<Text name="sc_calm_down_time">Screen Calm Time</Text>
+		<Text name="screen_tolerence">Tolerated Screen Difference (%)</Text>
+		<Text name="sap_path">SAP Menu Path</Text>
+		<Text name="sc_position">Scrollbar Location</Text>
+		<Text name="script">Script</Text>
+		<Text name="screenshot_border">Screenshot Border</Text>
+		<Text name="screenshot_file">Screenshot</Text>
+		<Text name="screenshot_part">Doc: Partial Screenshot</Text>
+		<Text name="screenshot_rect">Screenshot Rect</Text>
+		<Text name="click_pos">Click Position</Text>
+		<Text name="click_pos_rel">Bubble Pos. (w%, h%)</Text>
+		<Text name="replace_txt">Replace Text</Text>
+		<Text name="scrollInDivsLeftRight">Scroll in Tables left/right</Text>
+		<Text name="scroll_hor">Horizontal Scroll</Text>
+		<Text name="scrollInDivsTopDown">Scroll in Tables up/down</Text>
+		<Text name="scroll_vert">Scroll in Tables up/down</Text>
+		<Text name="scrollleft">Horizontal Pos.</Text>
+		<Text name="scrolltop">Vertical Pos.</Text>
+		<Text name="select single">Select Single</Text>
+		<Text name="select_single">Select Single</Text>
+		<Text name="show_actions">Show actions</Text>
+		<Text name="show_bubble">Show on Activate</Text>
+		<Text name="show_hilight">Show on Activate</Text>
+		<Text name="start_unit">Start Unit</Text>
+		<Text name="status_info">Doc: Status Info</Text>
+		<Text name="status_text">Status Text</Text>
+		<Text name="stop_on_false">Stop Condition Checks on false</Text>
+		<Text name="stop_on_true">Stop Condition Checks on true</Text>
+		<Text name="single_bubble_pos">Single Bubble Pos.(w%, h%)</Text>
+		<Text name="subkey">Allowed as Subkey</Text>
+		<Text name="src_variable">Source Variable</Text>
+		<Text name="target_name">Target Name</Text>
+		<Text name="tcode">Transaction Code</Text>
+		<Text name="test">Test</Text>
+		<Text name="text">Text</Text>
+		<Text name="text_d">Input Text</Text>
+		<Text name="tipp">Tip</Text>
+		<Text name="titel">Title</Text>
+		<Text name="title">Title</Text>
+		<Text name="transaction_code">Transaction Code</Text>
+		<Text name="transaction_info">Doc: Transaction Code</Text>
+		<Text name="translate">Automated Translation</Text>
+		<Text name="task_text">Task Description</Text>
+		<Text name="type">Typ</Text>
+		<Text name="type">Type</Text>
+		<Text name="ts_sc_depend">Screenshot dependent Navigationstop</Text>
+		<Text name="ts_validatory">Validate controls after every click</Text>
+		<Text name="ts">Topic</Text>
+		<Text name="uebung">Practise</Text>
+		<Text name="underline">Underline</Text>
+		<Text name="update">Update</Text>
+		<Text name="update_all_macros">Update All Macros</Text>
+		<Text name="update_pagedump">Update Page Dump</Text>
+		<Text name="update_screenshot">Update Screenshot</Text>
+		<Text name="use_screen_watcher">Use Screen Watcher</Text>
+		<Text name="var_name">Name</Text>
+		<Text name="value">Value</Text>
+		<Text name="variant">Variant</Text>
+		<Text name="var_number">Var::Number</Text>
+		<Text name="var_bool">Var::Boolean</Text>
+		<Text name="var_string">Var::String</Text>
+		<Text name="warnung">Warning/Guideline</Text>
+		<Text name="window_relative">Position relative to Window (w%, h%)</Text>
+		<Text name="win_rect">Window Size</Text>
+		<Text name="win_relpos">Window</Text>
+		<Text name="win_screenshot">New Page as Screenshot</Text>
+		<Text name="winnav_dropdown">Navigation Function</Text>
+		<Text name="zoom_in">Frame Zoom In</Text>
+		<Text name="zoom_in">Rahmen Zoom in</Text>
+		<Text name="zoom_out">Frame Zoom out</Text>
+		<Text name="zoom_out">Rahmen Zoom out</Text>
+	</Language>
+	<Mode name="Navi" IconID="2" play_ok="1" offline_ok="0" doc_ok="1" dmf_suffix="dnt"/>
+	<ParamSet name="global">
+		<ParamInfo type="ENUM" name="g_highlight_effect" helptext="">
+			<EnumValue value="1" name="frame"/>
+			<EnumValue value="2" name="underline"/>
+			<EnumValue value="3" name="flash"/>
+			<EnumValue value="4" name="zoom_in"/>
+			<EnumValue value="5" name="zoom_out"/>
+		</ParamInfo>
+		<ParamInfo type="ENUM" name="g_highlight_border" helptext="">
+			<EnumValue value="1" name="1"/>
+			<EnumValue value="2" name="2"/>
+			<EnumValue value="3" name="3"/>
+			<EnumValue value="4" name="4"/>
+			<EnumValue value="5" name="5"/>
+			<EnumValue value="1" name="6"/>
+			<EnumValue value="2" name="7"/>
+			<EnumValue value="3" name="8"/>
+			<EnumValue value="4" name="9"/>
+			<EnumValue value="5" name="10"/>
+		</ParamInfo>
+		<ParamInfo type="COLOR" name="g_highlight_rgb" helptext=""/>
+		<ParamInfo type="TEXT" name="g_highlight_name" helptext="nur noetig bei festen HLs"/>
+		<ParamInfo type="TEXT" name="g_highlight_style" helptext="nur noetig bei festen HLs"/>
+		<ParamInfo type="TEXT" name="g_highlight_fillstyle" helptext="nur noetig bei festen HLs"/>
+		<ParamInfo type="TEXT" name="g_bubble_text_style" helptext=""/>
+		<ParamInfo type="TEXT" name="g_linktextpraxis" helptext=""/>
+		<ParamInfo type="TEXT" name="g_back_link" helptext=""/>
+	</ParamSet>
+	<GlobalDefault g_highlight_name="hl" g_highlight_effect="frame" g_highlight_style="red" g_highlight_fillstyle="" g_highlight_border="2" g_highlight_rgb="FF0000" g_bubble_text_style="'size=100%'" g_linktextpraxis="weiter" g_back_link="zurück"/>
+	<MacroTemplate Name="global" IconID="21">		<!--MacroTemplate global-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="global">
+            </ParamSet>
+		<ScriptCommand name="winnav_obj_dropdown" type="dropdown" IconID="66" menu_path="/winnav_obj_dropdown" displayMode="24"/>
+		<ScriptCommand name="start_unit" displayMode="24" IconID="3" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("start_unit");
+            </ScriptCommand>
+		<ScriptCommand name="define_target" displayMode="24" IconID="56" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("define_target");
+            </ScriptCommand>
+		<ScriptCommand name="explanation" displayMode="24" IconID="4" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("explanation");
+            </ScriptCommand>
+		<ScriptCommand name="explanation_long" displayMode="24" IconID="12" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("explanation_long");
+            </ScriptCommand>
+		<ScriptCommand name="choose_process" displayMode="24" IconID="47" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("choose_process");
+            </ScriptCommand>
+		<ScriptCommand name="click" displayMode="24" IconID="15" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("click");
+            </ScriptCommand>
+		<ScriptCommand name="active_area" displayMode="24" IconID="65" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("active_area");
+            </ScriptCommand>
+		<ScriptCommand name="key_press" displayMode="24" IconID="45" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("key_press");
+            </ScriptCommand>
+		<ScriptCommand name="input_text" displayMode="24" IconID="7" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("input_text");
+            </ScriptCommand>
+		<ScriptCommand name="select_single" displayMode="24" IconID="8" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("select_single");
+            </ScriptCommand>
+		<ScriptCommand name="input_radio" displayMode="24" IconID="10" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("input_radio");
+            </ScriptCommand>
+		<ScriptCommand name="script" displayMode="24" IconID="31" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("script");
+            </ScriptCommand>
+		<ScriptCommand name="free_object" displayMode="24" IconID="63" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("free_object");
+            </ScriptCommand>
+		<ScriptCommand name="free_object_elem" displayMode="24" IconID="64" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("free_object_elem");
+            </ScriptCommand>
+		<ScriptCommand name="condition" displayMode="24" IconID="77" menu_path="/winnav_obj_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("condition");
+            </ScriptCommand>
+		<ScriptCommand name="winnav_var_dropdown" type="dropdown" IconID="74" menu_path="/winnav_var_dropdown" displayMode="24"/>
+		<ScriptCommand name="var_string" displayMode="24" IconID="74" menu_path="/winnav_var_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("var_string");
+            </ScriptCommand>
+		<ScriptCommand name="var_number" displayMode="24" IconID="75" menu_path="/winnav_var_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("var_number");
+            </ScriptCommand>
+		<ScriptCommand name="var_bool" displayMode="24" IconID="76" menu_path="/winnav_var_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("var_bool");
+            </ScriptCommand>
+		<ScriptCommand name="winnav_beh_dropdown" type="dropdown" IconID="66" menu_path="/winnav_beh_dropdown" displayMode="24"/>
+		<ScriptCommand name="behaviour" displayMode="24" IconID="59" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("behaviour");
+            </ScriptCommand>
+		<ScriptCommand name="beh_cancel" displayMode="24" IconID="59" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_cancel");
+            </ScriptCommand>
+		<ScriptCommand name="beh_display_fo" displayMode="24" IconID="67" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_display_fo");
+            </ScriptCommand>
+		<ScriptCommand name="beh_hide_fo" displayMode="24" IconID="68" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_hide_fo");
+            </ScriptCommand>
+		<ScriptCommand name="beh_foe_bold" displayMode="24" IconID="69" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_foe_bold");
+            </ScriptCommand>
+		<ScriptCommand name="beh_foe_change_state" displayMode="24" IconID="70" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_foe_change_state");
+            </ScriptCommand>
+		<ScriptCommand name="beh_hilight" displayMode="24" IconID="71" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_hilight");
+            </ScriptCommand>
+		<ScriptCommand name="beh_hide_hilight" displayMode="24" IconID="72" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_hide_hilight");
+            </ScriptCommand>
+		<ScriptCommand name="beh_show_bubble" displayMode="24" IconID="72" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_show_bubble");
+            </ScriptCommand>
+		<ScriptCommand name="beh_hide_bubble" displayMode="24" IconID="72" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_hide_bubble");
+            </ScriptCommand>
+		<ScriptCommand name="beh_set_value" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_set_value");
+            </ScriptCommand>
+		<ScriptCommand name="beh_get_value" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_get_value");
+            </ScriptCommand>
+		<ScriptCommand name="beh_jump" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_jump");
+            </ScriptCommand>
+		<ScriptCommand name="beh_access" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_access");
+            </ScriptCommand>
+		<ScriptCommand name="beh_standby" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_standby");
+            </ScriptCommand>
+		<ScriptCommand name="beh_exec_mouse_action" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_exec_mouse_action");
+            </ScriptCommand>
+		<ScriptCommand name="beh_set_strvar" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_set_strvar");
+            </ScriptCommand>
+		<ScriptCommand name="beh_set_boolvar" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_set_boolvar");
+            </ScriptCommand>
+		<ScriptCommand name="beh_set_numvar" displayMode="24" IconID="73" menu_path="/winnav_beh_dropdown">
+                #use(winnavr_macro_functions.js); winnavr_insert_macro("beh_set_numvar");
+            </ScriptCommand>
+		<ScriptCommand name="winnav_check_dropdown" type="dropdown" IconID="78" menu_path="/winnav_check_dropdown" displayMode="24"/>
+		<ScriptCommand name="check" displayMode="24" IconID="78" menu_path="/winnav_check_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("check");
+            </ScriptCommand>
+		<ScriptCommand name="check_strval" displayMode="24" IconID="78" menu_path="/winnav_check_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("check_strval");
+            </ScriptCommand>
+		<ScriptCommand name="check_boolval" displayMode="24" IconID="78" menu_path="/winnav_check_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("check_boolval");
+            </ScriptCommand>
+		<ScriptCommand name="check_numval" displayMode="24" IconID="78" menu_path="/winnav_check_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("check_numval");
+            </ScriptCommand>
+		<ScriptCommand name="check_ctrlexists" displayMode="24" IconID="78" menu_path="/winnav_check_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("check_ctrlexists");
+            </ScriptCommand>
+		<ScriptCommand name="check_ctrlval" displayMode="24" IconID="78" menu_path="/winnav_check_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("check_ctrlval");
+            </ScriptCommand>
+		<ScriptCommand name="check_keyattr" displayMode="24" IconID="78" menu_path="/winnav_check_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("check_keyattr");
+            </ScriptCommand>
+		<ScriptCommand name="winnav_assign_dropdown" type="dropdown" IconID="60" menu_path="/winnav_assign_dropdown" displayMode="24"/>
+		<ScriptCommand name="behaviour_assign_global" displayMode="24" IconID="60" menu_path="/winnav_assign_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("behaviour_assign_global");
+            </ScriptCommand>
+		<ScriptCommand name="behaviour_assign_ns" displayMode="24" IconID="61" menu_path="/winnav_assign_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("behaviour_assign_ns");
+            </ScriptCommand>
+		<ScriptCommand name="behaviour_assign_object" displayMode="24" IconID="62" menu_path="/winnav_assign_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("behaviour_assign_object");
+            </ScriptCommand>
+		<ScriptCommand name="behaviour_assign_condition" displayMode="24" IconID="82" menu_path="/winnav_assign_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("behaviour_assign_condition");
+            </ScriptCommand>
+		<ScriptCommand name="cond_assign_global" displayMode="24" IconID="79" menu_path="/winnav_assign_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("cond_assign_global");
+            </ScriptCommand>
+		<ScriptCommand name="cond_assign_ns" displayMode="24" IconID="80" menu_path="/winnav_assign_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("cond_assign_ns");
+            </ScriptCommand>
+		<ScriptCommand name="cond_assign_object" displayMode="24" IconID="81" menu_path="/winnav_assign_dropdown">
+                 #use(winnavr_macro_functions.js); winnavr_insert_macro("cond_assign_object");
+            </ScriptCommand>
+		<ScriptCommand name="winnav_dropdown" type="dropdown" IconID="66" menu_path="/winnav_dropdown" displayMode="24"/>
+		<ScriptCommand name="convert2aa" displayMode="24" IconID="65" menu_path="/winnav_dropdown">
+                #use(winnavr_functions.js); winnavr_convert_n2aa();
+            </ScriptCommand>
+		<ScriptCommand name="insert_navigation_flow" displayMode="24" IconID="9" menu_path="/winnav_dropdown">
+                #use(winnavr_functions.js); winnavr_insert_navigation_flow();
+            </ScriptCommand>
+	</MacroTemplate>
+	<MacroTemplate Name="start_unit" rgbcolor="#daea00" Duration="20" user_defined="0" IconID="3">		<!--MacroTemplate start_unit-->
+
+		<ParamSet name="start_unit">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="INTEGER" name="obj_index"/>
+			<ParamInfo type="INTEGER" name="app_res_time"/>
+			<ParamInfo type="BOOL_0_1" name="use_screen_watcher"/>
+			<ParamInfo type="INTEGER" name="screen_tolerence"/>
+			<ParamInfo type="INTEGER" name="sc_calm_down_time"/>
+		</ParamSet>
+		<Default obj_index="0" app_res_time="0" use_screen_watcher="0" screen_tolerence="6" sc_calm_down_time="20"/>
+		<StringTemplate name="js_define">
+winnavp_global.AppResponseTime=$%app_res_time$;winnavp_global.ScreenCalmDownTime=$%sc_calm_down_time$;winnavp_global.ScreenTolerence=$%screen_tolerence$;winnavp_global.UseScreenWatcher=$%use_screen_watcher$;
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="define_target" rgbcolor="#66c5c5" Duration="20" IconID="56">		<!--MacroTemplate define_target-->
+
+		<Properties hidden="true"/>
+		<ScriptCommand name="record_page_key" displayMode="2" IconID="20">
+            #use(winnavr_functions.js); winnavr_record_pagekey();
+        </ScriptCommand>
+		<ParamSet name="define_target">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="target_name"/>
+			<ParamInfo type="TOURSTOP_CAPTION" name="ts"/>
+			<ParamInfo type="TEXT" name="process_id"/>
+			<ParamInfo type="ENUM" name="mode">
+				<EnumValue value="Multiple Bubble" name="Multiple Bubble"/>
+				<EnumValue value="Single Bubble" name="Single Bubble"/>
+			</ParamInfo>
+			<ParamGroup name="key">
+				<ParamInfo type="TEXT" name="config_file"/>
+				<ParamInfo type="TEXT" name="revision"/>
+				<ParamInfo type="TEXT_SHORT" name="key"/>
+				<ParamInfo type="BOOL_0_1" name="subkey"/>
+			</ParamGroup>
+			<ParamGroup name="screen">
+				<ParamInfo type="IMAGE_DOC_REL" name="screenshot_file" NoExport="1">
+					<Properties filter="Image File (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="POSSIZE" name="win_rect" NoExport="1"/>
+			</ParamGroup>
+			<ParamGroup name="bubble">
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="POSITION" name="single_bubble_pos" NoExport="1"/>
+				<ParamInfo type="INTEGER" name="b_width"/>
+				<ParamInfo type="INTEGER" name="b_height"/>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation"/>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable"/>
+				<ParamInfo type="BOOL_0_1" name="b_movable"/>
+			</ParamGroup>
+			<ParamGroup name="hilight">
+				<ParamInfo type="ENUM" name="g_highlight_effect">
+					<EnumValue value="1" name="frame"/>
+					<EnumValue value="2" name="underline"/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="g_highlight_border"/>
+				<ParamInfo type="TEXT" name="g_highlight_bgr"/>
+				<ParamInfo type="INTEGER" name="anim_steps"/>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="BOOL_0_1" name="resize"/>
+				<ParamInfo type="BOOL_0_1" name="ts_validatory"/>
+				<ParamInfo type="BOOL_0_1" name="key_sc_depend"/>
+				<ParamInfo type="BOOL_0_1" name="ts_sc_depend"/>
+				<ParamInfo type="INTEGER" name="screen_tolerence"/>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="150" b_height="40" b_minimizable="1" b_movable="1" orientation="C" mode="Multiple Bubble" process_id="-1" ts_validatory="0" key_sc_depend="1" ts_sc_depend="1" resize="0" subkey="0" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x0000ff" anim_steps="30" screen_tolerence="-1">
+			<single_bubble_pos x="60" y="50"/>
+			<win_rect x="0" y="0" cx="0" cy="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_target = new winnavp_Target();ctx_target.name='$%target_name$';ctx_target.tolerence=$%screen_tolerence$;ctx_target.key='$%key$';ctx_target.process_id=$%process_id$;ctx_target.ts_validatory=$%ts_validatory$;ctx_target.subkey=$%subkey$;
+ctx_target.ts_graphic_dependent=$%ts_sc_depend$;ctx_target.key_graphic_dependent=$%key_sc_depend$;ctx_target.config_file='$%config_file$';
+ctx_target.ts_caption='$%ts$';ctx_target.ts_mode='$%mode$';ctx_target.single_bubble_pos={dx:$%single_bubble_pos.x$,dy:$%single_bubble_pos.y$};
+ctx_target.win_rect=CreateRect($%win_rect.x$,$%win_rect.y$,$%win_rect.x$+$%win_rect.cx$,$%win_rect.y$+$%win_rect.cy$);ctx_target.resize_win=$%resize$;
+ctx_bubble=new winnavp_Bubble();ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.no_spike=1;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_target.bubble=ctx_bubble;
+ctx_hilight=new winnavp_Hilight();ctx_hilight.autohide=true;ctx_hilight.htype='$%g_highlight_effect$'=='frame' ? 0 : 1;ctx_hilight.border=$%g_highlight_border$;ctx_hilight.color=$%g_highlight_bgr$;ctx_hilight.animsteps=$%anim_steps$;ctx_target.hilight=ctx_hilight;
+winnavp_player.TargetMap.Insert(ctx_target);
+        </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="explanation" rgbcolor="#eada00" Duration="60" user_defined="0" IconID="4">		<!--MacroTemplate explanation-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true"/>
+		<ScriptCommand name="record_click_pos" displayMode="2" IconID="20">
+                #use(winnavr_functions.js); winnavr_record_clickpos_rel();
+            </ScriptCommand>
+		<ParamSet name="explanation">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="TEXT" name="fieldname">
+
+</ParamInfo>
+				<ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+					<Properties filter="Image File (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="click_pos_rel" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="180" b_height="40" doc_enable="yes" b_minimizable="1" b_movable="1" explanation_d="" orientation="SE" fieldicon="" b_minimized="0" enabled="1" no_spike="0">
+			<click_pos_rel x="50" y="50"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='WINExplain';ctx_control.ctrl_dependent=false;ctx_control.enabled=$%enabled$;ctx_control.fieldname='$%fieldname$';ctx_control.click_pos={x:$%click_pos_rel.x$,y:$%click_pos_rel.y$};eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_window.Macros.push(ctx_control);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="explanation_long" rgbcolor="#eada00" Duration="50" user_defined="0" IconID="12">		<!--MacroTemplate explanation_long-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true" element_type="true" screenshot_file="true" screenshot_rect="true"/>
+		<ScriptCommand name="record_click_pos" displayMode="2" IconID="20">
+                #use(winnavr_functions.js); winnavr_record_clickpos_rel();
+            </ScriptCommand>
+		<ParamSet name="explanation_long">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="TEXT" name="fieldname">
+
+</ParamInfo>
+				<ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+					<Properties filter="Image File (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="click_pos_rel" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="400" b_height="40" doc_enable="yes" orientation="C" b_minimizable="1" b_movable="1" fieldicon="" explanation_d="" b_minimized="0" enabled="1" no_spike="0">
+			<click_pos_rel x="50" y="50"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='WINExplainLong';ctx_control.enabled=$%enabled$;ctx_control.ctrl_dependent=false;ctx_control.fieldname='$%fieldname$';ctx_control.click_pos={x:$%click_pos_rel.x$,y:$%click_pos_rel.y$};eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_window.Macros.push(ctx_control);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="choose_process" rgbcolor="#eada00" Duration="50" user_defined="0" IconID="47">		<!--MacroTemplate choose_process-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true" element_type="true" screenshot_file="true" screenshot_rect="true"/>
+		<ScriptCommand name="record_click_pos" displayMode="2" IconID="20">
+                #use(winnavr_functions.js); winnavr_record_clickpos_rel();
+            </ScriptCommand>
+		<ParamSet name="choose_process">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="click_pos_rel" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="180" b_height="40" doc_enable="yes" orientation="C" b_minimizable="1" b_movable="1" explanation_d="&lt;INPUT type=&quot;radio&quot; name=&quot;proc&quot; onclick='window.external.onClick(&quot;winnavp_SetProcessID(1);winnavp_Restart();&quot;)'&gt;Process 1&lt;BR&gt;&lt;INPUT type=&quot;radio&quot; name=&quot;proc&quot; onclick='window.external.onClick(&quot;winnavp_SetProcessID(2);winnavp_Restart();&quot;);'&gt;Process 2" b_minimized="0" no_spike="0">
+			<click_pos_rel x="50" y="50"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='WINProcess';ctx_control.ctrl_dependent=false;ctx_control.click_pos={x:$%click_pos_rel.x$,y:$%click_pos_rel.y$};eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_window.Macros.push(ctx_control);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="click" rgbcolor="#008684" Duration="80" user_defined="0" IconID="15" alt_name="general_action">		<!--MacroTemplate click-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true" orientation="true" position_h="true" element_type="true" screenshot_file="true" screenshot_rect="true"/>
+		<ScriptCommand name="record_control" displayMode="2" IconID="20">
+                #use(winnavr_functions.js); winnavr_record_control();
+            </ScriptCommand>
+		<ScriptCommand name="convertm2aa" displayMode="2" IconID="65">
+                #use(winnavr_functions.js); winnavr_convert_mymac2aa();
+            </ScriptCommand>
+		<ParamSet name="click">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="objname">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="fieldname">
+
+</ParamInfo>
+			<ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+				<Properties filter="Image File (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamInfo type="ENUM" name="action" helptext="">
+				<EnumValue value="1" name="lclick"/>
+				<EnumValue value="2" name="ldblclick"/>
+				<EnumValue value="3" name="rclick"/>
+				<EnumValue value="4" name="rdblclick"/>
+				<EnumValue value="5" name="drag"/>
+				<EnumValue value="6" name="drop"/>
+				<EnumValue value="7" name="enter"/>
+			</ParamInfo>
+			<ParamGroup name="bubble">
+				<ParamInfo type="BOOL_0_1" name="show_bubble">
+
+</ParamInfo>
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="show_on_focus">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="mini_on_focuslost">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="hide_on_focuslost">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="hilight">
+				<ParamInfo type="BOOL_0_1" name="show_hilight">
+
+</ParamInfo>
+				<ParamInfo type="ENUM" name="g_highlight_effect">
+					<EnumValue value="1" name="frame"/>
+					<EnumValue value="2" name="underline"/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="g_highlight_border">
+
+</ParamInfo>
+				<ParamInfo type="TEXT" name="g_highlight_bgr">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="anim_steps">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="auto_hide">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="TEXT" name="element_type" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="click_pos" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1"/>
+				<ParamInfo type="TEXT" name="path">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="leaves_page">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="macro_validatory">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="150" b_height="40" b_minimizable="1" b_movable="1" orientation="SE" action="lclick" fieldicon="" b_minimized="0" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="0" show_hilight="1" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0">
+			<click_pos x="-1" y="-1"/>
+			<screenshot_rect left="-1" top="-1" right="-1" bottom="-1"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='$%element_type$';ctx_control.enabled=$%enabled$;ctx_control.bubble_enabled=$%show_bubble$;ctx_control.hilight_enabled=$%show_hilight$;ctx_control.validatory=$%macro_validatory$;ctx_control.objectname='$%objname$';ctx_control.fieldname='$%fieldname$';ctx_control.click_pos={x:$%click_pos.x$,y:$%click_pos.y$};ctx_control.action='$%action$';ctx_control.path='$%path$';ctx_control.leaves_page=$%leaves_page$;eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_hilight=new winnavp_Hilight();ctx_hilight.autohide=$%auto_hide$==0 ? false : true;ctx_hilight.htype='$%g_highlight_effect$'=='frame' ? 0 : 1;ctx_hilight.border=$%g_highlight_border$;ctx_hilight.color=$%g_highlight_bgr$;ctx_hilight.animsteps=$%anim_steps$;ctx_control.hilight=ctx_hilight;
+ctx_window.Macros.push(ctx_control);
+if ($%show_on_focus$) {var obj = {script:'ctx_control.ShowEffectBubble();',action:'Focus',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%mini_on_focuslost$) {var obj = {script:'ctx_control.MinimizeBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%hide_on_focuslost$) {var obj = {script:'ctx_control.HideEffectBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="active_area" rgbcolor="#008684" Duration="80" user_defined="0" IconID="65" alt_name="active_area">		<!--MacroTemplate active_area-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true" orientation="true" position_h="true" element_type="true" screenshot_file="true" screenshot_rect="true"/>
+		<ParamSet name="active_area">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="objname">
+
+</ParamInfo>
+			<ParamInfo type="POSSIZE" name="area" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamGroup name="bubble">
+				<ParamInfo type="BOOL_0_1" name="show_bubble">
+
+</ParamInfo>
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="show_on_focus">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="mini_on_focuslost">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="hide_on_focuslost">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="hilight">
+				<ParamInfo type="BOOL_0_1" name="show_hilight">
+
+</ParamInfo>
+				<ParamInfo type="ENUM" name="g_highlight_effect">
+					<EnumValue value="1" name="frame"/>
+					<EnumValue value="2" name="underline"/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="g_highlight_border">
+
+</ParamInfo>
+				<ParamInfo type="TEXT" name="g_highlight_bgr">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="anim_steps">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="auto_hide">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="BOOL_0_1" name="leaves_page">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="macro_validatory">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="150" b_height="40" b_minimizable="1" b_movable="1" orientation="SE" b_minimized="0" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="0" show_hilight="1" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0">
+			<click_pos x="-1" y="-1"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='WINActiveArea';ctx_control.enabled=$%enabled$;ctx_control.bubble_enabled=$%show_bubble$;ctx_control.hilight_enabled=$%show_hilight$;ctx_control.validatory=$%macro_validatory$;ctx_control.objectname='$%objname$';
+ctx_control.rect=CreateRect($%area.x$,$%area.y$,$%area.x$+$%area.cx$,$%area.y$+$%area.cy$);ctx_control.leaves_page=$%leaves_page$;ctx_control.ctrl_dependent=false;eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_hilight=new winnavp_Hilight();ctx_hilight.autohide=$%auto_hide$==0 ? false : true;ctx_hilight.htype='$%g_highlight_effect$'=='frame' ? 0 : 1;ctx_hilight.border=$%g_highlight_border$;ctx_hilight.color=$%g_highlight_bgr$;ctx_hilight.animsteps=$%anim_steps$;ctx_control.hilight=ctx_hilight;
+ctx_window.Macros.push(ctx_control);
+if ($%show_on_focus$) {var obj = {script:'ctx_control.ShowEffectBubble();',action:'Focus',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%mini_on_focuslost$) {var obj = {script:'ctx_control.MinimizeBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%hide_on_focuslost$) {var obj = {script:'ctx_control.HideEffectBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="key_press" rgbcolor="#008684" Duration="80" user_defined="0" IconID="45">		<!--MacroTemplate key_press-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true" orientation="true" position_h="true" element_type="true" screenshot_file="true" screenshot_rect="true"/>
+		<ScriptCommand name="record_click_pos" displayMode="2" IconID="20">
+                #use(winnavr_functions.js); winnavr_record_clickpos_rel();
+            </ScriptCommand>
+		<ScriptCommand name="convertm2aa" displayMode="2" IconID="65">
+                #use(winnavr_functions.js); winnavr_convert_mymac2aa();
+            </ScriptCommand>
+		<ParamSet name="key_press">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="objname">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="key_name">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="key_desc">
+
+</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamGroup name="bubble">
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="POSITION" name="click_pos_rel" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="TEXT" name="path">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="leaves_page">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="150" b_height="40" b_minimizable="1" b_movable="1" orientation="SE" position_h="0" b_minimized="0" enabled="1" leaves_page="0" no_spike="0">
+			<click_pos_rel x="50" y="50"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='WINKeyPress';ctx_control.enabled=$%enabled$;ctx_control.ctrl_dependent=false;ctx_control.objectname='$%objname$';ctx_control.fieldname='$%key_desc$';ctx_control.click_pos={x:$%click_pos_rel.x$,y:$%click_pos_rel.y$};ctx_control.path='$%path$';ctx_control.leaves_page=$%leaves_page$;eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_window.Macros.push(ctx_control);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="input_text" rgbcolor="#b5bb1b" Duration="80" user_defined="0" IconID="7" alt_name="activate field text">		<!--MacroTemplate input_text-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true" explanation_d="true" orientation="true" text_d="true" position_h="true" element_type="true" screenshot_file="true" screenshot_rect="true"/>
+		<ScriptCommand name="record_control" displayMode="2" IconID="20">
+                #use(winnavr_functions.js); winnavr_record_control();
+            </ScriptCommand>
+		<ScriptCommand name="convertm2aa" displayMode="2" IconID="65">
+                #use(winnavr_functions.js); winnavr_convert_mymac2aa();
+            </ScriptCommand>
+		<ParamSet name="input_text">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="objname">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="fieldname">
+
+</ParamInfo>
+			<ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+				<Properties filter="Image File (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="TEXT" name="text_d">
+
+</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamGroup name="bubble">
+				<ParamInfo type="BOOL_0_1" name="show_bubble">
+
+</ParamInfo>
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="show_on_focus">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="mini_on_focuslost">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="hide_on_focuslost">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="hilight">
+				<ParamInfo type="BOOL_0_1" name="show_hilight">
+
+</ParamInfo>
+				<ParamInfo type="ENUM" name="g_highlight_effect">
+					<EnumValue value="1" name="frame"/>
+					<EnumValue value="2" name="underline"/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="g_highlight_border">
+
+</ParamInfo>
+				<ParamInfo type="TEXT" name="g_highlight_bgr">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="anim_steps">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="auto_hide">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="TEXT" name="element_type" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="click_pos" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1"/>
+				<ParamInfo type="TEXT" name="path">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="macro_validatory">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="leaves_page">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="180" b_height="40" b_minimizable="1" b_movable="1" explanation_d="" orientation="SE" fieldicon="" init="" b_minimized="1" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="0" show_hilight="1" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0">
+			<click_pos x="-1" y="-1"/>
+			<screenshot_rect left="-1" top="-1" right="-1" bottom="-1"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='$%element_type$';ctx_control.enabled=$%enabled$;ctx_control.bubble_enabled=$%show_bubble$;ctx_control.hilight_enabled=$%show_hilight$;ctx_control.validatory=$%macro_validatory$;ctx_control.objectname='$%objname$';ctx_control.fieldname='$%fieldname$';ctx_control.click_pos={x:$%click_pos.x$,y:$%click_pos.y$};ctx_control.action='$%action$';ctx_control.path='$%path$';ctx_control.value='$%text_d$';ctx_control.leaves_page=$%leaves_page$;eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_hilight=new winnavp_Hilight();ctx_hilight.autohide=$%auto_hide$==0 ? false : true;ctx_hilight.htype='$%g_highlight_effect$'=='frame' ? 0 : 1;ctx_hilight.border=$%g_highlight_border$;ctx_hilight.color=$%g_highlight_bgr$;ctx_hilight.animsteps=$%anim_steps$;ctx_control.hilight=ctx_hilight;
+ctx_window.Macros.push(ctx_control);
+if ($%show_on_focus$) {var obj = {script:'ctx_control.ShowEffectBubble();',action:'Focus',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%mini_on_focuslost$) {var obj = {script:'ctx_control.MinimizeBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%hide_on_focuslost$) {var obj = {script:'ctx_control.HideEffectBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="select_single" rgbcolor="#bb769a" Duration="80" user_defined="0" IconID="8" alt_name="select single">		<!--MacroTemplate select_single-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true" explanation_d="true" orientation="true" choose_nr="true" position_h="true" element_type="true" screenshot_file="true" screenshot_rect="true"/>
+		<ScriptCommand name="record_control" displayMode="2" IconID="20">
+                #use(winnavr_functions.js); winnavr_record_control();
+            </ScriptCommand>
+		<ScriptCommand name="convertm2aa" displayMode="2" IconID="65">
+                #use(winnavr_functions.js); winnavr_convert_mymac2aa();
+            </ScriptCommand>
+		<ParamSet name="select_single">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="objname">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="fieldname">
+
+</ParamInfo>
+			<ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+				<Properties filter="Image File (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="INTEGER" name="choose_nr">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="choose_text">
+
+</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamGroup name="bubble">
+				<ParamInfo type="BOOL_0_1" name="show_bubble">
+
+</ParamInfo>
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="show_on_focus">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="mini_on_focuslost">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="hide_on_focuslost">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="hilight">
+				<ParamInfo type="BOOL_0_1" name="show_hilight">
+
+</ParamInfo>
+				<ParamInfo type="ENUM" name="g_highlight_effect">
+					<EnumValue value="1" name="frame"/>
+					<EnumValue value="2" name="underline"/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="g_highlight_border">
+
+</ParamInfo>
+				<ParamInfo type="TEXT" name="g_highlight_bgr">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="anim_steps">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="auto_hide">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="TEXT" name="element_type" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="click_pos" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1"/>
+				<ParamInfo type="TEXT" name="path">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="macro_validatory">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="leaves_page">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="180" b_height="40" b_minimizable="1" b_movable="1" choose_nr="0" explanation_d="" orientation="SE" fieldicon="" b_minimized="0" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="0" show_hilight="1" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0">
+			<click_pos x="-1" y="-1"/>
+			<screenshot_rect left="-1" top="-1" right="-1" bottom="-1"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='$%element_type$';ctx_control.enabled=$%enabled$;ctx_control.bubble_enabled=$%show_bubble$;ctx_control.hilight_enabled=$%show_hilight$;ctx_control.validatory=$%macro_validatory$;ctx_control.objectname='$%objname$';ctx_control.fieldname='$%fieldname$';ctx_control.click_pos={x:$%click_pos.x$,y:$%click_pos.y$};ctx_control.action='$%action$';ctx_control.path='$%path$';ctx_control.value='$%choose_text$';ctx_control.leaves_page=$%leaves_page$;eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_hilight=new winnavp_Hilight();ctx_hilight.autohide=$%auto_hide$==0 ? false : true;ctx_hilight.htype='$%g_highlight_effect$'=='frame' ? 0 : 1;ctx_hilight.border=$%g_highlight_border$;ctx_hilight.color=$%g_highlight_bgr$;ctx_hilight.animsteps=$%anim_steps$;ctx_control.hilight=ctx_hilight;
+ctx_window.Macros.push(ctx_control);
+if ($%show_on_focus$) {var obj = {script:'ctx_control.ShowEffectBubble();',action:'Focus',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%mini_on_focuslost$) {var obj = {script:'ctx_control.MinimizeBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%hide_on_focuslost$) {var obj = {script:'ctx_control.HideEffectBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="input_radio" rgbcolor="#4e6dbb" Duration="80" user_defined="0" IconID="10" alt_name="input radio">		<!--MacroTemplate input_radio-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<NoRecord b_width="true" b_height="true" choose_bool="true" explanation_d="true" orientation="true" position_h="true" element_type="true" screenshot_file="true" screenshot_rect="true"/>
+		<ScriptCommand name="record_control" displayMode="2" IconID="20">
+                #use(winnavr_functions.js); winnavr_record_control();
+            </ScriptCommand>
+		<ScriptCommand name="convertm2aa" displayMode="2" IconID="65">
+                #use(winnavr_functions.js); winnavr_convert_mymac2aa();
+            </ScriptCommand>
+		<ParamSet name="input_radio">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="objname">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="fieldname">
+
+</ParamInfo>
+			<ParamInfo type="IMAGE_PAGE_REL" name="fieldicon">
+				<Properties filter="Image File (*.jpg,*.bmp,*.gif,*.png)|*.jpg;*.bmp;*.gif;*.png" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="TEXT" name="choose_bool">
+
+</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamGroup name="bubble">
+				<ParamInfo type="BOOL_0_1" name="show_bubble">
+
+</ParamInfo>
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_height">
+
+</ParamInfo>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimized">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="no_spike">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="b_movable">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="show_on_focus">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="mini_on_focuslost">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="hide_on_focuslost">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="hilight">
+				<ParamInfo type="BOOL_0_1" name="show_hilight">
+
+</ParamInfo>
+				<ParamInfo type="ENUM" name="g_highlight_effect">
+					<EnumValue value="1" name="frame"/>
+					<EnumValue value="2" name="underline"/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="g_highlight_border">
+
+</ParamInfo>
+				<ParamInfo type="TEXT" name="g_highlight_bgr">
+
+</ParamInfo>
+				<ParamInfo type="INTEGER" name="anim_steps">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="auto_hide">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="script">
+				<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+			</ParamGroup>
+			<ParamGroup name="adv">
+				<ParamInfo type="TEXT" name="element_type" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="POSITION" name="click_pos" NoExport="1">
+
+</ParamInfo>
+				<ParamInfo type="POSSIZE" name="screenshot_rect" NoExport="1"/>
+				<ParamInfo type="TEXT" name="path">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="macro_validatory">
+
+</ParamInfo>
+				<ParamInfo type="BOOL_0_1" name="leaves_page">
+
+</ParamInfo>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="180" b_height="40" b_minimizable="1" b_movable="1" explanation_d="Wählen Sie diese Option aus." orientation="SE" fieldicon="" init="/*ctx_control.Handlers.onFocusLost=function(){ctx_control.HideEffectHighlight();if (ctx_control.Recapture() &amp;&amp; NavPlayer.CtrlValue!=ctx_control.value) {ctx_control.ShowEffectHighlight();return false;} else {ctx_control.HideEffectHighlight();} return true;}*/" b_minimized="0" macro_validatory="1" enabled="1" leaves_page="0" no_spike="0" show_bubble="0" show_hilight="1" g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0" show_on_focus="0" mini_on_focuslost="0" hide_on_focuslost="0">
+			<click_pos x="-1" y="-1"/>
+			<screenshot_rect left="-1" top="-1" right="-1" bottom="-1"/>
+			<bubble_offset x="0" y="0"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_control=new winnavp_Macro();ctx_control.element_type='$%element_type$';ctx_control.enabled=$%enabled$;ctx_control.bubble_enabled=$%show_bubble$;ctx_control.hilight_enabled=$%show_hilight$;ctx_control.validatory=$%macro_validatory$;ctx_control.objectname='$%objname$';ctx_control.fieldname='$%fieldname$';ctx_control.click_pos={x:$%click_pos.x$,y:$%click_pos.y$};ctx_control.action='$%action$';ctx_control.path='$%path$';ctx_control.value='$%choose_bool$';ctx_control.leaves_page=$%leaves_page$;eval('$%init$');
+ctx_bubble=new winnavp_Bubble();ctx_bubble.explanation='$%explanation_d$';ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_control.bubble=ctx_bubble;
+ctx_hilight=new winnavp_Hilight();ctx_hilight.autohide=$%auto_hide$==0 ? false : true;ctx_hilight.htype='$%g_highlight_effect$'=='frame' ? 0 : 1;ctx_hilight.border=$%g_highlight_border$;ctx_hilight.color=$%g_highlight_bgr$;ctx_hilight.animsteps=$%anim_steps$;ctx_control.hilight=ctx_hilight;
+ctx_window.Macros.push(ctx_control);
+if ($%show_on_focus$) {var obj = {script:'ctx_control.ShowEffectBubble();',action:'Focus',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%mini_on_focuslost$) {var obj = {script:'ctx_control.MinimizeBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+if ($%hide_on_focuslost$) {var obj = {script:'ctx_control.HideEffectBubble();',action:'FocusLost',type:'object',objname:'$%objname$'};winnavp_behaviours.AssignDirect(obj);}
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="script" rgbcolor="#66c5c5" Duration="20" IconID="31">		<!--MacroTemplate script-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="script">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT_SHORT" name="init">
+
+</ParamInfo>
+		</ParamSet>
+		<Default init=""/>
+		<StringTemplate name="js_define">
+ctx_control = new winnavp_Macro();ctx_control.playable=false;eval('$%init$');
+ctx_window.Macros.push(ctx_control);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="behaviour" rgbcolor="#66c5c5" Duration="20" IconID="59">		<!--MacroTemplate behaviour-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="behaviour">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="behave_name">
+
+</ParamInfo>
+			<ParamInfo type="TEXT_SHORT" name="script">
+
+</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';ctx_behave.script='$%script$';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="behaviour_assign_global" rgbcolor="#66c5c5" Duration="20" IconID="60" alt_name="behaviour_assign::global">
+		<Properties hidden="true"/>
+		<ParamSet name="behaviour_assign_global">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="MACROATTR_NAME" name="behaviour">
+				<Properties macro_name="*" attr_name="behave_name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="action" helptext="">
+				<EnumValue value="1" name="LClick"/>
+				<EnumValue value="2" name="RClick"/>
+				<EnumValue value="3" name="LDblClick"/>
+				<EnumValue value="4" name="RDblClick"/>
+				<EnumValue value="5" name="Drag"/>
+				<EnumValue value="6" name="Drop"/>
+				<EnumValue value="7" name="Dragging"/>
+				<EnumValue value="8" name="Focus"/>
+				<EnumValue value="9" name="FocusLost"/>
+				<EnumValue value="10" name="PageLoad"/>
+				<EnumValue value="11" name="PageUnload"/>
+				<EnumValue value="12" name="KeyPress"/>
+				<EnumValue value="13" name="Start"/>
+				<EnumValue value="14" name="Stop"/>
+			</ParamInfo>
+		</ParamSet>
+		<Default action="LClick"/>
+		<StringTemplate name="js_define">
+var obj = {behaviour:'$%behaviour$',action:'$%action$',type:'global'};
+winnavp_behaviours.Assign(obj);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="behaviour_assign_ns" rgbcolor="#66c5c5" Duration="20" IconID="61" alt_name="behaviour_assign::ns">
+		<Properties hidden="true"/>
+		<ParamSet name="behaviour_assign_ns">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="MACROATTR_NAME" name="behaviour">
+				<Properties macro_name="*" attr_name="behave_name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="action" helptext="">
+				<EnumValue value="1" name="LClick"/>
+				<EnumValue value="2" name="RClick"/>
+				<EnumValue value="3" name="LDblClick"/>
+				<EnumValue value="4" name="RDblClick"/>
+				<EnumValue value="5" name="Focus"/>
+				<EnumValue value="6" name="FocusLost"/>
+				<EnumValue value="7" name="PageLoad"/>
+				<EnumValue value="8" name="PageUnload"/>
+				<EnumValue value="9" name="KeyPress"/>
+				<EnumValue value="10" name="Start"/>
+				<EnumValue value="11" name="Stop"/>
+			</ParamInfo>
+			<ParamInfo type="TOURSTOP_CAPTION" name="ts"/>
+		</ParamSet>
+		<Default action="LClick"/>
+		<StringTemplate name="js_define">
+var obj = {behaviour:'$%behaviour$',action:'$%action$',type:'ts',ns:'$%ts$'};
+winnavp_behaviours.Assign(obj);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="behaviour_assign_object" rgbcolor="#66c5c5" Duration="20" IconID="62" alt_name="behaviour_assign::object">
+		<Properties hidden="true"/>
+		<ParamSet name="behaviour_assign_object">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="MACROATTR_NAME" name="behaviour">
+				<Properties macro_name="*" attr_name="behave_name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="action" helptext="">
+				<EnumValue value="1" name="LClick"/>
+				<EnumValue value="2" name="RClick"/>
+				<EnumValue value="3" name="LDblClick"/>
+				<EnumValue value="4" name="RDblClick"/>
+				<EnumValue value="5" name="Focus"/>
+				<EnumValue value="6" name="FocusLost"/>
+				<EnumValue value="7" name="PageLoad"/>
+				<EnumValue value="8" name="PageUnload"/>
+				<EnumValue value="9" name="KeyPress"/>
+				<EnumValue value="10" name="Start"/>
+				<EnumValue value="11" name="Stop"/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<Default action="LClick"/>
+		<StringTemplate name="js_define">
+var obj = {behaviour:'$%behaviour$',action:'$%action$',type:'object',objname:'$%objname2$'};
+winnavp_behaviours.Assign(obj);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="behaviour_assign_condition" rgbcolor="#66c5c5" Duration="20" IconID="82">
+		<Properties hidden="true"/>
+		<ParamSet name="behaviour_assign_condition">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="behaviour">
+				<Properties macro_name="*" attr_name="behave_name" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<Default func="function() { return false; }"/>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertBehaviour({condition:'$%condition$', behaviour:'$%behaviour$'});
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="cond_assign_global" rgbcolor="#66c5c5" Duration="20" IconID="79">
+		<Properties hidden="true"/>
+		<ParamSet name="cond_assign_global">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="action" helptext="">
+				<EnumValue value="1" name="LClick"/>
+				<EnumValue value="2" name="RClick"/>
+				<EnumValue value="3" name="LDblClick"/>
+				<EnumValue value="4" name="RDblClick"/>
+				<EnumValue value="5" name="Drag"/>
+				<EnumValue value="6" name="Drop"/>
+				<EnumValue value="7" name="Dragging"/>
+				<EnumValue value="8" name="Focus"/>
+				<EnumValue value="9" name="FocusLost"/>
+				<EnumValue value="10" name="PageLoad"/>
+				<EnumValue value="11" name="PageUnload"/>
+				<EnumValue value="12" name="KeyPress"/>
+				<EnumValue value="13" name="Start"/>
+				<EnumValue value="14" name="Stop"/>
+			</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="stop_on_false"/>
+			<ParamInfo type="BOOL_0_1" name="stop_on_true"/>
+		</ParamSet>
+		<Default action="LClick" stop_on_false="0" stop_on_true="0"/>
+		<StringTemplate name="js_define">
+var obj = {condition:'$%condition$',action:'$%action$',type:'global',stop_on_false:$%stop_on_false$,stop_on_true:$%stop_on_true$};
+winnavp_conditionadmin.AssignCondition(obj);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="cond_assign_ns" rgbcolor="#66c5c5" Duration="20" IconID="80">
+		<Properties hidden="true"/>
+		<ParamSet name="cond_assign_ns">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="action" helptext="">
+				<EnumValue value="1" name="LClick"/>
+				<EnumValue value="2" name="RClick"/>
+				<EnumValue value="3" name="LDblClick"/>
+				<EnumValue value="4" name="RDblClick"/>
+				<EnumValue value="5" name="Focus"/>
+				<EnumValue value="6" name="FocusLost"/>
+				<EnumValue value="7" name="PageLoad"/>
+				<EnumValue value="8" name="PageUnload"/>
+				<EnumValue value="9" name="KeyPress"/>
+				<EnumValue value="10" name="Start"/>
+				<EnumValue value="11" name="Stop"/>
+			</ParamInfo>
+			<ParamInfo type="TOURSTOP_CAPTION" name="ts"/>
+			<ParamInfo type="BOOL_0_1" name="stop_on_false"/>
+			<ParamInfo type="BOOL_0_1" name="stop_on_true"/>
+		</ParamSet>
+		<Default action="LClick" stop_on_false="0" stop_on_true="0"/>
+		<StringTemplate name="js_define">
+var obj = {condition:'$%condition$',action:'$%action$',type:'ts',ns:'$%ts$',stop_on_false:$%stop_on_false$,stop_on_true:$%stop_on_true$};
+winnavp_conditionadmin.AssignCondition(obj);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="cond_assign_object" rgbcolor="#66c5c5" Duration="20" IconID="81">
+		<Properties hidden="true"/>
+		<ParamSet name="cond_assign_object">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="action" helptext="">
+				<EnumValue value="1" name="LClick"/>
+				<EnumValue value="2" name="RClick"/>
+				<EnumValue value="3" name="LDblClick"/>
+				<EnumValue value="4" name="RDblClick"/>
+				<EnumValue value="5" name="Focus"/>
+				<EnumValue value="6" name="FocusLost"/>
+				<EnumValue value="7" name="PageLoad"/>
+				<EnumValue value="8" name="PageUnload"/>
+				<EnumValue value="9" name="KeyPress"/>
+				<EnumValue value="10" name="Start"/>
+				<EnumValue value="11" name="Stop"/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="stop_on_false"/>
+			<ParamInfo type="BOOL_0_1" name="stop_on_true"/>
+		</ParamSet>
+		<Default action="LClick" stop_on_false="0" stop_on_true="0"/>
+		<StringTemplate name="js_define">
+var obj = {condition:'$%condition$',action:'$%action$',type:'object',objname:'$%objname2$',stop_on_false:$%stop_on_false$,stop_on_true:$%stop_on_true$};
+winnavp_conditionadmin.AssignCondition(obj);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="free_object" rgbcolor="#bb769a" Duration="80" IconID="63">		<!--MacroTemplate free_object-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<ParamSet name="free_object">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="objname"/>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1"/>
+			<ParamInfo type="POSITION" name="position" NoExport="1"/>
+			<ParamGroup name="position">
+				<ParamInfo type="BOOL_0_1" name="window_relative"/>
+				<ParamInfo type="POSSIZE" name="min_rect" NoExport="1"/>
+			</ParamGroup>
+			<ParamGroup name="bubble">
+				<ParamInfo type="SHELF" name="bubblestyle_d">
+					<Properties shelf="bubblestyles" specified=""/>
+				</ParamInfo>
+				<ParamInfo type="INTEGER" name="b_width"/>
+				<ParamInfo type="INTEGER" name="b_height"/>
+				<ParamInfo type="ORIENTATION_BUBBLE" name="orientation"/>
+				<ParamInfo type="POSITION" name="bubble_offset" NoExport="1"/>
+				<ParamInfo type="BOOL_0_1" name="b_minimized"/>
+				<ParamInfo type="BOOL_0_1" name="no_spike"/>
+				<ParamInfo type="BOOL_0_1" name="b_minimizable"/>
+				<ParamInfo type="BOOL_0_1" name="b_movable"/>
+			</ParamGroup>
+		</ParamSet>
+		<Default bubblestyle_d="_default" b_width="180" b_height="40" b_minimizable="1" b_movable="1" explanation_d="" orientation="C" b_minimized="0" window_relative="0" no_spike="0">
+			<bubble_offset x="0" y="0"/>
+			<min_rect x="0" y="0" cx="400" cy="400"/>
+			<position x="100" y="100"/>
+		</Default>
+		<StringTemplate name="js_define">
+ctx_freeobj=new winnavp_FreeObject();ctx_freeobj.objectname='$%objname$';ctx_freeobj.position={x:$%position.x$,y:$%position.y$};ctx_freeobj.explanation='$%explanation_d$';ctx_freeobj.window_relative=$%window_relative$;ctx_freeobj.min_rect=CreateRect($%min_rect.x$,$%min_rect.y$,$%min_rect.x$+$%min_rect.cx$,$%min_rect.y$+$%min_rect.cy$);
+ctx_bubble=new winnavp_Bubble();ctx_bubble.b_class='$%bubblestyle_d$';ctx_bubble.b_width=$%b_width$;ctx_bubble.b_height=$%b_height$;ctx_bubble.orientation='$%orientation$';ctx_bubble.offset_x=$%bubble_offset.x$;ctx_bubble.offset_y=$%bubble_offset.y$;ctx_bubble.minimized=$%b_minimized$;ctx_bubble.no_spike=$%no_spike$;ctx_bubble.minimizable=$%b_minimizable$;ctx_bubble.movable=$%b_movable$;ctx_freeobj.bubble=ctx_bubble;
+winnavp_player.FreeObjects.Insert(ctx_freeobj);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="free_object_elem" rgbcolor="#bb769a" Duration="80" IconID="64">		<!--MacroTemplate free_object_elem-->
+
+		<Properties hidden="true"/>
+		<Translatable explanation_d="true"/>
+		<ParamSet name="free_object_elem">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="objname">
+
+</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="free_object">
+				<Properties macro_name="free_object" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="HTML" name="explanation_d" NoExport="1">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+		</ParamSet>
+		<Default explanation_d="" enabled="1"/>
+		<StringTemplate name="js_define">
+ctx_freeobjelem=new winnavp_FreeObjectElement();ctx_freeobjelem.objectname='$%objname$';ctx_freeobjelem.free_objectname='$%free_object$';
+ctx_freeobjelem.explanation='$%explanation_d$';ctx_freeobjelem.enabled=$%enabled$;ctx_freeobj=null;ctx_freeobj=winnavp_player.FreeObjects.Find(ctx_freeobjelem.free_objectname);
+if (ctx_freeobj != null) ctx_freeobj.InsertElem(ctx_freeobjelem);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="var_string" rgbcolor="#66c5c5" Duration="20" IconID="74">
+		<Properties hidden="true"/>
+		<ParamSet name="var_string">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="var_name"/>
+			<ParamInfo type="TEXT" name="value"/>
+		</ParamSet>
+		<StringTemplate name="js_define">
+winnavp_global.Variables.Insert('$%var_name$', '$%value$');
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="var_number" rgbcolor="#66c5c5" Duration="20" IconID="75">
+		<Properties hidden="true"/>
+		<ParamSet name="var_number">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="var_name"/>
+			<ParamInfo type="INTEGER" name="value"/>
+		</ParamSet>
+		<Default value="0"/>
+		<StringTemplate name="js_define">
+winnavp_global.Variables.Insert('$%var_name$', $%value$);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="var_bool" rgbcolor="#66c5c5" Duration="20" IconID="76">
+		<Properties hidden="true"/>
+		<ParamSet name="var_bool">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="var_name"/>
+			<ParamInfo type="ENUM" name="value" helptext="">
+				<EnumValue value="1" name="true"/>
+				<EnumValue value="2" name="false"/>
+			</ParamInfo>
+		</ParamSet>
+		<Default value="false"/>
+		<StringTemplate name="js_define">
+winnavp_global.Variables.Insert('$%var_name$', $%value$);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="condition" rgbcolor="#66c5c5" Duration="20" IconID="77">
+		<Properties hidden="true"/>
+		<ParamSet name="condition">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="name"/>
+			<ParamInfo type="TEXT" name="logic"/>
+		</ParamSet>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertCondition({name:'$%name$', logic:'$%logic$'});
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="check" rgbcolor="#66c5c5" Duration="20" IconID="78">
+		<Properties hidden="true"/>
+		<ParamSet name="check">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="name"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="TEXT_SHORT" name="script"/>
+		</ParamSet>
+		<Default script="return false;"/>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertCheck({name:'$%name$', condition:'$%condition$', check: '$%script$'});
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_cancel" rgbcolor="#66c5c5" Duration="20" IconID="59">		<!--MacroTemplate beh_cancel-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="beh_cancel">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="behave_name">
+
+</ParamInfo>
+			<ParamInfo type="TEXT_SHORT" name="script">
+
+</ParamInfo>
+		</ParamSet>
+		<Default script="return false;"/>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';ctx_behave.script='$%script$';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_display_fo" rgbcolor="#66c5c5" Duration="20" IconID="67">		<!--MacroTemplate beh_display_fo-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="beh_display_fo">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="behave_name">
+
+</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="free_object">
+				<Properties macro_name="free_object" attr_name="objname" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';ctx_behave.script='var frobj = winnavp_player.FreeObjects.Find("$%free_object$");frobj.Show();';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_hide_fo" rgbcolor="#66c5c5" Duration="20" IconID="68">		<!--MacroTemplate beh_hide_fo-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="beh_hide_fo">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="behave_name">
+
+</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="free_object">
+				<Properties macro_name="free_object" attr_name="objname" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';ctx_behave.script='var frobj = winnavp_player.FreeObjects.Find("$%free_object$");frobj.Hide();';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_foe_bold" rgbcolor="#66c5c5" Duration="20" IconID="69">		<!--MacroTemplate beh_foe_bold-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="beh_foe_bold">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="behave_name">
+
+</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="free_object">
+				<Properties macro_name="free_object" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="free_object_elem">
+				<Properties macro_name="free_object_elem" attr_name="objname" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';ctx_behave.script='var frobj = winnavp_player.FreeObjects.Find("$%free_object$");var ns = frobj.FindElem("$%free_object_elem$");frobj.Reset();if (ns != null) ns.Bold = true;frobj.UpdateText();';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_foe_change_state" rgbcolor="#66c5c5" Duration="20" IconID="70">		<!--MacroTemplate beh_foe_change_state-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="beh_foe_change_state">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="behave_name">
+
+</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="free_object">
+				<Properties macro_name="free_object" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="free_object_elem">
+				<Properties macro_name="free_object_elem" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="enabled">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="exclusive">
+
+</ParamInfo>
+		</ParamSet>
+		<Default explanation_d="" enabled="0" exclusive="0"/>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';ctx_behave.script='var frobj = winnavp_player.FreeObjects.Find("$%free_object$");if (!$%exclusive$) {var ns = frobj.FindElem("$%free_object_elem$");if (ns != null) ns.enabled = $%enabled$;} else {frobj.EnableElemExcl("$%free_object_elem$", $%enabled$);} frobj.UpdateText();';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_hilight" rgbcolor="#66c5c5" Duration="20" IconID="71">		<!--MacroTemplate beh_hilight-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="beh_hilight">
+			<ParamInfo type="COMMENT" name="macro_comment">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="behave_name">
+
+</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="g_highlight_effect">
+				<EnumValue value="1" name="frame"/>
+				<EnumValue value="2" name="underline"/>
+			</ParamInfo>
+			<ParamInfo type="INTEGER" name="g_highlight_border">
+
+</ParamInfo>
+			<ParamInfo type="TEXT" name="g_highlight_bgr">
+
+</ParamInfo>
+			<ParamInfo type="INTEGER" name="anim_steps">
+
+</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="auto_hide">
+
+</ParamInfo>
+		</ParamSet>
+		<Default g_highlight_effect="frame" g_highlight_border="3" g_highlight_bgr="0x27B8FE" anim_steps="0" auto_hide="0"/>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='winnavp_ShowControlExt({objname:"$%objname2$",htype:"$%g_highlight_effect$",border:$%g_highlight_border$,color:$%g_highlight_bgr$,animsteps:$%anim_steps$,autohide:$%auto_hide$});';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_hide_hilight" rgbcolor="#66c5c5" Duration="20" IconID="72">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_hide_hilight">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='winnavp_HideControl("$%objname2$");';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_show_bubble" rgbcolor="#66c5c5" Duration="20" IconID="72">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_show_bubble">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='winnavp_ShowBubble("$%objname2$");';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_hide_bubble" rgbcolor="#66c5c5" Duration="20" IconID="72">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_hide_bubble">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='winnavp_HideBubble("$%objname2$");';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_set_value" rgbcolor="#66c5c5" Duration="20" IconID="73">		<!--MacroTemplate beh_set_value-->
+
+		<Properties hidden="true"/>
+		<ParamSet name="beh_set_value">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="TEXT" name="value"/>
+			<ParamInfo type="MACROATTR_NAME" name="src_variable">
+				<Properties macro_name="var_string" attr_name="var_name" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='if ("$%value$" != "") {winnavp_SetValue("$%objname2$", "$%value$");} else {winnavp_SetValueFromVar("$%objname2$", "$%src_variable$");}';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_get_value" rgbcolor="#66c5c5" Duration="20" IconID="73">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_get_value">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="dest_variable">
+				<Properties macro_name="var_string" attr_name="var_name" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='winnavp_GetValueInVar("$%objname2$", "$%dest_variable$");';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_jump" rgbcolor="#66c5c5" Duration="20" IconID="73">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_jump">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="TOURSTOP_CAPTION" name="ts"/>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='winnavp_Jump({ns_caption:"$%ts$"});';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_access" rgbcolor="#66c5c5" Duration="20" IconID="73">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_access">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="TEXT" name="process_id"/>
+		</ParamSet>
+		<Default process_id="-1"/>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='winnavp_RestartExt({process_id:$%process_id$});return false;';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_standby" rgbcolor="#66c5c5" Duration="20" IconID="73">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_standby">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='winnavp_Standby(true);';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_exec_mouse_action" rgbcolor="#66c5c5" Duration="20" IconID="73">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_exec_mouse_action">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='NavPlayer.SynthesizeMouseEvent();';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_set_strvar" rgbcolor="#66c5c5" Duration="20" IconID="73">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_set_strvar">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="MACROATTR_NAME" name="dest_variable">
+				<Properties macro_name="var_string" attr_name="var_name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="TEXT" name="value"/>
+			<ParamInfo type="MACROATTR_NAME" name="src_variable">
+				<Properties macro_name="var_string" attr_name="var_name" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='if ("$%value$" != "") {winnavp_global.Variables.SetValue("$%dest_variable$", "$%value$");} else {winnavp_global.Variables.Copy("$%dest_variable$", "$%src_variable$");}';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_set_boolvar" rgbcolor="#66c5c5" Duration="20" IconID="73">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_set_boolvar">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="MACROATTR_NAME" name="dest_variable">
+				<Properties macro_name="var_bool" attr_name="var_name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="value" helptext="">
+				<EnumValue value="1" name=""/>
+				<EnumValue value="1" name="true"/>
+				<EnumValue value="2" name="false"/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="src_variable">
+				<Properties macro_name="var_bool" attr_name="var_name" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='if ("$%value$" != "") {winnavp_global.Variables.SetValue("$%dest_variable$", "$%value$");} else {winnavp_global.Variables.Copy("$%dest_variable$", "$%src_variable$");}';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="beh_set_numvar" rgbcolor="#66c5c5" Duration="20" IconID="73">
+		<Properties hidden="true"/>
+		<ParamSet name="beh_set_numvar">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="behave_name"/>
+			<ParamInfo type="MACROATTR_NAME" name="dest_variable">
+				<Properties macro_name="var_number" attr_name="var_name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="INTEGER" name="value"/>
+			<ParamInfo type="MACROATTR_NAME" name="src_variable">
+				<Properties macro_name="var_number" attr_name="var_name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="BOOL_0_1" name="increment_by"/>
+		</ParamSet>
+		<Default increment_by="0"/>
+		<StringTemplate name="js_define">
+ctx_behave = new winnavp_Behaviour();ctx_behave.name='$%behave_name$';
+ctx_behave.script='if ("$%value$" != "") {var val=0; val="$%value$"-0; if ("$%increment_by$" == "" || "$%increment_by$" == "0") {winnavp_global.Variables.SetValue("$%dest_variable$", val);} else {winnavp_global.Variables.SetValue("$%dest_variable$", winnavp_global.Variables.GetValue("$%dest_variable$") + val);} } else {if ("$%increment_by$" == "" || "$%increment_by$" == "0") {winnavp_global.Variables.Copy("$%dest_variable$", "$%src_variable$");} else {winnavp_global.Variables.SetValue("$%dest_variable$", winnavp_global.Variables.GetValue("$%dest_variable$") + winnavp_global.Variables.GetValue("$%src_variable$"));}}';
+winnavp_behaviours.Insert(ctx_behave);
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="check_strval" rgbcolor="#66c5c5" Duration="20" IconID="78">
+		<Properties hidden="true"/>
+		<ParamSet name="check_strval">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="name"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="TEXT" name="value"/>
+			<ParamInfo type="MACROATTR_NAME" name="src_variable">
+				<Properties macro_name="var_string" attr_name="var_name" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertCheck({name:'$%name$', condition:'$%condition$', check: 'return "$%value$" == winnavp_global.Variables.GetValue(\"$%src_variable$\");'});
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="check_boolval" rgbcolor="#66c5c5" Duration="20" IconID="78">
+		<Properties hidden="true"/>
+		<ParamSet name="check_boolval">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="name"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="value" helptext="">
+				<EnumValue value="1" name="true"/>
+				<EnumValue value="2" name="false"/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="src_variable">
+				<Properties macro_name="var_bool" attr_name="var_name" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertCheck({name:'$%name$', condition:'$%condition$', check: 'return $%value$ == winnavp_global.Variables.GetValue(\"$%src_variable$\");'});
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="check_numval" rgbcolor="#66c5c5" Duration="20" IconID="78">
+		<Properties hidden="true"/>
+		<ParamSet name="check_numval">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="name"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="INTEGER" name="value"/>
+			<ParamInfo type="MACROATTR_NAME" name="src_variable">
+				<Properties macro_name="var_number" attr_name="var_name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="ENUM" name="oper" helptext="">
+				<EnumValue value="1" name="=="/>
+				<EnumValue value="2" name="&lt;"/>
+				<EnumValue value="2" name="&lt;="/>
+				<EnumValue value="2" name="&gt;"/>
+				<EnumValue value="2" name="&gt;="/>
+			</ParamInfo>
+		</ParamSet>
+		<Default oper="=="/>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertCheck({name:'$%name$', condition:'$%condition$', check: 'return ($%value$-0) $%oper$ winnavp_global.Variables.GetValue(\"$%src_variable$\");'});
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="check_ctrlexists" rgbcolor="#66c5c5" Duration="20" IconID="78">
+		<Properties hidden="true"/>
+		<ParamSet name="check_ctrlexists">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="name"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+		</ParamSet>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertCheck({name:'$%name$', condition:'$%condition$', check: 'return winnavp_ControlExists(\"$%objname2$\");'});
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="check_ctrlval" rgbcolor="#66c5c5" Duration="20" IconID="78">
+		<Properties hidden="true"/>
+		<ParamSet name="check_ctrlval">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="name"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="MACROATTR_NAME" name="objname2">
+				<Properties macro_name="*" attr_name="objname" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="TEXT" name="value"/>
+		</ParamSet>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertCheck({name:'$%name$', condition:'$%condition$', check: 'return "$%value$" == winnavp_GetValue(\"$%objname2$\");'});
+            </StringTemplate>
+	</MacroTemplate>
+	<MacroTemplate Name="check_keyattr" rgbcolor="#66c5c5" Duration="20" IconID="78">
+		<Properties hidden="true"/>
+		<ParamSet name="check_keyattr">
+			<ParamInfo type="COMMENT" name="macro_comment"/>
+			<ParamInfo type="TEXT" name="name"/>
+			<ParamInfo type="MACROATTR_NAME" name="condition">
+				<Properties macro_name="condition" attr_name="name" specified=""/>
+			</ParamInfo>
+			<ParamInfo type="TEXT" name="attr_name"/>
+			<ParamInfo type="TEXT" name="value"/>
+			<ParamInfo type="BOOL_0_1" name="attr_exists_only"/>
+		</ParamSet>
+		<Default attr_exists_only="0"/>
+		<StringTemplate name="js_define">
+winnavp_conditionadmin.InsertCheck({name:'$%name$', condition:'$%condition$', check: 'return ctx_key != null &amp;&amp; ctx_key[\"$%attr_name$\"] != null &amp;&amp; ("$%attr_exists_only$" == "1" || "$%value$" == ctx_key[\"$%attr_name$\"]);'});
+            </StringTemplate>
+	</MacroTemplate>
+</MacroShelf>

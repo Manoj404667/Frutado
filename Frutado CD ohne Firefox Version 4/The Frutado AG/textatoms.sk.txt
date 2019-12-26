@@ -1,0 +1,249 @@
+﻿# Base tokens	
+BULLET;	• 
+NEWLINE;	\r\n
+TOK_COMPANY	datango
+TOK_LIB	@{TOK_COMPANY} Kurz
+TOK_TOUR	@{TOK_COMPANY} Vyučovacia jednotka
+TOK_TRAINER	@{TOK_COMPANY} Tréner
+
+# Key names	
+ALTKEY	alt
+CTRLKEY	ctrl
+LEFTALTKEY	alt (vľavo)
+LEFTCTRLKEY	ctrl (vľavo)
+LEFTSHIFTKEY	shift (vľavo)
+ON	zap.
+OFF	vyp.
+RIGHTALTKEY	alt (vpravo)
+RIGHTCTRLKEY	ctrl (vpravo)
+RIGHTSHIFTKEY	shift (vpravo)
+SHIFTKEY	shift
+
+# trainer states	
+TOK_BUFFERING	Audio sa zavádza ... 
+TOK_CONNECTING	Spojiť ... 
+TOK_IDLE	
+TOK_LMS	Písať výsledok ...
+TOK_OPENING	Spojiť ... 
+TOK_OPEN	
+TOK_PAUSED	Pauza
+TOK_PLAYING	Beží
+TOK_READY	Pripravený
+TOK_USERINPUT	Vstup
+TOK_WAITING	Strana sa zavádza ... 
+
+# Display errors	
+TOK_IEPOPUP_FRAMESET_EXC	"<span style=""color: red; font-weight: bolder;"">Framesety tu nemôžu byť zobrazené.</span>"
+TOK_IEPOPUP_IFRAME_EXC	"<span style=""color: red; font-weight: bolder;"">Dokumenty s RÁMČEKMI tu nemôžu byť zobrazené.</span>"
+
+# Popupblocker errors	
+TOK_POPUPBLOCKER_EXC	Popup blokovač zabraňuje prehratiu vyučovacej jednotky.
+TOK_POPUPBLOCKER_CONFIRM	Popup blokovač zabránil otvoreniu nového okna prehliadača.@{NEWLINE}@{NEWLINE}OK: Môžete pokračovať, lebo ste vypli popup blokovač@{NEWLINE}   pre webový server.@{NEWLINE}Prerušiť: Vyučovacia jednotka sa ukončí.
+
+# Security setting errors	
+TOK_SECURITY_WINDOW_POSITION_EXC	"Bezpečnostné nastavenie Internet Explorera\n\rzabraňuje zobrazeniu @{TOK_TOUR}.\nDovoľte prosím \n""Script iniciované okná bez obmedzení  veľkosti a polohy ""!"
+
+# Standard errors	
+TOK_COULD_NOT_READ_EXC	"@1 ""@2"" nebolo možné prečítať."
+TOK_COULD_NOT_READ2_EXC	"@1 ""@2"" nebolo možné prečítať: @3"
+
+# Form texts	
+TOK_CLOSE	Zavrieť
+TOK_DIR	Adresár
+TOK_ERROR	Chyba
+TOK_EXIT	Ukončiť
+TOK_OPEN	Otvoriť
+TOK_SEARCH	Hľadať
+TOK_START	Štart
+TOK_START_TOUR	@{TOK_TOUR} štartovať
+TOK_STOP	Stop
+
+# Library	
+TOK_LIB_BTN_LESS	menej...
+TOK_LIB_BTN_MORE	viac...
+TOK_LIB_EMPTY	Prázdny prvok 
+TOK_LIB_FLAG_DESC	popis prehľadať
+TOK_LIB_FLAG_KEEP_OPEN	Štruktúru kurzu nechať otvorenú
+TOK_LIB_FLAG_NEWWIN	V novom okne
+TOK_LIB_FLAG_TITLE	Titul prehľadať
+TOK_LIB_RESET	Výsledok hľadania vymazať
+
+# Mimetypes	
+MIME_TEXT_PDF	PDF - Adobe Acrobat Format
+MIME_APP_MSWORD	Winword dokument 
+MIME_APP_EXCEL	Excel pracovný list
+MIME_APP_PPT	Powerpoint fólia
+MIME_APP_OOFF	OpenOffice dokument
+MIME_APP_OOFFWRITE	OpenOffice text
+MIME_APP_OOFFCALC	OpenOffice kalkulácia
+MIME_APP_OOFFIMPRESS	OpenOffice prezentácia
+MIME_APP_OOFFMATH	OpenOffice vzorce
+MIME_AUDIO	Zvuk
+MIME_VIDEO	Video
+MIME_TEXT_HTML	Webová stránka
+MIME_TEXT	Textový dokument
+MIME_APP_DGO	@{TOK_COMPANY} Vyučovacia jednotka
+MIME_APP_DGO_DEMO	@{TOK_COMPANY} Demo
+MIME_APP_DGO_PRACTISE	@{TOK_COMPANY} Cvičenie
+MIME_APP_DGO_TEST	@{TOK_COMPANY} Test
+MIME_APP_DGO_CONCURRENT	@{TOK_COMPANY} Vyučovacia jednotka praktický B91režim 
+MIME_UNKNOWN	@{TOK_LIB_UNKNOWN}
+
+# Tooltips	
+TIP_PLAY	"Pokračovať (F8); S ""Alt"": Nový štart"
+TIP_PAUSE	"Zastaviť (PAUZA); S ""Shift"": Zvýšiť kvalitu zvuku; S ""Alt"": ušetriť šírku pásma zvuku"
+TIP_STOP	"Ukončiť (F12); S ""Shift"": Ukázať verziu"
+TIP_NEXT	Nasledujúca kapitola (ALT nadol)
+TIP_BACK	"Predchádzajúca kapitola (ALT nahor); S ""Alt"": Ukázať kurz"
+TIP_MAXBUBBLE	Textový obláčik opäť vytvoriť
+TIP_MINBUBBLE	Textový obláčik minimalizovať
+TIP_CLOSEBUBBLE	Textový obláčik odstrániť 
+TIP_ENABLED	
+TIP_DISABLED	(teraz nie je možné)
+TIP_TASK	Stanovenie úlohy
+
+# Bracepages	
+TOK_BP_CLOSEWINDOW	Okno zavrieť
+TOK_BP_GOBACK	Naspäť
+TOK_BP_GOON	Ďalej
+TOK_BP_JSCONSOLE	Hlásenia Javascript
+TOK_BP_MODE	Režim
+TOK_BP_PARAMETER	Parameter
+TOK_BP_RESTARTPROGRAM	Program opakovať
+TOK_BP_STARTANOTHER	Spustiť iný program
+TOK_BP_VALUE	Hodnota
+
+# Exercise colors	
+EXER_COLOR_ERROR	vyznačené červenou
+EXER_COLOR_CLICK	vyznačené zelenou
+EXER_COLOR_DBLCLICK	vyznačené žltou
+EXER_COLOR_RCLICK	vyznačené tyrkysovou
+EXER_COLOR_CHANGE	podčiarknuté zelenou
+EXER_COLOR_DRAG;	marked blue
+EXER_COLOR_DROP;	marked brown
+
+# Exercises	
+EXER_AND	@{NEWLINE}a@{NEWLINE}
+EXER_FAIL0	Žiaľ nesprávne.
+EXER_FAIL1	Žiaľ nesprávne. Stiahnutie 1 bodu. Ostávajú: @1_rest-points_.
+EXER_FAIL2	Žiaľ nsprávne. @1_points-penalty_ stiahnutie bodov. Ostávajú: @2_rest-points_.
+EXER_FAIL_ASK4HELP	@{NEWLINE}@{NEWLINE}Potrebujete pomoc?
+EXER_FAILCHANGE_HELP	Zmenené pole bolo @{EXER_COLOR_ERROR}.@{NEWLINE}Všetky polia pre vstupy, ktoré smú byť zmenené, boli @{EXER_COLOR_CHANGE}.
+EXER_FAILCHANGE0_HELP	Nie sú žiadne prípustné polia pre vstupy.@{NEWLINE}Zmenené pole bolo @{EXER_COLOR_ERROR}.
+EXER_FAILCLICK_HELP	Nakliknutá časť bola @{EXER_COLOR_ERROR}.@{NEWLINE}Všetky prípustné tlačidlá boli @{EXER_COLOR_CLICK}.
+EXER_FAILCLICK0_HELP	Kliknutie nie je nikde prípustné.@{NEWLINE}Nakliknutá časť bola @{EXER_COLOR_ERROR}.
+EXER_FAILDBLCLICK_HELP	Časť, na ktorú sa dvojito kliklo, bola @{EXER_COLOR_ERROR}.@{NEWLINE}Všetky tlačidlá, prípustné pre dvojité kliknutia boli @{EXER_COLOR_DBLCLICK}.
+EXER_FAILDBLCLICK0_HELP	Dvojité kliknutie nie je nikde prípustné.@{NEWLINE}Nakliknutá časť bola @{EXER_COLOR_ERROR}.
+EXER_FAILRCLICK_HELP	Časť nakliknutá pravým klávesom myši bola @{EXER_COLOR_ERROR}.@{NEWLINE}Všetky tlačidlá, prípustné pre nakliknutie pravým klávesom myši boli @{EXER_COLOR_RCLICK}.
+EXER_FAILRCLICK0_HELP	Kliknutie pravým klávesom myši nie je nikde prípustné.@{NEWLINE}Nakliknutá časť bola @{EXER_COLOR_ERROR}.
+EXER_FAILKEY_HELP0	Stlačili ste nesprávne tlačidlo.
+EXER_FAILKEY_HELP1	"Stlačili ste ""@1_key_""."
+EXER_FAILKEY_HELP2	@{NEWLINE}Prípustné funkčné tlačidlá sú:@{NEWLINE}@1_keys_
+EXER_HINT_ADDITIONALLY_VALID	@{NEWLINE}@{NEWLINE}Rovnako prípustné sú:
+EXER_HINT_CHANGABLE_MARKED	@{NEWLINE}@{BULLET} Zmena poľa (@{EXER_COLOR_CHANGE})
+EXER_HINT_CLICK_MARKED	@{NEWLINE}@{BULLET} Kliknutie (tlačidlá sú @{EXER_COLOR_CLICK})
+EXER_HINT_DBLCLICK_MARKED	@{NEWLINE}@{BULLET} Dvojité kliknutie (@{EXER_COLOR_DBLCLICK})
+EXER_HINT_HELPCANCELS	@{NEWLINE}(Upozornenie: Týmto prepadnú všetky body)
+EXER_HINT_KEYS	"@{NEWLINE}@{BULLET} Stlačenie funkčných tlačidiel@{NEWLINE}""@1_keys_"""
+EXER_HINT_ONLY_VALID	@{NEWLINE}@{NEWLINE}Prípustné sú:
+EXER_HINT_RCLICK_MARKED	@{NEWLINE}@{BULLET} Kliknutie pravým klávesom myši (@{EXER_COLOR_RCLICK})
+EXER_HINT_WOULDGOON	@{NEWLINE}(Upozornenie: V opačnom prípade sa automaticky pokračuje)
+EXER_HINT_YOURINPUT	"Zadali ste ""@1_input_"".@{NEWLINE}"
+EXER_OR	@{NEWLINE}alebo@{NEWLINE}
+
+# StandardMacros.xml	
+MSG_OPTIONFIELD_DESELECT	"Deselektujte prosím opciu ""@1""!"
+MSG_OPTIONFIELD_SELECT	"Prosím selektujte, resp. deselektujte opciu ""@1""!"
+MSG_SCORE	"Dosiahnutrý počet bodov: ""@1""."
+MSG_SINGLE_SELECT	"Zvoľte si prosím záznam ""@1""!"
+MSG_TEXTINPUT	"Zadajte prosím ""@1"" do poľa pre vstupy ""@2""!"
+MSG_TRANSACTIONCODE	"Zadajte prosím správny transakčný kód ""@1""!"
+
+capDemoStart	Demo režim 
+msgDemoStart1	V demo režime môžete pozorovať vybavenie úlohy v aplikácii. Sledujte prosím predvádzanie, všetky kroky budú automaticky vykonané.
+msgDemoStart2	S navigačnou lištou na dolnom okraji môžete predvádzanie prerušiť alebo zastaviť. Okrem toho môžete skočiť vpred k nasledujúcemu kroku alebo nazad k predchádzajúcemu kroku.
+msgDemoStop	Demo režim bol ukončený.
+
+capConcurrentStart	Praktický režim 
+msgConcurrentStart1	V praktickom režime obdržíte návod krok za krokom na vybavenie nejakej úlohy v aplikácii. 
+msgConcurrentStart2	Po každom kroku sa predvádzanie preruší, aby ste si predvedený krok mohli v aplikácii osvojiť. 
+msgConcurrentStop	Praktický režim bol ukončený.
+
+capTestStart	Testový režim
+msgTestStart1	Im Test-Modus können Sie Ihre Kenntnisse testen, indem sie selbst eine Aufgabe mit der Anwendung lösen. Außer den einzugebenden Beispieldaten werden sie keine Arbeitsschritt-bezogenen Anweisungen erhalten. Die gesamte Aufgabe wird im Aufgabenfenster beschrieben, das sie nach Bedarf mit Hilfe der Schaltflächen in der Titelleiste vergrößern oder verkleinern können.
+msgTestStart2	Na konci testu dostanete vyhodnotenie na základe úspešne vykonaných krokov. Toto vyhodnotenie slúži iba pre Vaše osobné ohodnotenie, údaje sa neukladajú do pamäti ani sa neodosielajú.
+msgTestStart3	Bitte führen Sie Ihre Aktionen sehr sorgfältig aus, da das System alle Schreibfehler und falschen Klicks registriert und die Bewertung entsprechend reduziert. Wenn Sie sich entscheiden, für einen Schritt Hilfe anzufordern, so verlieren Sie alle für diesen Schritt vorgesehenen Punkte.
+msgTestStart4	Na konci testu sa ukáže Vaše ohodnotenie, pokúste sa prosím dosiahnuť cieľ @{res_mastery_percent}%.
+capTestOk	Test ste úspešne zložili.
+capTestFailed	Test ste nezložili.
+msgTestFailed1	Pretože ste dosiahli menej ako @{res_mastery_percent}% možných bodov, odporúčame, aby ste si ešte raz prešli obsah tohto kurzu a potom si Vaše znalosti preverte ešte raz v testovom režime
+msgTestFinished2	Tento test slúžil výlučne na Vaše osobné ohodnotenie.Výsledky sa nezaznamenávajú ani neodosielajú.
+msgTestOk1	Srdečne Vám gratulujeme, túto úlohu ste úspešne absolvovali.
+msgTestResult	Výsledok
+msgTestScore	Dosiahnutý počet bodov
+
+capPracticeStart	Cvičný režim
+msgPracticeStart1	V cvičnom režime môžete vyskúšať to, čo ste sa naučili, keď sami vyriešite úlohu v rámci aplikácie.
+msgPracticeStart2	Postupujte jednoducho podľa návodu krok za krokom.
+msgPracticeStop	Cvičný režim bol ukončený.
+
+# eof# New messages added after 6.1.0 beta 2
+EXER_HINT_DRAG_MARKED;	"@{NEWLINE}@{BULLET} Drag (Elements are @{EXER_COLOR_DRAG})"
+EXER_HINT_DROP_MARKED;	"@{NEWLINE}@{BULLET} Drop (Elements are @{EXER_COLOR_DROP})"
+TIP_HELPBUBBLE;	"Yes, show help"
+TIP_GOONBUBBLE;	"Go on to next step"
+msgTestScoreValue	@{res_collected_points} of @{res_possible_points}
+TOK_LIB_VAL_NOFILTER no filter
+TOK_CLOSE_TASK;	"Close @{TIP_TASK}"
+
+EXER_FAILCHANGE;	"You changed the wrong field!@{NEWLINE}"
+EXER_FAILCHANGE_NOMARK_HELP;	"All permitted input fields were @{EXER_COLOR_CHANGE}."
+EXER_FAILCHANGE0_NOMARK_HELP;	"No permitted input fields."
+
+EXER_FAILCLICK;	"You clicked the wrong button!@{NEWLINE}"
+EXER_FAILCLICK_NOMARK_HELP;	"All valid buttons were @{EXER_COLOR_CLICK}."
+EXER_FAILCLICK0_NOMARK_HELP;	"No valid click possible."
+
+EXER_FAILDRAG;	"You dragged a wrong area.@{NEWLINE}"
+EXER_FAILDRAG_HELP;	"The dragged area is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas which can be dragged are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DRAG}."
+EXER_FAILDRAG0_HELP;	"A drag operation is not allowed at this point.@{NEWLINE}The dragged area is @{EXER_COLOR_ERROR}."
+EXER_FAILDRAG0_NOMARK_HELP;	"No valid drag operation possible."
+
+EXER_FAILDROP;	"You dropped on a wrong area.@{NEWLINE}"
+EXER_FAILDROP_HELP;	"The area where you dropped is @{EXER_COLOR_ERROR}.@{NEWLINE}All areas where you can drop are @{EXER_COLOR_DROP}."
+EXER_FAILDROP_NODRAG_HELP;	"@{NEWLINE} (If there are no disponible drag areas, you can click on the drop elements)."
+EXER_FAILDROP_NOMARK_HELP;	"All valid areas are @{EXER_COLOR_DROP}."
+EXER_FAILDROP0_HELP;	"A drop operation is not allowed at this point.@{NEWLINE}The area where you dropped is @{EXER_COLOR_ERROR}."
+EXER_FAILDROP0_NOMARK_HELP;	"No valid drop operation posibble."
+
+EXER_FAILDBLCLICK;	"You double-clicked the wrong area!@{NEWLINE}"
+EXER_FAILDBLCLICK_NOMARK_HELP;	"All buttons valid for double-click were @{EXER_COLOR_DBLCLICK}."
+EXER_FAILDBLCLICK0_NOMARK_HELP;	"No valid doubleclick possible."
+
+EXER_FAILRCLICK;	"You right-clicked the wrong area!@{NEWLINE}"
+EXER_FAILRCLICK_NOMARK_HELP;	"All buttons valid for right-click were @{EXER_COLOR_RCLICK}."
+EXER_FAILRCLICK0_NOMARK_HELP;	"No valid right-click possible."
+
+MSG_WILLAUTOCLOSE;  "The lesson will be closed automatically in @1 sec. because of inactivity. To avoid this, please, move the mouse pointer over the window."
+
+quizScoreReached;   "Your Score: "
+quizScorePass;  "Passing Score: "
+quizScoreMax;   "Maximum Score: "
+quizItemName;   Item name
+quizSolutions;  Solutions
+quizResult; Result
+quizPoints; Points
+
+TOK_OK;	"O.K."
+
+EXER_HINT_MCLICK_MARKED;    "@{NEWLINE}@{BULLET} Middle-click (@{EXER_COLOR_MCLICK})"
+EXER_COLOR_MCLICK; marked orange
+EXER_FAILMCLICK;    "You middle-clicked a wrong area.@{NEWLINE}"
+EXER_FAILMCLICK_HELP;   The middle-clicked area is @{EXER_COLOR_ERROR}.@{NEWLINE}All buttons which are allowed to be middle-clicked are @{EXER_COLOR_MCLICK}.
+EXER_FAILMCLICK_NOMARK_HELP;    "All valid middle-click buttons are @{EXER_COLOR_MCLICK}."
+EXER_FAILMCLICK0_HELP;  Middle-clicks are not allowed at this point.@{NEWLINE}The clicked area is @{EXER_COLOR_ERROR}.
+EXER_FAILMCLICK0_NOMARK_HELP;   "Middle-click is not valid."
+
+# New messages end
+# final eof
